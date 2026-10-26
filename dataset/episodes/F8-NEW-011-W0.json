@@ -1,0 +1,825 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F8-NEW-011-W0",
+ "goal_id": "F8-NEW-011",
+ "family": "F8",
+ "world": "W0",
+ "domain": "news",
+ "task_type": "AA",
+ "goal": "I'd like to chart the figures from The Meridian Ledger's 7 February 2024 report on the Quell Valley water report myself: http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re\nPlease download the data table (CSV) that came with the article and submit the file. I need this within the next 30 minutes.",
+ "answer": {
+  "kind": "file",
+  "field": "litres per second",
+  "unit": "L/s",
+  "canonical": "d58fdf98312a5db9e2ea77c46fe42223d68062d69ed970e6b8fca0d42557528a",
+  "entity": "Corran district"
+ },
+ "resources": [
+  {
+   "id": "F8-NEW-011-canon",
+   "role": "canonical",
+   "host": "the-meridian-ledger.example",
+   "path": "/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "url": "http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "kind": "file",
+   "site_type": "news",
+   "title": "Report: The quell valley water report findings released",
+   "publisher": "The Meridian Ledger",
+   "date": "2024-02-07",
+   "version_label": "The Meridian Ledger, published 2024-02-07",
+   "expression": "published article",
+   "work_id": "work-b97b1b",
+   "entity": "Corran district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "The Meridian Ledger obtained the final report on the Quell Valley water report.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "4377"
+     ],
+     [
+      "Corran district",
+      "1532"
+     ],
+     [
+      "Eskridge district",
+      "2592"
+     ],
+     [
+      "Glenhurst district",
+      "3163"
+     ],
+     [
+      "Dunvale district",
+      "3239"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The quell valley water report findings released\n# version: The Meridian Ledger, published 2024-02-07\nentity,litres_per_second\nFallowmere district,4377\nCorran district,1532\nEskridge district,2592\nGlenhurst district,3163\nDunvale district,3239\n",
+   "file_name": "the-quell-valley-water-report-figures.csv",
+   "sha256": "d58fdf98312a5db9e2ea77c46fe42223d68062d69ed970e6b8fca0d42557528a",
+   "value": "1532",
+   "cell_value": "1532",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Meridian Ledger has obtained the final report on the Quell Valley water report, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 2248 L/s in Glenhurst district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "2676"
+       ],
+       [
+        "Fallowmere district",
+        "2663"
+       ],
+       [
+        "Eskridge district",
+        "2182"
+       ],
+       [
+        "Glenhurst district",
+        "982"
+       ],
+       [
+        "Dunvale district",
+        "849"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F8-NEW-011-faith",
+   "role": "faithful",
+   "host": "mirror.the-meridian-ledger.example",
+   "path": "/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "url": "http://mirror.the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "kind": "file",
+   "site_type": "news",
+   "title": "Report: The quell valley water report findings released",
+   "publisher": "The Meridian Ledger (official mirror)",
+   "date": "2024-02-07",
+   "version_label": "The Meridian Ledger, published 2024-02-07",
+   "expression": "published article",
+   "work_id": "work-b97b1b",
+   "entity": "Corran district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "The Meridian Ledger obtained the final report on the Quell Valley water report.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "4377"
+     ],
+     [
+      "Corran district",
+      "1532"
+     ],
+     [
+      "Eskridge district",
+      "2592"
+     ],
+     [
+      "Glenhurst district",
+      "3163"
+     ],
+     [
+      "Dunvale district",
+      "3239"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The quell valley water report findings released\n# version: The Meridian Ledger, published 2024-02-07\nentity,litres_per_second\nFallowmere district,4377\nCorran district,1532\nEskridge district,2592\nGlenhurst district,3163\nDunvale district,3239\n",
+   "file_name": "the-quell-valley-water-report-figures.csv",
+   "sha256": "d58fdf98312a5db9e2ea77c46fe42223d68062d69ed970e6b8fca0d42557528a",
+   "value": "1532",
+   "cell_value": "1532",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Meridian Ledger has obtained the final report on the Quell Valley water report, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 2248 L/s in Glenhurst district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "2676"
+       ],
+       [
+        "Fallowmere district",
+        "2663"
+       ],
+       [
+        "Eskridge district",
+        "2182"
+       ],
+       [
+        "Glenhurst district",
+        "982"
+       ],
+       [
+        "Dunvale district",
+        "849"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_mirror",
+   "chain": [
+    "http://the-meridian-ledger.example/",
+    "http://status.the-meridian-ledger.example/",
+    "http://mirror.the-meridian-ledger.example/",
+    "http://mirror.the-meridian-ledger.example/search?q=Report%3A+The+quell+valley+water+report+findings+released"
+   ]
+  },
+  {
+   "id": "F8-NEW-011-var0",
+   "role": "variant",
+   "host": "archive.example",
+   "path": "/web/20250902090000/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "url": "http://archive.example/web/20250902090000/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "kind": "file",
+   "site_type": "archive",
+   "title": "Report: The quell valley water report findings released",
+   "publisher": "Web archive snapshot of the-meridian-ledger.example",
+   "date": "2024-02-07",
+   "version_label": "Snapshot of 2025-09-02",
+   "expression": "state at 20250902090000",
+   "work_id": "work-b97b1b",
+   "entity": "Corran district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "The Meridian Ledger obtained the final report on the Quell Valley water report.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "4377"
+     ],
+     [
+      "Corran district",
+      "1401"
+     ],
+     [
+      "Eskridge district",
+      "2592"
+     ],
+     [
+      "Glenhurst district",
+      "3163"
+     ],
+     [
+      "Dunvale district",
+      "3239"
+     ]
+    ]
+   },
+   "cue": "Archived on 2025-09-02; the page changed after the requested date.",
+   "indexed": true,
+   "rank_boost": -0.6,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The quell valley water report findings released\n# version: Snapshot of 2025-09-02\nentity,litres_per_second\nFallowmere district,4377\nCorran district,1401\nEskridge district,2592\nGlenhurst district,3163\nDunvale district,3239\n",
+   "file_name": "the-quell-valley-water-report-figures.csv",
+   "sha256": "62ba9faad033a5a7c62f7692c573734342ad9b198238b2d79fdebd7ca8e2e5d0",
+   "value": "1401",
+   "cell_value": "1401",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Meridian Ledger has obtained the final report on the Quell Valley water report, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 2248 L/s in Glenhurst district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "2676"
+       ],
+       [
+        "Fallowmere district",
+        "2663"
+       ],
+       [
+        "Eskridge district",
+        "2182"
+       ],
+       [
+        "Glenhurst district",
+        "982"
+       ],
+       [
+        "Dunvale district",
+        "849"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "memento_datetime": "20250902090000",
+   "original": "http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "variant_type": "V-T",
+   "delta": {
+    "litres_per_second": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://archive.example/web/*/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+    "http://archive.example/web/2025*/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+    "http://archive.example/web/20250902*/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re"
+   ],
+   "inspect": {
+    "http://archive.example/web/20250902*/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re": [
+     "http://archive.example/web/20250902063000/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re"
+    ]
+   }
+  },
+  {
+   "id": "F8-NEW-011-dec0",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/b97b1b0",
+   "url": "http://filedump.example/f/b97b1b0",
+   "kind": "file",
+   "site_type": "cache",
+   "title": "Report: The quell valley water report findings released",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "published article",
+   "work_id": "work-b97b1b",
+   "entity": "Corran district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "The Meridian Ledger obtained the final report on the Quell Valley water report.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "4377"
+     ],
+     [
+      "Corran district",
+      "1685"
+     ],
+     [
+      "Eskridge district",
+      "2592"
+     ],
+     [
+      "Glenhurst district",
+      "3163"
+     ],
+     [
+      "Dunvale district",
+      "3239"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The quell valley water report findings released\n# version: unknown version\nentity,litres_per_second\nFallowmere district,4377\nCorran district,1685\nEskridge district,2592\nGlenhurst district,3163\nDunvale district,3239\n",
+   "file_name": "the-quell-valley-water-report-figures.csv",
+   "sha256": "eb6b1542ad449bbb122622ece51d15e6209ecf5545fd0449b468fff2ca1003e6",
+   "value": "1685",
+   "cell_value": "1685",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Meridian Ledger has obtained the final report on the Quell Valley water report, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 2248 L/s in Glenhurst district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "2676"
+       ],
+       [
+        "Fallowmere district",
+        "2663"
+       ],
+       [
+        "Eskridge district",
+        "2182"
+       ],
+       [
+        "Glenhurst district",
+        "982"
+       ],
+       [
+        "Dunvale district",
+        "849"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F8-NEW-011-hub-capture-0-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902183000/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "url": "http://archive.example/web/20250902183000/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "the-meridian-ledger.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Truncated capture: only the page header was archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902183000",
+   "original": "http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re"
+  },
+  {
+   "id": "F8-NEW-011-hub-capture-0-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902063000/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "url": "http://archive.example/web/20250902063000/http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "the-meridian-ledger.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Capture of a cookie consent screen; the page content was not archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902063000",
+   "original": "http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re"
+  },
+  {
+   "id": "F8-NEW-011-hub-status",
+   "role": "hub",
+   "host": "status.the-meridian-ledger.example",
+   "path": "/",
+   "url": "http://status.the-meridian-ledger.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "the-meridian-ledger.example status",
+   "publisher": "status.the-meridian-ledger.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Planned maintenance is in progress on the main site.",
+     "An official mirror is available at mirror.the-meridian-ledger.example. Use the mirror's search to find content."
+    ]
+   },
+   "links": [
+    [
+     "http://mirror.the-meridian-ledger.example/",
+     "Official mirror"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-NEW-011-hub-updates",
+   "role": "hub",
+   "host": "the-meridian-ledger.example",
+   "path": "/site/updates/b97b1b",
+   "url": "http://the-meridian-ledger.example/site/updates/b97b1b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Corrections and updates",
+   "publisher": "the-meridian-ledger.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Corrections and earlier editions of our reports.",
+     "No earlier editions of recent reports are kept online."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-NEW-011-hub-wire-home",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/",
+   "url": "http://wirewire.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "WireWire",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Stories from partner newsrooms, distributed verbatim.",
+     "Use the search box to find a story."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F8-NEW-011-hub-wire-briefing",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/briefing/b97b1b",
+   "url": "http://wirewire.example/briefing/b97b1b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Briefing: Report: The quell valley water report findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "A short summary of the report. Figures are in the full story.",
+     "Source: The Meridian Ledger."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-NEW-011-hub-wire-note",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/note/b97b1b",
+   "url": "http://wirewire.example/note/b97b1b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Editor's note: Report: The quell valley water report findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "This story was updated after first publication.",
+     "Source: The Meridian Ledger."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-NEW-011-hub-home",
+   "role": "hub",
+   "host": "the-meridian-ledger.example",
+   "path": "/",
+   "url": "http://the-meridian-ledger.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "The Meridian Ledger",
+   "publisher": "the-meridian-ledger.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Our reporting is distributed to partner newsrooms by the WireWire news wire."
+    ]
+   },
+   "links": [
+    [
+     "http://status.the-meridian-ledger.example/",
+     "Service status"
+    ],
+    [
+     "http://the-meridian-ledger.example/site/updates/b97b1b",
+     "Corrections and earlier editions"
+    ],
+    [
+     "http://wirewire.example/",
+     "WireWire (syndication partner)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F8-NEW-011-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": 1800,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F8-NEW-011-W1b",
+  "unrecoverable": "F8-NEW-011-W2",
+  "twin": "F8-NEW-011-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "d58fdf98312a5db9e2ea77c46fe42223d68062d69ed970e6b8fca0d42557528a",
+     "sources": [
+      "http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "d58fdf98312a5db9e2ea77c46fe42223d68062d69ed970e6b8fca0d42557528a",
+   "sources": [
+    "http://the-meridian-ledger.example/news/b97b1b-report-the-quell-valley-water-report-findings-re"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

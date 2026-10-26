@@ -1,0 +1,541 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F5-ECO-020-W1b",
+ "goal_id": "F5-ECO-020",
+ "family": "F5",
+ "world": "W1b",
+ "domain": "ecommerce",
+ "task_type": "TX",
+ "goal": "I'd like to order a Altrion Pro50 e-reader, GTIN 8805388988313. This is the listing I saw: http://lumen-outlet.example/products/d7a167-altrion-pro50-e-reader\nAny authorized shop that sells exactly this GTIN is fine. Tell me which order you placed.",
+ "answer": {
+  "kind": "order",
+  "field": "screen resolution",
+  "unit": "ppi",
+  "canonical": "8805388988313",
+  "entity": "Altrion Pro50"
+ },
+ "resources": [
+  {
+   "id": "F5-ECO-020-canon",
+   "role": "canonical",
+   "host": "lumen-outlet.example",
+   "path": "/products/d7a167-altrion-pro50-e-reader",
+   "url": "http://lumen-outlet.example/products/d7a167-altrion-pro50-e-reader",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Altrion Pro50 e-reader",
+   "publisher": "lumen-outlet.example",
+   "date": "2025-06-01",
+   "version_label": "Altrion Pro50 listing",
+   "expression": "product listing",
+   "work_id": "work-d7a167",
+   "entity": "Altrion Pro50",
+   "field_label": "screen resolution",
+   "unit": "ppi",
+   "body": {
+    "paragraphs": [
+     "The Altrion Pro50 is a e-reader by Altrion.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "screen resolution (ppi)"
+    ],
+    "table": [
+     [
+      "Altrion Pro50",
+      "187"
+     ],
+     [
+      "weight",
+      "1508 g"
+     ],
+     [
+      "warranty",
+      "2 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "8805388988313",
+   "price": "64.37",
+   "value": "187",
+   "cell_value": "187",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Altrion Pro50 e-reader is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the screen resolution the same as on the older Altrion X40? A: No, see the comparison table; the older model is rated 87 ppi."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Altrion Pro70 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "screen resolution (ppi)"
+      ],
+      "rows": [
+       [
+        "Altrion X40",
+        "346"
+       ],
+       [
+        "Altrion Pro70",
+        "111"
+       ],
+       [
+        "Altrion Lite60",
+        "121"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F5-ECO-020-faith",
+   "role": "faithful",
+   "host": "voltmart.example",
+   "path": "/item/8805388988313",
+   "url": "http://voltmart.example/item/8805388988313",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Altrion Pro50 e-reader",
+   "publisher": "voltmart.example (authorized retailer)",
+   "date": "2025-06-01",
+   "version_label": "Altrion Pro50 listing",
+   "expression": "product listing",
+   "work_id": "work-d7a167",
+   "entity": "Altrion Pro50",
+   "field_label": "screen resolution",
+   "unit": "ppi",
+   "body": {
+    "paragraphs": [
+     "The Altrion Pro50 is a e-reader by Altrion.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "screen resolution (ppi)"
+    ],
+    "table": [
+     [
+      "Altrion Pro50",
+      "187"
+     ],
+     [
+      "weight",
+      "1508 g"
+     ],
+     [
+      "warranty",
+      "2 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "8805388988313",
+   "price": "64.37",
+   "value": "187",
+   "cell_value": "187",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Altrion Pro50 e-reader is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the screen resolution the same as on the older Altrion X40? A: No, see the comparison table; the older model is rated 87 ppi."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Altrion Pro70 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "screen resolution (ppi)"
+      ],
+      "rows": [
+       [
+        "Altrion X40",
+        "346"
+       ],
+       [
+        "Altrion Pro70",
+        "111"
+       ],
+       [
+        "Altrion Lite60",
+        "121"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "other_authorized_shop",
+   "chain": [
+    "http://altrion.example/",
+    "http://altrion.example/where-to-buy",
+    "http://voltmart.example/",
+    "http://voltmart.example/search?q=8805388988313"
+   ],
+   "inspect": {
+    "http://altrion.example/where-to-buy": [
+     "http://kitebay-store.example/",
+     "http://kitebay-store.example/search?q=8805388988313"
+    ]
+   }
+  },
+  {
+   "id": "F5-ECO-020-dec0",
+   "role": "decoy",
+   "host": "lumen-0utlet-archive.example",
+   "path": "/products/d7a167-altrion-pro50-e-reader",
+   "url": "http://lumen-0utlet-archive.example/products/d7a167-altrion-pro50-e-reader",
+   "kind": "product",
+   "site_type": "mirror",
+   "title": "Altrion Pro50 e-reader",
+   "publisher": "lumen-outlet.example (mirror)",
+   "date": "2025-06-01",
+   "version_label": "Altrion Pro50 listing",
+   "expression": "product listing",
+   "work_id": "work-d7a167",
+   "entity": "Altrion Pro50",
+   "field_label": "screen resolution",
+   "unit": "ppi",
+   "body": {
+    "paragraphs": [
+     "The Altrion Pro50 is a e-reader by Altrion.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "screen resolution (ppi)"
+    ],
+    "table": [
+     [
+      "Altrion Pro50",
+      "201"
+     ],
+     [
+      "weight",
+      "1508 g"
+     ],
+     [
+      "warranty",
+      "2 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": "Unofficial mirror; not linked from lumen-outlet.example; content may be altered.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "7506669097557",
+   "price": "64.37",
+   "value": "201",
+   "cell_value": "201",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Altrion Pro50 e-reader is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the screen resolution the same as on the older Altrion X40? A: No, see the comparison table; the older model is rated 87 ppi."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Altrion Pro70 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "screen resolution (ppi)"
+      ],
+      "rows": [
+       [
+        "Altrion X40",
+        "346"
+       ],
+       [
+        "Altrion Pro70",
+        "111"
+       ],
+       [
+        "Altrion Lite60",
+        "121"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-P"
+  },
+  {
+   "id": "F5-ECO-020-hub-brand-home",
+   "role": "hub",
+   "host": "altrion.example",
+   "path": "/",
+   "url": "http://altrion.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Altrion official site",
+   "publisher": "altrion.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Altrion designs e-readers and other products.",
+     "Current models include the Altrion Pro50."
+    ]
+   },
+   "links": [
+    [
+     "http://altrion.example/where-to-buy",
+     "Where to buy"
+    ]
+   ],
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F5-ECO-020-hub-brand-wtb",
+   "role": "hub",
+   "host": "altrion.example",
+   "path": "/where-to-buy",
+   "url": "http://altrion.example/where-to-buy",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Where to buy Altrion products",
+   "publisher": "altrion.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Authorized retailers. Stock varies; search the retailer's site for the GTIN of your model."
+    ]
+   },
+   "links": [
+    [
+     "http://kitebay-store.example/",
+     "kitebay-store.example"
+    ],
+    [
+     "http://voltmart.example/",
+     "voltmart.example"
+    ],
+    [
+     "http://parcelpoint.example/",
+     "parcelpoint.example"
+    ],
+    [
+     "http://lumen-outlet.example/",
+     "lumen-outlet.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "verification_gate",
+  "signal": "explicit",
+  "targets": [
+   "F5-ECO-020-canon"
+  ],
+  "params": {
+   "user_completes": false
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F5-ECO-020-W1b",
+  "unrecoverable": "F5-ECO-020-W2",
+  "twin": "F5-ECO-020-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://lumen-outlet.example/products/d7a167-altrion-pro50-e-reader"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://altrion.example/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://altrion.example/where-to-buy"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://kitebay-store.example/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://kitebay-store.example/search?q=8805388988313"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://voltmart.example/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://voltmart.example/search?q=8805388988313"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://voltmart.example/item/8805388988313"
+   },
+   {
+    "tool": "http",
+    "method": "POST",
+    "url": "http://voltmart.example/checkout",
+    "data": {
+     "gtin": "8805388988313",
+     "quantity": "1"
+    }
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "8805388988313",
+     "sources": [
+      "http://voltmart.example/item/8805388988313"
+     ],
+     "substitutions": [
+      {
+       "url": "http://voltmart.example/item/8805388988313",
+       "relation": "same_version",
+       "version_id": "Altrion Pro50 listing",
+       "note": "Identical copy of the requested version."
+      }
+     ],
+     "diagnosis": "verification",
+     "confidence": 0.9
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "8805388988313",
+   "sources": [
+    "http://voltmart.example/item/8805388988313"
+   ],
+   "substitutions": [
+    {
+     "url": "http://voltmart.example/item/8805388988313",
+     "relation": "same_version",
+     "version_id": "Altrion Pro50 listing",
+     "note": "Identical copy of the requested version."
+    }
+   ],
+   "diagnosis": "verification",
+   "confidence": 0.9
+  }
+ }
+}

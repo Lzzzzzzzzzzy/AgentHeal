@@ -1,0 +1,73 @@
+{
+ "version": "agentheal-v0.3",
+ "seed": 0,
+ "n_goals": 225,
+ "n_episodes": 675,
+ "n_barrier_instances": 450,
+ "n_twins": 225,
+ "worlds": {
+  "W0": 225,
+  "W1a": 75,
+  "W1b": 75,
+  "W1v": 75,
+  "W2": 113,
+  "W3": 112
+ },
+ "families": {
+  "F1": 50,
+  "F2": 50,
+  "F3": 50,
+  "F4": 50,
+  "F5": 50,
+  "F6": 50,
+  "F7": 50,
+  "F8": 50,
+  "F9": 50
+ },
+ "task_types": {
+  "AA": 108,
+  "IR": 270,
+  "TX": 72
+ },
+ "domains": {
+  "academic": 114,
+  "docs": 66,
+  "ecommerce": 72,
+  "encyclopedia": 32,
+  "news": 72,
+  "opendata": 94
+ },
+ "rules": {
+  "api_410": 12,
+  "bot_403": 6,
+  "content_withdrawn": 10,
+  "dead_download": 38,
+  "geo_block": 20,
+  "hard_paywall": 12,
+  "http_404": 6,
+  "http_410": 6,
+  "http_451": 30,
+  "login_required": 14,
+  "maint_503": 26,
+  "members_only": 36,
+  "metered_paywall": 12,
+  "nxdomain": 4,
+  "overlay_paywall": 12,
+  "pay_402": 16,
+  "rate_429": 24,
+  "redirect_home": 6,
+  "robots_disallow": 28,
+  "soft_404": 18,
+  "teaser_paywall": 14,
+  "verification_gate": 50,
+  "version_dead": 30,
+  "version_silent": 20
+ },
+ "signals": {
+  "ambiguous": 112,
+  "explicit": 248,
+  "silent": 90
+ },
+ "with_honeypot": 229,
+ "corpus_docs": 600
+}

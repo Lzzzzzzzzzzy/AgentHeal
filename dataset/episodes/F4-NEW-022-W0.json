@@ -1,0 +1,635 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F4-NEW-022-W0",
+ "goal_id": "F4-NEW-022",
+ "family": "F4",
+ "world": "W0",
+ "domain": "news",
+ "task_type": "AA",
+ "goal": "I'd like to chart the figures from Ironbridge Gazette's 27 December 2024 report on the Brightwater housing survey myself: http://ironbridge-gazette.example/news/cd6e80-report-the-brightwater-housing-survey-findings-r\nPlease download the data table (CSV) that came with the article and submit the file.",
+ "answer": {
+  "kind": "file",
+  "field": "litres per second",
+  "unit": "L/s",
+  "canonical": "063697e375386d88c3cb6222863dad9fe9bcbf63768385444c12c05a41a71280",
+  "entity": "Eskridge district"
+ },
+ "resources": [
+  {
+   "id": "F4-NEW-022-canon",
+   "role": "canonical",
+   "host": "ironbridge-gazette.example",
+   "path": "/news/cd6e80-report-the-brightwater-housing-survey-findings-r",
+   "url": "http://ironbridge-gazette.example/news/cd6e80-report-the-brightwater-housing-survey-findings-r",
+   "kind": "file",
+   "site_type": "news",
+   "title": "Report: The brightwater housing survey findings released",
+   "publisher": "Ironbridge Gazette",
+   "date": "2024-12-27",
+   "version_label": "Ironbridge Gazette, published 2024-12-27",
+   "expression": "published article",
+   "work_id": "work-cd6e80",
+   "entity": "Eskridge district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "Ironbridge Gazette obtained the final report on the Brightwater housing survey.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Glenhurst district",
+      "5692"
+     ],
+     [
+      "Eskridge district",
+      "2625"
+     ],
+     [
+      "Ardmore district",
+      "1404"
+     ],
+     [
+      "Fallowmere district",
+      "1622"
+     ],
+     [
+      "Corran district",
+      "4412"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The brightwater housing survey findings released\n# version: Ironbridge Gazette, published 2024-12-27\nentity,litres_per_second\nGlenhurst district,5692\nEskridge district,2625\nArdmore district,1404\nFallowmere district,1622\nCorran district,4412\n",
+   "file_name": "the-brightwater-housing-survey-figures.csv",
+   "sha256": "063697e375386d88c3cb6222863dad9fe9bcbf63768385444c12c05a41a71280",
+   "value": "2625",
+   "cell_value": "2625",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Ironbridge Gazette has obtained the final report on the Brightwater housing survey, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 1634 L/s in Corran district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Eskridge district",
+        "1604"
+       ],
+       [
+        "Glenhurst district",
+        "1353"
+       ],
+       [
+        "Ardmore district",
+        "3548"
+       ],
+       [
+        "Fallowmere district",
+        "1356"
+       ],
+       [
+        "Corran district",
+        "1593"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F4-NEW-022-var0",
+   "role": "variant",
+   "host": "ironbridge-gazette.example",
+   "path": "/news/cd6e80-report-the-brightwater-housing-survey-findings-r/prev0",
+   "url": "http://ironbridge-gazette.example/news/cd6e80-report-the-brightwater-housing-survey-findings-r/prev0",
+   "kind": "file",
+   "site_type": "news",
+   "title": "Report: The brightwater housing survey findings released",
+   "publisher": "Ironbridge Gazette",
+   "date": "2024-12-27",
+   "version_label": "Report: The brightwater housing survey findings released, first edition of the report",
+   "expression": "first edition of the report",
+   "work_id": "work-cd6e80",
+   "entity": "Eskridge district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "Ironbridge Gazette obtained the final report on the Brightwater housing survey.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Glenhurst district",
+      "5692"
+     ],
+     [
+      "Eskridge district",
+      "2530"
+     ],
+     [
+      "Ardmore district",
+      "1404"
+     ],
+     [
+      "Fallowmere district",
+      "1622"
+     ],
+     [
+      "Corran district",
+      "4412"
+     ]
+    ]
+   },
+   "cue": "This is the first edition of the report; it was superseded by Ironbridge Gazette, published 2024-12-27.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The brightwater housing survey findings released\n# version: Report: The brightwater housing survey findings released, first edition of the report\nentity,litres_per_second\nGlenhurst district,5692\nEskridge district,2530\nArdmore district,1404\nFallowmere district,1622\nCorran district,4412\n",
+   "file_name": "the-brightwater-housing-survey-figures.csv",
+   "sha256": "7d638fdb99f36b80e8461af0c8de04faaf646c5ef7090a95e100a4f97a0208cb",
+   "value": "2530",
+   "cell_value": "2530",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Ironbridge Gazette has obtained the final report on the Brightwater housing survey, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 1634 L/s in Corran district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Eskridge district",
+        "1604"
+       ],
+       [
+        "Glenhurst district",
+        "1353"
+       ],
+       [
+        "Ardmore district",
+        "3548"
+       ],
+       [
+        "Fallowmere district",
+        "1356"
+       ],
+       [
+        "Corran district",
+        "1593"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-R",
+   "delta": {
+    "litres_per_second": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://ironbridge-gazette.example/",
+    "http://ironbridge-gazette.example/site/updates/cd6e80",
+    "http://ironbridge-gazette.example/site/updates/cd6e80/0"
+   ],
+   "site_search": false
+  },
+  {
+   "id": "F4-NEW-022-dec0",
+   "role": "decoy",
+   "host": "ir0nbridge-gazette-archive.example",
+   "path": "/news/cd6e80-report-the-brightwater-housing-survey-findings-r",
+   "url": "http://ir0nbridge-gazette-archive.example/news/cd6e80-report-the-brightwater-housing-survey-findings-r",
+   "kind": "file",
+   "site_type": "mirror",
+   "title": "Report: The brightwater housing survey findings released",
+   "publisher": "Ironbridge Gazette (mirror)",
+   "date": "2024-12-27",
+   "version_label": "Ironbridge Gazette, published 2024-12-27",
+   "expression": "published article",
+   "work_id": "work-cd6e80",
+   "entity": "Eskridge district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "Ironbridge Gazette obtained the final report on the Brightwater housing survey.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Glenhurst district",
+      "5692"
+     ],
+     [
+      "Eskridge district",
+      "2970"
+     ],
+     [
+      "Ardmore district",
+      "1404"
+     ],
+     [
+      "Fallowmere district",
+      "1622"
+     ],
+     [
+      "Corran district",
+      "4412"
+     ]
+    ]
+   },
+   "cue": "Unofficial mirror; not linked from ironbridge-gazette.example; content may be altered.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The brightwater housing survey findings released\n# version: Ironbridge Gazette, published 2024-12-27\nentity,litres_per_second\nGlenhurst district,5692\nEskridge district,2970\nArdmore district,1404\nFallowmere district,1622\nCorran district,4412\n",
+   "file_name": "the-brightwater-housing-survey-figures.csv",
+   "sha256": "52bdd69e0698ee6b0c96bc571c839141226893dc1d4ec089844f14d54c1785b6",
+   "value": "2970",
+   "cell_value": "2970",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Ironbridge Gazette has obtained the final report on the Brightwater housing survey, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 1634 L/s in Corran district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Eskridge district",
+        "1604"
+       ],
+       [
+        "Glenhurst district",
+        "1353"
+       ],
+       [
+        "Ardmore district",
+        "3548"
+       ],
+       [
+        "Fallowmere district",
+        "1356"
+       ],
+       [
+        "Corran district",
+        "1593"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-P"
+  },
+  {
+   "id": "F4-NEW-022-hub-notice0",
+   "role": "hub",
+   "host": "ironbridge-gazette.example",
+   "path": "/site/updates/cd6e80/0",
+   "url": "http://ironbridge-gazette.example/site/updates/cd6e80/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Update: Report: The brightwater housing survey findings released",
+   "publisher": "ironbridge-gazette.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "This report was updated after publication; figures were revised.",
+     "The first edition of the report remains available for reference."
+    ]
+   },
+   "links": [
+    [
+     "http://ironbridge-gazette.example/news/cd6e80-report-the-brightwater-housing-survey-findings-r/prev0",
+     "first edition of the report"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F4-NEW-022-hub-updates",
+   "role": "hub",
+   "host": "ironbridge-gazette.example",
+   "path": "/site/updates/cd6e80",
+   "url": "http://ironbridge-gazette.example/site/updates/cd6e80",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Corrections and updates",
+   "publisher": "ironbridge-gazette.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Corrections and earlier editions of our reports."
+    ]
+   },
+   "links": [
+    [
+     "http://ironbridge-gazette.example/site/updates/cd6e80/0",
+     "Update notice: Report: The brightwater housing survey findings released"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F4-NEW-022-hub-wire-home",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/",
+   "url": "http://wirewire.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "WireWire",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Stories from partner newsrooms, distributed verbatim.",
+     "Use the search box to find a story."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F4-NEW-022-hub-wire-note",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/note/cd6e80",
+   "url": "http://wirewire.example/note/cd6e80",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Editor's note: Report: The brightwater housing survey findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "This story was updated after first publication.",
+     "Source: Ironbridge Gazette."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F4-NEW-022-hub-wire-briefing",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/briefing/cd6e80",
+   "url": "http://wirewire.example/briefing/cd6e80",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Briefing: Report: The brightwater housing survey findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "A short summary of the report. Figures are in the full story.",
+     "Source: Ironbridge Gazette."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F4-NEW-022-hub-home",
+   "role": "hub",
+   "host": "ironbridge-gazette.example",
+   "path": "/",
+   "url": "http://ironbridge-gazette.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Ironbridge Gazette",
+   "publisher": "ironbridge-gazette.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Our reporting is distributed to partner newsrooms by the WireWire news wire."
+    ]
+   },
+   "links": [
+    [
+     "http://ironbridge-gazette.example/site/updates/cd6e80",
+     "Corrections and earlier editions"
+    ],
+    [
+     "http://wirewire.example/",
+     "WireWire (syndication partner)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F4-NEW-022-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F4-NEW-022-W1v",
+  "unrecoverable": "F4-NEW-022-W3",
+  "twin": "F4-NEW-022-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://ironbridge-gazette.example/news/cd6e80-report-the-brightwater-housing-survey-findings-r"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "063697e375386d88c3cb6222863dad9fe9bcbf63768385444c12c05a41a71280",
+     "sources": [
+      "http://ironbridge-gazette.example/news/cd6e80-report-the-brightwater-housing-survey-findings-r"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "063697e375386d88c3cb6222863dad9fe9bcbf63768385444c12c05a41a71280",
+   "sources": [
+    "http://ironbridge-gazette.example/news/cd6e80-report-the-brightwater-housing-survey-findings-r"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

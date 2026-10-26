@@ -1,0 +1,575 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F4-OPE-002-W0",
+ "goal_id": "F4-OPE-002",
+ "family": "F4",
+ "world": "W0",
+ "domain": "opendata",
+ "task_type": "IR",
+ "goal": "For a planning memo I need a value from the Department of Transit Planning's \"School Transport Census\" (version 2.1). Here is the dataset page: http://department-of-transit-planning.example/datasets/0947b0-school-transport-census\nWhat is the daily riders on route Glenhurst? Please give the value with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "daily riders on route",
+  "unit": "riders",
+  "canonical": "410",
+  "entity": "Glenhurst"
+ },
+ "resources": [
+  {
+   "id": "F4-OPE-002-canon",
+   "role": "canonical",
+   "host": "department-of-transit-planning.example",
+   "path": "/datasets/0947b0-school-transport-census",
+   "url": "http://department-of-transit-planning.example/datasets/0947b0-school-transport-census",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "School Transport Census",
+   "publisher": "Department of Transit Planning",
+   "date": "2025-02-01",
+   "version_label": "School Transport Census, version 2.1",
+   "expression": "version 2.1",
+   "work_id": "work-0947b0",
+   "entity": "Glenhurst",
+   "field_label": "daily riders on route",
+   "unit": "riders",
+   "body": {
+    "paragraphs": [
+     "Published by the Department of Transit Planning.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Daily riders on route by site",
+    "table_header": [
+     "",
+     "daily riders on route (riders)"
+    ],
+    "table": [
+     [
+      "Dunvale",
+      "595"
+     ],
+     [
+      "Fallowmere",
+      "823"
+     ],
+     [
+      "Hollins",
+      "242"
+     ],
+     [
+      "Glenhurst",
+      "410"
+     ],
+     [
+      "Eskridge",
+      "202"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "410",
+   "cell_value": "410",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "School Transport Census is published by the Department of Transit Planning under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Fallowmere; the previous release reported 718 riders. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Department of Transit Planning (2025). School Transport Census, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "daily riders on route (riders)"
+      ],
+      "rows": [
+       [
+        "Glenhurst",
+        "171"
+       ],
+       [
+        "Dunvale",
+        "165"
+       ],
+       [
+        "Fallowmere",
+        "245"
+       ],
+       [
+        "Hollins",
+        "691"
+       ],
+       [
+        "Eskridge",
+        "590"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F4-OPE-002-faith",
+   "role": "faithful",
+   "host": "data-commons.example",
+   "path": "/catalog/0947b0",
+   "url": "http://data-commons.example/catalog/0947b0",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "School Transport Census",
+   "publisher": "Department of Transit Planning (syndicated to Data Commons)",
+   "date": "2025-02-01",
+   "version_label": "School Transport Census, version 2.1",
+   "expression": "version 2.1",
+   "work_id": "work-0947b0",
+   "entity": "Glenhurst",
+   "field_label": "daily riders on route",
+   "unit": "riders",
+   "body": {
+    "paragraphs": [
+     "Published by the Department of Transit Planning.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Daily riders on route by site",
+    "table_header": [
+     "",
+     "daily riders on route (riders)"
+    ],
+    "table": [
+     [
+      "Dunvale",
+      "595"
+     ],
+     [
+      "Fallowmere",
+      "823"
+     ],
+     [
+      "Hollins",
+      "242"
+     ],
+     [
+      "Glenhurst",
+      "410"
+     ],
+     [
+      "Eskridge",
+      "202"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "410",
+   "cell_value": "410",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "School Transport Census is published by the Department of Transit Planning under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Fallowmere; the previous release reported 718 riders. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Department of Transit Planning (2025). School Transport Census, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "daily riders on route (riders)"
+      ],
+      "rows": [
+       [
+        "Glenhurst",
+        "171"
+       ],
+       [
+        "Dunvale",
+        "165"
+       ],
+       [
+        "Fallowmere",
+        "245"
+       ],
+       [
+        "Hollins",
+        "691"
+       ],
+       [
+        "Eskridge",
+        "590"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_syndication",
+   "chain": [
+    "http://registry.example/search?q=School+Transport+Census",
+    "http://registry.example/dataset/0947b0",
+    "http://registry.example/dataset/0947b0/resource/0"
+   ],
+   "inspect": {
+    "http://registry.example/dataset/0947b0": [
+     "http://registry.example/dataset/0947b0/resource/x0"
+    ]
+   }
+  },
+  {
+   "id": "F4-OPE-002-dec0",
+   "role": "decoy",
+   "host": "department-0f-transit-planning-archive.example",
+   "path": "/datasets/0947b0-school-transport-census",
+   "url": "http://department-0f-transit-planning-archive.example/datasets/0947b0-school-transport-census",
+   "kind": "page",
+   "site_type": "mirror",
+   "title": "School Transport Census",
+   "publisher": "Department of Transit Planning (mirror)",
+   "date": "2025-02-01",
+   "version_label": "School Transport Census, version 2.1",
+   "expression": "version 2.1",
+   "work_id": "work-0947b0",
+   "entity": "Glenhurst",
+   "field_label": "daily riders on route",
+   "unit": "riders",
+   "body": {
+    "paragraphs": [
+     "Published by the Department of Transit Planning.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Daily riders on route by site",
+    "table_header": [
+     "",
+     "daily riders on route (riders)"
+    ],
+    "table": [
+     [
+      "Dunvale",
+      "595"
+     ],
+     [
+      "Fallowmere",
+      "823"
+     ],
+     [
+      "Hollins",
+      "242"
+     ],
+     [
+      "Glenhurst",
+      "349"
+     ],
+     [
+      "Eskridge",
+      "202"
+     ]
+    ]
+   },
+   "cue": "Unofficial mirror; not linked from department-of-transit-planning.example; content may be altered.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "value": "349",
+   "cell_value": "349",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "School Transport Census is published by the Department of Transit Planning under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Fallowmere; the previous release reported 718 riders. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Department of Transit Planning (2025). School Transport Census, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "daily riders on route (riders)"
+      ],
+      "rows": [
+       [
+        "Glenhurst",
+        "171"
+       ],
+       [
+        "Dunvale",
+        "165"
+       ],
+       [
+        "Fallowmere",
+        "245"
+       ],
+       [
+        "Hollins",
+        "691"
+       ],
+       [
+        "Eskridge",
+        "590"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-P"
+  },
+  {
+   "id": "F4-OPE-002-hub-registry-dist0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/0947b0/resource/0",
+   "url": "http://registry.example/dataset/0947b0/resource/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "School Transport Census: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted by data-commons.example.",
+     "Format: HTML table; licence: open."
+    ]
+   },
+   "links": [
+    [
+     "http://data-commons.example/catalog/0947b0",
+     "Access URL"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F4-OPE-002-hub-registry-dead0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/0947b0/resource/x0",
+   "url": "http://registry.example/dataset/0947b0/resource/x0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "School Transport Census: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Data API. Access requires a data-sharing agreement."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F4-OPE-002-hub-registry-record",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/0947b0",
+   "url": "http://registry.example/dataset/0947b0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "School Transport Census (Department of Transit Planning)",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Publisher: Department of Transit Planning.",
+     "Current release: version 2.1.",
+     "Distributions are listed below with the organisation that hosts them."
+    ]
+   },
+   "links": [
+    [
+     "http://department-of-transit-planning.example/datasets/0947b0-school-transport-census",
+     "Department of Transit Planning portal (version 2.1)"
+    ],
+    [
+     "http://registry.example/dataset/0947b0/resource/x0",
+     "Distribution 1"
+    ],
+    [
+     "http://registry.example/dataset/0947b0/resource/0",
+     "Distribution 2"
+    ],
+    [
+     "http://registry.example/dataset/0947b0/releases",
+     "Release history"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F4-OPE-002-hub-registry-releases",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/0947b0/releases",
+   "url": "http://registry.example/dataset/0947b0/releases",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Release history: School Transport Census",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Releases of this dataset.",
+     "Earlier releases are available from the publisher on request."
+    ]
+   },
+   "links": [
+    [
+     "http://department-of-transit-planning.example/datasets/0947b0-school-transport-census",
+     "version 2.1 (current)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F4-OPE-002-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F4-OPE-002-W1b",
+  "unrecoverable": "F4-OPE-002-W3",
+  "twin": "F4-OPE-002-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://department-of-transit-planning.example/datasets/0947b0-school-transport-census"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "410 riders",
+     "sources": [
+      "http://department-of-transit-planning.example/datasets/0947b0-school-transport-census"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "410 riders",
+   "sources": [
+    "http://department-of-transit-planning.example/datasets/0947b0-school-transport-census"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

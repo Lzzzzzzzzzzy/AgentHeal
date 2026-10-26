@@ -1,0 +1,175 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-12",
+ "goal_id": "R-F1-12",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "We're visiting Iguazú and I want to know about the Tren Ecológico de la Selva. The national park's page is https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva\nBelow what speed (in km/h) does the train travel? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "speed",
+  "unit": "km/h",
+  "canonical": "20",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-12-canon",
+   "role": "canonical",
+   "url": "https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva",
+   "host": "iguazuargentina.com",
+   "path": "/es/atractivos/tren-ecologico-de-la-selva",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Página no encontrada - Iguazú Argentina",
+   "publisher": "iguazuargentina.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-12",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Página no encontrada - Iguazú Argentina"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "title": "Página no encontrada - Iguazú Argentina",
+    "observed_at": "2026-10-16T18:10:26Z",
+    "text": "Página no encontrada - Iguazú Argentina \n Ir al contenido \n <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M190.99 23.6017C190.99 23.6017 191 23.6017 191.009 23.6017C191.043 23.6017 191.067 23.621 191.101 23.621C191.203 23.621 191.29 23.5968 191.391 23.5727C191.44 23.5631 191.479 23.5727 191.522 23.592C191.556 23.6065 191.599 23.6306 191.628 23.6548C191.672 23.6934 191.648 23.7175 191.667 23.7609C191.682 23.7947 191.73 23.8188 191.759 23.8478C191.798 23.8864 191.832 23.9202 191.856 23.9684C191.861 23.9829 191.865 23.9974 191.87 24.0119C191.875 24.0408 191.88 24.0794 191.899 24.0987C191.909 24.1084 191.919 24.1084 191.928 24.1084C191.933 24.1084 191.948 24.1035 191.953 24.0987C191.953 24.0939 191.953 24.0891 191.953 24.0842C191.953 24.0794 191.953 24.0746 191.953 24.0649C191.953 24.0553 191.943 24.0456 191.943 24.036C191.938 24.0118 191.933 23.9925 191.933 23.9684C191.933 23.9491 191.933 23.9298 191.933 23.9153C191.933 23.9009 191.933 23.8864 191.923 23.8767C191.914 23.8671 191.904 23.8574 191.899 23.843C191.894 23.8333 191.89 23.8237 191.885 23.814C191.851 23.7657 191.836 23.703 191.793 23.6644C191.725 23.6017 191.633 23.5679 191.566 23.51C191.464 23.428 191.367 23.481 191.246 23.4617C191.198 23.4569 191.15 23.4521 191.101 23.4521C191.053 23.4521 191.043 23.4183 191 23.4183C190.98 23.4183 190.961 23.4328 190.942 23.4376C190.913 23.4376 190.879 23.428 190.855 23.4135C190.826 23.399 190.787 23.37 190.763 23.3507C190.782 23.3218 190.826 23.3363 190.86 23.3314C190.903 23.3314 1"
+   }
+  },
+  {
+   "id": "R-F1-12-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20200223034438/https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva",
+   "host": "web.archive.org",
+   "path": "/web/20200223034438/https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Iguazu Argentina",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2020-02-23",
+   "work_id": "R-F1-12",
+   "value": "20",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Tren Ecológico de la Selva",
+     "Ideal para tomar contacto directo con el medioambiente percibiendo los aromas, las variaciones climáticas y los sonidos del monte. Se desplaza a una velocidad inferior a los 20 km por hora para evitar interferir con la fauna y las formaciones son propulsadas a gas licuado de petróleo (GLP), un combustible no contaminante. Además contamos con locomotoras eléctricas, una innovación que nos permite seguir avanzando con el cuidado del medioambiente, reduciendo aún más el impacto en el mismo y liderando los procesos de mejora continua.",
+     "El Tren Ecológico de la Selva tiene su punto de partida en la Estación Central, muy próxima a toda el área de servicios."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Iguazu Argentina",
+    "memento": "20200223034438",
+    "original": "https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva",
+    "text": "Tren Ecológico de la Selva\nIdeal para tomar contacto directo con el medioambiente percibiendo los aromas, las variaciones climáticas y los sonidos del monte. Se desplaza a una velocidad inferior a los 20 km por hora para evitar interferir con la fauna y las formaciones son propulsadas a gas licuado de petróleo (GLP), un combustible no contaminante. Además contamos con locomotoras eléctricas, una innovación que nos permite seguir avanzando con el cuidado del medioambiente, reduciendo aún más el impacto en el mismo y liderando los procesos de mejora continua.\nEl Tren Ecológico de la Selva tiene su punto de partida en la Estación Central, muy próxima a toda el área de servicios."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_404",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-12-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:10:26Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "class": "http_404",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Heritage railway'",
+  "archive_url": "https://web.archive.org/web/20200223034438/https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva"
+ },
+ "oracle_query": "Iguazu Argentina",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Iguazu Argentina"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20200223034438/https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "20 km/h",
+     "sources": [
+      "https://web.archive.org/web/20200223034438/https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20200223034438/https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2020-02-23",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

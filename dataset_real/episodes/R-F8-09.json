@@ -1,0 +1,233 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-09",
+ "goal_id": "R-F8-09",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "For a talk on the history of open repositories I query the Zenodo REST API: https://zenodo.org/api/records?size=1&sort=oldest\nWhat is the title of the oldest record on Zenodo? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "A Mediterranean Low-Glycemic-Load Diet alone or in Combination with a Medical Food Improves Insulin Sensitivity and Reduces Inflammation in Women with Metabolic Syndrome",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-09-canon",
+   "role": "canonical",
+   "url": "https://zenodo.org/api/records?size=1&sort=oldest",
+   "host": "zenodo.org",
+   "path": "/api/records?size=1&sort=oldest",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "zenodo.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-09",
+   "value": "A Mediterranean Low-Glycemic-Load Diet alone or in Combination with a Medical Food Improves Insulin Sensitivity and Reduces Inflammation in Women with Metabolic Syndrome",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"hits\": {",
+     "  \"hits\": [",
+     "   {",
+     "    \"created\": \"2014-02-03T14:41:33+00:00\",",
+     "    \"modified\": \"2024-08-06T14:16:57.265898+00:00\",",
+     "    \"id\": 7779,",
+     "    \"conceptrecid\": \"641796\",",
+     "    \"doi\": \"10.5281/zenodo.7779\",",
+     "    \"conceptdoi\": \"\",",
+     "    \"doi_url\": \"https://doi.org/10.5281/zenodo.7779\",",
+     "    \"metadata\": {",
+     "     \"title\": \"A Mediterranean Low-Glycemic-Load Diet alone or in Combination with a Medical Food Improves Insulin Sensitivity and Reduces Inflammation in Women with Metabolic Syndrome\",",
+     "     \"doi\": \"10.5281/zenodo.7779\",",
+     "     \"publication_date\": \"2011-08-24\",",
+     "     \"description\": \"<p>Aim: To determine the effects of a Mediterranean-style low-glycemic load diet alone or in combination with a medical food (MF) on insulin resistance and inflammation in women with metabolic syndrome (MetS). Study design: Two groups, Parallel study with control. Place and Duration of Study: Department of Nutritional Sciences, University of Connecticut, Storrs, CT; Department of Emergency Medicine, University of Florida, Jacksonville, FL; Department of Medicine, University of California, Irvine, CA. The study was carried out from September of 2009 to May 2010. Methodology: Eighty three women ...\",",
+     "     \"access_right\": \"open\",",
+     "     \"creators\": [",
+     "      {",
+     "       \"name\": \"Jones, Jennifer L.\",",
+     "       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"",
+     "      },",
+     "      {",
+     "       \"name\": \"Ackermann, Daniela\",",
+     "       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"",
+     "      },",
+     "      {",
+     "       \"name\": \"Barona, Jacqueline\",",
+     "       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"",
+     "      },"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:59:30Z",
+    "limited": {
+     "text": "{\"status\": 429, \"message\": \"Too many requests. Please slow down.\"}",
+     "content_type": "application/json",
+     "headers": {},
+     "status": 429
+    },
+    "text": "{\n \"hits\": {\n  \"hits\": [\n   {\n    \"created\": \"2014-02-03T14:41:33+00:00\",\n    \"modified\": \"2024-08-06T14:16:57.265898+00:00\",\n    \"id\": 7779,\n    \"conceptrecid\": \"641796\",\n    \"doi\": \"10.5281/zenodo.7779\",\n    \"conceptdoi\": \"\",\n    \"doi_url\": \"https://doi.org/10.5281/zenodo.7779\",\n    \"metadata\": {\n     \"title\": \"A Mediterranean Low-Glycemic-Load Diet alone or in Combination with a Medical Food Improves Insulin Sensitivity and Reduces Inflammation in Women with Metabolic Syndrome\",\n     \"doi\": \"10.5281/zenodo.7779\",\n     \"publication_date\": \"2011-08-24\",\n     \"description\": \"<p>Aim: To determine the effects of a Mediterranean-style low-glycemic load diet alone or in combination with a medical food (MF) on insulin resistance and inflammation in women with metabolic syndrome (MetS). Study design: Two groups, Parallel study with control. Place and Duration of Study: Department of Nutritional Sciences, University of Connecticut, Storrs, CT; Department of Emergency Medicine, University of Florida, Jacksonville, FL; Department of Medicine, University of California, Irvine, CA. The study was carried out from September of 2009 to May 2010. Methodology: Eighty three women ...\",\n     \"access_right\": \"open\",\n     \"creators\": [\n      {\n       \"name\": \"Jones, Jennifer L.\",\n       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"\n      },\n      {\n       \"name\": \"Ackermann, Daniela\",\n       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"\n      },\n      {\n       \"name\": \"Barona, Jacqueline\",\n       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"\n      },\n      {\n       \"name\": \"Calle, Mariana\",\n       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"\n      },\n      {\n       \"name\": \"Andersen, Catherine\",\n       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"\n      },\n      {\n       \"name\": \"Kim, Jung Eun\",\n       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"\n      },\n      {\n       \"name\": \"Volek, Jeff S.\",\n       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"\n      },\n      {\n       \"name\": \"McIntosh, Mark\",\n       \"affiliation\": \"Departmemt of Emergency Medicine, University of Florida, Jacksonville, Florida, USA.\"\n      },\n      {\n       \"name\": \"Najm, Wadie\",\n       \"affiliation\": \"Department of Medicine, University of California, Irvine, California, USA.\"\n      },\n      {\n       \"name\": \"Lerman, Robert H.\",\n       \"affiliation\": \"Metagenics Inc., Gig Harbor, WA.\"\n      },\n      {\n       \"name\": \"Fernandez, Maria Luz\",\n       \"affiliation\": \"Department of Nutritional Sciences, University of Connecticut, Storrs, Connecticut, USA.\"\n      }\n     ],\n     \"keywords\": [\n      \"Metabolic syndrome;\",\n      \"mediterranean diet;\",\n      \"glycemic load;\",\n      \"insulin;\",\n      \"inflammation;\",\n      \"body composition;\"\n     ],\n     \"resource_type\": {\n      \"title\": \"Journal article\",\n      \"type\": \"publication\",\n      \"subtype\": \"article\"\n     },\n     \"license\": {\n      \"id\": \"cc-by-4.0\"\n     },\n     \"relations\": {\n      \"version\": [\n       {\n        \"index\": 0,\n        \"is_last\": true,\n        \"parent\": {\n         \"pid_type\": \"recid\",\n         \"pid_value\": \"641796\"\n        }\n       }\n      ]\n     }\n    },\n    \"title\": \"A Mediterranean Low-Glycemic-Load Diet alone or in Combination with a Medical Food Improves Insulin Sensitivity and Reduces Inflammation in Women with Metabolic Syndrome\",\n    \"links\": {\n     \"self\": \"https://zenodo.org/api/records/7779\",\n     \"self_html\": \"https://zenodo.org/records/7779\",\n     \"preview_html\": \"https://zenodo.org/records/7779?preview=1\",\n     \"doi\": \"https://doi.org/10.5281/zenodo.7779\",\n     \"self_doi\": \"https://doi.org/10.5281/zenodo.7779\",\n     \"self_doi_html\": \"https://zenodo.org/doi/10.5281/zenodo.7779\",\n     \"reserve_doi\": \"https://zenodo.org/api/records/7779/draft/pids/doi\",\n     \"parent\": \"https://zenodo.org/api/records/641796\",\n     \"parent_html\": \"https://zenodo.org/records/641796\",\n     \"parent_doi\": \"https://doi.org/\",\n     \"parent_doi_html\": \"https://zenodo.org/doi/\",\n     \"self_iiif_manifest\": \"https://zenodo.org/api/iiif/record:7779/manifest\",\n     \"self_iiif_sequence\": \"https://zenodo.org/api/iiif/record:7779/sequence/default\",\n     \"files\": \"https://zenodo.org/api/records/7779/files\",\n     \"media_files\": \"https://zenodo.org/api/records/7779/media-files\",\n     \"thumbnails\": {\n      \"10\": \"https://zenodo.org/api/iiif/record:7779:1323751797-Fernandez_2011BJMMR541.pdf/full/%5E10,/0/default.jpg\",\n      \"50\": \"https://zenodo.org/api/iiif/record:7779:1323751797-Fernandez_2011BJMMR541.pdf/full/%5E50,/0/default.jpg\",\n      \"100\": \"https://zenodo.org/api/iiif/record:7779:1323751797-Fernandez_2011BJMMR541.pdf/full/%5E100,/0/default.jpg\",\n      \"250\": \"https://zenodo.org/api/iiif/record:7779:1323751797-Fernandez_2011BJMMR541.pdf/full/%5E250,/0/default.jpg\",\n      \"750\": \"https://zenodo.org/api/iiif/record:7779:1323751797-Fernandez_2011BJMMR541.pdf/full/%5E750,/0/default.jpg\",\n      \"1200\": \"https://zenodo.org/api/iiif/record:7779:1323751797-Fernandez_2011BJMMR541.pdf/full/%5E1200,/0/default.jpg\"\n     },\n     \"latest\": \"https://zenodo.org/api/records/7779/versions/latest\",\n     \"latest_html\": \"https://zenodo.org/records/7779/latest\",\n     \"versions\": \"https://zenodo.org/api/records/7779/versions\",\n     \"draft\": \"https://zenodo.org/api/records/7779/draft\",\n     \"access_links\": \"https://zenodo.org/api/records/7779/access/links\",\n     \"access_grants\": \"https://zenodo.org/api/records/7779/access/grants\",\n     \"access_users\": \"https://zenodo.org/api/records/7779/access/users\",\n     \"access_request\": \"https://zenodo.org/api/records/7779/access/request\",\n     \"access\": \"https://zenodo.org/api/records/7779/access\",\n     \"communities\": \"https://zenodo.org/api/records/7779/communities\",\n     \"communities-suggestions\": \"https://zenodo.org/api/records/7779/communities-suggestions\",\n     \"request_deletion\": \"https://zenodo.org/api/records/7779/request-deletion\",\n     \"file_modification\": \"https://zenodo.org/api/records/7779/file-modification\",\n     \"quota_increase\": \"https://zenodo.org/api/records/7779/quota-increase\",\n     \"requests\": \"https://zenodo.org/api/records/7779/requests\"\n    },\n    \"updated\": \"2024-08-06T14:16:57.265898+00:00\",\n    \"recid\": \"7779\",\n    \"revision\": 14,\n    \"files\": [\n     {\n      \"id\": \"b0ae710e-4fed-416c-a169-70ff110845b2\",\n      \"key\": \"1323751797-Fernandez_2011BJMMR541.pdf\",\n      \"size\": 670450,\n      \"checksum\": \"md5:1a3bb9dd4cd0c203a66b809490c7599b\",\n      \"links\": {\n       \"self\": \"https://zenodo.org/api/records/7779/files/1323751797-Fernandez_2011BJMMR541.pdf/content\"\n      }\n     }\n    ],\n    \"swh\": null,\n    \"owners\": [\n     {\n      \"id\": \"751\"\n     }\n    ],\n    \"status\": \"published\",\n    \"stats\": {\n     \"downloads\": 2259,\n     \"unique_downloads\": 2030,\n     \"views\": 701,\n     \"unique_views\": 655,\n     \"version_downloads\": 2259,\n     \"version_unique_downloads\": 2030,\n     \"version_unique_views\": 655,\n     \"version_views\": 701\n    },\n    \"state\": \"done\",\n    \"submitted\": true\n   }\n  ],\n  \"total\": 7500711\n },\n \"aggregations\": {\n  \"publication_date\": {\n   \"buckets\": [\n    {\n     \"key\": \"2000\",\n     \"doc_count\": 11782,\n     \"label\": \"2000\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2001\",\n     \"doc_count\": 14304,\n     \"label\": \"2001\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2002\",\n     \"doc_count\": 19810,\n     \"label\": \"2002\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2003\",\n     \"doc_count\": 33369,\n     \"label\": \"2003\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2004\",\n     \"doc_count\": 28956,\n     \"label\": \"2004\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2005\",\n     \"doc_count\": 42558,\n     \"label\": \"2005\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2006\",\n     \"doc_count\": 44075,\n     \"label\": \"2006\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2007\",\n     \"doc_count\": 54479,\n     \"label\": \"2007\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2008\",\n     \"doc_count\": 49543,\n     \"label\": \"2008\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2009\",\n     \"doc_count\": 58836,\n     \"label\": \"2009\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2010\",\n     \"doc_count\": 63212,\n     \"label\": \"2010\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2011\",\n     \"doc_count\": 74682,\n     \"label\": \"2011\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2012\",\n     \"doc_count\": 83189,\n     \"label\": \"2012\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2013\",\n     \"doc_count\": 100289,\n     \"label\": \"2013\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2014\",\n     \"doc_count\": 129920,\n     \"label\": \"2014\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2015\",\n     \"doc_count\": 127846,\n     \"label\": \"2015\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2016\",\n     \"doc_count\": 158290,\n     \"label\": \"2016\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2017\",\n     \"doc_count\": 194399,\n     \"label\": \"2017\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2018\",\n     \"doc_count\": 223219,\n     \"label\": \"2018\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2019\",\n     \"doc_count\": 503867,\n     \"label\": \"2019\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2020\",\n     \"doc_count\": 277645,\n     \"label\": \"2020\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2021\",\n     \"doc_count\": 334132,\n     \"label\": \"2021\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2022\",\n     \"doc_count\": 397997,\n     \"label\": \"2022\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2023\",\n     \"doc_count\": 474597,\n     \"label\": \"2023\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2024\",\n     \"doc_count\": 663647,\n     \"label\": \"2024\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2025\",\n     \"doc_count\": 940847,\n     \"label\": \"2025\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"2026\",\n     \"doc_count\": 1476027,\n     \"label\": \"2026\",\n     \"is_selected\": false\n    }\n   ],\n   \"label\": \"Publication date\"\n  },\n  \"access_status\": {\n   \"buckets\": [\n    {\n     \"key\": \"open\",\n     \"doc_count\": 7229514,\n     \"label\": \"Open\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"restricted\",\n     \"doc_count\": 259535,\n     \"label\": \"Restricted\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"embargoed\",\n     \"doc_count\": 11660,\n     \"label\": \"Embargoed\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"metadata-only\",\n     \"doc_count\": 2,\n     \"label\": \"Metadata-only\",\n     \"is_selected\": false\n    }\n   ],\n   \"label\": \"Access status\"\n  },\n  \"resource_type\": {\n   \"buckets\": [\n    {\n     \"key\": \"publication\",\n     \"doc_count\": 4939546,\n     \"label\": \"Publication\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": [\n       {\n        \"key\": \"publication-article\",\n        \"doc_count\": 2527443,\n        \"label\": \"Journal article\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"publication-taxonomictreatment\",\n        \"doc_count\": 715483,\n        \"label\": \"Taxonomic treatment\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"publication-preprint\",\n        \"doc_count\": 265314,\n        \"label\": \"Preprint\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"publication-conferencepaper\",\n        \"doc_count\": 255851,\n        \"label\": \"Conference paper\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"publication-book\",\n        \"doc_count\": 191576,\n        \"label\": \"Book\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"publication-section\",\n        \"doc_count\": 155217,\n        \"label\": \"Book chapter\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"publication-other\",\n        \"doc_count\": 136047,\n        \"label\": \"Other\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"publication-report\",\n        \"doc_count\": 99382,\n        \"label\": \"Report\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"publication-journal\",\n        \"doc_count\": 58654,\n        \"label\": \"Journal\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"publication-workingpaper\",\n        \"doc_count\": 41584,\n        \"label\": \"Working paper\",\n        \"is_selected\": false\n       }\n      ]\n     }\n    },\n    {\n     \"key\": \"image\",\n     \"doc_count\": 1233624,\n     \"label\": \"Image\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": [\n       {\n        \"key\": \"image-figure\",\n        \"doc_count\": 842936,\n        \"label\": \"Figure\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"image-photo\",\n        \"doc_count\": 364630,\n        \"label\": \"Photo\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"image-drawing\",\n        \"doc_count\": 6111,\n        \"label\": \"Drawing\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"image-other\",\n        \"doc_count\": 4314,\n        \"label\": \"Other\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"image-diagram\",\n        \"doc_count\": 3341,\n        \"label\": \"Diagram\",\n        \"is_selected\": false\n       },\n       {\n        \"key\": \"image-plot\",\n        \"doc_count\": 1259,\n        \"label\": \"Plot\",\n        \"is_selected\": false\n       }\n      ]\n     }\n    },\n    {\n     \"key\": \"dataset\",\n     \"doc_count\": 732217,\n     \"label\": \"Dataset\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": []\n     }\n    },\n    {\n     \"key\": \"software\",\n     \"doc_count\": 310306,\n     \"label\": \"Software\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": [\n       {\n        \"key\": \"software-computationalnotebook\",\n        \"doc_count\": 9060,\n        \"label\": \"Computational notebook\",\n        \"is_selected\": false\n       }\n      ]\n     }\n    },\n    {\n     \"key\": \"presentation\",\n     \"doc_count\": 96088,\n     \"label\": \"Presentation\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": []\n     }\n    },\n    {\n     \"key\": \"other\",\n     \"doc_count\": 69913,\n     \"label\": \"Other\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": []\n     }\n    },\n    {\n     \"key\": \"poster\",\n     \"doc_count\": 39970,\n     \"label\": \"Poster\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": []\n     }\n    },\n    {\n     \"key\": \"video\",\n     \"doc_count\": 23075,\n     \"label\": \"Video/Audio\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": []\n     }\n    },\n    {\n     \"key\": \"lesson\",\n     \"doc_count\": 18953,\n     \"label\": \"Lesson\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": []\n     }\n    },\n    {\n     \"key\": \"model\",\n     \"doc_count\": 17910,\n     \"label\": \"Model\",\n     \"is_selected\": false,\n     \"inner\": {\n      \"buckets\": []\n     }\n    }\n   ],\n   \"label\": \"Resource types\"\n  },\n  \"subject\": {\n   \"buckets\": [\n    {\n     \"key\": \"Biodiversity\",\n     \"doc_count\": 2163564,\n     \"label\": \"Biodiversity\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"Taxonomy\",\n     \"doc_count\": 1828072,\n     \"label\": \"Taxonomy\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"Animalia\",\n     \"doc_count\": 1241994,\n     \"label\": \"Animalia\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"Arthropoda\",\n     \"doc_count\": 920015,\n     \"label\": \"Arthropoda\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"Insecta\",\n     \"doc_count\": 665586,\n     \"label\": \"Insecta\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"BHL-Corpus\",\n     \"doc_count\": 310066,\n     \"label\": \"BHL-Corpus\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"Source: BHL\",\n     \"doc_count\": 310066,\n     \"label\": \"Source: BHL\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"Source: Biodiversity Heritage Library\",\n     \"doc_count\": 310066,\n     \"label\": \"Source: Biodiversity Heritage Library\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"Source: https://biodiversitylibrary.org\",\n     \"doc_count\": 310066,\n     \"label\": \"Source: https://biodiversitylibrary.org\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"Terrestrial\",\n     \"doc_count\": 270768,\n     \"label\": \"Terrestrial\",\n     \"is_selected\": false\n    }\n   ],\n   \"label\": \"Subjects\"\n  },\n  \"file_type\": {\n   \"buckets\": [\n    {\n     \"key\": \"pdf\",\n     \"doc_count\": 4007017,\n     \"label\": \"PDF\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"png\",\n     \"doc_count\": 772532,\n     \"label\": \"PNG\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"html\",\n     \"doc_count\": 767320,\n     \"label\": \"HTML\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"jpg\",\n     \"doc_count\": 560620,\n     \"label\": \"JPG\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"zip\",\n     \"doc_count\": 531333,\n     \"label\": \"ZIP\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"txt\",\n     \"doc_count\": 208758,\n     \"label\": \"TXT\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"docx\",\n     \"doc_count\": 132148,\n     \"label\": \"DOCX\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"json\",\n     \"doc_count\": 118434,\n     \"label\": \"JSON\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"xlsx\",\n     \"doc_count\": 113334,\n     \"label\": \"XLSX\",\n     \"is_selected\": false\n    },\n    {\n     \"key\": \"csv\",\n     \"doc_count\": 105545,\n     \"label\": \"CSV\",\n     \"is_selected\": false\n    }\n   ],\n   \"label\": \"File type\"\n  }\n },\n \"links\": {\n  \"self\": \"https://zenodo.org/api/records?page=1&size=1&sort=oldest\",\n  \"next\": \"https://zenodo.org/api/records?page=2&size=1&sort=oldest\"\n }\n}"
+   }
+  },
+  {
+   "id": "R-F8-09-doc0",
+   "role": "context",
+   "url": "https://developers.zenodo.org/",
+   "host": "developers.zenodo.org",
+   "path": "/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Developers | Zenodo",
+   "publisher": "developers.zenodo.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-09",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Developers | Zenodo ",
+     "Developers ",
+     " About ",
+     " Blog ",
+     " Help ",
+     " Developers ",
+     " NAV",
+     " Python ",
+     " cURL ",
+     " NodeJS ",
+     " Privacy policy ",
+     " Cookie policy ",
+     " Terms of Use ",
+     " Contact ",
+     "REST API ",
+     "Introduction ",
+     "The Zenodo REST API currently supports: ",
+     " Deposit — upload and publishing of research outputs (identical to",
+     "functionality available in the user interface). ",
+     " Records — search published records. ",
+     " Files — download/upload of files. ",
+     "Check out the Quickstart guide for an example on how to",
+     "programmatically upload and publish your research outputs. ",
+     "The following REST APIs are currently in testing before we launch them in",
+     " beta with full documentation: ",
+     " Communities - search communities. ",
+     " Funders — search for funders. ",
+     " Grants — search for grants. ",
+     " Licenses — search for licenses. ",
+     "You can have a sneak peek at the APIs in test from our root endpoint: https://zenodo.org/api/ "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Developers | Zenodo",
+    "text": "Developers | Zenodo \nDevelopers \n About \n Blog \n Help \n Developers \n NAV\n Python \n cURL \n NodeJS \n Privacy policy \n Cookie policy \n Terms of Use \n Contact \nREST API \nIntroduction \nThe Zenodo REST API currently supports: \n Deposit — upload and publishing of research outputs (identical to\nfunctionality available in the user interface). \n Records — search published records. \n Files — download/upload of files. \nCheck out the Quickstart guide for an example on how to\nprogrammatically upload and publish your research outputs. \nThe following REST APIs are currently in testing before we launch them in\n beta with full documentation: \n Communities - search communities. \n Funders — search for funders. \n Grants — search for grants. \n Licenses — search for licenses. \nYou can have a sneak peek at the APIs in test from our root endpoint: https://zenodo.org/api/ \nQuickstart - Upload \nThis short guide will give a quick overview of how to upload and publish on\nZenodo, and will be using either: \nPython together with the Requests package. \nJavascript together with the axios package. \n # Install 'requests' module for python\n pip install requests\n # Install 'axios' module for nodejs \n npm install axios\nFirst, make sure you have the\n Requests module\ninstalled for python or axios for nodeJS: \n python \n # Python 3.6.5\n# [GCC 4.8.1] on linux2\n# Type \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n node \n // Welcome to Node.js v14.19.0. \n // Type \".help\" for more information. \nNext, fire up a command prompt: \n import requests \n const axios = require ( ' axios ' ); \nImport the module to handle requests: \n import requests \n r = requests . get ( \" https://zenodo.org/api/deposit/depositions \" ) \n r . status_code \n # 401\n r . json () \n const axios = require ( ' axios ' ); \n axios . get ( \" https://zenodo.org/api/deposit/depositions \" ). then ( response => { \n console . log ( response ); \n }). catch ( error => { \n console . log ( error . response . data ); \n }); \n { \n \"message\" : \"The server could not verify that you are authorized to access\n the URL requested. You either supplied the wrong credentials (e.g. a bad\n password), or your browser doesn't understand how to supply the credentials\n required.\" , \n \"status\" : 401 \n } \nWe will try to access the API without an authentication token: \nAll API access requires an access token, so\n create one. \n ACCESS_TOKEN = ' ChangeMe ' \n headers = { ' Authorization ' : f ' Bearer { ACCESS_TOKEN } ' } \n r = requests . get ( ' https://zenodo.org/api/deposit/depositions ' , \n headers = headers ) \n r . status_code \n # 200\n r . json () \n # []\n const ACCESS_TOKEN = ' ChangeMe ' \n const requestConfig = { \n headers : { \n ' Authorization ' : `Bearer ${ ACCESS_TOKEN } ` \n } \n } \n axios . get ( \" https://zenodo.org/api/deposit/depositions \" , requestConfig ). then ( response => { \n console . log ( response . status ); \n // > 200 \n console . log ( response . data ); \n // > [] \n }). catch ( error => { \n console . log ( error . response "
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-09-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 60
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:59:30Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://developers.zenodo.org/"
+  ],
+  "documented_limit": []
+ },
+ "oracle_query": "Using the Zenodo REST API, report the title of the oldest record on Zenodo. Cite",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using the Zenodo REST API, report the title of the oldest record on Zenodo. Cite"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://zenodo.org/api/records?size=1&sort=oldest"
+   },
+   {
+    "tool": "wait",
+    "seconds": 65
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://zenodo.org/api/records?size=1&sort=oldest"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "A Mediterranean Low-Glycemic-Load Diet alone or in Combination with a Medical Food Improves Insulin Sensitivity and Reduces Inflammation in Women with Metabolic Syndrome",
+     "sources": [
+      "https://zenodo.org/api/records?size=1&sort=oldest"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

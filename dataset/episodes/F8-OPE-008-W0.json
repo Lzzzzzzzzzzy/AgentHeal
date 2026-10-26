@@ -1,0 +1,560 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F8-OPE-008-W0",
+ "goal_id": "F8-OPE-008",
+ "family": "F8",
+ "world": "W0",
+ "domain": "opendata",
+ "task_type": "IR",
+ "goal": "For a planning memo I need a value from the National Fisheries Office's \"Soil Carbon Inventory\" (version 2.1). Here is the dataset page: http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory\nWhat is the difference between the organic carbon at plot Hollins and the organic carbon at plot Fallowmere (Hollins minus Fallowmere)? Please give the difference with its unit and tell me which source you used. I need this within the next 30 minutes.",
+ "answer": {
+  "kind": "value",
+  "field": "organic carbon at plot",
+  "unit": "t/ha",
+  "canonical": "26.6",
+  "entity": "Hollins"
+ },
+ "resources": [
+  {
+   "id": "F8-OPE-008-canon",
+   "role": "canonical",
+   "host": "national-fisheries-office.example",
+   "path": "/datasets/9a74f2-soil-carbon-inventory",
+   "url": "http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "Soil Carbon Inventory",
+   "publisher": "National Fisheries Office",
+   "date": "2025-08-01",
+   "version_label": "Soil Carbon Inventory, version 2.1",
+   "expression": "version 2.1",
+   "work_id": "work-9a74f2",
+   "entity": "Hollins",
+   "field_label": "organic carbon at plot",
+   "unit": "t/ha",
+   "body": {
+    "paragraphs": [
+     "Published by the National Fisheries Office.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Organic carbon at plot by site",
+    "table_header": [
+     "",
+     "organic carbon at plot (t/ha)"
+    ],
+    "table": [
+     [
+      "Corran",
+      "150.0"
+     ],
+     [
+      "Belcliff",
+      "35.4"
+     ],
+     [
+      "Fallowmere",
+      "25.2"
+     ],
+     [
+      "Hollins",
+      "51.8"
+     ],
+     [
+      "Ardmore",
+      "77.1"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "26.6",
+   "cell_value": "51.8",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Soil Carbon Inventory is published by the National Fisheries Office under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Corran; the previous release reported 22.2 t/ha. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "National Fisheries Office (2025). Soil Carbon Inventory, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "organic carbon at plot (t/ha)"
+      ],
+      "rows": [
+       [
+        "Hollins",
+        "94.2"
+       ],
+       [
+        "Corran",
+        "85.6"
+       ],
+       [
+        "Belcliff",
+        "33.0"
+       ],
+       [
+        "Fallowmere",
+        "94.4"
+       ],
+       [
+        "Ardmore",
+        "83.5"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Fallowmere"
+  },
+  {
+   "id": "F8-OPE-008-var0",
+   "role": "variant",
+   "host": "archive.example",
+   "path": "/web/20250902090000/http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+   "url": "http://archive.example/web/20250902090000/http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+   "kind": "page",
+   "site_type": "archive",
+   "title": "Soil Carbon Inventory",
+   "publisher": "Web archive snapshot of national-fisheries-office.example",
+   "date": "2025-08-01",
+   "version_label": "Snapshot of 2025-09-02",
+   "expression": "state at 20250902090000",
+   "work_id": "work-9a74f2",
+   "entity": "Hollins",
+   "field_label": "organic carbon at plot",
+   "unit": "t/ha",
+   "body": {
+    "paragraphs": [
+     "Published by the National Fisheries Office.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Organic carbon at plot by site",
+    "table_header": [
+     "",
+     "organic carbon at plot (t/ha)"
+    ],
+    "table": [
+     [
+      "Corran",
+      "150.0"
+     ],
+     [
+      "Belcliff",
+      "35.4"
+     ],
+     [
+      "Fallowmere",
+      "25.2"
+     ],
+     [
+      "Hollins",
+      "54.0"
+     ],
+     [
+      "Ardmore",
+      "77.1"
+     ]
+    ]
+   },
+   "cue": "Archived on 2025-09-02; the page changed after the requested date.",
+   "indexed": true,
+   "rank_boost": -0.6,
+   "access": {
+    "state": "ok"
+   },
+   "value": "28.8",
+   "cell_value": "54.0",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Soil Carbon Inventory is published by the National Fisheries Office under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Corran; the previous release reported 22.2 t/ha. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "National Fisheries Office (2025). Soil Carbon Inventory, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "organic carbon at plot (t/ha)"
+      ],
+      "rows": [
+       [
+        "Hollins",
+        "94.2"
+       ],
+       [
+        "Corran",
+        "85.6"
+       ],
+       [
+        "Belcliff",
+        "33.0"
+       ],
+       [
+        "Fallowmere",
+        "94.4"
+       ],
+       [
+        "Ardmore",
+        "83.5"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Fallowmere",
+   "memento_datetime": "20250902090000",
+   "original": "http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+   "variant_type": "V-T",
+   "delta": {
+    "organic_carbon_at_plot": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://archive.example/web/*/http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+    "http://archive.example/web/2025*/http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+    "http://archive.example/web/20250902*/http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory"
+   ],
+   "inspect": {
+    "http://archive.example/web/20250902*/http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory": [
+     "http://archive.example/web/20250902063000/http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory"
+    ]
+   }
+  },
+  {
+   "id": "F8-OPE-008-hub-capture-0-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902063000/http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+   "url": "http://archive.example/web/20250902063000/http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "national-fisheries-office.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Capture of a cookie consent screen; the page content was not archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902063000",
+   "original": "http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory"
+  },
+  {
+   "id": "F8-OPE-008-hub-registry-dead0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/9a74f2/resource/x0",
+   "url": "http://registry.example/dataset/9a74f2/resource/x0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Soil Carbon Inventory: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Data API. Access requires a data-sharing agreement."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-OPE-008-hub-registry-dead1",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/9a74f2/resource/x1",
+   "url": "http://registry.example/dataset/9a74f2/resource/x1",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Soil Carbon Inventory: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Bulk download (FTP). This distribution was discontinued."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-OPE-008-hub-registry-record",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/9a74f2",
+   "url": "http://registry.example/dataset/9a74f2",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Soil Carbon Inventory (National Fisheries Office)",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Publisher: National Fisheries Office.",
+     "Current release: version 2.1.",
+     "Distributions are listed below with the organisation that hosts them."
+    ]
+   },
+   "links": [
+    [
+     "http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+     "National Fisheries Office portal (version 2.1)"
+    ],
+    [
+     "http://registry.example/dataset/9a74f2/resource/x1",
+     "Distribution 1"
+    ],
+    [
+     "http://registry.example/dataset/9a74f2/resource/x0",
+     "Distribution 2"
+    ],
+    [
+     "http://registry.example/dataset/9a74f2/releases",
+     "Release history"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-OPE-008-hub-registry-releases",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/9a74f2/releases",
+   "url": "http://registry.example/dataset/9a74f2/releases",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Release history: Soil Carbon Inventory",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Releases of this dataset.",
+     "Earlier releases are available from the publisher on request."
+    ]
+   },
+   "links": [
+    [
+     "http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory",
+     "version 2.1 (current)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-OPE-008-hub-status",
+   "role": "hub",
+   "host": "status.national-fisheries-office.example",
+   "path": "/",
+   "url": "http://status.national-fisheries-office.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "national-fisheries-office.example status",
+   "publisher": "status.national-fisheries-office.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Planned maintenance is in progress. No mirror is available."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-OPE-008-hub-home",
+   "role": "hub",
+   "host": "national-fisheries-office.example",
+   "path": "/",
+   "url": "http://national-fisheries-office.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "National Fisheries Office",
+   "publisher": "national-fisheries-office.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to national-fisheries-office.example."
+    ]
+   },
+   "links": [
+    [
+     "http://status.national-fisheries-office.example/",
+     "Service status"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F8-OPE-008-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": 1800,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F8-OPE-008-W1v",
+  "unrecoverable": "F8-OPE-008-W3",
+  "twin": "F8-OPE-008-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "26.6 t/ha",
+     "sources": [
+      "http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "26.6 t/ha",
+   "sources": [
+    "http://national-fisheries-office.example/datasets/9a74f2-soil-carbon-inventory"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

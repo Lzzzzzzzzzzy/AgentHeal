@@ -1,0 +1,614 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F2-OPE-015-W0",
+ "goal_id": "F2-OPE-015",
+ "family": "F2",
+ "world": "W0",
+ "domain": "opendata",
+ "task_type": "IR",
+ "goal": "For a planning memo I need a value from the Bureau of Inland Waters' \"Coastal Erosion Survey\" (release 4). Here is the dataset page: http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey\nIt has to be release 4 exactly. What is the retreat rate at transect Corran? Please give the value with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "retreat rate at transect",
+  "unit": "m/yr",
+  "canonical": "4.00",
+  "entity": "Corran"
+ },
+ "resources": [
+  {
+   "id": "F2-OPE-015-canon",
+   "role": "canonical",
+   "host": "bureau-of-inland-waters.example",
+   "path": "/datasets/7c9e25-coastal-erosion-survey",
+   "url": "http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "Coastal Erosion Survey",
+   "publisher": "Bureau of Inland Waters",
+   "date": "2025-05-01",
+   "version_label": "Coastal Erosion Survey, release 4",
+   "expression": "release 4",
+   "work_id": "work-7c9e25",
+   "entity": "Corran",
+   "field_label": "retreat rate at transect",
+   "unit": "m/yr",
+   "body": {
+    "paragraphs": [
+     "Published by the Bureau of Inland Waters.",
+     "This page describes release 4 of the dataset."
+    ],
+    "table_caption": "Retreat rate at transect by site",
+    "table_header": [
+     "",
+     "retreat rate at transect (m/yr)"
+    ],
+    "table": [
+     [
+      "Fallowmere",
+      "2.02"
+     ],
+     [
+      "Belcliff",
+      "2.60"
+     ],
+     [
+      "Hollins",
+      "1.70"
+     ],
+     [
+      "Corran",
+      "4.00"
+     ],
+     [
+      "Dunvale",
+      "1.75"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "4.00",
+   "cell_value": "4.00",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Coastal Erosion Survey is published by the Bureau of Inland Waters under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Corran; the previous release reported 6.20 m/yr. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Bureau of Inland Waters (2025). Coastal Erosion Survey, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "retreat rate at transect (m/yr)"
+      ],
+      "rows": [
+       [
+        "Corran",
+        "2.55"
+       ],
+       [
+        "Fallowmere",
+        "2.16"
+       ],
+       [
+        "Belcliff",
+        "1.81"
+       ],
+       [
+        "Hollins",
+        "6.81"
+       ],
+       [
+        "Dunvale",
+        "2.37"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F2-OPE-015-var0",
+   "role": "variant",
+   "host": "bureau-of-inland-waters.example",
+   "path": "/datasets/7c9e25-coastal-erosion-survey/prev0",
+   "url": "http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey/prev0",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "Coastal Erosion Survey",
+   "publisher": "Bureau of Inland Waters",
+   "date": "2025-05-01",
+   "version_label": "Coastal Erosion Survey, previous release",
+   "expression": "previous release",
+   "work_id": "work-7c9e25",
+   "entity": "Corran",
+   "field_label": "retreat rate at transect",
+   "unit": "m/yr",
+   "body": {
+    "paragraphs": [
+     "Published by the Bureau of Inland Waters.",
+     "This page describes release 4 of the dataset."
+    ],
+    "table_caption": "Retreat rate at transect by site",
+    "table_header": [
+     "",
+     "retreat rate at transect (m/yr)"
+    ],
+    "table": [
+     [
+      "Fallowmere",
+      "2.02"
+     ],
+     [
+      "Belcliff",
+      "2.60"
+     ],
+     [
+      "Hollins",
+      "1.70"
+     ],
+     [
+      "Corran",
+      "3.61"
+     ],
+     [
+      "Dunvale",
+      "1.75"
+     ]
+    ]
+   },
+   "cue": "This is the previous release; it was superseded by Coastal Erosion Survey, release 4.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "3.61",
+   "cell_value": "3.61",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Coastal Erosion Survey is published by the Bureau of Inland Waters under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Corran; the previous release reported 6.20 m/yr. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Bureau of Inland Waters (2025). Coastal Erosion Survey, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "retreat rate at transect (m/yr)"
+      ],
+      "rows": [
+       [
+        "Corran",
+        "2.55"
+       ],
+       [
+        "Fallowmere",
+        "2.16"
+       ],
+       [
+        "Belcliff",
+        "1.81"
+       ],
+       [
+        "Hollins",
+        "6.81"
+       ],
+       [
+        "Dunvale",
+        "2.37"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-R",
+   "delta": {
+    "retreat_rate_at_transect": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://registry.example/search?q=Coastal+Erosion+Survey",
+    "http://registry.example/dataset/7c9e25",
+    "http://registry.example/dataset/7c9e25/releases",
+    "http://registry.example/dataset/7c9e25/releases/0"
+   ]
+  },
+  {
+   "id": "F2-OPE-015-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/7c9e25-0",
+   "url": "http://catalog0.example/entry/7c9e25-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "Coastal Erosion Survey - companion study",
+   "publisher": "Different publisher",
+   "date": "2025-05-01",
+   "version_label": "companion entry",
+   "expression": "release 4",
+   "work_id": "work-7c9e25",
+   "entity": "Corran",
+   "field_label": "retreat rate at transect",
+   "unit": "m/yr",
+   "body": {
+    "paragraphs": [
+     "Published by the Bureau of Inland Waters.",
+     "This page describes release 4 of the dataset."
+    ],
+    "table_caption": "Retreat rate at transect by site",
+    "table_header": [
+     "",
+     "retreat rate at transect (m/yr)"
+    ],
+    "table": [
+     [
+      "Fallowmere",
+      "2.02"
+     ],
+     [
+      "Belcliff",
+      "2.60"
+     ],
+     [
+      "Hollins",
+      "1.70"
+     ],
+     [
+      "Corran",
+      "3.55"
+     ],
+     [
+      "Dunvale",
+      "1.75"
+     ]
+    ]
+   },
+   "cue": "Note: this page describes a different item than Corran (Coastal Erosion Survey); scope differs.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "3.55",
+   "cell_value": "3.55",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Coastal Erosion Survey is published by the Bureau of Inland Waters under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Corran; the previous release reported 6.20 m/yr. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Bureau of Inland Waters (2025). Coastal Erosion Survey, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "retreat rate at transect (m/yr)"
+      ],
+      "rows": [
+       [
+        "Corran",
+        "2.55"
+       ],
+       [
+        "Fallowmere",
+        "2.16"
+       ],
+       [
+        "Belcliff",
+        "1.81"
+       ],
+       [
+        "Hollins",
+        "6.81"
+       ],
+       [
+        "Dunvale",
+        "2.37"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F2-OPE-015-hub-registry-dead0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/7c9e25/resource/x0",
+   "url": "http://registry.example/dataset/7c9e25/resource/x0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Coastal Erosion Survey: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Data API. Access requires a data-sharing agreement."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-OPE-015-hub-registry-dead1",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/7c9e25/resource/x1",
+   "url": "http://registry.example/dataset/7c9e25/resource/x1",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Coastal Erosion Survey: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Bulk download (FTP). This distribution was discontinued."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-OPE-015-hub-registry-record",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/7c9e25",
+   "url": "http://registry.example/dataset/7c9e25",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Coastal Erosion Survey (Bureau of Inland Waters)",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Publisher: Bureau of Inland Waters.",
+     "Current release: release 4.",
+     "Distributions are listed below with the organisation that hosts them."
+    ]
+   },
+   "links": [
+    [
+     "http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey",
+     "Bureau of Inland Waters portal (release 4)"
+    ],
+    [
+     "http://registry.example/dataset/7c9e25/resource/x1",
+     "Distribution 1"
+    ],
+    [
+     "http://registry.example/dataset/7c9e25/resource/x0",
+     "Distribution 2"
+    ],
+    [
+     "http://registry.example/dataset/7c9e25/releases",
+     "Release history"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F2-OPE-015-hub-registry-rel0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/7c9e25/releases/0",
+   "url": "http://registry.example/dataset/7c9e25/releases/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Coastal Erosion Survey, previous release",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Release notes: Coastal Erosion Survey, previous release.",
+     "Superseded by the current release."
+    ]
+   },
+   "links": [
+    [
+     "http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey/prev0",
+     "Access URL"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-OPE-015-hub-registry-releases",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/7c9e25/releases",
+   "url": "http://registry.example/dataset/7c9e25/releases",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Release history: Coastal Erosion Survey",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Releases of this dataset."
+    ]
+   },
+   "links": [
+    [
+     "http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey",
+     "release 4 (current)"
+    ],
+    [
+     "http://registry.example/dataset/7c9e25/releases/0",
+     "Coastal Erosion Survey, previous release"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F2-OPE-015-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F2-OPE-015-W1v",
+  "unrecoverable": "F2-OPE-015-W2",
+  "twin": "F2-OPE-015-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "4.00 m/yr",
+     "sources": [
+      "http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "4.00 m/yr",
+   "sources": [
+    "http://bureau-of-inland-waters.example/datasets/7c9e25-coastal-erosion-survey"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

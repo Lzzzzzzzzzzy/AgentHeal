@@ -1,0 +1,856 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F3-NEW-010-W0",
+ "goal_id": "F3-NEW-010",
+ "family": "F3",
+ "world": "W0",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "A colleague sent me The Harbor Dispatch's September 2024 report on the Halvorsen Dam inspection (http://the-harbor-dispatch.example/news/365471-report-the-halvorsen-dam-inspection-findings-rel) and I want to quote it correctly. What is the difference between the households affected figure for Corran district and the figure for Ardmore district (Corran district minus Ardmore district)? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "households affected",
+  "unit": "households",
+  "canonical": "3821",
+  "entity": "Corran district"
+ },
+ "resources": [
+  {
+   "id": "F3-NEW-010-canon",
+   "role": "canonical",
+   "host": "the-harbor-dispatch.example",
+   "path": "/news/365471-report-the-halvorsen-dam-inspection-findings-rel",
+   "url": "http://the-harbor-dispatch.example/news/365471-report-the-halvorsen-dam-inspection-findings-rel",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The halvorsen dam inspection findings released",
+   "publisher": "The Harbor Dispatch",
+   "date": "2024-09-14",
+   "version_label": "The Harbor Dispatch, published 2024-09-14",
+   "expression": "published article",
+   "work_id": "work-365471",
+   "entity": "Corran district",
+   "field_label": "households affected",
+   "unit": "households",
+   "body": {
+    "paragraphs": [
+     "The Harbor Dispatch obtained the final report on the Halvorsen Dam inspection.",
+     "The report lists households affected for five districts."
+    ],
+    "table_caption": "Figures by district (households affected)",
+    "table_header": [
+     "",
+     "households affected (households)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "6224"
+     ],
+     [
+      "Belcliff district",
+      "1763"
+     ],
+     [
+      "Hollins district",
+      "3484"
+     ],
+     [
+      "Fallowmere district",
+      "3152"
+     ],
+     [
+      "Ardmore district",
+      "2403"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "3821",
+   "cell_value": "6224",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Harbor Dispatch has obtained the final report on the Halvorsen Dam inspection, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down households affected by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 10,200 households in Belcliff district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "households affected (households)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "9098"
+       ],
+       [
+        "Belcliff district",
+        "3274"
+       ],
+       [
+        "Hollins district",
+        "11,586"
+       ],
+       [
+        "Fallowmere district",
+        "8428"
+       ],
+       [
+        "Ardmore district",
+        "10,303"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Ardmore district"
+  },
+  {
+   "id": "F3-NEW-010-var0",
+   "role": "variant",
+   "host": "the-harbor-dispatch.example",
+   "path": "/news/365471-report-the-halvorsen-dam-inspection-findings-rel/prev0",
+   "url": "http://the-harbor-dispatch.example/news/365471-report-the-halvorsen-dam-inspection-findings-rel/prev0",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The halvorsen dam inspection findings released",
+   "publisher": "The Harbor Dispatch",
+   "date": "2024-09-14",
+   "version_label": "Report: The halvorsen dam inspection findings released, first edition of the report",
+   "expression": "first edition of the report",
+   "work_id": "work-365471",
+   "entity": "Corran district",
+   "field_label": "households affected",
+   "unit": "households",
+   "body": {
+    "paragraphs": [
+     "The Harbor Dispatch obtained the final report on the Halvorsen Dam inspection.",
+     "The report lists households affected for five districts."
+    ],
+    "table_caption": "Figures by district (households affected)",
+    "table_header": [
+     "",
+     "households affected (households)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "5588"
+     ],
+     [
+      "Belcliff district",
+      "1763"
+     ],
+     [
+      "Hollins district",
+      "3484"
+     ],
+     [
+      "Fallowmere district",
+      "3152"
+     ],
+     [
+      "Ardmore district",
+      "2403"
+     ]
+    ]
+   },
+   "cue": "This is the first edition of the report; it was superseded by The Harbor Dispatch, published 2024-09-14.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "3185",
+   "cell_value": "5588",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Harbor Dispatch has obtained the final report on the Halvorsen Dam inspection, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down households affected by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 10,200 households in Belcliff district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "households affected (households)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "9098"
+       ],
+       [
+        "Belcliff district",
+        "3274"
+       ],
+       [
+        "Hollins district",
+        "11,586"
+       ],
+       [
+        "Fallowmere district",
+        "8428"
+       ],
+       [
+        "Ardmore district",
+        "10,303"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Ardmore district",
+   "variant_type": "V-R",
+   "delta": {
+    "households_affected": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://the-harbor-dispatch.example/",
+    "http://the-harbor-dispatch.example/site/updates/365471",
+    "http://the-harbor-dispatch.example/site/updates/365471/0"
+   ],
+   "site_search": false
+  },
+  {
+   "id": "F3-NEW-010-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/365471-0",
+   "url": "http://catalog0.example/entry/365471-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "Report: The halvorsen dam inspection findings released (regional edition)",
+   "publisher": "Different publisher",
+   "date": "2024-09-14",
+   "version_label": "companion entry",
+   "expression": "published article",
+   "work_id": "work-365471",
+   "entity": "Corran district",
+   "field_label": "households affected",
+   "unit": "households",
+   "body": {
+    "paragraphs": [
+     "The Harbor Dispatch obtained the final report on the Halvorsen Dam inspection.",
+     "The report lists households affected for five districts."
+    ],
+    "table_caption": "Figures by district (households affected)",
+    "table_header": [
+     "",
+     "households affected (households)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "4865"
+     ],
+     [
+      "Belcliff district",
+      "1763"
+     ],
+     [
+      "Hollins district",
+      "3484"
+     ],
+     [
+      "Fallowmere district",
+      "3152"
+     ],
+     [
+      "Ardmore district",
+      "2403"
+     ]
+    ]
+   },
+   "cue": "Note: this page describes a different item than Corran district (Report: The halvorsen dam inspection findings released); scope differs.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "2462",
+   "cell_value": "4865",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Harbor Dispatch has obtained the final report on the Halvorsen Dam inspection, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down households affected by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 10,200 households in Belcliff district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "households affected (households)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "9098"
+       ],
+       [
+        "Belcliff district",
+        "3274"
+       ],
+       [
+        "Hollins district",
+        "11,586"
+       ],
+       [
+        "Fallowmere district",
+        "8428"
+       ],
+       [
+        "Ardmore district",
+        "10,303"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Ardmore district",
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F3-NEW-010-rel0",
+   "role": "related",
+   "host": "the-harbor-dispatch.example",
+   "path": "/news/0d5f33-follow-up-the-halvorsen-dam-inspection-figures-r",
+   "url": "http://the-harbor-dispatch.example/news/0d5f33-follow-up-the-halvorsen-dam-inspection-figures-r",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Follow-up: The halvorsen dam inspection figures revised",
+   "publisher": "The Harbor Dispatch",
+   "date": "2024-11-17",
+   "version_label": "The Harbor Dispatch, published 2024-11-17",
+   "expression": "related work",
+   "work_id": "work-0d5f33",
+   "entity": "Corran district",
+   "field_label": "households affected",
+   "unit": "households",
+   "body": {
+    "paragraphs": [
+     "The Harbor Dispatch follows up on the Halvorsen Dam inspection.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (households affected)",
+    "table_header": [
+     "",
+     "households affected (households)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "2707"
+     ],
+     [
+      "Belcliff district",
+      "3386"
+     ],
+     [
+      "Hollins district",
+      "9350"
+     ],
+     [
+      "Fallowmere district",
+      "10,918"
+     ],
+     [
+      "Ardmore district",
+      "2403"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "304",
+   "cell_value": "2707",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Harbor Dispatch has obtained the final report on the Halvorsen Dam inspection, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down households affected by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 10,200 households in Belcliff district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "households affected (households)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "9098"
+       ],
+       [
+        "Belcliff district",
+        "3274"
+       ],
+       [
+        "Hollins district",
+        "11,586"
+       ],
+       [
+        "Fallowmere district",
+        "8428"
+       ],
+       [
+        "Ardmore district",
+        "10,303"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Ardmore district"
+  },
+  {
+   "id": "F3-NEW-010-rel1",
+   "role": "related",
+   "host": "ironbridge-gazette.example",
+   "path": "/news/e4c6ef-the-halvorsen-dam-inspection-what-we-know",
+   "url": "http://ironbridge-gazette.example/news/e4c6ef-the-halvorsen-dam-inspection-what-we-know",
+   "kind": "page",
+   "site_type": "news",
+   "title": "The halvorsen dam inspection: what we know",
+   "publisher": "Ironbridge Gazette",
+   "date": "2024-09-14",
+   "version_label": "Ironbridge Gazette, published 2024-09-14",
+   "expression": "related work",
+   "work_id": "work-e4c6ef",
+   "entity": "Corran district",
+   "field_label": "households affected",
+   "unit": "households",
+   "body": {
+    "paragraphs": [
+     "Ironbridge Gazette follows up on the Halvorsen Dam inspection.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (households affected)",
+    "table_header": [
+     "",
+     "households affected (households)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "9855"
+     ],
+     [
+      "Belcliff district",
+      "3017"
+     ],
+     [
+      "Hollins district",
+      "3580"
+     ],
+     [
+      "Fallowmere district",
+      "2981"
+     ],
+     [
+      "Ardmore district",
+      "2403"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "7452",
+   "cell_value": "9855",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Harbor Dispatch has obtained the final report on the Halvorsen Dam inspection, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down households affected by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 10,200 households in Belcliff district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "households affected (households)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "9098"
+       ],
+       [
+        "Belcliff district",
+        "3274"
+       ],
+       [
+        "Hollins district",
+        "11,586"
+       ],
+       [
+        "Fallowmere district",
+        "8428"
+       ],
+       [
+        "Ardmore district",
+        "10,303"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Ardmore district"
+  },
+  {
+   "id": "F3-NEW-010-hub-notice0",
+   "role": "hub",
+   "host": "the-harbor-dispatch.example",
+   "path": "/site/updates/365471/0",
+   "url": "http://the-harbor-dispatch.example/site/updates/365471/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Update: Report: The halvorsen dam inspection findings released",
+   "publisher": "the-harbor-dispatch.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "This report was updated after publication; figures were revised.",
+     "The first edition of the report remains available for reference."
+    ]
+   },
+   "links": [
+    [
+     "http://the-harbor-dispatch.example/news/365471-report-the-halvorsen-dam-inspection-findings-rel/prev0",
+     "first edition of the report"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-NEW-010-hub-updates",
+   "role": "hub",
+   "host": "the-harbor-dispatch.example",
+   "path": "/site/updates/365471",
+   "url": "http://the-harbor-dispatch.example/site/updates/365471",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Corrections and updates",
+   "publisher": "the-harbor-dispatch.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Corrections and earlier editions of our reports."
+    ]
+   },
+   "links": [
+    [
+     "http://the-harbor-dispatch.example/site/updates/365471/0",
+     "Update notice: Report: The halvorsen dam inspection findings released"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-NEW-010-hub-wire-home",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/",
+   "url": "http://wirewire.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "WireWire",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Stories from partner newsrooms, distributed verbatim.",
+     "Use the search box to find a story."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F3-NEW-010-hub-wire-note",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/note/365471",
+   "url": "http://wirewire.example/note/365471",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Editor's note: Report: The halvorsen dam inspection findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "This story was updated after first publication.",
+     "Source: The Harbor Dispatch."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F3-NEW-010-hub-wire-briefing",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/briefing/365471",
+   "url": "http://wirewire.example/briefing/365471",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Briefing: Report: The halvorsen dam inspection findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "A short summary of the report. Figures are in the full story.",
+     "Source: The Harbor Dispatch."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F3-NEW-010-hub-home",
+   "role": "hub",
+   "host": "the-harbor-dispatch.example",
+   "path": "/",
+   "url": "http://the-harbor-dispatch.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "The Harbor Dispatch",
+   "publisher": "the-harbor-dispatch.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Our reporting is distributed to partner newsrooms by the WireWire news wire."
+    ]
+   },
+   "links": [
+    [
+     "http://the-harbor-dispatch.example/site/updates/365471",
+     "Corrections and earlier editions"
+    ],
+    [
+     "http://wirewire.example/",
+     "WireWire (syndication partner)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F3-NEW-010-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F3-NEW-010-W1v",
+  "unrecoverable": "F3-NEW-010-W2",
+  "twin": "F3-NEW-010-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://the-harbor-dispatch.example/news/365471-report-the-halvorsen-dam-inspection-findings-rel"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "3821 households",
+     "sources": [
+      "http://the-harbor-dispatch.example/news/365471-report-the-halvorsen-dam-inspection-findings-rel"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "3821 households",
+   "sources": [
+    "http://the-harbor-dispatch.example/news/365471-report-the-halvorsen-dam-inspection-findings-rel"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

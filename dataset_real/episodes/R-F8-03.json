@@ -1,0 +1,237 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-03",
+ "goal_id": "R-F8-03",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "I'm filling in band metadata from the MusicBrainz API: https://musicbrainz.org/ws/2/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711?fmt=json\nIn which year did Radiohead begin, according to its life-span record? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "1991",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-03-canon",
+   "role": "canonical",
+   "url": "https://musicbrainz.org/ws/2/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711?fmt=json",
+   "host": "musicbrainz.org",
+   "path": "/ws/2/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711?fmt=json",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "musicbrainz.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-03",
+   "value": "1991",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"end-area\": null,",
+     " \"type-id\": \"e431f5f6-b5d2-343d-8b36-72607fffb74b\",",
+     " \"ipis\": [],",
+     " \"type\": \"Group\",",
+     " \"country\": \"GB\",",
+     " \"life-span\": {",
+     "  \"ended\": false,",
+     "  \"end\": null,",
+     "  \"begin\": \"1991\"",
+     " },",
+     " \"isnis\": [",
+     "  \"0000000115475162\"",
+     " ],",
+     " \"sort-name\": \"Radiohead\",",
+     " \"disambiguation\": \"\",",
+     " \"area\": {",
+     "  \"id\": \"8a754a16-0027-3a29-b6d7-2b40ea0481ed\",",
+     "  \"type-id\": null,",
+     "  \"name\": \"United Kingdom\",",
+     "  \"type\": null,",
+     "  \"sort-name\": \"United Kingdom\",",
+     "  \"iso-3166-1-codes\": [",
+     "   \"GB\"",
+     "  ],",
+     "  \"disambiguation\": \"\"",
+     " },",
+     " \"name\": \"Radiohead\",",
+     " \"gender\": null,",
+     " \"gender-id\": null,"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:50:59Z",
+    "limited": {
+     "text": "Your requests are exceeding the allowable rate limit. Please see https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting for more information.",
+     "content_type": "text/plain",
+     "headers": {},
+     "status": 503
+    },
+    "text": "{\n \"end-area\": null,\n \"type-id\": \"e431f5f6-b5d2-343d-8b36-72607fffb74b\",\n \"ipis\": [],\n \"type\": \"Group\",\n \"country\": \"GB\",\n \"life-span\": {\n  \"ended\": false,\n  \"end\": null,\n  \"begin\": \"1991\"\n },\n \"isnis\": [\n  \"0000000115475162\"\n ],\n \"sort-name\": \"Radiohead\",\n \"disambiguation\": \"\",\n \"area\": {\n  \"id\": \"8a754a16-0027-3a29-b6d7-2b40ea0481ed\",\n  \"type-id\": null,\n  \"name\": \"United Kingdom\",\n  \"type\": null,\n  \"sort-name\": \"United Kingdom\",\n  \"iso-3166-1-codes\": [\n   \"GB\"\n  ],\n  \"disambiguation\": \"\"\n },\n \"name\": \"Radiohead\",\n \"gender\": null,\n \"gender-id\": null,\n \"id\": \"a74b1b7f-71a5-4011-9441-d0b5e4122711\",\n \"begin-area\": {\n  \"sort-name\": \"Abingdon-on-Thames\",\n  \"disambiguation\": \"\",\n  \"id\": \"d840d4b3-8987-4626-928b-398de760cc24\",\n  \"type-id\": null,\n  \"name\": \"Abingdon-on-Thames\",\n  \"type\": null\n }\n}"
+   }
+  },
+  {
+   "id": "R-F8-03-doc0",
+   "role": "context",
+   "url": "https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting",
+   "host": "musicbrainz.org",
+   "path": "/doc/MusicBrainz_API/Rate_Limiting",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "MusicBrainz API / Rate Limiting - MusicBrainz",
+   "publisher": "musicbrainz.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-03",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "MusicBrainz API / Rate Limiting - MusicBrainz ",
+     " Log in ",
+     " Create account ",
+     " Artist Event Recording Release Release group Series Work Area Instrument Label Place Annotation Tag CD stub Editor Documentation ",
+     " About us  ▾ ",
+     " About MusicBrainz ",
+     " Sponsors ",
+     " Team ",
+     " Shop ",
+     " Contact us ",
+     " Data licenses ",
+     " Social contract ",
+     " Code of Conduct ",
+     " Privacy policy ",
+     " GDPR compliance ",
+     " Copyright and DMCA compliance ",
+     " Data removal policy ",
+     " Auto-editor elections ",
+     " Privileged user accounts ",
+     " Statistics ",
+     " Timeline graph ",
+     " MusicBrainz history ",
+     " Products  ▾ ",
+     " MusicBrainz Picard ",
+     " AudioRanger ",
+     " Mp3tag ",
+     " Yate Music Tagger ",
+     " MusicBrainz for Android ",
+     " MusicBrainz Server ",
+     " MusicBrainz Database "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "MusicBrainz API / Rate Limiting - MusicBrainz",
+    "text": "MusicBrainz API / Rate Limiting - MusicBrainz \n Log in \n Create account \n Artist Event Recording Release Release group Series Work Area Instrument Label Place Annotation Tag CD stub Editor Documentation \n About us  ▾ \n About MusicBrainz \n Sponsors \n Team \n Shop \n Contact us \n Data licenses \n Social contract \n Code of Conduct \n Privacy policy \n GDPR compliance \n Copyright and DMCA compliance \n Data removal policy \n Auto-editor elections \n Privileged user accounts \n Statistics \n Timeline graph \n MusicBrainz history \n Products  ▾ \n MusicBrainz Picard \n AudioRanger \n Mp3tag \n Yate Music Tagger \n MusicBrainz for Android \n MusicBrainz Server \n MusicBrainz Database \n Developer resources \n MusicBrainz API \n Live Data Feed \n Search  ▾ \n Advanced search \n Edit search \n Tag cloud \n Top CD stubs \n Documentation  ▾ \n Beginners guide \n Style guidelines \n How tos \n FAQs \n Documentation index \n Edit types \n Relationship types \n Instrument list \n Genre list \n Development \n English ▾ \n Deutsch \n English \n Français \n Italiano \n Nederlands \n (reset language) \n Help translate \nThe browser you’re using is unsupported, and the website may not work correctly for you. It’s recommended that you upgrade to a recent version of Firefox, Safari, Edge, or any Chrome-based browser. If that’s not possible, you can try enabling legacy browser mode . \n Search \n MusicBrainz API / Rate Limiting \nContents \n 1 Introduction \n 2 How throttling works \n 2.1 User-Agent \n 2.2 Source IP address \n 2.3 Global \n 3 More about User-Agent throttling \n 4 How can I be a good citizen and be smart about using the Web Service? \n 4.1 Provide meaningful User-Agent strings \n 4.2 Scheduling \n 4.3 Checking for changes \nIntroduction \nMusicBrainz has finite resources and wishes to make the MusicBrainz database available to as much of the Internet community as possible. However, at certain times of day the number of requests to the MusicBrainz API exceeds our capacity for handling these requests. Honoring all of these requests would overload our servers and degrade the service for everyone. For this reason we rate limit our Web Service, which limits the number of requests that clients can make in a given period of time. \nHow throttling works \nWe may change the blocking/throttling rules at any time in order to protect the overall site health. \nAs of 2012-01-08 our rules are as follows: \nWhen a request reaches our servers we check three conditions, in the following order: \nUser-Agent string: are we receiving too many requests from this application?\nSource IP address: are we receiving too many requests from this particular IP address?\nGlobal: are the MusicBrainz servers as a whole too busy to handle this request? \nIf the answer to any one of those questions is \"yes\", then the request is denied with a 503 Service Unavailable error, and processing stops. Otherwise, we continue to the next check. If all checks pass then the request is honoured. \nRead on for details of how each check works. \nUser-Agent \nFor user-agen"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "maint_503",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-03-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 5
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:50:59Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting"
+  ],
+  "documented_limit": [
+   "MusicBrainz API / Rate Limiting - MusicBrainz",
+   "MusicBrainz API / Rate Limiting",
+   "2 How throttling works"
+  ]
+ },
+ "oracle_query": "Using the MusicBrainz API, report the year in which the band Radiohead (MBID a74",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using the MusicBrainz API, report the year in which the band Radiohead (MBID a74"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://musicbrainz.org/ws/2/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711?fmt=json"
+   },
+   {
+    "tool": "wait",
+    "seconds": 10
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://musicbrainz.org/ws/2/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711?fmt=json"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "1991",
+     "sources": [
+      "https://musicbrainz.org/ws/2/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711?fmt=json"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

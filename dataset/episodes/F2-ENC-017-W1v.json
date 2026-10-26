@@ -1,0 +1,569 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F2-ENC-017-W1v",
+ "goal_id": "F2-ENC-017",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "encyclopedia",
+ "task_type": "IR",
+ "goal": "A brochure cites the Openpedia article on Ostrel Glacier as it stood on 18 August 2025, and I want to check it against that revision: http://openpedia.example/wiki/394721-ostrel-glacier\nWhat surface area does that revision give? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "surface area",
+  "unit": "km²",
+  "canonical": "618",
+  "entity": "Ostrel Glacier"
+ },
+ "resources": [
+  {
+   "id": "F2-ENC-017-canon",
+   "role": "canonical",
+   "host": "openpedia.example",
+   "path": "/wiki/394721-ostrel-glacier",
+   "url": "http://openpedia.example/wiki/394721-ostrel-glacier",
+   "kind": "page",
+   "site_type": "wiki",
+   "title": "Ostrel Glacier",
+   "publisher": "Openpedia",
+   "date": "2025-08-18",
+   "version_label": "Openpedia revision of 2025-08-18",
+   "expression": "revision of 2025-08-18",
+   "work_id": "work-394721",
+   "entity": "Ostrel Glacier",
+   "field_label": "surface area",
+   "unit": "km²",
+   "body": {
+    "paragraphs": [
+     "Ostrel Glacier is a landmark in the fictional region of Hollins.",
+     "This article is maintained by volunteer editors."
+    ],
+    "table_caption": "Key facts",
+    "table_header": [
+     "",
+     "surface area (km²)"
+    ],
+    "table": [
+     [
+      "first recorded",
+      "1700"
+     ],
+     [
+      "region",
+      "Eskridge"
+     ],
+     [
+      "Ostrel Glacier",
+      "618"
+     ],
+     [
+      "coordinates",
+      "41.29N 13.09E"
+     ],
+     [
+      "status",
+      "protected"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "618",
+   "cell_value": "618",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "History",
+      "A survey in 1900 reported a surface area of 1143 km². Later measurements revised this figure, and the value in the infobox reflects the current consensus."
+     ],
+     [
+      "Geography",
+      "Ostrel Glacier lies in the fictional region of Belcliff, about 21 km from the nearest town."
+     ],
+     [
+      "See also",
+      "List of landmarks in Belcliff; Surveys of the Dunvale region."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Measurements over time",
+      "header": [
+       "Year",
+       "surface area (km²)",
+       "Source"
+      ],
+      "rows": [
+       [
+        "1900",
+        "915",
+        "regional survey"
+       ],
+       [
+        "1960",
+        "884",
+        "national survey"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F2-ENC-017-var0",
+   "role": "variant",
+   "host": "archive.example",
+   "path": "/web/20250902090000/http://openpedia.example/wiki/394721-ostrel-glacier",
+   "url": "http://archive.example/web/20250902090000/http://openpedia.example/wiki/394721-ostrel-glacier",
+   "kind": "page",
+   "site_type": "archive",
+   "title": "Ostrel Glacier",
+   "publisher": "Web archive snapshot of openpedia.example",
+   "date": "2025-08-18",
+   "version_label": "Snapshot of 2025-09-02",
+   "expression": "state at 20250902090000",
+   "work_id": "work-394721",
+   "entity": "Ostrel Glacier",
+   "field_label": "surface area",
+   "unit": "km²",
+   "body": {
+    "paragraphs": [
+     "Ostrel Glacier is a landmark in the fictional region of Hollins.",
+     "This article is maintained by volunteer editors."
+    ],
+    "table_caption": "Key facts",
+    "table_header": [
+     "",
+     "surface area (km²)"
+    ],
+    "table": [
+     [
+      "first recorded",
+      "1700"
+     ],
+     [
+      "region",
+      "Eskridge"
+     ],
+     [
+      "Ostrel Glacier",
+      "579"
+     ],
+     [
+      "coordinates",
+      "41.29N 13.09E"
+     ],
+     [
+      "status",
+      "protected"
+     ]
+    ]
+   },
+   "cue": "Archived on 2025-09-02; the page changed after the requested date.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "579",
+   "cell_value": "579",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "History",
+      "A survey in 1900 reported a surface area of 1143 km². Later measurements revised this figure, and the value in the infobox reflects the current consensus."
+     ],
+     [
+      "Geography",
+      "Ostrel Glacier lies in the fictional region of Belcliff, about 21 km from the nearest town."
+     ],
+     [
+      "See also",
+      "List of landmarks in Belcliff; Surveys of the Dunvale region."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Measurements over time",
+      "header": [
+       "Year",
+       "surface area (km²)",
+       "Source"
+      ],
+      "rows": [
+       [
+        "1900",
+        "915",
+        "regional survey"
+       ],
+       [
+        "1960",
+        "884",
+        "national survey"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "memento_datetime": "20250902090000",
+   "original": "http://openpedia.example/wiki/394721-ostrel-glacier",
+   "variant_type": "V-T",
+   "delta": {
+    "surface_area": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://archive.example/web/*/http://openpedia.example/wiki/394721-ostrel-glacier",
+    "http://archive.example/web/2025*/http://openpedia.example/wiki/394721-ostrel-glacier",
+    "http://archive.example/web/20250902*/http://openpedia.example/wiki/394721-ostrel-glacier"
+   ],
+   "inspect": {
+    "http://archive.example/web/20250902*/http://openpedia.example/wiki/394721-ostrel-glacier": []
+   }
+  },
+  {
+   "id": "F2-ENC-017-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/394721-0",
+   "url": "http://catalog0.example/entry/394721-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "Ostrel Glacier - companion study",
+   "publisher": "Different publisher",
+   "date": "2025-08-18",
+   "version_label": "companion entry",
+   "expression": "revision of 2025-08-18",
+   "work_id": "work-394721",
+   "entity": "Ostrel Glacier",
+   "field_label": "surface area",
+   "unit": "km²",
+   "body": {
+    "paragraphs": [
+     "Ostrel Glacier is a landmark in the fictional region of Hollins.",
+     "This article is maintained by volunteer editors."
+    ],
+    "table_caption": "Key facts",
+    "table_header": [
+     "",
+     "surface area (km²)"
+    ],
+    "table": [
+     [
+      "first recorded",
+      "1700"
+     ],
+     [
+      "region",
+      "Eskridge"
+     ],
+     [
+      "Ostrel Glacier",
+      "550"
+     ],
+     [
+      "coordinates",
+      "41.29N 13.09E"
+     ],
+     [
+      "status",
+      "protected"
+     ]
+    ]
+   },
+   "cue": "Note: this page describes a different item than Ostrel Glacier (Ostrel Glacier); scope differs.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "550",
+   "cell_value": "550",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "History",
+      "A survey in 1900 reported a surface area of 1143 km². Later measurements revised this figure, and the value in the infobox reflects the current consensus."
+     ],
+     [
+      "Geography",
+      "Ostrel Glacier lies in the fictional region of Belcliff, about 21 km from the nearest town."
+     ],
+     [
+      "See also",
+      "List of landmarks in Belcliff; Surveys of the Dunvale region."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Measurements over time",
+      "header": [
+       "Year",
+       "surface area (km²)",
+       "Source"
+      ],
+      "rows": [
+       [
+        "1900",
+        "915",
+        "regional survey"
+       ],
+       [
+        "1960",
+        "884",
+        "national survey"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F2-ENC-017-hub-capture-0-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902183000/http://openpedia.example/wiki/394721-ostrel-glacier",
+   "url": "http://archive.example/web/20250902183000/http://openpedia.example/wiki/394721-ostrel-glacier",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "openpedia.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Truncated capture: only the page header was archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902183000",
+   "original": "http://openpedia.example/wiki/394721-ostrel-glacier"
+  },
+  {
+   "id": "F2-ENC-017-hub-history",
+   "role": "hub",
+   "host": "openpedia.example",
+   "path": "/w/history/ostrel-glacier",
+   "url": "http://openpedia.example/w/history/ostrel-glacier",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Revision history of Ostrel Glacier",
+   "publisher": "openpedia.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Recent revisions: copyedits and infobox maintenance by volunteer editors.",
+     "Older revisions are listed on the next page."
+    ]
+   },
+   "links": [
+    [
+     "http://openpedia.example/w/history/ostrel-glacier/older",
+     "Older revisions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F2-ENC-017-hub-history-mid",
+   "role": "hub",
+   "host": "openpedia.example",
+   "path": "/w/history/ostrel-glacier/older",
+   "url": "http://openpedia.example/w/history/ostrel-glacier/older",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Revision history of Ostrel Glacier (page 2)",
+   "publisher": "openpedia.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Revisions: maintenance edits, reverted vandalism, citation fixes."
+    ]
+   },
+   "links": [
+    [
+     "http://openpedia.example/w/history/ostrel-glacier/oldest",
+     "Older revisions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-ENC-017-hub-history-older",
+   "role": "hub",
+   "host": "openpedia.example",
+   "path": "/w/history/ostrel-glacier/oldest",
+   "url": "http://openpedia.example/w/history/ostrel-glacier/oldest",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Older revisions of Ostrel Glacier",
+   "publisher": "openpedia.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Older revisions of this article.",
+     "Revisions before the current one were suppressed by an administrator."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "version_silent",
+  "signal": "silent",
+  "targets": [
+   "F2-ENC-017-canon"
+  ],
+  "params": {
+   "serve": "F2-ENC-017-var0"
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F2-ENC-017-W1v",
+  "unrecoverable": "F2-ENC-017-W2",
+  "twin": "F2-ENC-017-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://openpedia.example/wiki/394721-ostrel-glacier"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://archive.example/web/*/http://openpedia.example/wiki/394721-ostrel-glacier"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://archive.example/web/2025*/http://openpedia.example/wiki/394721-ostrel-glacier"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://archive.example/web/20250902*/http://openpedia.example/wiki/394721-ostrel-glacier"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://archive.example/web/20250902090000/http://openpedia.example/wiki/394721-ostrel-glacier"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://archive.example/web/20250902090000/http://openpedia.example/wiki/394721-ostrel-glacier?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "579 km²",
+     "sources": [
+      "http://archive.example/web/20250902090000/http://openpedia.example/wiki/394721-ostrel-glacier"
+     ],
+     "substitutions": [
+      {
+       "url": "http://archive.example/web/20250902090000/http://openpedia.example/wiki/394721-ostrel-glacier",
+       "relation": "other_version",
+       "version_id": "Snapshot of 2025-09-02",
+       "note": "This is Snapshot of 2025-09-02, not the requested version; the surface area may differ from the requested version."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "579 km²",
+   "sources": [
+    "http://archive.example/web/20250902090000/http://openpedia.example/wiki/394721-ostrel-glacier"
+   ],
+   "substitutions": [
+    {
+     "url": "http://archive.example/web/20250902090000/http://openpedia.example/wiki/394721-ostrel-glacier",
+     "relation": "other_version",
+     "version_id": "Snapshot of 2025-09-02",
+     "note": "This is Snapshot of 2025-09-02, not the requested version; the surface area may differ from the requested version."
+    }
+   ],
+   "diagnosis": "version",
+   "confidence": 0.6
+  }
+ }
+}

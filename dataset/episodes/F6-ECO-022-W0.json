@@ -1,0 +1,453 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F6-ECO-022-W0",
+ "goal_id": "F6-ECO-022",
+ "family": "F6",
+ "world": "W0",
+ "domain": "ecommerce",
+ "task_type": "TX",
+ "goal": "I'd like to order a Elyra Max70 electric kettle, GTIN 9560556919894. This is the listing I saw: http://lumen-outlet.example/products/51ba3d-elyra-max70-electric-kettle\nAny authorized shop that sells exactly this GTIN is fine. Tell me which order you placed.",
+ "answer": {
+  "kind": "order",
+  "field": "rated power",
+  "unit": "W",
+  "canonical": "9560556919894",
+  "entity": "Elyra Max70"
+ },
+ "resources": [
+  {
+   "id": "F6-ECO-022-canon",
+   "role": "canonical",
+   "host": "lumen-outlet.example",
+   "path": "/products/51ba3d-elyra-max70-electric-kettle",
+   "url": "http://lumen-outlet.example/products/51ba3d-elyra-max70-electric-kettle",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Elyra Max70 electric kettle",
+   "publisher": "lumen-outlet.example",
+   "date": "2025-06-01",
+   "version_label": "Elyra Max70 listing",
+   "expression": "product listing",
+   "work_id": "work-51ba3d",
+   "entity": "Elyra Max70",
+   "field_label": "rated power",
+   "unit": "W",
+   "body": {
+    "paragraphs": [
+     "The Elyra Max70 is a electric kettle by Elyra.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "rated power (W)"
+    ],
+    "table": [
+     [
+      "Elyra Max70",
+      "2818"
+     ],
+     [
+      "weight",
+      "224 g"
+     ],
+     [
+      "warranty",
+      "3 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "9560556919894",
+   "price": "390.53",
+   "value": "2818",
+   "cell_value": "2818",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Elyra Max70 electric kettle is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the rated power the same as on the older Elyra X40? A: No, see the comparison table; the older model is rated 3851 W."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Elyra Pro20 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "rated power (W)"
+      ],
+      "rows": [
+       [
+        "Elyra X40",
+        "4323"
+       ],
+       [
+        "Elyra Pro20",
+        "5180"
+       ],
+       [
+        "Elyra Lite20",
+        "1205"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F6-ECO-022-faith",
+   "role": "faithful",
+   "host": "parcelpoint.example",
+   "path": "/item/9560556919894",
+   "url": "http://parcelpoint.example/item/9560556919894",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Elyra Max70 electric kettle",
+   "publisher": "parcelpoint.example (authorized retailer)",
+   "date": "2025-06-01",
+   "version_label": "Elyra Max70 listing",
+   "expression": "product listing",
+   "work_id": "work-51ba3d",
+   "entity": "Elyra Max70",
+   "field_label": "rated power",
+   "unit": "W",
+   "body": {
+    "paragraphs": [
+     "The Elyra Max70 is a electric kettle by Elyra.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "rated power (W)"
+    ],
+    "table": [
+     [
+      "Elyra Max70",
+      "2818"
+     ],
+     [
+      "weight",
+      "224 g"
+     ],
+     [
+      "warranty",
+      "3 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "9560556919894",
+   "price": "390.53",
+   "value": "2818",
+   "cell_value": "2818",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Elyra Max70 electric kettle is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the rated power the same as on the older Elyra X40? A: No, see the comparison table; the older model is rated 3851 W."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Elyra Pro20 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "rated power (W)"
+      ],
+      "rows": [
+       [
+        "Elyra X40",
+        "4323"
+       ],
+       [
+        "Elyra Pro20",
+        "5180"
+       ],
+       [
+        "Elyra Lite20",
+        "1205"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "other_authorized_shop",
+   "chain": [
+    "http://elyra.example/",
+    "http://elyra.example/where-to-buy",
+    "http://parcelpoint.example/",
+    "http://parcelpoint.example/search?q=9560556919894"
+   ],
+   "inspect": {
+    "http://elyra.example/where-to-buy": [
+     "http://voltmart.example/",
+     "http://voltmart.example/search?q=9560556919894",
+     "http://kitebay-store.example/",
+     "http://kitebay-store.example/search?q=9560556919894"
+    ]
+   }
+  },
+  {
+   "id": "F6-ECO-022-hub-dev",
+   "role": "hub",
+   "host": "lumen-outlet.example",
+   "path": "/developers",
+   "url": "http://lumen-outlet.example/developers",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Developers",
+   "publisher": "lumen-outlet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Automated clients must use our API rather than the website.",
+     "See the API reference for endpoints and terms of use."
+    ]
+   },
+   "links": [
+    [
+     "http://lumen-outlet.example/developers/reference",
+     "API reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F6-ECO-022-hub-dev-ref",
+   "role": "hub",
+   "host": "lumen-outlet.example",
+   "path": "/developers/reference",
+   "url": "http://lumen-outlet.example/developers/reference",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "API reference",
+   "publisher": "lumen-outlet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "API access is limited to approved partners. Contact us to apply."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ECO-022-hub-brand-home",
+   "role": "hub",
+   "host": "elyra.example",
+   "path": "/",
+   "url": "http://elyra.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Elyra official site",
+   "publisher": "elyra.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Elyra designs electric kettles and other products.",
+     "Current models include the Elyra Max70."
+    ]
+   },
+   "links": [
+    [
+     "http://elyra.example/where-to-buy",
+     "Where to buy"
+    ]
+   ],
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ECO-022-hub-brand-wtb",
+   "role": "hub",
+   "host": "elyra.example",
+   "path": "/where-to-buy",
+   "url": "http://elyra.example/where-to-buy",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Where to buy Elyra products",
+   "publisher": "elyra.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Authorized retailers. Stock varies; search the retailer's site for the GTIN of your model."
+    ]
+   },
+   "links": [
+    [
+     "http://voltmart.example/",
+     "voltmart.example"
+    ],
+    [
+     "http://lumen-outlet.example/",
+     "lumen-outlet.example"
+    ],
+    [
+     "http://kitebay-store.example/",
+     "kitebay-store.example"
+    ],
+    [
+     "http://parcelpoint.example/",
+     "parcelpoint.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F6-ECO-022-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F6-ECO-022-W1a",
+  "unrecoverable": "F6-ECO-022-W3",
+  "twin": "F6-ECO-022-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://lumen-outlet.example/products/51ba3d-elyra-max70-electric-kettle"
+   },
+   {
+    "tool": "http",
+    "method": "POST",
+    "url": "http://lumen-outlet.example/checkout",
+    "data": {
+     "gtin": "9560556919894",
+     "quantity": "1"
+    }
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "9560556919894",
+     "sources": [
+      "http://lumen-outlet.example/products/51ba3d-elyra-max70-electric-kettle"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "9560556919894",
+   "sources": [
+    "http://lumen-outlet.example/products/51ba3d-elyra-max70-electric-kettle"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

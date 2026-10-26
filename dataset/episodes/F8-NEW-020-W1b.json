@@ -1,0 +1,1055 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F8-NEW-020-W1b",
+ "goal_id": "F8-NEW-020",
+ "family": "F8",
+ "world": "W1b",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "I'm writing a local newsletter piece based on Kestrel Daily's March 2025 report on the Tessaly school census: http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas\nWhat figure does the report give for turbines approved in Ardmore district? Please tell me which source you used. I need this within the next 30 minutes.",
+ "answer": {
+  "kind": "value",
+  "field": "turbines approved",
+  "unit": "turbines",
+  "canonical": "10",
+  "entity": "Ardmore district"
+ },
+ "resources": [
+  {
+   "id": "F8-NEW-020-canon",
+   "role": "canonical",
+   "host": "kestrel-daily.example",
+   "path": "/news/537556-report-the-tessaly-school-census-findings-releas",
+   "url": "http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The tessaly school census findings released",
+   "publisher": "Kestrel Daily",
+   "date": "2025-03-26",
+   "version_label": "Kestrel Daily, published 2025-03-26",
+   "expression": "published article",
+   "work_id": "work-537556",
+   "entity": "Ardmore district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "Kestrel Daily obtained the final report on the Tessaly school census.",
+     "The report lists turbines approved for five districts."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "44"
+     ],
+     [
+      "Dunvale district",
+      "124"
+     ],
+     [
+      "Hollins district",
+      "70"
+     ],
+     [
+      "Ardmore district",
+      "10"
+     ],
+     [
+      "Belcliff district",
+      "90"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "10",
+   "cell_value": "10",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Tessaly school census, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 16 turbines in Corran district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Belcliff council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Ardmore district",
+        "5"
+       ],
+       [
+        "Corran district",
+        "5"
+       ],
+       [
+        "Dunvale district",
+        "6"
+       ],
+       [
+        "Hollins district",
+        "15"
+       ],
+       [
+        "Belcliff district",
+        "6"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F8-NEW-020-faith",
+   "role": "faithful",
+   "host": "mirror.kestrel-daily.example",
+   "path": "/news/537556-report-the-tessaly-school-census-findings-releas",
+   "url": "http://mirror.kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The tessaly school census findings released",
+   "publisher": "Kestrel Daily (official mirror)",
+   "date": "2025-03-26",
+   "version_label": "Kestrel Daily, published 2025-03-26",
+   "expression": "published article",
+   "work_id": "work-537556",
+   "entity": "Ardmore district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "Kestrel Daily obtained the final report on the Tessaly school census.",
+     "The report lists turbines approved for five districts."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "44"
+     ],
+     [
+      "Dunvale district",
+      "124"
+     ],
+     [
+      "Hollins district",
+      "70"
+     ],
+     [
+      "Ardmore district",
+      "10"
+     ],
+     [
+      "Belcliff district",
+      "90"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "10",
+   "cell_value": "10",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Tessaly school census, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 16 turbines in Corran district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Belcliff council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Ardmore district",
+        "5"
+       ],
+       [
+        "Corran district",
+        "5"
+       ],
+       [
+        "Dunvale district",
+        "6"
+       ],
+       [
+        "Hollins district",
+        "15"
+       ],
+       [
+        "Belcliff district",
+        "6"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_mirror",
+   "chain": [
+    "http://kestrel-daily.example/",
+    "http://status.kestrel-daily.example/",
+    "http://mirror.kestrel-daily.example/",
+    "http://mirror.kestrel-daily.example/search?q=Report%3A+The+tessaly+school+census+findings+released"
+   ]
+  },
+  {
+   "id": "F8-NEW-020-var0",
+   "role": "variant",
+   "host": "archive.example",
+   "path": "/web/20250902090000/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+   "url": "http://archive.example/web/20250902090000/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+   "kind": "page",
+   "site_type": "archive",
+   "title": "Report: The tessaly school census findings released",
+   "publisher": "Web archive snapshot of kestrel-daily.example",
+   "date": "2025-03-26",
+   "version_label": "Snapshot of 2025-09-02",
+   "expression": "state at 20250902090000",
+   "work_id": "work-537556",
+   "entity": "Ardmore district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "Kestrel Daily obtained the final report on the Tessaly school census.",
+     "The report lists turbines approved for five districts."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "44"
+     ],
+     [
+      "Dunvale district",
+      "124"
+     ],
+     [
+      "Hollins district",
+      "70"
+     ],
+     [
+      "Ardmore district",
+      "9"
+     ],
+     [
+      "Belcliff district",
+      "90"
+     ]
+    ]
+   },
+   "cue": "Archived on 2025-09-02; the page changed after the requested date.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "9",
+   "cell_value": "9",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Tessaly school census, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 16 turbines in Corran district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Belcliff council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Ardmore district",
+        "5"
+       ],
+       [
+        "Corran district",
+        "5"
+       ],
+       [
+        "Dunvale district",
+        "6"
+       ],
+       [
+        "Hollins district",
+        "15"
+       ],
+       [
+        "Belcliff district",
+        "6"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "memento_datetime": "20250902090000",
+   "original": "http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+   "variant_type": "V-T",
+   "delta": {
+    "turbines_approved": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://archive.example/web/*/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+    "http://archive.example/web/2025*/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+    "http://archive.example/web/20250902*/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas"
+   ],
+   "inspect": {
+    "http://archive.example/web/20250902*/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas": [
+     "http://archive.example/web/20250902063000/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas"
+    ]
+   }
+  },
+  {
+   "id": "F8-NEW-020-dec0",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/5375560",
+   "url": "http://filedump.example/f/5375560",
+   "kind": "page",
+   "site_type": "cache",
+   "title": "Report: The tessaly school census findings released",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "published article",
+   "work_id": "work-537556",
+   "entity": "Ardmore district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "Kestrel Daily obtained the final report on the Tessaly school census.",
+     "The report lists turbines approved for five districts."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "44"
+     ],
+     [
+      "Dunvale district",
+      "124"
+     ],
+     [
+      "Hollins district",
+      "70"
+     ],
+     [
+      "Ardmore district",
+      "12"
+     ],
+     [
+      "Belcliff district",
+      "90"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "value": "12",
+   "cell_value": "12",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Tessaly school census, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 16 turbines in Corran district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Belcliff council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Ardmore district",
+        "5"
+       ],
+       [
+        "Corran district",
+        "5"
+       ],
+       [
+        "Dunvale district",
+        "6"
+       ],
+       [
+        "Hollins district",
+        "15"
+       ],
+       [
+        "Belcliff district",
+        "6"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F8-NEW-020-rel0",
+   "role": "related",
+   "host": "kestrel-daily.example",
+   "path": "/news/fff01f-follow-up-the-tessaly-school-census-figures-revi",
+   "url": "http://kestrel-daily.example/news/fff01f-follow-up-the-tessaly-school-census-figures-revi",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Follow-up: The tessaly school census figures revised",
+   "publisher": "Kestrel Daily",
+   "date": "2025-05-01",
+   "version_label": "Kestrel Daily, published 2025-05-01",
+   "expression": "related work",
+   "work_id": "work-fff01f",
+   "entity": "Ardmore district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "Kestrel Daily follows up on the Tessaly school census.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "15"
+     ],
+     [
+      "Dunvale district",
+      "5"
+     ],
+     [
+      "Hollins district",
+      "6"
+     ],
+     [
+      "Ardmore district",
+      "17"
+     ],
+     [
+      "Belcliff district",
+      "5"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "17",
+   "cell_value": "17",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Tessaly school census, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 16 turbines in Corran district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Belcliff council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Ardmore district",
+        "5"
+       ],
+       [
+        "Corran district",
+        "5"
+       ],
+       [
+        "Dunvale district",
+        "6"
+       ],
+       [
+        "Hollins district",
+        "15"
+       ],
+       [
+        "Belcliff district",
+        "6"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F8-NEW-020-rel1",
+   "role": "related",
+   "host": "the-lantern-post.example",
+   "path": "/news/d51215-the-tessaly-school-census-what-we-know",
+   "url": "http://the-lantern-post.example/news/d51215-the-tessaly-school-census-what-we-know",
+   "kind": "page",
+   "site_type": "news",
+   "title": "The tessaly school census: what we know",
+   "publisher": "The Lantern Post",
+   "date": "2025-03-26",
+   "version_label": "The Lantern Post, published 2025-03-26",
+   "expression": "related work",
+   "work_id": "work-d51215",
+   "entity": "Ardmore district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "The Lantern Post follows up on the Tessaly school census.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Corran district",
+      "5"
+     ],
+     [
+      "Dunvale district",
+      "5"
+     ],
+     [
+      "Hollins district",
+      "6"
+     ],
+     [
+      "Ardmore district",
+      "19"
+     ],
+     [
+      "Belcliff district",
+      "5"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "19",
+   "cell_value": "19",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Tessaly school census, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 16 turbines in Corran district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Belcliff council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Ardmore district",
+        "5"
+       ],
+       [
+        "Corran district",
+        "5"
+       ],
+       [
+        "Dunvale district",
+        "6"
+       ],
+       [
+        "Hollins district",
+        "15"
+       ],
+       [
+        "Belcliff district",
+        "6"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F8-NEW-020-hub-capture-0-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902183000/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+   "url": "http://archive.example/web/20250902183000/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "kestrel-daily.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Truncated capture: only the page header was archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902183000",
+   "original": "http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas"
+  },
+  {
+   "id": "F8-NEW-020-hub-capture-0-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902063000/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+   "url": "http://archive.example/web/20250902063000/http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "kestrel-daily.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Capture of a cookie consent screen; the page content was not archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902063000",
+   "original": "http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas"
+  },
+  {
+   "id": "F8-NEW-020-hub-status",
+   "role": "hub",
+   "host": "status.kestrel-daily.example",
+   "path": "/",
+   "url": "http://status.kestrel-daily.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "kestrel-daily.example status",
+   "publisher": "status.kestrel-daily.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Planned maintenance is in progress on the main site.",
+     "An official mirror is available at mirror.kestrel-daily.example. Use the mirror's search to find content."
+    ]
+   },
+   "links": [
+    [
+     "http://mirror.kestrel-daily.example/",
+     "Official mirror"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-NEW-020-hub-updates",
+   "role": "hub",
+   "host": "kestrel-daily.example",
+   "path": "/site/updates/537556",
+   "url": "http://kestrel-daily.example/site/updates/537556",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Corrections and updates",
+   "publisher": "kestrel-daily.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Corrections and earlier editions of our reports.",
+     "No earlier editions of recent reports are kept online."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-NEW-020-hub-wire-home",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/",
+   "url": "http://wirewire.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "WireWire",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Stories from partner newsrooms, distributed verbatim.",
+     "Use the search box to find a story."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F8-NEW-020-hub-wire-briefing",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/briefing/537556",
+   "url": "http://wirewire.example/briefing/537556",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Briefing: Report: The tessaly school census findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "A short summary of the report. Figures are in the full story.",
+     "Source: Kestrel Daily."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-NEW-020-hub-home",
+   "role": "hub",
+   "host": "kestrel-daily.example",
+   "path": "/",
+   "url": "http://kestrel-daily.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Kestrel Daily",
+   "publisher": "kestrel-daily.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Our reporting is distributed to partner newsrooms by the WireWire news wire."
+    ]
+   },
+   "links": [
+    [
+     "http://status.kestrel-daily.example/",
+     "Service status"
+    ],
+    [
+     "http://kestrel-daily.example/site/updates/537556",
+     "Corrections and earlier editions"
+    ],
+    [
+     "http://wirewire.example/",
+     "WireWire (syndication partner)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "F8-NEW-020-canon"
+  ],
+  "params": {
+   "retry_after": 7200,
+   "recovers": false
+  }
+ },
+ "credentials": null,
+ "deadline_s": 1800,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F8-NEW-020-W1b",
+  "unrecoverable": "F8-NEW-020-W3",
+  "twin": "F8-NEW-020-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://kestrel-daily.example/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://status.kestrel-daily.example/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://mirror.kestrel-daily.example/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://mirror.kestrel-daily.example/search?q=Report%3A+The+tessaly+school+census+findings+released"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://mirror.kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://mirror.kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "10 turbines",
+     "sources": [
+      "http://mirror.kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas"
+     ],
+     "substitutions": [
+      {
+       "url": "http://mirror.kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+       "relation": "same_version",
+       "version_id": "Kestrel Daily, published 2025-03-26",
+       "note": "Identical copy of the requested version."
+      }
+     ],
+     "diagnosis": "429",
+     "confidence": 0.9
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "10 turbines",
+   "sources": [
+    "http://mirror.kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas"
+   ],
+   "substitutions": [
+    {
+     "url": "http://mirror.kestrel-daily.example/news/537556-report-the-tessaly-school-census-findings-releas",
+     "relation": "same_version",
+     "version_id": "Kestrel Daily, published 2025-03-26",
+     "note": "Identical copy of the requested version."
+    }
+   ],
+   "diagnosis": "429",
+   "confidence": 0.9
+  }
+ }
+}

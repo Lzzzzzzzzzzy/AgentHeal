@@ -1,0 +1,843 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F7-NEW-012-W0",
+ "goal_id": "F7-NEW-012",
+ "family": "F7",
+ "world": "W0",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "I'm writing a local newsletter piece based on The Lantern Post's July 2025 report on the Quell Valley water report: http://the-lantern-post.example/news/35ff00-report-the-quell-valley-water-report-findings-re\nWhat figure does the report give for turbines approved in Corran district? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "turbines approved",
+  "unit": "turbines",
+  "canonical": "112",
+  "entity": "Corran district"
+ },
+ "resources": [
+  {
+   "id": "F7-NEW-012-canon",
+   "role": "canonical",
+   "host": "the-lantern-post.example",
+   "path": "/news/35ff00-report-the-quell-valley-water-report-findings-re",
+   "url": "http://the-lantern-post.example/news/35ff00-report-the-quell-valley-water-report-findings-re",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The quell valley water report findings released",
+   "publisher": "The Lantern Post",
+   "date": "2025-07-04",
+   "version_label": "The Lantern Post, published 2025-07-04",
+   "expression": "published article",
+   "work_id": "work-35ff00",
+   "entity": "Corran district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "The Lantern Post obtained the final report on the Quell Valley water report.",
+     "The report lists turbines approved for five districts."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Dunvale district",
+      "18"
+     ],
+     [
+      "Fallowmere district",
+      "43"
+     ],
+     [
+      "Eskridge district",
+      "10"
+     ],
+     [
+      "Glenhurst district",
+      "19"
+     ],
+     [
+      "Corran district",
+      "112"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "112",
+   "cell_value": "112",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Lantern Post has obtained the final report on the Quell Valley water report, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 200 turbines in Eskridge district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "68"
+       ],
+       [
+        "Dunvale district",
+        "54"
+       ],
+       [
+        "Fallowmere district",
+        "49"
+       ],
+       [
+        "Eskridge district",
+        "211"
+       ],
+       [
+        "Glenhurst district",
+        "46"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F7-NEW-012-faith",
+   "role": "faithful",
+   "host": "intl.the-lantern-post.example",
+   "path": "/news/35ff00-report-the-quell-valley-water-report-findings-re",
+   "url": "http://intl.the-lantern-post.example/news/35ff00-report-the-quell-valley-water-report-findings-re",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The quell valley water report findings released",
+   "publisher": "The Lantern Post (international edition)",
+   "date": "2025-07-04",
+   "version_label": "The Lantern Post, published 2025-07-04",
+   "expression": "published article",
+   "work_id": "work-35ff00",
+   "entity": "Corran district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "The Lantern Post obtained the final report on the Quell Valley water report.",
+     "The report lists turbines approved for five districts."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Dunvale district",
+      "18"
+     ],
+     [
+      "Fallowmere district",
+      "43"
+     ],
+     [
+      "Eskridge district",
+      "10"
+     ],
+     [
+      "Glenhurst district",
+      "19"
+     ],
+     [
+      "Corran district",
+      "112"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "112",
+   "cell_value": "112",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Lantern Post has obtained the final report on the Quell Valley water report, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 200 turbines in Eskridge district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "68"
+       ],
+       [
+        "Dunvale district",
+        "54"
+       ],
+       [
+        "Fallowmere district",
+        "49"
+       ],
+       [
+        "Eskridge district",
+        "211"
+       ],
+       [
+        "Glenhurst district",
+        "46"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "international_edition",
+   "chain": [
+    "http://the-lantern-post.example/",
+    "http://the-lantern-post.example/site/editions",
+    "http://intl.the-lantern-post.example/",
+    "http://intl.the-lantern-post.example/search?q=Report%3A+The+quell+valley+water+report+findings+released"
+   ]
+  },
+  {
+   "id": "F7-NEW-012-dec0",
+   "role": "decoy",
+   "host": "digestblog.example",
+   "path": "/posts/35ff00-0",
+   "url": "http://digestblog.example/posts/35ff00-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "Quick summary: Report: The quell valley water report findings released",
+   "publisher": "DigestBlog (aggregator)",
+   "date": "2025-07-04",
+   "version_label": "aggregator summary (no version stated)",
+   "expression": "published article",
+   "work_id": "work-35ff00",
+   "entity": "Corran district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "Roughly 110 turbines for Corran district, according to our reading.",
+     "The Lantern Post obtained the final report on the Quell Valley water report."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Dunvale district",
+      "18"
+     ],
+     [
+      "Fallowmere district",
+      "43"
+     ],
+     [
+      "Eskridge district",
+      "10"
+     ],
+     [
+      "Glenhurst district",
+      "19"
+     ],
+     [
+      "Corran district",
+      "110"
+     ]
+    ]
+   },
+   "cue": "Summary written by an aggregator; figures are rounded and unsourced.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "value": "110",
+   "cell_value": "110",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Lantern Post has obtained the final report on the Quell Valley water report, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 200 turbines in Eskridge district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "68"
+       ],
+       [
+        "Dunvale district",
+        "54"
+       ],
+       [
+        "Fallowmere district",
+        "49"
+       ],
+       [
+        "Eskridge district",
+        "211"
+       ],
+       [
+        "Glenhurst district",
+        "46"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-A"
+  },
+  {
+   "id": "F7-NEW-012-rel0",
+   "role": "related",
+   "host": "the-lantern-post.example",
+   "path": "/news/da6ac8-follow-up-the-quell-valley-water-report-figures-",
+   "url": "http://the-lantern-post.example/news/da6ac8-follow-up-the-quell-valley-water-report-figures-",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Follow-up: The quell valley water report figures revised",
+   "publisher": "The Lantern Post",
+   "date": "2025-09-09",
+   "version_label": "The Lantern Post, published 2025-09-09",
+   "expression": "related work",
+   "work_id": "work-da6ac8",
+   "entity": "Corran district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "The Lantern Post follows up on the Quell Valley water report.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Dunvale district",
+      "169"
+     ],
+     [
+      "Fallowmere district",
+      "52"
+     ],
+     [
+      "Eskridge district",
+      "55"
+     ],
+     [
+      "Glenhurst district",
+      "64"
+     ],
+     [
+      "Corran district",
+      "158"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "158",
+   "cell_value": "158",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Lantern Post has obtained the final report on the Quell Valley water report, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 200 turbines in Eskridge district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "68"
+       ],
+       [
+        "Dunvale district",
+        "54"
+       ],
+       [
+        "Fallowmere district",
+        "49"
+       ],
+       [
+        "Eskridge district",
+        "211"
+       ],
+       [
+        "Glenhurst district",
+        "46"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F7-NEW-012-rel1",
+   "role": "related",
+   "host": "ironbridge-gazette.example",
+   "path": "/news/9b0fb6-the-quell-valley-water-report-what-we-know",
+   "url": "http://ironbridge-gazette.example/news/9b0fb6-the-quell-valley-water-report-what-we-know",
+   "kind": "page",
+   "site_type": "news",
+   "title": "The quell valley water report: what we know",
+   "publisher": "Ironbridge Gazette",
+   "date": "2025-07-04",
+   "version_label": "Ironbridge Gazette, published 2025-07-04",
+   "expression": "related work",
+   "work_id": "work-9b0fb6",
+   "entity": "Corran district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "Ironbridge Gazette follows up on the Quell Valley water report.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Dunvale district",
+      "48"
+     ],
+     [
+      "Fallowmere district",
+      "153"
+     ],
+     [
+      "Eskridge district",
+      "179"
+     ],
+     [
+      "Glenhurst district",
+      "205"
+     ],
+     [
+      "Corran district",
+      "56"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "56",
+   "cell_value": "56",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Lantern Post has obtained the final report on the Quell Valley water report, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 200 turbines in Eskridge district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "68"
+       ],
+       [
+        "Dunvale district",
+        "54"
+       ],
+       [
+        "Fallowmere district",
+        "49"
+       ],
+       [
+        "Eskridge district",
+        "211"
+       ],
+       [
+        "Glenhurst district",
+        "46"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F7-NEW-012-hub-editions",
+   "role": "hub",
+   "host": "the-lantern-post.example",
+   "path": "/site/editions",
+   "url": "http://the-lantern-post.example/site/editions",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Editions",
+   "publisher": "the-lantern-post.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Editions of The Lantern Post."
+    ]
+   },
+   "links": [
+    [
+     "http://intl.the-lantern-post.example/",
+     "International edition"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F7-NEW-012-hub-intl-home",
+   "role": "hub",
+   "host": "intl.the-lantern-post.example",
+   "path": "/",
+   "url": "http://intl.the-lantern-post.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "The Lantern Post - international edition",
+   "publisher": "intl.the-lantern-post.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "International edition. Use the search box to find articles."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F7-NEW-012-hub-updates",
+   "role": "hub",
+   "host": "the-lantern-post.example",
+   "path": "/site/updates/35ff00",
+   "url": "http://the-lantern-post.example/site/updates/35ff00",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Corrections and updates",
+   "publisher": "the-lantern-post.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Corrections and earlier editions of our reports.",
+     "No earlier editions of recent reports are kept online."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F7-NEW-012-hub-wire-home",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/",
+   "url": "http://wirewire.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "WireWire",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Stories from partner newsrooms, distributed verbatim.",
+     "Use the search box to find a story."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F7-NEW-012-hub-wire-briefing",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/briefing/35ff00",
+   "url": "http://wirewire.example/briefing/35ff00",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Briefing: Report: The quell valley water report findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "A short summary of the report. Figures are in the full story.",
+     "Source: The Lantern Post."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F7-NEW-012-hub-home",
+   "role": "hub",
+   "host": "the-lantern-post.example",
+   "path": "/",
+   "url": "http://the-lantern-post.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "The Lantern Post",
+   "publisher": "the-lantern-post.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Our reporting is distributed to partner newsrooms by the WireWire news wire."
+    ]
+   },
+   "links": [
+    [
+     "http://the-lantern-post.example/site/editions",
+     "Editions"
+    ],
+    [
+     "http://the-lantern-post.example/site/updates/35ff00",
+     "Corrections and earlier editions"
+    ],
+    [
+     "http://wirewire.example/",
+     "WireWire (syndication partner)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F7-NEW-012-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F7-NEW-012-W1b",
+  "unrecoverable": "F7-NEW-012-W2",
+  "twin": "F7-NEW-012-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://the-lantern-post.example/news/35ff00-report-the-quell-valley-water-report-findings-re"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "112 turbines",
+     "sources": [
+      "http://the-lantern-post.example/news/35ff00-report-the-quell-valley-water-report-findings-re"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "112 turbines",
+   "sources": [
+    "http://the-lantern-post.example/news/35ff00-report-the-quell-valley-water-report-findings-re"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

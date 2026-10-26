@@ -1,0 +1,690 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F1-OPE-021-W0",
+ "goal_id": "F1-OPE-021",
+ "family": "F1",
+ "world": "W0",
+ "domain": "opendata",
+ "task_type": "IR",
+ "goal": "For a planning memo I need a value from the Institute for Soil Records' \"County Water-Quality Index\" (2025 edition). Here is the dataset page: http://institute-for-soil-records.example/datasets/964264-county-water-quality-index\nWhat is the nitrate level at site Glenhurst? Please give the value with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "nitrate level at site",
+  "unit": "mg/L",
+  "canonical": "8.45",
+  "entity": "Glenhurst"
+ },
+ "resources": [
+  {
+   "id": "F1-OPE-021-canon",
+   "role": "canonical",
+   "host": "institute-for-soil-records.example",
+   "path": "/datasets/964264-county-water-quality-index",
+   "url": "http://institute-for-soil-records.example/datasets/964264-county-water-quality-index",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "County Water-Quality Index",
+   "publisher": "Institute for Soil Records",
+   "date": "2025-08-01",
+   "version_label": "County Water-Quality Index, 2025 edition",
+   "expression": "2025 edition",
+   "work_id": "work-964264",
+   "entity": "Glenhurst",
+   "field_label": "nitrate level at site",
+   "unit": "mg/L",
+   "body": {
+    "paragraphs": [
+     "Published by the Institute for Soil Records.",
+     "This page describes 2025 edition of the dataset."
+    ],
+    "table_caption": "Nitrate level at site by site",
+    "table_header": [
+     "",
+     "nitrate level at site (mg/L)"
+    ],
+    "table": [
+     [
+      "Eskridge",
+      "1.94"
+     ],
+     [
+      "Dunvale",
+      "21.29"
+     ],
+     [
+      "Fallowmere",
+      "2.14"
+     ],
+     [
+      "Glenhurst",
+      "8.45"
+     ],
+     [
+      "Belcliff",
+      "29.83"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "8.45",
+   "cell_value": "8.45",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "County Water-Quality Index is published by the Institute for Soil Records under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Dunvale; the previous release reported 14.40 mg/L. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Institute for Soil Records (2025). County Water-Quality Index, 2025 edition."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "nitrate level at site (mg/L)"
+      ],
+      "rows": [
+       [
+        "Glenhurst",
+        "4.23"
+       ],
+       [
+        "Eskridge",
+        "4.93"
+       ],
+       [
+        "Dunvale",
+        "4.76"
+       ],
+       [
+        "Fallowmere",
+        "4.28"
+       ],
+       [
+        "Belcliff",
+        "15.36"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F1-OPE-021-faith",
+   "role": "faithful",
+   "host": "institute-for-soil-records.example",
+   "path": "/archive/datasets/964264-county-water-quality-index-moved",
+   "url": "http://institute-for-soil-records.example/archive/datasets/964264-county-water-quality-index-moved",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "County Water-Quality Index",
+   "publisher": "Institute for Soil Records",
+   "date": "2025-08-01",
+   "version_label": "County Water-Quality Index, 2025 edition",
+   "expression": "2025 edition",
+   "work_id": "work-964264",
+   "entity": "Glenhurst",
+   "field_label": "nitrate level at site",
+   "unit": "mg/L",
+   "body": {
+    "paragraphs": [
+     "Published by the Institute for Soil Records.",
+     "This page describes 2025 edition of the dataset."
+    ],
+    "table_caption": "Nitrate level at site by site",
+    "table_header": [
+     "",
+     "nitrate level at site (mg/L)"
+    ],
+    "table": [
+     [
+      "Eskridge",
+      "1.94"
+     ],
+     [
+      "Dunvale",
+      "21.29"
+     ],
+     [
+      "Fallowmere",
+      "2.14"
+     ],
+     [
+      "Glenhurst",
+      "8.45"
+     ],
+     [
+      "Belcliff",
+      "29.83"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "8.45",
+   "cell_value": "8.45",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "County Water-Quality Index is published by the Institute for Soil Records under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Dunvale; the previous release reported 14.40 mg/L. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Institute for Soil Records (2025). County Water-Quality Index, 2025 edition."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "nitrate level at site (mg/L)"
+      ],
+      "rows": [
+       [
+        "Glenhurst",
+        "4.23"
+       ],
+       [
+        "Eskridge",
+        "4.93"
+       ],
+       [
+        "Dunvale",
+        "4.76"
+       ],
+       [
+        "Fallowmere",
+        "4.28"
+       ],
+       [
+        "Belcliff",
+        "15.36"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "moved",
+   "in_sitemap": false,
+   "chain": [
+    "http://institute-for-soil-records.example/",
+    "http://institute-for-soil-records.example/site/archive",
+    "http://institute-for-soil-records.example/site/archive/2025"
+   ],
+   "site_search": false
+  },
+  {
+   "id": "F1-OPE-021-hub-capture-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20260115093000/http://institute-for-soil-records.example/datasets/964264-county-water-quality-index",
+   "url": "http://archive.example/web/20260115093000/http://institute-for-soil-records.example/datasets/964264-county-water-quality-index",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "institute-for-soil-records.example: 404 Not Found",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "404 Not Found."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20260115093000",
+   "original": "http://institute-for-soil-records.example/datasets/964264-county-water-quality-index"
+  },
+  {
+   "id": "F1-OPE-021-hub-capture-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20251103141500/http://institute-for-soil-records.example/datasets/964264-county-water-quality-index",
+   "url": "http://archive.example/web/20251103141500/http://institute-for-soil-records.example/datasets/964264-county-water-quality-index",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "institute-for-soil-records.example: Home page",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to institute-for-soil-records.example."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20251103141500",
+   "original": "http://institute-for-soil-records.example/datasets/964264-county-water-quality-index"
+  },
+  {
+   "id": "F1-OPE-021-hub-moved-index",
+   "role": "hub",
+   "host": "institute-for-soil-records.example",
+   "path": "/site/archive",
+   "url": "http://institute-for-soil-records.example/site/archive",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive",
+   "publisher": "institute-for-soil-records.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Older pages by year."
+    ]
+   },
+   "links": [
+    [
+     "http://institute-for-soil-records.example/site/archive/2023",
+     "2023"
+    ],
+    [
+     "http://institute-for-soil-records.example/site/archive/2024",
+     "2024"
+    ],
+    [
+     "http://institute-for-soil-records.example/site/archive/2025",
+     "2025"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-021-hub-moved-2023",
+   "role": "hub",
+   "host": "institute-for-soil-records.example",
+   "path": "/site/archive/2023",
+   "url": "http://institute-for-soil-records.example/site/archive/2023",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2023",
+   "publisher": "institute-for-soil-records.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-021-hub-moved-2024",
+   "role": "hub",
+   "host": "institute-for-soil-records.example",
+   "path": "/site/archive/2024",
+   "url": "http://institute-for-soil-records.example/site/archive/2024",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2024",
+   "publisher": "institute-for-soil-records.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-021-hub-moved-2025",
+   "role": "hub",
+   "host": "institute-for-soil-records.example",
+   "path": "/site/archive/2025",
+   "url": "http://institute-for-soil-records.example/site/archive/2025",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2025",
+   "publisher": "institute-for-soil-records.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year."
+    ]
+   },
+   "links": [
+    [
+     "http://institute-for-soil-records.example/archive/datasets/964264-county-water-quality-index-moved",
+     "County Water-Quality Index"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-021-hub-registry-dead0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/964264/resource/x0",
+   "url": "http://registry.example/dataset/964264/resource/x0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "County Water-Quality Index: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Bulk download (FTP). This distribution was discontinued."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-021-hub-registry-dead1",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/964264/resource/x1",
+   "url": "http://registry.example/dataset/964264/resource/x1",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "County Water-Quality Index: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Data API. Access requires a data-sharing agreement."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-021-hub-registry-record",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/964264",
+   "url": "http://registry.example/dataset/964264",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "County Water-Quality Index (Institute for Soil Records)",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Publisher: Institute for Soil Records.",
+     "Current release: 2025 edition.",
+     "Distributions are listed below with the organisation that hosts them."
+    ]
+   },
+   "links": [
+    [
+     "http://institute-for-soil-records.example/datasets/964264-county-water-quality-index",
+     "Institute for Soil Records portal (2025 edition)"
+    ],
+    [
+     "http://registry.example/dataset/964264/resource/x1",
+     "Distribution 1"
+    ],
+    [
+     "http://registry.example/dataset/964264/resource/x0",
+     "Distribution 2"
+    ],
+    [
+     "http://registry.example/dataset/964264/releases",
+     "Release history"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-021-hub-registry-releases",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/964264/releases",
+   "url": "http://registry.example/dataset/964264/releases",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Release history: County Water-Quality Index",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Releases of this dataset.",
+     "Earlier releases are available from the publisher on request."
+    ]
+   },
+   "links": [
+    [
+     "http://institute-for-soil-records.example/datasets/964264-county-water-quality-index",
+     "2025 edition (current)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-021-hub-home",
+   "role": "hub",
+   "host": "institute-for-soil-records.example",
+   "path": "/",
+   "url": "http://institute-for-soil-records.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Institute for Soil Records",
+   "publisher": "institute-for-soil-records.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "We reorganised our website: older pages are now in the archive section."
+    ]
+   },
+   "links": [
+    [
+     "http://institute-for-soil-records.example/site/archive",
+     "Archive"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F1-OPE-021-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F1-OPE-021-W1a",
+  "unrecoverable": "F1-OPE-021-W3",
+  "twin": "F1-OPE-021-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://institute-for-soil-records.example/datasets/964264-county-water-quality-index"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://institute-for-soil-records.example/datasets/964264-county-water-quality-index?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "8.45 mg/L",
+     "sources": [
+      "http://institute-for-soil-records.example/datasets/964264-county-water-quality-index"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "8.45 mg/L",
+   "sources": [
+    "http://institute-for-soil-records.example/datasets/964264-county-water-quality-index"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

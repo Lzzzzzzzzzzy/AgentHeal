@@ -1,0 +1,239 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F9-06",
+ "goal_id": "R-F9-06",
+ "family": "F9",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "An old widget on my site loads the xkcd feed through the Google Feed API: https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=https://xkcd.com/rss.xml\nWhat is the title of the most recent comic in the xkcd RSS feed? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Google Feed API",
+  "unit": "",
+  "canonical": "Momentum Demonstration",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F9-06-canon",
+   "role": "canonical",
+   "url": "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=https://xkcd.com/rss.xml",
+   "host": "ajax.googleapis.com",
+   "path": "/ajax/services/feed/load?v=1.0&q=https://xkcd.com/rss.xml",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "404 Google Feed API",
+   "publisher": "ajax.googleapis.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-06",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "   Error 404 (Not Found)!!1 ",
+     "    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "headers": {},
+    "title": "404 Google Feed API",
+    "observed_at": "2026-10-16T18:20:38Z",
+    "text": " \n \n   \n   \n   Error 404 (Not Found)!!1 \n   \n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width"
+   }
+  },
+  {
+   "id": "R-F9-06-faith",
+   "role": "faithful",
+   "url": "https://xkcd.com/rss.xml",
+   "host": "xkcd.com",
+   "path": "/rss.xml",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Google Feed API replacement",
+   "publisher": "xkcd.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-06",
+   "value": "Momentum Demonstration",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+     "<rss version=\"2.0\"><channel><title>xkcd.com</title><link>https://xkcd.com/</link><description>xkcd.com: A webcomic of romance and math humor.</description><language>en</language><item><title>Momentum Demonstration</title><link>https://xkcd.com/3312/</link><description>&lt;img src=\"https://imgs.xkcd.com/comics/momentum_demonstration.png\" title=\"&amp;quot;I'm doing really well on the Hertzsprung-Russell academic diagram, which has spectral class on one axis and Rate My Professors rating on the other.&amp;quot;\" alt=\"&amp;quot;I'm doing really well on the Hertzsprung-Russell academic diagram, which has spectral class on one axis and Rate My Professors rating on the other.&amp;quot;\" /&gt;</description><pubDate>Fri, 16 Oct 2026 04:00:00 -0000</pubDate><guid>https://xkcd.com/3312/</guid></item><item><title>Planet Database</title><link>https://xkcd.com/3311/</link><description>&lt;img src=\"https://imgs.xkcd.com/comics/planet_database.png\" title=\"Atmospheric transmission spectroscopy has revealed that the sunsets from the observatory are really pretty.\" alt=\"Atmospheric transmission spectroscopy has revealed that the sunsets from the observatory are really pretty.\" /&gt;</description><pubDate>Wed, 14 Oct 2026 04:00:00 -0000</pubDate><guid>https://xkcd.com/3311/</guid></item><item><title>Rejected Space Mission Profiles</title><link>https://xkcd.com/3310/</link><description>&lt;img src=\"https://imgs.xkcd.com/comics/rejected_space_mission_profiles.png\" title=\"Although NASA agreed that Voyager 2 'seemed lonely' they decided against launching a companion orbiter mission after further measurements indicated that the spacecraft actually preferred the peace and quiet.\" alt=\"Although NASA agreed that Voyager 2 'seemed lonely' they decided against launching a companion orbiter mission after further measurements indicated that the spacecraft actually preferred the peace and quiet.\" /&gt;</description><pubDate>Mon, 12 Oct 2026 04:00:00 -0000</pubDate><guid>https://xkcd.com/3310/</guid></item><item><title>Dogcatcher</title><link>https://xkcd.com/3309/</link><description>&lt;img src=\"https://imgs.xkcd.com/comics/dogcatcher.png\" title=\"People out here catching strays out here catching strays\" alt=\"People out here catching strays out here catching strays\" /&gt;</description><pubDate>Fri, 09 Oct 2026 04:00:00 -0000</pubDate><guid>https://xkcd.com/3309/</guid></item></channel></rss>"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "text/xml; charset=UTF-8",
+    "title": "Google Feed API replacement",
+    "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rss version=\"2.0\"><channel><title>xkcd.com</title><link>https://xkcd.com/</link><description>xkcd.com: A webcomic of romance and math humor.</description><language>en</language><item><title>Momentum Demonstration</title><link>https://xkcd.com/3312/</link><description>&lt;img src=\"https://imgs.xkcd.com/comics/momentum_demonstration.png\" title=\"&amp;quot;I'm doing really well on the Hertzsprung-Russell academic diagram, which has spectral class on one axis and Rate My Professors rating on the other.&amp;quot;\" alt=\"&amp;quot;I'm doing really well on the Hertzsprung-Russell academic diagram, which has spectral class on one axis and Rate My Professors rating on the other.&amp;quot;\" /&gt;</description><pubDate>Fri, 16 Oct 2026 04:00:00 -0000</pubDate><guid>https://xkcd.com/3312/</guid></item><item><title>Planet Database</title><link>https://xkcd.com/3311/</link><description>&lt;img src=\"https://imgs.xkcd.com/comics/planet_database.png\" title=\"Atmospheric transmission spectroscopy has revealed that the sunsets from the observatory are really pretty.\" alt=\"Atmospheric transmission spectroscopy has revealed that the sunsets from the observatory are really pretty.\" /&gt;</description><pubDate>Wed, 14 Oct 2026 04:00:00 -0000</pubDate><guid>https://xkcd.com/3311/</guid></item><item><title>Rejected Space Mission Profiles</title><link>https://xkcd.com/3310/</link><description>&lt;img src=\"https://imgs.xkcd.com/comics/rejected_space_mission_profiles.png\" title=\"Although NASA agreed that Voyager 2 'seemed lonely' they decided against launching a companion orbiter mission after further measurements indicated that the spacecraft actually preferred the peace and quiet.\" alt=\"Although NASA agreed that Voyager 2 'seemed lonely' they decided against launching a companion orbiter mission after further measurements indicated that the spacecraft actually preferred the peace and quiet.\" /&gt;</description><pubDate>Mon, 12 Oct 2026 04:00:00 -0000</pubDate><guid>https://xkcd.com/3310/</guid></item><item><title>Dogcatcher</title><link>https://xkcd.com/3309/</link><description>&lt;img src=\"https://imgs.xkcd.com/comics/dogcatcher.png\" title=\"People out here catching strays out here catching strays\" alt=\"People out here catching strays out here catching strays\" /&gt;</description><pubDate>Fri, 09 Oct 2026 04:00:00 -0000</pubDate><guid>https://xkcd.com/3309/</guid></item></channel></rss>"
+   }
+  },
+  {
+   "id": "R-F9-06-doc0",
+   "role": "context",
+   "url": "https://xkcd.com/about/",
+   "host": "xkcd.com",
+   "path": "/about/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "xkcd - A webcomic",
+   "publisher": "xkcd.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-06",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "xkcd - A webcomic ",
+     " xkcd.com ",
+     "Randall Munroe",
+     "Contact:",
+     " orders@xkcd.com -- All store-related email.",
+     " -->",
+     " press@xkcd.com -- Press questions, etc (may take a long time to get to me).",
+     " whatif@xkcd.com -- What If? Questions.",
+     " contact@xkcd.com -- Anything else (Also may be slow).",
+     "Note: You are welcome to reprint occasional comics pretty much anywhere (presentations, papers, blogs with ads, etc). If you're not outright merchandizing, you're probably fine. Just be sure to attribute the comic to xkcd.com.",
+     "IRC: #xkcd on irc. slashnet .org",
+     "Wikipedia article: xkcd ",
+     "Translations (unofficial):",
+     " Spanish , Russian , German .",
+     "xkcd.com updates without fail every Monday, Wednesday and Friday.",
+     " Who are you? ",
+     "I'm just this guy, you know? I'm a CNU graduate with a degree in physics. Before starting xkcd, I worked on robots at NASA's Langley Research Center in Virginia. As of June 2007 I live in Massachusetts. In my spare time I climb things, open strange doors, and go to goth clubs dressed as a frat guy so I can stand around and look terribly uncomfortable. At frat parties I do the same thing, but the other way around. ",
+     " What else do you do? ",
+     "Encourage people to get out and meet each other in, hopefully, interesting places via geohashing .",
+     "Host a gallery of photos inspired by comic #249 .",
+     "Write books like What If? , How To , What If? 2 and Thing Explainer .",
+     " Who else are you? ",
+     "Server maintenance and most of the coding for these sites is done by my friend davean, who tries hard to remain invisible but can be reached at davean@xkcd.com . Designer Christina Gleason also helps with posters, books, and various side projects.",
+     " What does XKCD stand for? ",
+     "It's not actually an acronym. It's just a word with no phonetic pronunciation -- a treasured and carefully-guarded point in the space of four-character strings.",
+     " Where did all this start? ",
+     "I was going through old math/sketching graph paper notebooks and didn't want to lose some of the work in them, so I started scanning pages. I took the more comic-y ones and put them up on a server I was testing out, and got a bunch of readers when BoingBoing linked to me. I started drawing more seriously, gained a lot more readers, started selling t-shirts on the site, and am currently shipping t-shirts and drawing this comic full-time. It's immensely fun and I really appreciate y'all's support.",
+     " Why can't I read the whole comic mouseover text in Firefox? ",
+     "They can be read with extensions like Long Titles , or by right-clicking on the images and going to 'properties', then clicking and dragging to read the whole thing.",
+     "This is a bug in Firefox, Mozilla Bug #45375 . It has been outstanding for many years now. "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "xkcd - A webcomic",
+    "text": "xkcd - A webcomic \n xkcd.com \nRandall Munroe\nContact:\n orders@xkcd.com -- All store-related email.\n -->\n press@xkcd.com -- Press questions, etc (may take a long time to get to me).\n whatif@xkcd.com -- What If? Questions.\n contact@xkcd.com -- Anything else (Also may be slow).\nNote: You are welcome to reprint occasional comics pretty much anywhere (presentations, papers, blogs with ads, etc). If you're not outright merchandizing, you're probably fine. Just be sure to attribute the comic to xkcd.com.\nIRC: #xkcd on irc. slashnet .org\nWikipedia article: xkcd \nTranslations (unofficial):\n Spanish , Russian , German .\nxkcd.com updates without fail every Monday, Wednesday and Friday.\n Who are you? \nI'm just this guy, you know? I'm a CNU graduate with a degree in physics. Before starting xkcd, I worked on robots at NASA's Langley Research Center in Virginia. As of June 2007 I live in Massachusetts. In my spare time I climb things, open strange doors, and go to goth clubs dressed as a frat guy so I can stand around and look terribly uncomfortable. At frat parties I do the same thing, but the other way around. \n What else do you do? \nEncourage people to get out and meet each other in, hopefully, interesting places via geohashing .\nHost a gallery of photos inspired by comic #249 .\nWrite books like What If? , How To , What If? 2 and Thing Explainer .\n Who else are you? \nServer maintenance and most of the coding for these sites is done by my friend davean, who tries hard to remain invisible but can be reached at davean@xkcd.com . Designer Christina Gleason also helps with posters, books, and various side projects.\n What does XKCD stand for? \nIt's not actually an acronym. It's just a word with no phonetic pronunciation -- a treasured and carefully-guarded point in the space of four-character strings.\n Where did all this start? \nI was going through old math/sketching graph paper notebooks and didn't want to lose some of the work in them, so I started scanning pages. I took the more comic-y ones and put them up on a server I was testing out, and got a bunch of readers when BoingBoing linked to me. I started drawing more seriously, gained a lot more readers, started selling t-shirts on the site, and am currently shipping t-shirts and drawing this comic full-time. It's immensely fun and I really appreciate y'all's support.\n Why can't I read the whole comic mouseover text in Firefox? \nThey can be read with extensions like Long Titles , or by right-clicking on the images and going to 'properties', then clicking and dragging to read the whole thing.\nThis is a bug in Firefox, Mozilla Bug #45375 . It has been outstanding for many years now. \n Note: It looks like it's been fixed in Firefox 3.0. Now, as an added tweak, to keep the tooltips from expiring while you're reading, you can use this .\n Can we print xkcd in our magazine/newspaper/other publication? \nIf it's a not-for-profit publication, you need no permission -- just print them with attribution to xkcd.com. You can"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "api_retired",
+  "signal": "explicit",
+  "targets": [
+   "R-F9-06-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:20:38Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "error": null,
+   "body_excerpt": "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 404 (Not Found)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:1"
+  },
+  "docs": [
+   "https://xkcd.com/about/"
+  ]
+ },
+ "oracle_query": "Google Feed API replacement",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Google Feed API replacement"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=https://xkcd.com/rss.xml"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://xkcd.com/rss.xml"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "Momentum Demonstration",
+     "sources": [
+      "https://xkcd.com/rss.xml"
+     ],
+     "substitutions": [
+      {
+       "url": "https://xkcd.com/rss.xml",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "deprecat",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

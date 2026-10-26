@@ -1,0 +1,170 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-06",
+ "goal_id": "R-F8-06",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "I'm writing a short history of Bitcoin and use the CoinGecko API for the facts: https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false\nWhich genesis date does it list for Bitcoin? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "2009-01-03",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-06-canon",
+   "role": "canonical",
+   "url": "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false",
+   "host": "api.coingecko.com",
+   "path": "/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "api.coingecko.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-06",
+   "value": "2009-01-03",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"id\": \"bitcoin\",",
+     " \"symbol\": \"btc\",",
+     " \"name\": \"Bitcoin\",",
+     " \"web_slug\": \"bitcoin\",",
+     " \"asset_platform_id\": null,",
+     " \"platforms\": {",
+     "  \"\": \"\"",
+     " },",
+     " \"detail_platforms\": {",
+     "  \"\": {",
+     "   \"decimal_place\": null,",
+     "   \"contract_address\": \"\"",
+     "  }",
+     " },",
+     " \"block_time_in_minutes\": 10,",
+     " \"hashing_algorithm\": \"SHA-256\",",
+     " \"categories\": [",
+     "  \"Smart Contract Platform\",",
+     "  \"Layer 1 (L1)\",",
+     "  \"FTX Holdings\",",
+     "  \"Proof of Work (PoW)\",",
+     "  \"Bitcoin Ecosystem\",",
+     "  \"GMCI 30 Index\",",
+     "  \"GMCI Index\",",
+     "  \"Coinbase 50 Index\"",
+     " ],",
+     " \"preview_listing\": false,",
+     " \"public_notice\": null,",
+     " \"additional_notices\": [],"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:51:30Z",
+    "limited": {
+     "text": "{\"status\":{\"error_code\":429,\"error_message\":\"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits.\"}}",
+     "content_type": "application/json",
+     "headers": {},
+     "status": 429
+    },
+    "text": "{\n \"id\": \"bitcoin\",\n \"symbol\": \"btc\",\n \"name\": \"Bitcoin\",\n \"web_slug\": \"bitcoin\",\n \"asset_platform_id\": null,\n \"platforms\": {\n  \"\": \"\"\n },\n \"detail_platforms\": {\n  \"\": {\n   \"decimal_place\": null,\n   \"contract_address\": \"\"\n  }\n },\n \"block_time_in_minutes\": 10,\n \"hashing_algorithm\": \"SHA-256\",\n \"categories\": [\n  \"Smart Contract Platform\",\n  \"Layer 1 (L1)\",\n  \"FTX Holdings\",\n  \"Proof of Work (PoW)\",\n  \"Bitcoin Ecosystem\",\n  \"GMCI 30 Index\",\n  \"GMCI Index\",\n  \"Coinbase 50 Index\"\n ],\n \"preview_listing\": false,\n \"public_notice\": null,\n \"additional_notices\": [],\n \"description\": {\n  \"en\": \"Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \\n\\nWith a fixed supply cap of 21 million coins and programmatic halvings every four years that reduce miner rewards, Bitcoin is designed as a deflationary digital asset often called \\\"digital gold.\\\" Its value stems from solving the double-spending problem without trusted intermediaries,...\"\n },\n \"links\": {\n  \"homepage\": [\n   \"http://www.bitcoin.org\"\n  ],\n  \"whitepaper\": \"https://bitcoin.org/bitcoin.pdf\",\n  \"blockchain_site\": [\n   \"https://mempool.space/\",\n   \"https://platform.arkhamintelligence.com/explorer/token/bitcoin\",\n   \"https://btc.com/\",\n   \"https://btc.tokenview.io/\",\n   \"https://www.oklink.com/btc\",\n   \"https://3xpl.com/bitcoin\"\n  ],\n  \"official_forum_url\": [\n   \"https://bitcointalk.org/\"\n  ],\n  \"chat_url\": [],\n  \"announcement_url\": [],\n  \"snapshot_url\": null,\n  \"twitter_screen_name\": \"bitcoin\",\n  \"facebook_username\": \"bitcoins\",\n  \"bitcointalk_thread_identifier\": null,\n  \"telegram_channel_identifier\": \"\",\n  \"subreddit_url\": \"https://www.reddit.com/r/Bitcoin/\",\n  \"repos_url\": {\n   \"github\": [\n    \"https://github.com/bitcoin/bitcoin\",\n    \"https://github.com/bitcoin/bips\"\n   ],\n   \"bitbucket\": []\n  }\n },\n \"image\": {\n  \"thumb\": \"https://coin-images.coingecko.com/coins/images/1/thumb/bitcoin.png?1696501400\",\n  \"small\": \"https://coin-images.coingecko.com/coins/images/1/small/bitcoin.png?1696501400\",\n  \"large\": \"https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400\"\n },\n \"country_origin\": \"\",\n \"genesis_date\": \"2009-01-03\",\n \"listing_price\": null,\n \"listing_currency\": \"\",\n \"listing_timestamp\": null,\n \"listing_source\": \"\",\n \"listing_source_url\": \"\",\n \"has_supply_breakdown\": false,\n \"sentiment_votes_up_percentage\": 71.96,\n \"sentiment_votes_down_percentage\": 28.04,\n \"watchlist_portfolio_users\": 2467119,\n \"market_cap_rank\": 1,\n \"market_cap_rank_with_rehypothecated\": 1,\n \"status_updates\": [],\n \"last_updated\": \"2026-10-16T18:49:56.000Z\"\n}"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-06-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 60
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:51:30Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://docs.coingecko.com/reference/common-errors-rate-limit"
+  ],
+  "documented_limit": []
+ },
+ "oracle_query": "Using the CoinGecko API, report the genesis date it lists for Bitcoin. Cite the ",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using the CoinGecko API, report the genesis date it lists for Bitcoin. Cite the "
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false"
+   },
+   {
+    "tool": "wait",
+    "seconds": 65
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "2009-01-03",
+     "sources": [
+      "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

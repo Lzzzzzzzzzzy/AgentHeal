@@ -1,0 +1,758 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F9-OPE-007-W0",
+ "goal_id": "F9-OPE-007",
+ "family": "F9",
+ "world": "W0",
+ "domain": "opendata",
+ "task_type": "IR",
+ "goal": "For a planning memo I need a value from the Institute for Soil Records' \"Coastal Erosion Survey\" (release 4). Here is the dataset page: http://api.institute-for-soil-records.example/v1/records/abf65a\nWhat is the retreat rate at transect Hollins? Please give the value with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "retreat rate at transect",
+  "unit": "m/yr",
+  "canonical": "2.22",
+  "entity": "Hollins"
+ },
+ "resources": [
+  {
+   "id": "F9-OPE-007-canon",
+   "role": "canonical",
+   "host": "api.institute-for-soil-records.example",
+   "path": "/v1/records/abf65a",
+   "url": "http://api.institute-for-soil-records.example/v1/records/abf65a",
+   "kind": "api",
+   "site_type": "api",
+   "title": "Coastal Erosion Survey",
+   "publisher": "Institute for Soil Records",
+   "date": "2025-02-01",
+   "version_label": "Coastal Erosion Survey, release 4",
+   "expression": "release 4",
+   "work_id": "work-abf65a",
+   "entity": "Hollins",
+   "field_label": "retreat rate at transect",
+   "unit": "m/yr",
+   "body": {
+    "paragraphs": [
+     "Published by the Institute for Soil Records.",
+     "This page describes release 4 of the dataset."
+    ],
+    "table_caption": "Retreat rate at transect by site",
+    "table_header": [
+     "",
+     "retreat rate at transect (m/yr)"
+    ],
+    "table": [
+     [
+      "Ardmore",
+      "3.04"
+     ],
+     [
+      "Corran",
+      "0.12"
+     ],
+     [
+      "Fallowmere",
+      "3.38"
+     ],
+     [
+      "Hollins",
+      "2.22"
+     ],
+     [
+      "Glenhurst",
+      "1.33"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "2.22",
+   "cell_value": "2.22",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Coastal Erosion Survey is published by the Institute for Soil Records under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Glenhurst; the previous release reported 1.01 m/yr. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Institute for Soil Records (2025). Coastal Erosion Survey, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "retreat rate at transect (m/yr)"
+      ],
+      "rows": [
+       [
+        "Hollins",
+        "3.25"
+       ],
+       [
+        "Ardmore",
+        "3.75"
+       ],
+       [
+        "Corran",
+        "1.15"
+       ],
+       [
+        "Fallowmere",
+        "3.03"
+       ],
+       [
+        "Glenhurst",
+        "1.02"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F9-OPE-007-faith",
+   "role": "faithful",
+   "host": "api.institute-for-soil-records.example",
+   "path": "/v2/records/cd7bf5e9f3",
+   "url": "http://api.institute-for-soil-records.example/v2/records/cd7bf5e9f3",
+   "kind": "api",
+   "site_type": "api",
+   "title": "Coastal Erosion Survey",
+   "publisher": "Institute for Soil Records API v2",
+   "date": "2025-02-01",
+   "version_label": "Coastal Erosion Survey, release 4",
+   "expression": "release 4",
+   "work_id": "work-abf65a",
+   "entity": "Hollins",
+   "field_label": "retreat rate at transect",
+   "unit": "m/yr",
+   "body": {
+    "paragraphs": [
+     "Published by the Institute for Soil Records.",
+     "This page describes release 4 of the dataset."
+    ],
+    "table_caption": "Retreat rate at transect by site",
+    "table_header": [
+     "",
+     "retreat rate at transect (m/yr)"
+    ],
+    "table": [
+     [
+      "Ardmore",
+      "3.04"
+     ],
+     [
+      "Corran",
+      "0.12"
+     ],
+     [
+      "Fallowmere",
+      "3.38"
+     ],
+     [
+      "Hollins",
+      "2.22"
+     ],
+     [
+      "Glenhurst",
+      "1.33"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "2.22",
+   "cell_value": "2.22",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Coastal Erosion Survey is published by the Institute for Soil Records under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Glenhurst; the previous release reported 1.01 m/yr. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Institute for Soil Records (2025). Coastal Erosion Survey, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "retreat rate at transect (m/yr)"
+      ],
+      "rows": [
+       [
+        "Hollins",
+        "3.25"
+       ],
+       [
+        "Ardmore",
+        "3.75"
+       ],
+       [
+        "Corran",
+        "1.15"
+       ],
+       [
+        "Fallowmere",
+        "3.03"
+       ],
+       [
+        "Glenhurst",
+        "1.02"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "api_v2",
+   "chain": [
+    "http://api.institute-for-soil-records.example/changelog",
+    "http://api.institute-for-soil-records.example/docs/migration",
+    "http://api.institute-for-soil-records.example/v2/lookup?legacy_id=abf65a"
+   ]
+  },
+  {
+   "id": "F9-OPE-007-var0",
+   "role": "variant",
+   "host": "institute-for-soil-records.example",
+   "path": "/datasets/abf65a-coastal-erosion-survey/prev0",
+   "url": "http://institute-for-soil-records.example/datasets/abf65a-coastal-erosion-survey/prev0",
+   "kind": "page",
+   "site_type": "api",
+   "title": "Coastal Erosion Survey",
+   "publisher": "Institute for Soil Records",
+   "date": "2025-02-01",
+   "version_label": "Coastal Erosion Survey, previous release",
+   "expression": "previous release",
+   "work_id": "work-abf65a",
+   "entity": "Hollins",
+   "field_label": "retreat rate at transect",
+   "unit": "m/yr",
+   "body": {
+    "paragraphs": [
+     "Published by the Institute for Soil Records.",
+     "This page describes release 4 of the dataset."
+    ],
+    "table_caption": "Retreat rate at transect by site",
+    "table_header": [
+     "",
+     "retreat rate at transect (m/yr)"
+    ],
+    "table": [
+     [
+      "Ardmore",
+      "3.04"
+     ],
+     [
+      "Corran",
+      "0.12"
+     ],
+     [
+      "Fallowmere",
+      "3.38"
+     ],
+     [
+      "Hollins",
+      "2.42"
+     ],
+     [
+      "Glenhurst",
+      "1.33"
+     ]
+    ]
+   },
+   "cue": "This is the previous release; it was superseded by Coastal Erosion Survey, release 4.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "2.42",
+   "cell_value": "2.42",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Coastal Erosion Survey is published by the Institute for Soil Records under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Glenhurst; the previous release reported 1.01 m/yr. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Institute for Soil Records (2025). Coastal Erosion Survey, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "retreat rate at transect (m/yr)"
+      ],
+      "rows": [
+       [
+        "Hollins",
+        "3.25"
+       ],
+       [
+        "Ardmore",
+        "3.75"
+       ],
+       [
+        "Corran",
+        "1.15"
+       ],
+       [
+        "Fallowmere",
+        "3.03"
+       ],
+       [
+        "Glenhurst",
+        "1.02"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-R",
+   "delta": {
+    "retreat_rate_at_transect": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://registry.example/search?q=Coastal+Erosion+Survey",
+    "http://registry.example/dataset/abf65a",
+    "http://registry.example/dataset/abf65a/releases",
+    "http://registry.example/dataset/abf65a/releases/0"
+   ]
+  },
+  {
+   "id": "F9-OPE-007-dec0",
+   "role": "decoy",
+   "host": "digestblog.example",
+   "path": "/posts/abf65a-0",
+   "url": "http://digestblog.example/posts/abf65a-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "Quick summary: Coastal Erosion Survey",
+   "publisher": "DigestBlog (aggregator)",
+   "date": "2025-02-01",
+   "version_label": "aggregator summary (no version stated)",
+   "expression": "release 4",
+   "work_id": "work-abf65a",
+   "entity": "Hollins",
+   "field_label": "retreat rate at transect",
+   "unit": "m/yr",
+   "body": {
+    "paragraphs": [
+     "Roughly 2.0 m/yr for Hollins, according to our reading.",
+     "Published by the Institute for Soil Records."
+    ],
+    "table_caption": "Retreat rate at transect by site",
+    "table_header": [
+     "",
+     "retreat rate at transect (m/yr)"
+    ],
+    "table": [
+     [
+      "Ardmore",
+      "3.04"
+     ],
+     [
+      "Corran",
+      "0.12"
+     ],
+     [
+      "Fallowmere",
+      "3.38"
+     ],
+     [
+      "Hollins",
+      "2.0"
+     ],
+     [
+      "Glenhurst",
+      "1.33"
+     ]
+    ]
+   },
+   "cue": "Summary written by an aggregator; figures are rounded and unsourced.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "value": "2.0",
+   "cell_value": "2.0",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Coastal Erosion Survey is published by the Institute for Soil Records under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Glenhurst; the previous release reported 1.01 m/yr. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Institute for Soil Records (2025). Coastal Erosion Survey, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "retreat rate at transect (m/yr)"
+      ],
+      "rows": [
+       [
+        "Hollins",
+        "3.25"
+       ],
+       [
+        "Ardmore",
+        "3.75"
+       ],
+       [
+        "Corran",
+        "1.15"
+       ],
+       [
+        "Fallowmere",
+        "3.03"
+       ],
+       [
+        "Glenhurst",
+        "1.02"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-A"
+  },
+  {
+   "id": "F9-OPE-007-hub-changelog",
+   "role": "hub",
+   "host": "api.institute-for-soil-records.example",
+   "path": "/changelog",
+   "url": "http://api.institute-for-soil-records.example/changelog",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "API changelog",
+   "publisher": "api.institute-for-soil-records.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "v2.0: records were re-keyed; v1 was retired."
+    ]
+   },
+   "links": [
+    [
+     "http://api.institute-for-soil-records.example/docs/migration",
+     "Migration guide"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F9-OPE-007-hub-migration",
+   "role": "hub",
+   "host": "api.institute-for-soil-records.example",
+   "path": "/docs/migration",
+   "url": "http://api.institute-for-soil-records.example/docs/migration",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Migrating from v1 to v2",
+   "publisher": "api.institute-for-soil-records.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Records were re-keyed in v2.",
+     "Resolve a v1 identifier with GET http://api.institute-for-soil-records.example/v2/lookup?legacy_id=<v1 id>, then fetch the returned URL."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F9-OPE-007-hub-registry-dead0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/abf65a/resource/x0",
+   "url": "http://registry.example/dataset/abf65a/resource/x0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Coastal Erosion Survey: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Data API. Access requires a data-sharing agreement."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F9-OPE-007-hub-registry-record",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/abf65a",
+   "url": "http://registry.example/dataset/abf65a",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Coastal Erosion Survey (Institute for Soil Records)",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Publisher: Institute for Soil Records.",
+     "Current release: release 4.",
+     "Distributions are listed below with the organisation that hosts them."
+    ]
+   },
+   "links": [
+    [
+     "http://api.institute-for-soil-records.example/v1/records/abf65a",
+     "Institute for Soil Records portal (release 4)"
+    ],
+    [
+     "http://registry.example/dataset/abf65a/resource/x0",
+     "Distribution 1"
+    ],
+    [
+     "http://registry.example/dataset/abf65a/releases",
+     "Release history"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F9-OPE-007-hub-registry-rel0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/abf65a/releases/0",
+   "url": "http://registry.example/dataset/abf65a/releases/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Coastal Erosion Survey, previous release",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Release notes: Coastal Erosion Survey, previous release.",
+     "Superseded by the current release."
+    ]
+   },
+   "links": [
+    [
+     "http://institute-for-soil-records.example/datasets/abf65a-coastal-erosion-survey/prev0",
+     "Access URL"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F9-OPE-007-hub-registry-releases",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/abf65a/releases",
+   "url": "http://registry.example/dataset/abf65a/releases",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Release history: Coastal Erosion Survey",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Releases of this dataset."
+    ]
+   },
+   "links": [
+    [
+     "http://api.institute-for-soil-records.example/v1/records/abf65a",
+     "release 4 (current)"
+    ],
+    [
+     "http://registry.example/dataset/abf65a/releases/0",
+     "Coastal Erosion Survey, previous release"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F9-OPE-007-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F9-OPE-007-W1b",
+  "unrecoverable": "F9-OPE-007-W3",
+  "twin": "F9-OPE-007-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://api.institute-for-soil-records.example/v1/records/abf65a"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "2.22 m/yr",
+     "sources": [
+      "http://api.institute-for-soil-records.example/v1/records/abf65a"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "2.22 m/yr",
+   "sources": [
+    "http://api.institute-for-soil-records.example/v1/records/abf65a"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

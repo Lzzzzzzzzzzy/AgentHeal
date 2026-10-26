@@ -1,0 +1,200 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F9-10",
+ "goal_id": "R-F9-10",
+ "family": "F9",
+ "world": "W2",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "My weather widget calls the Dark Sky API for San Francisco (37.8267,-122.4233): https://api.darksky.net/forecast/0/37.8267,-122.4233\nWhat is today's forecast high temperature there? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Dark Sky API",
+  "unit": "",
+  "canonical": null,
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F9-10-canon",
+   "role": "canonical",
+   "url": "https://api.darksky.net/forecast/0/37.8267,-122.4233",
+   "host": "api.darksky.net",
+   "path": "/forecast/0/37.8267,-122.4233",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "502 Dark Sky API",
+   "publisher": "api.darksky.net",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-10",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "Connection to api.darksky.net failed (network)."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 502,
+    "content_type": "text/html; charset=utf-8",
+    "headers": {},
+    "title": "502 Dark Sky API",
+    "observed_at": "2026-10-16T18:20:45Z",
+    "text": "Connection to api.darksky.net failed (network)."
+   }
+  },
+  {
+   "id": "R-F9-10-doc1",
+   "role": "context",
+   "url": "https://developer.apple.com/weatherkit/",
+   "host": "developer.apple.com",
+   "path": "/weatherkit/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Get Started with WeatherKit - Apple Developer",
+   "publisher": "developer.apple.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-10",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Get Started with WeatherKit - Apple Developer ",
+     " View in English ",
+     " Apple Developer ",
+     " Get Started ",
+     "Explore Get Started ",
+     " Overview ",
+     " Learn ",
+     " Apple Developer Program ",
+     "Stay Updated ",
+     " Latest News ",
+     " Hello Developer ",
+     " Platforms ",
+     "Explore Platforms ",
+     " Apple Platforms ",
+     " iOS ",
+     " iPadOS ",
+     " macOS ",
+     " tvOS ",
+     " visionOS ",
+     " watchOS ",
+     " App Store ",
+     "Featured ",
+     " Design ",
+     " Distribution ",
+     " Games ",
+     " Accessories ",
+     " Web ",
+     " Home ",
+     " CarPlay ",
+     " Technologies "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Get Started with WeatherKit - Apple Developer",
+    "text": "Get Started with WeatherKit - Apple Developer \n View in English \n Apple Developer \n Get Started \nExplore Get Started \n Overview \n Learn \n Apple Developer Program \nStay Updated \n Latest News \n Hello Developer \n Platforms \nExplore Platforms \n Apple Platforms \n iOS \n iPadOS \n macOS \n tvOS \n visionOS \n watchOS \n App Store \nFeatured \n Design \n Distribution \n Games \n Accessories \n Web \n Home \n CarPlay \n Technologies \nExplore Technologies \n Overview \n Xcode \n Swift \n SwiftUI \nFeatured \n Accessibility \n AI & Machine Learning \n App Intents \n Apple Intelligence \n Games \n Security \n Xcode Cloud \n Community \nExplore Community \n Overview \n Meet with Apple events \n Community events \n Developer Forums \n Open Source \nFeatured \n WWDC \n Swift Student Challenge \n Developer Stories \n App Store Awards \n Apple Design Awards \n Apple Developer Centers \n Documentation \nExplore Documentation \n Documentation Library \n Technology Overviews \n Sample Code \n Human Interface Guidelines \n Videos \nRelease Notes \n Featured Updates \n iOS \n iPadOS \n macOS \n watchOS \n visionOS \n tvOS \n Xcode \n Downloads \nExplore Downloads \n All Downloads \n Operating Systems \n Applications \n Design Resources \nFeatured \n Xcode \n TestFlight \n Fonts \n SF Symbols \n Icon Composer \n Support \nExplore Support \n Overview \n Help Guides \n Developer Forums \n Feedback Assistant \n Contact Us \nFeatured \n Account Help \n App Review Guidelines \n App Review Help \n App Store Connect Help \n Upcoming Requirements \n Agreements and Guidelines \n System Status \nQuick Links \n Events \n News \n Forums \n Sample Code \n Videos \n -->\n WeatherKit \n Open Menu \n Close Menu \n Overview \nGet started with WeatherKit \nWeatherKit brings valuable weather information to your apps and services through a wide range of data that can help people stay up to date, safe, and prepared. It’s easy to use WeatherKit in your apps on Apple platforms with a Swift API, and on any other platform with a REST API. \nPowered by Apple Weather \nWeatherKit is powered by the Apple Weather service, a state-of-the-art global weather forecast that provides all of the data you need to power your app with timely, hyperlocal weather information. This enables your app to offer current weather conditions and 10-day hourly forecasts for temperature, precipitation, wind, UV Index, and more. Minute-by-minute precipitation for the next hour and severe weather alerts are available for select regions. \nEasy to use \nWeatherKit includes a Swift API that leverages modern Swift syntax. And with Swift concurrency, it’s easy to request weather data with just a few lines of code. WeatherKit is also customizable, so you can request just the data you need. And because WeatherKit is built on time-tested Foundation and CoreLocation APIs, it’s simple to format measurements, convert units, and get location information. \nPrivacy first \nIn keeping with Apple’s commitment to privacy, WeatherKit is designed to give hyperlocal forecasts without compromising user data. Location information is used onl"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "api_retired",
+  "signal": "explicit",
+  "targets": [
+   "R-F9-10-canon"
+  ],
+  "params": {
+   "needs_user": true
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "HA",
+   "ESC",
+   "PR-D"
+  ],
+  "route": "report",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:20:45Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": null,
+   "error": "network: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)",
+   "body_excerpt": ""
+  },
+  "docs": [
+   "https://support.apple.com/en-us/102594",
+   "https://developer.apple.com/weatherkit/"
+  ]
+ },
+ "oracle_query": "Dark Sky API replacement",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Dark Sky API replacement"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.darksky.net/forecast/0/37.8267,-122.4233"
+   },
+   {
+    "tool": "ask_user",
+    "question": "I cannot access the requested resource without your help (deprecat). Can you provide access?"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "needs_user",
+     "answer": "",
+     "sources": [
+      "https://api.darksky.net/forecast/0/37.8267,-122.4233"
+     ],
+     "substitutions": [],
+     "diagnosis": "deprecat",
+     "user_request": "Access is blocked (deprecat); the user's help is needed.",
+     "confidence": 0.8
+    }
+   }
+  ]
+ }
+}

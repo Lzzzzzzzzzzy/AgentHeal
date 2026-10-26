@@ -1,0 +1,1163 @@
+[
+ {
+  "id": "R-F1-01",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "news",
+  "task_type": "IR",
+  "goal": "I'm fact-checking a Wikipedia article that cites a Curbed NY story from November 2016 on the rising cost of the Brooklyn Bridge repairs: https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase\nBy how much did the projected cost exceed the price tag expected when the renovations began in 2010? Please give the difference in millions of dollars and tell me where you found it.",
+  "answer": {
+   "value": "303",
+   "unit": "million dollars",
+   "field": "cost increase",
+   "derived_from": [
+    "811",
+    "508"
+   ]
+  },
+  "barrier": {
+   "rule": "http_410",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-01-canon",
+    "role": "canonical",
+    "url": "https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase",
+    "status": 410,
+    "title": "Projected Brooklyn Bridge repair costs have more than doubled",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:08:02Z",
+    "text": "410 Gone. This page has been removed."
+   },
+   {
+    "id": "R-F1-01-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20200126161008/https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase",
+    "status": 200,
+    "title": "Projected Brooklyn Bridge repair costs have more than doubled - Curbed NY",
+    "text": "Email\nThe projected cost of repairs on the Brooklyn Bridge has hit $811 million — nearly 60 percent more than originally planned, reports the New York Post .\nBack when renovations began on the 133-year-old span in the halcyon days of 2010, the expected price tag was $508 million, with a completion date set for April 2014. That, it goes without saying, proved overly optimistic, and in 2015, the Daily News reported that the project was $100 million over budget and another year behind schedule, thanks to newly discovered “major cracks and holes” in the bridge requiring more intensive repairs. The project was then slated for completion in 2016.\nBut 2016 is coming to a close, the repairs aren’t done, and the cost keeps creeping upwards. According to the Post, the Mayor’s Office of Operations has attributed the issue to “scope changes” and “unforeseen field conditions.” Among the new issues: steel repairs, painting more areas, and “fixing damage to protective shielding caused by a barge incident.” The city now estimates the renovations will wrap up in April 2017.",
+    "value": "303",
+    "memento": "20200126161008",
+    "original": "https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase",
+    "version_label": "Wayback Machine capture of 2020-01-26",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Projected Brooklyn Bridge repair costs have more than doubled",
+  "evidence": {
+   "observed_at": "2026-10-16T18:08:02Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 410,
+    "class": "http_410",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Brooklyn Bridge'",
+   "archive_url": "https://web.archive.org/web/20200126161008/https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase"
+  },
+  "goal_v0": "Curbed NY reported in November 2016 that the projected cost of the Brooklyn Bridge repairs had risen. By how much did the projected cost exceed the price tag expected when the renovations began in 2010? Give the difference in millions of dollars and cite the source you used.",
+  "user_link": "https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase"
+ },
+ {
+  "id": "R-F1-02",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "A Wikipedia article about Merseyrail cites railsaver.co.uk for its daily passenger numbers, and I'd like to check the figure: http://www.railsaver.co.uk/merseyrail/merseyrail.htm\nHow many passengers does Merseyrail carry a day according to that page? Please tell me where you found it.",
+  "answer": {
+   "value": "100,000",
+   "unit": "passengers per day",
+   "field": "daily passengers"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-02-canon",
+    "role": "canonical",
+    "url": "http://www.railsaver.co.uk/merseyrail/merseyrail.htm",
+    "status": 404,
+    "title": "Page Updated - Please wait a brief moment for the new page to load.",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:11:17Z",
+    "text": "Page Updated - Please wait a brief moment for the new page to load. \nThis page has been updated. \nPlease click here or wait a brief moment for the new page to load."
+   },
+   {
+    "id": "R-F1-02-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20101004030033/http://www.railsaver.co.uk/merseyrail/merseyrail.htm",
+    "status": 200,
+    "title": "Merseyrail Trains",
+    "text": "More About Merseyrail Trains\nMerseyrail is one of the most frequent British commuter systems outside London, transporting 100,000 passengers a day, with services running (on average) every 15 minutes during weekday daytime, and 30 minutes at evenings and weekends. Services run on two lines covering the Liverpool suburban area and greater Merseyside, with a total track length of 120 km, 75 miles and 67 stations.\nMerseyrail Train Routes",
+    "value": "100,000",
+    "memento": "20101004030033",
+    "original": "http://www.railsaver.co.uk/merseyrail/merseyrail.htm",
+    "version_label": "Wayback Machine capture of 2010-10-04",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Merseyrail",
+  "evidence": {
+   "observed_at": "2026-10-16T18:11:17Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Mersey Railway'",
+   "archive_url": "https://web.archive.org/web/20101004030033/http://www.railsaver.co.uk/merseyrail/merseyrail.htm"
+  },
+  "goal_v0": "According to railsaver.co.uk's page on Merseyrail trains, how many passengers does Merseyrail transport a day? Cite the source you used.",
+  "user_link": "http://www.railsaver.co.uk/merseyrail/merseyrail.htm"
+ },
+ {
+  "id": "R-F1-03",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm comparing student loan default rates and want to use the University of Colorado Colorado Springs \"Facts & Figures\" page: https://www.uccs.edu/about/facts.html\nHow many percentage points lower than the national rate was the UCCS default rate? Please tell me where you found it.",
+  "answer": {
+   "value": "10.8",
+   "unit": "percentage points",
+   "field": "default-rate gap",
+   "derived_from": [
+    "2.9",
+    "13.7"
+   ]
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-03-canon",
+    "role": "canonical",
+    "url": "https://www.uccs.edu/about/facts.html",
+    "status": 404,
+    "title": "Loading your content | UCCS",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:12:11Z",
+    "text": "Loading your content | UCCS \n Skip to main content\nLoading your content \n Links & Tools \n Apply Now \n Quick Links\n -->\nQuick Links: \n Academic Advising \n Athletics \n Ent Center for the Arts \n Kraemer Family Library \n Giving \n Report A Concern \n Accessibility \n Official Statements \nTools: \n myUCCS Portal \n Campus Email \n Canvas \n Microsoft 365 \n Mountain Lion Connect \n Student Success Connect \n Faculty Support Network \n Account Help \nResources For: \n Alumni \n Current Students \n Faculty & Staff \n Future Students \n Parents & Families \n Veteran and Military Affairs \n Search UCCS \n Apply Now \n Request Info \n Translate this page \n Home \n About \n About UCCS \n Mission, Vision & Values \n Campus History \n Campus Leadership \n News & Events \n Quick Facts \n Academics \n All Degrees & Programs \n Undergraduate \n Graduate \n Online Programs \n Concurrent, Ascent, and TREP Enrollment \n Centers & Institutes \n Additional Offerings \n Admissions & Aid \n Admissions & Aid \n Apply to UCCS \n Tuition & Financial Aid \n Admissions Details \n Admitted Student Next Steps \n Request Info \n Visit Campus \n Campus Life \n About Campus Life \n Athletics \n Arts & Culture \n Clubs & Activities \n Dining \n Housing \n Recreation & Wellness \n Resources For \n Future Students \n Current Students \n Military & Veterans \n Alumni \n Faculty & Staff \n MENU \n Home \n Loading your content \n 404 \nPage Not Found \nLet's Get You On The Right Path... \n Search UCCS \n Academics \n UCCS Map \n OIT Help Desk \n Top \n Request Info \n Tour Campus \n Ap"
+   },
+   {
+    "id": "R-F1-03-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20170619082648/http://www.uccs.edu/about/facts.html",
+    "status": 200,
+    "title": "Facts & Figures - University of Colorado Colorado Springs",
+    "text": "To finance their educations, UCCS students borrow, on average, $16,780, one-third less than the national average\nUCCS students repay their federal student loans. The UCCS student loan default rate, the best in Colorado, is 2.9% compared to a national rate of 13.7%\nHigh-Quality",
+    "value": "10.8",
+    "memento": "20170619082648",
+    "original": "http://www.uccs.edu/about/facts.html",
+    "version_label": "Wayback Machine capture of 2017-06-19",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Facts & Figures",
+  "evidence": {
+   "observed_at": "2026-10-16T18:12:11Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'University of Colorado'",
+   "archive_url": "https://web.archive.org/web/20170619082648/http://www.uccs.edu/about/facts.html"
+  },
+  "goal_v0": "According to the University of Colorado Colorado Springs \"Facts & Figures\" page (uccs.edu/about/facts.html), how many percentage points lower than the national rate was the UCCS student loan default rate? Cite the source you used.",
+  "user_link": "https://www.uccs.edu/about/facts.html"
+ },
+ {
+  "id": "R-F1-04",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm writing about the 2007 \"Sundance Institute at BAM\" programme at the Brooklyn Academy of Music and have BAM's programme page: http://www.bam.org/sundance/index_2007.aspx\nHow many short films did the programme present? Please tell me where you found it.",
+  "answer": {
+   "value": "27",
+   "unit": "short films",
+   "field": "shorts"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-04-canon",
+    "role": "canonical",
+    "url": "http://www.bam.org/sundance/index_2007.aspx",
+    "status": 404,
+    "title": "Sundance Mixed With Stars, Politicians",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:15:06Z",
+    "text": "404 Not Found. The page you requested could not be found."
+   },
+   {
+    "id": "R-F1-04-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20080112103655/http://www.bam.org/sundance/index_2007.aspx",
+    "status": 200,
+    "title": "BAM : Brooklyn Academy of Music",
+    "text": "May 31—June 10\nWith films straight from the 2007 Sundance Film Festival, sneak peeks of new work being developed with Sundance Institute support, and programs that take you inside the creative process, Sundance Institute at BAM presents nine dramatic features, eight documentaries, a screenplay reading, and 27 shorts from some of the most exciting emerging filmmakers in the US and around the world.\nOpening Night",
+    "value": "27",
+    "memento": "20080112103655",
+    "original": "http://www.bam.org/sundance/index_2007.aspx",
+    "version_label": "Wayback Machine capture of 2008-01-12",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Sundance Mixed With Stars, Politicians",
+  "evidence": {
+   "observed_at": "2026-10-16T18:15:06Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Sundance Film Festival'",
+   "archive_url": "https://web.archive.org/web/20080112103655/http://www.bam.org/sundance/index_2007.aspx"
+  },
+  "goal_v0": "How many short films did the 2007 \"Sundance Institute at BAM\" programme at the Brooklyn Academy of Music present, according to BAM's programme page? Cite the source you used.",
+  "user_link": "http://www.bam.org/sundance/index_2007.aspx"
+ },
+ {
+  "id": "R-F1-05",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "news",
+  "task_type": "IR",
+  "goal": "I'm looking into the Tribeca Film Festival's economic impact; a Wikipedia article cites this Downtown Express piece: http://www.downtownexpress.com/de_53/businessessaybusiness.html\nHow many more tickets were sold than in the previous year? Please tell me where you found it.",
+  "answer": {
+   "value": "17,000",
+   "unit": "tickets",
+   "field": "ticket increase",
+   "derived_from": [
+    "80,000",
+    "63,000"
+   ]
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-05-canon",
+    "role": "canonical",
+    "url": "http://www.downtownexpress.com/de_53/businessessaybusiness.html",
+    "status": 404,
+    "title": "Site is not available",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:17:18Z",
+    "text": "Site is not available \nSite is not available \n The domain name in the URL is not associated with any active site on the WP Engine platform.\n If this is your site, please visit your User Portal to ensure that your\n domain mapping and DNS records are\n configured correctly.\n Still have questions? Contact Us .\n Hosted by"
+   },
+   {
+    "id": "R-F1-05-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20120110214429/http://www.downtownexpress.com/de_53/businessessaybusiness.html",
+    "status": 200,
+    "title": "Businesses say business was up for film festival",
+    "text": "Tribeca restaurants such as Ivy Bistro and Il Mattone, witnessed busy Friday and Saturday nights at the end of the festival and estimated their revenues doubled during those nine days. “It was good,” said Charles Fusco, the owner of Il Mattone about the economic upshot of the event. “I wish it could happen every weekend.”\nFilm festival organizers said that so far, all signs point up as approximately 80,000 tickets were sold to the 250 different films, a jump from last year’s tally of 63,000. Other events such as Saturday’s fair on Greenwich St. helped local stores and vendors as festival planners estimate just over 300,000 people attended, which was up 20 percent from 250,000 attendees last year. Organizers said Saturday’s concert in Battery Park that featured artists Van Morrison and Macy Gray and a mock drive-in on Pier 25 that included a broadcast of the final episode of the television show “Friends” helped bring roughly 19,000 people to Lower Manhattan.\nThomas Trube, the store manager of the designer clothing store Issey Miyake Tribeca at Hudson and N. Moore Sts., said he noticed a moderate boost in business due to the influx of filmgoers in the neighborhood.",
+    "value": "17,000",
+    "memento": "20120110214429",
+    "original": "http://www.downtownexpress.com/de_53/businessessaybusiness.html",
+    "version_label": "Wayback Machine capture of 2012-01-10",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Businesses say business was up for film festival",
+  "evidence": {
+   "observed_at": "2026-10-16T18:17:18Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Tribeca Festival'",
+   "archive_url": "https://web.archive.org/web/20120110214429/http://www.downtownexpress.com/de_53/businessessaybusiness.html"
+  },
+  "goal_v0": "According to the Downtown Express article on the Tribeca Film Festival's business impact, how many more tickets were sold than in the previous year? Cite the source you used.",
+  "user_link": "http://www.downtownexpress.com/de_53/businessessaybusiness.html"
+ },
+ {
+  "id": "R-F1-06",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm reading about the proposed 49ers stadium in Santa Clara. Wikipedia cites supportourniners.com for its design: http://www.supportourniners.com/stadium_design.php\nHow many seats would the open-air venue have? Please tell me where you found it.",
+  "answer": {
+   "value": "68,500",
+   "unit": "seats",
+   "field": "capacity"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-06-canon",
+    "role": "canonical",
+    "url": "http://www.supportourniners.com/stadium_design.php",
+    "status": 404,
+    "title": "404 Not Found",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:19:10Z",
+    "text": "404 Not Found \nNot Found \nThe requested URL was not found on this server."
+   },
+   {
+    "id": "R-F1-06-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20100227085604/http://www.supportourniners.com/stadium_design.php",
+    "status": 200,
+    "title": "Support Our Niners - New 49ers Bay Area Stadium Design",
+    "text": "Designing a World Class Stadium in Santa Clara\nThe City Council of Santa Clara recently approved a term sheet for a new stadium in the heart of the city's central entertainent district. The plan calls for a 68,500 seat open-air venue that will represent the first in a new generation in stadium design.\nWhen the 49ers first began planning the design of the new stadium, the team and its architecture firm traveled extensively to football, baseball, basketball and NASCAR venues throughout the country, as well as soccer stadiums throughout the world, to study the fan experience and bring the best features and amenities to the design.",
+    "value": "68,500",
+    "memento": "20100227085604",
+    "original": "http://www.supportourniners.com/stadium_design.php",
+    "version_label": "Wayback Machine capture of 2010-02-27",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Stadium Design",
+  "evidence": {
+   "observed_at": "2026-10-16T18:19:10Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Levi's Stadium'",
+   "archive_url": "https://web.archive.org/web/20100227085604/http://www.supportourniners.com/stadium_design.php"
+  },
+  "goal_v0": "According to the supportourniners.com page on the design of the proposed 49ers stadium in Santa Clara, how many seats would the open-air venue have? Cite the source you used.",
+  "user_link": "http://www.supportourniners.com/stadium_design.php"
+ },
+ {
+  "id": "R-F1-07",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "news",
+  "task_type": "IR",
+  "goal": "For a note on Shaikh Zayed's projects in Morocco I'm using a July 2013 Khaleej Times article: https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002\nBesides its 18 professors, how many doctors and nurses work at the Shaikh Zayed Hospital? Please tell me where you found it.",
+  "answer": {
+   "value": "217",
+   "unit": "doctors and nurses",
+   "field": "staff"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-07-canon",
+    "role": "canonical",
+    "url": "https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002",
+    "status": 404,
+    "title": "Khaleej Times - Dubai News, UAE News, Gulf, News, Latest news, Arab news, Gulf News, Dubai Labour News | Khaleej Times",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:23:19Z",
+    "text": "Khaleej Times - Dubai News, UAE News, Gulf, News, Latest news, Arab news, Gulf News, Dubai Labour News | Khaleej Times \n <div id=\"app\" data-page=\"{\"component\":\"NotFound\",\"props\":{\"errors\":{},\"featureFlags\":{\"responsiveImagesEnabled\":true},\"serverDeviceType\":\"desktop\",\"isLoggedIn\":false,\"menuItems\":{\"app-side-menu\":{\"id\":8470,\"slug\":\"app-side-menu\",\"name\":\"App Side Menu\",\"items\":[{\"tag_name\":\"\",\"entity_properties\":\"\",\"collection_id\":195297,\"entity_slug\":\"\",\"item_id\":85786,\"rank\":73394,\"title\":\"UAE\",\"item_type\":\"section\",\"section_slug\":\"uae\",\"tag_slug\":\"\",\"id\":73394,\"parent_id\":0,\"url\":\"/uae\",\"original_url\":\"https://www.khaleejtimes.com/uae\",\"entity_name\":\"\",\"collection_slug\":\"uae\",\"section_name\":\"UAE\",\"data\":{\"color\":\"#FFFFFF\"},\"sub_items\":[{\"tag_name\":\"\",\"entity_properties\":\"\",\"collection_id\":212363,\"entity_slug\":\"\",\"item_id\":96377,\"rank\":73396,\"title\":\"Galadari Brothers\",\"item_type\":\"section\",\"section_slug\":\"galadari-brothers\",\"tag_slug\":\"\",\"id\":73424,\"parent_id\":73394,\"url\":\"/business/galadari-brothers\",\"original_url\":\"https://www.khaleejtimes.com/business/galadari-brothers\",\"entity_name\":\"\",\"collection_slug\":\"galadari-brothers\",\"section_name\":\"Galadari Brothers\",\"data\":{\"color\":\"#FFFFFF\",\"icon-code\":\"paid\"},\"is_listing_section\":false},{\"tag_name\":\"\",\"entity_properties\":\"\",\"collection_id\":195305,\"entity_slug\":\"\",\"item_id\":85794,\"rank\":73397,\"title\":\"Transport\",\"item_type\":\"section\",\"section_slug\":\"transport\",\"tag_slug\":\"\",\"id\":73401,\"parent_id\":73394,\"url\":\"/uae/transport\","
+   },
+   {
+    "id": "R-F1-07-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20190416070101/https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002",
+    "status": 200,
+    "title": "Key aid projects during Zayed’s time - Khaleej Times",
+    "text": "Shaikh Zayed Hospital\nThe Shaikh Zayed Hospital has 300 beds and operates 24 hours a day. It uses advanced techniques to ensure swift completion of surgical treatment and receives a large number of patients. The hospital is led by a team of 18 professors and 217 doctors and nurses. Although it does not work to full capacity, it has been able to perfrom 48 surgeries per day, as it has 12 operating rooms equipped with the latest surgical equipment, in addition to a special centre for recovery (Intensive Care Unit) with 25 beds. The hospital is famous all over Morocco for its visiting professors coming from Switzerland, Canada, the USA and France. Its operating rooms are directly connected via TV networks to leading hospitals in 24 countries. The hospital is considered as a university medical centre, as it has classrooms and a main hall with 150 seats to accommodate medical students from Rabat and other cities.\nEgypt",
+    "value": "217",
+    "memento": "20190416070101",
+    "original": "https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002",
+    "version_label": "Wayback Machine capture of 2019-04-16",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Key aid projects during Zayed's time",
+  "evidence": {
+   "observed_at": "2026-10-16T18:23:19Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Marib Dam'",
+   "archive_url": "https://web.archive.org/web/20190416070101/https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002"
+  },
+  "goal_v0": "According to the Khaleej Times article on Shaikh Zayed's projects in Morocco (July 2013), how many doctors and nurses work at the Shaikh Zayed Hospital besides its 18 professors? Cite the source you used.",
+  "user_link": "https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002"
+ },
+ {
+  "id": "R-F1-08",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm writing a short history of the InterContinental Carlton Cannes and want to use the hotel's own 100th-anniversary history pages: http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946\nIn which year was the hotel inaugurated? Please tell me where you found it.",
+  "answer": {
+   "value": "1913",
+   "unit": "",
+   "field": "year inaugurated"
+  },
+  "barrier": {
+   "rule": "redirect_home",
+   "signal": "ambiguous",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-08-canon",
+    "role": "canonical",
+    "url": "http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946",
+    "status": 302,
+    "title": "302 Moved",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:15:14Z",
+    "headers": {
+     "Location": "http://yfdabv11.com/?dn=www.intercontinental-carlton-cannes.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504"
+    },
+    "text": "Moved: http://yfdabv11.com/?dn=www.intercontinental-carlton-cannes.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504"
+   },
+   {
+    "id": "R-F1-08-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20131020200436/http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946",
+    "status": 200,
+    "title": "History - Intercontinental Carlton Cannes",
+    "text": "Film 100 th anniversary\nThe InterContinental Carlton was inaugurated in 1913. In 2012, this Belle Epoque building is still just as superb as ever and the passing years have imbued it with an aura characteristic of exceptional sites. Let us celebrate this milestone anniversary together in style.\nST CANNES. FILM FESTIVAL\" border=\"0\" src=\"https://web.archive.org/web/20131020200436im_/http://www.intercontinental-carlton-cannes.com/files/visuel/276125433_1946.jpg\"/>",
+    "value": "1913",
+    "memento": "20131020200436",
+    "original": "http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946",
+    "version_label": "Wayback Machine capture of 2013-10-20",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   },
+   {
+    "id": "R-F1-08-home",
+    "role": "context",
+    "url": "http://yfdabv11.com/?dn=www.intercontinental-carlton-cannes.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504",
+    "status": 200,
+    "title": "Home",
+    "text": "Home page.",
+    "indexed": false
+   }
+  ],
+  "oracle_query": "1st Cannes Film Festival",
+  "evidence": {
+   "observed_at": "2026-10-16T18:15:14Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 302,
+    "class": "redirect_home",
+    "location": "http://yfdabv11.com/?dn=www.intercontinental-carlton-cannes.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504",
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Cannes Film Festival'",
+   "archive_url": "https://web.archive.org/web/20131020200436/http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946"
+  },
+  "goal_v0": "According to the InterContinental Carlton Cannes 100th-anniversary history pages, in which year was the hotel inaugurated? Cite the source you used.",
+  "user_link": "http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946"
+ },
+ {
+  "id": "R-F1-09",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm preparing a talk on early American bridges and want to cite STRUCTURE magazine's article \"The Permanent Bridge\": https://www.structuremag.org/?p=817\nHow long, in feet, was the single span that Charles Willson Peale designed in 1796? Please tell me where you found it.",
+  "answer": {
+   "value": "390",
+   "unit": "feet",
+   "field": "span"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-09-canon",
+    "role": "canonical",
+    "url": "https://www.structuremag.org/?p=817",
+    "status": 404,
+    "title": "404 - NCSEA Structure Mag",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:08:57Z",
+    "text": "404 - NCSEA Structure Mag \n Skip to main content \n Premier resource for practicing structural engineers \n News \n About Us \n Ask Archie \n Sign up to our Newsletter \n Search the website \n Search \n Fr \n Issues \n View All Issues \n Current Issue \n Articles \n Subject Search \n Ask Archie \n Articles by Subject \n Bridges \n Business Practices \n Codes and Standards \n Connections \n Concrete \n Masonry \n Tall Buildings \n Seismic \n Software \n Steel \n Sustainable Design \n Wind \n Wood \n Webinars \n Upcoming Webinars \n On-Demand Webinars \n For Advertisers \n Advertising Opportunities \n Media Kit \n Editorial Calendar \n Annual Resource Guide \n Monthly Product Resource Guides \n For Authors \n Writing for STRUCTURE \n Author Guidelines \n Author Intent Form \n Author New Material and Reprint Consent Form \n Subscriptions \n Join / Update Subscription \n Sign up for email updates \n Create Account \n Login \n News \n About Us \n Ask Archie \n Sign up to our Newsletter \n Fr \n Issues \n View All Issues \n Current Issue \n Articles \n Subject Search \n Ask Archie \n Articles by Subject \n Bridges \n Business Practices \n Codes and Standards \n Connections \n Concrete \n Masonry \n Tall Buildings \n Seismic \n Software \n Steel \n Sustainable Design \n Wind \n Wood \n Webinars \n Upcoming Webinars \n On-Demand Webinars \n For Advertisers \n Advertising Opportunities \n Media Kit \n Editorial Calendar \n Annual Resource Guide \n Monthly Product Resource Guides \n For Authors \n Writing for STRUCTURE \n Author Guidelines \n Author Intent Form \n Autho"
+   },
+   {
+    "id": "R-F1-09-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20191114082722/https://www.structuremag.org/?p=817",
+    "status": 200,
+    "title": "STRUCTURE magazine | The Permanent Bridge",
+    "text": "Smith’s proposed covered bridge 1787.\nThe next round of proposals came in the late 1790s. Charles Willson Peale, the noted painter, started publishing articles in the local newspapers in 1796 about a 390-foot single span bridge he designed and asked the Select Council to view his model. He was issued a patent on January 21, 1797, for a bridge he indicated would fit the Market Street site and followed it up with a pamphlet of 16 pages entitled An Essay on Building Wooden Bridges describing his patent for a laminated wood arch. His arch was built up of 1-inch thick plank laid on the flat with overlapping sides, and the planks butted to one another with the entire wooden deck pegged with hemlock trunnels.\nPeale’s Bridge.",
+    "value": "390",
+    "memento": "20191114082722",
+    "original": "https://www.structuremag.org/?p=817",
+    "version_label": "Wayback Machine capture of 2019-11-14",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "The Permanent Bridge",
+  "evidence": {
+   "observed_at": "2026-10-16T18:08:57Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Covered bridge'",
+   "archive_url": "https://web.archive.org/web/20191114082722/https://www.structuremag.org/?p=817"
+  },
+  "goal_v0": "STRUCTURE magazine's article \"The Permanent Bridge\" describes a single-span bridge that Charles Willson Peale designed in 1796. How long was that span, in feet? Cite the source you used.",
+  "user_link": "https://www.structuremag.org/?p=817"
+ },
+ {
+  "id": "R-F1-10",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm comparing heritage railway fares over time and saved the Strathspey Steam Railway's 2013 \"Timetable & Fares\" page: http://www.strathspeyrailway.co.uk/dnn/TimetableFares.aspx\nWhat did an adult return ticket cost in 2013? Please tell me where you found it.",
+  "answer": {
+   "value": "13.00",
+   "unit": "GBP",
+   "field": "adult return fare"
+  },
+  "barrier": {
+   "rule": "soft_404",
+   "signal": "silent",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-10-canon",
+    "role": "canonical",
+    "url": "http://www.strathspeyrailway.co.uk/dnn/TimetableFares.aspx",
+    "status": 200,
+    "title": "Error 404",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:10:59Z",
+    "text": "Error 404 \nOops, this should not have happened. It is likely that the page you requested does not exist anymore. \nReturning to the home page."
+   },
+   {
+    "id": "R-F1-10-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20130715023946/http://www.strathspeyrailway.co.uk/dnn/TimetableFares.aspx",
+    "status": 200,
+    "title": "Strathspey Steam Railway > Timetable & Fares",
+    "text": "Ticket Prices for 2013\nAdult Return £13.00, OAP Return £11.00, Child Return £6.50.\nFamily ticket £33",
+    "value": "13.00",
+    "memento": "20130715023946",
+    "original": "http://www.strathspeyrailway.co.uk/dnn/TimetableFares.aspx",
+    "version_label": "Wayback Machine capture of 2013-07-15",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Timetable and fares",
+  "evidence": {
+   "observed_at": "2026-10-16T18:10:59Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 200,
+    "class": "soft_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Highland Railway'",
+   "archive_url": "https://web.archive.org/web/20130715023946/http://www.strathspeyrailway.co.uk/dnn/TimetableFares.aspx"
+  },
+  "goal_v0": "What was the price of an adult return ticket on the Strathspey Steam Railway in 2013, according to the railway's 2013 \"Timetable & Fares\" page? Cite the source you used.",
+  "user_link": "http://www.strathspeyrailway.co.uk/dnn/TimetableFares.aspx"
+ },
+ {
+  "id": "R-F1-11",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm planning a visit to the National Railway Museum's Shildon site and read about its Collection building here: http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx\nMore than how many railway heritage vehicles are on display there? Please tell me where you found it.",
+  "answer": {
+   "value": "70",
+   "unit": "vehicles",
+   "field": "vehicles"
+  },
+  "barrier": {
+   "rule": "redirect_home",
+   "signal": "ambiguous",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-11-canon",
+    "role": "canonical",
+    "url": "http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx",
+    "status": 301,
+    "title": "301 Moved",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:11:38Z",
+    "headers": {
+     "Location": "https://www.railwaymuseum.org.uk/"
+    },
+    "text": "Moved: https://www.railwaymuseum.org.uk/"
+   },
+   {
+    "id": "R-F1-11-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20140102191510/http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx",
+    "status": 200,
+    "title": "Collection building - Plan a visit - National Railway Museum",
+    "text": "The model railway in the Collection building, run courtesy of Shildon Model Railway Club .\nAdmire our display of more than 70 railway heritage vehicles from the National Collection – including the prototype Deltic ; British Rail’s Advanced Passenger Train; and the iconic L.N.E.R. locomotive Green Arrow . Some have been stored in the open for many years, whilst others have been finely restored.\nThe Collection building is a showcase for sustainability techniques. A key requirement is to minimise temperature and humidity fluctuations as well as the building's overall energy demand. A high degree of roof insulation, wire gabons in the walls help achieve these ends without the need for air conditioning. A photovoltaic roofing system generates power which is fed back into the grid.",
+    "value": "70",
+    "memento": "20140102191510",
+    "original": "http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx",
+    "version_label": "Wayback Machine capture of 2014-01-02",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   },
+   {
+    "id": "R-F1-11-home",
+    "role": "context",
+    "url": "https://www.railwaymuseum.org.uk/",
+    "status": 200,
+    "title": "National Railway Museum",
+    "text": "National Railway Museum \n Skip to main content\n View more details on collections site \n Support us \n Shop \n Visit \n What’s on \n Our Transformation \n Groups \n Flying Scotsman \n Menu \n Toggle Search Bar \n Search the site\n Submit\n Visit \n Visit \n Travel info \n Food and drink \n Afternoon tea \n Facilities and accessibility \n What’s on \n Our Transformation \n Groups \n Flying Scotsman \n Objects and stories \n Research and archive \n Research and archive \n Donate an object \n Science Museum Group Journal \n Support the museum \n Support the museum \n Become a patron \n Corporate partnerships \n Trusts and Foundations \n Adopt an Object \n Leave a gift in your will \n Donate in Memory \n Volunteering \n About us \n About us \n Contact us \n Our Transformation \n Press office \n Venue hire \n Blog \n Wonderlab+ \n Shop \n Venue Hire \n Newsletter \n National Railway Museum\n Leeman Road\n York YO26 4XJ\n View on google maps\nBook your free museum admission tickets now . Schools and groups can book free tickets here . \nPlease note routes to the museum have changed. Find out more on the Travel Information page . \n Visit \n Visit \n Travel info \n Food and drink \n Afternoon tea \n Facilities and accessibility \n What’s on \n Our Transformation \n Groups \n Flying Scotsman \n Objects and stories \n Research and archive \n Research and archive \n Donate an object \n Science Museum Group Journal \n Support the museum \n Support the museum \n Become a patron \n Corporate partnerships \n Trusts and Foundations \n Adopt an Object \n Leave a g",
+    "indexed": false
+   }
+  ],
+  "oracle_query": "NRM Shildon: Collection building",
+  "evidence": {
+   "observed_at": "2026-10-16T18:11:38Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 301,
+    "class": "redirect_home",
+    "location": "https://www.railwaymuseum.org.uk/",
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Stockton and Darlington Railway'",
+   "archive_url": "https://web.archive.org/web/20140102191510/http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx"
+  },
+  "goal_v0": "According to the National Railway Museum's page on the Collection building at its Shildon site, more than how many railway heritage vehicles are on display there? Cite the source you used.",
+  "user_link": "http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx"
+ },
+ {
+  "id": "R-F1-12",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "We're visiting Iguazú and I want to know about the Tren Ecológico de la Selva. The national park's page is https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva\nBelow what speed (in km/h) does the train travel? Please tell me where you found it.",
+  "answer": {
+   "value": "20",
+   "unit": "km/h",
+   "field": "speed"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-12-canon",
+    "role": "canonical",
+    "url": "https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva",
+    "status": 404,
+    "title": "Página no encontrada - Iguazú Argentina",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:10:26Z",
+    "text": "Página no encontrada - Iguazú Argentina \n Ir al contenido \n <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M190.99 23.6017C190.99 23.6017 191 23.6017 191.009 23.6017C191.043 23.6017 191.067 23.621 191.101 23.621C191.203 23.621 191.29 23.5968 191.391 23.5727C191.44 23.5631 191.479 23.5727 191.522 23.592C191.556 23.6065 191.599 23.6306 191.628 23.6548C191.672 23.6934 191.648 23.7175 191.667 23.7609C191.682 23.7947 191.73 23.8188 191.759 23.8478C191.798 23.8864 191.832 23.9202 191.856 23.9684C191.861 23.9829 191.865 23.9974 191.87 24.0119C191.875 24.0408 191.88 24.0794 191.899 24.0987C191.909 24.1084 191.919 24.1084 191.928 24.1084C191.933 24.1084 191.948 24.1035 191.953 24.0987C191.953 24.0939 191.953 24.0891 191.953 24.0842C191.953 24.0794 191.953 24.0746 191.953 24.0649C191.953 24.0553 191.943 24.0456 191.943 24.036C191.938 24.0118 191.933 23.9925 191.933 23.9684C191.933 23.9491 191.933 23.9298 191.933 23.9153C191.933 23.9009 191.933 23.8864 191.923 23.8767C191.914 23.8671 191.904 23.8574 191.899 23.843C191.894 23.8333 191.89 23.8237 191.885 23.814C191.851 23.7657 191.836 23.703 191.793 23.6644C191.725 23.6017 191.633 23.5679 191.566 23.51C191.464 23.428 191.367 23.481 191.246 23.4617C191.198 23.4569 191.15 23.4521 191.101 23.4521C191.053 23.4521 191.043 23.4183 191 23.4183C190.98 23.4183 190.961 23.4328 190.942 23.4376C190.913 23.4376 190.879 23.428 190.855 23.4135C190.826 23.399 190.787 23.37 190.763 23.3507C190.782 23.3218 190.826 23.3363 190.86 23.3314C190.903 23.3314 1"
+   },
+   {
+    "id": "R-F1-12-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20200223034438/https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva",
+    "status": 200,
+    "title": "Iguazu Argentina",
+    "text": "Tren Ecológico de la Selva\nIdeal para tomar contacto directo con el medioambiente percibiendo los aromas, las variaciones climáticas y los sonidos del monte. Se desplaza a una velocidad inferior a los 20 km por hora para evitar interferir con la fauna y las formaciones son propulsadas a gas licuado de petróleo (GLP), un combustible no contaminante. Además contamos con locomotoras eléctricas, una innovación que nos permite seguir avanzando con el cuidado del medioambiente, reduciendo aún más el impacto en el mismo y liderando los procesos de mejora continua.\nEl Tren Ecológico de la Selva tiene su punto de partida en la Estación Central, muy próxima a toda el área de servicios.",
+    "value": "20",
+    "memento": "20200223034438",
+    "original": "https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva",
+    "version_label": "Wayback Machine capture of 2020-02-23",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Iguazu Argentina",
+  "evidence": {
+   "observed_at": "2026-10-16T18:10:26Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Heritage railway'",
+   "archive_url": "https://web.archive.org/web/20200223034438/https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva"
+  },
+  "goal_v0": "According to the Iguazú Argentina national-park page on the Tren Ecológico de la Selva, below what speed does the train travel? Give the speed in km/h and cite the source you used.",
+  "user_link": "https://iguazuargentina.com/es/atractivos/tren-ecologico-de-la-selva"
+ },
+ {
+  "id": "R-F1-13",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm writing about the Penn Museum's 2022 reopening and want to cite its \"Building Transformation\" page: https://www.penn.museum/transformation/\nMore than how many square feet of reimagined galleries and visitor spaces could visitors experience on the opening weekend? Please tell me where you found it.",
+  "answer": {
+   "value": "10,000",
+   "unit": "square feet",
+   "field": "area"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-13-canon",
+    "role": "canonical",
+    "url": "https://www.penn.museum/transformation/",
+    "status": 404,
+    "title": "Page Not Found | 404 - Penn Museum",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:05:00Z",
+    "text": "Page Not Found | 404 - Penn Museum \n Skip to main content. \n Open today 10 am – 5 pm \n Book Tickets \n Visit \nVisit \nStart here—for a world of adventure \n Book Tickets \n Plan Your Visit \n Tours & Events \n Museum Shop \n Museum Café \n Accessibility & Amenities \n Visitor Guidelines \n Getting Here \n Digital Guide & Map \nGROUP & FAMILY VISITS \n Plan a Group Visit \n Plan a K-12 Field Trip \n Family Visits \n On View \nOn View \nOpen your mind and world as you globetrot in a day. \n Overview \n Africa \n Ancient Egypt & Nubia OPENING 2026 \n Asia \n Eastern Mediterranean \n Etruscan Italy \n Greece \n Mexico & Central America \n Middle East \n Native North America \n Rome \nSpecial Exhibitions \n Ancient Egypt: From Discovery to Display \n Ancient Egypt in Watercolors \n Between Worlds/Entre Mundos \n Preserving Assyria \n Events \nEvents \nFrom festivals and after-hours happenings to classes and talks, we have something for all ages—all year round. \n Events Calendar \n Talks & Tours \n Classes & Workshops \n After-Hours \n Virtual \n Kids & Families \n Scout Programs \nSignature Programs \n Artifacts in Action Lecture Series \n The Deep Dig \n CultureFest! \n Up Late with the Sphinx \n Mind & Mood Recharge powered by Penn Medicine \n Collections \nCollections \nAccess collections that document global human history. Learn more about stewardship, study, and care of these materials. \n Online Collections \n Curatorial Sections \n Museum Archives \n Object Conservation \n Registrar's Office \n Access the Collections \n Rights and "
+   },
+   {
+    "id": "R-F1-13-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20230212162521/https://www.penn.museum/transformation/",
+    "status": 200,
+    "title": "Building Transformation - Penn Museum Transformation | Penn Museum",
+    "text": "We're unveiling something Big !\nMeet us at the Sphinx on November 16 and 17 for the new Penn Museum’s Opening Celebration Weekend . Experience more than 10,000 square feet of reimagined galleries and new visitor spaces, plus entertainment and activities for the whole family.\nWe’ll see you at the Sphinx!",
+    "value": "10,000",
+    "memento": "20230212162521",
+    "original": "https://www.penn.museum/transformation/",
+    "version_label": "Wayback Machine capture of 2023-02-12",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "Penn Museum Opening Celebration Weekend",
+  "evidence": {
+   "observed_at": "2026-10-16T18:05:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Penn Museum'",
+   "archive_url": "https://web.archive.org/web/20230212162521/https://www.penn.museum/transformation/"
+  },
+  "goal_v0": "According to the Penn Museum's \"Building Transformation\" page for its 2022 opening weekend, more than how many square feet of reimagined galleries and visitor spaces could visitors experience? Cite the source you used.",
+  "user_link": "https://www.penn.museum/transformation/"
+ },
+ {
+  "id": "R-F1-14",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "For a lecture on the history of official statistics I'm using the UK Statistics Authority's timeline of the UK statistical system: https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html\nIn which year did the Births and Deaths Registration Act receive Royal Assent? Please tell me where you found it.",
+  "answer": {
+   "value": "1836",
+   "unit": "",
+   "field": "year"
+  },
+  "barrier": {
+   "rule": "redirect_home",
+   "signal": "ambiguous",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-14-canon",
+    "role": "canonical",
+    "url": "https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html",
+    "status": 301,
+    "title": "301 Moved",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:01:05Z",
+    "headers": {
+     "Location": "https://uksa.statisticsauthority.gov.uk/"
+    },
+    "text": "Moved: https://uksa.statisticsauthority.gov.uk/"
+   },
+   {
+    "id": "R-F1-14-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20181028033625/https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html",
+    "status": 200,
+    "title": "Timeline: UK Statistics Authority",
+    "text": "1801: First regular population census for Great Britain held\n1836: The Births and Deaths Registration Act and the Marriage Act received Royal Assent, thereby establishing secular system for recording births, marriages and deaths.\n1837: General Register Office (GRO) for England and Wales established",
+    "value": "1836",
+    "memento": "20181028033625",
+    "original": "https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html",
+    "version_label": "Wayback Machine capture of 2018-10-28",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   },
+   {
+    "id": "R-F1-14-home",
+    "role": "context",
+    "url": "https://uksa.statisticsauthority.gov.uk/",
+    "status": 200,
+    "title": "UK Statistics Authority - UK Statistics Authority",
+    "text": "UK Statistics Authority - UK Statistics Authority \n Skip to main content \n Toggle search \n Menu\n Home \n About us About us \n About us \nLearn more about the UK Statistics Authority \n About the UK Statistics Authority \n What is the UK Statistical System? \n Corporate Information \n Strategy and Business Plans \n Careers \n Our policies \n Our work Our work \n Our work \nExplore our catalogue of work \n Publications \n Correspondence \n Parliamentary Committee Submissions \n Guidance \n Data ethics \n UK Statistics Assembly \n Working internationally \n Digital Economy Act: Research and Statistics Powers \n Boards and committees Boards and committees \n Boards and committees \nLearn more about the Authority Board and committees \n The Board \n Committees and panels \n Minutes and papers \n News \nSearch this website \n Search on UK Statistics Authority \n Search \nIndependent oversight of the UK statistical system \nThe UK Statistics Authority oversees the UK statistical system as a whole. It includes the Office for National Statistics and the Office for Statistics Regulation. \n Learn about the UK Statistics Authority \n How the UK statistics system works \n UK Statistics Authority \n The UK Statistics Authority is an independent statutory body, established in 2008 to safeguard the production and publication of official statistics that serve the public good. The Authority is responsible for the running of the Office for National Statistics and the Office for Statistics Regulation, as well as supervising offic",
+    "indexed": false
+   }
+  ],
+  "oracle_query": "Timeline",
+  "evidence": {
+   "observed_at": "2026-10-16T18:01:05Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 301,
+    "class": "redirect_home",
+    "location": "https://uksa.statisticsauthority.gov.uk/",
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'UK Statistics Authority'",
+   "archive_url": "https://web.archive.org/web/20181028033625/https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html"
+  },
+  "goal_v0": "According to the UK Statistics Authority's timeline of the UK statistical system, in which year did the Births and Deaths Registration Act receive Royal Assent? Cite the source you used.",
+  "user_link": "https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html"
+ },
+ {
+  "id": "R-F1-15",
+  "family": "F1",
+  "world": "W1a",
+  "domain": "news",
+  "task_type": "IR",
+  "goal": "I'm writing about the 2010 controversy over Canada's long-form census, when Statistics Canada's chief statistician resigned. The Montreal Gazette article \"StatsCan turmoil over census\" is here: https://montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html\nHow many years had his government career lasted? Please tell me where you found it.",
+  "answer": {
+   "value": "30",
+   "unit": "years",
+   "field": "career length"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-15-canon",
+    "role": "canonical",
+    "url": "https://montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html",
+    "status": 404,
+    "title": "Page not found - Montreal Gazette",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:21:06Z",
+    "text": "Page not found - Montreal Gazette \n Skip to content \n Sections \n Montreal News \n Montreal Politics \n Montreal Culture \n The Corner Booth \n Weather \n Quebec Politics \n Crime \n Health \n Montreal Canadiens \n Hockey Inside Out \n More Montreal Sports \n Opinion \n Columnists \n Op Eds \n Letters To The Editor \n Send an Opinion or Letter \n Obituaries \n <a href=\"https://epaper.montrealgazette.com/\" class"
+   },
+   {
+    "id": "R-F1-15-faith",
+    "role": "faithful",
+    "url": "https://web.archive.org/web/20100724053418/http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html",
+    "status": 200,
+    "title": "StatsCan in turmoil over census",
+    "text": "he agency silently embroiled at the centre of the census debate has long been viewed as the best of its kind in the world, but observers fear government intervention could damage the impeccable methodology and autonomy for which Statistics Canada is renowned.\nThe agency has been thrown into turmoil by the Conservative government's decision to scrap the long-form census and replace it with a voluntary survey -a move chief statistician Munir Sheikh found so untenable, he ended a 30-year government career by resigning in protest on Wednesday.\n\"StatsCan is thought of as one of the best,\" said Kevin Milligan, an associate professor of economics at the University of British Columbia, who has worked extensively with the agency's data.",
+    "value": "30",
+    "memento": "20100724053418",
+    "original": "http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html",
+    "version_label": "Wayback Machine capture of 2010-07-24",
+    "indexed": true,
+    "oracle_note": "Archived copy of the requested page."
+   }
+  ],
+  "oracle_query": "StatsCan in turmoil over census",
+  "evidence": {
+   "observed_at": "2026-10-16T18:21:06Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link (url-status=dead) in the Wikipedia article '2011 Canadian census'",
+   "archive_url": "https://web.archive.org/web/20100724053418/http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html"
+  },
+  "goal_v0": "In 2010 Statistics Canada's chief statistician resigned over the decision to scrap the long-form census. According to the Montreal Gazette article \"StatsCan turmoil over census\", how many years had his government career lasted? Cite the source you used.",
+  "user_link": "https://montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html"
+ },
+ {
+  "id": "R-F1-16",
+  "family": "F1",
+  "world": "W3",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm checking the sources of the Wikipedia list of CR Flamengo records and statistics. For Flamengo's Torneio Rio-São Paulo title it cites RSSSF Brasil's \"Torneio Rio-São Paulo – List of Champions\": http://www.rsssfbrasil.com/tablesrz/rjspcamp.htm\nWhat does that page say about Flamengo's Torneio Rio-São Paulo titles? Please quote the relevant passage and tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "statement"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-16-canon",
+    "role": "canonical",
+    "url": "http://www.rsssfbrasil.com/tablesrz/rjspcamp.htm",
+    "status": 404,
+    "title": "RSSSF Brasil - O arquivo para este torneio ainda não foi criado",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:28:57Z",
+    "text": "RSSSF Brasil - O arquivo para este torneio ainda não foi criado \nRSSSF Brasil - O arquivo para este torneio ainda não foi criado\n (RSSSF Brazil - The file for this tournament has not yet been created) \n Voltar/Back \nAbout this document \nPrepared and maintained by the \nRec.Sport.Soccer Statistics Foundation and RSSSF Brazil . \n Author: RSSSF ( rsssf-request@topica.com ) and RSSSF Brazil \n Last updated:  04 Apr 2026. \n (C) Copyright RSSSF and RSSSF Brazil 1999/2026. \nYou are free to copy this document in whole or part provided that proper \nacknowledgement is given to the author. All rights reserved."
+   }
+  ],
+  "oracle_query": "Torneio Rio-São Paulo – List of Champions",
+  "evidence": {
+   "observed_at": "2026-10-16T18:28:57Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link without an archive in 'List of CR Flamengo records and statistics'",
+   "wayback": "no capture (archive.org availability API, checked at observation time)"
+  },
+  "goal_v0": "The Wikipedia article \"List of CR Flamengo records and statistics\" cites a source titled \"Torneio Rio-São Paulo – List of Champions\" ([[Rec.Sport.Soccer Statistics Foundation]]) at http://www.rsssfbrasil.com/tablesrz/rjspcamp.htm. Open that source and report what it says in support of this statement: \"]]\n\n*Supercopa do Brasil: 3 (record) \n**2020, 2021, 2025\n\n*Copa dos Campeões: 1 (record) \n**2001\n\n===Inter-state===\n*Torneio Rio-São Paulo: 1\" Quote the relevant figure or passage and cite the source you used.",
+  "user_link": "http://www.rsssfbrasil.com/tablesrz/rjspcamp.htm"
+ },
+ {
+  "id": "R-F1-17",
+  "family": "F1",
+  "world": "W3",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "The Wikipedia article on parastatistics cites a memorial page for the physicist Herbert S. (Bert) Green: http://www.physics.adelaide.edu.au/mathphysics/hsg_memorial.html\nWhat does that page say about him? Please quote the relevant passage and tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "statement"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-17-canon",
+    "role": "canonical",
+    "url": "http://www.physics.adelaide.edu.au/mathphysics/hsg_memorial.html",
+    "status": 404,
+    "title": "Department of Physics and Mathematical Physics | Adelaide University",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:30:03Z",
+    "text": "Department of Physics and Mathematical Physics | Adelaide\n University\nDepartment of Physics and Mathematical Physics, Adelaide University \n As of May 2025, the departmental web server is no longer accessible\nexternally. For information about Physics at Adelaide University, please\nvisit the university's main page \nand search for Physics. \nUniversity staff and students can continue accessing departmental web\nresources from the university network or via the VPN using\nwwwint.physics.adelaide.edu.au instead of www.physics.adelaide.edu.au."
+   }
+  ],
+  "oracle_query": "Herbert Sydney (Bert) Green",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:03Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link without an archive in 'Parastatistics'",
+   "wayback": "no capture (archive.org availability API, checked at observation time)"
+  },
+  "goal_v0": "The Wikipedia article \"Parastatistics\" cites a source titled \"Herbert Sydney (Bert) Green\" at http://www.physics.adelaide.edu.au/mathphysics/hsg_memorial.html. Open that source and report what it says in support of this statement: \"Herbert S.&nbsp;Green\" Quote the relevant figure or passage and cite the source you used.",
+  "user_link": "http://www.physics.adelaide.edu.au/mathphysics/hsg_memorial.html"
+ },
+ {
+  "id": "R-F1-18",
+  "family": "F1",
+  "world": "W3",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm checking a claim in the Wikipedia article on population registration in Sweden: that anyone can order a registry extract about themselves under Section 26 of the Personal Data Act. It cites the government's text of the Act (1998:204): http://www.sweden.gov.se/content/1/c6/01/55/42/b451922d.pdf\nWhat does Section 26 say? Please quote it and tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "statement"
+  },
+  "barrier": {
+   "rule": "redirect_home",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-18-canon",
+    "role": "canonical",
+    "url": "http://www.sweden.gov.se/content/1/c6/01/55/42/b451922d.pdf",
+    "status": 301,
+    "title": "301 Moved",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:30:17Z",
+    "headers": {
+     "Location": "https://www.government.se"
+    },
+    "text": "Moved: https://www.government.se"
+   }
+  ],
+  "oracle_query": "Personal Data Act (1998:204)",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:17Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 301,
+    "class": "redirect_home",
+    "location": "https://www.government.se",
+    "error": null
+   },
+   "source": "cited as a dead link without an archive in 'Population registration in Sweden'",
+   "wayback": "no capture (archive.org availability API, checked at observation time)"
+  },
+  "goal_v0": "The Wikipedia article \"Population registration in Sweden\" cites a source titled \"Personal Data Act (1998:204)\" ([[Government of Sweden]]) at http://www.sweden.gov.se/content/1/c6/01/55/42/b451922d.pdf. Open that source and report what it says in support of this statement: \"One can order a registry extract about oneself, and one is entitled to obtain all records of oneself in the registry according to Section 26 of the Personal Data Act.\" Quote the relevant figure or passage and cite the source you used.",
+  "user_link": "http://www.sweden.gov.se/content/1/c6/01/55/42/b451922d.pdf"
+ },
+ {
+  "id": "R-F1-19",
+  "family": "F1",
+  "world": "W3",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "I'm planning a visit to the Nuremberg Toy Museum. Wikipedia cites the museum's \"Address / Directions\" page: https://www.museen.nuernberg.de/spielzeugmuseum/besucherinformation/adresse-anfahrt/\nWhat address does the page give? Please quote it and tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "statement"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-19-canon",
+    "role": "canonical",
+    "url": "https://www.museen.nuernberg.de/spielzeugmuseum/besucherinformation/adresse-anfahrt/",
+    "status": 404,
+    "title": "Page Not Found",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:34:07Z",
+    "text": "Page Not Found \n 404\nPage Not Found \nThe page did not exist or was inaccessible. Reason: No site configuration found. \n TYPO3 is an open source content management system. To maintain the quality of the system and to improve it, please help us by donating .\n Copyright © 1998-2026 Kasper Skårhøj. Extensions are copyright of their respective owners. Go to typo3.org for details."
+   }
+  ],
+  "oracle_query": "Address / Directions",
+  "evidence": {
+   "observed_at": "2026-10-16T18:34:07Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link without an archive in 'Nuremberg Toy Museum'",
+   "wayback": "no capture (archive.org availability API, checked at observation time)"
+  },
+  "goal_v0": "The Wikipedia article \"Nuremberg Toy Museum\" cites a source titled \"Address / Directions\" at https://www.museen.nuernberg.de/spielzeugmuseum/besucherinformation/adresse-anfahrt/. Open that source and report what it says in support of this statement: \"= Nuremberg\n| type                       = Toy Museum\n| architect                  = Wilhelm Haller, senior\n| collection_size = 87,000\n| visitors                   = > 150,000\n| director                 = Karin Falkenberg\n| website                    =[http://www.museums.nuremberg.de/toy-museum/inde\" Quote the relevant figure or passage and cite the source you used.",
+  "user_link": "https://www.museen.nuernberg.de/spielzeugmuseum/besucherinformation/adresse-anfahrt/"
+ },
+ {
+  "id": "R-F1-20",
+  "family": "F1",
+  "world": "W3",
+  "domain": "web",
+  "task_type": "IR",
+  "goal": "The Wikipedia article on Plaza Bridge in Ottawa says that plaques unveiled on 29 April 2004 honour a century of service by Canadian military engineers, citing National Defence Canada's \"Sapper's Bridge memorial\" page: http://www.cmp-cpm.forces.gc.ca/dhh-dhp/nic-inm/sm-rm/mdsr-rdr-eng.asp?PID=8377\nWhat does that page say about the plaques? Please quote the relevant passage and tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "statement"
+  },
+  "barrier": {
+   "rule": "http_404",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F1-20-canon",
+    "role": "canonical",
+    "url": "http://www.cmp-cpm.forces.gc.ca/dhh-dhp/nic-inm/sm-rm/mdsr-rdr-eng.asp?PID=8377",
+    "status": 404,
+    "title": "Sapper's Bridge memorial",
+    "indexed": false,
+    "observed_at": "2026-10-16T18:35:44Z",
+    "text": "The resource you are looking for has been removed, had its name changed, or is temporarily unavailable."
+   }
+  ],
+  "oracle_query": "Sapper's Bridge memorial",
+  "evidence": {
+   "observed_at": "2026-10-16T18:35:44Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 404,
+    "class": "http_404",
+    "location": null,
+    "error": null
+   },
+   "source": "cited as a dead link without an archive in 'Plaza Bridge'",
+   "wayback": "no capture (archive.org availability API, checked at observation time)"
+  },
+  "goal_v0": "The Wikipedia article \"Plaza Bridge\" cites a source titled \"Sapper's Bridge memorial\" (National Defence Canada) at http://www.cmp-cpm.forces.gc.ca/dhh-dhp/nic-inm/sm-rm/mdsr-rdr-eng.asp?PID=8377. Open that source and report what it says in support of this statement: \"The plaques, which were unveiled on April 29, 2004, are dedicated in honour of a century of contributing service by Canadian Military engineers.\" Quote the relevant figure or passage and cite the source you used.",
+  "user_link": "http://www.cmp-cpm.forces.gc.ca/dhh-dhp/nic-inm/sm-rm/mdsr-rdr-eng.asp?PID=8377"
+ }
+]

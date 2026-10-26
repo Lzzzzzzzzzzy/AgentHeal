@@ -1,0 +1,241 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-17",
+ "goal_id": "R-F8-17",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "Our compliance check reads licenses from the GitHub REST API: https://api.github.com/repos/psf/requests\nWhat is the SPDX identifier of the license of psf/requests? I need this within the next 30 minutes. Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "Apache-2.0",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-17-canon",
+   "role": "canonical",
+   "url": "https://api.github.com/repos/psf/requests",
+   "host": "api.github.com",
+   "path": "/repos/psf/requests",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "api.github.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-17",
+   "value": "Apache-2.0",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"id\": 1362490,",
+     " \"node_id\": \"MDEwOlJlcG9zaXRvcnkxMzYyNDkw\",",
+     " \"name\": \"requests\",",
+     " \"full_name\": \"psf/requests\",",
+     " \"private\": false,",
+     " \"owner\": {",
+     "  \"login\": \"psf\",",
+     "  \"id\": 50630501,",
+     "  \"node_id\": \"MDEyOk9yZ2FuaXphdGlvbjUwNjMwNTAx\",",
+     "  \"avatar_url\": \"https://avatars.githubusercontent.com/u/50630501?v=4\",",
+     "  \"gravatar_id\": \"\",",
+     "  \"url\": \"https://api.github.com/users/psf\",",
+     "  \"html_url\": \"https://github.com/psf\",",
+     "  \"followers_url\": \"https://api.github.com/users/psf/followers\",",
+     "  \"following_url\": \"https://api.github.com/users/psf/following{/other_user}\",",
+     "  \"gists_url\": \"https://api.github.com/users/psf/gists{/gist_id}\",",
+     "  \"starred_url\": \"https://api.github.com/users/psf/starred{/owner}{/repo}\",",
+     "  \"subscriptions_url\": \"https://api.github.com/users/psf/subscriptions\",",
+     "  \"organizations_url\": \"https://api.github.com/users/psf/orgs\",",
+     "  \"repos_url\": \"https://api.github.com/users/psf/repos\",",
+     "  \"events_url\": \"https://api.github.com/users/psf/events{/privacy}\",",
+     "  \"received_events_url\": \"https://api.github.com/users/psf/received_events\",",
+     "  \"type\": \"Organization\",",
+     "  \"user_view_type\": \"public\",",
+     "  \"site_admin\": false",
+     " },",
+     " \"html_url\": \"https://github.com/psf/requests\",",
+     " \"description\": \"A simple, yet elegant, HTTP library.\",",
+     " \"fork\": false,"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:51:54Z",
+    "limited": {
+     "text": "{\"message\":\"API rate limit exceeded for 203.0.113.7. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}\n",
+     "content_type": "application/json",
+     "headers": {
+      "X-RateLimit-Limit": "60",
+      "X-RateLimit-Remaining": "0",
+      "X-RateLimit-Used": "60"
+     },
+     "status": 403
+    },
+    "text": "{\n \"id\": 1362490,\n \"node_id\": \"MDEwOlJlcG9zaXRvcnkxMzYyNDkw\",\n \"name\": \"requests\",\n \"full_name\": \"psf/requests\",\n \"private\": false,\n \"owner\": {\n  \"login\": \"psf\",\n  \"id\": 50630501,\n  \"node_id\": \"MDEyOk9yZ2FuaXphdGlvbjUwNjMwNTAx\",\n  \"avatar_url\": \"https://avatars.githubusercontent.com/u/50630501?v=4\",\n  \"gravatar_id\": \"\",\n  \"url\": \"https://api.github.com/users/psf\",\n  \"html_url\": \"https://github.com/psf\",\n  \"followers_url\": \"https://api.github.com/users/psf/followers\",\n  \"following_url\": \"https://api.github.com/users/psf/following{/other_user}\",\n  \"gists_url\": \"https://api.github.com/users/psf/gists{/gist_id}\",\n  \"starred_url\": \"https://api.github.com/users/psf/starred{/owner}{/repo}\",\n  \"subscriptions_url\": \"https://api.github.com/users/psf/subscriptions\",\n  \"organizations_url\": \"https://api.github.com/users/psf/orgs\",\n  \"repos_url\": \"https://api.github.com/users/psf/repos\",\n  \"events_url\": \"https://api.github.com/users/psf/events{/privacy}\",\n  \"received_events_url\": \"https://api.github.com/users/psf/received_events\",\n  \"type\": \"Organization\",\n  \"user_view_type\": \"public\",\n  \"site_admin\": false\n },\n \"html_url\": \"https://github.com/psf/requests\",\n \"description\": \"A simple, yet elegant, HTTP library.\",\n \"fork\": false,\n \"url\": \"https://api.github.com/repos/psf/requests\",\n \"forks_url\": \"https://api.github.com/repos/psf/requests/forks\",\n \"keys_url\": \"https://api.github.com/repos/psf/requests/keys{/key_id}\",\n \"collaborators_url\": \"https://api.github.com/repos/psf/requests/collaborators{/collaborator}\",\n \"teams_url\": \"https://api.github.com/repos/psf/requests/teams\",\n \"hooks_url\": \"https://api.github.com/repos/psf/requests/hooks\",\n \"issue_events_url\": \"https://api.github.com/repos/psf/requests/issues/events{/number}\",\n \"events_url\": \"https://api.github.com/repos/psf/requests/events\",\n \"assignees_url\": \"https://api.github.com/repos/psf/requests/assignees{/user}\",\n \"branches_url\": \"https://api.github.com/repos/psf/requests/branches{/branch}\",\n \"tags_url\": \"https://api.github.com/repos/psf/requests/tags\",\n \"blobs_url\": \"https://api.github.com/repos/psf/requests/git/blobs{/sha}\",\n \"git_tags_url\": \"https://api.github.com/repos/psf/requests/git/tags{/sha}\",\n \"git_refs_url\": \"https://api.github.com/repos/psf/requests/git/refs{/sha}\",\n \"trees_url\": \"https://api.github.com/repos/psf/requests/git/trees{/sha}\",\n \"statuses_url\": \"https://api.github.com/repos/psf/requests/statuses/{sha}\",\n \"languages_url\": \"https://api.github.com/repos/psf/requests/languages\",\n \"stargazers_url\": \"https://api.github.com/repos/psf/requests/stargazers\",\n \"contributors_url\": \"https://api.github.com/repos/psf/requests/contributors\",\n \"subscribers_url\": \"https://api.github.com/repos/psf/requests/subscribers\",\n \"subscription_url\": \"https://api.github.com/repos/psf/requests/subscription\",\n \"commits_url\": \"https://api.github.com/repos/psf/requests/commits{/sha}\",\n \"git_commits_url\": \"https://api.github.com/repos/psf/requests/git/commits{/sha}\",\n \"comments_url\": \"https://api.github.com/repos/psf/requests/comments{/number}\",\n \"issue_comment_url\": \"https://api.github.com/repos/psf/requests/issues/comments{/number}\",\n \"contents_url\": \"https://api.github.com/repos/psf/requests/contents/{+path}\",\n \"compare_url\": \"https://api.github.com/repos/psf/requests/compare/{base}...{head}\",\n \"merges_url\": \"https://api.github.com/repos/psf/requests/merges\",\n \"archive_url\": \"https://api.github.com/repos/psf/requests/{archive_format}{/ref}\",\n \"downloads_url\": \"https://api.github.com/repos/psf/requests/downloads\",\n \"issues_url\": \"https://api.github.com/repos/psf/requests/issues{/number}\",\n \"pulls_url\": \"https://api.github.com/repos/psf/requests/pulls{/number}\",\n \"milestones_url\": \"https://api.github.com/repos/psf/requests/milestones{/number}\",\n \"notifications_url\": \"https://api.github.com/repos/psf/requests/notifications{?since,all,participating}\",\n \"labels_url\": \"https://api.github.com/repos/psf/requests/labels{/name}\",\n \"releases_url\": \"https://api.github.com/repos/psf/requests/releases{/id}\",\n \"deployments_url\": \"https://api.github.com/repos/psf/requests/deployments\",\n \"created_at\": \"2011-02-13T18:38:17Z\",\n \"updated_at\": \"2026-10-16T14:13:25Z\",\n \"pushed_at\": \"2026-09-28T16:55:48Z\",\n \"git_url\": \"git://github.com/psf/requests.git\",\n \"ssh_url\": \"git@github.com:psf/requests.git\",\n \"clone_url\": \"https://github.com/psf/requests.git\",\n \"svn_url\": \"https://github.com/psf/requests\",\n \"homepage\": \"https://requests.readthedocs.io/en/latest/\",\n \"size\": 13631,\n \"stargazers_count\": 54461,\n \"watchers_count\": 54461,\n \"language\": \"Python\",\n \"has_issues\": true,\n \"has_projects\": false,\n \"has_downloads\": false,\n \"has_wiki\": true,\n \"has_pages\": false,\n \"has_discussions\": false,\n \"forks_count\": 13115,\n \"mirror_url\": null,\n \"archived\": false,\n \"disabled\": false,\n \"open_issues_count\": 244,\n \"license\": {\n  \"key\": \"apache-2.0\",\n  \"name\": \"Apache License 2.0\",\n  \"spdx_id\": \"Apache-2.0\",\n  \"url\": \"https://api.github.com/licenses/apache-2.0\",\n  \"node_id\": \"MDc6TGljZW5zZTI=\"\n },\n \"allow_forking\": true,\n \"is_template\": false,\n \"web_commit_signoff_required\": false,\n \"has_pull_requests\": true,\n \"pull_request_creation_policy\": \"collaborators_only\",\n \"topics\": [\n  \"client\",\n  \"cookies\",\n  \"forhumans\",\n  \"http\",\n  \"humans\",\n  \"python\",\n  \"python-requests\",\n  \"requests\"\n ],\n \"visibility\": \"public\",\n \"forks\": 13115,\n \"open_issues\": 244,\n \"watchers\": 54461\n}"
+   }
+  },
+  {
+   "id": "R-F8-17-doc0",
+   "role": "context",
+   "url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+   "host": "docs.github.com",
+   "path": "/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Rate limits for the REST API - GitHub Docs",
+   "publisher": "docs.github.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-17",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Rate limits for the REST API - GitHub Docs ",
+     " Skip to main content ",
+     " Skip to content ",
+     " GitHub Docs ",
+     " Search or ask Copilot / Menu ",
+     "Collapse sidebar ",
+     "Expand sidebar ",
+     " Home ",
+     " REST API ",
+     " Using the REST API ",
+     " Rate limits ",
+     " REST API ",
+     " API Version: 2026-03-10 (latest) ",
+     " Quickstart ",
+     " About the REST API ",
+     " About the REST API ",
+     " Comparing GitHub's APIs ",
+     " API Versions ",
+     " Breaking changes ",
+     " OpenAPI description ",
+     " Using the REST API ",
+     " Getting started ",
+     " Rate limits ",
+     " Pagination ",
+     " Libraries ",
+     " Best practices ",
+     " Troubleshooting ",
+     " Timezones ",
+     " CORS and JSONP ",
+     " Issue event types "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Rate limits for the REST API - GitHub Docs",
+    "text": "Rate limits for the REST API - GitHub Docs \n Skip to main content \n Skip to content \n GitHub Docs \n Search or ask Copilot / Menu \nCollapse sidebar \nExpand sidebar \n Home \n REST API \n Using the REST API \n Rate limits \n REST API \n API Version: 2026-03-10 (latest) \n Quickstart \n About the REST API \n About the REST API \n Comparing GitHub's APIs \n API Versions \n Breaking changes \n OpenAPI description \n Using the REST API \n Getting started \n Rate limits \n Pagination \n Libraries \n Best practices \n Troubleshooting \n Timezones \n CORS and JSONP \n Issue event types \n GitHub event types \n Authentication \n Authenticating \n Keeping API credentials secure \n Endpoints for GitHub App installation tokens \n Endpoints for GitHub App user tokens \n Endpoints for fine-grained PATs \n Permissions for GitHub Apps \n Permissions for fine-grained PATs \n Guides \n Script with JavaScript \n Script with Ruby \n Discover resources for a user \n Delivering deployments \n Rendering data as graphs \n Working with comments \n Building a CI server \n Get started - Git database \n Get started - Checks \n Encrypt secrets \n Actions \n Artifacts \n Cache \n Actions concurrency groups \n GitHub-hosted runners \n OIDC \n Permissions \n Actions policies \n Secrets \n Self-hosted runner groups \n Self-hosted runners \n Variables \n Workflow jobs \n Workflow runs \n Workflows \n Activity \n Events \n Feeds \n Notifications \n Starring \n Watching \n Agent automations \n Agent automations \n Agent tasks \n Agent tasks \n Agents \n Secrets \n Variables \n Apps \n GitHub Apps \n Installations \n Marketplace \n OAuth authorizations \n Webhooks \n Billing \n Budgets \n Billing usage \n Branches \n Branches \n Protected branches \n Campaigns \n Security campaigns \n Checks \n Check runs \n Check suites \n Classroom \n Classroom \n Code quality \n Code quality \n Code scanning \n Code scanning \n Code security settings \n Configurations \n Codes of conduct \n Codes of conduct \n Codespaces \n Codespaces \n Organizations \n Organization secrets \n Machines \n Repository secrets \n User secrets \n Collaborators \n Collaborators \n Invitations \n Commits \n Commits \n Commit comments \n Commit statuses \n Copilot \n Cloud agent repository management \n Copilot cloud agent management \n Copilot content exclusion management \n Copilot usage metrics \n Copilot user management \n Copilot Spaces \n Collaborators \n Copilot Spaces \n Resources \n Credentials \n Revocation \n Dependabot \n Alerts \n Repository access \n Secrets \n Dependency graph \n Dependency review \n Dependency submission \n Software bill of materials (SBOM) \n Deploy keys \n Deploy keys \n Deployments \n Deployment branch policies \n Deployments \n Environments \n Protection rules \n Deployment statuses \n Emojis \n Emojis \n Gists \n Gists \n Comments \n Git database \n Blobs \n Commits \n References \n Tags \n Trees \n Gitignore \n Gitignore \n Interactions \n Organization \n Repository \n User \n Issues \n Assignees \n Comments \n Events \n Issue dependencies \n Issue field values \n Issues \n Labels \n Milestones \n Sub-issues \n Timeline \n Licenses \n Licenses \n Ma"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-17-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 130
+  }
+ },
+ "credentials": null,
+ "deadline_s": 1800,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:51:54Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "observed (shared exit IP)",
+  "docs": [
+   "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api"
+  ],
+  "documented_limit": [
+   "Rate limits for the REST API - GitHub Docs",
+   "Rate limits",
+   "Rate limits"
+  ]
+ },
+ "oracle_query": "Using the GitHub REST API, report the SPDX identifier of the license of the psf/",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using the GitHub REST API, report the SPDX identifier of the license of the psf/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.github.com/repos/psf/requests"
+   },
+   {
+    "tool": "wait",
+    "seconds": 135
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.github.com/repos/psf/requests"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "Apache-2.0",
+     "sources": [
+      "https://api.github.com/repos/psf/requests"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

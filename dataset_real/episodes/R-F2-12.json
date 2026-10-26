@@ -1,0 +1,244 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-12",
+ "goal_id": "R-F2-12",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm reproducing a baseline from \"Cover Reproducible Steganography via Deep Generative Models\" (IEEE Transactions on Dependable and Secure Computing, 2022; DOI 10.1109/tdsc.2022.3217569) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/9931443/\nIn the table whose caption begins \"The running time of different parts of the proposed CRS framework. (GPU: Waveglow: Nvidia 3090, DALL-E:\", what value is reported for \"WaveGlow [ 32 ]\" in the column \"Generation (s)\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "WaveGlow [ 32 ] / Generation (s)",
+  "unit": "",
+  "canonical": "1.883",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-12-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/9931443/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/9931443/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Cover Reproducible Steganography via Deep Generative Models",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-12",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "Cover Reproducible Steganography via Deep Generative Models",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F2-12-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/tdsc.2022.3217569",
+   "host": "doi.org",
+   "path": "/10.1109/tdsc.2022.3217569",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-12",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/9931443/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9931443/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9931443/"
+   }
+  },
+  {
+   "id": "R-F2-12-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2210.14632",
+   "host": "arxiv.org",
+   "path": "/html/2210.14632",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Cover Reproducible Steganography via Deep Generative Models",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2210.14632 (submitted version)",
+   "work_id": "R-F2-12",
+   "value": "1.883",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Cover Reproducible Steganography via Deep Generative Models",
+     "arXiv:2210.14632 [preprint]",
+     "TABLE II: The running time of different parts of the proposed CRS framework. (GPU: Waveglow: Nvidia 3090, DALL-E: Nvidia A100, CPU: Intel (R) Xeon (R) CPU E5-2670 @2.30 GHz)",
+     "WaveGlow [ 32 ] 1.883 0.0153 0.0163 DALL-E [ 39 ] 0.1593 0.0156 0.0149    "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Cover Reproducible Steganography via Deep Generative Models",
+    "tables": [
+     {
+      "caption": "TABLE II: The running time of different parts of the proposed CRS framework. (GPU: Waveglow: Nvidia 3090, DALL-E: Nvidia A100, CPU: Intel (R) Xeon (R) CPU E5-2670 @2.30 GHz)",
+      "header": [
+       "Generative Models",
+       "Generation (s)",
+       "Embedding (s)",
+       "Extraction (s)"
+      ],
+      "rows": [
+       [
+        "WaveGlow [ 32 ]",
+        "1.883",
+        "0.0153",
+        "0.0163"
+       ],
+       [
+        "DALL-E [ 39 ]",
+        "0.1593",
+        "0.0156",
+        "0.0149"
+       ],
+       [
+        "",
+        "",
+        "",
+        ""
+       ]
+      ]
+     }
+    ],
+    "text": "Cover Reproducible Steganography via Deep Generative Models\narXiv:2210.14632 [preprint]\nTABLE II: The running time of different parts of the proposed CRS framework. (GPU: Waveglow: Nvidia 3090, DALL-E: Nvidia A100, CPU: Intel (R) Xeon (R) CPU E5-2670 @2.30 GHz)"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-12-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:15:02Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "Cover Reproducible Steganography via Deep Generative Models",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Cover Reproducible Steganography via Deep Generative Models"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/9931443/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2210.14632"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "1.883",
+     "sources": [
+      "https://arxiv.org/html/2210.14632"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2210.14632",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2210.14632 (submitted version)",
+       "note": "This is arXiv preprint 2210.14632 (submitted version), not the requested version; the WaveGlow [ 32 ] / Generation (s) may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

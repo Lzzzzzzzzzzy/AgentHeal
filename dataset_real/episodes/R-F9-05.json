@@ -1,0 +1,266 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F9-05",
+ "goal_id": "R-F9-05",
+ "family": "F9",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "Our app fetches article sections with this MediaWiki API call: https://en.wikipedia.org/w/api.php?action=mobileview&page=Eiffel_Tower&format=json\nHow many sections does the English Wikipedia article \"Eiffel Tower\" have? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Wikipedia mobileview",
+  "unit": "sections",
+  "canonical": "37",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F9-05-canon",
+   "role": "canonical",
+   "url": "https://en.wikipedia.org/w/api.php?action=mobileview&page=Eiffel_Tower&format=json",
+   "host": "en.wikipedia.org",
+   "path": "/w/api.php?action=mobileview&page=Eiffel_Tower&format=json",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "200 Wikipedia mobileview",
+   "publisher": "en.wikipedia.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-05",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{\"error\":{\"code\":\"badvalue\",\"info\":\"Unrecognized value for parameter \\\"action\\\": mobileview.\",\"*\":\"See https://en.wikipedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.\"},\"servedby\":\"mw-api-ext.codfw.main-7fdf98469-4w28j\"}"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json",
+    "headers": {},
+    "title": "200 Wikipedia mobileview",
+    "observed_at": "2026-10-16T18:20:37Z",
+    "text": "{\"error\":{\"code\":\"badvalue\",\"info\":\"Unrecognized value for parameter \\\"action\\\": mobileview.\",\"*\":\"See https://en.wikipedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.\"},\"servedby\":\"mw-api-ext.codfw.main-7fdf98469-4w28j\"}"
+   }
+  },
+  {
+   "id": "R-F9-05-faith",
+   "role": "faithful",
+   "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Eiffel_Tower&prop=sections&format=json",
+   "host": "en.wikipedia.org",
+   "path": "/w/api.php?action=parse&page=Eiffel_Tower&prop=sections&format=json",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Wikipedia mobileview replacement",
+   "publisher": "en.wikipedia.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-05",
+   "value": "37",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"warnings\": {",
+     "  \"main\": {",
+     "   \"*\": \"Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes. Use [[Special:ApiFeatureUsage]] to see usage of deprecated features by your application.\"",
+     "  },",
+     "  \"parse\": {",
+     "   \"*\": \"\\\"prop=sections\\\" has been deprecated. Please use \\\"prop=tocdata\\\" instead.\"",
+     "  }",
+     " },",
+     " \"parse\": {",
+     "  \"title\": \"Eiffel Tower\",",
+     "  \"pageid\": 9232,",
+     "  \"sections\": [",
+     "   {",
+     "    \"toclevel\": 1,",
+     "    \"level\": \"2\",",
+     "    \"line\": \"History\",",
+     "    \"number\": \"1\",",
+     "    \"index\": \"1\",",
+     "    \"fromtitle\": \"Eiffel_Tower\",",
+     "    \"byteoffset\": 8725,",
+     "    \"anchor\": \"History\",",
+     "    \"linkAnchor\": \"History\"",
+     "   },",
+     "   {",
+     "    \"toclevel\": 2,",
+     "    \"level\": \"3\",",
+     "    \"line\": \"Origin\",",
+     "    \"number\": \"1.1\",",
+     "    \"index\": \"2\","
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "title": "Wikipedia mobileview replacement",
+    "text": "{\n \"warnings\": {\n  \"main\": {\n   \"*\": \"Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes. Use [[Special:ApiFeatureUsage]] to see usage of deprecated features by your application.\"\n  },\n  \"parse\": {\n   \"*\": \"\\\"prop=sections\\\" has been deprecated. Please use \\\"prop=tocdata\\\" instead.\"\n  }\n },\n \"parse\": {\n  \"title\": \"Eiffel Tower\",\n  \"pageid\": 9232,\n  \"sections\": [\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"History\",\n    \"number\": \"1\",\n    \"index\": \"1\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 8725,\n    \"anchor\": \"History\",\n    \"linkAnchor\": \"History\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Origin\",\n    \"number\": \"1.1\",\n    \"index\": \"2\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 8737,\n    \"anchor\": \"Origin\",\n    \"linkAnchor\": \"Origin\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Artists' protest\",\n    \"number\": \"1.2\",\n    \"index\": \"3\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 13935,\n    \"anchor\": \"Artists'_protest\",\n    \"linkAnchor\": \"Artists'_protest\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Construction\",\n    \"number\": \"1.3\",\n    \"index\": \"4\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 19971,\n    \"anchor\": \"Construction\",\n    \"linkAnchor\": \"Construction\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Inauguration and the 1889 exposition\",\n    \"number\": \"1.4\",\n    \"index\": \"5\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 25653,\n    \"anchor\": \"Inauguration_and_the_1889_exposition\",\n    \"linkAnchor\": \"Inauguration_and_the_1889_exposition\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Subsequent events\",\n    \"number\": \"1.5\",\n    \"index\": \"6\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 30692,\n    \"anchor\": \"Subsequent_events\",\n    \"linkAnchor\": \"Subsequent_events\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"Design\",\n    \"number\": \"2\",\n    \"index\": \"7\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 50446,\n    \"anchor\": \"Design\",\n    \"linkAnchor\": \"Design\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Material\",\n    \"number\": \"2.1\",\n    \"index\": \"8\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 50457,\n    \"anchor\": \"Material\",\n    \"linkAnchor\": \"Material\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Wind and weather considerations\",\n    \"number\": \"2.2\",\n    \"index\": \"9\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 51980,\n    \"anchor\": \"Wind_and_weather_considerations\",\n    \"linkAnchor\": \"Wind_and_weather_considerations\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Floors\",\n    \"number\": \"2.3\",\n    \"index\": \"10\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 55045,\n    \"anchor\": \"Floors\",\n    \"linkAnchor\": \"Floors\"\n   },\n   {\n    \"toclevel\": 3,\n    \"level\": \"4\",\n    \"line\": \"Ground floor\",\n    \"number\": \"2.3.1\",\n    \"index\": \"11\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 55058,\n    \"anchor\": \"Ground_floor\",\n    \"linkAnchor\": \"Ground_floor\"\n   },\n   {\n    \"toclevel\": 3,\n    \"level\": \"4\",\n    \"line\": \"1st floor\",\n    \"number\": \"2.3.2\",\n    \"index\": \"12\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 55487,\n    \"anchor\": \"1st_floor\",\n    \"linkAnchor\": \"1st_floor\"\n   },\n   {\n    \"toclevel\": 3,\n    \"level\": \"4\",\n    \"line\": \"2nd floor\",\n    \"number\": \"2.3.3\",\n    \"index\": \"13\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 56047,\n    \"anchor\": \"2nd_floor\",\n    \"linkAnchor\": \"2nd_floor\"\n   },\n   {\n    \"toclevel\": 3,\n    \"level\": \"4\",\n    \"line\": \"3rd floor\",\n    \"number\": \"2.3.4\",\n    \"index\": \"14\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 57162,\n    \"anchor\": \"3rd_floor\",\n    \"linkAnchor\": \"3rd_floor\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Lifts\",\n    \"number\": \"2.4\",\n    \"index\": \"15\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 59365,\n    \"anchor\": \"Lifts\",\n    \"linkAnchor\": \"Lifts\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Engraved names\",\n    \"number\": \"2.5\",\n    \"index\": \"16\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 64201,\n    \"anchor\": \"Engraved_names\",\n    \"linkAnchor\": \"Engraved_names\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Aesthetics\",\n    \"number\": \"2.6\",\n    \"index\": \"17\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 65249,\n    \"anchor\": \"Aesthetics\",\n    \"linkAnchor\": \"Aesthetics\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Maintenance\",\n    \"number\": \"2.7\",\n    \"index\": \"18\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 69779,\n    \"anchor\": \"Maintenance\",\n    \"linkAnchor\": \"Maintenance\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"Communications\",\n    \"number\": \"3\",\n    \"index\": \"19\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 70905,\n    \"anchor\": \"Communications\",\n    \"linkAnchor\": \"Communications\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"FM radio\",\n    \"number\": \"3.1\",\n    \"index\": \"20\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 72043,\n    \"anchor\": \"FM_radio\",\n    \"linkAnchor\": \"FM_radio\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Analogue television\",\n    \"number\": \"3.2\",\n    \"index\": \"21\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 73431,\n    \"anchor\": \"Analogue_television\",\n    \"linkAnchor\": \"Analogue_television\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Digital Television\",\n    \"number\": \"3.3\",\n    \"index\": \"22\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 74214,\n    \"anchor\": \"Digital_Television\",\n    \"linkAnchor\": \"Digital_Television\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"Dimensions\",\n    \"number\": \"4\",\n    \"index\": \"23\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 75339,\n    \"anchor\": \"Dimensions\",\n    \"linkAnchor\": \"Dimensions\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Height changes\",\n    \"number\": \"4.1\",\n    \"index\": \"24\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 75430,\n    \"anchor\": \"Height_changes\",\n    \"linkAnchor\": \"Height_changes\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"Taller structures\",\n    \"number\": \"5\",\n    \"index\": \"25\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 76988,\n    \"anchor\": \"Taller_structures\",\n    \"linkAnchor\": \"Taller_structures\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Lattice towers taller than the Eiffel Tower\",\n    \"number\": \"5.1\",\n    \"index\": \"26\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 77918,\n    \"anchor\": \"Lattice_towers_taller_than_the_Eiffel_Tower\",\n    \"linkAnchor\": \"Lattice_towers_taller_than_the_Eiffel_Tower\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Structures in France taller than the Eiffel Tower\",\n    \"number\": \"5.2\",\n    \"index\": \"27\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 78667,\n    \"anchor\": \"Structures_in_France_taller_than_the_Eiffel_Tower\",\n    \"linkAnchor\": \"Structures_in_France_taller_than_the_Eiffel_Tower\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"Tourism\",\n    \"number\": \"6\",\n    \"index\": \"28\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 79630,\n    \"anchor\": \"Tourism\",\n    \"linkAnchor\": \"Tourism\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Transport\",\n    \"number\": \"6.1\",\n    \"index\": \"29\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 79642,\n    \"anchor\": \"Transport\",\n    \"linkAnchor\": \"Transport\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Popularity\",\n    \"number\": \"6.2\",\n    \"index\": \"30\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 80361,\n    \"anchor\": \"Popularity\",\n    \"linkAnchor\": \"Popularity\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"Illumination copyright\",\n    \"number\": \"7\",\n    \"index\": \"31\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 81889,\n    \"anchor\": \"Illumination_copyright\",\n    \"linkAnchor\": \"Illumination_copyright\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"Replicas\",\n    \"number\": \"8\",\n    \"index\": \"32\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 88758,\n    \"anchor\": \"Replicas\",\n    \"linkAnchor\": \"Replicas\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"See also\",\n    \"number\": \"9\",\n    \"index\": \"33\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 91340,\n    \"anchor\": \"See_also\",\n    \"linkAnchor\": \"See_also\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"References\",\n    \"number\": \"10\",\n    \"index\": \"34\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 92029,\n    \"anchor\": \"References\",\n    \"linkAnchor\": \"References\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Notes\",\n    \"number\": \"10.1\",\n    \"index\": \"35\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 92044,\n    \"anchor\": \"Notes\",\n    \"linkAnchor\": \"Notes\"\n   },\n   {\n    \"toclevel\": 2,\n    \"level\": \"3\",\n    \"line\": \"Bibliography\",\n    \"number\": \"10.2\",\n    \"index\": \"36\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 92069,\n    \"anchor\": \"Bibliography\",\n    \"linkAnchor\": \"Bibliography\"\n   },\n   {\n    \"toclevel\": 1,\n    \"level\": \"2\",\n    \"line\": \"External links\",\n    \"number\": \"11\",\n    \"index\": \"37\",\n    \"fromtitle\": \"Eiffel_Tower\",\n    \"byteoffset\": 94627,\n    \"anchor\": \"External_links\",\n    \"linkAnchor\": \"External_links\"\n   }\n  ],\n  \"showtoc\": \"\"\n }\n}"
+   }
+  },
+  {
+   "id": "R-F9-05-doc0",
+   "role": "context",
+   "url": "https://www.mediawiki.org/wiki/API:Parsing_wikitext",
+   "host": "www.mediawiki.org",
+   "path": "/wiki/API:Parsing_wikitext",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API:Parsing wikitext - MediaWiki",
+   "publisher": "www.mediawiki.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-05",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "API:Parsing wikitext - MediaWiki ",
+     " Jump to content ",
+     " Main menu ",
+     "Main menu ",
+     " move to sidebar ",
+     " hide ",
+     " Navigation",
+     " Main page ",
+     " Get MediaWiki ",
+     " Get extensions ",
+     " Tech blog ",
+     " Contribute ",
+     " Support",
+     " User help ",
+     " FAQ ",
+     " Technical manual ",
+     " Support desk ",
+     " Communication ",
+     " Development",
+     " Developer portal ",
+     " Code statistics ",
+     " mediawiki.org",
+     " Community portal ",
+     " Recent changes ",
+     " Translate content ",
+     " Special pages ",
+     " Random page ",
+     " Village pump ",
+     " Sandbox ",
+     " In other languages"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "API:Parsing wikitext - MediaWiki",
+    "text": "API:Parsing wikitext - MediaWiki \n Jump to content \n Main menu \nMain menu \n move to sidebar \n hide \n Navigation\n Main page \n Get MediaWiki \n Get extensions \n Tech blog \n Contribute \n Support\n User help \n FAQ \n Technical manual \n Support desk \n Communication \n Development\n Developer portal \n Code statistics \n mediawiki.org\n Community portal \n Recent changes \n Translate content \n Special pages \n Random page \n Village pump \n Sandbox \n In other languages\n Add links \n Search \n Search \n English \n Appearance \n Donate \n Create account \n Log in \n Personal tools \n Donate \n Create account \n Log in \nContents \n move to sidebar \n hide \nBeginning \n 1 \n API documentation \n 2 \n Example 1: Parse content of a page \n Toggle Example 1: Parse content of a page subsection \n 2.1 \n GET request \n 2.2 \n Response \n 3 \n Sample code \n Toggle Sample code subsection \n 3.1 \n Python \n 3.2 \n PHP \n 3.3 \n JavaScript \n 3.4 \n MediaWiki JS \n 4 \n Example 2: Parse a section of a page and fetch its table data \n Toggle Example 2: Parse a section of a page and fetch its table data subsection \n 4.1 \n GET request \n 4.2 \n Response \n 4.3 \n Sample code \n 5 \n Possible errors \n 6 \n Parameter history \n 7 \n See also \n Toggle the table of contents \n API : Parsing wikitext \n API \n Discussion \n English \n Read \n Edit \n View history \n Tools \nTools \n move to sidebar \n hide \n Actions\n Read \n Edit \n View history \n General\n What links here \n Related changes \n Upload file \n Permanent link \n Page information \n Cite this page \n Get shortened URL \n Print/export\n Create a book \n Download as PDF \n Printable version \n In other projects\nAppearance \n move to sidebar \n hide \nFrom mediawiki.org \n Translate this page \nLanguages: \n čeština \n Deutsch \n English \n español \n français \n polski \n português \n Türkçe \n русский \n العربية \n हिन्दी \n ไทย \n 中文 \n 日本語 \n This page is part of the MediaWiki Action API documentation. \n MediaWiki Action API \n Basics \n Etiquette and usage guidelines \n All query modules \n All page properties \n All list modules \n All meta modules \n Output formats \n Authentication \n Get tokens for data modifying operations \n Login \n Logout \n Verifying authentication (assertions) \n Accounts and Users \n Create an account \n Block or unblock a user \n Get info about the current user \n Get the current user's watchlist as a feed \n Change user options \n Change user group membership \n Send an email \n Page Operations \n Create and edit a page \n Get the contents of a page \n Upload a file \n Import a page \n Delete a page \n Parse content of a page \n Watch or unwatch a page \n Purge cache for page(s) \n Rollback a page \n Move a page \n Patrol a page or revision \n Restore revisions of a deleted page \n Change a page's protection level \n Change a page's language \n More... \n Search \n Search wiki pages by title (OpenSearch) \n Advanced search for wiki pages by title or text \n Search wiki pages near a location \n Search for a language name \n Perform a prefix search for page titles \n Developer Utilities \n Access libraries \n Cross-site re"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "api_retired",
+  "signal": "explicit",
+  "targets": [
+   "R-F9-05-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:20:37Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 200,
+   "error": null,
+   "body_excerpt": "{\"error\":{\"code\":\"badvalue\",\"info\":\"Unrecognized value for parameter \\\"action\\\": mobileview.\",\"*\":\"See https://en.wikipedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/"
+  },
+  "docs": [
+   "https://www.mediawiki.org/wiki/API:Parsing_wikitext"
+  ]
+ },
+ "oracle_query": "Wikipedia mobileview replacement",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Wikipedia mobileview replacement"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://en.wikipedia.org/w/api.php?action=mobileview&page=Eiffel_Tower&format=json"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Eiffel_Tower&prop=sections&format=json"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "37 sections",
+     "sources": [
+      "https://en.wikipedia.org/w/api.php?action=parse&page=Eiffel_Tower&prop=sections&format=json"
+     ],
+     "substitutions": [
+      {
+       "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Eiffel_Tower&prop=sections&format=json",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "deprecat",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

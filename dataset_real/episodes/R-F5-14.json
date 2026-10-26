@@ -1,0 +1,146 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F5-14",
+ "goal_id": "R-F5-14",
+ "family": "F5",
+ "world": "W2",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm comparing prices for an item I want to buy at Walmart: https://www.walmart.com/ip/5129830\nWhat is the price of item 5129830? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": null,
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F5-14-canon",
+   "role": "canonical",
+   "url": "https://www.walmart.com/ip/5129830",
+   "host": "www.walmart.com",
+   "path": "/ip/5129830",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Robot or human?",
+   "publisher": "www.walmart.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F5-14",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Robot or human? ",
+     " Robot or human?",
+     "Activate and hold the button to confirm that you’re human. Thank You! ",
+     " Terms of Use ",
+     " Privacy Policy ",
+     " Do Not Sell My Personal Information ",
+     " Request My Personal Information ",
+     "© Walmart Stores, Inc."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "headers": {},
+    "title": "Robot or human?",
+    "text": "Robot or human? \n Robot or human?\nActivate and hold the button to confirm that you’re human. Thank You! \n Terms of Use \n Privacy Policy \n Do Not Sell My Personal Information \n Request My Personal Information \n© Walmart Stores, Inc."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "verification_gate",
+  "signal": "explicit",
+  "targets": [
+   "R-F5-14-canon"
+  ],
+  "params": {
+   "needs_user": true
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "HA",
+   "ESC",
+   "PR-D"
+  ],
+  "route": "report",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:29:12Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "challenge": {
+   "status": 200,
+   "markers": [
+    "captcha",
+    "px-captcha"
+   ],
+   "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Set-Cookie": "isoLoc=HK__t3; path=/; domain=.www.walmart.com"
+   },
+   "observed_on": "https://www.walmart.com/ip/5129830"
+  },
+  "note": "challenge recorded only; never attempted"
+ },
+ "oracle_query": "What is the price of Walmart item 5129830? Cite the source you used.",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "What is the price of Walmart item 5129830? Cite the source you used."
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.walmart.com/ip/5129830"
+   },
+   {
+    "tool": "ask_user",
+    "question": "I cannot access the requested resource without your help (verification). Can you provide access?"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "needs_user",
+     "answer": "",
+     "sources": [
+      "https://www.walmart.com/ip/5129830"
+     ],
+     "substitutions": [],
+     "diagnosis": "verification",
+     "user_request": "Access is blocked (verification); the user's help is needed.",
+     "confidence": 0.8
+    }
+   }
+  ]
+ }
+}

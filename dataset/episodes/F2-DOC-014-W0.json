@@ -1,0 +1,508 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F2-DOC-014-W0",
+ "goal_id": "F2-DOC-014",
+ "family": "F2",
+ "world": "W0",
+ "domain": "docs",
+ "task_type": "IR",
+ "goal": "I'm tuning tidepool v5.4 and want to confirm the default value of `cache_ttl` (cache TTL) in the official documentation: http://docs.tidepool.example/reference/3dfc72-tidepool-v5-4-configuration-reference\nIt has to be the documentation of v5.4 exactly. What is the default? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "cache TTL",
+  "unit": "s",
+  "canonical": "3209",
+  "entity": "cache_ttl"
+ },
+ "resources": [
+  {
+   "id": "F2-DOC-014-canon",
+   "role": "canonical",
+   "host": "docs.tidepool.example",
+   "path": "/reference/3dfc72-tidepool-v5-4-configuration-reference",
+   "url": "http://docs.tidepool.example/reference/3dfc72-tidepool-v5-4-configuration-reference",
+   "kind": "page",
+   "site_type": "docs",
+   "title": "tidepool v5.4 configuration reference",
+   "publisher": "tidepool project",
+   "date": "2025-04-10",
+   "version_label": "tidepool documentation v5.4",
+   "expression": "v5.4",
+   "work_id": "work-3dfc72",
+   "entity": "cache_ttl",
+   "field_label": "cache TTL",
+   "unit": "s",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for tidepool v5.4.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "cache TTL (s)"
+    ],
+    "table": [
+     [
+      "cache_ttl",
+      "3209"
+     ],
+     [
+      "page_limit",
+      "354"
+     ],
+     [
+      "pool_size",
+      "44"
+     ],
+     [
+      "timeout",
+      "23"
+     ],
+     [
+      "max_batch",
+      "1706"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "3209",
+   "cell_value": "3209",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with TIDEPOOL_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `max_batch` changed from 1499 to the value shown below. v4.4: `pool_size` deprecated in favour of `cache_ttl`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 5539 for `cache_ttl`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_page_limit",
+        "v5.0",
+        "page_limit"
+       ],
+       [
+        "legacy_pool_size",
+        "v5.0",
+        "pool_size"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F2-DOC-014-var0",
+   "role": "variant",
+   "host": "docs.tidepool.example",
+   "path": "/v4.4/reference",
+   "url": "http://docs.tidepool.example/v4.4/reference",
+   "kind": "page",
+   "site_type": "docs",
+   "title": "tidepool v5.4 configuration reference",
+   "publisher": "tidepool project",
+   "date": "2025-04-10",
+   "version_label": "tidepool documentation v4.4",
+   "expression": "v4.4",
+   "work_id": "work-3dfc72",
+   "entity": "cache_ttl",
+   "field_label": "cache TTL",
+   "unit": "s",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for tidepool v5.4.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "cache TTL (s)"
+    ],
+    "table": [
+     [
+      "cache_ttl",
+      "2992"
+     ],
+     [
+      "page_limit",
+      "354"
+     ],
+     [
+      "pool_size",
+      "44"
+     ],
+     [
+      "timeout",
+      "23"
+     ],
+     [
+      "max_batch",
+      "1706"
+     ]
+    ]
+   },
+   "cue": "You are viewing the documentation for v4.4. Defaults changed in v5.4.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "2992",
+   "cell_value": "2992",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with TIDEPOOL_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `max_batch` changed from 1499 to the value shown below. v4.4: `pool_size` deprecated in favour of `cache_ttl`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 5539 for `cache_ttl`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_page_limit",
+        "v5.0",
+        "page_limit"
+       ],
+       [
+        "legacy_pool_size",
+        "v5.0",
+        "pool_size"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-E",
+   "delta": {
+    "cache_ttl": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://pkgindex.example/search?q=tidepool",
+    "http://pkgindex.example/project/tidepool",
+    "http://pkgindex.example/project/tidepool/docs",
+    "http://docs.tidepool.example/v4.4/"
+   ],
+   "site_search": false
+  },
+  {
+   "id": "F2-DOC-014-dec0",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/3dfc720",
+   "url": "http://filedump.example/f/3dfc720",
+   "kind": "page",
+   "site_type": "cache",
+   "title": "tidepool v5.4 configuration reference",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "v5.4",
+   "work_id": "work-3dfc72",
+   "entity": "cache_ttl",
+   "field_label": "cache TTL",
+   "unit": "s",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for tidepool v5.4.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "cache TTL (s)"
+    ],
+    "table": [
+     [
+      "cache_ttl",
+      "3751"
+     ],
+     [
+      "page_limit",
+      "354"
+     ],
+     [
+      "pool_size",
+      "44"
+     ],
+     [
+      "timeout",
+      "23"
+     ],
+     [
+      "max_batch",
+      "1706"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "3751",
+   "cell_value": "3751",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with TIDEPOOL_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `max_batch` changed from 1499 to the value shown below. v4.4: `pool_size` deprecated in favour of `cache_ttl`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 5539 for `cache_ttl`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_page_limit",
+        "v5.0",
+        "page_limit"
+       ],
+       [
+        "legacy_pool_size",
+        "v5.0",
+        "pool_size"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F2-DOC-014-hub-pkg-project",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/tidepool",
+   "url": "http://pkgindex.example/project/tidepool",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "tidepool",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "tidepool - tidepool project.",
+     "Releases, source code and documentation links."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.tidepool.example/",
+     "Homepage"
+    ],
+    [
+     "http://pkgindex.example/project/tidepool/docs",
+     "Documentation (all versions)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F2-DOC-014-hub-pkg-ver0",
+   "role": "hub",
+   "host": "docs.tidepool.example",
+   "path": "/v4.4/",
+   "url": "http://docs.tidepool.example/v4.4/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "tidepool v4.4 documentation",
+   "publisher": "docs.tidepool.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Documentation for tidepool v4.4."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.tidepool.example/v4.4/reference",
+     "Configuration reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-DOC-014-hub-pkg-docs",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/tidepool/docs",
+   "url": "http://pkgindex.example/project/tidepool/docs",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "tidepool documentation",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted documentation by version."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.tidepool.example/reference/3dfc72-tidepool-v5-4-configuration-reference",
+     "v5.4 - docs.tidepool.example"
+    ],
+    [
+     "http://docs.tidepool.example/v4.4/",
+     "v4.4 - docs.tidepool.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F2-DOC-014-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F2-DOC-014-W1v",
+  "unrecoverable": "F2-DOC-014-W3",
+  "twin": "F2-DOC-014-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://docs.tidepool.example/reference/3dfc72-tidepool-v5-4-configuration-reference"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://docs.tidepool.example/reference/3dfc72-tidepool-v5-4-configuration-reference?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "3209 s",
+     "sources": [
+      "http://docs.tidepool.example/reference/3dfc72-tidepool-v5-4-configuration-reference"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "3209 s",
+   "sources": [
+    "http://docs.tidepool.example/reference/3dfc72-tidepool-v5-4-configuration-reference"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

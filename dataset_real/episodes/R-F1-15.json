@@ -1,0 +1,175 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-15",
+ "goal_id": "R-F1-15",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "I'm writing about the 2010 controversy over Canada's long-form census, when Statistics Canada's chief statistician resigned. The Montreal Gazette article \"StatsCan turmoil over census\" is here: https://montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html\nHow many years had his government career lasted? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "career length",
+  "unit": "years",
+  "canonical": "30",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-15-canon",
+   "role": "canonical",
+   "url": "https://montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html",
+   "host": "montrealgazette.com",
+   "path": "/technology/StatsCan+turmoil+over+census/3311661/story.html",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Page not found - Montreal Gazette",
+   "publisher": "montrealgazette.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-15",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Page not found - Montreal Gazette"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "title": "Page not found - Montreal Gazette",
+    "observed_at": "2026-10-16T18:21:06Z",
+    "text": "Page not found - Montreal Gazette \n Skip to content \n Sections \n Montreal News \n Montreal Politics \n Montreal Culture \n The Corner Booth \n Weather \n Quebec Politics \n Crime \n Health \n Montreal Canadiens \n Hockey Inside Out \n More Montreal Sports \n Opinion \n Columnists \n Op Eds \n Letters To The Editor \n Send an Opinion or Letter \n Obituaries \n <a href=\"https://epaper.montrealgazette.com/\" class"
+   }
+  },
+  {
+   "id": "R-F1-15-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20100724053418/http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html",
+   "host": "web.archive.org",
+   "path": "/web/20100724053418/http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "StatsCan in turmoil over census",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2010-07-24",
+   "work_id": "R-F1-15",
+   "value": "30",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "he agency silently embroiled at the centre of the census debate has long been viewed as the best of its kind in the world, but observers fear government intervention could damage the impeccable methodology and autonomy for which Statistics Canada is renowned.",
+     "The agency has been thrown into turmoil by the Conservative government's decision to scrap the long-form census and replace it with a voluntary survey -a move chief statistician Munir Sheikh found so untenable, he ended a 30-year government career by resigning in protest on Wednesday.",
+     "\"StatsCan is thought of as one of the best,\" said Kevin Milligan, an associate professor of economics at the University of British Columbia, who has worked extensively with the agency's data."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "StatsCan in turmoil over census",
+    "memento": "20100724053418",
+    "original": "http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html",
+    "text": "he agency silently embroiled at the centre of the census debate has long been viewed as the best of its kind in the world, but observers fear government intervention could damage the impeccable methodology and autonomy for which Statistics Canada is renowned.\nThe agency has been thrown into turmoil by the Conservative government's decision to scrap the long-form census and replace it with a voluntary survey -a move chief statistician Munir Sheikh found so untenable, he ended a 30-year government career by resigning in protest on Wednesday.\n\"StatsCan is thought of as one of the best,\" said Kevin Milligan, an associate professor of economics at the University of British Columbia, who has worked extensively with the agency's data."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_404",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-15-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:21:06Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "class": "http_404",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article '2011 Canadian census'",
+  "archive_url": "https://web.archive.org/web/20100724053418/http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html"
+ },
+ "oracle_query": "StatsCan in turmoil over census",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "StatsCan in turmoil over census"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20100724053418/http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "30 years",
+     "sources": [
+      "https://web.archive.org/web/20100724053418/http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20100724053418/http://www.montrealgazette.com/technology/StatsCan+turmoil+over+census/3311661/story.html",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2010-07-24",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

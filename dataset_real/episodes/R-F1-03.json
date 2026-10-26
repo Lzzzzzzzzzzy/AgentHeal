@@ -1,0 +1,178 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-03",
+ "goal_id": "R-F1-03",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm comparing student loan default rates and want to use the University of Colorado Colorado Springs \"Facts & Figures\" page: https://www.uccs.edu/about/facts.html\nHow many percentage points lower than the national rate was the UCCS default rate? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "default-rate gap",
+  "unit": "percentage points",
+  "canonical": "10.8",
+  "entity": "",
+  "derived_from": [
+   "2.9",
+   "13.7"
+  ],
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-03-canon",
+   "role": "canonical",
+   "url": "https://www.uccs.edu/about/facts.html",
+   "host": "www.uccs.edu",
+   "path": "/about/facts.html",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Loading your content | UCCS",
+   "publisher": "www.uccs.edu",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-03",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Loading your content | UCCS"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "title": "Loading your content | UCCS",
+    "observed_at": "2026-10-16T18:12:11Z",
+    "text": "Loading your content | UCCS \n Skip to main content\nLoading your content \n Links & Tools \n Apply Now \n Quick Links\n -->\nQuick Links: \n Academic Advising \n Athletics \n Ent Center for the Arts \n Kraemer Family Library \n Giving \n Report A Concern \n Accessibility \n Official Statements \nTools: \n myUCCS Portal \n Campus Email \n Canvas \n Microsoft 365 \n Mountain Lion Connect \n Student Success Connect \n Faculty Support Network \n Account Help \nResources For: \n Alumni \n Current Students \n Faculty & Staff \n Future Students \n Parents & Families \n Veteran and Military Affairs \n Search UCCS \n Apply Now \n Request Info \n Translate this page \n Home \n About \n About UCCS \n Mission, Vision & Values \n Campus History \n Campus Leadership \n News & Events \n Quick Facts \n Academics \n All Degrees & Programs \n Undergraduate \n Graduate \n Online Programs \n Concurrent, Ascent, and TREP Enrollment \n Centers & Institutes \n Additional Offerings \n Admissions & Aid \n Admissions & Aid \n Apply to UCCS \n Tuition & Financial Aid \n Admissions Details \n Admitted Student Next Steps \n Request Info \n Visit Campus \n Campus Life \n About Campus Life \n Athletics \n Arts & Culture \n Clubs & Activities \n Dining \n Housing \n Recreation & Wellness \n Resources For \n Future Students \n Current Students \n Military & Veterans \n Alumni \n Faculty & Staff \n MENU \n Home \n Loading your content \n 404 \nPage Not Found \nLet's Get You On The Right Path... \n Search UCCS \n Academics \n UCCS Map \n OIT Help Desk \n Top \n Request Info \n Tour Campus \n Ap"
+   }
+  },
+  {
+   "id": "R-F1-03-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20170619082648/http://www.uccs.edu/about/facts.html",
+   "host": "web.archive.org",
+   "path": "/web/20170619082648/http://www.uccs.edu/about/facts.html",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Facts & Figures - University of Colorado Colorado Springs",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2017-06-19",
+   "work_id": "R-F1-03",
+   "value": "10.8",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "To finance their educations, UCCS students borrow, on average, $16,780, one-third less than the national average",
+     "UCCS students repay their federal student loans. The UCCS student loan default rate, the best in Colorado, is 2.9% compared to a national rate of 13.7%",
+     "High-Quality"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Facts & Figures - University of Colorado Colorado Springs",
+    "memento": "20170619082648",
+    "original": "http://www.uccs.edu/about/facts.html",
+    "text": "To finance their educations, UCCS students borrow, on average, $16,780, one-third less than the national average\nUCCS students repay their federal student loans. The UCCS student loan default rate, the best in Colorado, is 2.9% compared to a national rate of 13.7%\nHigh-Quality"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_404",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-03-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:12:11Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "class": "http_404",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'University of Colorado'",
+  "archive_url": "https://web.archive.org/web/20170619082648/http://www.uccs.edu/about/facts.html"
+ },
+ "oracle_query": "Facts & Figures",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Facts & Figures"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.uccs.edu/about/facts.html"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20170619082648/http://www.uccs.edu/about/facts.html"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "10.8 percentage points",
+     "sources": [
+      "https://web.archive.org/web/20170619082648/http://www.uccs.edu/about/facts.html"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20170619082648/http://www.uccs.edu/about/facts.html",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2017-06-19",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

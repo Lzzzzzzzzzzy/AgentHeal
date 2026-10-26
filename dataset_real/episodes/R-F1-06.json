@@ -1,0 +1,175 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-06",
+ "goal_id": "R-F1-06",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm reading about the proposed 49ers stadium in Santa Clara. Wikipedia cites supportourniners.com for its design: http://www.supportourniners.com/stadium_design.php\nHow many seats would the open-air venue have? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "capacity",
+  "unit": "seats",
+  "canonical": "68,500",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-06-canon",
+   "role": "canonical",
+   "url": "http://www.supportourniners.com/stadium_design.php",
+   "host": "www.supportourniners.com",
+   "path": "/stadium_design.php",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "404 Not Found",
+   "publisher": "www.supportourniners.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-06",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "404 Not Found"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "title": "404 Not Found",
+    "observed_at": "2026-10-16T18:19:10Z",
+    "text": "404 Not Found \nNot Found \nThe requested URL was not found on this server."
+   }
+  },
+  {
+   "id": "R-F1-06-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20100227085604/http://www.supportourniners.com/stadium_design.php",
+   "host": "web.archive.org",
+   "path": "/web/20100227085604/http://www.supportourniners.com/stadium_design.php",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Support Our Niners - New 49ers Bay Area Stadium Design",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2010-02-27",
+   "work_id": "R-F1-06",
+   "value": "68,500",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Designing a World Class Stadium in Santa Clara",
+     "The City Council of Santa Clara recently approved a term sheet for a new stadium in the heart of the city's central entertainent district. The plan calls for a 68,500 seat open-air venue that will represent the first in a new generation in stadium design.",
+     "When the 49ers first began planning the design of the new stadium, the team and its architecture firm traveled extensively to football, baseball, basketball and NASCAR venues throughout the country, as well as soccer stadiums throughout the world, to study the fan experience and bring the best features and amenities to the design."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Support Our Niners - New 49ers Bay Area Stadium Design",
+    "memento": "20100227085604",
+    "original": "http://www.supportourniners.com/stadium_design.php",
+    "text": "Designing a World Class Stadium in Santa Clara\nThe City Council of Santa Clara recently approved a term sheet for a new stadium in the heart of the city's central entertainent district. The plan calls for a 68,500 seat open-air venue that will represent the first in a new generation in stadium design.\nWhen the 49ers first began planning the design of the new stadium, the team and its architecture firm traveled extensively to football, baseball, basketball and NASCAR venues throughout the country, as well as soccer stadiums throughout the world, to study the fan experience and bring the best features and amenities to the design."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_404",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-06-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:19:10Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "class": "http_404",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Levi's Stadium'",
+  "archive_url": "https://web.archive.org/web/20100227085604/http://www.supportourniners.com/stadium_design.php"
+ },
+ "oracle_query": "Stadium Design",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Stadium Design"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://www.supportourniners.com/stadium_design.php"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20100227085604/http://www.supportourniners.com/stadium_design.php"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "68,500 seats",
+     "sources": [
+      "https://web.archive.org/web/20100227085604/http://www.supportourniners.com/stadium_design.php"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20100227085604/http://www.supportourniners.com/stadium_design.php",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2010-02-27",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

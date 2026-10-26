@@ -1,0 +1,237 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-14",
+ "goal_id": "R-F8-14",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "My reading list app uses the Open Library API: https://openlibrary.org/works/OL45804W.json\nWhat is the title of work OL45804W? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "Fantastic Mr Fox",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-14-canon",
+   "role": "canonical",
+   "url": "https://openlibrary.org/works/OL45804W.json",
+   "host": "openlibrary.org",
+   "path": "/works/OL45804W.json",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "openlibrary.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-14",
+   "value": "Fantastic Mr Fox",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"title\": \"Fantastic Mr Fox\",",
+     " \"key\": \"/works/OL45804W\",",
+     " \"authors\": [",
+     "  {",
+     "   \"author\": {",
+     "    \"key\": \"/authors/OL34184A\"",
+     "   },",
+     "   \"type\": {",
+     "    \"key\": \"/type/author_role\"",
+     "   }",
+     "  }",
+     " ],",
+     " \"type\": {",
+     "  \"key\": \"/type/work\"",
+     " },",
+     " \"description\": \"The main character of Fantastic Mr. Fox is an extremely clever anthropomorphized fox named Mr. Fox. He lives with his wife and four little foxes. In order to feed his family, he steals food from the cruel, brutish farmers named Boggis, Bunce, and Bean every night.\\r\\n\\r\\nFinally tired of being constantly outwitted by Mr. Fox, the farmers attempt to capture and kill him. The foxes escape in time by burrowing deep into the ground. The farmers decide to wait outside the hole for the foxes to emerge. Unable to leave the hole and steal food, Mr. Fox and his family begin to starve. Mr. Fox devises a pla...\",",
+     " \"covers\": [",
+     "  6498519,",
+     "  8904777,",
+     "  108274,",
+     "  233884,",
+     "  1119236,",
+     "  -1,",
+     "  10222599,",
+     "  10482837,",
+     "  3216657,",
+     "  10519563,",
+     "  10835922,",
+     "  10835924,"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:51:40Z",
+    "limited": {
+     "text": "429 Too Many Requests",
+     "content_type": "text/plain",
+     "headers": {},
+     "status": 429
+    },
+    "text": "{\n \"title\": \"Fantastic Mr Fox\",\n \"key\": \"/works/OL45804W\",\n \"authors\": [\n  {\n   \"author\": {\n    \"key\": \"/authors/OL34184A\"\n   },\n   \"type\": {\n    \"key\": \"/type/author_role\"\n   }\n  }\n ],\n \"type\": {\n  \"key\": \"/type/work\"\n },\n \"description\": \"The main character of Fantastic Mr. Fox is an extremely clever anthropomorphized fox named Mr. Fox. He lives with his wife and four little foxes. In order to feed his family, he steals food from the cruel, brutish farmers named Boggis, Bunce, and Bean every night.\\r\\n\\r\\nFinally tired of being constantly outwitted by Mr. Fox, the farmers attempt to capture and kill him. The foxes escape in time by burrowing deep into the ground. The farmers decide to wait outside the hole for the foxes to emerge. Unable to leave the hole and steal food, Mr. Fox and his family begin to starve. Mr. Fox devises a pla...\",\n \"covers\": [\n  6498519,\n  8904777,\n  108274,\n  233884,\n  1119236,\n  -1,\n  10222599,\n  10482837,\n  3216657,\n  10519563,\n  10835922,\n  10835924,\n  10861366,\n  10883671,\n  8760472,\n  12583098,\n  10482548,\n  10831929,\n  10835926,\n  12333895,\n  12498647,\n  7682784,\n  12143357,\n  12781739,\n  3077458,\n  13200133,\n  13215770,\n  13269612,\n  12895064,\n  12195379,\n  12273050,\n  14095634,\n  14301313,\n  14301314,\n  14301315,\n  14301316\n ],\n \"subject_places\": [\n  \"English countryside\"\n ],\n \"subjects\": [\n  \"Animals\",\n  \"Hunger\",\n  \"Open Library Staff Picks\",\n  \"Juvenile fiction\",\n  \"Children's stories, English\",\n  \"Foxes\",\n  \"Fiction\",\n  \"Zorros\",\n  \"Ficción juvenil\",\n  \"Tunnels\",\n  \"Interviews\",\n  \"Farmers\",\n  \"Children's stories\",\n  \"Rats\",\n  \"Welsh Authors\",\n  \"English Authors\",\n  \"Thieves\",\n  \"Tricksters\",\n  \"Badgers\",\n  \"Children's fiction\",\n  \"Foxes, fiction\",\n  \"Underground\",\n  \"Renards\",\n  \"Romans, nouvelles, etc. pour la jeunesse\",\n  \"Children's literature\",\n  \"Plays\",\n  \"Children's plays\",\n  \"Children's stories, Welsh\",\n  \"Agriculteurs\",\n  \"Fantasy fiction\",\n  \"Children's plays, English\"\n ],\n \"subject_people\": [\n  \"Bean\",\n  \"Boggis\",\n  \"Bunce\",\n  \"Mr Fox\"\n ],\n \"subject_times\": [\n  \"20th Century\"\n ],\n \"location\": \"/works/OL45883W\",\n \"genres\": [\n  \"/tags/OL169T\"\n ],\n \"latest_revision\": 22,\n \"revision\": 22,\n \"created\": {\n  \"type\": \"/type/datetime\",\n  \"value\": \"2009-10-15T11:34:21.437031\"\n },\n \"last_modified\": {\n  \"type\": \"/type/datetime\",\n  \"value\": \"2026-09-23T23:29:26.613717\"\n }\n}"
+   }
+  },
+  {
+   "id": "R-F8-14-doc0",
+   "role": "context",
+   "url": "https://openlibrary.org/developers/api",
+   "host": "openlibrary.org",
+   "path": "/developers/api",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "APIs | Open Library",
+   "publisher": "openlibrary.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-14",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "APIs | Open Library ",
+     " Skip to main content ",
+     "It looks like you're offline. ",
+     " Donate ♥ ",
+     " English ",
+     " العربية ",
+     " Azərbaycanca ",
+     " Čeština ",
+     " Deutsch ",
+     " English ",
+     " Español ",
+     " Français ",
+     " हिंदी ",
+     " Hrvatski ",
+     " Italiano ",
+     " 한국어 ",
+     " Português ",
+     " Română ",
+     " Sardu ",
+     " తెలుగు ",
+     " Українська ",
+     " 中文 ",
+     " Filipino ",
+     " Page Status ",
+     " My Books",
+     " Browse",
+     " Subjects ",
+     " Browse books by topic ",
+     " Trending ",
+     " Most popular right now "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "APIs | Open Library",
+    "text": "APIs | Open Library \n Skip to main content \nIt looks like you're offline. \n Donate ♥ \n English \n العربية \n Azərbaycanca \n Čeština \n Deutsch \n English \n Español \n Français \n हिंदी \n Hrvatski \n Italiano \n 한국어 \n Português \n Română \n Sardu \n తెలుగు \n Українська \n 中文 \n Filipino \n Page Status \n My Books\n Browse\n Subjects \n Browse books by topic \n Trending \n Most popular right now \n Library Explorer \n Browse the virtual shelves \n Lists \n Reader-curated collections \n Collections\n K-12 Student Library\n Book Talks\n Random Book\n Advanced Search\n Search \n Log In \n Sign Up \nMy Open Library \n Log In \n Sign Up \nBrowse \n Subjects \n Trending \n Library Explorer \n Lists \n Collections \n K-12 Student Library \n Book Talks \n Random Book \n Advanced Search \nContribute \n Improve the Catalog \n Add a Book \n Recent Community Edits \nResources \n Help & Support \n Developer Center \n Librarians Portal \n My Books\n Browse\n Subjects \n Browse books by topic \n Trending \n Most popular right now \n Library Explorer \n Browse the virtual shelves \n Lists \n Reader-curated collections \n Collections\n K-12 Student Library\n Book Talks\n Random Book\n Advanced Search\n Last edited by The Poison Path Collection \nOctober 9, 2026 | History \n Edit \nAPIs \n Developer Center (Home) \n | \n Web API \n | \n Client Library \n | \n Data Dumps \n | \n Source Code \n | \n Report an Issue \n | \n Licensing \nGetting Started \nOpen Library provides APIs in JSON, YAML and RDF/XML formats to support public-good, open, human-centered book discovery and lookup services. If you are building an open source or mission-aligned application that helps people find and use books in real time, these APIs are for you.\n Usage Guidelines \n Rate Limits \n Bulk Access \n Index of APIs \nTry the interactive OpenAPI Documentation .\nRegistering Your Application \nPlease use this link  to register your use-case or application. This information helps our team understand how Open Library's APIs are being used and maintain and improve our services to meet the community's diverse needs.\nUsage Guidelines \nOpen Library’s APIs exist to support the open book ecosystem and human-centered discovery. Due to limited resources, they are not intended to serve as a data backend for third-party services.\nWe prioritize:\n Open-source and mission-aligned projects (like Wikidata & Wikipedia)\n Library & metadata partners\n Research, learning, & education tools\n Book tools & services that facilitate lookup for humans\nThese APIs are not intended to serve as a bulk data backend or high-traffic commercial infrastructure. For bulk access, please download our free monthly data dumps or contact us at openlibrary@archive.org .\n Please Do: \n Make useful, time-sensitive requests on behalf of human users\n Cache responses whenever possible\n Identify your application with a User-Agent header and email \n Please Do Not: \n Scrape HTML pages (use API endpoints instead) or harvest HTML in bulk\n Distribute requests across multiple IPs\n Make hundreds of single-book requests (use search.json for"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-14-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 30
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:51:40Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://openlibrary.org/developers/api"
+  ],
+  "documented_limit": [
+   "Rate Limits",
+   "Violations may result in aggressive rate limiting or blocking.",
+   "Rate Limits"
+  ]
+ },
+ "oracle_query": "Using the Open Library API, report the title of work OL45804W. Cite the source.",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using the Open Library API, report the title of work OL45804W. Cite the source."
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://openlibrary.org/works/OL45804W.json"
+   },
+   {
+    "tool": "wait",
+    "seconds": 35
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://openlibrary.org/works/OL45804W.json"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "Fantastic Mr Fox",
+     "sources": [
+      "https://openlibrary.org/works/OL45804W.json"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

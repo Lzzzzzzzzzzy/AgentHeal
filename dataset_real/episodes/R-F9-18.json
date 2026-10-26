@@ -1,0 +1,193 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F9-18",
+ "goal_id": "R-F9-18",
+ "family": "F9",
+ "world": "W3",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "I have an old goo.gl link and my script expands it with the Google URL Shortener API: https://www.googleapis.com/urlshortener/v1/url?shortUrl=http://goo.gl/fbsS\nWhat long URL does http://goo.gl/fbsS point to? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Google URL shortener API",
+  "unit": "",
+  "canonical": null,
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F9-18-canon",
+   "role": "canonical",
+   "url": "https://www.googleapis.com/urlshortener/v1/url?shortUrl=http://goo.gl/fbsS",
+   "host": "www.googleapis.com",
+   "path": "/urlshortener/v1/url?shortUrl=http://goo.gl/fbsS",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "404 Google URL shortener API",
+   "publisher": "www.googleapis.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-18",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "   Error 404 (Not Found)!!1 ",
+     "    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "headers": {},
+    "title": "404 Google URL shortener API",
+    "observed_at": "2026-10-16T18:21:09Z",
+    "text": " \n \n   \n   \n   Error 404 (Not Found)!!1 \n   \n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width"
+   }
+  },
+  {
+   "id": "R-F9-18-doc0",
+   "role": "context",
+   "url": "https://developers.googleblog.com/en/google-url-shortener-links-will-no-longer-be-available/",
+   "host": "developers.googleblog.com",
+   "path": "/en/google-url-shortener-links-will-no-longer-be-available/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Google URL Shortener links will no longer be available [updated] - Google Developers Blog",
+   "publisher": "developers.googleblog.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-18",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Google URL Shortener links will no longer be available [updated]",
+     " - Google Developers Blog",
+     " Community/Events",
+     " Learn",
+     " Blog",
+     " YouTube",
+     " Search",
+     " Community/Events",
+     " Learn",
+     " Blog",
+     " YouTube",
+     "Google URL Shortener links will no longer be available [updated] ",
+     "JULY 18, 2024 ",
+     " Sumit Chandel ",
+     " Developer Relations Engineer ",
+     " Eldhose Mathokkil Babu ",
+     " Software Engineer ",
+     " Share ",
+     " Facebook ",
+     " Twitter ",
+     " LinkedIn ",
+     " Mail ",
+     " Updated August 1, 2025: While we previously announced discontinuing support for all goo.gl URLs after August 25, 2025, we've adjusted our approach in order to preserve actively used links.",
+     "We understand these links are embedded in countless documents, videos, posts and more, and we appreciate the input received.",
+     "Nine months ago, we redirected URLs that showed no activity in late 2024 to a message specifying that the link would be deactivated in August, and these are the only links targeted to be deactivated. If you get a message that states, “This link will no longer work in the near future”, the link won't work after August 25 and we recommend transitioning to another URL shortener if you haven’t already.",
+     "All other goo.gl links will be preserved and will continue to function as normal. To check if your link will be retained, visit the link today. If your link redirects you without a message, it will continue to work. ",
+     "In 2018, we announced the deprecation and transition of Google URL Shortener because of the changes we’ve seen in how people find content on the internet, and the number of new popular URL shortening services that emerged in that time. This meant that we no longer accepted new URLs to shorten but that we would continue serving existing URLs. ",
+     "Over time, these existing URLs saw less and less traffic as the years went on - in fact more than 99% of them had no activity in the last month. ",
+     "As such, we will be turning off Google URL Shortener. Please read on below to understand more about how this may impact you. ",
+     "Who is impacted? "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Google URL Shortener links will no longer be available [updated] - Google Developers Blog",
+    "text": "Google URL Shortener links will no longer be available [updated]\n - Google Developers Blog\n Community/Events\n Learn\n Blog\n YouTube\n Search\n Community/Events\n Learn\n Blog\n YouTube\nGoogle URL Shortener links will no longer be available [updated] \nJULY 18, 2024 \n Sumit Chandel \n Developer Relations Engineer \n Eldhose Mathokkil Babu \n Software Engineer \n Share \n Facebook \n Twitter \n LinkedIn \n Mail \n Updated August 1, 2025: While we previously announced discontinuing support for all goo.gl URLs after August 25, 2025, we've adjusted our approach in order to preserve actively used links.\nWe understand these links are embedded in countless documents, videos, posts and more, and we appreciate the input received.\nNine months ago, we redirected URLs that showed no activity in late 2024 to a message specifying that the link would be deactivated in August, and these are the only links targeted to be deactivated. If you get a message that states, “This link will no longer work in the near future”, the link won't work after August 25 and we recommend transitioning to another URL shortener if you haven’t already.\nAll other goo.gl links will be preserved and will continue to function as normal. To check if your link will be retained, visit the link today. If your link redirects you without a message, it will continue to work. \nIn 2018, we announced the deprecation and transition of Google URL Shortener because of the changes we’ve seen in how people find content on the internet, and the number of new popular URL shortening services that emerged in that time. This meant that we no longer accepted new URLs to shorten but that we would continue serving existing URLs. \nOver time, these existing URLs saw less and less traffic as the years went on - in fact more than 99% of them had no activity in the last month. \nAs such, we will be turning off Google URL Shortener. Please read on below to understand more about how this may impact you. \nWho is impacted? \nAny developers using links built with the Google URL Shortener in the form https://goo.gl/* will be impacted, and these URLs will no longer return a response after August 25th, 2025. We recommend transitioning these links to another URL shortener provider. \nNote that goo.gl links generated via Google apps (such as Maps sharing) will continue to function. \nWhat to expect \nStarting August 23, 2024, goo.gl links will start displaying an interstitial page for a percentage of existing links notifying your users that the link will no longer be supported after August 25th, 2025 prior to navigating to the original target page. \n Interstitial page shown for some goo.gl links starting on August 23, 2024\nOver time the percentage of links that will show the interstitial page will increase until the shutdown date. This interstitial page should help you track and adjust any affected links that you will need to transition as part of this change. We will continue to display this interstitial page until the shutdown date after which "
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "api_retired",
+  "signal": "explicit",
+  "targets": [
+   "R-F9-18-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "HA",
+   "ESC",
+   "PR-D"
+  ],
+  "route": "report",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:21:09Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "error": null,
+   "body_excerpt": "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 404 (Not Found)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:1"
+  },
+  "docs": [
+   "https://developers.googleblog.com/en/google-url-shortener-links-will-no-longer-be-available/"
+  ]
+ },
+ "oracle_query": "Google URL shortener API replacement",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Google URL shortener API replacement"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.googleapis.com/urlshortener/v1/url?shortUrl=http://goo.gl/fbsS"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "infeasible",
+     "answer": "",
+     "sources": [
+      "https://www.googleapis.com/urlshortener/v1/url?shortUrl=http://goo.gl/fbsS"
+     ],
+     "substitutions": [],
+     "diagnosis": "deprecat; no legitimate copy of the requested resource was found",
+     "confidence": 0.8
+    }
+   }
+  ]
+ }
+}

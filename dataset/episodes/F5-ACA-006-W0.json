@@ -1,0 +1,734 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F5-ACA-006-W0",
+ "goal_id": "F5-ACA-006",
+ "family": "F5",
+ "world": "W0",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "For a meta-analysis I'm compiling, I need a number from Jovanović et al. (2024), \"Bounds on Seed Dispersal\". The article is at http://review-of-synthetic-phonology.example/articles/fb6937-bounds-on-seed-dispersal\nWhat median latency does Table 2 report for station L-08? Please give the value with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "median latency",
+  "unit": "ms",
+  "canonical": "100.2",
+  "entity": "L-08"
+ },
+ "resources": [
+  {
+   "id": "F5-ACA-006-canon",
+   "role": "canonical",
+   "host": "review-of-synthetic-phonology.example",
+   "path": "/articles/fb6937-bounds-on-seed-dispersal",
+   "url": "http://review-of-synthetic-phonology.example/articles/fb6937-bounds-on-seed-dispersal",
+   "kind": "page",
+   "site_type": "journal",
+   "title": "Bounds on Seed Dispersal",
+   "publisher": "Review of Synthetic Phonology",
+   "date": "2024-07-02",
+   "version_label": "Version of Record, Review of Synthetic Phonology (2024)",
+   "expression": "VoR",
+   "work_id": "work-fb6937",
+   "entity": "L-08",
+   "field_label": "median latency",
+   "unit": "ms",
+   "body": {
+    "paragraphs": [
+     "We study seed dispersal across five monitoring stations using a Bayesian model.",
+     "Authors: Sven Jovanović, Zara Ibarra. Published in Review of Synthetic Phonology, 2024.",
+     "Table 2 reports the median latency for each station."
+    ],
+    "table_caption": "Table 2: Median latency by station",
+    "table_header": [
+     "",
+     "median latency (ms)"
+    ],
+    "table": [
+     [
+      "M-09",
+      "6.1"
+     ],
+     [
+      "R-31",
+      "22.3"
+     ],
+     [
+      "K-17",
+      "316.9"
+     ],
+     [
+      "B-04",
+      "388.5"
+     ],
+     [
+      "L-08",
+      "100.2"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "100.2",
+   "cell_value": "100.2",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report median latency measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional median latency at 154.1 ms; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of seed dispersal relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the median latency for each station in the 2024 campaign. The largest change relative to 2021 was observed at station B-04."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Ibarra et al. (2018). [2] Zelenko and Quiroga (2020). [3] Valdés et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1354",
+        "1999",
+        "4162"
+       ],
+       [
+        "M-09",
+        "1740",
+        "1996",
+        "4136"
+       ],
+       [
+        "R-31",
+        "837",
+        "1992",
+        "3877"
+       ],
+       [
+        "K-17",
+        "1665",
+        "1992",
+        "652"
+       ],
+       [
+        "B-04",
+        "1058",
+        "2010",
+        "1498"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Median latency in the 2021 campaign",
+      "header": [
+       "",
+       "median latency (ms)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "51.6"
+       ],
+       [
+        "M-09",
+        "58.9"
+       ],
+       [
+        "R-31",
+        "63.8"
+       ],
+       [
+        "K-17",
+        "50.0"
+       ],
+       [
+        "B-04",
+        "151.2"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F5-ACA-006-var0",
+   "role": "variant",
+   "host": "preprints.example",
+   "path": "/abs/2522.fb6937v1",
+   "url": "http://preprints.example/abs/2522.fb6937v1",
+   "kind": "page",
+   "site_type": "preprint",
+   "title": "Bounds on Seed Dispersal: preliminary results",
+   "publisher": "Preprints.example",
+   "date": "2024-07-02",
+   "version_label": "Author's Original (preprint) v1",
+   "expression": "AO v1",
+   "work_id": "work-fb6937",
+   "entity": "L-08",
+   "field_label": "median latency",
+   "unit": "ms",
+   "body": {
+    "paragraphs": [
+     "We study seed dispersal across five monitoring stations using a Bayesian model.",
+     "Authors: Sven Jovanović, Zara Ibarra. Published in Review of Synthetic Phonology, 2024.",
+     "Table 2 reports the median latency for each station."
+    ],
+    "table_caption": "Table 2: Median latency by station",
+    "table_header": [
+     "",
+     "median latency (ms)"
+    ],
+    "table": [
+     [
+      "M-09",
+      "6.1"
+     ],
+     [
+      "R-31",
+      "22.3"
+     ],
+     [
+      "K-17",
+      "316.9"
+     ],
+     [
+      "B-04",
+      "388.5"
+     ],
+     [
+      "L-08",
+      "107.6"
+     ]
+    ]
+   },
+   "cue": "Preprint v1; not peer reviewed. A later version was published in Review of Synthetic Phonology.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "107.6",
+   "cell_value": "107.6",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report median latency measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional median latency at 154.1 ms; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of seed dispersal relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the median latency for each station in the 2024 campaign. The largest change relative to 2021 was observed at station B-04."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Ibarra et al. (2018). [2] Zelenko and Quiroga (2020). [3] Valdés et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1354",
+        "1999",
+        "4162"
+       ],
+       [
+        "M-09",
+        "1740",
+        "1996",
+        "4136"
+       ],
+       [
+        "R-31",
+        "837",
+        "1992",
+        "3877"
+       ],
+       [
+        "K-17",
+        "1665",
+        "1992",
+        "652"
+       ],
+       [
+        "B-04",
+        "1058",
+        "2010",
+        "1498"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Median latency in the 2021 campaign",
+      "header": [
+       "",
+       "median latency (ms)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "51.6"
+       ],
+       [
+        "M-09",
+        "58.9"
+       ],
+       [
+        "R-31",
+        "63.8"
+       ],
+       [
+        "K-17",
+        "50.0"
+       ],
+       [
+        "B-04",
+        "151.2"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-P",
+   "delta": {
+    "median_latency": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://scholar.example/search?q=Bounds+on+Seed+Dispersal",
+    "http://scholar.example/work/fb6937",
+    "http://scholar.example/work/fb6937/versions"
+   ],
+   "inspect": {
+    "http://scholar.example/work/fb6937/versions": []
+   }
+  },
+  {
+   "id": "F5-ACA-006-dec0",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/fb69370",
+   "url": "http://filedump.example/f/fb69370",
+   "kind": "page",
+   "site_type": "cache",
+   "title": "Bounds on Seed Dispersal",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "VoR",
+   "work_id": "work-fb6937",
+   "entity": "L-08",
+   "field_label": "median latency",
+   "unit": "ms",
+   "body": {
+    "paragraphs": [
+     "We study seed dispersal across five monitoring stations using a Bayesian model.",
+     "Authors: Sven Jovanović, Zara Ibarra. Published in Review of Synthetic Phonology, 2024.",
+     "Table 2 reports the median latency for each station."
+    ],
+    "table_caption": "Table 2: Median latency by station",
+    "table_header": [
+     "",
+     "median latency (ms)"
+    ],
+    "table": [
+     [
+      "M-09",
+      "6.1"
+     ],
+     [
+      "R-31",
+      "22.3"
+     ],
+     [
+      "K-17",
+      "316.9"
+     ],
+     [
+      "B-04",
+      "388.5"
+     ],
+     [
+      "L-08",
+      "78.2"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "78.2",
+   "cell_value": "78.2",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report median latency measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional median latency at 154.1 ms; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of seed dispersal relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the median latency for each station in the 2024 campaign. The largest change relative to 2021 was observed at station B-04."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Ibarra et al. (2018). [2] Zelenko and Quiroga (2020). [3] Valdés et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1354",
+        "1999",
+        "4162"
+       ],
+       [
+        "M-09",
+        "1740",
+        "1996",
+        "4136"
+       ],
+       [
+        "R-31",
+        "837",
+        "1992",
+        "3877"
+       ],
+       [
+        "K-17",
+        "1665",
+        "1992",
+        "652"
+       ],
+       [
+        "B-04",
+        "1058",
+        "2010",
+        "1498"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Median latency in the 2021 campaign",
+      "header": [
+       "",
+       "median latency (ms)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "51.6"
+       ],
+       [
+        "M-09",
+        "58.9"
+       ],
+       [
+        "R-31",
+        "63.8"
+       ],
+       [
+        "K-17",
+        "50.0"
+       ],
+       [
+        "B-04",
+        "151.2"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F5-ACA-006-hub-scholar-meta0",
+   "role": "hub",
+   "host": "researchnet.example",
+   "path": "/record/fb6937",
+   "url": "http://researchnet.example/record/fb6937",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Bounds on Seed Dispersal",
+   "publisher": "researchnet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sven Jovanović, Zara Ibarra.",
+     "Review of Synthetic Phonology, 2024.",
+     "Full text not available here. Request it from the authors."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F5-ACA-006-hub-scholar-meta1",
+   "role": "hub",
+   "host": "inst-repository.example",
+   "path": "/record/fb6937",
+   "url": "http://inst-repository.example/record/fb6937",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Bounds on Seed Dispersal",
+   "publisher": "inst-repository.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sven Jovanović, Zara Ibarra.",
+     "Review of Synthetic Phonology, 2024.",
+     "Metadata only: the full text is under embargo."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F5-ACA-006-hub-scholar-work",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/fb6937",
+   "url": "http://scholar.example/work/fb6937",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Bounds on Seed Dispersal",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sven Jovanović, Zara Ibarra.",
+     "Review of Synthetic Phonology, 2024.",
+     "Topic: seed dispersal.",
+     "DOI: 10.5072/fb6937"
+    ]
+   },
+   "links": [
+    [
+     "http://review-of-synthetic-phonology.example/articles/fb6937-bounds-on-seed-dispersal",
+     "[HTML] review-of-synthetic-phonology.example"
+    ],
+    [
+     "http://scholar.example/work/fb6937/versions",
+     "All 4 versions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F5-ACA-006-hub-scholar-versions",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/fb6937/versions",
+   "url": "http://scholar.example/work/fb6937/versions",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "All versions of: Bounds on Seed Dispersal",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sources holding this work, as found by the index. Version information is given on each source page."
+    ]
+   },
+   "links": [
+    [
+     "http://review-of-synthetic-phonology.example/articles/fb6937-bounds-on-seed-dispersal",
+     "Bounds on Seed Dispersal - review-of-synthetic-phonology.example"
+    ],
+    [
+     "http://preprints.example/abs/2522.fb6937v1",
+     "Bounds on Seed Dispersal: preliminary results - preprints.example"
+    ],
+    [
+     "http://inst-repository.example/record/fb6937",
+     "Bounds on Seed Dispersal - inst-repository.example"
+    ],
+    [
+     "http://researchnet.example/record/fb6937",
+     "Bounds on Seed Dispersal - researchnet.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F5-ACA-006-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F5-ACA-006-W1v",
+  "unrecoverable": "F5-ACA-006-W2",
+  "twin": "F5-ACA-006-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://review-of-synthetic-phonology.example/articles/fb6937-bounds-on-seed-dispersal"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "100.2 ms",
+     "sources": [
+      "http://review-of-synthetic-phonology.example/articles/fb6937-bounds-on-seed-dispersal"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "100.2 ms",
+   "sources": [
+    "http://review-of-synthetic-phonology.example/articles/fb6937-bounds-on-seed-dispersal"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

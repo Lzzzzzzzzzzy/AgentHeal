@@ -1,0 +1,1102 @@
+[
+ {
+  "id": "R-F7-01",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I found a raycast_api_proxy fork that I'd like to use in a project: https://github.com/uhtzyj/raycast_api_proxy\nWhat license does the repository declare? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "what license the repository declares"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-01-canon",
+    "role": "canonical",
+    "url": "https://github.com/uhtzyj/raycast_api_proxy",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/04/2025-04-10-raycast.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-01-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/04/2025-04-10-raycast.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/uhtzyj/raycast_api_proxy among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "uhtzyj/raycast_api_proxy",
+  "evidence": {
+   "observed_at": "2026-10-16T18:38:43Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/04/2025-04-10-raycast.md"
+  },
+  "goal_v0": "For the GitHub repository uhtzyj/raycast_api_proxy (https://github.com/uhtzyj/raycast_api_proxy), report what license the repository declares. Cite the source you used.",
+  "user_link": "https://github.com/uhtzyj/raycast_api_proxy"
+ },
+ {
+  "id": "R-F7-02",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "Someone recommended this raycast_api_proxy fork to me: https://github.com/Loukyuu1120/raycast_api_proxy\nWhat does the repository's description say? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "what the repository's description says"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-02-canon",
+    "role": "canonical",
+    "url": "https://github.com/Loukyuu1120/raycast_api_proxy",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/04/2025-04-10-raycast.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-02-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/04/2025-04-10-raycast.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/Loukyuu1120/raycast_api_proxy among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Loukyuu1120/raycast_api_proxy",
+  "evidence": {
+   "observed_at": "2026-10-16T18:38:45Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/04/2025-04-10-raycast.md"
+  },
+  "goal_v0": "For the GitHub repository Loukyuu1120/raycast_api_proxy (https://github.com/Loukyuu1120/raycast_api_proxy), report what the repository's description says. Cite the source you used.",
+  "user_link": "https://github.com/Loukyuu1120/raycast_api_proxy"
+ },
+ {
+  "id": "R-F7-03",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I want to send a pull request to this raycast_api_proxy fork: https://github.com/ShawnFan2/raycast_api_proxy\nWhat is the name of its default branch? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "the name of the default branch"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-03-canon",
+    "role": "canonical",
+    "url": "https://github.com/ShawnFan2/raycast_api_proxy",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/04/2025-04-10-raycast.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-03-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/04/2025-04-10-raycast.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/ShawnFan2/raycast_api_proxy among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "ShawnFan2/raycast_api_proxy",
+  "evidence": {
+   "observed_at": "2026-10-16T18:38:47Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/04/2025-04-10-raycast.md"
+  },
+  "goal_v0": "For the GitHub repository ShawnFan2/raycast_api_proxy (https://github.com/ShawnFan2/raycast_api_proxy), report the name of the default branch. Cite the source you used.",
+  "user_link": "https://github.com/ShawnFan2/raycast_api_proxy"
+ },
+ {
+  "id": "R-F7-04",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm judging how popular this gigConnect repository is: https://github.com/saravinth300/gigConnect\nHow many stars does it have? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "how many stars the repository has"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-04-canon",
+    "role": "canonical",
+    "url": "https://github.com/saravinth300/gigConnect",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/12/2025-12-17-gigconnect.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-04-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/12/2025-12-17-gigconnect.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/saravinth300/gigConnect among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "saravinth300/gigConnect",
+  "evidence": {
+   "observed_at": "2026-10-16T18:38:49Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/12/2025-12-17-gigconnect.md"
+  },
+  "goal_v0": "For the GitHub repository saravinth300/gigConnect (https://github.com/saravinth300/gigConnect), report how many stars the repository has. Cite the source you used.",
+  "user_link": "https://github.com/saravinth300/gigConnect"
+ },
+ {
+  "id": "R-F7-05",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm looking at the rds0522 repository for a code review: https://github.com/mthak/rds0522\nWhat is its primary programming language? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "the primary programming language"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-05-canon",
+    "role": "canonical",
+    "url": "https://github.com/mthak/rds0522",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/12/2025-12-08-john-deere.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-05-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/12/2025-12-08-john-deere.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/mthak/rds0522 among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "mthak/rds0522",
+  "evidence": {
+   "observed_at": "2026-10-16T18:38:53Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/12/2025-12-08-john-deere.md"
+  },
+  "goal_v0": "For the GitHub repository mthak/rds0522 (https://github.com/mthak/rds0522), report the primary programming language. Cite the source you used.",
+  "user_link": "https://github.com/mthak/rds0522"
+ },
+ {
+  "id": "R-F7-06",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I want to know whether the Projetos repository is still maintained: https://github.com/jairandrade/Projetos\nWhat is the date of its most recent commit? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "the date of the most recent commit"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-06-canon",
+    "role": "canonical",
+    "url": "https://github.com/jairandrade/Projetos",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/07/2025-07-15-source-code-3.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-06-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/07/2025-07-15-source-code-3.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/jairandrade/Projetos among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "jairandrade/Projetos",
+  "evidence": {
+   "observed_at": "2026-10-16T18:38:55Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/07/2025-07-15-source-code-3.md"
+  },
+  "goal_v0": "For the GitHub repository jairandrade/Projetos (https://github.com/jairandrade/Projetos), report the date of the most recent commit. Cite the source you used.",
+  "user_link": "https://github.com/jairandrade/Projetos"
+ },
+ {
+  "id": "R-F7-07",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm checking whether I may reuse code from this skidcity repository: https://github.com/Kchan420/skidcity\nWhat license does it declare? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "what license the repository declares"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-07-canon",
+    "role": "canonical",
+    "url": "https://github.com/Kchan420/skidcity",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/10/2025-10-07-dzi.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-07-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/10/2025-10-07-dzi.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/Kchan420/skidcity among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Kchan420/skidcity",
+  "evidence": {
+   "observed_at": "2026-10-16T18:38:57Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/10/2025-10-07-dzi.md"
+  },
+  "goal_v0": "For the GitHub repository Kchan420/skidcity (https://github.com/Kchan420/skidcity), report what license the repository declares. Cite the source you used.",
+  "user_link": "https://github.com/Kchan420/skidcity"
+ },
+ {
+  "id": "R-F7-08",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "A colleague mentioned this skidcity repository: https://github.com/vien12121/skidcity\nWhat does the repository's description say? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "what the repository's description says"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-08-canon",
+    "role": "canonical",
+    "url": "https://github.com/vien12121/skidcity",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/10/2025-10-07-dzi.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-08-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/10/2025-10-07-dzi.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/vien12121/skidcity among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "vien12121/skidcity",
+  "evidence": {
+   "observed_at": "2026-10-16T18:38:59Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/10/2025-10-07-dzi.md"
+  },
+  "goal_v0": "For the GitHub repository vien12121/skidcity (https://github.com/vien12121/skidcity), report what the repository's description says. Cite the source you used.",
+  "user_link": "https://github.com/vien12121/skidcity"
+ },
+ {
+  "id": "R-F7-09",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I want to clone this skidcity repository at the right branch: https://github.com/MussabIbrahimovic/skidcity\nWhat is the name of its default branch? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "the name of the default branch"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-09-canon",
+    "role": "canonical",
+    "url": "https://github.com/MussabIbrahimovic/skidcity",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/10/2025-10-07-dzi.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-09-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/10/2025-10-07-dzi.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/MussabIbrahimovic/skidcity among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "MussabIbrahimovic/skidcity",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:01Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/10/2025-10-07-dzi.md"
+  },
+  "goal_v0": "For the GitHub repository MussabIbrahimovic/skidcity (https://github.com/MussabIbrahimovic/skidcity), report the name of the default branch. Cite the source you used.",
+  "user_link": "https://github.com/MussabIbrahimovic/skidcity"
+ },
+ {
+  "id": "R-F7-10",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm judging how popular this m3u repository is: https://github.com/alex4528/m3u\nHow many stars does it have? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "how many stars the repository has"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-10-canon",
+    "role": "canonical",
+    "url": "https://github.com/alex4528/m3u",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/09/2025-09-11-cluver-max.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-10-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/09/2025-09-11-cluver-max.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/alex4528/m3u among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "alex4528/m3u",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:04Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/09/2025-09-11-cluver-max.md"
+  },
+  "goal_v0": "For the GitHub repository alex4528/m3u (https://github.com/alex4528/m3u), report how many stars the repository has. Cite the source you used.",
+  "user_link": "https://github.com/alex4528/m3u"
+ },
+ {
+  "id": "R-F7-11",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm evaluating the WhatsApp-Chat-Module repository for a project: https://github.com/lussandro/WhatsApp-Chat-Module\nWhat is its primary programming language? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "the primary programming language"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-11-canon",
+    "role": "canonical",
+    "url": "https://github.com/lussandro/WhatsApp-Chat-Module",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/12/2025-12-05-themesic-4.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-11-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/12/2025-12-05-themesic-4.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/lussandro/WhatsApp-Chat-Module among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "lussandro/WhatsApp-Chat-Module",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:07Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/12/2025-12-05-themesic-4.md"
+  },
+  "goal_v0": "For the GitHub repository lussandro/WhatsApp-Chat-Module (https://github.com/lussandro/WhatsApp-Chat-Module), report the primary programming language. Cite the source you used.",
+  "user_link": "https://github.com/lussandro/WhatsApp-Chat-Module"
+ },
+ {
+  "id": "R-F7-12",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I want to know whether this repository is still active: https://github.com/Raniani-lab/tessst\nWhat is the date of its most recent commit? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "the date of the most recent commit"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-12-canon",
+    "role": "canonical",
+    "url": "https://github.com/Raniani-lab/tessst",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/11/2025-11-25-viindoo.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-12-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/11/2025-11-25-viindoo.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/Raniani-lab/tessst among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Raniani-lab/tessst",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:09Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/11/2025-11-25-viindoo.md"
+  },
+  "goal_v0": "For the GitHub repository Raniani-lab/tessst (https://github.com/Raniani-lab/tessst), report the date of the most recent commit. Cite the source you used.",
+  "user_link": "https://github.com/Raniani-lab/tessst"
+ },
+ {
+  "id": "R-F7-13",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm checking whether I may reuse code from this LibHac fork: https://github.com/roblabla/LibHac\nWhat license does it declare? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "what license the repository declares"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-13-canon",
+    "role": "canonical",
+    "url": "https://github.com/roblabla/LibHac",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/05/2025-05-15-nintendo.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-13-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/05/2025-05-15-nintendo.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/roblabla/LibHac among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "roblabla/LibHac",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:12Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/05/2025-05-15-nintendo.md"
+  },
+  "goal_v0": "For the GitHub repository roblabla/LibHac (https://github.com/roblabla/LibHac), report what license the repository declares. Cite the source you used.",
+  "user_link": "https://github.com/roblabla/LibHac"
+ },
+ {
+  "id": "R-F7-14",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "Someone pointed me to this LibHac fork: https://github.com/TSRBerry/LibHac\nWhat does the repository's description say? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "what the repository's description says"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-14-canon",
+    "role": "canonical",
+    "url": "https://github.com/TSRBerry/LibHac",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/05/2025-05-15-nintendo.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-14-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/05/2025-05-15-nintendo.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/TSRBerry/LibHac among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "TSRBerry/LibHac",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:14Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/05/2025-05-15-nintendo.md"
+  },
+  "goal_v0": "For the GitHub repository TSRBerry/LibHac (https://github.com/TSRBerry/LibHac), report what the repository's description says. Cite the source you used.",
+  "user_link": "https://github.com/TSRBerry/LibHac"
+ },
+ {
+  "id": "R-F7-15",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm looking at this BurpSuite-Pro-Latest repository: https://github.com/Tobey123/BurpSuite-Pro-Latest\nWhat is the name of its default branch? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "the name of the default branch"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-15-canon",
+    "role": "canonical",
+    "url": "https://github.com/Tobey123/BurpSuite-Pro-Latest",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/06/2025-06-30-portswigger.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-15-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/06/2025-06-30-portswigger.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/Tobey123/BurpSuite-Pro-Latest among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Tobey123/BurpSuite-Pro-Latest",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:16Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/06/2025-06-30-portswigger.md"
+  },
+  "goal_v0": "For the GitHub repository Tobey123/BurpSuite-Pro-Latest (https://github.com/Tobey123/BurpSuite-Pro-Latest), report the name of the default branch. Cite the source you used.",
+  "user_link": "https://github.com/Tobey123/BurpSuite-Pro-Latest"
+ },
+ {
+  "id": "R-F7-16",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm judging how popular this RECUT-FREE repository is: https://github.com/Rafee3r/RECUT-FREE\nHow many stars does it have? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "how many stars the repository has"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-16-canon",
+    "role": "canonical",
+    "url": "https://github.com/Rafee3r/RECUT-FREE",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/11/2025-11-19-recut.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-16-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/11/2025-11-19-recut.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/Rafee3r/RECUT-FREE among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Rafee3r/RECUT-FREE",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:18Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/11/2025-11-19-recut.md"
+  },
+  "goal_v0": "For the GitHub repository Rafee3r/RECUT-FREE (https://github.com/Rafee3r/RECUT-FREE), report how many stars the repository has. Cite the source you used.",
+  "user_link": "https://github.com/Rafee3r/RECUT-FREE"
+ },
+ {
+  "id": "R-F7-17",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm reviewing this RECUT-FREE fork: https://github.com/keysjoao/RECUT-FREE\nWhat is its primary programming language? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "the primary programming language"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-17-canon",
+    "role": "canonical",
+    "url": "https://github.com/keysjoao/RECUT-FREE",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/11/2025-11-19-recut.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-17-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/11/2025-11-19-recut.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/keysjoao/RECUT-FREE among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "keysjoao/RECUT-FREE",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:20Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/11/2025-11-19-recut.md"
+  },
+  "goal_v0": "For the GitHub repository keysjoao/RECUT-FREE (https://github.com/keysjoao/RECUT-FREE), report the primary programming language. Cite the source you used.",
+  "user_link": "https://github.com/keysjoao/RECUT-FREE"
+ },
+ {
+  "id": "R-F7-18",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I want to know whether this RECUT-FREE fork is maintained: https://github.com/AKSHAYBHOPANI/RECUT-FREE\nWhat is the date of its most recent commit? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "the date of the most recent commit"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-18-canon",
+    "role": "canonical",
+    "url": "https://github.com/AKSHAYBHOPANI/RECUT-FREE",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/11/2025-11-19-recut.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-18-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/11/2025-11-19-recut.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/AKSHAYBHOPANI/RECUT-FREE among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "AKSHAYBHOPANI/RECUT-FREE",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:22Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/11/2025-11-19-recut.md"
+  },
+  "goal_v0": "For the GitHub repository AKSHAYBHOPANI/RECUT-FREE (https://github.com/AKSHAYBHOPANI/RECUT-FREE), report the date of the most recent commit. Cite the source you used.",
+  "user_link": "https://github.com/AKSHAYBHOPANI/RECUT-FREE"
+ },
+ {
+  "id": "R-F7-19",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "I'm checking the license of this tourboxelite repository before using it: https://github.com/Xpqqt9699/tourboxelite\nWhat license does it declare? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "what license the repository declares"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-19-canon",
+    "role": "canonical",
+    "url": "https://github.com/Xpqqt9699/tourboxelite",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/12/2025-12-16-tourbox-elite-linux-driver.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-19-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/12/2025-12-16-tourbox-elite-linux-driver.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/Xpqqt9699/tourboxelite among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Xpqqt9699/tourboxelite",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:25Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/12/2025-12-16-tourbox-elite-linux-driver.md"
+  },
+  "goal_v0": "For the GitHub repository Xpqqt9699/tourboxelite (https://github.com/Xpqqt9699/tourboxelite), report what license the repository declares. Cite the source you used.",
+  "user_link": "https://github.com/Xpqqt9699/tourboxelite"
+ },
+ {
+  "id": "R-F7-20",
+  "family": "F7",
+  "world": "W3",
+  "domain": "code",
+  "task_type": "IR",
+  "goal": "A forum post linked this electric power steering repository: https://github.com/hmf1235789/ElectricPowerSteering_RH850_BMW_FAAR_WE_website\nWhat does the repository's description say? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "what the repository's description says"
+  },
+  "barrier": {
+   "rule": "http_451",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F7-20-canon",
+    "role": "canonical",
+    "url": "https://github.com/hmf1235789/ElectricPowerSteering_RH850_BMW_FAAR_WE_website",
+    "status": 451,
+    "title": "GitHub · Where software is built",
+    "text": " {\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"https://github.githubassets.com/assets/react-dom-e5fd46a22d5c4058.js\",\"react-dom/client\":\"https://github.githubassets.com/assets/react-dom-client-1b4a3ee065998cea.js\",\"react-is\":\"https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js\",\"react-reconciler\":\"https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js\",\"react/compiler-runtime\":\"https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js\",\"react/jsx-dev-runtime\":\"https://github.githubassets.com/assets/react-jsx-dev-runtime-ea55d68667d559e5.js\",\"react/jsx-runtime\":\"https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js\",\"scheduler\":\"https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js\"}} :root { --tab-size-preference: 4; } pre, code { tab-si",
+    "links": [
+     [
+      "https://github.com/github/dmca/blob/master/2025/11/2025-11-05-nexteer.md",
+      "DMCA notice"
+     ]
+    ],
+    "indexed": false
+   },
+   {
+    "id": "R-F7-20-notice",
+    "role": "context",
+    "url": "https://github.com/github/dmca/blob/master/2025/11/2025-11-05-nexteer.md",
+    "status": 200,
+    "title": "DMCA notice (github/dmca)",
+    "text": "DMCA takedown notice listing https://github.com/hmf1235789/ElectricPowerSteering_RH850_BMW_FAAR_WE_website among the repositories to be disabled.",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "hmf1235789/ElectricPowerSteering_RH850_BMW_FAAR_WE_website",
+  "evidence": {
+   "observed_at": "2026-10-16T18:39:30Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "live_response": {
+    "status": 451
+   },
+   "notice": "https://github.com/github/dmca/blob/master/2025/11/2025-11-05-nexteer.md"
+  },
+  "goal_v0": "For the GitHub repository hmf1235789/ElectricPowerSteering_RH850_BMW_FAAR_WE_website (https://github.com/hmf1235789/ElectricPowerSteering_RH850_BMW_FAAR_WE_website), report what the repository's description says. Cite the source you used.",
+  "user_link": "https://github.com/hmf1235789/ElectricPowerSteering_RH850_BMW_FAAR_WE_website"
+ }
+]

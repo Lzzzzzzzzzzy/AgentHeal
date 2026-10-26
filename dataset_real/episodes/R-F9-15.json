@@ -1,0 +1,128 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F9-15",
+ "goal_id": "R-F9-15",
+ "family": "F9",
+ "world": "W3",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "An old page of mine uses the Google AJAX Web Search API: https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=python\nWhat is the URL of the top result for \"python\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Google Web Search API",
+  "unit": "",
+  "canonical": null,
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F9-15-canon",
+   "role": "canonical",
+   "url": "https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=python",
+   "host": "ajax.googleapis.com",
+   "path": "/ajax/services/search/web?v=1.0&q=python",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "404 Google Web Search API",
+   "publisher": "ajax.googleapis.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-15",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "   Error 404 (Not Found)!!1 ",
+     "    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "headers": {},
+    "title": "404 Google Web Search API",
+    "observed_at": "2026-10-16T18:20:41Z",
+    "text": " \n \n   \n   \n   Error 404 (Not Found)!!1 \n   \n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "api_retired",
+  "signal": "explicit",
+  "targets": [
+   "R-F9-15-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "HA",
+   "ESC",
+   "PR-D"
+  ],
+  "route": "report",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:20:41Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "error": null,
+   "body_excerpt": "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 404 (Not Found)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:1"
+  },
+  "docs": []
+ },
+ "oracle_query": "Google Web Search API replacement",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Google Web Search API replacement"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=python"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "infeasible",
+     "answer": "",
+     "sources": [
+      "https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=python"
+     ],
+     "substitutions": [],
+     "diagnosis": "deprecat; no legitimate copy of the requested resource was found",
+     "confidence": 0.8
+    }
+   }
+  ]
+ }
+}

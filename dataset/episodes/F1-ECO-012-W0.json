@@ -1,0 +1,615 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F1-ECO-012-W0",
+ "goal_id": "F1-ECO-012",
+ "family": "F1",
+ "world": "W0",
+ "domain": "ecommerce",
+ "task_type": "TX",
+ "goal": "I'd like to order a Fennix Max20 cordless drill, GTIN 8986960573162. This is the listing I saw: http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill\nAny authorized shop that sells exactly this GTIN is fine. Tell me which order you placed.",
+ "answer": {
+  "kind": "order",
+  "field": "max torque",
+  "unit": "Nm",
+  "canonical": "8986960573162",
+  "entity": "Fennix Max20"
+ },
+ "resources": [
+  {
+   "id": "F1-ECO-012-canon",
+   "role": "canonical",
+   "host": "northwind-goods.example",
+   "path": "/products/93ed52-fennix-max20-cordless-drill",
+   "url": "http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Fennix Max20 cordless drill",
+   "publisher": "northwind-goods.example",
+   "date": "2025-06-01",
+   "version_label": "Fennix Max20 listing",
+   "expression": "product listing",
+   "work_id": "work-93ed52",
+   "entity": "Fennix Max20",
+   "field_label": "max torque",
+   "unit": "Nm",
+   "body": {
+    "paragraphs": [
+     "The Fennix Max20 is a cordless drill by Fennix.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "max torque (Nm)"
+    ],
+    "table": [
+     [
+      "weight",
+      "1848 g"
+     ],
+     [
+      "warranty",
+      "1 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "Fennix Max20",
+      "120"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "8986960573162",
+   "price": "349.81",
+   "value": "120",
+   "cell_value": "120",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Fennix Max20 cordless drill is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the max torque the same as on the older Fennix X90? A: No, see the comparison table; the older model is rated 73 Nm."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Fennix Pro70 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "max torque (Nm)"
+      ],
+      "rows": [
+       [
+        "Fennix X90",
+        "175"
+       ],
+       [
+        "Fennix Pro70",
+        "48"
+       ],
+       [
+        "Fennix Lite30",
+        "64"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F1-ECO-012-faith",
+   "role": "faithful",
+   "host": "kitebay-store.example",
+   "path": "/item/8986960573162",
+   "url": "http://kitebay-store.example/item/8986960573162",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Fennix Max20 cordless drill",
+   "publisher": "kitebay-store.example (authorized retailer)",
+   "date": "2025-06-01",
+   "version_label": "Fennix Max20 listing",
+   "expression": "product listing",
+   "work_id": "work-93ed52",
+   "entity": "Fennix Max20",
+   "field_label": "max torque",
+   "unit": "Nm",
+   "body": {
+    "paragraphs": [
+     "The Fennix Max20 is a cordless drill by Fennix.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "max torque (Nm)"
+    ],
+    "table": [
+     [
+      "weight",
+      "1848 g"
+     ],
+     [
+      "warranty",
+      "1 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "Fennix Max20",
+      "120"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "8986960573162",
+   "price": "349.81",
+   "value": "120",
+   "cell_value": "120",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Fennix Max20 cordless drill is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the max torque the same as on the older Fennix X90? A: No, see the comparison table; the older model is rated 73 Nm."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Fennix Pro70 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "max torque (Nm)"
+      ],
+      "rows": [
+       [
+        "Fennix X90",
+        "175"
+       ],
+       [
+        "Fennix Pro70",
+        "48"
+       ],
+       [
+        "Fennix Lite30",
+        "64"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "other_authorized_shop",
+   "chain": [
+    "http://fennix.example/",
+    "http://fennix.example/where-to-buy",
+    "http://kitebay-store.example/",
+    "http://kitebay-store.example/search?q=8986960573162"
+   ],
+   "inspect": {
+    "http://fennix.example/where-to-buy": [
+     "http://lumen-outlet.example/",
+     "http://lumen-outlet.example/search?q=8986960573162"
+    ]
+   }
+  },
+  {
+   "id": "F1-ECO-012-hub-capture-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20260115093000/http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill",
+   "url": "http://archive.example/web/20260115093000/http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "northwind-goods.example: 404 Not Found",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "404 Not Found."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20260115093000",
+   "original": "http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill"
+  },
+  {
+   "id": "F1-ECO-012-hub-capture-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20251103141500/http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill",
+   "url": "http://archive.example/web/20251103141500/http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "northwind-goods.example: Home page",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to northwind-goods.example."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20251103141500",
+   "original": "http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill"
+  },
+  {
+   "id": "F1-ECO-012-hub-brand-home",
+   "role": "hub",
+   "host": "fennix.example",
+   "path": "/",
+   "url": "http://fennix.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Fennix official site",
+   "publisher": "fennix.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Fennix designs cordless drills and other products.",
+     "Current models include the Fennix Max20."
+    ]
+   },
+   "links": [
+    [
+     "http://fennix.example/where-to-buy",
+     "Where to buy"
+    ]
+   ],
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ECO-012-hub-brand-wtb",
+   "role": "hub",
+   "host": "fennix.example",
+   "path": "/where-to-buy",
+   "url": "http://fennix.example/where-to-buy",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Where to buy Fennix products",
+   "publisher": "fennix.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Authorized retailers. Stock varies; search the retailer's site for the GTIN of your model."
+    ]
+   },
+   "links": [
+    [
+     "http://northwind-goods.example/",
+     "northwind-goods.example"
+    ],
+    [
+     "http://lumen-outlet.example/",
+     "lumen-outlet.example"
+    ],
+    [
+     "http://kitebay-store.example/",
+     "kitebay-store.example"
+    ],
+    [
+     "http://voltmart.example/",
+     "voltmart.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ECO-012-hub-moved-index",
+   "role": "hub",
+   "host": "northwind-goods.example",
+   "path": "/site/archive",
+   "url": "http://northwind-goods.example/site/archive",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive",
+   "publisher": "northwind-goods.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Older pages by year."
+    ]
+   },
+   "links": [
+    [
+     "http://northwind-goods.example/site/archive/2023",
+     "2023"
+    ],
+    [
+     "http://northwind-goods.example/site/archive/2024",
+     "2024"
+    ],
+    [
+     "http://northwind-goods.example/site/archive/2025",
+     "2025"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ECO-012-hub-moved-2023",
+   "role": "hub",
+   "host": "northwind-goods.example",
+   "path": "/site/archive/2023",
+   "url": "http://northwind-goods.example/site/archive/2023",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2023",
+   "publisher": "northwind-goods.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ECO-012-hub-moved-2024",
+   "role": "hub",
+   "host": "northwind-goods.example",
+   "path": "/site/archive/2024",
+   "url": "http://northwind-goods.example/site/archive/2024",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2024",
+   "publisher": "northwind-goods.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ECO-012-hub-moved-2025",
+   "role": "hub",
+   "host": "northwind-goods.example",
+   "path": "/site/archive/2025",
+   "url": "http://northwind-goods.example/site/archive/2025",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2025",
+   "publisher": "northwind-goods.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ECO-012-hub-home",
+   "role": "hub",
+   "host": "northwind-goods.example",
+   "path": "/",
+   "url": "http://northwind-goods.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "northwind-goods.example",
+   "publisher": "northwind-goods.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "We reorganised our website: older pages are now in the archive section."
+    ]
+   },
+   "links": [
+    [
+     "http://northwind-goods.example/site/archive",
+     "Archive"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F1-ECO-012-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F1-ECO-012-W1a",
+  "unrecoverable": "F1-ECO-012-W2",
+  "twin": "F1-ECO-012-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill"
+   },
+   {
+    "tool": "http",
+    "method": "POST",
+    "url": "http://northwind-goods.example/checkout",
+    "data": {
+     "gtin": "8986960573162",
+     "quantity": "1"
+    }
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "8986960573162",
+     "sources": [
+      "http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "8986960573162",
+   "sources": [
+    "http://northwind-goods.example/products/93ed52-fennix-max20-cordless-drill"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

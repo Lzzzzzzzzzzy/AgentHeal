@@ -1,0 +1,743 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F5-NEW-013-W0",
+ "goal_id": "F5-NEW-013",
+ "family": "F5",
+ "world": "W0",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "A colleague sent me The Meridian Ledger's February 2025 report on the Brightwater housing survey (http://the-meridian-ledger.example/news/674769-report-the-brightwater-housing-survey-findings-r) and I want to quote it correctly. What figure does the report give for turbines approved in Fallowmere district? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "turbines approved",
+  "unit": "turbines",
+  "canonical": "121",
+  "entity": "Fallowmere district"
+ },
+ "resources": [
+  {
+   "id": "F5-NEW-013-canon",
+   "role": "canonical",
+   "host": "the-meridian-ledger.example",
+   "path": "/news/674769-report-the-brightwater-housing-survey-findings-r",
+   "url": "http://the-meridian-ledger.example/news/674769-report-the-brightwater-housing-survey-findings-r",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The brightwater housing survey findings released",
+   "publisher": "The Meridian Ledger",
+   "date": "2025-02-04",
+   "version_label": "The Meridian Ledger, published 2025-02-04",
+   "expression": "published article",
+   "work_id": "work-674769",
+   "entity": "Fallowmere district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "The Meridian Ledger obtained the final report on the Brightwater housing survey.",
+     "The report lists turbines approved for five districts."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "121"
+     ],
+     [
+      "Glenhurst district",
+      "50"
+     ],
+     [
+      "Corran district",
+      "15"
+     ],
+     [
+      "Belcliff district",
+      "22"
+     ],
+     [
+      "Eskridge district",
+      "52"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "121",
+   "cell_value": "121",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Meridian Ledger has obtained the final report on the Brightwater housing survey, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 198 turbines in Eskridge district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Fallowmere district",
+        "70"
+       ],
+       [
+        "Glenhurst district",
+        "228"
+       ],
+       [
+        "Corran district",
+        "65"
+       ],
+       [
+        "Belcliff district",
+        "60"
+       ],
+       [
+        "Eskridge district",
+        "60"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F5-NEW-013-var0",
+   "role": "variant",
+   "host": "the-meridian-ledger.example",
+   "path": "/news/674769-report-the-brightwater-housing-survey-findings-r/prev0",
+   "url": "http://the-meridian-ledger.example/news/674769-report-the-brightwater-housing-survey-findings-r/prev0",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The brightwater housing survey findings released",
+   "publisher": "The Meridian Ledger",
+   "date": "2025-02-04",
+   "version_label": "Report: The brightwater housing survey findings released, first edition of the report",
+   "expression": "first edition of the report",
+   "work_id": "work-674769",
+   "entity": "Fallowmere district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "The Meridian Ledger obtained the final report on the Brightwater housing survey.",
+     "The report lists turbines approved for five districts."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "139"
+     ],
+     [
+      "Glenhurst district",
+      "50"
+     ],
+     [
+      "Corran district",
+      "15"
+     ],
+     [
+      "Belcliff district",
+      "22"
+     ],
+     [
+      "Eskridge district",
+      "52"
+     ]
+    ]
+   },
+   "cue": "This is the first edition of the report; it was superseded by The Meridian Ledger, published 2025-02-04.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "139",
+   "cell_value": "139",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Meridian Ledger has obtained the final report on the Brightwater housing survey, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 198 turbines in Eskridge district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Fallowmere district",
+        "70"
+       ],
+       [
+        "Glenhurst district",
+        "228"
+       ],
+       [
+        "Corran district",
+        "65"
+       ],
+       [
+        "Belcliff district",
+        "60"
+       ],
+       [
+        "Eskridge district",
+        "60"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-R",
+   "delta": {
+    "turbines_approved": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://the-meridian-ledger.example/",
+    "http://the-meridian-ledger.example/site/updates/674769",
+    "http://the-meridian-ledger.example/site/updates/674769/0"
+   ],
+   "site_search": false
+  },
+  {
+   "id": "F5-NEW-013-rel0",
+   "role": "related",
+   "host": "the-meridian-ledger.example",
+   "path": "/news/b0e8cc-follow-up-the-brightwater-housing-survey-figures",
+   "url": "http://the-meridian-ledger.example/news/b0e8cc-follow-up-the-brightwater-housing-survey-figures",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Follow-up: The brightwater housing survey figures revised",
+   "publisher": "The Meridian Ledger",
+   "date": "2025-04-04",
+   "version_label": "The Meridian Ledger, published 2025-04-04",
+   "expression": "related work",
+   "work_id": "work-b0e8cc",
+   "entity": "Fallowmere district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "The Meridian Ledger follows up on the Brightwater housing survey.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "56"
+     ],
+     [
+      "Glenhurst district",
+      "78"
+     ],
+     [
+      "Corran district",
+      "58"
+     ],
+     [
+      "Belcliff district",
+      "166"
+     ],
+     [
+      "Eskridge district",
+      "67"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "56",
+   "cell_value": "56",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Meridian Ledger has obtained the final report on the Brightwater housing survey, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 198 turbines in Eskridge district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Fallowmere district",
+        "70"
+       ],
+       [
+        "Glenhurst district",
+        "228"
+       ],
+       [
+        "Corran district",
+        "65"
+       ],
+       [
+        "Belcliff district",
+        "60"
+       ],
+       [
+        "Eskridge district",
+        "60"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F5-NEW-013-rel1",
+   "role": "related",
+   "host": "the-harbor-dispatch.example",
+   "path": "/news/fbb546-the-brightwater-housing-survey-what-we-know",
+   "url": "http://the-harbor-dispatch.example/news/fbb546-the-brightwater-housing-survey-what-we-know",
+   "kind": "page",
+   "site_type": "news",
+   "title": "The brightwater housing survey: what we know",
+   "publisher": "The Harbor Dispatch",
+   "date": "2025-02-04",
+   "version_label": "The Harbor Dispatch, published 2025-02-04",
+   "expression": "related work",
+   "work_id": "work-fbb546",
+   "entity": "Fallowmere district",
+   "field_label": "turbines approved",
+   "unit": "turbines",
+   "body": {
+    "paragraphs": [
+     "The Harbor Dispatch follows up on the Brightwater housing survey.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (turbines approved)",
+    "table_header": [
+     "",
+     "turbines approved (turbines)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "51"
+     ],
+     [
+      "Glenhurst district",
+      "199"
+     ],
+     [
+      "Corran district",
+      "54"
+     ],
+     [
+      "Belcliff district",
+      "217"
+     ],
+     [
+      "Eskridge district",
+      "63"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "51",
+   "cell_value": "51",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Meridian Ledger has obtained the final report on the Brightwater housing survey, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down turbines approved by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 198 turbines in Eskridge district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "turbines approved (turbines)"
+      ],
+      "rows": [
+       [
+        "Fallowmere district",
+        "70"
+       ],
+       [
+        "Glenhurst district",
+        "228"
+       ],
+       [
+        "Corran district",
+        "65"
+       ],
+       [
+        "Belcliff district",
+        "60"
+       ],
+       [
+        "Eskridge district",
+        "60"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F5-NEW-013-hub-notice0",
+   "role": "hub",
+   "host": "the-meridian-ledger.example",
+   "path": "/site/updates/674769/0",
+   "url": "http://the-meridian-ledger.example/site/updates/674769/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Update: Report: The brightwater housing survey findings released",
+   "publisher": "the-meridian-ledger.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "This report was updated after publication; figures were revised.",
+     "The first edition of the report remains available for reference."
+    ]
+   },
+   "links": [
+    [
+     "http://the-meridian-ledger.example/news/674769-report-the-brightwater-housing-survey-findings-r/prev0",
+     "first edition of the report"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F5-NEW-013-hub-updates",
+   "role": "hub",
+   "host": "the-meridian-ledger.example",
+   "path": "/site/updates/674769",
+   "url": "http://the-meridian-ledger.example/site/updates/674769",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Corrections and updates",
+   "publisher": "the-meridian-ledger.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Corrections and earlier editions of our reports."
+    ]
+   },
+   "links": [
+    [
+     "http://the-meridian-ledger.example/site/updates/674769/0",
+     "Update notice: Report: The brightwater housing survey findings released"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F5-NEW-013-hub-wire-home",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/",
+   "url": "http://wirewire.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "WireWire",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Stories from partner newsrooms, distributed verbatim.",
+     "Use the search box to find a story."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F5-NEW-013-hub-wire-note",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/note/674769",
+   "url": "http://wirewire.example/note/674769",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Editor's note: Report: The brightwater housing survey findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "This story was updated after first publication.",
+     "Source: The Meridian Ledger."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F5-NEW-013-hub-wire-briefing",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/briefing/674769",
+   "url": "http://wirewire.example/briefing/674769",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Briefing: Report: The brightwater housing survey findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "A short summary of the report. Figures are in the full story.",
+     "Source: The Meridian Ledger."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F5-NEW-013-hub-home",
+   "role": "hub",
+   "host": "the-meridian-ledger.example",
+   "path": "/",
+   "url": "http://the-meridian-ledger.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "The Meridian Ledger",
+   "publisher": "the-meridian-ledger.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Our reporting is distributed to partner newsrooms by the WireWire news wire."
+    ]
+   },
+   "links": [
+    [
+     "http://the-meridian-ledger.example/site/updates/674769",
+     "Corrections and earlier editions"
+    ],
+    [
+     "http://wirewire.example/",
+     "WireWire (syndication partner)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F5-NEW-013-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F5-NEW-013-W1v",
+  "unrecoverable": "F5-NEW-013-W3",
+  "twin": "F5-NEW-013-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://the-meridian-ledger.example/news/674769-report-the-brightwater-housing-survey-findings-r"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://the-meridian-ledger.example/news/674769-report-the-brightwater-housing-survey-findings-r?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "121 turbines",
+     "sources": [
+      "http://the-meridian-ledger.example/news/674769-report-the-brightwater-housing-survey-findings-r"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "121 turbines",
+   "sources": [
+    "http://the-meridian-ledger.example/news/674769-report-the-brightwater-housing-survey-findings-r"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

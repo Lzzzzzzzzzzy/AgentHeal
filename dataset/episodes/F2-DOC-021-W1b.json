@@ -1,0 +1,540 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F2-DOC-021-W1b",
+ "goal_id": "F2-DOC-021",
+ "family": "F2",
+ "world": "W1b",
+ "domain": "docs",
+ "task_type": "IR",
+ "goal": "I'm tuning brackish v5.3 and want to confirm the default value of `page_limit` (page size limit) in the official documentation: http://docs.brackish.example/reference/09ba43-brackish-v5-3-configuration-reference\nIt has to be the documentation of v5.3 exactly. What is the default? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "page size limit",
+  "unit": "items",
+  "canonical": "395",
+  "entity": "page_limit"
+ },
+ "resources": [
+  {
+   "id": "F2-DOC-021-canon",
+   "role": "canonical",
+   "host": "docs.brackish.example",
+   "path": "/reference/09ba43-brackish-v5-3-configuration-reference",
+   "url": "http://docs.brackish.example/reference/09ba43-brackish-v5-3-configuration-reference",
+   "kind": "page",
+   "site_type": "docs",
+   "title": "brackish v5.3 configuration reference",
+   "publisher": "brackish project",
+   "date": "2025-04-10",
+   "version_label": "brackish documentation v5.3",
+   "expression": "v5.3",
+   "work_id": "work-09ba43",
+   "entity": "page_limit",
+   "field_label": "page size limit",
+   "unit": "items",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for brackish v5.3.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "page size limit (items)"
+    ],
+    "table": [
+     [
+      "max_batch",
+      "133"
+     ],
+     [
+      "pool_size",
+      "49"
+     ],
+     [
+      "page_limit",
+      "395"
+     ],
+     [
+      "backoff_ms",
+      "52"
+     ],
+     [
+      "cache_ttl",
+      "2306"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "395",
+   "cell_value": "395",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with BRACKISH_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `pool_size` changed from 536 to the value shown below. v4.4: `backoff_ms` deprecated in favour of `page_limit`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 590 for `page_limit`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_max_batch",
+        "v5.0",
+        "max_batch"
+       ],
+       [
+        "legacy_pool_size",
+        "v5.0",
+        "pool_size"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F2-DOC-021-faith",
+   "role": "faithful",
+   "host": "brackish.readthedocs-mirror.example",
+   "path": "/v5.3/reference",
+   "url": "http://brackish.readthedocs-mirror.example/v5.3/reference",
+   "kind": "page",
+   "site_type": "docs",
+   "title": "brackish v5.3 configuration reference",
+   "publisher": "brackish project (official mirror)",
+   "date": "2025-04-10",
+   "version_label": "brackish documentation v5.3",
+   "expression": "v5.3",
+   "work_id": "work-09ba43",
+   "entity": "page_limit",
+   "field_label": "page size limit",
+   "unit": "items",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for brackish v5.3.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "page size limit (items)"
+    ],
+    "table": [
+     [
+      "max_batch",
+      "133"
+     ],
+     [
+      "pool_size",
+      "49"
+     ],
+     [
+      "page_limit",
+      "395"
+     ],
+     [
+      "backoff_ms",
+      "52"
+     ],
+     [
+      "cache_ttl",
+      "2306"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "395",
+   "cell_value": "395",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with BRACKISH_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `pool_size` changed from 536 to the value shown below. v4.4: `backoff_ms` deprecated in favour of `page_limit`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 590 for `page_limit`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_max_batch",
+        "v5.0",
+        "max_batch"
+       ],
+       [
+        "legacy_pool_size",
+        "v5.0",
+        "pool_size"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_mirror",
+   "chain": [
+    "http://pkgindex.example/search?q=brackish",
+    "http://pkgindex.example/project/brackish",
+    "http://pkgindex.example/project/brackish/docs",
+    "http://brackish.readthedocs-mirror.example/v5.3/"
+   ]
+  },
+  {
+   "id": "F2-DOC-021-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/09ba43-0",
+   "url": "http://catalog0.example/entry/09ba43-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "brackish v5.3 configuration reference - companion study",
+   "publisher": "Different publisher",
+   "date": "2025-04-10",
+   "version_label": "companion entry",
+   "expression": "v5.3",
+   "work_id": "work-09ba43",
+   "entity": "page_limit",
+   "field_label": "page size limit",
+   "unit": "items",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for brackish v5.3.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "page size limit (items)"
+    ],
+    "table": [
+     [
+      "max_batch",
+      "133"
+     ],
+     [
+      "pool_size",
+      "49"
+     ],
+     [
+      "page_limit",
+      "427"
+     ],
+     [
+      "backoff_ms",
+      "52"
+     ],
+     [
+      "cache_ttl",
+      "2306"
+     ]
+    ]
+   },
+   "cue": "Note: this page describes a different item than page_limit (brackish v5.3 configuration reference); scope differs.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "value": "427",
+   "cell_value": "427",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with BRACKISH_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `pool_size` changed from 536 to the value shown below. v4.4: `backoff_ms` deprecated in favour of `page_limit`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 590 for `page_limit`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_max_batch",
+        "v5.0",
+        "max_batch"
+       ],
+       [
+        "legacy_pool_size",
+        "v5.0",
+        "pool_size"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F2-DOC-021-hub-pkg-project",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/brackish",
+   "url": "http://pkgindex.example/project/brackish",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "brackish",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "brackish - brackish project.",
+     "Releases, source code and documentation links."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.brackish.example/",
+     "Homepage"
+    ],
+    [
+     "http://pkgindex.example/project/brackish/docs",
+     "Documentation (all versions)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F2-DOC-021-hub-pkg-ver0",
+   "role": "hub",
+   "host": "brackish.readthedocs-mirror.example",
+   "path": "/v5.3/",
+   "url": "http://brackish.readthedocs-mirror.example/v5.3/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "brackish v5.3 documentation",
+   "publisher": "brackish.readthedocs-mirror.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Documentation for brackish v5.3."
+    ]
+   },
+   "links": [
+    [
+     "http://brackish.readthedocs-mirror.example/v5.3/reference",
+     "Configuration reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-DOC-021-hub-pkg-docs",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/brackish/docs",
+   "url": "http://pkgindex.example/project/brackish/docs",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "brackish documentation",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted documentation by version."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.brackish.example/reference/09ba43-brackish-v5-3-configuration-reference",
+     "v5.3 - docs.brackish.example"
+    ],
+    [
+     "http://brackish.readthedocs-mirror.example/v5.3/",
+     "v5.3 - brackish.readthedocs-mirror.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "version_dead",
+  "signal": "explicit",
+  "targets": [
+   "F2-DOC-021-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F2-DOC-021-W1b",
+  "unrecoverable": "F2-DOC-021-W2",
+  "twin": "F2-DOC-021-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://docs.brackish.example/reference/09ba43-brackish-v5-3-configuration-reference"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://pkgindex.example/search?q=brackish"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://pkgindex.example/project/brackish"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://pkgindex.example/project/brackish/docs"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://brackish.readthedocs-mirror.example/v5.3/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://brackish.readthedocs-mirror.example/v5.3/reference"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://brackish.readthedocs-mirror.example/v5.3/reference?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "395 items",
+     "sources": [
+      "http://brackish.readthedocs-mirror.example/v5.3/reference"
+     ],
+     "substitutions": [
+      {
+       "url": "http://brackish.readthedocs-mirror.example/v5.3/reference",
+       "relation": "same_version",
+       "version_id": "brackish documentation v5.3",
+       "note": "Identical copy of the requested version."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.9
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "395 items",
+   "sources": [
+    "http://brackish.readthedocs-mirror.example/v5.3/reference"
+   ],
+   "substitutions": [
+    {
+     "url": "http://brackish.readthedocs-mirror.example/v5.3/reference",
+     "relation": "same_version",
+     "version_id": "brackish documentation v5.3",
+     "note": "Identical copy of the requested version."
+    }
+   ],
+   "diagnosis": "version",
+   "confidence": 0.9
+  }
+ }
+}

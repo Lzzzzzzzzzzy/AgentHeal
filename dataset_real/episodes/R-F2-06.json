@@ -1,0 +1,250 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-06",
+ "goal_id": "R-F2-06",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm citing the published version of \"Red Be stars in the Magellanic Clouds?\" (Monthly Notices of the Royal Astronomical Society, 2021; DOI 10.1093/mnras/stab1481) in a paper and need one number from it. The publisher's page is https://academic.oup.com/mnras/article/505/4/5567/6280959\nIn the table whose caption begins \"Mean and dispersion values of parallax and proper motions for LMC and SMC Be candidates, as obtained from Q-Q\", what value is reported for \"LMC1\" in the column \"Sample\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "LMC1 / Sample",
+  "unit": "",
+  "canonical": "1856",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-06-canon",
+   "role": "canonical",
+   "url": "https://academic.oup.com/mnras/article/505/4/5567/6280959",
+   "host": "academic.oup.com",
+   "path": "/mnras/article/505/4/5567/6280959",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Red Be stars in the Magellanic Clouds?",
+   "publisher": "academic.oup.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-06",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Just a moment..."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 403,
+    "title": "Red Be stars in the Magellanic Clouds?",
+    "text": "Just a moment..."
+   }
+  },
+  {
+   "id": "R-F2-06-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1093/mnras/stab1481",
+   "host": "doi.org",
+   "path": "/10.1093/mnras/stab1481",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-06",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://academic.oup.com/mnras/article/505/4/5567/6280959"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://academic.oup.com/mnras/article/505/4/5567/6280959"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://academic.oup.com/mnras/article/505/4/5567/6280959"
+   }
+  },
+  {
+   "id": "R-F2-06-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2002.11606",
+   "host": "arxiv.org",
+   "path": "/html/2002.11606",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Red Be stars in the Magellanic Clouds?",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2002.11606 (submitted version)",
+   "work_id": "R-F2-06",
+   "value": "1856",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Red Be stars in the Magellanic Clouds?",
+     "arXiv:2002.11606 [preprint]",
+     "Table 1: Mean and dispersion values of parallax and proper motions for LMC and SMC Be candidates, as obtained from Q-Q plots on samples LMC1 and SMC1.",
+     " size (mas) (mas yr -1 ) (mas yr -1 ) LMC1 1856 -0.015 ± 1.865 ± 0.301 ± SMC1 872 -0.023 ± 0.680 ± -1.220 ±"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Red Be stars in the Magellanic Clouds?",
+    "tables": [
+     {
+      "caption": "Table 1: Mean and dispersion values of parallax and proper motions for LMC and SMC Be candidates, as obtained from Q-Q plots on samples LMC1 and SMC1.",
+      "header": [
+       "",
+       "Sample",
+       "ϖ",
+       "μ α  cos ⁡ δ",
+       "μ δ"
+      ],
+      "rows": [
+       [
+        "",
+        "size",
+        "(mas)",
+        "(mas yr -1 )",
+        "(mas yr -1 )"
+       ],
+       [
+        "LMC1",
+        "1856",
+        "-0.015 ±",
+        "1.865 ±",
+        "0.301 ±"
+       ],
+       [
+        "SMC1",
+        "872",
+        "-0.023 ±",
+        "0.680 ±",
+        "-1.220 ±"
+       ]
+      ]
+     }
+    ],
+    "text": "Red Be stars in the Magellanic Clouds?\narXiv:2002.11606 [preprint]\nTable 1: Mean and dispersion values of parallax and proper motions for LMC and SMC Be candidates, as obtained from Q-Q plots on samples LMC1 and SMC1."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-06-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:13:11Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 403,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "Red Be stars in the Magellanic Clouds?",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Red Be stars in the Magellanic Clouds?"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://academic.oup.com/mnras/article/505/4/5567/6280959"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2002.11606"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "1856",
+     "sources": [
+      "https://arxiv.org/html/2002.11606"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2002.11606",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2002.11606 (submitted version)",
+       "note": "This is arXiv preprint 2002.11606 (submitted version), not the requested version; the LMC1 / Sample may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

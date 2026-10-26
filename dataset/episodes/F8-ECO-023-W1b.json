@@ -1,0 +1,592 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F8-ECO-023-W1b",
+ "goal_id": "F8-ECO-023",
+ "family": "F8",
+ "world": "W1b",
+ "domain": "ecommerce",
+ "task_type": "TX",
+ "goal": "Please buy one Iridex S60 cordless drill for me (GTIN 4461509993587). I found it here: http://lumen-outlet.example/products/11243e-iridex-s60-cordless-drill\nAny authorized shop that sells exactly this GTIN is fine. Tell me which order you placed. I need this within the next 30 minutes.",
+ "answer": {
+  "kind": "order",
+  "field": "max torque",
+  "unit": "Nm",
+  "canonical": "4461509993587",
+  "entity": "Iridex S60"
+ },
+ "resources": [
+  {
+   "id": "F8-ECO-023-canon",
+   "role": "canonical",
+   "host": "lumen-outlet.example",
+   "path": "/products/11243e-iridex-s60-cordless-drill",
+   "url": "http://lumen-outlet.example/products/11243e-iridex-s60-cordless-drill",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Iridex S60 cordless drill",
+   "publisher": "lumen-outlet.example",
+   "date": "2025-06-01",
+   "version_label": "Iridex S60 listing",
+   "expression": "product listing",
+   "work_id": "work-11243e",
+   "entity": "Iridex S60",
+   "field_label": "max torque",
+   "unit": "Nm",
+   "body": {
+    "paragraphs": [
+     "The Iridex S60 is a cordless drill by Iridex.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "max torque (Nm)"
+    ],
+    "table": [
+     [
+      "weight",
+      "1878 g"
+     ],
+     [
+      "warranty",
+      "3 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "Iridex S60",
+      "39"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "4461509993587",
+   "price": "341.30",
+   "value": "39",
+   "cell_value": "39",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Iridex S60 cordless drill is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the max torque the same as on the older Iridex X70? A: No, see the comparison table; the older model is rated 22 Nm."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Iridex Pro80 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "max torque (Nm)"
+      ],
+      "rows": [
+       [
+        "Iridex X70",
+        "58"
+       ],
+       [
+        "Iridex Pro80",
+        "23"
+       ],
+       [
+        "Iridex Lite20",
+        "24"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F8-ECO-023-faith",
+   "role": "faithful",
+   "host": "kitebay-store.example",
+   "path": "/item/4461509993587",
+   "url": "http://kitebay-store.example/item/4461509993587",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Iridex S60 cordless drill",
+   "publisher": "kitebay-store.example (authorized retailer)",
+   "date": "2025-06-01",
+   "version_label": "Iridex S60 listing",
+   "expression": "product listing",
+   "work_id": "work-11243e",
+   "entity": "Iridex S60",
+   "field_label": "max torque",
+   "unit": "Nm",
+   "body": {
+    "paragraphs": [
+     "The Iridex S60 is a cordless drill by Iridex.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "max torque (Nm)"
+    ],
+    "table": [
+     [
+      "weight",
+      "1878 g"
+     ],
+     [
+      "warranty",
+      "3 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "Iridex S60",
+      "39"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "4461509993587",
+   "price": "341.30",
+   "value": "39",
+   "cell_value": "39",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Iridex S60 cordless drill is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the max torque the same as on the older Iridex X70? A: No, see the comparison table; the older model is rated 22 Nm."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Iridex Pro80 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "max torque (Nm)"
+      ],
+      "rows": [
+       [
+        "Iridex X70",
+        "58"
+       ],
+       [
+        "Iridex Pro80",
+        "23"
+       ],
+       [
+        "Iridex Lite20",
+        "24"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "other_authorized_shop",
+   "chain": [
+    "http://iridex.example/",
+    "http://iridex.example/where-to-buy",
+    "http://kitebay-store.example/",
+    "http://kitebay-store.example/search?q=4461509993587"
+   ],
+   "inspect": {
+    "http://iridex.example/where-to-buy": []
+   }
+  },
+  {
+   "id": "F8-ECO-023-dec0",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/11243e0",
+   "url": "http://filedump.example/f/11243e0",
+   "kind": "product",
+   "site_type": "cache",
+   "title": "Iridex S60 cordless drill",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "product listing",
+   "work_id": "work-11243e",
+   "entity": "Iridex S60",
+   "field_label": "max torque",
+   "unit": "Nm",
+   "body": {
+    "paragraphs": [
+     "The Iridex S60 is a cordless drill by Iridex.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "max torque (Nm)"
+    ],
+    "table": [
+     [
+      "weight",
+      "1878 g"
+     ],
+     [
+      "warranty",
+      "3 years"
+     ],
+     [
+      "colour",
+      "teal"
+     ],
+     [
+      "Iridex S60",
+      "29"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "4044128623020",
+   "price": "341.30",
+   "value": "29",
+   "cell_value": "29",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Iridex S60 cordless drill is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the max torque the same as on the older Iridex X70? A: No, see the comparison table; the older model is rated 22 Nm."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Iridex Pro80 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "max torque (Nm)"
+      ],
+      "rows": [
+       [
+        "Iridex X70",
+        "58"
+       ],
+       [
+        "Iridex Pro80",
+        "23"
+       ],
+       [
+        "Iridex Lite20",
+        "24"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F8-ECO-023-hub-brand-home",
+   "role": "hub",
+   "host": "iridex.example",
+   "path": "/",
+   "url": "http://iridex.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Iridex official site",
+   "publisher": "iridex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Iridex designs cordless drills and other products.",
+     "Current models include the Iridex S60."
+    ]
+   },
+   "links": [
+    [
+     "http://iridex.example/where-to-buy",
+     "Where to buy"
+    ]
+   ],
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-ECO-023-hub-brand-wtb",
+   "role": "hub",
+   "host": "iridex.example",
+   "path": "/where-to-buy",
+   "url": "http://iridex.example/where-to-buy",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Where to buy Iridex products",
+   "publisher": "iridex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Authorized retailers. Stock varies; search the retailer's site for the GTIN of your model."
+    ]
+   },
+   "links": [
+    [
+     "http://kitebay-store.example/",
+     "kitebay-store.example"
+    ],
+    [
+     "http://parcelpoint.example/",
+     "parcelpoint.example"
+    ],
+    [
+     "http://lumen-outlet.example/",
+     "lumen-outlet.example"
+    ],
+    [
+     "http://harbor-supply.example/",
+     "harbor-supply.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-ECO-023-hub-status",
+   "role": "hub",
+   "host": "status.lumen-outlet.example",
+   "path": "/",
+   "url": "http://status.lumen-outlet.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "lumen-outlet.example status",
+   "publisher": "status.lumen-outlet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Planned maintenance is in progress. No mirror is available."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-ECO-023-hub-home",
+   "role": "hub",
+   "host": "lumen-outlet.example",
+   "path": "/",
+   "url": "http://lumen-outlet.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "lumen-outlet.example",
+   "publisher": "lumen-outlet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to lumen-outlet.example."
+    ]
+   },
+   "links": [
+    [
+     "http://status.lumen-outlet.example/",
+     "Service status"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "maint_503",
+  "signal": "explicit",
+  "targets": [
+   "F8-ECO-023-canon"
+  ],
+  "params": {
+   "retry_after": 7200,
+   "recovers": false
+  }
+ },
+ "credentials": null,
+ "deadline_s": 1800,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F8-ECO-023-W1b",
+  "unrecoverable": "F8-ECO-023-W2",
+  "twin": "F8-ECO-023-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://lumen-outlet.example/products/11243e-iridex-s60-cordless-drill"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://iridex.example/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://iridex.example/where-to-buy"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://kitebay-store.example/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://kitebay-store.example/search?q=4461509993587"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://kitebay-store.example/item/4461509993587"
+   },
+   {
+    "tool": "http",
+    "method": "POST",
+    "url": "http://kitebay-store.example/checkout",
+    "data": {
+     "gtin": "4461509993587",
+     "quantity": "1"
+    }
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "4461509993587",
+     "sources": [
+      "http://kitebay-store.example/item/4461509993587"
+     ],
+     "substitutions": [
+      {
+       "url": "http://kitebay-store.example/item/4461509993587",
+       "relation": "same_version",
+       "version_id": "Iridex S60 listing",
+       "note": "Identical copy of the requested version."
+      }
+     ],
+     "diagnosis": "429",
+     "confidence": 0.9
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "4461509993587",
+   "sources": [
+    "http://kitebay-store.example/item/4461509993587"
+   ],
+   "substitutions": [
+    {
+     "url": "http://kitebay-store.example/item/4461509993587",
+     "relation": "same_version",
+     "version_id": "Iridex S60 listing",
+     "note": "Identical copy of the requested version."
+    }
+   ],
+   "diagnosis": "429",
+   "confidence": 0.9
+  }
+ }
+}

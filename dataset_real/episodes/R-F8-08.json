@@ -1,0 +1,233 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-08",
+ "goal_id": "R-F8-08",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "My app shows article summaries from Wikipedia's REST API: https://en.wikipedia.org/api/rest_v1/page/summary/Eiffel_Tower\nWhat is the short description of the article \"Eiffel Tower\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "Tower in Paris, France",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-08-canon",
+   "role": "canonical",
+   "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Eiffel_Tower",
+   "host": "en.wikipedia.org",
+   "path": "/api/rest_v1/page/summary/Eiffel_Tower",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "en.wikipedia.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-08",
+   "value": "Tower in Paris, France",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"type\": \"standard\",",
+     " \"title\": \"Eiffel Tower\",",
+     " \"displaytitle\": \"<span lang=\\\"en\\\" dir=\\\"ltr\\\"><span class=\\\"mw-page-title-main\\\">Eiffel Tower</span></span>\",",
+     " \"namespace\": {",
+     "  \"id\": 0,",
+     "  \"text\": \"\"",
+     " },",
+     " \"wikibase_item\": \"Q243\",",
+     " \"titles\": {",
+     "  \"canonical\": \"Eiffel_Tower\",",
+     "  \"normalized\": \"Eiffel Tower\",",
+     "  \"display\": \"<span lang=\\\"en\\\" dir=\\\"ltr\\\"><span class=\\\"mw-page-title-main\\\">Eiffel Tower</span></span>\"",
+     " },",
+     " \"pageid\": 9232,",
+     " \"thumbnail\": {",
+     "  \"source\": \"https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/Eiffel_Tower_logo.svg/330px-Eiffel_Tower_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail\",",
+     "  \"width\": 330,",
+     "  \"height\": 423",
+     " },",
+     " \"originalimage\": {",
+     "  \"source\": \"https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/Eiffel_Tower_logo.svg/330px-Eiffel_Tower_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail\",",
+     "  \"width\": 279,",
+     "  \"height\": 358",
+     " },",
+     " \"lang\": \"en\",",
+     " \"dir\": \"ltr\",",
+     " \"revision\": \"1380433272\",",
+     " \"tid\": \"d9e3f040-c8c2-11f1-b09e-102ee93234d5\",",
+     " \"timestamp\": \"2026-10-15T18:04:23Z\","
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/Summary/1.5.0\"",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:51:32Z",
+    "limited": {
+     "text": "{\"type\":\"https://mediawiki.org/wiki/HyperSwitch/errors/request_rate_exceeded\",\"title\":\"Too many requests\"}",
+     "content_type": "application/json",
+     "headers": {},
+     "status": 429
+    },
+    "text": "{\n \"type\": \"standard\",\n \"title\": \"Eiffel Tower\",\n \"displaytitle\": \"<span lang=\\\"en\\\" dir=\\\"ltr\\\"><span class=\\\"mw-page-title-main\\\">Eiffel Tower</span></span>\",\n \"namespace\": {\n  \"id\": 0,\n  \"text\": \"\"\n },\n \"wikibase_item\": \"Q243\",\n \"titles\": {\n  \"canonical\": \"Eiffel_Tower\",\n  \"normalized\": \"Eiffel Tower\",\n  \"display\": \"<span lang=\\\"en\\\" dir=\\\"ltr\\\"><span class=\\\"mw-page-title-main\\\">Eiffel Tower</span></span>\"\n },\n \"pageid\": 9232,\n \"thumbnail\": {\n  \"source\": \"https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/Eiffel_Tower_logo.svg/330px-Eiffel_Tower_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail\",\n  \"width\": 330,\n  \"height\": 423\n },\n \"originalimage\": {\n  \"source\": \"https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/Eiffel_Tower_logo.svg/330px-Eiffel_Tower_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail\",\n  \"width\": 279,\n  \"height\": 358\n },\n \"lang\": \"en\",\n \"dir\": \"ltr\",\n \"revision\": \"1380433272\",\n \"tid\": \"d9e3f040-c8c2-11f1-b09e-102ee93234d5\",\n \"timestamp\": \"2026-10-15T18:04:23Z\",\n \"description\": \"Tower in Paris, France\",\n \"description_source\": \"local\",\n \"coordinates\": {\n  \"lat\": 48.85822222,\n  \"lon\": 2.2945\n },\n \"content_urls\": {\n  \"desktop\": {\n   \"page\": \"https://en.wikipedia.org/wiki/Eiffel_Tower\",\n   \"revisions\": \"https://en.wikipedia.org/wiki/Eiffel_Tower?action=history\",\n   \"edit\": \"https://en.wikipedia.org/wiki/Eiffel_Tower?action=edit\",\n   \"talk\": \"https://en.wikipedia.org/wiki/Talk:Eiffel_Tower\"\n  },\n  \"mobile\": {\n   \"page\": \"https://en.wikipedia.org/wiki/Eiffel_Tower\",\n   \"revisions\": \"https://en.wikipedia.org/wiki/Special:History/Eiffel_Tower\",\n   \"edit\": \"https://en.wikipedia.org/wiki/Eiffel_Tower?action=edit\",\n   \"talk\": \"https://en.wikipedia.org/wiki/Talk:Eiffel_Tower\"\n  }\n },\n \"extract\": \"The Eiffel Tower is a lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889.\",\n \"extract_html\": \"<p>The <b>Eiffel Tower</b> is a lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889.</p>\"\n}"
+   }
+  },
+  {
+   "id": "R-F8-08-doc0",
+   "role": "context",
+   "url": "https://www.mediawiki.org/wiki/Wikimedia_REST_API",
+   "host": "www.mediawiki.org",
+   "path": "/wiki/Wikimedia_REST_API",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Wikimedia REST API - MediaWiki",
+   "publisher": "www.mediawiki.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-08",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Wikimedia REST API - MediaWiki ",
+     " Jump to content ",
+     " Main menu ",
+     "Main menu ",
+     " move to sidebar ",
+     " hide ",
+     " Navigation",
+     " Main page ",
+     " Get MediaWiki ",
+     " Get extensions ",
+     " Tech blog ",
+     " Contribute ",
+     " Support",
+     " User help ",
+     " FAQ ",
+     " Technical manual ",
+     " Support desk ",
+     " Communication ",
+     " Development",
+     " Developer portal ",
+     " Code statistics ",
+     " mediawiki.org",
+     " Community portal ",
+     " Recent changes ",
+     " Translate content ",
+     " Special pages ",
+     " Random page ",
+     " Village pump ",
+     " Sandbox ",
+     " In other languages"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Wikimedia REST API - MediaWiki",
+    "text": "Wikimedia REST API - MediaWiki \n Jump to content \n Main menu \nMain menu \n move to sidebar \n hide \n Navigation\n Main page \n Get MediaWiki \n Get extensions \n Tech blog \n Contribute \n Support\n User help \n FAQ \n Technical manual \n Support desk \n Communication \n Development\n Developer portal \n Code statistics \n mediawiki.org\n Community portal \n Recent changes \n Translate content \n Special pages \n Random page \n Village pump \n Sandbox \n In other languages\n Add links \n Search \n Search \n English \n Appearance \n Donate \n Create account \n Log in \n Personal tools \n Donate \n Create account \n Log in \nContents \n move to sidebar \n hide \nBeginning \n 1 \n Documentation \n Toggle Documentation subsection \n 1.1 \n Reference \n 2 \n Quick start \n 3 \n Access policy \n 4 \n Stability policy \n 5 \n Report a bug \n 6 \n Get help \n 7 \n Contribute \n 8 \n Changelog \n 9 \n See also \n Toggle the table of contents \n Wikimedia REST API \n Page \n Discussion \n English \n Read \n Edit \n View history \n Tools \nTools \n move to sidebar \n hide \n Actions\n Read \n Edit \n View history \n General\n What links here \n Related changes \n Upload file \n Permanent link \n Page information \n Cite this page \n Get shortened URL \n Print/export\n Create a book \n Download as PDF \n Printable version \n In other projects\n Wikidata item \nAppearance \n move to sidebar \n hide \nFrom mediawiki.org \n Translate this page \nLanguages: \n Bahasa Indonesia \n čeština \n Deutsch \n English \n español \n français \n polski \n português \n Türkçe \n русский \n हिन्दी \n ગુજરાતી \n 中文 \n 日本語 \n 閩南語 / Bân-lâm-gí \n Wikimedia APIs \n Sandbox \n Access policy \n Content reuse \n Tools and bots \n Changelog \n Wikimedia REST API \n Status: \n See status of individual endpoints in the reference docs \n Access: \n public \n Projects: \n All major Wikimedia wikis \n Framework: \n REST \nThe Wikimedia REST API offers access to Wikimedia's content and metadata in machine-readable formats.\nFocused on high-volume use cases, it tightly integrates with Wikimedia's globally distributed caching infrastructure.\nAs a result, API users benefit from reduced latencies and support for high request volumes.\n Documentation [ edit ] \n Reference [ edit ] \nFor reference documentation, select \"Wikimedia REST APIs\" on the REST Sandbox , which is also available on all Wikimedia projects (for example: REST Sandbox on English Wikipedia ).\nWhile the functionality offered by most projects closely matches that on English Wikipedia, there are some noteworthy exceptions:\n en.wiktionary.org offers an experimental definition end point , exposing Wiktionary information as structured data. Support for other languages is under discussion . \n Quick start [ edit ] \nThe Wikimedia REST API is available for all major Wikimedia projects at the location /api/rest_v1/ .\nFor example, for the English Wikipedia endpoints may be called through the base path https://en.wikipedia.org/api/rest_v1/ .\n # Get metadata for the Earth article on English Wikipedia \ncurl 'https://en.wikipedia.org/api/rest_v1/page/summary/Earth' \n Try "
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-08-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 10
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:51:32Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://www.mediawiki.org/wiki/Wikimedia_REST_API"
+  ],
+  "documented_limit": []
+ },
+ "oracle_query": "Using Wikipedia's REST API page summary, report the short description of the art",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using Wikipedia's REST API page summary, report the short description of the art"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Eiffel_Tower"
+   },
+   {
+    "tool": "wait",
+    "seconds": 15
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Eiffel_Tower"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "Tower in Paris, France",
+     "sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Eiffel_Tower"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

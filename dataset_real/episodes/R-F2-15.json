@@ -1,0 +1,490 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-15",
+ "goal_id": "R-F2-15",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm reproducing a baseline from \"UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction\" (IEEE Transactions on Visualization and Computer Graphics, 2025; DOI 10.1109/tvcg.2025.3602735) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/11141505/\nIn the table whose caption begins \"The list of HD datasets used in the quantitative experiments ( Section IV ) and their traits. For detailed\", what value is reported for \"Blood Transfusion Service Center [ 48 ] / Table\" in the column \"Size\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Blood Transfusion Service Center [ 48 ] / Table / Size",
+  "unit": "",
+  "canonical": "748",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-15-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/11141505/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/11141505/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-15",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F2-15-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/tvcg.2025.3602735",
+   "host": "doi.org",
+   "path": "/10.1109/tvcg.2025.3602735",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-15",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/11141505/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/11141505/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/11141505/"
+   }
+  },
+  {
+   "id": "R-F2-15-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2508.16227",
+   "host": "arxiv.org",
+   "path": "/html/2508.16227",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2508.16227 (submitted version)",
+   "work_id": "R-F2-15",
+   "value": "748",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction",
+     "arXiv:2508.16227 [preprint]",
+     "Table I: The list of HD datasets used in the quantitative experiments ( Section IV ) and their traits. For detailed explanations about the traits, please refer to Espadoto et al. [ 35 ] .",
+     "Blood Transfusion Service Center [ 48 ] Table 748 small 4 low 0.2500 medium 0.0017 dense Asteroseismology [ 49 ] Table 1001 medium 3 low 0.3333 medium 0.0000 dense CNAE-9 [ 50 ] Text 1080 medium 856 high 0.3960 medium 0.9922 sparse Coil-20 [ 51 ] Image 1440 medium 400 medium 0.2675 medium 0.3691 medium Epileptic Seizure Recognition [ 52 ] Table 5750 large 178 medium 0.0291 medium 0.0002 dense Flickr Material Database [ 53 ] Image 997 small 1536 high 0.3066 medium 0.0010 dense Hate Speech [ 54 ] Text 3221 large 100 medium 0.8600 high 0.9701 sparse IMDB [ 55 ] Text 3250 large 700 high 0.8171 high 0.9417 sparse Ionosphere [ 50 ] Table 351 small 34 low 0.7058 high 0.1191 dense MNIST64 [ 7 ] Image 1082 medium 64 low 0.4218 medium 0.4935 medium Optical Recognition [ 50 ] Image 3823 large 64 low 0.4531 medium 0.4880 medium Paris Housing [ 56 ] Table 10000 large 17 low 0.0588 low 0.1520 dense Predicting Pulsar Star [ 56 ] Table 9273 large 8 low 0.2500 medium 0.0000 dense Raisin [ 57 ] Table 900 small 7 low 0.1429 medium 0.0000 dense Rice Seed (Gonen Jasmine) [ 56 ] Table 18185 large 10 low 0.1000 low 0.0000 dense Seismic Bumps [ 58 ] Table 646 small 24 low 0.2917 medium 0.5827 medium Sentiment Labeled Sentences [ 59 ] Text 2748 medium 200 medium 0.8800 high 0.9887 sparse SMS Spam Collection [ 60 ] Text 835 small 500 high 0.6700 high 0.9914 sparse Weather [ 61 ] Table 365 small 192 medium 0.06250 low 0.0033 dense Website Phishing [ 62 ] Table 1353 medium 9 low 0.8888 high 0.3199 medium (1) Type : The category to which a dataset belongs ( Table , Text , or Image ) (2) Size : Number of data points (i.e., samples) in a dataset ( small : N ≤ 1000 (3) Dim. (Dimensionality): Number of dimensions of a dataset ( small : D < 100 D<100 , medium : 100 ≤ D < 500 (4) Int. Dim. (Intrinsic Dim.): The percentage of principal components needed to explain 95% of the data variance ( low : D I ≤ 0.1 (5) Sparsity : The ratio of non-zero values in a dataset ( dense : S ≤ 0.2"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction",
+    "tables": [
+     {
+      "caption": "Table I: The list of HD datasets used in the quantitative experiments ( Section IV ) and their traits. For detailed explanations about the traits, please refer to Espadoto et al. [ 35 ] .",
+      "header": [
+       "Dataset",
+       "Type",
+       "Size",
+       "Size class",
+       "Dim.",
+       "Dim. Class",
+       "Int. Dim.",
+       "Int. Dim. Class",
+       "Sparsity",
+       "Sparsity Class"
+      ],
+      "rows": [
+       [
+        "Blood Transfusion Service Center [ 48 ]",
+        "Table",
+        "748",
+        "small",
+        "4",
+        "low",
+        "0.2500",
+        "medium",
+        "0.0017",
+        "dense"
+       ],
+       [
+        "Asteroseismology [ 49 ]",
+        "Table",
+        "1001",
+        "medium",
+        "3",
+        "low",
+        "0.3333",
+        "medium",
+        "0.0000",
+        "dense"
+       ],
+       [
+        "CNAE-9 [ 50 ]",
+        "Text",
+        "1080",
+        "medium",
+        "856",
+        "high",
+        "0.3960",
+        "medium",
+        "0.9922",
+        "sparse"
+       ],
+       [
+        "Coil-20 [ 51 ]",
+        "Image",
+        "1440",
+        "medium",
+        "400",
+        "medium",
+        "0.2675",
+        "medium",
+        "0.3691",
+        "medium"
+       ],
+       [
+        "Epileptic Seizure Recognition [ 52 ]",
+        "Table",
+        "5750",
+        "large",
+        "178",
+        "medium",
+        "0.0291",
+        "medium",
+        "0.0002",
+        "dense"
+       ],
+       [
+        "Flickr Material Database [ 53 ]",
+        "Image",
+        "997",
+        "small",
+        "1536",
+        "high",
+        "0.3066",
+        "medium",
+        "0.0010",
+        "dense"
+       ],
+       [
+        "Hate Speech [ 54 ]",
+        "Text",
+        "3221",
+        "large",
+        "100",
+        "medium",
+        "0.8600",
+        "high",
+        "0.9701",
+        "sparse"
+       ],
+       [
+        "IMDB [ 55 ]",
+        "Text",
+        "3250",
+        "large",
+        "700",
+        "high",
+        "0.8171",
+        "high",
+        "0.9417",
+        "sparse"
+       ],
+       [
+        "Ionosphere [ 50 ]",
+        "Table",
+        "351",
+        "small",
+        "34",
+        "low",
+        "0.7058",
+        "high",
+        "0.1191",
+        "dense"
+       ],
+       [
+        "MNIST64 [ 7 ]",
+        "Image",
+        "1082",
+        "medium",
+        "64",
+        "low",
+        "0.4218",
+        "medium",
+        "0.4935",
+        "medium"
+       ],
+       [
+        "Optical Recognition [ 50 ]",
+        "Image",
+        "3823",
+        "large",
+        "64",
+        "low",
+        "0.4531",
+        "medium",
+        "0.4880",
+        "medium"
+       ],
+       [
+        "Paris Housing [ 56 ]",
+        "Table",
+        "10000",
+        "large",
+        "17",
+        "low",
+        "0.0588",
+        "low",
+        "0.1520",
+        "dense"
+       ],
+       [
+        "Predicting Pulsar Star [ 56 ]",
+        "Table",
+        "9273",
+        "large",
+        "8",
+        "low",
+        "0.2500",
+        "medium",
+        "0.0000",
+        "dense"
+       ],
+       [
+        "Raisin [ 57 ]",
+        "Table",
+        "900",
+        "small",
+        "7",
+        "low",
+        "0.1429",
+        "medium",
+        "0.0000",
+        "dense"
+       ],
+       [
+        "Rice Seed (Gonen Jasmine) [ 56 ]",
+        "Table",
+        "18185",
+        "large",
+        "10",
+        "low",
+        "0.1000",
+        "low",
+        "0.0000",
+        "dense"
+       ],
+       [
+        "Seismic Bumps [ 58 ]",
+        "Table",
+        "646",
+        "small",
+        "24",
+        "low",
+        "0.2917",
+        "medium",
+        "0.5827",
+        "medium"
+       ],
+       [
+        "Sentiment Labeled Sentences [ 59 ]",
+        "Text",
+        "2748",
+        "medium",
+        "200",
+        "medium",
+        "0.8800",
+        "high",
+        "0.9887",
+        "sparse"
+       ],
+       [
+        "SMS Spam Collection [ 60 ]",
+        "Text",
+        "835",
+        "small",
+        "500",
+        "high",
+        "0.6700",
+        "high",
+        "0.9914",
+        "sparse"
+       ],
+       [
+        "Weather [ 61 ]",
+        "Table",
+        "365",
+        "small",
+        "192",
+        "medium",
+        "0.06250",
+        "low",
+        "0.0033",
+        "dense"
+       ],
+       [
+        "Website Phishing [ 62 ]",
+        "Table",
+        "1353",
+        "medium",
+        "9",
+        "low",
+        "0.8888",
+        "high",
+        "0.3199",
+        "medium"
+       ],
+       [
+        "(1) Type : The category to which a dataset belongs ( Table , Text , or Image )"
+       ],
+       [
+        "(2) Size : Number of data points (i.e., samples) in a dataset ( small : N ≤ 1000"
+       ],
+       [
+        "(3) Dim. (Dimensionality): Number of dimensions of a dataset ( small : D < 100 D<100 , medium : 100 ≤ D < 500"
+       ],
+       [
+        "(4) Int. Dim. (Intrinsic Dim.): The percentage of principal components needed to explain 95% of the data variance"
+       ],
+       [
+        "( low : D I ≤ 0.1"
+       ],
+       [
+        "(5) Sparsity : The ratio of non-zero values in a dataset ( dense : S ≤ 0.2"
+       ]
+      ]
+     }
+    ],
+    "text": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction\narXiv:2508.16227 [preprint]\nTable I: The list of HD datasets used in the quantitative experiments ( Section IV ) and their traits. For detailed explanations about the traits, please refer to Espadoto et al. [ 35 ] ."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-15-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:15:17Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/11141505/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2508.16227"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "748",
+     "sources": [
+      "https://arxiv.org/html/2508.16227"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2508.16227",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2508.16227 (submitted version)",
+       "note": "This is arXiv preprint 2508.16227 (submitted version), not the requested version; the Blood Transfusion Service Center [ 48 ] / Table / Size may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

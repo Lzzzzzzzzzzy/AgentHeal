@@ -1,0 +1,18 @@
+{
+ "n_episodes": 675,
+ "n_failed": 0,
+ "by_gate": {},
+ "goal_text_identical_across_worlds": true,
+ "goal_text_mismatches": [],
+ "calibration": {
+  "oracle_rc_median": 3.333,
+  "oracle_rc_median_by_world": {
+   "W1a": 3.5,
+   "W1b": 3.333,
+   "W1v": 3.0
+  },
+  "exposure_rate": 0.1209,
+  "failures": []
+ },
+ "failures": {}
+}

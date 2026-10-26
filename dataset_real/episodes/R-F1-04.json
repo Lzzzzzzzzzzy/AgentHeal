@@ -1,0 +1,175 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-04",
+ "goal_id": "R-F1-04",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm writing about the 2007 \"Sundance Institute at BAM\" programme at the Brooklyn Academy of Music and have BAM's programme page: http://www.bam.org/sundance/index_2007.aspx\nHow many short films did the programme present? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "shorts",
+  "unit": "short films",
+  "canonical": "27",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-04-canon",
+   "role": "canonical",
+   "url": "http://www.bam.org/sundance/index_2007.aspx",
+   "host": "www.bam.org",
+   "path": "/sundance/index_2007.aspx",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Sundance Mixed With Stars, Politicians",
+   "publisher": "www.bam.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-04",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Sundance Mixed With Stars, Politicians"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "title": "Sundance Mixed With Stars, Politicians",
+    "observed_at": "2026-10-16T18:15:06Z",
+    "text": "404 Not Found. The page you requested could not be found."
+   }
+  },
+  {
+   "id": "R-F1-04-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20080112103655/http://www.bam.org/sundance/index_2007.aspx",
+   "host": "web.archive.org",
+   "path": "/web/20080112103655/http://www.bam.org/sundance/index_2007.aspx",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "BAM : Brooklyn Academy of Music",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2008-01-12",
+   "work_id": "R-F1-04",
+   "value": "27",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "May 31—June 10",
+     "With films straight from the 2007 Sundance Film Festival, sneak peeks of new work being developed with Sundance Institute support, and programs that take you inside the creative process, Sundance Institute at BAM presents nine dramatic features, eight documentaries, a screenplay reading, and 27 shorts from some of the most exciting emerging filmmakers in the US and around the world.",
+     "Opening Night"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "BAM : Brooklyn Academy of Music",
+    "memento": "20080112103655",
+    "original": "http://www.bam.org/sundance/index_2007.aspx",
+    "text": "May 31—June 10\nWith films straight from the 2007 Sundance Film Festival, sneak peeks of new work being developed with Sundance Institute support, and programs that take you inside the creative process, Sundance Institute at BAM presents nine dramatic features, eight documentaries, a screenplay reading, and 27 shorts from some of the most exciting emerging filmmakers in the US and around the world.\nOpening Night"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_404",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-04-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:15:06Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "class": "http_404",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Sundance Film Festival'",
+  "archive_url": "https://web.archive.org/web/20080112103655/http://www.bam.org/sundance/index_2007.aspx"
+ },
+ "oracle_query": "Sundance Mixed With Stars, Politicians",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Sundance Mixed With Stars, Politicians"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://www.bam.org/sundance/index_2007.aspx"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20080112103655/http://www.bam.org/sundance/index_2007.aspx"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "27 short films",
+     "sources": [
+      "https://web.archive.org/web/20080112103655/http://www.bam.org/sundance/index_2007.aspx"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20080112103655/http://www.bam.org/sundance/index_2007.aspx",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2008-01-12",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

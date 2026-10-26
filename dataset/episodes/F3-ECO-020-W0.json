@@ -1,0 +1,487 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F3-ECO-020-W0",
+ "goal_id": "F3-ECO-020",
+ "family": "F3",
+ "world": "W0",
+ "domain": "ecommerce",
+ "task_type": "TX",
+ "goal": "Please buy one Iridex Max70 trail headlamp for me (GTIN 4095802690722). I found it here: http://parcelpoint.example/products/0d4895-iridex-max70-trail-headlamp\nAny authorized shop that sells exactly this GTIN is fine. Tell me which order you placed.",
+ "answer": {
+  "kind": "order",
+  "field": "maximum output",
+  "unit": "lumens",
+  "canonical": "4095802690722",
+  "entity": "Iridex Max70"
+ },
+ "resources": [
+  {
+   "id": "F3-ECO-020-canon",
+   "role": "canonical",
+   "host": "parcelpoint.example",
+   "path": "/products/0d4895-iridex-max70-trail-headlamp",
+   "url": "http://parcelpoint.example/products/0d4895-iridex-max70-trail-headlamp",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Iridex Max70 trail headlamp",
+   "publisher": "parcelpoint.example",
+   "date": "2025-06-01",
+   "version_label": "Iridex Max70 listing",
+   "expression": "product listing",
+   "work_id": "work-0d4895",
+   "entity": "Iridex Max70",
+   "field_label": "maximum output",
+   "unit": "lumens",
+   "body": {
+    "paragraphs": [
+     "The Iridex Max70 is a trail headlamp by Iridex.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "maximum output (lumens)"
+    ],
+    "table": [
+     [
+      "weight",
+      "2267 g"
+     ],
+     [
+      "warranty",
+      "1 years"
+     ],
+     [
+      "colour",
+      "graphite"
+     ],
+     [
+      "Iridex Max70",
+      "1092"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "4095802690722",
+   "price": "337.96",
+   "value": "1092",
+   "cell_value": "1092",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Iridex Max70 trail headlamp is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the maximum output the same as on the older Iridex X60? A: No, see the comparison table; the older model is rated 1884 lumens."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Iridex Pro20 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "maximum output (lumens)"
+      ],
+      "rows": [
+       [
+        "Iridex X60",
+        "1941"
+       ],
+       [
+        "Iridex Pro20",
+        "1801"
+       ],
+       [
+        "Iridex Lite90",
+        "594"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F3-ECO-020-faith",
+   "role": "faithful",
+   "host": "voltmart.example",
+   "path": "/item/4095802690722",
+   "url": "http://voltmart.example/item/4095802690722",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Iridex Max70 trail headlamp",
+   "publisher": "voltmart.example (authorized retailer) - public copy",
+   "date": "2025-06-01",
+   "version_label": "Iridex Max70 listing",
+   "expression": "product listing",
+   "work_id": "work-0d4895",
+   "entity": "Iridex Max70",
+   "field_label": "maximum output",
+   "unit": "lumens",
+   "body": {
+    "paragraphs": [
+     "The Iridex Max70 is a trail headlamp by Iridex.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "maximum output (lumens)"
+    ],
+    "table": [
+     [
+      "weight",
+      "2267 g"
+     ],
+     [
+      "warranty",
+      "1 years"
+     ],
+     [
+      "colour",
+      "graphite"
+     ],
+     [
+      "Iridex Max70",
+      "1092"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "4095802690722",
+   "price": "337.96",
+   "value": "1092",
+   "cell_value": "1092",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Iridex Max70 trail headlamp is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the maximum output the same as on the older Iridex X60? A: No, see the comparison table; the older model is rated 1884 lumens."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Iridex Pro20 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "maximum output (lumens)"
+      ],
+      "rows": [
+       [
+        "Iridex X60",
+        "1941"
+       ],
+       [
+        "Iridex Pro20",
+        "1801"
+       ],
+       [
+        "Iridex Lite90",
+        "594"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "other_authorized_shop",
+   "chain": [
+    "http://iridex.example/",
+    "http://iridex.example/where-to-buy",
+    "http://voltmart.example/",
+    "http://voltmart.example/search?q=4095802690722"
+   ],
+   "inspect": {
+    "http://iridex.example/where-to-buy": []
+   }
+  },
+  {
+   "id": "F3-ECO-020-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/0d4895-0",
+   "url": "http://catalog0.example/entry/0d4895-0",
+   "kind": "product",
+   "site_type": "blog",
+   "title": "Iridex Max70e trail headlamp",
+   "publisher": "Different publisher",
+   "date": "2025-06-01",
+   "version_label": "companion entry",
+   "expression": "product listing",
+   "work_id": "work-0d4895",
+   "entity": "Iridex Max70",
+   "field_label": "maximum output",
+   "unit": "lumens",
+   "body": {
+    "paragraphs": [
+     "The Iridex Max70 is a trail headlamp by Iridex.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "maximum output (lumens)"
+    ],
+    "table": [
+     [
+      "weight",
+      "2267 g"
+     ],
+     [
+      "warranty",
+      "1 years"
+     ],
+     [
+      "colour",
+      "graphite"
+     ],
+     [
+      "Iridex Max70",
+      "1217"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": "GTIN 8716250497867 - a similar model, not GTIN 4095802690722.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "8716250497867",
+   "price": "337.96",
+   "value": "1217",
+   "cell_value": "1217",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Iridex Max70 trail headlamp is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the maximum output the same as on the older Iridex X60? A: No, see the comparison table; the older model is rated 1884 lumens."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Iridex Pro20 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "maximum output (lumens)"
+      ],
+      "rows": [
+       [
+        "Iridex X60",
+        "1941"
+       ],
+       [
+        "Iridex Pro20",
+        "1801"
+       ],
+       [
+        "Iridex Lite90",
+        "594"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F3-ECO-020-hub-brand-home",
+   "role": "hub",
+   "host": "iridex.example",
+   "path": "/",
+   "url": "http://iridex.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Iridex official site",
+   "publisher": "iridex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Iridex designs trail headlamps and other products.",
+     "Current models include the Iridex Max70."
+    ]
+   },
+   "links": [
+    [
+     "http://iridex.example/where-to-buy",
+     "Where to buy"
+    ]
+   ],
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-ECO-020-hub-brand-wtb",
+   "role": "hub",
+   "host": "iridex.example",
+   "path": "/where-to-buy",
+   "url": "http://iridex.example/where-to-buy",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Where to buy Iridex products",
+   "publisher": "iridex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Authorized retailers. Stock varies; search the retailer's site for the GTIN of your model."
+    ]
+   },
+   "links": [
+    [
+     "http://voltmart.example/",
+     "voltmart.example"
+    ],
+    [
+     "http://kitebay-store.example/",
+     "kitebay-store.example"
+    ],
+    [
+     "http://lumen-outlet.example/",
+     "lumen-outlet.example"
+    ],
+    [
+     "http://parcelpoint.example/",
+     "parcelpoint.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F3-ECO-020-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F3-ECO-020-W1b",
+  "unrecoverable": "F3-ECO-020-W2",
+  "twin": "F3-ECO-020-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://parcelpoint.example/products/0d4895-iridex-max70-trail-headlamp"
+   },
+   {
+    "tool": "http",
+    "method": "POST",
+    "url": "http://parcelpoint.example/checkout",
+    "data": {
+     "gtin": "4095802690722",
+     "quantity": "1"
+    }
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "4095802690722",
+     "sources": [
+      "http://parcelpoint.example/products/0d4895-iridex-max70-trail-headlamp"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "4095802690722",
+   "sources": [
+    "http://parcelpoint.example/products/0d4895-iridex-max70-trail-headlamp"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

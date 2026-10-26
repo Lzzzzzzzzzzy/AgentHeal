@@ -1,0 +1,170 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-16",
+ "goal_id": "R-F8-16",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "I'm linking DOIs to PubMed IDs with the Europe PMC REST API: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/nature14539&format=json\nWhat is the PMID of the article with DOI 10.1038/nature14539? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "26017442",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-16-canon",
+   "role": "canonical",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/nature14539&format=json",
+   "host": "www.ebi.ac.uk",
+   "path": "/europepmc/webservices/rest/search?query=DOI:10.1038/nature14539&format=json",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "www.ebi.ac.uk",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-16",
+   "value": "26017442",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"version\": \"6.9\",",
+     " \"hitCount\": 1,",
+     " \"request\": {",
+     "  \"queryString\": \"DOI:10.1038/nature14539\",",
+     "  \"resultType\": \"lite\",",
+     "  \"cursorMark\": \"*\",",
+     "  \"pageSize\": 25,",
+     "  \"sort\": \"\",",
+     "  \"synonym\": false",
+     " },",
+     " \"resultList\": {",
+     "  \"result\": [",
+     "   {",
+     "    \"id\": \"26017442\",",
+     "    \"source\": \"MED\",",
+     "    \"pmid\": \"26017442\",",
+     "    \"doi\": \"10.1038/nature14539\",",
+     "    \"title\": \"Deep learning.\",",
+     "    \"authorString\": \"LeCun Y, Bengio Y, Hinton G.\",",
+     "    \"journalTitle\": \"Nature\",",
+     "    \"issue\": \"7553\",",
+     "    \"journalVolume\": \"521\",",
+     "    \"pubYear\": \"2015\",",
+     "    \"journalIssn\": \"0028-0836; 1476-4687; \",",
+     "    \"pageInfo\": \"436-444\",",
+     "    \"pubType\": \"research support, non-u.s. gov't; review; research support, u.s. gov't, non-p.h.s.; journal article\",",
+     "    \"isOpenAccess\": \"N\",",
+     "    \"inEPMC\": \"N\",",
+     "    \"inPMC\": \"N\","
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:51:51Z",
+    "limited": {
+     "text": "429 Too Many Requests",
+     "content_type": "text/plain",
+     "headers": {},
+     "status": 429
+    },
+    "text": "{\n \"version\": \"6.9\",\n \"hitCount\": 1,\n \"request\": {\n  \"queryString\": \"DOI:10.1038/nature14539\",\n  \"resultType\": \"lite\",\n  \"cursorMark\": \"*\",\n  \"pageSize\": 25,\n  \"sort\": \"\",\n  \"synonym\": false\n },\n \"resultList\": {\n  \"result\": [\n   {\n    \"id\": \"26017442\",\n    \"source\": \"MED\",\n    \"pmid\": \"26017442\",\n    \"doi\": \"10.1038/nature14539\",\n    \"title\": \"Deep learning.\",\n    \"authorString\": \"LeCun Y, Bengio Y, Hinton G.\",\n    \"journalTitle\": \"Nature\",\n    \"issue\": \"7553\",\n    \"journalVolume\": \"521\",\n    \"pubYear\": \"2015\",\n    \"journalIssn\": \"0028-0836; 1476-4687; \",\n    \"pageInfo\": \"436-444\",\n    \"pubType\": \"research support, non-u.s. gov't; review; research support, u.s. gov't, non-p.h.s.; journal article\",\n    \"isOpenAccess\": \"N\",\n    \"inEPMC\": \"N\",\n    \"inPMC\": \"N\",\n    \"citedByCount\": 19264,\n    \"hasReferences\": \"Y\",\n    \"hasTextMinedTerms\": \"Y\",\n    \"hasDbCrossReferences\": \"N\",\n    \"hasPDF\": \"N\",\n    \"hasBook\": \"N\",\n    \"hasSuppl\": \"N\",\n    \"hasLabsLinks\": \"Y\",\n    \"hasTMAccessionNumbers\": \"N\",\n    \"firstPublicationDate\": \"2015-05-01\",\n    \"firstIndexDate\": \"2015-05-29\"\n   }\n  ]\n }\n}"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-16-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 10
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:51:51Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://europepmc.org/RestfulWebService"
+  ],
+  "documented_limit": []
+ },
+ "oracle_query": "Using the Europe PMC REST API, report the PubMed ID (PMID) of the article with D",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using the Europe PMC REST API, report the PubMed ID (PMID) of the article with D"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/nature14539&format=json"
+   },
+   {
+    "tool": "wait",
+    "seconds": 15
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/nature14539&format=json"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "26017442",
+     "sources": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/nature14539&format=json"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

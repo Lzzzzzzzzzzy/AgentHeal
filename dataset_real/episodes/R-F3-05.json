@@ -1,0 +1,194 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F3-05",
+ "goal_id": "R-F3-05",
+ "family": "F3",
+ "world": "W1a",
+ "domain": "models",
+ "task_type": "IR",
+ "goal": "For a comparison of open models I need the training data size of Gemma 2 9B from its model card: https://huggingface.co/google/gemma-2-9b/raw/main/README.md\nOn how many tokens (in trillions) was the 9B model trained? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "how many tokens (in trillions) the 9B model was trained with",
+  "unit": "trillion tokens",
+  "canonical": "8",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F3-05-canon",
+   "role": "canonical",
+   "url": "https://huggingface.co/google/gemma-2-9b/raw/main/README.md",
+   "host": "huggingface.co",
+   "path": "/google/gemma-2-9b/raw/main/README.md",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "401",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-05",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Access to model google/gemma-2-9b is restricted. You must have access to it and be authenticated to access it. Please log in."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "text": "Access to model google/gemma-2-9b is restricted. You must have access to it and be authenticated to access it. Please log in."
+   }
+  },
+  {
+   "id": "R-F3-05-faith",
+   "role": "faithful",
+   "url": "https://huggingface.co/google/gemma-2-9b",
+   "host": "huggingface.co",
+   "path": "/google/gemma-2-9b",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "google/gemma-2-9b · Hugging Face",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-05",
+   "value": "8",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "google/gemma-2-9b · Hugging Face ",
+     " Hugging Face ",
+     " Models ",
+     " Datasets ",
+     " Spaces ",
+     " Buckets new ",
+     " Docs ",
+     " Enterprise ",
+     " Pricing ",
+     " Website ",
+     " Tasks ",
+     " HuggingChat ",
+     " Collections ",
+     " Languages ",
+     " Organizations ",
+     " Community ",
+     " Blog ",
+     " Posts ",
+     " Daily Papers ",
+     " Hardware ",
+     " Learn ",
+     " Discord ",
+     " Forum ",
+     " GitHub ",
+     " Solutions ",
+     " Tea",
+     "...",
+     "ompt_length = model_inputs.input_ids.shape[ 1 ]",
+     " # set-up k/v cache ",
+     "past_key_values = HybridCache("
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "google/gemma-2-9b · Hugging Face",
+    "text": "google/gemma-2-9b · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Solutions \n Tea\n...\nompt_length = model_inputs.input_ids.shape[ 1 ]\n # set-up k/v cache \npast_key_values = HybridCache(\n config=model.config,\n max_batch_size= 1 ,\n max_cache_len=model.config.max_position_embeddings,\n device=model.device,\n dtype=model.dtype\n)\n # enable passing kv cache to generate \nmodel._supports_cache_class = True \nmodel.generation_config.cache_implementation = None \n # two warm-up steps \n for idx in range ( 2 ):\n outputs = model.generate(**model_inputs, past_key_values=past_key_values, do_sample= True , temperature= 1.0 , max_new_tokens= 128 )\n past_key_values.reset()\n # fast run \noutputs = model.generate(**model_inputs, past_key_values=past_key_values, do_sample= True , temperature= 1.0 , max_new_tokens= 128 )\n print (tokenizer.decode(outputs[ 0 ], skip_special_tokens= True ))\nFor more details, refer to the Transformers documentation . \n Inputs and outputs\n Input: Text string, such as a question, a prompt, or a document to be\nsummarized. \n Output: Generated English-language text in response to the input, such\nas an answer to a question, or a summary of a document. \n Citation\n @article{gemma_2024,\n title={Gemma},\n url={https://www.kaggle.com/m/3301},\n DOI={10.34740/KAGGLE/M/3301},\n publisher={Kaggle},\n author={Gemma Team},\n year={2024}\n}\n Model Data\nData used for model training and how the data was processed. \n Training Dataset\nThese models were trained on a dataset of text data that includes a wide variety of sources. The 27B model was trained with 13 trillion tokens and the 9B model was trained with 8 trillion tokens. \nHere are the key components: \nWeb Documents: A diverse collection of web text ensures the model is exposed\nto a broad range of linguistic styles, topics, and vocabulary. Primarily\nEnglish-language content. \nCode: Exposing the model to code helps it to learn the syntax and patterns of\nprogramming languages, which improves its ability to generate code or\nunderstand code-related questions. \nMathematics: Training on mathematical text helps the model learn logical\nreasoning, symbolic representation, and to address mathematical queries. \nThe combination of these diverse data sources is crucial for training a powerful\nlanguage model that can handle a wide variety of different tasks and text\nformats. \n Data Preprocessing\nHere are the key data cleaning and filtering methods applied to the training\ndata: \nCSAM Filtering: Rigorous CSAM (Child Sexual Abuse Material) filtering was\napplied at multiple stages in the data preparation process to ensure the\nexclusion of harmful and illegal content. \nSensitive Data Filtering: As part of making Gemma pre-trained models safe and\nreliable, automated techniques were used to filter out certain personal\ninformation and other sensitive data from training sets. \nAdditional methods: Filtering based on content quality and safety in line with\n our policies . \n Implementation Information\nDetails about the model internals. \n Hardware\nGemma was trained using the latest generation of\n Tensor Processing Unit (TPU)"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "login_required",
+  "signal": "explicit",
+  "targets": [
+   "R-F3-05-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:05:14Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "gated": "manual",
+  "raw_readme_status": 401
+ },
+ "oracle_query": "google/gemma-2-9b",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "google/gemma-2-9b"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/google/gemma-2-9b/raw/main/README.md"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/google/gemma-2-9b"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "8 trillion tokens",
+     "sources": [
+      "https://huggingface.co/google/gemma-2-9b"
+     ],
+     "substitutions": [
+      {
+       "url": "https://huggingface.co/google/gemma-2-9b",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "login",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

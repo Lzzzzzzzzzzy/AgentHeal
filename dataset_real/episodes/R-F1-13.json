@@ -1,0 +1,175 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-13",
+ "goal_id": "R-F1-13",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm writing about the Penn Museum's 2022 reopening and want to cite its \"Building Transformation\" page: https://www.penn.museum/transformation/\nMore than how many square feet of reimagined galleries and visitor spaces could visitors experience on the opening weekend? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "area",
+  "unit": "square feet",
+  "canonical": "10,000",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-13-canon",
+   "role": "canonical",
+   "url": "https://www.penn.museum/transformation/",
+   "host": "www.penn.museum",
+   "path": "/transformation/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Page Not Found | 404 - Penn Museum",
+   "publisher": "www.penn.museum",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-13",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Page Not Found | 404 - Penn Museum"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "title": "Page Not Found | 404 - Penn Museum",
+    "observed_at": "2026-10-16T18:05:00Z",
+    "text": "Page Not Found | 404 - Penn Museum \n Skip to main content. \n Open today 10 am – 5 pm \n Book Tickets \n Visit \nVisit \nStart here—for a world of adventure \n Book Tickets \n Plan Your Visit \n Tours & Events \n Museum Shop \n Museum Café \n Accessibility & Amenities \n Visitor Guidelines \n Getting Here \n Digital Guide & Map \nGROUP & FAMILY VISITS \n Plan a Group Visit \n Plan a K-12 Field Trip \n Family Visits \n On View \nOn View \nOpen your mind and world as you globetrot in a day. \n Overview \n Africa \n Ancient Egypt & Nubia OPENING 2026 \n Asia \n Eastern Mediterranean \n Etruscan Italy \n Greece \n Mexico & Central America \n Middle East \n Native North America \n Rome \nSpecial Exhibitions \n Ancient Egypt: From Discovery to Display \n Ancient Egypt in Watercolors \n Between Worlds/Entre Mundos \n Preserving Assyria \n Events \nEvents \nFrom festivals and after-hours happenings to classes and talks, we have something for all ages—all year round. \n Events Calendar \n Talks & Tours \n Classes & Workshops \n After-Hours \n Virtual \n Kids & Families \n Scout Programs \nSignature Programs \n Artifacts in Action Lecture Series \n The Deep Dig \n CultureFest! \n Up Late with the Sphinx \n Mind & Mood Recharge powered by Penn Medicine \n Collections \nCollections \nAccess collections that document global human history. Learn more about stewardship, study, and care of these materials. \n Online Collections \n Curatorial Sections \n Museum Archives \n Object Conservation \n Registrar's Office \n Access the Collections \n Rights and "
+   }
+  },
+  {
+   "id": "R-F1-13-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20230212162521/https://www.penn.museum/transformation/",
+   "host": "web.archive.org",
+   "path": "/web/20230212162521/https://www.penn.museum/transformation/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Building Transformation - Penn Museum Transformation | Penn Museum",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2023-02-12",
+   "work_id": "R-F1-13",
+   "value": "10,000",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "We're unveiling something Big !",
+     "Meet us at the Sphinx on November 16 and 17 for the new Penn Museum’s Opening Celebration Weekend . Experience more than 10,000 square feet of reimagined galleries and new visitor spaces, plus entertainment and activities for the whole family.",
+     "We’ll see you at the Sphinx!"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Building Transformation - Penn Museum Transformation | Penn Museum",
+    "memento": "20230212162521",
+    "original": "https://www.penn.museum/transformation/",
+    "text": "We're unveiling something Big !\nMeet us at the Sphinx on November 16 and 17 for the new Penn Museum’s Opening Celebration Weekend . Experience more than 10,000 square feet of reimagined galleries and new visitor spaces, plus entertainment and activities for the whole family.\nWe’ll see you at the Sphinx!"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_404",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-13-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:05:00Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "class": "http_404",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Penn Museum'",
+  "archive_url": "https://web.archive.org/web/20230212162521/https://www.penn.museum/transformation/"
+ },
+ "oracle_query": "Penn Museum Opening Celebration Weekend",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Penn Museum Opening Celebration Weekend"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.penn.museum/transformation/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20230212162521/https://www.penn.museum/transformation/"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "10,000 square feet",
+     "sources": [
+      "https://web.archive.org/web/20230212162521/https://www.penn.museum/transformation/"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20230212162521/https://www.penn.museum/transformation/",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2023-02-12",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

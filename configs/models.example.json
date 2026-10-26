@@ -1,0 +1,4 @@
+{
+  "_comment": "Optional. Copy to configs/models.json if you use --model. Put the endpoint in AGENTHEAL_API_URL and the key in AGENTHEAL_API_KEY; do not write them here.",
+  "M1": {"model": "your-model-name", "react_provider": "openai"}
+}

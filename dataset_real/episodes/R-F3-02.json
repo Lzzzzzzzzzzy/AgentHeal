@@ -1,0 +1,194 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F3-02",
+ "goal_id": "R-F3-02",
+ "family": "F3",
+ "world": "W1a",
+ "domain": "models",
+ "task_type": "IR",
+ "goal": "For a table of large language models I'm compiling, I need the training data size of Falcon-180B from its model card: https://huggingface.co/tiiuae/falcon-180B/raw/main/README.md\nOn how many tokens (in billions) was it trained? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "how many tokens the model was trained on (in billions)",
+  "unit": "billion tokens",
+  "canonical": "3,500",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F3-02-canon",
+   "role": "canonical",
+   "url": "https://huggingface.co/tiiuae/falcon-180B/raw/main/README.md",
+   "host": "huggingface.co",
+   "path": "/tiiuae/falcon-180B/raw/main/README.md",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "401",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-02",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Access to model tiiuae/falcon-180B is restricted. You must have access to it and be authenticated to access it. Please log in."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "text": "Access to model tiiuae/falcon-180B is restricted. You must have access to it and be authenticated to access it. Please log in."
+   }
+  },
+  {
+   "id": "R-F3-02-faith",
+   "role": "faithful",
+   "url": "https://huggingface.co/tiiuae/falcon-180B",
+   "host": "huggingface.co",
+   "path": "/tiiuae/falcon-180B",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "tiiuae/falcon-180B · Hugging Face",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-02",
+   "value": "3,500",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "tiiuae/falcon-180B · Hugging Face ",
+     " Hugging Face ",
+     " Models ",
+     " Datasets ",
+     " Spaces ",
+     " Buckets new ",
+     " Docs ",
+     " Enterprise ",
+     " Pricing ",
+     " Website ",
+     " Tasks ",
+     " HuggingChat ",
+     " Collections ",
+     " Languages ",
+     " Organizations ",
+     " Community ",
+     " Blog ",
+     " Posts ",
+     " Daily Papers ",
+     " Hardware ",
+     " Learn ",
+     " Discord ",
+     " Forum ",
+     " GitHub ",
+     " Solutions ",
+     " Te",
+     "...",
+     "owse",
+     " Quantizations to use this model in llama.cpp , Ollama , LM Studio , or any compatible app. ",
+     "You agree to the <a href=\\\"https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/LICENSE.txt\\\" rel=\\\"nofollow\\\">Falcon-180B TII license</a> and <a href=\\\"https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/ACCEPTABLE_USE_POLICY.txt\\\" rel=\\\"nofollow\\\">acceptable use policy</a>.</p>\\n\",\"classNames\":\"hf-sanitized hf-sanitized-2ruZKxMgb7IGYf6qJVUji\"},\"customHeading\":\"Acknowledge license to access the repository\",\"gated\":\"auto\",\"isLoggedIn\":false,\"repoId\":\"tiiuae/falcon-180B\",\"repoType\":\"model\",\"isGoogleGemma\":false,\"requiresPaidPlan\":false}\">"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "tiiuae/falcon-180B · Hugging Face",
+    "text": "tiiuae/falcon-180B · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Solutions \n Te\n...\nowse\n Quantizations to use this model in llama.cpp , Ollama , LM Studio , or any compatible app. \nYou agree to the <a href=\\\"https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/LICENSE.txt\\\" rel=\\\"nofollow\\\">Falcon-180B TII license</a> and <a href=\\\"https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/ACCEPTABLE_USE_POLICY.txt\\\" rel=\\\"nofollow\\\">acceptable use policy</a>.</p>\\n\",\"classNames\":\"hf-sanitized hf-sanitized-2ruZKxMgb7IGYf6qJVUji\"},\"customHeading\":\"Acknowledge license to access the repository\",\"gated\":\"auto\",\"isLoggedIn\":false,\"repoId\":\"tiiuae/falcon-180B\",\"repoType\":\"model\",\"isGoogleGemma\":false,\"requiresPaidPlan\":false}\">\n Acknowledge license to access the repository \nThis repository is publicly accessible, but you have to accept the conditions to access its files and content . \nYou agree to the Falcon-180B TII license and acceptable use policy . \n Log in or Sign Up to review the conditions and access this model content. \n 🚀 Falcon-180B \n Why use Falcon-180B? \n Model Card for Falcon-180B \n Model Details \n Model Description \n Model Source \n Uses \n Direct Use \n Out-of-Scope Use \n Bias, Risks, and Limitations \n Recommendations \n How to Get Started with the Model \n Training Details \n Training Data \n Training Procedure \n Evaluation \n Technical Specifications \n Model Architecture and Objective \n Compute Infrastructure \n Citation \n Contact \n 🚀 Falcon-180B\n Falcon-180B is a 180B parameters causal decoder-only model built by TII and trained on 3,500B tokens of RefinedWeb enhanced with curated corpora. It is made available under the Falcon-180B TII License and Acceptable Use Policy . \n Paper coming soon 😊 \n🤗 To get started with Falcon (inference, finetuning, quantization, etc.), we recommend reading this great blogpost from HF or this one from the release of the 40B!\nNote that since the 180B is larger than what can easily be handled with transformers + acccelerate , we recommend using Text Generation Inference . \nYou will need at least 400GB of memory to swiftly run inference with Falcon-180B. \n Why use Falcon-180B?\n It is the best open-access model currently available, and one of the best model overall. Falcon-180B outperforms LLaMA-2 , StableLM , RedPajama , MPT , etc. See the OpenLLM Leaderboard . \n It features an architecture optimized for inference , with multiquery ( Shazeer et al., 2019 ). \n It is made available under a permissive license allowing for commercial use . \n⚠️ This is a raw, pretrained model, which should be further finetuned for most usecases. If you are looking for a version better suited to taking generic instructions in a chat format, we recommend taking a look at Falcon-180B-Chat . \n💸 Looking for a smaller, less expensive model? Falcon-7B and Falcon-40B are Falcon-180B's little brothers! \n💥 Falcon LLMs require PyTorch 2.0 for use with transformers ! \n Model Card for Falcon-180B\n Model Details\n Model Description\n Developed by: https://www.tii.ae ; \n Model type: Causal decoder-only; \n Language("
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "login_required",
+  "signal": "explicit",
+  "targets": [
+   "R-F3-02-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:53:59Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "gated": "auto",
+  "raw_readme_status": 401
+ },
+ "oracle_query": "tiiuae/falcon-180B",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "tiiuae/falcon-180B"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/tiiuae/falcon-180B/raw/main/README.md"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/tiiuae/falcon-180B"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "3,500 billion tokens",
+     "sources": [
+      "https://huggingface.co/tiiuae/falcon-180B"
+     ],
+     "substitutions": [
+      {
+       "url": "https://huggingface.co/tiiuae/falcon-180B",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "login",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

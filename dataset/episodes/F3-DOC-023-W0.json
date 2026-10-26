@@ -1,0 +1,658 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F3-DOC-023-W0",
+ "goal_id": "F3-DOC-023",
+ "family": "F3",
+ "world": "W0",
+ "domain": "docs",
+ "task_type": "AA",
+ "goal": "We are deploying fernlog v5.2 and I need its official configuration schema file. It should be available from the documentation at http://docs.fernlog.example/reference/67c326-fernlog-v5-2-configuration-reference\nPlease download the file and submit it.",
+ "answer": {
+  "kind": "file",
+  "field": "connection pool size",
+  "unit": "connections",
+  "canonical": "8b177fe07fca18bd733ae08b2d0c9e28e0509211e8f7b43470a781eb1accd18c",
+  "entity": "pool_size"
+ },
+ "resources": [
+  {
+   "id": "F3-DOC-023-canon",
+   "role": "canonical",
+   "host": "docs.fernlog.example",
+   "path": "/reference/67c326-fernlog-v5-2-configuration-reference",
+   "url": "http://docs.fernlog.example/reference/67c326-fernlog-v5-2-configuration-reference",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "fernlog v5.2 configuration reference",
+   "publisher": "fernlog project",
+   "date": "2025-04-10",
+   "version_label": "fernlog documentation v5.2",
+   "expression": "v5.2",
+   "work_id": "work-67c326",
+   "entity": "pool_size",
+   "field_label": "connection pool size",
+   "unit": "connections",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for fernlog v5.2.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "connection pool size (connections)"
+    ],
+    "table": [
+     [
+      "page_limit",
+      "328"
+     ],
+     [
+      "pool_size",
+      "38"
+     ],
+     [
+      "timeout",
+      "77"
+     ],
+     [
+      "cache_ttl",
+      "218"
+     ],
+     [
+      "backoff_ms",
+      "58"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# fernlog v5.2 configuration reference\n# version: fernlog documentation v5.2\nentity,pool_size\npage_limit,328\npool_size,38\ntimeout,77\ncache_ttl,218\nbackoff_ms,58\n",
+   "file_name": "fernlog-v5.2-config-schema.json",
+   "sha256": "8b177fe07fca18bd733ae08b2d0c9e28e0509211e8f7b43470a781eb1accd18c",
+   "value": "38",
+   "cell_value": "38",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with FERNLOG_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `timeout` changed from 57 to the value shown below. v4.4: `backoff_ms` deprecated in favour of `pool_size`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 24 for `pool_size`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_page_limit",
+        "v5.0",
+        "page_limit"
+       ],
+       [
+        "legacy_timeout",
+        "v5.0",
+        "timeout"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F3-DOC-023-faith",
+   "role": "faithful",
+   "host": "fernlog.readthedocs-mirror.example",
+   "path": "/v5.2/reference",
+   "url": "http://fernlog.readthedocs-mirror.example/v5.2/reference",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "fernlog v5.2 configuration reference",
+   "publisher": "fernlog project (official mirror) - public copy",
+   "date": "2025-04-10",
+   "version_label": "fernlog documentation v5.2",
+   "expression": "v5.2",
+   "work_id": "work-67c326",
+   "entity": "pool_size",
+   "field_label": "connection pool size",
+   "unit": "connections",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for fernlog v5.2.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "connection pool size (connections)"
+    ],
+    "table": [
+     [
+      "page_limit",
+      "328"
+     ],
+     [
+      "pool_size",
+      "38"
+     ],
+     [
+      "timeout",
+      "77"
+     ],
+     [
+      "cache_ttl",
+      "218"
+     ],
+     [
+      "backoff_ms",
+      "58"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# fernlog v5.2 configuration reference\n# version: fernlog documentation v5.2\nentity,pool_size\npage_limit,328\npool_size,38\ntimeout,77\ncache_ttl,218\nbackoff_ms,58\n",
+   "file_name": "fernlog-v5.2-config-schema.json",
+   "sha256": "8b177fe07fca18bd733ae08b2d0c9e28e0509211e8f7b43470a781eb1accd18c",
+   "value": "38",
+   "cell_value": "38",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with FERNLOG_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `timeout` changed from 57 to the value shown below. v4.4: `backoff_ms` deprecated in favour of `pool_size`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 24 for `pool_size`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_page_limit",
+        "v5.0",
+        "page_limit"
+       ],
+       [
+        "legacy_timeout",
+        "v5.0",
+        "timeout"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_mirror",
+   "chain": [
+    "http://pkgindex.example/search?q=fernlog",
+    "http://pkgindex.example/project/fernlog",
+    "http://pkgindex.example/project/fernlog/docs",
+    "http://fernlog.readthedocs-mirror.example/v5.2/"
+   ]
+  },
+  {
+   "id": "F3-DOC-023-var0",
+   "role": "variant",
+   "host": "docs.fernlog.example",
+   "path": "/reference/67c326-fernlog-v5-2-configuration-reference/prev0",
+   "url": "http://docs.fernlog.example/reference/67c326-fernlog-v5-2-configuration-reference/prev0",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "fernlog v5.2 configuration reference",
+   "publisher": "fernlog project",
+   "date": "2025-04-10",
+   "version_label": "fernlog v5.2 configuration reference, previous release",
+   "expression": "previous release",
+   "work_id": "work-67c326",
+   "entity": "pool_size",
+   "field_label": "connection pool size",
+   "unit": "connections",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for fernlog v5.2.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "connection pool size (connections)"
+    ],
+    "table": [
+     [
+      "page_limit",
+      "328"
+     ],
+     [
+      "pool_size",
+      "33"
+     ],
+     [
+      "timeout",
+      "77"
+     ],
+     [
+      "cache_ttl",
+      "218"
+     ],
+     [
+      "backoff_ms",
+      "58"
+     ]
+    ]
+   },
+   "cue": "This is the previous release; it was superseded by fernlog documentation v5.2.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# fernlog v5.2 configuration reference\n# version: fernlog v5.2 configuration reference, previous release\nentity,pool_size\npage_limit,328\npool_size,33\ntimeout,77\ncache_ttl,218\nbackoff_ms,58\n",
+   "file_name": "fernlog-v5.2-config-schema.json",
+   "sha256": "4b42e18232b6d71a673877de0b83cc277be113b274e90ad42922eaad3adc4b0d",
+   "value": "33",
+   "cell_value": "33",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with FERNLOG_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `timeout` changed from 57 to the value shown below. v4.4: `backoff_ms` deprecated in favour of `pool_size`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 24 for `pool_size`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_page_limit",
+        "v5.0",
+        "page_limit"
+       ],
+       [
+        "legacy_timeout",
+        "v5.0",
+        "timeout"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-R",
+   "delta": {
+    "pool_size": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://pkgindex.example/search?q=fernlog",
+    "http://pkgindex.example/project/fernlog",
+    "http://pkgindex.example/project/fernlog/docs",
+    "http://docs.fernlog.example/previous release/"
+   ],
+   "site_search": false
+  },
+  {
+   "id": "F3-DOC-023-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/67c326-0",
+   "url": "http://catalog0.example/entry/67c326-0",
+   "kind": "file",
+   "site_type": "blog",
+   "title": "fernlog v5.2 configuration reference - companion study",
+   "publisher": "Different publisher",
+   "date": "2025-04-10",
+   "version_label": "companion entry",
+   "expression": "v5.2",
+   "work_id": "work-67c326",
+   "entity": "pool_size",
+   "field_label": "connection pool size",
+   "unit": "connections",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for fernlog v5.2.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "connection pool size (connections)"
+    ],
+    "table": [
+     [
+      "page_limit",
+      "328"
+     ],
+     [
+      "pool_size",
+      "35"
+     ],
+     [
+      "timeout",
+      "77"
+     ],
+     [
+      "cache_ttl",
+      "218"
+     ],
+     [
+      "backoff_ms",
+      "58"
+     ]
+    ]
+   },
+   "cue": "Note: this page describes a different item than pool_size (fernlog v5.2 configuration reference); scope differs.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# fernlog v5.2 configuration reference\n# version: companion entry\nentity,pool_size\npage_limit,328\npool_size,35\ntimeout,77\ncache_ttl,218\nbackoff_ms,58\n",
+   "file_name": "fernlog-v5.2-config-schema.json",
+   "sha256": "2ef7ec54df4ecb0ebab6a0626eb421895e869bdb8a527f3bcecf9b862810b27a",
+   "value": "35",
+   "cell_value": "35",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with FERNLOG_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `timeout` changed from 57 to the value shown below. v4.4: `backoff_ms` deprecated in favour of `pool_size`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 24 for `pool_size`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_page_limit",
+        "v5.0",
+        "page_limit"
+       ],
+       [
+        "legacy_timeout",
+        "v5.0",
+        "timeout"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F3-DOC-023-hub-pkg-project",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/fernlog",
+   "url": "http://pkgindex.example/project/fernlog",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "fernlog",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "fernlog - fernlog project.",
+     "Releases, source code and documentation links."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.fernlog.example/",
+     "Homepage"
+    ],
+    [
+     "http://pkgindex.example/project/fernlog/docs",
+     "Documentation (all versions)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F3-DOC-023-hub-pkg-ver0",
+   "role": "hub",
+   "host": "fernlog.readthedocs-mirror.example",
+   "path": "/v5.2/",
+   "url": "http://fernlog.readthedocs-mirror.example/v5.2/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "fernlog v5.2 documentation",
+   "publisher": "fernlog.readthedocs-mirror.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Documentation for fernlog v5.2."
+    ]
+   },
+   "links": [
+    [
+     "http://fernlog.readthedocs-mirror.example/v5.2/reference",
+     "Configuration reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-DOC-023-hub-pkg-ver1",
+   "role": "hub",
+   "host": "docs.fernlog.example",
+   "path": "/previous release/",
+   "url": "http://docs.fernlog.example/previous release/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "fernlog previous release documentation",
+   "publisher": "docs.fernlog.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Documentation for fernlog previous release."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.fernlog.example/reference/67c326-fernlog-v5-2-configuration-reference/prev0",
+     "Configuration reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-DOC-023-hub-pkg-docs",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/fernlog/docs",
+   "url": "http://pkgindex.example/project/fernlog/docs",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "fernlog documentation",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted documentation by version."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.fernlog.example/reference/67c326-fernlog-v5-2-configuration-reference",
+     "v5.2 - docs.fernlog.example"
+    ],
+    [
+     "http://fernlog.readthedocs-mirror.example/v5.2/",
+     "v5.2 - fernlog.readthedocs-mirror.example"
+    ],
+    [
+     "http://docs.fernlog.example/previous release/",
+     "previous release - docs.fernlog.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F3-DOC-023-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F3-DOC-023-W1b",
+  "unrecoverable": "F3-DOC-023-W3",
+  "twin": "F3-DOC-023-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://docs.fernlog.example/reference/67c326-fernlog-v5-2-configuration-reference"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "8b177fe07fca18bd733ae08b2d0c9e28e0509211e8f7b43470a781eb1accd18c",
+     "sources": [
+      "http://docs.fernlog.example/reference/67c326-fernlog-v5-2-configuration-reference"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "8b177fe07fca18bd733ae08b2d0c9e28e0509211e8f7b43470a781eb1accd18c",
+   "sources": [
+    "http://docs.fernlog.example/reference/67c326-fernlog-v5-2-configuration-reference"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

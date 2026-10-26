@@ -1,0 +1,211 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F5-04",
+ "goal_id": "R-F5-04",
+ "family": "F5",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm adding PMID 33116299 to my reference manager and want its exact title as Europe PMC shows it: https://europepmc.org/article/MED/33116299\nWhat is the title? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "Identification of SARS-CoV-2 inhibitors using lung and colonic organoids.",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F5-04-canon",
+   "role": "canonical",
+   "url": "https://europepmc.org/article/MED/33116299",
+   "host": "europepmc.org",
+   "path": "/article/MED/33116299",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Just a moment...",
+   "publisher": "europepmc.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F5-04",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Just a moment..."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 403,
+    "headers": {
+     "Cf-Mitigated": "challenge",
+     "Server": "cloudflare"
+    },
+    "title": "Just a moment...",
+    "text": "Just a moment..."
+   }
+  },
+  {
+   "id": "R-F5-04-faith",
+   "role": "faithful",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33116299%20AND%20SRC:MED&format=json",
+   "host": "www.ebi.ac.uk",
+   "path": "/europepmc/webservices/rest/search?query=EXT_ID:33116299%20AND%20SRC:MED&format=json",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Official API",
+   "publisher": "www.ebi.ac.uk",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F5-04",
+   "value": "Identification of SARS-CoV-2 inhibitors using lung and colonic organoids.",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"version\": \"6.9\",",
+     " \"hitCount\": 1,",
+     " \"request\": {",
+     "  \"queryString\": \"EXT_ID:33116299 AND SRC:MED\",",
+     "  \"internalQuery\": \"EXT_ID:33116299 AND SRC:MED\",",
+     "  \"resultType\": \"LITE\",",
+     "  \"cursorMark\": \"*\",",
+     "  \"pageSize\": 25,",
+     "  \"sort\": \"\",",
+     "  \"synonym\": false",
+     " },",
+     " \"resultList\": {",
+     "  \"result\": [",
+     "   {",
+     "    \"id\": \"33116299\",",
+     "    \"source\": \"MED\",",
+     "    \"pmid\": \"33116299\",",
+     "    \"pmcid\": \"PMC8034380\",",
+     "    \"fullTextIdList\": {",
+     "     \"fullTextId\": [",
+     "      \"PMC8034380\"",
+     "     ]",
+     "    },",
+     "    \"doi\": \"10.1038/s41586-020-2901-9\",",
+     "    \"title\": \"Identification of SARS-CoV-2 inhibitors using lung and colonic organoids.\",",
+     "    \"authorString\": \"Han Y, Duan X, Yang L, Nilsson-Payant BE, Wang P, Duan F, Tang X, Yaron TM, Zhang T, Uhl S, Bram Y, Richardson C, Zhu J, Zhao Z, Redmond D, Houghton S, Nguyen DT, Xu D, Wang X, Jessurun J, Borczuk A, Huang Y, Johnson JL, Liu Y, Xiang J, Wang H, Cantley LC, tenOever BR, Ho DD, Pan FC, Evans T, Chen HJ, Schwartz RE, Chen S.\",",
+     "    \"journalTitle\": \"Nature\",",
+     "    \"issue\": \"7841\",",
+     "    \"journalVolume\": \"589\","
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "title": "Official API",
+    "text": "{\n \"version\": \"6.9\",\n \"hitCount\": 1,\n \"request\": {\n  \"queryString\": \"EXT_ID:33116299 AND SRC:MED\",\n  \"internalQuery\": \"EXT_ID:33116299 AND SRC:MED\",\n  \"resultType\": \"LITE\",\n  \"cursorMark\": \"*\",\n  \"pageSize\": 25,\n  \"sort\": \"\",\n  \"synonym\": false\n },\n \"resultList\": {\n  \"result\": [\n   {\n    \"id\": \"33116299\",\n    \"source\": \"MED\",\n    \"pmid\": \"33116299\",\n    \"pmcid\": \"PMC8034380\",\n    \"fullTextIdList\": {\n     \"fullTextId\": [\n      \"PMC8034380\"\n     ]\n    },\n    \"doi\": \"10.1038/s41586-020-2901-9\",\n    \"title\": \"Identification of SARS-CoV-2 inhibitors using lung and colonic organoids.\",\n    \"authorString\": \"Han Y, Duan X, Yang L, Nilsson-Payant BE, Wang P, Duan F, Tang X, Yaron TM, Zhang T, Uhl S, Bram Y, Richardson C, Zhu J, Zhao Z, Redmond D, Houghton S, Nguyen DT, Xu D, Wang X, Jessurun J, Borczuk A, Huang Y, Johnson JL, Liu Y, Xiang J, Wang H, Cantley LC, tenOever BR, Ho DD, Pan FC, Evans T, Chen HJ, Schwartz RE, Chen S.\",\n    \"journalTitle\": \"Nature\",\n    \"issue\": \"7841\",\n    \"journalVolume\": \"589\",\n    \"pubYear\": \"2021\",\n    \"journalIssn\": \"0028-0836; 1476-4687; \",\n    \"pageInfo\": \"270-275\",\n    \"pubType\": \"research-article; journal article\",\n    \"isOpenAccess\": \"Y\",\n    \"inEPMC\": \"Y\",\n    \"inPMC\": \"Y\",\n    \"citedByCount\": 465,\n    \"hasReferences\": \"Y\",\n    \"hasTextMinedTerms\": \"Y\",\n    \"hasDbCrossReferences\": \"Y\",\n    \"dbCrossReferenceList\": {\n     \"dbName\": [\n      \"EMBL\"\n     ]\n    },\n    \"hasPDF\": \"Y\",\n    \"hasBook\": \"N\",\n    \"hasSuppl\": \"Y\",\n    \"hasLabsLinks\": \"Y\",\n    \"hasTMAccessionNumbers\": \"Y\",\n    \"tmAccessionTypeList\": {\n     \"accessionType\": [\n      \"geo\",\n      \"gen\",\n      \"doi\"\n     ]\n    },\n    \"firstPublicationDate\": \"2020-10-28\",\n    \"firstIndexDate\": \"2020-10-30\"\n   }\n  ]\n }\n}"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "verification_gate",
+  "signal": "explicit",
+  "targets": [
+   "R-F5-04-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:30:34Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "challenge": {
+   "status": 403,
+   "markers": [
+    "challenge-platform",
+    "enable javascript and cookies",
+    "just a moment"
+   ],
+   "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Cf-Mitigated": "challenge",
+    "Server": "cloudflare",
+    "set-cookie": "__cf_bm=tepCtgjOFTS.KwvFvUpe6Uu49AuNFAJMk4sS.PXSomk-1792175435.5660503-1.0.1.1-mBi8gBUBMqyi3v09wPe8gB590k2AfcKUngnDuZDaQ"
+   }
+  },
+  "note": "challenge recorded only; never attempted"
+ },
+ "oracle_query": "What is the title of the article PMID 33116299 as shown on its Europe PMC page? ",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "What is the title of the article PMID 33116299 as shown on its Europe PMC page? "
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://europepmc.org/article/MED/33116299"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33116299%20AND%20SRC:MED&format=json"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "Identification of SARS-CoV-2 inhibitors using lung and colonic organoids.",
+     "sources": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33116299%20AND%20SRC:MED&format=json"
+     ],
+     "substitutions": [
+      {
+       "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33116299%20AND%20SRC:MED&format=json",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "verification",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

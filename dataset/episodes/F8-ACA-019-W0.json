@@ -1,0 +1,700 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F8-ACA-019-W0",
+ "goal_id": "F8-ACA-019",
+ "family": "F8",
+ "world": "W0",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "A reviewer asked me to double-check a value from Sandoval et al. (2025), \"Scaling Laws for Sparse Recovery\" (http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery).\nWhat median latency does Table 2 report for station B-04? Please give the value with its unit and tell me which source you used. I need this within the next 30 minutes.",
+ "answer": {
+  "kind": "value",
+  "field": "median latency",
+  "unit": "ms",
+  "canonical": "186.2",
+  "entity": "B-04"
+ },
+ "resources": [
+  {
+   "id": "F8-ACA-019-canon",
+   "role": "canonical",
+   "host": "annals-of-riverine-systems.example",
+   "path": "/articles/f569ed-scaling-laws-for-sparse-recovery",
+   "url": "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+   "kind": "page",
+   "site_type": "journal",
+   "title": "Scaling Laws for Sparse Recovery",
+   "publisher": "Annals of Riverine Systems",
+   "date": "2025-09-07",
+   "version_label": "Version of Record, Annals of Riverine Systems (2025)",
+   "expression": "VoR",
+   "work_id": "work-f569ed",
+   "entity": "B-04",
+   "field_label": "median latency",
+   "unit": "ms",
+   "body": {
+    "paragraphs": [
+     "We study sparse recovery across five monitoring stations using a nonparametric model.",
+     "Authors: Oskar Sandoval, Noor Uchenna, Gustav Calloway. Published in Annals of Riverine Systems, 2025.",
+     "Table 2 reports the median latency for each station."
+    ],
+    "table_caption": "Table 2: Median latency by station",
+    "table_header": [
+     "",
+     "median latency (ms)"
+    ],
+    "table": [
+     [
+      "T-22",
+      "95.7"
+     ],
+     [
+      "M-09",
+      "376.0"
+     ],
+     [
+      "B-04",
+      "186.2"
+     ],
+     [
+      "S-12",
+      "21.9"
+     ],
+     [
+      "R-31",
+      "41.9"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "186.2",
+   "cell_value": "186.2",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report median latency measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional median latency at 330.1 ms; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of sparse recovery relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the median latency for each station in the 2025 campaign. The largest change relative to 2022 was observed at station M-09."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Aaltonen et al. (2019). [2] Whitcombe and Navarro (2021). [3] Kaczmarek et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "1779",
+        "2013",
+        "1069"
+       ],
+       [
+        "T-22",
+        "1372",
+        "1993",
+        "382"
+       ],
+       [
+        "M-09",
+        "794",
+        "1987",
+        "438"
+       ],
+       [
+        "S-12",
+        "102",
+        "2000",
+        "2281"
+       ],
+       [
+        "R-31",
+        "667",
+        "1999",
+        "4179"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Median latency in the 2022 campaign",
+      "header": [
+       "",
+       "median latency (ms)"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "88.9"
+       ],
+       [
+        "T-22",
+        "119.6"
+       ],
+       [
+        "M-09",
+        "313.5"
+       ],
+       [
+        "S-12",
+        "99.1"
+       ],
+       [
+        "R-31",
+        "347.2"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F8-ACA-019-var0",
+   "role": "variant",
+   "host": "archive.example",
+   "path": "/web/20250902090000/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+   "url": "http://archive.example/web/20250902090000/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+   "kind": "page",
+   "site_type": "archive",
+   "title": "Scaling Laws for Sparse Recovery",
+   "publisher": "Web archive snapshot of annals-of-riverine-systems.example",
+   "date": "2025-09-07",
+   "version_label": "Snapshot of 2025-09-02",
+   "expression": "state at 20250902090000",
+   "work_id": "work-f569ed",
+   "entity": "B-04",
+   "field_label": "median latency",
+   "unit": "ms",
+   "body": {
+    "paragraphs": [
+     "We study sparse recovery across five monitoring stations using a nonparametric model.",
+     "Authors: Oskar Sandoval, Noor Uchenna, Gustav Calloway. Published in Annals of Riverine Systems, 2025.",
+     "Table 2 reports the median latency for each station."
+    ],
+    "table_caption": "Table 2: Median latency by station",
+    "table_header": [
+     "",
+     "median latency (ms)"
+    ],
+    "table": [
+     [
+      "T-22",
+      "95.7"
+     ],
+     [
+      "M-09",
+      "376.0"
+     ],
+     [
+      "B-04",
+      "160.3"
+     ],
+     [
+      "S-12",
+      "21.9"
+     ],
+     [
+      "R-31",
+      "41.9"
+     ]
+    ]
+   },
+   "cue": "Archived on 2025-09-02; the page changed after the requested date.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "160.3",
+   "cell_value": "160.3",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report median latency measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional median latency at 330.1 ms; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of sparse recovery relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the median latency for each station in the 2025 campaign. The largest change relative to 2022 was observed at station M-09."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Aaltonen et al. (2019). [2] Whitcombe and Navarro (2021). [3] Kaczmarek et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "1779",
+        "2013",
+        "1069"
+       ],
+       [
+        "T-22",
+        "1372",
+        "1993",
+        "382"
+       ],
+       [
+        "M-09",
+        "794",
+        "1987",
+        "438"
+       ],
+       [
+        "S-12",
+        "102",
+        "2000",
+        "2281"
+       ],
+       [
+        "R-31",
+        "667",
+        "1999",
+        "4179"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Median latency in the 2022 campaign",
+      "header": [
+       "",
+       "median latency (ms)"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "88.9"
+       ],
+       [
+        "T-22",
+        "119.6"
+       ],
+       [
+        "M-09",
+        "313.5"
+       ],
+       [
+        "S-12",
+        "99.1"
+       ],
+       [
+        "R-31",
+        "347.2"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "memento_datetime": "20250902090000",
+   "original": "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+   "variant_type": "V-T",
+   "delta": {
+    "median_latency": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://archive.example/web/*/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+    "http://archive.example/web/2025*/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+    "http://archive.example/web/20250902*/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery"
+   ],
+   "inspect": {
+    "http://archive.example/web/20250902*/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery": [
+     "http://archive.example/web/20250902063000/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery"
+    ]
+   }
+  },
+  {
+   "id": "F8-ACA-019-hub-capture-0-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902063000/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+   "url": "http://archive.example/web/20250902063000/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "annals-of-riverine-systems.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Capture of a cookie consent screen; the page content was not archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902063000",
+   "original": "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery"
+  },
+  {
+   "id": "F8-ACA-019-hub-capture-0-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902183000/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+   "url": "http://archive.example/web/20250902183000/http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "annals-of-riverine-systems.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Truncated capture: only the page header was archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902183000",
+   "original": "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery"
+  },
+  {
+   "id": "F8-ACA-019-hub-scholar-meta0",
+   "role": "hub",
+   "host": "researchnet.example",
+   "path": "/record/f569ed",
+   "url": "http://researchnet.example/record/f569ed",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Scaling Laws for Sparse Recovery",
+   "publisher": "researchnet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Oskar Sandoval, Noor Uchenna, Gustav Calloway.",
+     "Annals of Riverine Systems, 2025.",
+     "Full text not available here. Request it from the authors."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-ACA-019-hub-scholar-meta1",
+   "role": "hub",
+   "host": "inst-repository.example",
+   "path": "/record/f569ed",
+   "url": "http://inst-repository.example/record/f569ed",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Scaling Laws for Sparse Recovery",
+   "publisher": "inst-repository.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Oskar Sandoval, Noor Uchenna, Gustav Calloway.",
+     "Annals of Riverine Systems, 2025.",
+     "Metadata only: the full text is under embargo."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-ACA-019-hub-scholar-work",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/f569ed",
+   "url": "http://scholar.example/work/f569ed",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Scaling Laws for Sparse Recovery",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Oskar Sandoval, Noor Uchenna, Gustav Calloway.",
+     "Annals of Riverine Systems, 2025.",
+     "Topic: sparse recovery.",
+     "DOI: 10.5072/f569ed"
+    ]
+   },
+   "links": [
+    [
+     "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+     "[HTML] annals-of-riverine-systems.example"
+    ],
+    [
+     "http://scholar.example/work/f569ed/versions",
+     "All 3 versions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-ACA-019-hub-scholar-versions",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/f569ed/versions",
+   "url": "http://scholar.example/work/f569ed/versions",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "All versions of: Scaling Laws for Sparse Recovery",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sources holding this work, as found by the index. Version information is given on each source page."
+    ]
+   },
+   "links": [
+    [
+     "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery",
+     "Scaling Laws for Sparse Recovery - annals-of-riverine-systems.example"
+    ],
+    [
+     "http://researchnet.example/record/f569ed",
+     "Scaling Laws for Sparse Recovery - researchnet.example"
+    ],
+    [
+     "http://inst-repository.example/record/f569ed",
+     "Scaling Laws for Sparse Recovery - inst-repository.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-ACA-019-hub-status",
+   "role": "hub",
+   "host": "status.annals-of-riverine-systems.example",
+   "path": "/",
+   "url": "http://status.annals-of-riverine-systems.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "annals-of-riverine-systems.example status",
+   "publisher": "status.annals-of-riverine-systems.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Planned maintenance is in progress. No mirror is available."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-ACA-019-hub-home",
+   "role": "hub",
+   "host": "annals-of-riverine-systems.example",
+   "path": "/",
+   "url": "http://annals-of-riverine-systems.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Annals of Riverine Systems",
+   "publisher": "annals-of-riverine-systems.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to annals-of-riverine-systems.example."
+    ]
+   },
+   "links": [
+    [
+     "http://status.annals-of-riverine-systems.example/",
+     "Service status"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F8-ACA-019-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": 1800,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F8-ACA-019-W1v",
+  "unrecoverable": "F8-ACA-019-W2",
+  "twin": "F8-ACA-019-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "186.2 ms",
+     "sources": [
+      "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "186.2 ms",
+   "sources": [
+    "http://annals-of-riverine-systems.example/articles/f569ed-scaling-laws-for-sparse-recovery"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

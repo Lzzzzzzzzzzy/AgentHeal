@@ -1,0 +1,241 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-14",
+ "goal_id": "R-F1-14",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "For a lecture on the history of official statistics I'm using the UK Statistics Authority's timeline of the UK statistical system: https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html\nIn which year did the Births and Deaths Registration Act receive Royal Assent? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "year",
+  "unit": "",
+  "canonical": "1836",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-14-canon",
+   "role": "canonical",
+   "url": "https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html",
+   "host": "www.statisticsauthority.gov.uk",
+   "path": "/archive/about-the-authority/uk-statistical-system/history/timeline.html",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "301 Moved",
+   "publisher": "www.statisticsauthority.gov.uk",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-14",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "301 Moved"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 301,
+    "headers": {
+     "Location": "https://uksa.statisticsauthority.gov.uk/"
+    },
+    "title": "301 Moved",
+    "observed_at": "2026-10-16T18:01:05Z",
+    "text": "Moved: https://uksa.statisticsauthority.gov.uk/"
+   }
+  },
+  {
+   "id": "R-F1-14-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20181028033625/https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html",
+   "host": "web.archive.org",
+   "path": "/web/20181028033625/https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Timeline: UK Statistics Authority",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2018-10-28",
+   "work_id": "R-F1-14",
+   "value": "1836",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "1801: First regular population census for Great Britain held",
+     "1836: The Births and Deaths Registration Act and the Marriage Act received Royal Assent, thereby establishing secular system for recording births, marriages and deaths.",
+     "1837: General Register Office (GRO) for England and Wales established"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Timeline: UK Statistics Authority",
+    "memento": "20181028033625",
+    "original": "https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html",
+    "text": "1801: First regular population census for Great Britain held\n1836: The Births and Deaths Registration Act and the Marriage Act received Royal Assent, thereby establishing secular system for recording births, marriages and deaths.\n1837: General Register Office (GRO) for England and Wales established"
+   }
+  },
+  {
+   "id": "R-F1-14-home",
+   "role": "context",
+   "url": "https://uksa.statisticsauthority.gov.uk/",
+   "host": "uksa.statisticsauthority.gov.uk",
+   "path": "/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "UK Statistics Authority - UK Statistics Authority",
+   "publisher": "uksa.statisticsauthority.gov.uk",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-14",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "UK Statistics Authority - UK Statistics Authority ",
+     " Skip to main content ",
+     " Toggle search ",
+     " Menu",
+     " Home ",
+     " About us About us ",
+     " About us ",
+     "Learn more about the UK Statistics Authority ",
+     " About the UK Statistics Authority ",
+     " What is the UK Statistical System? ",
+     " Corporate Information ",
+     " Strategy and Business Plans ",
+     " Careers ",
+     " Our policies ",
+     " Our work Our work ",
+     " Our work ",
+     "Explore our catalogue of work ",
+     " Publications ",
+     " Correspondence ",
+     " Parliamentary Committee Submissions ",
+     " Guidance ",
+     " Data ethics ",
+     " UK Statistics Assembly ",
+     " Working internationally ",
+     " Digital Economy Act: Research and Statistics Powers ",
+     " Boards and committees Boards and committees ",
+     " Boards and committees ",
+     "Learn more about the Authority Board and committees ",
+     " The Board ",
+     " Committees and panels "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "UK Statistics Authority - UK Statistics Authority",
+    "text": "UK Statistics Authority - UK Statistics Authority \n Skip to main content \n Toggle search \n Menu\n Home \n About us About us \n About us \nLearn more about the UK Statistics Authority \n About the UK Statistics Authority \n What is the UK Statistical System? \n Corporate Information \n Strategy and Business Plans \n Careers \n Our policies \n Our work Our work \n Our work \nExplore our catalogue of work \n Publications \n Correspondence \n Parliamentary Committee Submissions \n Guidance \n Data ethics \n UK Statistics Assembly \n Working internationally \n Digital Economy Act: Research and Statistics Powers \n Boards and committees Boards and committees \n Boards and committees \nLearn more about the Authority Board and committees \n The Board \n Committees and panels \n Minutes and papers \n News \nSearch this website \n Search on UK Statistics Authority \n Search \nIndependent oversight of the UK statistical system \nThe UK Statistics Authority oversees the UK statistical system as a whole. It includes the Office for National Statistics and the Office for Statistics Regulation. \n Learn about the UK Statistics Authority \n How the UK statistics system works \n UK Statistics Authority \n The UK Statistics Authority is an independent statutory body, established in 2008 to safeguard the production and publication of official statistics that serve the public good. The Authority is responsible for the running of the Office for National Statistics and the Office for Statistics Regulation, as well as supervising offic"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "redirect_home",
+  "signal": "ambiguous",
+  "targets": [
+   "R-F1-14-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:01:05Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 301,
+   "class": "redirect_home",
+   "location": "https://uksa.statisticsauthority.gov.uk/",
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'UK Statistics Authority'",
+  "archive_url": "https://web.archive.org/web/20181028033625/https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html"
+ },
+ "oracle_query": "Timeline",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Timeline"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20181028033625/https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "1836",
+     "sources": [
+      "https://web.archive.org/web/20181028033625/https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20181028033625/https://www.statisticsauthority.gov.uk/archive/about-the-authority/uk-statistical-system/history/timeline.html",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2018-10-28",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

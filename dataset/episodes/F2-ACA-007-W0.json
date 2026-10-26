@@ -1,0 +1,1034 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F2-ACA-007-W0",
+ "goal_id": "F2-ACA-007",
+ "family": "F2",
+ "world": "W0",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "A reviewer asked me to double-check a value from the 2025 paper by Ferreira and colleagues on graph sparsification in Journal of Alpine Hydrology (http://review.example/pdf/fada1b8e609b1d5adbc579642bbf1c.pdf).\nIt has to be the WWWX 2025 camera-ready version. What estimated capacity does Table 2 report for station L-08? Please give the value with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "estimated capacity",
+  "unit": "bits/param",
+  "canonical": "2.7",
+  "entity": "L-08"
+ },
+ "resources": [
+  {
+   "id": "F2-ACA-007-canon",
+   "role": "canonical",
+   "host": "review.example",
+   "path": "/pdf/fada1b8e609b1d5adbc579642bbf1c.pdf",
+   "url": "http://review.example/pdf/fada1b8e609b1d5adbc579642bbf1c.pdf",
+   "kind": "page",
+   "site_type": "review",
+   "title": "A Stochastic Model of Graph Sparsification",
+   "publisher": "Journal of Alpine Hydrology",
+   "date": "2025-11-10",
+   "version_label": "Camera-ready, WWWX 2025",
+   "expression": "VoR",
+   "work_id": "work-fada1b",
+   "entity": "L-08",
+   "field_label": "estimated capacity",
+   "unit": "bits/param",
+   "body": {
+    "paragraphs": [
+     "We study graph sparsification across five monitoring stations using a nonparametric model.",
+     "Authors: Oskar Ferreira, Chiara Navarro. Published in Journal of Alpine Hydrology, 2025.",
+     "Table 2 reports the estimated capacity for each station."
+    ],
+    "table_caption": "Table 2: Estimated capacity by station",
+    "table_header": [
+     "",
+     "estimated capacity (bits/param)"
+    ],
+    "table": [
+     [
+      "S-12",
+      "7.3"
+     ],
+     [
+      "N-26",
+      "4.0"
+     ],
+     [
+      "L-08",
+      "2.7"
+     ],
+     [
+      "M-09",
+      "5.0"
+     ],
+     [
+      "B-04",
+      "4.4"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "2.7",
+   "cell_value": "2.7",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report estimated capacity measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional estimated capacity at 1.7 bits/param; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of graph sparsification relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the estimated capacity for each station in the 2025 campaign. The largest change relative to 2022 was observed at station S-12."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Quiroga et al. (2019). [2] Ilunga and Wenzel (2021). [3] Vasquez et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1553",
+        "1990",
+        "4049"
+       ],
+       [
+        "S-12",
+        "153",
+        "1998",
+        "1305"
+       ],
+       [
+        "N-26",
+        "989",
+        "1985",
+        "3818"
+       ],
+       [
+        "M-09",
+        "57",
+        "1992",
+        "1838"
+       ],
+       [
+        "B-04",
+        "1175",
+        "1991",
+        "1821"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Estimated capacity in the 2022 campaign",
+      "header": [
+       "",
+       "estimated capacity (bits/param)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "4.6"
+       ],
+       [
+        "S-12",
+        "4.0"
+       ],
+       [
+        "N-26",
+        "4.3"
+       ],
+       [
+        "M-09",
+        "1.7"
+       ],
+       [
+        "B-04",
+        "3.9"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F2-ACA-007-faith",
+   "role": "faithful",
+   "host": "review.example",
+   "path": "/forum?id=Ffada1b",
+   "url": "http://review.example/forum?id=Ffada1b",
+   "kind": "page",
+   "site_type": "review",
+   "title": "A Stochastic Model of Graph Sparsification",
+   "publisher": "Review.example (WWWX 2025 accepted paper)",
+   "date": "2025-11-10",
+   "version_label": "Camera-ready, WWWX 2025",
+   "expression": "VoR",
+   "work_id": "work-fada1b",
+   "entity": "L-08",
+   "field_label": "estimated capacity",
+   "unit": "bits/param",
+   "body": {
+    "paragraphs": [
+     "We study graph sparsification across five monitoring stations using a nonparametric model.",
+     "Authors: Oskar Ferreira, Chiara Navarro. Published in Journal of Alpine Hydrology, 2025.",
+     "Table 2 reports the estimated capacity for each station."
+    ],
+    "table_caption": "Table 2: Estimated capacity by station",
+    "table_header": [
+     "",
+     "estimated capacity (bits/param)"
+    ],
+    "table": [
+     [
+      "S-12",
+      "7.3"
+     ],
+     [
+      "N-26",
+      "4.0"
+     ],
+     [
+      "L-08",
+      "2.7"
+     ],
+     [
+      "M-09",
+      "5.0"
+     ],
+     [
+      "B-04",
+      "4.4"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "2.7",
+   "cell_value": "2.7",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report estimated capacity measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional estimated capacity at 1.7 bits/param; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of graph sparsification relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the estimated capacity for each station in the 2025 campaign. The largest change relative to 2022 was observed at station S-12."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Quiroga et al. (2019). [2] Ilunga and Wenzel (2021). [3] Vasquez et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1553",
+        "1990",
+        "4049"
+       ],
+       [
+        "S-12",
+        "153",
+        "1998",
+        "1305"
+       ],
+       [
+        "N-26",
+        "989",
+        "1985",
+        "3818"
+       ],
+       [
+        "M-09",
+        "57",
+        "1992",
+        "1838"
+       ],
+       [
+        "B-04",
+        "1175",
+        "1991",
+        "1821"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Estimated capacity in the 2022 campaign",
+      "header": [
+       "",
+       "estimated capacity (bits/param)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "4.6"
+       ],
+       [
+        "S-12",
+        "4.0"
+       ],
+       [
+        "N-26",
+        "4.3"
+       ],
+       [
+        "M-09",
+        "1.7"
+       ],
+       [
+        "B-04",
+        "3.9"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "other_item_same_version",
+   "chain": [
+    "http://scholar.example/search?q=A+Stochastic+Model+of+Graph+Sparsification",
+    "http://scholar.example/work/fada1b",
+    "http://scholar.example/work/fada1b/versions"
+   ],
+   "inspect": {
+    "http://scholar.example/work/fada1b/versions": []
+   }
+  },
+  {
+   "id": "F2-ACA-007-dec0",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/fada1b0",
+   "url": "http://filedump.example/f/fada1b0",
+   "kind": "page",
+   "site_type": "cache",
+   "title": "A Stochastic Model of Graph Sparsification",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "VoR",
+   "work_id": "work-fada1b",
+   "entity": "L-08",
+   "field_label": "estimated capacity",
+   "unit": "bits/param",
+   "body": {
+    "paragraphs": [
+     "We study graph sparsification across five monitoring stations using a nonparametric model.",
+     "Authors: Oskar Ferreira, Chiara Navarro. Published in Journal of Alpine Hydrology, 2025.",
+     "Table 2 reports the estimated capacity for each station."
+    ],
+    "table_caption": "Table 2: Estimated capacity by station",
+    "table_header": [
+     "",
+     "estimated capacity (bits/param)"
+    ],
+    "table": [
+     [
+      "S-12",
+      "7.3"
+     ],
+     [
+      "N-26",
+      "4.0"
+     ],
+     [
+      "L-08",
+      "3.1"
+     ],
+     [
+      "M-09",
+      "5.0"
+     ],
+     [
+      "B-04",
+      "4.4"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "value": "3.1",
+   "cell_value": "3.1",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report estimated capacity measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional estimated capacity at 1.7 bits/param; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of graph sparsification relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the estimated capacity for each station in the 2025 campaign. The largest change relative to 2022 was observed at station S-12."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Quiroga et al. (2019). [2] Ilunga and Wenzel (2021). [3] Vasquez et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1553",
+        "1990",
+        "4049"
+       ],
+       [
+        "S-12",
+        "153",
+        "1998",
+        "1305"
+       ],
+       [
+        "N-26",
+        "989",
+        "1985",
+        "3818"
+       ],
+       [
+        "M-09",
+        "57",
+        "1992",
+        "1838"
+       ],
+       [
+        "B-04",
+        "1175",
+        "1991",
+        "1821"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Estimated capacity in the 2022 campaign",
+      "header": [
+       "",
+       "estimated capacity (bits/param)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "4.6"
+       ],
+       [
+        "S-12",
+        "4.0"
+       ],
+       [
+        "N-26",
+        "4.3"
+       ],
+       [
+        "M-09",
+        "1.7"
+       ],
+       [
+        "B-04",
+        "3.9"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F2-ACA-007-rel0",
+   "role": "related",
+   "host": "journal-of-alpine-hydrology.example",
+   "path": "/articles/89a73d-scaling-laws-for-graph-sparsification",
+   "url": "http://journal-of-alpine-hydrology.example/articles/89a73d-scaling-laws-for-graph-sparsification",
+   "kind": "page",
+   "site_type": "journal",
+   "title": "Scaling Laws for Graph Sparsification",
+   "publisher": "Journal of Alpine Hydrology",
+   "date": "2024-07-16",
+   "version_label": "Version of Record, Journal of Alpine Hydrology (2024)",
+   "expression": "related work",
+   "work_id": "work-89a73d",
+   "entity": "L-08",
+   "field_label": "estimated capacity",
+   "unit": "bits/param",
+   "body": {
+    "paragraphs": [
+     "We study graph sparsification at five monitoring stations.",
+     "Authors: Ana Ferreira, Bilal Haldane, Chiara Nakamura. Published in Journal of Alpine Hydrology, 2024."
+    ],
+    "table_caption": "Table 2: Estimated capacity by station",
+    "table_header": [
+     "",
+     "estimated capacity (bits/param)"
+    ],
+    "table": [
+     [
+      "S-12",
+      "4.8"
+     ],
+     [
+      "N-26",
+      "3.7"
+     ],
+     [
+      "L-08",
+      "4.8"
+     ],
+     [
+      "M-09",
+      "4.6"
+     ],
+     [
+      "B-04",
+      "4.3"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "4.8",
+   "cell_value": "4.8",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report estimated capacity measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional estimated capacity at 1.7 bits/param; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of graph sparsification relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the estimated capacity for each station in the 2025 campaign. The largest change relative to 2022 was observed at station S-12."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Quiroga et al. (2019). [2] Ilunga and Wenzel (2021). [3] Vasquez et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1553",
+        "1990",
+        "4049"
+       ],
+       [
+        "S-12",
+        "153",
+        "1998",
+        "1305"
+       ],
+       [
+        "N-26",
+        "989",
+        "1985",
+        "3818"
+       ],
+       [
+        "M-09",
+        "57",
+        "1992",
+        "1838"
+       ],
+       [
+        "B-04",
+        "1175",
+        "1991",
+        "1821"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Estimated capacity in the 2022 campaign",
+      "header": [
+       "",
+       "estimated capacity (bits/param)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "4.6"
+       ],
+       [
+        "S-12",
+        "4.0"
+       ],
+       [
+        "N-26",
+        "4.3"
+       ],
+       [
+        "M-09",
+        "1.7"
+       ],
+       [
+        "B-04",
+        "3.9"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "authors": [
+    "Ana Ferreira",
+    "Bilal Haldane",
+    "Chiara Nakamura"
+   ],
+   "year": 2024
+  },
+  {
+   "id": "F2-ACA-007-rel1",
+   "role": "related",
+   "host": "journal-of-alpine-hydrology.example",
+   "path": "/articles/3fc00e-learning-graph-sparsification",
+   "url": "http://journal-of-alpine-hydrology.example/articles/3fc00e-learning-graph-sparsification",
+   "kind": "page",
+   "site_type": "journal",
+   "title": "Learning Graph Sparsification",
+   "publisher": "Journal of Alpine Hydrology",
+   "date": "2025-10-21",
+   "version_label": "Version of Record, Journal of Alpine Hydrology (2025)",
+   "expression": "related work",
+   "work_id": "work-3fc00e",
+   "entity": "L-08",
+   "field_label": "estimated capacity",
+   "unit": "bits/param",
+   "body": {
+    "paragraphs": [
+     "We study graph sparsification at five monitoring stations.",
+     "Authors: Hana Kowalczyk, Ines Petrenko, Jonas Brennick. Published in Journal of Alpine Hydrology, 2025."
+    ],
+    "table_caption": "Table 2: Estimated capacity by station",
+    "table_header": [
+     "",
+     "estimated capacity (bits/param)"
+    ],
+    "table": [
+     [
+      "S-12",
+      "1.3"
+     ],
+     [
+      "N-26",
+      "1.3"
+     ],
+     [
+      "L-08",
+      "4.8"
+     ],
+     [
+      "M-09",
+      "1.4"
+     ],
+     [
+      "B-04",
+      "1.2"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "4.8",
+   "cell_value": "4.8",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report estimated capacity measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional estimated capacity at 1.7 bits/param; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of graph sparsification relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the estimated capacity for each station in the 2025 campaign. The largest change relative to 2022 was observed at station S-12."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Quiroga et al. (2019). [2] Ilunga and Wenzel (2021). [3] Vasquez et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1553",
+        "1990",
+        "4049"
+       ],
+       [
+        "S-12",
+        "153",
+        "1998",
+        "1305"
+       ],
+       [
+        "N-26",
+        "989",
+        "1985",
+        "3818"
+       ],
+       [
+        "M-09",
+        "57",
+        "1992",
+        "1838"
+       ],
+       [
+        "B-04",
+        "1175",
+        "1991",
+        "1821"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Estimated capacity in the 2022 campaign",
+      "header": [
+       "",
+       "estimated capacity (bits/param)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "4.6"
+       ],
+       [
+        "S-12",
+        "4.0"
+       ],
+       [
+        "N-26",
+        "4.3"
+       ],
+       [
+        "M-09",
+        "1.7"
+       ],
+       [
+        "B-04",
+        "3.9"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "authors": [
+    "Hana Kowalczyk",
+    "Ines Petrenko",
+    "Jonas Brennick"
+   ],
+   "year": 2025
+  },
+  {
+   "id": "F2-ACA-007-hub-scholar-meta0",
+   "role": "hub",
+   "host": "researchnet.example",
+   "path": "/record/fada1b",
+   "url": "http://researchnet.example/record/fada1b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "A Stochastic Model of Graph Sparsification",
+   "publisher": "researchnet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Oskar Ferreira, Chiara Navarro.",
+     "Journal of Alpine Hydrology, 2025.",
+     "Full text not available here. Request it from the authors."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-ACA-007-hub-scholar-work",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/fada1b",
+   "url": "http://scholar.example/work/fada1b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "A Stochastic Model of Graph Sparsification",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Oskar Ferreira, Chiara Navarro.",
+     "Journal of Alpine Hydrology, 2025.",
+     "Topic: graph sparsification.",
+     "DOI: 10.5072/fada1b"
+    ]
+   },
+   "links": [
+    [
+     "http://review.example/pdf/fada1b8e609b1d5adbc579642bbf1c.pdf",
+     "[HTML] review.example"
+    ],
+    [
+     "http://scholar.example/work/fada1b/versions",
+     "All 3 versions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F2-ACA-007-hub-scholar-versions",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/fada1b/versions",
+   "url": "http://scholar.example/work/fada1b/versions",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "All versions of: A Stochastic Model of Graph Sparsification",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sources holding this work, as found by the index. Version information is given on each source page."
+    ]
+   },
+   "links": [
+    [
+     "http://review.example/pdf/fada1b8e609b1d5adbc579642bbf1c.pdf",
+     "A Stochastic Model of Graph Sparsification - review.example"
+    ],
+    [
+     "http://review.example/forum?id=Ffada1b",
+     "A Stochastic Model of Graph Sparsification - review.example"
+    ],
+    [
+     "http://researchnet.example/record/fada1b",
+     "A Stochastic Model of Graph Sparsification - researchnet.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F2-ACA-007-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F2-ACA-007-W1b",
+  "unrecoverable": "F2-ACA-007-W2",
+  "twin": "F2-ACA-007-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://review.example/pdf/fada1b8e609b1d5adbc579642bbf1c.pdf"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://review.example/pdf/fada1b8e609b1d5adbc579642bbf1c.pdf?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "2.7 bits/param",
+     "sources": [
+      "http://review.example/pdf/fada1b8e609b1d5adbc579642bbf1c.pdf"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "2.7 bits/param",
+   "sources": [
+    "http://review.example/pdf/fada1b8e609b1d5adbc579642bbf1c.pdf"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

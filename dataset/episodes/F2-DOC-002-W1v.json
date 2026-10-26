@@ -1,0 +1,452 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F2-DOC-002-W1v",
+ "goal_id": "F2-DOC-002",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "docs",
+ "task_type": "IR",
+ "goal": "I'm tuning cobaltq v2.1 and want to confirm the default value of `timeout` (request timeout) in the official documentation: http://docs.cobaltq.example/reference/b587c3-cobaltq-v2-1-configuration-reference\nIt has to be the documentation of v2.1 exactly. What is the default? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "request timeout",
+  "unit": "s",
+  "canonical": "82",
+  "entity": "timeout"
+ },
+ "resources": [
+  {
+   "id": "F2-DOC-002-canon",
+   "role": "canonical",
+   "host": "docs.cobaltq.example",
+   "path": "/reference/b587c3-cobaltq-v2-1-configuration-reference",
+   "url": "http://docs.cobaltq.example/reference/b587c3-cobaltq-v2-1-configuration-reference",
+   "kind": "page",
+   "site_type": "docs",
+   "title": "cobaltq v2.1 configuration reference",
+   "publisher": "cobaltq project",
+   "date": "2025-04-10",
+   "version_label": "cobaltq documentation v2.1",
+   "expression": "v2.1",
+   "work_id": "work-b587c3",
+   "entity": "timeout",
+   "field_label": "request timeout",
+   "unit": "s",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for cobaltq v2.1.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "request timeout (s)"
+    ],
+    "table": [
+     [
+      "page_limit",
+      "141"
+     ],
+     [
+      "timeout",
+      "82"
+     ],
+     [
+      "backoff_ms",
+      "732"
+     ],
+     [
+      "max_batch",
+      "974"
+     ],
+     [
+      "pool_size",
+      "50"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "82",
+   "cell_value": "82",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with COBALTQ_."
+     ],
+     [
+      "Changelog",
+      "v2.0: the default of `pool_size` changed from 51 to the value shown below. v1.4: `pool_size` deprecated in favour of `timeout`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 155 for `timeout`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_page_limit",
+        "v2.0",
+        "page_limit"
+       ],
+       [
+        "legacy_backoff_ms",
+        "v2.0",
+        "backoff_ms"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F2-DOC-002-var0",
+   "role": "variant",
+   "host": "docs.cobaltq.example",
+   "path": "/v1.1/reference",
+   "url": "http://docs.cobaltq.example/v1.1/reference",
+   "kind": "page",
+   "site_type": "docs",
+   "title": "cobaltq v2.1 configuration reference",
+   "publisher": "cobaltq project",
+   "date": "2025-04-10",
+   "version_label": "cobaltq documentation v1.1",
+   "expression": "v1.1",
+   "work_id": "work-b587c3",
+   "entity": "timeout",
+   "field_label": "request timeout",
+   "unit": "s",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for cobaltq v2.1.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "request timeout (s)"
+    ],
+    "table": [
+     [
+      "page_limit",
+      "141"
+     ],
+     [
+      "timeout",
+      "94"
+     ],
+     [
+      "backoff_ms",
+      "732"
+     ],
+     [
+      "max_batch",
+      "974"
+     ],
+     [
+      "pool_size",
+      "50"
+     ]
+    ]
+   },
+   "cue": "You are viewing the documentation for v1.1. Defaults changed in v2.1.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "94",
+   "cell_value": "94",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with COBALTQ_."
+     ],
+     [
+      "Changelog",
+      "v2.0: the default of `pool_size` changed from 51 to the value shown below. v1.4: `pool_size` deprecated in favour of `timeout`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 155 for `timeout`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_page_limit",
+        "v2.0",
+        "page_limit"
+       ],
+       [
+        "legacy_backoff_ms",
+        "v2.0",
+        "backoff_ms"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-E",
+   "delta": {
+    "timeout": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://pkgindex.example/search?q=cobaltq",
+    "http://pkgindex.example/project/cobaltq",
+    "http://pkgindex.example/project/cobaltq/docs",
+    "http://docs.cobaltq.example/v1.1/"
+   ],
+   "site_search": false
+  },
+  {
+   "id": "F2-DOC-002-hub-pkg-project",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/cobaltq",
+   "url": "http://pkgindex.example/project/cobaltq",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "cobaltq",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "cobaltq - cobaltq project.",
+     "Releases, source code and documentation links."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.cobaltq.example/",
+     "Homepage"
+    ],
+    [
+     "http://pkgindex.example/project/cobaltq/docs",
+     "Documentation (all versions)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F2-DOC-002-hub-pkg-ver0",
+   "role": "hub",
+   "host": "docs.cobaltq.example",
+   "path": "/v1.1/",
+   "url": "http://docs.cobaltq.example/v1.1/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "cobaltq v1.1 documentation",
+   "publisher": "docs.cobaltq.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Documentation for cobaltq v1.1."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.cobaltq.example/v1.1/reference",
+     "Configuration reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-DOC-002-hub-pkg-docs",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/cobaltq/docs",
+   "url": "http://pkgindex.example/project/cobaltq/docs",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "cobaltq documentation",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted documentation by version."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.cobaltq.example/reference/b587c3-cobaltq-v2-1-configuration-reference",
+     "v2.1 - docs.cobaltq.example"
+    ],
+    [
+     "http://docs.cobaltq.example/v1.1/",
+     "v1.1 - docs.cobaltq.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "version_silent",
+  "signal": "silent",
+  "targets": [
+   "F2-DOC-002-canon"
+  ],
+  "params": {
+   "serve": "F2-DOC-002-var0"
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F2-DOC-002-W1v",
+  "unrecoverable": "F2-DOC-002-W3",
+  "twin": "F2-DOC-002-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://docs.cobaltq.example/reference/b587c3-cobaltq-v2-1-configuration-reference"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://pkgindex.example/search?q=cobaltq"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://pkgindex.example/project/cobaltq"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://pkgindex.example/project/cobaltq/docs"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://docs.cobaltq.example/v1.1/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://docs.cobaltq.example/v1.1/reference"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://docs.cobaltq.example/v1.1/reference?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "94 s",
+     "sources": [
+      "http://docs.cobaltq.example/v1.1/reference"
+     ],
+     "substitutions": [
+      {
+       "url": "http://docs.cobaltq.example/v1.1/reference",
+       "relation": "other_version",
+       "version_id": "cobaltq documentation v1.1",
+       "note": "This is cobaltq documentation v1.1, not the requested version; the request timeout may differ from the requested version."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "94 s",
+   "sources": [
+    "http://docs.cobaltq.example/v1.1/reference"
+   ],
+   "substitutions": [
+    {
+     "url": "http://docs.cobaltq.example/v1.1/reference",
+     "relation": "other_version",
+     "version_id": "cobaltq documentation v1.1",
+     "note": "This is cobaltq documentation v1.1, not the requested version; the request timeout may differ from the requested version."
+    }
+   ],
+   "diagnosis": "version",
+   "confidence": 0.6
+  }
+ }
+}

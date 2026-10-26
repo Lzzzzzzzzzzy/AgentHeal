@@ -1,0 +1,207 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F4-01",
+ "goal_id": "R-F4-01",
+ "family": "F4",
+ "world": "W1a",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm reviewing methods for tracking migratory birds and need a result from \"Comparing inferences of solar geolocation data against high-precision GPS data: annual movements of a double-tagged black-tailed godwit\" (DOI 10.1111/jav.00891): https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/jav.00891\nBy how many kilometres (mean great-circle distance, equinoxes included) did the FLightR location estimates deviate from the GPS positions? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "by how many kilometres (mean great-circle distance, equinoxes included) did the FLightR location estimates deviate from the GPS positions",
+  "unit": "km",
+  "canonical": "43.3",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F4-01-canon",
+   "role": "canonical",
+   "url": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/jav.00891",
+   "host": "nsojournals.onlinelibrary.wiley.com",
+   "path": "/doi/10.1111/jav.00891",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Comparing inferences of solar geolocation data against high‐precision GPS data: annual movements of a double‐tagged black‐tailed godwit",
+   "publisher": "nsojournals.onlinelibrary.wiley.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F4-01",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Just a moment..."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 403,
+    "title": "Comparing inferences of solar geolocation data against high‐precision GPS data: annual movements of a double‐tagged black‐tailed godwit",
+    "text": "Just a moment..."
+   }
+  },
+  {
+   "id": "R-F4-01-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1111/jav.00891",
+   "host": "doi.org",
+   "path": "/10.1111/jav.00891",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F4-01",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/jav.00891"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/jav.00891"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/jav.00891"
+   }
+  },
+  {
+   "id": "R-F4-01-faith",
+   "role": "faithful",
+   "url": "http://www.vliz.be/imisdocs/publications/81/294681.pdf",
+   "host": "www.vliz.be",
+   "path": "/imisdocs/publications/81/294681.pdf",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Comparing inferences of solar geolocation data against high‐precision GPS data: annual movements of a double‐tagged black‐tailed godwit",
+   "publisher": "www.vliz.be",
+   "date": "",
+   "version_label": "NIOZ Publications (Royal Netherlands Institute for Sea Research) copy of the published version",
+   "work_id": "R-F4-01",
+   "value": "43.3",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Comparing inferences of solar geolocation data against high‐precision GPS data: annual movements of a double‐tagged black‐tailed godwit",
+     "...",
+     "ew 2035 km nonstop from The Netherlands to southern Spain. It then spent the entire nonbreeding season in the southern part of the Iberian Peninsula before returning to The Netherlands the following spring, stopping for 7 days in the delta of the Ebro River in Spain, and again for a day in central Belgium. To compare the geolocation and GPS data, we analysed the geolocation data with two open-source software packages: one using a threshold method (GeoLight) and the other a template-fit approach (FLightR). Estimates using GeoLight, on average, deviated from the individual’s true position by 495.5 ± 1031.2 km (great circle distance with equinoxes excluded), while FLightR estimates deviated by 43.3 ± 51.5 km (great circle distance with equinoxes included). Arrival and departure schedules estimated by FLightR were within 12 hours of those determined by the GPS tracker, whereas GeoLight’s estimates were less precise. For the analysed track, FLightR represents an improvement over GeoLight; if true for other species and conditions, FLightR will hopefully help establish more precise and accurate uses of geolocation data in tracking studies. To aid future improvements in the analysis of sol",
+     "..."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Comparing inferences of solar geolocation data against high‐precision GPS data: annual movements of a double‐tagged black‐tailed godwit",
+    "text": "Comparing inferences of solar geolocation data against high‐precision GPS data: annual movements of a double‐tagged black‐tailed godwit\n...\new 2035 km nonstop from The Netherlands to southern Spain. It then spent the entire nonbreeding season in the southern part of the Iberian Peninsula before returning to The Netherlands the following spring, stopping for 7 days in the delta of the Ebro River in Spain, and again for a day in central Belgium. To compare the geolocation and GPS data, we analysed the geolocation data with two open-source software packages: one using a threshold method (GeoLight) and the other a template-fit approach (FLightR). Estimates using GeoLight, on average, deviated from the individual’s true position by 495.5 ± 1031.2 km (great circle distance with equinoxes excluded), while FLightR estimates deviated by 43.3 ± 51.5 km (great circle distance with equinoxes included). Arrival and departure schedules estimated by FLightR were within 12 hours of those determined by the GPS tracker, whereas GeoLight’s estimates were less precise. For the analysed track, FLightR represents an improvement over GeoLight; if true for other species and conditions, FLightR will hopefully help establish more precise and accurate uses of geolocation data in tracking studies. To aid future improvements in the analysis of sol\n..."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "hard_paywall",
+  "signal": "explicit",
+  "targets": [
+   "R-F4-01-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:38:31Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 403,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; published version at NIOZ Publications (Royal Netherlands Institute for Sea Research)"
+ },
+ "oracle_query": "Comparing inferences of solar geolocation data against high‐precision GPS data: annual movements of a double‐tagged black‐tailed godwit",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Comparing inferences of solar geolocation data against high‐precision GPS data: annual movements of a double‐tagged black‐tailed godwit"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/jav.00891"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://www.vliz.be/imisdocs/publications/81/294681.pdf"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "43.3 km",
+     "sources": [
+      "http://www.vliz.be/imisdocs/publications/81/294681.pdf"
+     ],
+     "substitutions": [
+      {
+       "url": "http://www.vliz.be/imisdocs/publications/81/294681.pdf",
+       "relation": "same_version",
+       "version_id": "NIOZ Publications (Royal Netherlands Institute for Sea Research) copy of the published version",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "paywall",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

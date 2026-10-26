@@ -1,0 +1,232 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-05",
+ "goal_id": "R-F2-05",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "My reading group is discussing \"Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing\" (IEEE Transactions on Circuits and Systems for Video Technology, 2023; DOI 10.1109/tcsvt.2023.3337134), and I want to quote a result from the published version: https://ieeexplore.ieee.org/document/10329331/\nIn the table \"Effectiveness of DGM on CREMA-D dataset\", what value is reported for \"Baseline [ 22 ]\" in the column \"Accuracy\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Baseline [ 22 ] / Accuracy",
+  "unit": "",
+  "canonical": "61.1",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-05-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/10329331/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/10329331/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-05",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F2-05-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/tcsvt.2023.3337134",
+   "host": "doi.org",
+   "path": "/10.1109/tcsvt.2023.3337134",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-05",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/10329331/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/10329331/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/10329331/"
+   }
+  },
+  {
+   "id": "R-F2-05-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2307.02041",
+   "host": "arxiv.org",
+   "path": "/html/2307.02041",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2307.02041 (submitted version)",
+   "work_id": "R-F2-05",
+   "value": "61.1",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing",
+     "arXiv:2307.02041 [preprint]",
+     "TABLE II: Effectiveness of DGM on CREMA-D dataset.",
+     "Baseline [ 22 ] 61.1 DGM 61.8 (+0.7)"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing",
+    "tables": [
+     {
+      "caption": "TABLE II: Effectiveness of DGM on CREMA-D dataset.",
+      "header": [
+       "Methods",
+       "Accuracy"
+      ],
+      "rows": [
+       [
+        "Baseline [ 22 ]",
+        "61.1"
+       ],
+       [
+        "DGM",
+        "61.8 (+0.7)"
+       ]
+      ]
+     }
+    ],
+    "text": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing\narXiv:2307.02041 [preprint]\nTABLE II: Effectiveness of DGM on CREMA-D dataset."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-05-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:02:30Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/10329331/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2307.02041"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "61.1",
+     "sources": [
+      "https://arxiv.org/html/2307.02041"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2307.02041",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2307.02041 (submitted version)",
+       "note": "This is arXiv preprint 2307.02041 (submitted version), not the requested version; the Baseline [ 22 ] / Accuracy may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

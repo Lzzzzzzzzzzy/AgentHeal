@@ -1,0 +1,239 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F9-08",
+ "goal_id": "R-F9-08",
+ "family": "F9",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "An old dashboard of mine reads Hacker News item 1 from https://hn.algolia.com/api/v0/items/1\nHow many points does the first Hacker News item have? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Hacker News Algolia v0",
+  "unit": "points",
+  "canonical": "57",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F9-08-canon",
+   "role": "canonical",
+   "url": "https://hn.algolia.com/api/v0/items/1",
+   "host": "hn.algolia.com",
+   "path": "/api/v0/items/1",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "404 Hacker News Algolia v0",
+   "publisher": "hn.algolia.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-08",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     " 404 Not Found ",
+     " Not Found ",
+     " The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "headers": {},
+    "title": "404 Hacker News Algolia v0",
+    "observed_at": "2026-10-16T18:21:29Z",
+    "text": " \n \n 404 Not Found \n Not Found \n The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again. \n"
+   }
+  },
+  {
+   "id": "R-F9-08-faith",
+   "role": "faithful",
+   "url": "https://hn.algolia.com/api/v1/items/1",
+   "host": "hn.algolia.com",
+   "path": "/api/v1/items/1",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Hacker News Algolia v0 replacement",
+   "publisher": "hn.algolia.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-08",
+   "value": "57",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"author\": \"pg\",",
+     " \"children\": [",
+     "  {",
+     "   \"author\": \"sama\",",
+     "   \"children\": [",
+     "    {",
+     "     \"author\": \"pg\",",
+     "     \"children\": [",
+     "      {",
+     "       \"author\": \"dmon\",",
+     "       \"children\": [],",
+     "       \"created_at\": \"2007-02-25T22:18:23.000Z\",",
+     "       \"created_at_i\": 1172441903,",
+     "       \"id\": 1079,",
+     "       \"options\": [],",
+     "       \"parent_id\": 17,",
+     "       \"points\": null,",
+     "       \"story_id\": 1,",
+     "       \"text\": \"sure\",",
+     "       \"title\": null,",
+     "       \"type\": \"comment\",",
+     "       \"url\": null",
+     "      }",
+     "     ],",
+     "     \"created_at\": \"2006-10-09T19:52:45.000Z\",",
+     "     \"created_at_i\": 1160423565,",
+     "     \"id\": 17,",
+     "     \"options\": [],",
+     "     \"parent_id\": 15,"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json",
+    "title": "Hacker News Algolia v0 replacement",
+    "text": "{\n \"author\": \"pg\",\n \"children\": [\n  {\n   \"author\": \"sama\",\n   \"children\": [\n    {\n     \"author\": \"pg\",\n     \"children\": [\n      {\n       \"author\": \"dmon\",\n       \"children\": [],\n       \"created_at\": \"2007-02-25T22:18:23.000Z\",\n       \"created_at_i\": 1172441903,\n       \"id\": 1079,\n       \"options\": [],\n       \"parent_id\": 17,\n       \"points\": null,\n       \"story_id\": 1,\n       \"text\": \"sure\",\n       \"title\": null,\n       \"type\": \"comment\",\n       \"url\": null\n      }\n     ],\n     \"created_at\": \"2006-10-09T19:52:45.000Z\",\n     \"created_at_i\": 1160423565,\n     \"id\": 17,\n     \"options\": [],\n     \"parent_id\": 15,\n     \"points\": null,\n     \"story_id\": 1,\n     \"text\": \"Is there anywhere to eat on Sandhill Road?\",\n     \"title\": null,\n     \"type\": \"comment\",\n     \"url\": null\n    }\n   ],\n   \"created_at\": \"2006-10-09T19:51:01.000Z\",\n   \"created_at_i\": 1160423461,\n   \"id\": 15,\n   \"options\": [],\n   \"parent_id\": 1,\n   \"points\": null,\n   \"story_id\": 1,\n   \"text\": \"&#34;the rising star of venture capital&#34; -unknown VC eating lunch on SHR\",\n   \"title\": null,\n   \"type\": \"comment\",\n   \"url\": null\n  }\n ],\n \"created_at\": \"2006-10-09T18:21:51.000Z\",\n \"created_at_i\": 1160418111,\n \"id\": 1,\n \"options\": [],\n \"parent_id\": null,\n \"points\": 57,\n \"story_id\": 1,\n \"text\": null,\n \"title\": \"Y Combinator\",\n \"type\": \"story\",\n \"url\": \"http://ycombinator.com\"\n}"
+   }
+  },
+  {
+   "id": "R-F9-08-doc0",
+   "role": "context",
+   "url": "https://hn.algolia.com/api",
+   "host": "hn.algolia.com",
+   "path": "/api",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Hacker News Search powered by Algolia",
+   "publisher": "hn.algolia.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-08",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Hacker News Search powered by Algolia"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Hacker News Search powered by Algolia",
+    "text": "Hacker News Search powered by Algolia"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "api_retired",
+  "signal": "explicit",
+  "targets": [
+   "R-F9-08-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:21:29Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "error": null,
+   "body_excerpt": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n"
+  },
+  "docs": [
+   "https://hn.algolia.com/api"
+  ]
+ },
+ "oracle_query": "Hacker News Algolia v0 replacement",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Hacker News Algolia v0 replacement"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://hn.algolia.com/api/v0/items/1"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://hn.algolia.com/api/v1/items/1"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "57 points",
+     "sources": [
+      "https://hn.algolia.com/api/v1/items/1"
+     ],
+     "substitutions": [
+      {
+       "url": "https://hn.algolia.com/api/v1/items/1",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "deprecat",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

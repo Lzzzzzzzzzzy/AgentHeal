@@ -1,0 +1,380 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-04",
+ "goal_id": "R-F2-04",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm reproducing a baseline from \"Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds\" (IEEE Transactions on Multimedia, 2023; DOI 10.1109/tmm.2023.3306490) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/10227571/\nIn the table whose caption begins \"Comparison with other state-of-the-art approaches on the KITTI dataset. The instance frame number of each\", what value is reported for \"Frame num.\" in the column \"Car\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Frame num. / Car",
+  "unit": "",
+  "canonical": "6424",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-04-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/10227571/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/10227571/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-04",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F2-04-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/tmm.2023.3306490",
+   "host": "doi.org",
+   "path": "/10.1109/tmm.2023.3306490",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-04",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/10227571/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/10227571/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/10227571/"
+   }
+  },
+  {
+   "id": "R-F2-04-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2301.12057",
+   "host": "arxiv.org",
+   "path": "/html/2301.12057",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2301.12057 (submitted version)",
+   "work_id": "R-F2-04",
+   "value": "6424",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds",
+     "arXiv:2301.12057 [preprint]",
+     "Table 1 : Comparison with other state-of-the-art approaches on the KITTI dataset. The instance frame number of each category is shown under category names, and the mean denotes the average results of all categories. Bold presents the best performance.",
+     "Frame num. 6424 6088 1248 308 14068 Success P2B [ 23 ] 56.2 40.8 40.8 32.1 39.5  BAT [ 32 ] 60.5 42.1 52.4 33.7 47.2  LTTR [ 3 ] 65.0 33.2 35.8 66.2 50.0  V2B [ 8 ] 70.5 48.3 50.1 40.8 58.4  PTTR [ 34 ] 65.2 50.9 52.5 65.1 58.4  STNet [ 9 ] 72.1 49.9 58.0 73.5 61.3  M2-Track [ 33 ] 65.5 61.5 53.8 73.2 62.9  OPSNet (ours) 77.0 65.6 77.7 85.5 72.3 Precision P2B [ 23 ] 72.8 49.6 48.4 44.7 53.9  BAT [ 32 ] 77.7 70.1 67.0 45.4 65.1  LTTR [ 3 ] 77.1 56.8 45.6 89.9 67.4  V2B [ 8 ] 81.3 73.5 58.0 49.7 75.2  PTTR [ 34 ] 77.4 81.6 61.8 90.5 77.8  STNet [ 9 ] 84.0 77.2 70.6 93.7 80.1  M2-Track [ 33 ] 80.8 88.2 70.7 93.5 83.4  OPSNet (ours) 86.1 90.3 85.8 93.7 88.0"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds",
+    "tables": [
+     {
+      "caption": "Table 1 : Comparison with other state-of-the-art approaches on the KITTI dataset. The instance frame number of each category is shown under category names, and the mean denotes the average results of ",
+      "header": [
+       "Category",
+       "Car",
+       "Ped",
+       "Van",
+       "Cyclist",
+       "Mean"
+      ],
+      "rows": [
+       [
+        "Frame num.",
+        "6424",
+        "6088",
+        "1248",
+        "308",
+        "14068"
+       ],
+       [
+        "Success",
+        "P2B [ 23 ]",
+        "56.2",
+        "40.8",
+        "40.8",
+        "32.1",
+        "39.5"
+       ],
+       [
+        "",
+        "BAT [ 32 ]",
+        "60.5",
+        "42.1",
+        "52.4",
+        "33.7",
+        "47.2"
+       ],
+       [
+        "",
+        "LTTR [ 3 ]",
+        "65.0",
+        "33.2",
+        "35.8",
+        "66.2",
+        "50.0"
+       ],
+       [
+        "",
+        "V2B [ 8 ]",
+        "70.5",
+        "48.3",
+        "50.1",
+        "40.8",
+        "58.4"
+       ],
+       [
+        "",
+        "PTTR [ 34 ]",
+        "65.2",
+        "50.9",
+        "52.5",
+        "65.1",
+        "58.4"
+       ],
+       [
+        "",
+        "STNet [ 9 ]",
+        "72.1",
+        "49.9",
+        "58.0",
+        "73.5",
+        "61.3"
+       ],
+       [
+        "",
+        "M2-Track [ 33 ]",
+        "65.5",
+        "61.5",
+        "53.8",
+        "73.2",
+        "62.9"
+       ],
+       [
+        "",
+        "OPSNet (ours)",
+        "77.0",
+        "65.6",
+        "77.7",
+        "85.5",
+        "72.3"
+       ],
+       [
+        "Precision",
+        "P2B [ 23 ]",
+        "72.8",
+        "49.6",
+        "48.4",
+        "44.7",
+        "53.9"
+       ],
+       [
+        "",
+        "BAT [ 32 ]",
+        "77.7",
+        "70.1",
+        "67.0",
+        "45.4",
+        "65.1"
+       ],
+       [
+        "",
+        "LTTR [ 3 ]",
+        "77.1",
+        "56.8",
+        "45.6",
+        "89.9",
+        "67.4"
+       ],
+       [
+        "",
+        "V2B [ 8 ]",
+        "81.3",
+        "73.5",
+        "58.0",
+        "49.7",
+        "75.2"
+       ],
+       [
+        "",
+        "PTTR [ 34 ]",
+        "77.4",
+        "81.6",
+        "61.8",
+        "90.5",
+        "77.8"
+       ],
+       [
+        "",
+        "STNet [ 9 ]",
+        "84.0",
+        "77.2",
+        "70.6",
+        "93.7",
+        "80.1"
+       ],
+       [
+        "",
+        "M2-Track [ 33 ]",
+        "80.8",
+        "88.2",
+        "70.7",
+        "93.5",
+        "83.4"
+       ],
+       [
+        "",
+        "OPSNet (ours)",
+        "86.1",
+        "90.3",
+        "85.8",
+        "93.7",
+        "88.0"
+       ]
+      ]
+     }
+    ],
+    "text": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds\narXiv:2301.12057 [preprint]\nTable 1 : Comparison with other state-of-the-art approaches on the KITTI dataset. The instance frame number of each category is shown under category names, and the mean denotes the average results of all categories. Bold presents the best performance."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-04-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:02:25Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/10227571/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2301.12057"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "6424",
+     "sources": [
+      "https://arxiv.org/html/2301.12057"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2301.12057",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2301.12057 (submitted version)",
+       "note": "This is arXiv preprint 2301.12057 (submitted version), not the requested version; the Frame num. / Car may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

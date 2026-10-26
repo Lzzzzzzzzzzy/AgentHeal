@@ -1,0 +1,206 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-01",
+ "goal_id": "R-F8-01",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "My reference script looks up PubMed records through NCBI's E-utilities: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=33116299&retmode=json\nIn which journal was PMID 33116299 published? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "Nature",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-01-canon",
+   "role": "canonical",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=33116299&retmode=json",
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "path": "/entrez/eutils/esummary.fcgi?db=pubmed&id=33116299&retmode=json",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "eutils.ncbi.nlm.nih.gov",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-01",
+   "value": "Nature",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"header\": {",
+     "  \"type\": \"esummary\",",
+     "  \"version\": \"0.3\"",
+     " },",
+     " \"result\": {",
+     "  \"uids\": [",
+     "   \"33116299\"",
+     "  ],",
+     "  \"33116299\": {",
+     "   \"uid\": \"33116299\",",
+     "   \"pubdate\": \"2021 Jan\",",
+     "   \"epubdate\": \"2020 Oct 28\",",
+     "   \"source\": \"Nature\",",
+     "   \"authors\": [",
+     "    {",
+     "     \"name\": \"Han Y\",",
+     "     \"authtype\": \"Author\",",
+     "     \"clusterid\": \"\"",
+     "    },",
+     "    {",
+     "     \"name\": \"Duan X\",",
+     "     \"authtype\": \"Author\",",
+     "     \"clusterid\": \"\"",
+     "    },",
+     "    {",
+     "     \"name\": \"Yang L\",",
+     "     \"authtype\": \"Author\",",
+     "     \"clusterid\": \"\"",
+     "    },"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:50:57Z",
+    "limited": {
+     "text": "{\"error\":\"API rate limit exceeded\",\"count\":\"4\",\"limit\":\"3\"}",
+     "content_type": "application/json",
+     "headers": {},
+     "status": 429
+    },
+    "text": "{\n \"header\": {\n  \"type\": \"esummary\",\n  \"version\": \"0.3\"\n },\n \"result\": {\n  \"uids\": [\n   \"33116299\"\n  ],\n  \"33116299\": {\n   \"uid\": \"33116299\",\n   \"pubdate\": \"2021 Jan\",\n   \"epubdate\": \"2020 Oct 28\",\n   \"source\": \"Nature\",\n   \"authors\": [\n    {\n     \"name\": \"Han Y\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Duan X\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Yang L\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Nilsson-Payant BE\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Wang P\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Duan F\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Tang X\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Yaron TM\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Zhang T\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Uhl S\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Bram Y\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Richardson C\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Zhu J\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Zhao Z\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Redmond D\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Houghton S\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Nguyen DT\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Xu D\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Wang X\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Jessurun J\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Borczuk A\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Huang Y\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Johnson JL\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Liu Y\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Xiang J\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Wang H\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Cantley LC\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"tenOever BR\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Ho DD\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Pan FC\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Evans T\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Chen HJ\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Schwartz RE\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    },\n    {\n     \"name\": \"Chen S\",\n     \"authtype\": \"Author\",\n     \"clusterid\": \"\"\n    }\n   ],\n   \"lastauthor\": \"Chen S\",\n   \"title\": \"Identification of SARS-CoV-2 inhibitors using lung and colonic organoids.\",\n   \"sorttitle\": \"identification of sars cov 2 inhibitors using lung and colonic organoids\",\n   \"volume\": \"589\",\n   \"issue\": \"7841\",\n   \"pages\": \"270-275\",\n   \"lang\": [\n    \"eng\"\n   ],\n   \"nlmuniqueid\": \"0410462\",\n   \"issn\": \"0028-0836\",\n   \"essn\": \"1476-4687\",\n   \"pubtype\": [\n    \"Journal Article\"\n   ],\n   \"recordstatus\": \"PubMed - indexed for MEDLINE\",\n   \"pubstatus\": \"256\",\n   \"articleids\": [\n    {\n     \"idtype\": \"pubmed\",\n     \"idtypen\": 1,\n     \"value\": \"33116299\"\n    },\n    {\n     \"idtype\": \"mid\",\n     \"idtypen\": 8,\n     \"value\": \"NIHMS1640339\"\n    },\n    {\n     \"idtype\": \"pmc\",\n     \"idtypen\": 8,\n     \"value\": \"PMC8034380\"\n    },\n    {\n     \"idtype\": \"pmcid\",\n     \"idtypen\": 5,\n     \"value\": \"pmc-id: PMC8034380;manuscript-id: NIHMS1640339;\"\n    },\n    {\n     \"idtype\": \"doi\",\n     \"idtypen\": 3,\n     \"value\": \"10.1038/s41586-020-2901-9\"\n    },\n    {\n     \"idtype\": \"pii\",\n     \"idtypen\": 4,\n     \"value\": \"10.1038/s41586-020-2901-9\"\n    }\n   ],\n   \"history\": [\n    {\n     \"pubstatus\": \"received\",\n     \"date\": \"2020/05/05 00:00\"\n    },\n    {\n     \"pubstatus\": \"accepted\",\n     \"date\": \"2020/10/21 00:00\"\n    },\n    {\n     \"pubstatus\": \"pubmed\",\n     \"date\": \"2020/10/30 06:00\"\n    },\n    {\n     \"pubstatus\": \"medline\",\n     \"date\": \"2021/01/23 06:00\"\n    },\n    {\n     \"pubstatus\": \"entrez\",\n     \"date\": \"2020/10/29 05:47\"\n    },\n    {\n     \"pubstatus\": \"pmc-release\",\n     \"date\": \"2021/04/28 00:00\"\n    }\n   ],\n   \"references\": [\n    {\n     \"refsource\": \"Nature. 2024 Jun;630(8016):E7. doi: 10.1038/s41586-024-07593-9.\",\n     \"reftype\": \"Erratum in\",\n     \"pmid\": 38811742,\n     \"note\": \"\"\n    }\n   ],\n   \"attributes\": [\n    \"Has Abstract\"\n   ],\n   \"pmcrefcount\": 31,\n   \"fulljournalname\": \"Nature\",\n   \"elocationid\": \"doi: 10.1038/s41586-020-2901-9\",\n   \"doctype\": \"citation\",\n   \"srccontriblist\": [],\n   \"booktitle\": \"\",\n   \"medium\": \"\",\n   \"edition\": \"\",\n   \"publisherlocation\": \"\",\n   \"publishername\": \"\",\n   \"srcdate\": \"\",\n   \"reportnumber\": \"\",\n   \"availablefromurl\": \"\",\n   \"locationlabel\": \"\",\n   \"doccontriblist\": [],\n   \"docdate\": \"\",\n   \"bookname\": \"\",\n   \"chapter\": \"\",\n   \"sortpubdate\": \"2021/01/01 00:00\",\n   \"sortfirstauthor\": \"Han Y\",\n   \"vernaculartitle\": \"\"\n  }\n }\n}"
+   }
+  },
+  {
+   "id": "R-F8-01-doc0",
+   "role": "context",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK25497/",
+   "host": "www.ncbi.nlm.nih.gov",
+   "path": "/books/NBK25497/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Checking your browser - reCAPTCHA",
+   "publisher": "www.ncbi.nlm.nih.gov",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-01",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Checking your browser - reCAPTCHA ",
+     "Checking your browser before accessing www.ncbi.nlm.nih.gov ... ",
+     "Click here if you are not automatically redirected after 5 seconds."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Checking your browser - reCAPTCHA",
+    "text": "Checking your browser - reCAPTCHA \nChecking your browser before accessing www.ncbi.nlm.nih.gov ... \nClick here if you are not automatically redirected after 5 seconds."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-01-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 2
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:50:57Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://www.ncbi.nlm.nih.gov/books/NBK25497/"
+  ],
+  "documented_limit": []
+ },
+ "oracle_query": "Using NCBI's E-utilities, report the journal (source) in which PMID 33116299 was",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using NCBI's E-utilities, report the journal (source) in which PMID 33116299 was"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=33116299&retmode=json"
+   },
+   {
+    "tool": "wait",
+    "seconds": 7
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=33116299&retmode=json"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "Nature",
+     "sources": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=33116299&retmode=json"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,486 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-14",
+ "goal_id": "R-F2-14",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm reproducing a baseline from \"Negative Selection Algorithm Research and Applications in the Last Decade: A Review\" (IEEE Transactions on Artificial Intelligence, 2021; DOI 10.1109/tai.2021.3114661) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/9546626/\nIn the table whose caption begins \"NSA results compared with other OCC methods for different datasets. Here NSA experiments were conducted after\", what value is reported for \"Arrhythmia\" in the column \"ABOD\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Arrhythmia / ABOD",
+  "unit": "",
+  "canonical": "0.7688",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-14-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/9546626/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/9546626/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-14",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F2-14-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/tai.2021.3114661",
+   "host": "doi.org",
+   "path": "/10.1109/tai.2021.3114661",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-14",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/9546626/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9546626/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9546626/"
+   }
+  },
+  {
+   "id": "R-F2-14-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2105.06109",
+   "host": "arxiv.org",
+   "path": "/html/2105.06109",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2105.06109 (submitted version)",
+   "work_id": "R-F2-14",
+   "value": "0.7688",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Negative Selection Algorithm Research and Applications in the Last Decade: A Review",
+     "arXiv:2105.06109 [preprint]",
+     "Table 5: NSA results compared with other OCC methods for different datasets. Here NSA experiments were conducted after t-distributed stochastic neighbourhood embedding (t-SNE [ 148 ] ) dimension reduction and the results of other methods were reported from [ 172 ] experiments.",
+     "Arrhythmia 0.7688 0.7835 0.7781 0.8219 0.8005 0.7861 0.7787 0.779 0.7812 0.7815 0.7 Cardio 0.5692 0.9276 0.5867 0.8351 0.9213 0.7236 0.5736 0.8135 0.9348 0.9504 0.9 Glass 0.7951 0.8504 0.8726 0.7389 0.7569 0.8508 0.8644 0.7901 0.6324 0.6747 0.9 Ionosphere 0.9248 0.8134 0.873 0.5614 0.8499 0.9267 0.8753 0.9557 0.8419 0.7962 0.9 Letter 0.8783 0.507 0.866 0.5927 0.642 0.8766 0.8594 0.8074 0.6118 0.5283 0.7 Lympho 0.911 0.9728 0.9753 0.9957 0.9941 0.9745 0.9771 0.9 0.9759 0.9847 1 Mnist 0.7815 0.8009 0.7205 0.5742 0.8159 0.8481 0.7161 0.8666 0.8529 0.8527 0.9 Musk 0.1844 0.9879 0.5263 1 0.9999 0.7986 0.5287 0.9998 1 1 1 Optdigits 0.4667 0.5089 0.4434 0.8732 0.7253 0.3708 0.45 0.3979 0.4997 0.5086 0.6 Pendigits 0.6878 0.9486 0.4595 0.9238 0.9435 0.7486 0.4698 0.8344 0.9303 0.9352 0.99 Pima 0.6794 0.7348 0.6235 0.7 0.6806 0.7078 0.6271 0.6753 0.6215 0.6481 0.4 Satellite 0.5714 0.6693 0.5572 0.7581 0.7022 0.6836 0.5573 0.803 0.6622 0.5988 0.7 Satimage-2 0.819 0.9917 0.457 0.9804 0.9947 0.9536 0.4577 0.9959 0.9978 0.9822 0.94 Shuttle 0.6234 0.6272 0.4724 0.9855 0.9971 0.6537 0.5264 0.9903 0.9917 0.9898 0.94 Vertebral 0.4262 0.3486 0.4166 0.3263 0.3905 0.3817 0.4081 0.3906 0.4431 0.4027 0.5 Vowels 0.9606 0.5856 0.9425 0.6727 0.7585 0.968 0.941 0.8076 0.7802 0.6027 0.8 Wbc 0.9047 0.9227 0.9325 0.9516 0.931 0.9366 0.9349 0.921 0.9319 0.9159 1 Average 0.7030 0.7635 0.6766 0.7818 0.8178 0.7758 0.6791 0.8075 0.7934 0.7736 0.77"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review",
+    "tables": [
+     {
+      "caption": "Table 5: NSA results compared with other OCC methods for different datasets. Here NSA experiments were conducted after t-distributed stochastic neighbourhood embedding (t-SNE [ 148 ] ) dimension reduc",
+      "header": [
+       "data",
+       "ABOD",
+       "CBLOF",
+       "FB",
+       "HBOS",
+       "IForest",
+       "KNN",
+       "LOF",
+       "MCD",
+       "OCSVM",
+       "PCA",
+       "V-NSA"
+      ],
+      "rows": [
+       [
+        "Arrhythmia",
+        "0.7688",
+        "0.7835",
+        "0.7781",
+        "0.8219",
+        "0.8005",
+        "0.7861",
+        "0.7787",
+        "0.779",
+        "0.7812",
+        "0.7815",
+        "0.7"
+       ],
+       [
+        "Cardio",
+        "0.5692",
+        "0.9276",
+        "0.5867",
+        "0.8351",
+        "0.9213",
+        "0.7236",
+        "0.5736",
+        "0.8135",
+        "0.9348",
+        "0.9504",
+        "0.9"
+       ],
+       [
+        "Glass",
+        "0.7951",
+        "0.8504",
+        "0.8726",
+        "0.7389",
+        "0.7569",
+        "0.8508",
+        "0.8644",
+        "0.7901",
+        "0.6324",
+        "0.6747",
+        "0.9"
+       ],
+       [
+        "Ionosphere",
+        "0.9248",
+        "0.8134",
+        "0.873",
+        "0.5614",
+        "0.8499",
+        "0.9267",
+        "0.8753",
+        "0.9557",
+        "0.8419",
+        "0.7962",
+        "0.9"
+       ],
+       [
+        "Letter",
+        "0.8783",
+        "0.507",
+        "0.866",
+        "0.5927",
+        "0.642",
+        "0.8766",
+        "0.8594",
+        "0.8074",
+        "0.6118",
+        "0.5283",
+        "0.7"
+       ],
+       [
+        "Lympho",
+        "0.911",
+        "0.9728",
+        "0.9753",
+        "0.9957",
+        "0.9941",
+        "0.9745",
+        "0.9771",
+        "0.9",
+        "0.9759",
+        "0.9847",
+        "1"
+       ],
+       [
+        "Mnist",
+        "0.7815",
+        "0.8009",
+        "0.7205",
+        "0.5742",
+        "0.8159",
+        "0.8481",
+        "0.7161",
+        "0.8666",
+        "0.8529",
+        "0.8527",
+        "0.9"
+       ],
+       [
+        "Musk",
+        "0.1844",
+        "0.9879",
+        "0.5263",
+        "1",
+        "0.9999",
+        "0.7986",
+        "0.5287",
+        "0.9998",
+        "1",
+        "1",
+        "1"
+       ],
+       [
+        "Optdigits",
+        "0.4667",
+        "0.5089",
+        "0.4434",
+        "0.8732",
+        "0.7253",
+        "0.3708",
+        "0.45",
+        "0.3979",
+        "0.4997",
+        "0.5086",
+        "0.6"
+       ],
+       [
+        "Pendigits",
+        "0.6878",
+        "0.9486",
+        "0.4595",
+        "0.9238",
+        "0.9435",
+        "0.7486",
+        "0.4698",
+        "0.8344",
+        "0.9303",
+        "0.9352",
+        "0.99"
+       ],
+       [
+        "Pima",
+        "0.6794",
+        "0.7348",
+        "0.6235",
+        "0.7",
+        "0.6806",
+        "0.7078",
+        "0.6271",
+        "0.6753",
+        "0.6215",
+        "0.6481",
+        "0.4"
+       ],
+       [
+        "Satellite",
+        "0.5714",
+        "0.6693",
+        "0.5572",
+        "0.7581",
+        "0.7022",
+        "0.6836",
+        "0.5573",
+        "0.803",
+        "0.6622",
+        "0.5988",
+        "0.7"
+       ],
+       [
+        "Satimage-2",
+        "0.819",
+        "0.9917",
+        "0.457",
+        "0.9804",
+        "0.9947",
+        "0.9536",
+        "0.4577",
+        "0.9959",
+        "0.9978",
+        "0.9822",
+        "0.94"
+       ],
+       [
+        "Shuttle",
+        "0.6234",
+        "0.6272",
+        "0.4724",
+        "0.9855",
+        "0.9971",
+        "0.6537",
+        "0.5264",
+        "0.9903",
+        "0.9917",
+        "0.9898",
+        "0.94"
+       ],
+       [
+        "Vertebral",
+        "0.4262",
+        "0.3486",
+        "0.4166",
+        "0.3263",
+        "0.3905",
+        "0.3817",
+        "0.4081",
+        "0.3906",
+        "0.4431",
+        "0.4027",
+        "0.5"
+       ],
+       [
+        "Vowels",
+        "0.9606",
+        "0.5856",
+        "0.9425",
+        "0.6727",
+        "0.7585",
+        "0.968",
+        "0.941",
+        "0.8076",
+        "0.7802",
+        "0.6027",
+        "0.8"
+       ],
+       [
+        "Wbc",
+        "0.9047",
+        "0.9227",
+        "0.9325",
+        "0.9516",
+        "0.931",
+        "0.9366",
+        "0.9349",
+        "0.921",
+        "0.9319",
+        "0.9159",
+        "1"
+       ],
+       [
+        "Average",
+        "0.7030",
+        "0.7635",
+        "0.6766",
+        "0.7818",
+        "0.8178",
+        "0.7758",
+        "0.6791",
+        "0.8075",
+        "0.7934",
+        "0.7736",
+        "0.77"
+       ]
+      ]
+     }
+    ],
+    "text": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review\narXiv:2105.06109 [preprint]\nTable 5: NSA results compared with other OCC methods for different datasets. Here NSA experiments were conducted after t-distributed stochastic neighbourhood embedding (t-SNE [ 148 ] ) dimension reduction and the results of other methods were reported from [ 172 ] experiments."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-14-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:15:14Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/9546626/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2105.06109"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "0.7688",
+     "sources": [
+      "https://arxiv.org/html/2105.06109"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2105.06109",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2105.06109 (submitted version)",
+       "note": "This is arXiv preprint 2105.06109 (submitted version), not the requested version; the Arrhythmia / ABOD may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

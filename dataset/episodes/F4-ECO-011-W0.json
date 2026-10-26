@@ -1,0 +1,387 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F4-ECO-011-W0",
+ "goal_id": "F4-ECO-011",
+ "family": "F4",
+ "world": "W0",
+ "domain": "ecommerce",
+ "task_type": "TX",
+ "goal": "Please buy one Dunmark Max70 smart thermostat for me (GTIN 4524697325650). I found it here: http://parcelpoint.example/products/8e441e-dunmark-max70-smart-thermostat\nAny authorized shop that sells exactly this GTIN is fine. Tell me which order you placed.",
+ "answer": {
+  "kind": "order",
+  "field": "standby power",
+  "unit": "W",
+  "canonical": "4524697325650",
+  "entity": "Dunmark Max70"
+ },
+ "resources": [
+  {
+   "id": "F4-ECO-011-canon",
+   "role": "canonical",
+   "host": "parcelpoint.example",
+   "path": "/products/8e441e-dunmark-max70-smart-thermostat",
+   "url": "http://parcelpoint.example/products/8e441e-dunmark-max70-smart-thermostat",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Dunmark Max70 smart thermostat",
+   "publisher": "parcelpoint.example",
+   "date": "2025-06-01",
+   "version_label": "Dunmark Max70 listing",
+   "expression": "product listing",
+   "work_id": "work-8e441e",
+   "entity": "Dunmark Max70",
+   "field_label": "standby power",
+   "unit": "W",
+   "body": {
+    "paragraphs": [
+     "The Dunmark Max70 is a smart thermostat by Dunmark.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "standby power (W)"
+    ],
+    "table": [
+     [
+      "weight",
+      "498 g"
+     ],
+     [
+      "warranty",
+      "2 years"
+     ],
+     [
+      "Dunmark Max70",
+      "2.2"
+     ],
+     [
+      "colour",
+      "sand"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "4524697325650",
+   "price": "77.78",
+   "value": "2.2",
+   "cell_value": "2.2",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Dunmark Max70 smart thermostat is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the standby power the same as on the older Dunmark X30? A: No, see the comparison table; the older model is rated 4.1 W."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Dunmark Pro80 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "standby power (W)"
+      ],
+      "rows": [
+       [
+        "Dunmark X30",
+        "3.2"
+       ],
+       [
+        "Dunmark Pro80",
+        "1.0"
+       ],
+       [
+        "Dunmark Lite30",
+        "3.4"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F4-ECO-011-faith",
+   "role": "faithful",
+   "host": "lumen-outlet.example",
+   "path": "/item/4524697325650",
+   "url": "http://lumen-outlet.example/item/4524697325650",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Dunmark Max70 smart thermostat",
+   "publisher": "lumen-outlet.example (authorized retailer)",
+   "date": "2025-06-01",
+   "version_label": "Dunmark Max70 listing",
+   "expression": "product listing",
+   "work_id": "work-8e441e",
+   "entity": "Dunmark Max70",
+   "field_label": "standby power",
+   "unit": "W",
+   "body": {
+    "paragraphs": [
+     "The Dunmark Max70 is a smart thermostat by Dunmark.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "standby power (W)"
+    ],
+    "table": [
+     [
+      "weight",
+      "498 g"
+     ],
+     [
+      "warranty",
+      "2 years"
+     ],
+     [
+      "Dunmark Max70",
+      "2.2"
+     ],
+     [
+      "colour",
+      "sand"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "4524697325650",
+   "price": "77.78",
+   "value": "2.2",
+   "cell_value": "2.2",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Dunmark Max70 smart thermostat is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the standby power the same as on the older Dunmark X30? A: No, see the comparison table; the older model is rated 4.1 W."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Dunmark Pro80 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "standby power (W)"
+      ],
+      "rows": [
+       [
+        "Dunmark X30",
+        "3.2"
+       ],
+       [
+        "Dunmark Pro80",
+        "1.0"
+       ],
+       [
+        "Dunmark Lite30",
+        "3.4"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "other_authorized_shop",
+   "chain": [
+    "http://dunmark.example/",
+    "http://dunmark.example/where-to-buy",
+    "http://lumen-outlet.example/",
+    "http://lumen-outlet.example/search?q=4524697325650"
+   ],
+   "inspect": {
+    "http://dunmark.example/where-to-buy": [
+     "http://northwind-goods.example/",
+     "http://northwind-goods.example/search?q=4524697325650"
+    ]
+   }
+  },
+  {
+   "id": "F4-ECO-011-hub-brand-home",
+   "role": "hub",
+   "host": "dunmark.example",
+   "path": "/",
+   "url": "http://dunmark.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Dunmark official site",
+   "publisher": "dunmark.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Dunmark designs smart thermostats and other products.",
+     "Current models include the Dunmark Max70."
+    ]
+   },
+   "links": [
+    [
+     "http://dunmark.example/where-to-buy",
+     "Where to buy"
+    ]
+   ],
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F4-ECO-011-hub-brand-wtb",
+   "role": "hub",
+   "host": "dunmark.example",
+   "path": "/where-to-buy",
+   "url": "http://dunmark.example/where-to-buy",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Where to buy Dunmark products",
+   "publisher": "dunmark.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Authorized retailers. Stock varies; search the retailer's site for the GTIN of your model."
+    ]
+   },
+   "links": [
+    [
+     "http://northwind-goods.example/",
+     "northwind-goods.example"
+    ],
+    [
+     "http://parcelpoint.example/",
+     "parcelpoint.example"
+    ],
+    [
+     "http://lumen-outlet.example/",
+     "lumen-outlet.example"
+    ],
+    [
+     "http://harbor-supply.example/",
+     "harbor-supply.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F4-ECO-011-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F4-ECO-011-W1a",
+  "unrecoverable": "F4-ECO-011-W2",
+  "twin": "F4-ECO-011-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://parcelpoint.example/products/8e441e-dunmark-max70-smart-thermostat"
+   },
+   {
+    "tool": "http",
+    "method": "POST",
+    "url": "http://parcelpoint.example/checkout",
+    "data": {
+     "gtin": "4524697325650",
+     "quantity": "1"
+    }
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "4524697325650",
+     "sources": [
+      "http://parcelpoint.example/products/8e441e-dunmark-max70-smart-thermostat"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "4524697325650",
+   "sources": [
+    "http://parcelpoint.example/products/8e441e-dunmark-max70-smart-thermostat"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

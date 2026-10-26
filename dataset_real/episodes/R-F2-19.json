@@ -1,0 +1,266 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-19",
+ "goal_id": "R-F2-19",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm citing the published version of \"Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline\" (IEEE Geoscience and Remote Sensing Letters, 2025; DOI 10.1109/lgrs.2025.3592711) in a paper and need one number from it. The publisher's page is https://ieeexplore.ieee.org/document/11096561/\nIn the table \"Overview of VSMB Statistics\", what value is reported for \"Car\" in the column \"Instance\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Car / Instance",
+  "unit": "",
+  "canonical": "19986",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-19-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/11096561/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/11096561/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-19",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F2-19-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/lgrs.2025.3592711",
+   "host": "doi.org",
+   "path": "/10.1109/lgrs.2025.3592711",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-19",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/11096561/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/11096561/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/11096561/"
+   }
+  },
+  {
+   "id": "R-F2-19-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2506.12105",
+   "host": "arxiv.org",
+   "path": "/html/2506.12105",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2506.12105 (submitted version)",
+   "work_id": "R-F2-19",
+   "value": "19986",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline",
+     "arXiv:2506.12105 [preprint]",
+     "TABLE II: Overview of VSMB Statistics",
+     "Trajector ( < 16 2 ) ( < 32 2 ) ( < 64 2 ) Car 19986 306 8.67% 35.09% 99.24% Ship 4362 41 0.05% 30.67% 64.92% Airplane 1118 8 0.09% 0.54% 23.08% Total 25466 355 6.81% 32.82% 90.02%"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline",
+    "tables": [
+     {
+      "caption": "TABLE II: Overview of VSMB Statistics",
+      "header": [
+       "Category",
+       "Instance",
+       "Total",
+       "Small",
+       "Medium",
+       "Large"
+      ],
+      "rows": [
+       [
+        "Trajector",
+        "( < 16 2 )",
+        "( < 32 2 )",
+        "( < 64 2 )"
+       ],
+       [
+        "Car",
+        "19986",
+        "306",
+        "8.67%",
+        "35.09%",
+        "99.24%"
+       ],
+       [
+        "Ship",
+        "4362",
+        "41",
+        "0.05%",
+        "30.67%",
+        "64.92%"
+       ],
+       [
+        "Airplane",
+        "1118",
+        "8",
+        "0.09%",
+        "0.54%",
+        "23.08%"
+       ],
+       [
+        "Total",
+        "25466",
+        "355",
+        "6.81%",
+        "32.82%",
+        "90.02%"
+       ]
+      ]
+     }
+    ],
+    "text": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline\narXiv:2506.12105 [preprint]\nTABLE II: Overview of VSMB Statistics"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-19-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:21:01Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/11096561/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2506.12105"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "19986",
+     "sources": [
+      "https://arxiv.org/html/2506.12105"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2506.12105",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2506.12105 (submitted version)",
+       "note": "This is arXiv preprint 2506.12105 (submitted version), not the requested version; the Car / Instance may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

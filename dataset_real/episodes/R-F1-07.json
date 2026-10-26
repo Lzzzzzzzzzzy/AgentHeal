@@ -1,0 +1,175 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-07",
+ "goal_id": "R-F1-07",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "For a note on Shaikh Zayed's projects in Morocco I'm using a July 2013 Khaleej Times article: https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002\nBesides its 18 professors, how many doctors and nurses work at the Shaikh Zayed Hospital? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "staff",
+  "unit": "doctors and nurses",
+  "canonical": "217",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-07-canon",
+   "role": "canonical",
+   "url": "https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002",
+   "host": "www.khaleejtimes.com",
+   "path": "/article/20130728/ARTICLE/307289891/1002",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Khaleej Times - Dubai News, UAE News, Gulf, News, Latest news, Arab news, Gulf News, Dubai Labour News | Khaleej Times",
+   "publisher": "www.khaleejtimes.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-07",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Khaleej Times - Dubai News, UAE News, Gulf, News, Latest news, Arab news, Gulf News, Dubai Labour News | Khaleej Times"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "title": "Khaleej Times - Dubai News, UAE News, Gulf, News, Latest news, Arab news, Gulf News, Dubai Labour News | Khaleej Times",
+    "observed_at": "2026-10-16T18:23:19Z",
+    "text": "Khaleej Times - Dubai News, UAE News, Gulf, News, Latest news, Arab news, Gulf News, Dubai Labour News | Khaleej Times \n <div id=\"app\" data-page=\"{\"component\":\"NotFound\",\"props\":{\"errors\":{},\"featureFlags\":{\"responsiveImagesEnabled\":true},\"serverDeviceType\":\"desktop\",\"isLoggedIn\":false,\"menuItems\":{\"app-side-menu\":{\"id\":8470,\"slug\":\"app-side-menu\",\"name\":\"App Side Menu\",\"items\":[{\"tag_name\":\"\",\"entity_properties\":\"\",\"collection_id\":195297,\"entity_slug\":\"\",\"item_id\":85786,\"rank\":73394,\"title\":\"UAE\",\"item_type\":\"section\",\"section_slug\":\"uae\",\"tag_slug\":\"\",\"id\":73394,\"parent_id\":0,\"url\":\"/uae\",\"original_url\":\"https://www.khaleejtimes.com/uae\",\"entity_name\":\"\",\"collection_slug\":\"uae\",\"section_name\":\"UAE\",\"data\":{\"color\":\"#FFFFFF\"},\"sub_items\":[{\"tag_name\":\"\",\"entity_properties\":\"\",\"collection_id\":212363,\"entity_slug\":\"\",\"item_id\":96377,\"rank\":73396,\"title\":\"Galadari Brothers\",\"item_type\":\"section\",\"section_slug\":\"galadari-brothers\",\"tag_slug\":\"\",\"id\":73424,\"parent_id\":73394,\"url\":\"/business/galadari-brothers\",\"original_url\":\"https://www.khaleejtimes.com/business/galadari-brothers\",\"entity_name\":\"\",\"collection_slug\":\"galadari-brothers\",\"section_name\":\"Galadari Brothers\",\"data\":{\"color\":\"#FFFFFF\",\"icon-code\":\"paid\"},\"is_listing_section\":false},{\"tag_name\":\"\",\"entity_properties\":\"\",\"collection_id\":195305,\"entity_slug\":\"\",\"item_id\":85794,\"rank\":73397,\"title\":\"Transport\",\"item_type\":\"section\",\"section_slug\":\"transport\",\"tag_slug\":\"\",\"id\":73401,\"parent_id\":73394,\"url\":\"/uae/transport\","
+   }
+  },
+  {
+   "id": "R-F1-07-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20190416070101/https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002",
+   "host": "web.archive.org",
+   "path": "/web/20190416070101/https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Key aid projects during Zayed’s time - Khaleej Times",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2019-04-16",
+   "work_id": "R-F1-07",
+   "value": "217",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Shaikh Zayed Hospital",
+     "The Shaikh Zayed Hospital has 300 beds and operates 24 hours a day. It uses advanced techniques to ensure swift completion of surgical treatment and receives a large number of patients. The hospital is led by a team of 18 professors and 217 doctors and nurses. Although it does not work to full capacity, it has been able to perfrom 48 surgeries per day, as it has 12 operating rooms equipped with the latest surgical equipment, in addition to a special centre for recovery (Intensive Care Unit) with 25 beds. The hospital is famous all over Morocco for its visiting professors coming from Switzerland, Canada, the USA and France. Its operating rooms are directly connected via TV networks to leading hospitals in 24 countries. The hospital is considered as a university medical centre, as it has classrooms and a main hall with 150 seats to accommodate medical students from Rabat and other cities.",
+     "Egypt"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Key aid projects during Zayed’s time - Khaleej Times",
+    "memento": "20190416070101",
+    "original": "https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002",
+    "text": "Shaikh Zayed Hospital\nThe Shaikh Zayed Hospital has 300 beds and operates 24 hours a day. It uses advanced techniques to ensure swift completion of surgical treatment and receives a large number of patients. The hospital is led by a team of 18 professors and 217 doctors and nurses. Although it does not work to full capacity, it has been able to perfrom 48 surgeries per day, as it has 12 operating rooms equipped with the latest surgical equipment, in addition to a special centre for recovery (Intensive Care Unit) with 25 beds. The hospital is famous all over Morocco for its visiting professors coming from Switzerland, Canada, the USA and France. Its operating rooms are directly connected via TV networks to leading hospitals in 24 countries. The hospital is considered as a university medical centre, as it has classrooms and a main hall with 150 seats to accommodate medical students from Rabat and other cities.\nEgypt"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_404",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-07-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:23:19Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "class": "http_404",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Marib Dam'",
+  "archive_url": "https://web.archive.org/web/20190416070101/https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002"
+ },
+ "oracle_query": "Key aid projects during Zayed's time",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Key aid projects during Zayed's time"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20190416070101/https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "217 doctors and nurses",
+     "sources": [
+      "https://web.archive.org/web/20190416070101/https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20190416070101/https://www.khaleejtimes.com/article/20130728/ARTICLE/307289891/1002",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2019-04-16",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,478 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F4-NEW-004-W0",
+ "goal_id": "F4-NEW-004",
+ "family": "F4",
+ "world": "W0",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "A colleague sent me Northgate Observer's 12 March 2024 report on the Ostrava port expansion (http://northgate-observer.example/news/35bbcf-report-the-ostrava-port-expansion-findings-relea) and I want to quote it correctly. What figure does the report give for kilometres of track in Corran district? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "kilometres of track",
+  "unit": "km",
+  "canonical": "62",
+  "entity": "Corran district"
+ },
+ "resources": [
+  {
+   "id": "F4-NEW-004-canon",
+   "role": "canonical",
+   "host": "northgate-observer.example",
+   "path": "/news/35bbcf-report-the-ostrava-port-expansion-findings-relea",
+   "url": "http://northgate-observer.example/news/35bbcf-report-the-ostrava-port-expansion-findings-relea",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The ostrava port expansion findings released",
+   "publisher": "Northgate Observer",
+   "date": "2024-03-12",
+   "version_label": "Northgate Observer, published 2024-03-12",
+   "expression": "published article",
+   "work_id": "work-35bbcf",
+   "entity": "Corran district",
+   "field_label": "kilometres of track",
+   "unit": "km",
+   "body": {
+    "paragraphs": [
+     "Northgate Observer obtained the final report on the Ostrava port expansion.",
+     "The report lists kilometres of track for five districts."
+    ],
+    "table_caption": "Figures by district (kilometres of track)",
+    "table_header": [
+     "",
+     "kilometres of track (km)"
+    ],
+    "table": [
+     [
+      "Ardmore district",
+      "327"
+     ],
+     [
+      "Dunvale district",
+      "162"
+     ],
+     [
+      "Corran district",
+      "62"
+     ],
+     [
+      "Glenhurst district",
+      "149"
+     ],
+     [
+      "Belcliff district",
+      "346"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "62",
+   "cell_value": "62",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Northgate Observer has obtained the final report on the Ostrava port expansion, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down kilometres of track by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 28 km in Dunvale district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Belcliff council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "kilometres of track (km)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "35"
+       ],
+       [
+        "Ardmore district",
+        "38"
+       ],
+       [
+        "Dunvale district",
+        "33"
+       ],
+       [
+        "Glenhurst district",
+        "99"
+       ],
+       [
+        "Belcliff district",
+        "103"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F4-NEW-004-faith",
+   "role": "faithful",
+   "host": "wirewire.example",
+   "path": "/stories/35bbcf",
+   "url": "http://wirewire.example/stories/35bbcf",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The ostrava port expansion findings released",
+   "publisher": "WireWire (verbatim syndication of Northgate Observer)",
+   "date": "2024-03-12",
+   "version_label": "Northgate Observer, published 2024-03-12",
+   "expression": "published article",
+   "work_id": "work-35bbcf",
+   "entity": "Corran district",
+   "field_label": "kilometres of track",
+   "unit": "km",
+   "body": {
+    "paragraphs": [
+     "Northgate Observer obtained the final report on the Ostrava port expansion.",
+     "The report lists kilometres of track for five districts."
+    ],
+    "table_caption": "Figures by district (kilometres of track)",
+    "table_header": [
+     "",
+     "kilometres of track (km)"
+    ],
+    "table": [
+     [
+      "Ardmore district",
+      "327"
+     ],
+     [
+      "Dunvale district",
+      "162"
+     ],
+     [
+      "Corran district",
+      "62"
+     ],
+     [
+      "Glenhurst district",
+      "149"
+     ],
+     [
+      "Belcliff district",
+      "346"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "62",
+   "cell_value": "62",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Northgate Observer has obtained the final report on the Ostrava port expansion, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down kilometres of track by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 28 km in Dunvale district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Belcliff council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "kilometres of track (km)"
+      ],
+      "rows": [
+       [
+        "Corran district",
+        "35"
+       ],
+       [
+        "Ardmore district",
+        "38"
+       ],
+       [
+        "Dunvale district",
+        "33"
+       ],
+       [
+        "Glenhurst district",
+        "99"
+       ],
+       [
+        "Belcliff district",
+        "103"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "wire_copy",
+   "chain": [
+    "http://northgate-observer.example/",
+    "http://wirewire.example/",
+    "http://wirewire.example/search?q=Report%3A+The+ostrava+port+expansion+findings+released"
+   ],
+   "inspect": {
+    "http://wirewire.example/search?q=Report%3A+The+ostrava+port+expansion+findings+released": [
+     "http://wirewire.example/briefing/35bbcf"
+    ]
+   }
+  },
+  {
+   "id": "F4-NEW-004-hub-updates",
+   "role": "hub",
+   "host": "northgate-observer.example",
+   "path": "/site/updates/35bbcf",
+   "url": "http://northgate-observer.example/site/updates/35bbcf",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Corrections and updates",
+   "publisher": "northgate-observer.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Corrections and earlier editions of our reports.",
+     "No earlier editions of recent reports are kept online."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F4-NEW-004-hub-wire-home",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/",
+   "url": "http://wirewire.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "WireWire",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Stories from partner newsrooms, distributed verbatim.",
+     "Use the search box to find a story."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F4-NEW-004-hub-wire-briefing",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/briefing/35bbcf",
+   "url": "http://wirewire.example/briefing/35bbcf",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Briefing: Report: The ostrava port expansion findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "A short summary of the report. Figures are in the full story.",
+     "Source: Northgate Observer."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F4-NEW-004-hub-wire-note",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/note/35bbcf",
+   "url": "http://wirewire.example/note/35bbcf",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Editor's note: Report: The ostrava port expansion findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "This story was updated after first publication.",
+     "Source: Northgate Observer."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F4-NEW-004-hub-home",
+   "role": "hub",
+   "host": "northgate-observer.example",
+   "path": "/",
+   "url": "http://northgate-observer.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Northgate Observer",
+   "publisher": "northgate-observer.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Our reporting is distributed to partner newsrooms by the WireWire news wire."
+    ]
+   },
+   "links": [
+    [
+     "http://northgate-observer.example/site/updates/35bbcf",
+     "Corrections and earlier editions"
+    ],
+    [
+     "http://wirewire.example/",
+     "WireWire (syndication partner)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F4-NEW-004-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F4-NEW-004-W1a",
+  "unrecoverable": "F4-NEW-004-W3",
+  "twin": "F4-NEW-004-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://northgate-observer.example/news/35bbcf-report-the-ostrava-port-expansion-findings-relea"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://northgate-observer.example/news/35bbcf-report-the-ostrava-port-expansion-findings-relea?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "62 km",
+     "sources": [
+      "http://northgate-observer.example/news/35bbcf-report-the-ostrava-port-expansion-findings-relea"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "62 km",
+   "sources": [
+    "http://northgate-observer.example/news/35bbcf-report-the-ostrava-port-expansion-findings-relea"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

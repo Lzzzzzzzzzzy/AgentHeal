@@ -1,0 +1,205 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F4-05",
+ "goal_id": "R-F4-05",
+ "family": "F4",
+ "world": "W1a",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm reimplementing the worked example of \"MUVINE: Multi-Stage Virtual Network Embedding in Cloud Data Centers Using Reinforcement Learning-Based Predictions\" (DOI 10.1109/jsac.2020.2986663): https://ieeexplore.ieee.org/document/9060889/\nWhat is the maximum CPU capacity (in units) of substrate node SN1 in that example? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "the maximum CPU capacity (in units) of substrate node SN1 in the paper's worked example",
+  "unit": "units",
+  "canonical": "14",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F4-05-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/9060889/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/9060889/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "MUVINE: Multi-Stage Virtual Network Embedding in Cloud Data Centers Using Reinforcement Learning-Based Predictions",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F4-05",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "MUVINE: Multi-Stage Virtual Network Embedding in Cloud Data Centers Using Reinforcement Learning-Based Predictions",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F4-05-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/jsac.2020.2986663",
+   "host": "doi.org",
+   "path": "/10.1109/jsac.2020.2986663",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F4-05",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/9060889/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9060889/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9060889/"
+   }
+  },
+  {
+   "id": "R-F4-05-faith",
+   "role": "faithful",
+   "url": "https://arxiv.org/pdf/2111.02737",
+   "host": "arxiv.org",
+   "path": "/pdf/2111.02737",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "MUVINE: Multi-Stage Virtual Network Embedding in Cloud Data Centers Using Reinforcement Learning-Based Predictions",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv (Cornell University) copy of the published version",
+   "work_id": "R-F4-05",
+   "value": "14",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "MUVINE: Multi-Stage Virtual Network Embedding in Cloud Data Centers Using Reinforcement Learning-Based Predictions",
+     "...",
+     "VMs out of the allocated. Usually, the exact amount of resources is allocated to VMs and the virtual links to fulﬁll the resource demand of the requested VNs. However, our analysis of the historical dataset [11] reveals that resources normally stay underutilized leading to the overall ineffective resource utilization. Furthermore, the workload distribution of substrate resources to VNs plays an important part in cloud resource management. Normally, it is preferable to have uniform substrate resource allocation to VNs across the cloud. Fig. 1 illustrates the possible problem scenario that may arise under the uneven workload distribution. Let CSP is comprised of 𝑆𝑁 1 and 𝑆𝑁 2 with maximum CPU capacity of 14 and 12 units, respectively and the maximum memory capacity of 150 units each, as shown in Fig. 1(a). Let CSP receives VN requests 𝑉𝑁 1𝑉𝑁 2𝑉𝑁 3 and 𝑉𝑁 4 with the CPU demand of 5, 3, 5, and 2 units, respectively and memory demand of 20, 65, 13, and 83 units, respectively as shown in Fig. 1(a). The CSP may embed VN requests in two different ways depicted as Uneven distribution and Even distribution as shown in Fig. 1(c). In case of Uneven distribution, CSP ends up allocating 714%",
+     "..."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "MUVINE: Multi-Stage Virtual Network Embedding in Cloud Data Centers Using Reinforcement Learning-Based Predictions",
+    "text": "MUVINE: Multi-Stage Virtual Network Embedding in Cloud Data Centers Using Reinforcement Learning-Based Predictions\n...\nVMs out of the allocated. Usually, the exact amount of resources is allocated to VMs and the virtual links to fulﬁll the resource demand of the requested VNs. However, our analysis of the historical dataset [11] reveals that resources normally stay underutilized leading to the overall ineffective resource utilization. Furthermore, the workload distribution of substrate resources to VNs plays an important part in cloud resource management. Normally, it is preferable to have uniform substrate resource allocation to VNs across the cloud. Fig. 1 illustrates the possible problem scenario that may arise under the uneven workload distribution. Let CSP is comprised of 𝑆𝑁 1 and 𝑆𝑁 2 with maximum CPU capacity of 14 and 12 units, respectively and the maximum memory capacity of 150 units each, as shown in Fig. 1(a). Let CSP receives VN requests 𝑉𝑁 1𝑉𝑁 2𝑉𝑁 3 and 𝑉𝑁 4 with the CPU demand of 5, 3, 5, and 2 units, respectively and memory demand of 20, 65, 13, and 83 units, respectively as shown in Fig. 1(a). The CSP may embed VN requests in two different ways depicted as Uneven distribution and Even distribution as shown in Fig. 1(c). In case of Uneven distribution, CSP ends up allocating 714%\n..."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "hard_paywall",
+  "signal": "explicit",
+  "targets": [
+   "R-F4-05-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:39:28Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; published version at arXiv (Cornell University)"
+ },
+ "oracle_query": "MUVINE: Multi-Stage Virtual Network Embedding in Cloud Data Centers Using Reinforcement Learning-Based Predictions",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "MUVINE: Multi-Stage Virtual Network Embedding in Cloud Data Centers Using Reinforcement Learning-Based Predictions"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/9060889/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/pdf/2111.02737"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "14 units",
+     "sources": [
+      "https://arxiv.org/pdf/2111.02737"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/pdf/2111.02737",
+       "relation": "same_version",
+       "version_id": "arXiv (Cornell University) copy of the published version",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "paywall",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

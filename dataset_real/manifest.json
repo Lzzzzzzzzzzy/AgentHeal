@@ -1,0 +1,39 @@
+{
+ "version": "agentheal-real-v0.1",
+ "n_episodes": 180,
+ "by_family": {
+  "F1": 20,
+  "F2": 20,
+  "F3": 20,
+  "F4": 20,
+  "F5": 20,
+  "F6": 20,
+  "F7": 20,
+  "F8": 20,
+  "F9": 20
+ },
+ "by_world": {
+  "W1a": 68,
+  "W3": 65,
+  "W1v": 20,
+  "W2": 27
+ },
+ "by_rule": {
+  "http_410": 1,
+  "http_404": 14,
+  "redirect_home": 4,
+  "soft_404": 1,
+  "vor_paywalled": 20,
+  "login_required": 7,
+  "credentialed_access": 3,
+  "restricted_access": 10,
+  "hard_paywall": 20,
+  "verification_gate": 20,
+  "robots_disallow": 20,
+  "http_451": 20,
+  "rate_429": 19,
+  "maint_503": 1,
+  "api_retired": 20
+ },
+ "corpus_pages": 360
+}

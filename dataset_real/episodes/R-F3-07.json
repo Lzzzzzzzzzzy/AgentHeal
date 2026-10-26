@@ -1,0 +1,194 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F3-07",
+ "goal_id": "R-F3-07",
+ "family": "F3",
+ "world": "W1a",
+ "domain": "models",
+ "task_type": "IR",
+ "goal": "I'm comparing image models and need a detail from the Stable Diffusion 3 Medium model card: https://huggingface.co/stabilityai/stable-diffusion-3-medium/raw/main/README.md\nHow many high-quality aesthetic images (in millions) does its fine-tuning data include? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "how many high-quality aesthetic images (in millions) the fine-tuning data includes",
+  "unit": "million images",
+  "canonical": "30",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F3-07-canon",
+   "role": "canonical",
+   "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium/raw/main/README.md",
+   "host": "huggingface.co",
+   "path": "/stabilityai/stable-diffusion-3-medium/raw/main/README.md",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "401",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-07",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Access to model stabilityai/stable-diffusion-3-medium is restricted. You must have access to it and be authenticated to access it. Please log in."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "text": "Access to model stabilityai/stable-diffusion-3-medium is restricted. You must have access to it and be authenticated to access it. Please log in."
+   }
+  },
+  {
+   "id": "R-F3-07-faith",
+   "role": "faithful",
+   "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium",
+   "host": "huggingface.co",
+   "path": "/stabilityai/stable-diffusion-3-medium",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "stabilityai/stable-diffusion-3-medium · Hugging Face",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-07",
+   "value": "30",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "stabilityai/stable-diffusion-3-medium · Hugging Face ",
+     " Hugging Face ",
+     " Models ",
+     " Datasets ",
+     " Spaces ",
+     " Buckets new ",
+     " Docs ",
+     " Enterprise ",
+     " Pricing ",
+     " Website ",
+     " Tasks ",
+     " HuggingChat ",
+     " Collections ",
+     " Languages ",
+     " Organizations ",
+     " Community ",
+     " Blog ",
+     " Posts ",
+     " Daily Papers ",
+     " Hardware ",
+     " Learn ",
+     " Discord ",
+     " Forum ",
+     " GitH",
+     "...",
+     "odel Description: This is a model that can be used to generate images based on text prompts. It is a Multimodal Diffusion Transformer",
+     "( https://arxiv.org/abs/2403.03206 ) that uses three fixed, pretrained text encoders ",
+     "( OpenCLIP-ViT/G , CLIP-ViT/L and T5-xxl ) ",
+     " License",
+     " Community License: Free for research, non-commercial, and commercial use for organisations or individuals with less than $1M annual revenue. You only need a paid Enterprise license if your yearly revenues exceed USD$1M and you use Stability AI models in commercial products or services. Read more: https://stability.ai/license "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "stabilityai/stable-diffusion-3-medium · Hugging Face",
+    "text": "stabilityai/stable-diffusion-3-medium · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitH\n...\nodel Description: This is a model that can be used to generate images based on text prompts. It is a Multimodal Diffusion Transformer\n( https://arxiv.org/abs/2403.03206 ) that uses three fixed, pretrained text encoders \n( OpenCLIP-ViT/G , CLIP-ViT/L and T5-xxl ) \n License\n Community License: Free for research, non-commercial, and commercial use for organisations or individuals with less than $1M annual revenue. You only need a paid Enterprise license if your yearly revenues exceed USD$1M and you use Stability AI models in commercial products or services. Read more: https://stability.ai/license \n For companies above this revenue threshold : please contact us: https://stability.ai/enterprise \n Model Sources\nFor local or self-hosted use, we recommend ComfyUI for inference. \nStable Diffusion 3 Medium is available on our Stability API Platform . \nStable Diffusion 3 models and workflows are available on Stable Assistant and on Discord via Stable Artisan . \n ComfyUI: https://github.com/comfyanonymous/ComfyUI \n StableSwarmUI: https://github.com/Stability-AI/StableSwarmUI \n Tech report: https://stability.ai/news/stable-diffusion-3-research-paper \n Demo: https://huggingface.co/spaces/stabilityai/stable-diffusion-3-medium \n Diffusers support: https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers \n Training Dataset\nWe used synthetic data and filtered publicly available data to train our models. The model was pre-trained on 1 billion images. The fine-tuning data includes 30M high-quality aesthetic images focused on specific visual content and style, as well as 3M preference data images. \n File Structure\n ├── comfy_example_workflows/\n│ ├── sd3_medium_example_workflow_basic.json\n│ ├── sd3_medium_example_workflow_multi_prompt.json\n│ └── sd3_medium_example_workflow_upscaling.json\n│\n├── text_encoders/\n│ ├── README.md\n│ ├── clip_g.safetensors\n│ ├── clip_l.safetensors\n│ ├── t5xxl_fp16.safetensors\n│ └── t5xxl_fp8_e4m3fn.safetensors\n│\n├── LICENSE\n├── sd3_medium.safetensors\n├── sd3_medium_incl_clips.safetensors\n├── sd3_medium_incl_clips_t5xxlfp8.safetensors\n└── sd3_medium_incl_clips_t5xxlfp16.safetensors\nWe have prepared three packaging variants of the SD3 Medium model, each equipped with the same set of MMDiT & VAE weights, for user convenience. \n sd3_medium.safetensors includes the MMDiT and VAE weights but does not include any text encoders. \n sd3_medium_incl_clips_t5xxlfp16.safetensors contains all necessary weights, including fp16 version of the T5XXL text encoder. \n sd3_medium_incl_clips_t5xxlfp8.safetensors contains all necessary weights, including fp8 version of the T5XXL text encoder, offering a balance between quality and resource requirements. \n sd3_medium_incl_clips.safetensors includes all necessary weights except for the T5XXL text encoder. It requires minimal resources, but the model's performance will differ without the T5XXL text encoder. \nThe text_encoders folder contains three text encoders and their original model card links for use"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "login_required",
+  "signal": "explicit",
+  "targets": [
+   "R-F3-07-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:05:11Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "gated": "auto",
+  "raw_readme_status": 401
+ },
+ "oracle_query": "stabilityai/stable-diffusion-3-medium",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "stabilityai/stable-diffusion-3-medium"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium/raw/main/README.md"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "30 million images",
+     "sources": [
+      "https://huggingface.co/stabilityai/stable-diffusion-3-medium"
+     ],
+     "substitutions": [
+      {
+       "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "login",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

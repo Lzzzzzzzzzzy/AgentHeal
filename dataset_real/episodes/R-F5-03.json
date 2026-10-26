@@ -1,0 +1,211 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F5-03",
+ "goal_id": "R-F5-03",
+ "family": "F5",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm making a playlist and want the track count of Radiohead's \"OK Computer\" as Discogs lists it for the master release: https://www.discogs.com/master/21491\nHow many tracks are listed? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "tracks",
+  "canonical": "16",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F5-03-canon",
+   "role": "canonical",
+   "url": "https://www.discogs.com/master/21491",
+   "host": "www.discogs.com",
+   "path": "/master/21491",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Just a moment...",
+   "publisher": "www.discogs.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F5-03",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Just a moment..."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 403,
+    "headers": {
+     "Cf-Mitigated": "challenge",
+     "Server": "cloudflare"
+    },
+    "title": "Just a moment...",
+    "text": "Just a moment..."
+   }
+  },
+  {
+   "id": "R-F5-03-faith",
+   "role": "faithful",
+   "url": "https://api.discogs.com/masters/21491",
+   "host": "api.discogs.com",
+   "path": "/masters/21491",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Official API",
+   "publisher": "api.discogs.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F5-03",
+   "value": "16",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"id\": 21491,",
+     " \"main_release\": 4950798,",
+     " \"most_recent_release\": 36339292,",
+     " \"resource_url\": \"https://api.discogs.com/masters/21491\",",
+     " \"uri\": \"https://www.discogs.com/master/21491-Radiohead-OK-Computer\",",
+     " \"versions_url\": \"https://api.discogs.com/masters/21491/versions\",",
+     " \"main_release_url\": \"https://api.discogs.com/releases/4950798\",",
+     " \"most_recent_release_url\": \"https://api.discogs.com/releases/36339292\",",
+     " \"num_for_sale\": 1591,",
+     " \"lowest_price\": 1.12,",
+     " \"images\": [",
+     "  {",
+     "   \"type\": \"primary\",",
+     "   \"uri\": \"https://i.discogs.com/F_KSyKjGi2YN5SBttMhdgP2zyNdmHv7HHWvDVGj3Shg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/MS0yMzYyLmpwZWc.jpeg\",",
+     "   \"resource_url\": \"https://i.discogs.com/F_KSyKjGi2YN5SBttMhdgP2zyNdmHv7HHWvDVGj3Shg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/MS0yMzYyLmpwZWc.jpeg\",",
+     "   \"uri150\": \"https://i.discogs.com/It2WdSQUjZOi8xqSE9CWNsqF5F88l4I3YHRlY0uaILE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/MS0yMzYyLmpwZWc.jpeg\",",
+     "   \"width\": 600,",
+     "   \"height\": 600",
+     "  },",
+     "  {",
+     "   \"type\": \"secondary\",",
+     "   \"uri\": \"https://i.discogs.com/illF3uedEk6DRe2CCvqEs_REr71IHyOjwGtFo2iAk9A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/NC01MDM4LmpwZWc.jpeg\",",
+     "   \"resource_url\": \"https://i.discogs.com/illF3uedEk6DRe2CCvqEs_REr71IHyOjwGtFo2iAk9A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/NC01MDM4LmpwZWc.jpeg\",",
+     "   \"uri150\": \"https://i.discogs.com/eKgMwqxTqKt-gG_WeevGIo1qOzGVZH0LyRa7nXLwB7M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/NC01MDM4LmpwZWc.jpeg\",",
+     "   \"width\": 600,",
+     "   \"height\": 600",
+     "  },",
+     "  {",
+     "   \"type\": \"secondary\","
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json",
+    "title": "Official API",
+    "text": "{\n \"id\": 21491,\n \"main_release\": 4950798,\n \"most_recent_release\": 36339292,\n \"resource_url\": \"https://api.discogs.com/masters/21491\",\n \"uri\": \"https://www.discogs.com/master/21491-Radiohead-OK-Computer\",\n \"versions_url\": \"https://api.discogs.com/masters/21491/versions\",\n \"main_release_url\": \"https://api.discogs.com/releases/4950798\",\n \"most_recent_release_url\": \"https://api.discogs.com/releases/36339292\",\n \"num_for_sale\": 1591,\n \"lowest_price\": 1.12,\n \"images\": [\n  {\n   \"type\": \"primary\",\n   \"uri\": \"https://i.discogs.com/F_KSyKjGi2YN5SBttMhdgP2zyNdmHv7HHWvDVGj3Shg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/MS0yMzYyLmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/F_KSyKjGi2YN5SBttMhdgP2zyNdmHv7HHWvDVGj3Shg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/MS0yMzYyLmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/It2WdSQUjZOi8xqSE9CWNsqF5F88l4I3YHRlY0uaILE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/MS0yMzYyLmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/illF3uedEk6DRe2CCvqEs_REr71IHyOjwGtFo2iAk9A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/NC01MDM4LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/illF3uedEk6DRe2CCvqEs_REr71IHyOjwGtFo2iAk9A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/NC01MDM4LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/eKgMwqxTqKt-gG_WeevGIo1qOzGVZH0LyRa7nXLwB7M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4ODYyMzYx/NC01MDM4LmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/uUfVge1nCy6yQpj4DP7TxG2tyEskLEseSGINjZGqezc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDgw/My00MDYwLmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/uUfVge1nCy6yQpj4DP7TxG2tyEskLEseSGINjZGqezc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDgw/My00MDYwLmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/RxCyl4FHQBbZgrKHTyuuHvnqBY5Lv_p6LJB84cwetUo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDgw/My00MDYwLmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/QMKb-HffoY5LSBm4RjZrxe5qPo2oOObfxxn-69_FOHI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDgx/OC05MjQwLmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/QMKb-HffoY5LSBm4RjZrxe5qPo2oOObfxxn-69_FOHI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDgx/OC05MjQwLmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/V1qhL557FwZi15DjnnyZO7RvRNfJUOUYqgQxkcpdTsM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDgx/OC05MjQwLmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/NAEZ-Ou3iON7DjjCyrToZAd2TAlQ3LlWq0h5z6AgPgI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDgz/OS04MjY0LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/NAEZ-Ou3iON7DjjCyrToZAd2TAlQ3LlWq0h5z6AgPgI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDgz/OS04MjY0LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/D5s_-sD3gzgjEtLeMINZSOVg__dmmRmSdlfnzWgfoao/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDgz/OS04MjY0LmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/H00XRwgFiWTO5RfOskAa4v4ufcjlQPIPXYBUgETZDik/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDg1/NC04NTM2LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/H00XRwgFiWTO5RfOskAa4v4ufcjlQPIPXYBUgETZDik/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDg1/NC04NTM2LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/Yp5l3alwr3RMqoNd53pdCcyFbdVgqwJOmRGtHRYENqE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDg1/NC04NTM2LmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/7G9XLMChv743gH3zoqVQc6x23Xd41F4QtfgLbPheics/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDg3/Mi0xODIyLmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/7G9XLMChv743gH3zoqVQc6x23Xd41F4QtfgLbPheics/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDg3/Mi0xODIyLmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/iN6kUK1JMAHSZ8FnTn0bFs-K1x2ZcI4Vo3mpNJJa7i8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDg3/Mi0xODIyLmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/6yil1pnwlwKcZycp-W76kzvzSQANZ5tEhAMABSdGOSU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDg4/Ny0zODUzLmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/6yil1pnwlwKcZycp-W76kzvzSQANZ5tEhAMABSdGOSU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDg4/Ny0zODUzLmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/o7BcB3SdNgOIhu9qZsAA4CKBMGMcQu8zGVKDwtgWbaQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDg4/Ny0zODUzLmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/yHsvjE-VIZL2R2uUEQZxt7WduOjcXkDYT2WePJWN8Pg/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDkw/OS0zNTgxLmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/yHsvjE-VIZL2R2uUEQZxt7WduOjcXkDYT2WePJWN8Pg/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDkw/OS0zNTgxLmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/veKVszkvp_3jtue_OmBvfmMv_kGAfBCySHw_wU0PbiI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDkw/OS0zNTgxLmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 583\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/iihfBspsz8mPh1xaJxyRSdf8LZ88fu-qGBx1kB8Grpg/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTUwNTQ0NjUz/NC01ODAzLnBuZw.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/iihfBspsz8mPh1xaJxyRSdf8LZ88fu-qGBx1kB8Grpg/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTUwNTQ0NjUz/NC01ODAzLnBuZw.jpeg\",\n   \"uri150\": \"https://i.discogs.com/cItbnmaGNd7RG1CUkTe7T0zlL0S0gUeaLRLRnoXmajQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTUwNTQ0NjUz/NC01ODAzLnBuZw.jpeg\",\n   \"width\": 450,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/Z3H_WrlRo0bzDJvQQu9z3P9poxo0QYPJlFNgiMeFiiI/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDky/OC05MDA4LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/Z3H_WrlRo0bzDJvQQu9z3P9poxo0QYPJlFNgiMeFiiI/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDky/OC05MDA4LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/2piZ7L7dM9E6VmMaxef0R3wsO859oZS-7wqZXkrz8bo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDky/OC05MDA4LmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 582\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/puGGFj5hH0diccGeoUfX6mL2-yG-ty5YpKp4O4madhk/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDk0/My01MzYyLmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/puGGFj5hH0diccGeoUfX6mL2-yG-ty5YpKp4O4madhk/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDk0/My01MzYyLmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/dPmgOdPlVMn-OMSBkioIjuKYWn2c0GcU1610Ue_heyU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDk0/My01MzYyLmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 597\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/rTBrJizJLl0lsgdI0Fq7ZddNVEG9MR8z7a0zbOkMNTM/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTUwNTQ0NjUz/MS00MDQ2LnBuZw.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/rTBrJizJLl0lsgdI0Fq7ZddNVEG9MR8z7a0zbOkMNTM/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTUwNTQ0NjUz/MS00MDQ2LnBuZw.jpeg\",\n   \"uri150\": \"https://i.discogs.com/Hvzo27MCzyGnW7sIK2cFTa99v3AA6jmuV6ig3UhQO4U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTUwNTQ0NjUz/MS00MDQ2LnBuZw.jpeg\",\n   \"width\": 450,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/sl5JHQBwuxcIxniL9ZehzUPzzfuFmLSlm5DsIhuYICo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDk1/Ni0yNTE1LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/sl5JHQBwuxcIxniL9ZehzUPzzfuFmLSlm5DsIhuYICo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDk1/Ni0yNTE1LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/RAQYVf2BZkM4l7aIvxM__bq23gw9LGnz2puG1Z_h-Lc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTQxNzYzNDk1/Ni0yNTE1LmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/mkbv_HGnYgjxkjVZqJSPUkfxLHz0cKCZqOfvm9rD4O0/rs:fit/g:sm/q:90/h:396/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI0/My05MDk5LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/mkbv_HGnYgjxkjVZqJSPUkfxLHz0cKCZqOfvm9rD4O0/rs:fit/g:sm/q:90/h:396/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI0/My05MDk5LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/UxVJVLM_3HGG57lvizUUGd7ZLQw6HlGQcadl9HJ0tG0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI0/My05MDk5LmpwZWc.jpeg\",\n   \"width\": 595,\n   \"height\": 396\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/ibwWbnA5bTwHFDOG3caWx1TMxuPQ-57BzrBWBMlBTik/rs:fit/g:sm/q:90/h:397/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI1/Mi0xNDQxLmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/ibwWbnA5bTwHFDOG3caWx1TMxuPQ-57BzrBWBMlBTik/rs:fit/g:sm/q:90/h:397/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI1/Mi0xNDQxLmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/ncXyz6FKjktZnRnbpuzO3slTS5BdsFPNtHj83kh5Sn0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI1/Mi0xNDQxLmpwZWc.jpeg\",\n   \"width\": 596,\n   \"height\": 397\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/tBbttpMiZD3A6LrkIi1duX5T87xSjgmh0DgOYLcVoZs/rs:fit/g:sm/q:90/h:397/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI4/My02Mjk3LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/tBbttpMiZD3A6LrkIi1duX5T87xSjgmh0DgOYLcVoZs/rs:fit/g:sm/q:90/h:397/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI4/My02Mjk3LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/EpYIKfdRF4lE5ARG8xd3VQrcvXCtSF7_YtCHl0Q_UCY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI4/My02Mjk3LmpwZWc.jpeg\",\n   \"width\": 596,\n   \"height\": 397\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/WMCrd0B4kIXMzln6VN1zjqFElRTiT_zyCcyxZduY4Jg/rs:fit/g:sm/q:90/h:397/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI5/MC05NjA1LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/WMCrd0B4kIXMzln6VN1zjqFElRTiT_zyCcyxZduY4Jg/rs:fit/g:sm/q:90/h:397/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI5/MC05NjA1LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/tiHa4o_hWUNe5Tm934imV_VbiwpNOUYTIIVFruqJ4GY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTM4Nzc0NzI5/MC05NjA1LmpwZWc.jpeg\",\n   \"width\": 596,\n   \"height\": 397\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/AzqXnHxYl3d-LjFVpUjmRT36SwYkU6AVSGFJpHltX2E/rs:fit/g:sm/q:90/h:67/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTYwMTYwOTE2/MS0yNTg2LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/AzqXnHxYl3d-LjFVpUjmRT36SwYkU6AVSGFJpHltX2E/rs:fit/g:sm/q:90/h:67/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTYwMTYwOTE2/MS0yNTg2LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/cCXngw7mtbILPK3HIZJXtkCJkBxEhPkLUwWI1N7W5AE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTYwMTYwOTE2/MS0yNTg2LmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 67\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/hNVAIQ3wIyKMG0PNhudPjPfbZ7-i4Moo8P-3eyxFb1k/rs:fit/g:sm/q:90/h:600/w:459/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTc1NDc2MjQ4/Mi01Nzg5LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/hNVAIQ3wIyKMG0PNhudPjPfbZ7-i4Moo8P-3eyxFb1k/rs:fit/g:sm/q:90/h:600/w:459/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTc1NDc2MjQ4/Mi01Nzg5LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/Gxy2RG4tnNxRBXCxNeJckju7Mg6fvjDHs6JDQTuVi8Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTc1NDc2MjQ4/Mi01Nzg5LmpwZWc.jpeg\",\n   \"width\": 459,\n   \"height\": 600\n  },\n  {\n   \"type\": \"secondary\",\n   \"uri\": \"https://i.discogs.com/GRNXsqIw6k9W0hSnLBD_KqcttN2wGEUGjfKmlXXYje8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTc3NzIyNDU4/Mi00NzU0LmpwZWc.jpeg\",\n   \"resource_url\": \"https://i.discogs.com/GRNXsqIw6k9W0hSnLBD_KqcttN2wGEUGjfKmlXXYje8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTc3NzIyNDU4/Mi00NzU0LmpwZWc.jpeg\",\n   \"uri150\": \"https://i.discogs.com/9g-_w_LG3geNZht9eme34aj_TF9dZdilUQMKTOnyzBI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5NTA3/OTgtMTc3NzIyNDU4/Mi00NzU0LmpwZWc.jpeg\",\n   \"width\": 600,\n   \"height\": 600\n  }\n ],\n \"genres\": [\n  \"Electronic\",\n  \"Rock\"\n ],\n \"styles\": [\n  \"Alternative Rock\"\n ],\n \"year\": 1997,\n \"tracklist\": [\n  {\n   \"position\": \"\",\n   \"type_\": \"heading\",\n   \"title\": \"Eeny\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"A1\",\n   \"type_\": \"track\",\n   \"title\": \"Airbag\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"A2\",\n   \"type_\": \"track\",\n   \"title\": \"Paranoid Android\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"A3\",\n   \"type_\": \"track\",\n   \"title\": \"Subterranean Homesick Alien\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"\",\n   \"type_\": \"heading\",\n   \"title\": \"Meeny\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"B4\",\n   \"type_\": \"track\",\n   \"title\": \"Exit Music (For A Film)\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"B5\",\n   \"type_\": \"track\",\n   \"title\": \"Let Down\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"B6\",\n   \"type_\": \"track\",\n   \"title\": \"Karma Police\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"\",\n   \"type_\": \"heading\",\n   \"title\": \"Miney\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"C7\",\n   \"type_\": \"track\",\n   \"title\": \"Fitter Happier\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"C8\",\n   \"type_\": \"track\",\n   \"title\": \"Electioneering\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"C9\",\n   \"type_\": \"track\",\n   \"title\": \"Climbing Up The Walls\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"C10\",\n   \"type_\": \"track\",\n   \"title\": \"No Surprises\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"\",\n   \"type_\": \"heading\",\n   \"title\": \"Mo\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"D11\",\n   \"type_\": \"track\",\n   \"title\": \"Lucky\",\n   \"duration\": \"\"\n  },\n  {\n   \"position\": \"D12\",\n   \"type_\": \"track\",\n   \"title\": \"The Tourist\",\n   \"duration\": \"\"\n  }\n ],\n \"artists\": [\n  {\n   \"name\": \"Radiohead\",\n   \"anv\": \"\",\n   \"join\": \"\",\n   \"role\": \"\",\n   \"tracks\": \"\",\n   \"id\": 3840,\n   \"resource_url\": \"https://api.discogs.com/artists/3840\",\n   \"thumbnail_url\": \"https://i.discogs.com/eG3bUGOvNZSm8nRHMz3xf4tRfaxTz5sq9PpfsEMdTSY/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM4NDAt/MTM4NjM1MjI4NS04/ODIyLmpwZWc.jpeg\"\n  }\n ],\n \"title\": \"OK Computer\",\n \"notes\": \"Radiohead's third studio album, produced by Nigel Godrich.\\r\\n\\r\\nRelease dates: \\r\\nJapan - May 21, 1997\\r\\nUK - June 16, 1997\\r\\nUS - July 1, 1997\",\n \"data_quality\": \"Correct\",\n \"videos\": [\n  {\n   \"uri\": \"https://www.youtube.com/watch?v=fHiGbolFFGw\",\n   \"title\": \"Radiohead - Paranoid Android\",\n   \"description\": \"‘Paranoid Android’ is taken from ‘OK Computer’ out on XL Recordings. Buy & stream it here: https://radiohead.ffm.to/okcomputer\\n\\nDirector: Magnus Carlsson Producer: Peter Gustaffson Production company: Wegelius Animation AB Commissioner: Dilly Gent\\n\\nFollow\",\n   \"duration\": 393,\n   \"embed\": true\n  },\n  {\n   \"uri\": \"https://www.youtube.com/watch?v=1uYWYWPc9HU\",\n   \"title\": \"Radiohead - Karma Police\",\n   \"description\": \"‘Karma Police’ is taken from ‘OK Computer’ out on XL Recordings. Buy & stream it here: https://radiohead.ffm.to/okcomputer\\n\\nDirector: Jonathan Glazer Producer: Nick Morris Cinematography: Steve Keith-Roach Production company: Academy Music Video Ltd Commi\",\n   \"duration\": 263,\n   \"embed\": true\n  },\n  {\n   \"uri\": \"https://www.youtube.com/watch?v=u5CVsCnxyXg\",\n   \"title\": \"Radiohead - No Surprises\",\n   \"description\": \"‘No Surprises’ is taken from ‘OK Computer’ out on XL Recordings. Buy & stream it here: https://radiohead.ffm.to/okcomputer\\n\\nDirector: Grant Gee Producer: Phil Barnes Cinematography: Dan Landin Production company: Kudos (Music Video) Commissioner: Dilly Ge\",\n   \"duration\": 228,\n   \"embed\": true\n  }\n ]\n}"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "verification_gate",
+  "signal": "explicit",
+  "targets": [
+   "R-F5-03-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:30:33Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "challenge": {
+   "status": 403,
+   "markers": [
+    "challenge-platform",
+    "enable javascript and cookies",
+    "just a moment"
+   ],
+   "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Cf-Mitigated": "challenge",
+    "Server": "cloudflare",
+    "set-cookie": "__cf_bm=7qOK5DEzg7io_cCRUQp762Ym6zY16.qzyarg9Pg8wFY-1792175434.2633936-1.0.1.1-jZloDyfB2dB40xctoFjh6GAHJzdUF2cXChCgBO0Vn"
+   }
+  },
+  "note": "challenge recorded only; never attempted"
+ },
+ "oracle_query": "How many tracks does Discogs list for the master release of Radiohead's \"OK Comp",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "How many tracks does Discogs list for the master release of Radiohead's \"OK Comp"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.discogs.com/master/21491"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.discogs.com/masters/21491"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "16 tracks",
+     "sources": [
+      "https://api.discogs.com/masters/21491"
+     ],
+     "substitutions": [
+      {
+       "url": "https://api.discogs.com/masters/21491",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "verification",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

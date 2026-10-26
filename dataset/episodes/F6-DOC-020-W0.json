@@ -1,0 +1,464 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F6-DOC-020-W0",
+ "goal_id": "F6-DOC-020",
+ "family": "F6",
+ "world": "W0",
+ "domain": "docs",
+ "task_type": "AA",
+ "goal": "We are deploying lattice-rpc v4.0 and I need its official configuration schema file. It should be available from the documentation at http://docs.lattice-rpc.example/reference/7ab574-lattice-rpc-v4-0-configuration-reference\nPlease download the file and submit it.",
+ "answer": {
+  "kind": "file",
+  "field": "request timeout",
+  "unit": "s",
+  "canonical": "62e6d4f1b96ccae9de466bbc2c8ab9625e873622b479132f87181fd14fbd42c0",
+  "entity": "timeout"
+ },
+ "resources": [
+  {
+   "id": "F6-DOC-020-canon",
+   "role": "canonical",
+   "host": "docs.lattice-rpc.example",
+   "path": "/reference/7ab574-lattice-rpc-v4-0-configuration-reference",
+   "url": "http://docs.lattice-rpc.example/reference/7ab574-lattice-rpc-v4-0-configuration-reference",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "lattice-rpc v4.0 configuration reference",
+   "publisher": "lattice-rpc project",
+   "date": "2025-04-10",
+   "version_label": "lattice-rpc documentation v4.0",
+   "expression": "v4.0",
+   "work_id": "work-7ab574",
+   "entity": "timeout",
+   "field_label": "request timeout",
+   "unit": "s",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for lattice-rpc v4.0.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "request timeout (s)"
+    ],
+    "table": [
+     [
+      "pool_size",
+      "48"
+     ],
+     [
+      "cache_ttl",
+      "1173"
+     ],
+     [
+      "timeout",
+      "90"
+     ],
+     [
+      "backoff_ms",
+      "454"
+     ],
+     [
+      "max_batch",
+      "4984"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# lattice-rpc v4.0 configuration reference\n# version: lattice-rpc documentation v4.0\nentity,timeout\npool_size,48\ncache_ttl,1173\ntimeout,90\nbackoff_ms,454\nmax_batch,4984\n",
+   "file_name": "lattice-rpc-v4.0-config-schema.json",
+   "sha256": "62e6d4f1b96ccae9de466bbc2c8ab9625e873622b479132f87181fd14fbd42c0",
+   "value": "90",
+   "cell_value": "90",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with LATTICE_RPC_."
+     ],
+     [
+      "Changelog",
+      "v4.0: the default of `max_batch` changed from 134 to the value shown below. v3.4: `max_batch` deprecated in favour of `timeout`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 146 for `timeout`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_pool_size",
+        "v4.0",
+        "pool_size"
+       ],
+       [
+        "legacy_cache_ttl",
+        "v4.0",
+        "cache_ttl"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F6-DOC-020-faith",
+   "role": "faithful",
+   "host": "api.docs.lattice-rpc.example",
+   "path": "/v1/records/7ab574/data",
+   "url": "http://api.docs.lattice-rpc.example/v1/records/7ab574/data",
+   "kind": "file",
+   "site_type": "api",
+   "title": "lattice-rpc v4.0 configuration reference",
+   "publisher": "lattice-rpc project official API",
+   "date": "2025-04-10",
+   "version_label": "lattice-rpc documentation v4.0",
+   "expression": "v4.0",
+   "work_id": "work-7ab574",
+   "entity": "timeout",
+   "field_label": "request timeout",
+   "unit": "s",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for lattice-rpc v4.0.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "request timeout (s)"
+    ],
+    "table": [
+     [
+      "pool_size",
+      "48"
+     ],
+     [
+      "cache_ttl",
+      "1173"
+     ],
+     [
+      "timeout",
+      "90"
+     ],
+     [
+      "backoff_ms",
+      "454"
+     ],
+     [
+      "max_batch",
+      "4984"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# lattice-rpc v4.0 configuration reference\n# version: lattice-rpc documentation v4.0\nentity,timeout\npool_size,48\ncache_ttl,1173\ntimeout,90\nbackoff_ms,454\nmax_batch,4984\n",
+   "file_name": "lattice-rpc-v4.0-config-schema.json",
+   "sha256": "62e6d4f1b96ccae9de466bbc2c8ab9625e873622b479132f87181fd14fbd42c0",
+   "value": "90",
+   "cell_value": "90",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with LATTICE_RPC_."
+     ],
+     [
+      "Changelog",
+      "v4.0: the default of `max_batch` changed from 134 to the value shown below. v3.4: `max_batch` deprecated in favour of `timeout`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 146 for `timeout`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_pool_size",
+        "v4.0",
+        "pool_size"
+       ],
+       [
+        "legacy_cache_ttl",
+        "v4.0",
+        "cache_ttl"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_api",
+   "chain": [
+    "http://docs.lattice-rpc.example/developers",
+    "http://docs.lattice-rpc.example/developers/reference",
+    "http://api.docs.lattice-rpc.example/v1/search?q=lattice-rpc+v4.0+configuration+reference",
+    "http://api.docs.lattice-rpc.example/v1/records/7ab574"
+   ]
+  },
+  {
+   "id": "F6-DOC-020-hub-dev",
+   "role": "hub",
+   "host": "docs.lattice-rpc.example",
+   "path": "/developers",
+   "url": "http://docs.lattice-rpc.example/developers",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Developers",
+   "publisher": "docs.lattice-rpc.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Automated clients must use our API rather than the website.",
+     "See the API reference for endpoints and terms of use."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.lattice-rpc.example/developers/reference",
+     "API reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F6-DOC-020-hub-dev-ref",
+   "role": "hub",
+   "host": "docs.lattice-rpc.example",
+   "path": "/developers/reference",
+   "url": "http://docs.lattice-rpc.example/developers/reference",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "API reference",
+   "publisher": "docs.lattice-rpc.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Search records: GET http://api.docs.lattice-rpc.example/v1/search?q=<title words>",
+     "Fetch a record: GET http://api.docs.lattice-rpc.example/v1/records/<id>",
+     "No key is required for read access."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-DOC-020-hub-api-record",
+   "role": "hub",
+   "host": "api.docs.lattice-rpc.example",
+   "path": "/v1/records/7ab574",
+   "url": "http://api.docs.lattice-rpc.example/v1/records/7ab574",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Record 7ab574",
+   "publisher": "api.docs.lattice-rpc.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Record 7ab574: lattice-rpc v4.0 configuration reference.",
+     "Publisher: lattice-rpc project."
+    ]
+   },
+   "links": [
+    [
+     "http://api.docs.lattice-rpc.example/v1/records/7ab574/data",
+     "data"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-DOC-020-hub-pkg-project",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/lattice-rpc",
+   "url": "http://pkgindex.example/project/lattice-rpc",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "lattice-rpc",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "lattice-rpc - lattice-rpc project.",
+     "Releases, source code and documentation links."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.lattice-rpc.example/",
+     "Homepage"
+    ],
+    [
+     "http://pkgindex.example/project/lattice-rpc/docs",
+     "Documentation (all versions)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F6-DOC-020-hub-pkg-docs",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/lattice-rpc/docs",
+   "url": "http://pkgindex.example/project/lattice-rpc/docs",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "lattice-rpc documentation",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted documentation by version."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.lattice-rpc.example/reference/7ab574-lattice-rpc-v4-0-configuration-reference",
+     "v4.0 - docs.lattice-rpc.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F6-DOC-020-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F6-DOC-020-W1a",
+  "unrecoverable": "F6-DOC-020-W3",
+  "twin": "F6-DOC-020-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://docs.lattice-rpc.example/reference/7ab574-lattice-rpc-v4-0-configuration-reference"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "62e6d4f1b96ccae9de466bbc2c8ab9625e873622b479132f87181fd14fbd42c0",
+     "sources": [
+      "http://docs.lattice-rpc.example/reference/7ab574-lattice-rpc-v4-0-configuration-reference"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "62e6d4f1b96ccae9de466bbc2c8ab9625e873622b479132f87181fd14fbd42c0",
+   "sources": [
+    "http://docs.lattice-rpc.example/reference/7ab574-lattice-rpc-v4-0-configuration-reference"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

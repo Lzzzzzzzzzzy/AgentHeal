@@ -1,0 +1,573 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F3-OPE-007-W0",
+ "goal_id": "F3-OPE-007",
+ "family": "F3",
+ "world": "W0",
+ "domain": "opendata",
+ "task_type": "IR",
+ "goal": "I'm preparing a briefing that uses the National Fisheries Office's \"School Transport Census\" (2025 edition): http://national-fisheries-office.example/datasets/fa4d2f-school-transport-census\nWhat is the daily riders on route Belcliff? Please give the value with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "daily riders on route",
+  "unit": "riders",
+  "canonical": "557",
+  "entity": "Belcliff"
+ },
+ "resources": [
+  {
+   "id": "F3-OPE-007-canon",
+   "role": "canonical",
+   "host": "national-fisheries-office.example",
+   "path": "/datasets/fa4d2f-school-transport-census",
+   "url": "http://national-fisheries-office.example/datasets/fa4d2f-school-transport-census",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "School Transport Census",
+   "publisher": "National Fisheries Office",
+   "date": "2025-05-01",
+   "version_label": "School Transport Census, 2025 edition",
+   "expression": "2025 edition",
+   "work_id": "work-fa4d2f",
+   "entity": "Belcliff",
+   "field_label": "daily riders on route",
+   "unit": "riders",
+   "body": {
+    "paragraphs": [
+     "Published by the National Fisheries Office.",
+     "This page describes 2025 edition of the dataset."
+    ],
+    "table_caption": "Daily riders on route by site",
+    "table_header": [
+     "",
+     "daily riders on route (riders)"
+    ],
+    "table": [
+     [
+      "Corran",
+      "122"
+     ],
+     [
+      "Belcliff",
+      "557"
+     ],
+     [
+      "Eskridge",
+      "84"
+     ],
+     [
+      "Ardmore",
+      "885"
+     ],
+     [
+      "Glenhurst",
+      "162"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "557",
+   "cell_value": "557",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "School Transport Census is published by the National Fisheries Office under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Eskridge; the previous release reported 1042 riders. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "National Fisheries Office (2025). School Transport Census, 2025 edition."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "daily riders on route (riders)"
+      ],
+      "rows": [
+       [
+        "Belcliff",
+        "916"
+       ],
+       [
+        "Corran",
+        "781"
+       ],
+       [
+        "Eskridge",
+        "275"
+       ],
+       [
+        "Ardmore",
+        "870"
+       ],
+       [
+        "Glenhurst",
+        "935"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F3-OPE-007-faith",
+   "role": "faithful",
+   "host": "data-commons.example",
+   "path": "/catalog/fa4d2f",
+   "url": "http://data-commons.example/catalog/fa4d2f",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "School Transport Census",
+   "publisher": "National Fisheries Office (syndicated to Data Commons) - public copy",
+   "date": "2025-05-01",
+   "version_label": "School Transport Census, 2025 edition",
+   "expression": "2025 edition",
+   "work_id": "work-fa4d2f",
+   "entity": "Belcliff",
+   "field_label": "daily riders on route",
+   "unit": "riders",
+   "body": {
+    "paragraphs": [
+     "Published by the National Fisheries Office.",
+     "This page describes 2025 edition of the dataset."
+    ],
+    "table_caption": "Daily riders on route by site",
+    "table_header": [
+     "",
+     "daily riders on route (riders)"
+    ],
+    "table": [
+     [
+      "Corran",
+      "122"
+     ],
+     [
+      "Belcliff",
+      "557"
+     ],
+     [
+      "Eskridge",
+      "84"
+     ],
+     [
+      "Ardmore",
+      "885"
+     ],
+     [
+      "Glenhurst",
+      "162"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "557",
+   "cell_value": "557",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "School Transport Census is published by the National Fisheries Office under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Eskridge; the previous release reported 1042 riders. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "National Fisheries Office (2025). School Transport Census, 2025 edition."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "daily riders on route (riders)"
+      ],
+      "rows": [
+       [
+        "Belcliff",
+        "916"
+       ],
+       [
+        "Corran",
+        "781"
+       ],
+       [
+        "Eskridge",
+        "275"
+       ],
+       [
+        "Ardmore",
+        "870"
+       ],
+       [
+        "Glenhurst",
+        "935"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_syndication",
+   "chain": [
+    "http://registry.example/search?q=School+Transport+Census",
+    "http://registry.example/dataset/fa4d2f",
+    "http://registry.example/dataset/fa4d2f/resource/0"
+   ],
+   "inspect": {
+    "http://registry.example/dataset/fa4d2f": []
+   }
+  },
+  {
+   "id": "F3-OPE-007-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/fa4d2f-0",
+   "url": "http://catalog0.example/entry/fa4d2f-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "School Transport Census - companion study",
+   "publisher": "Different publisher",
+   "date": "2025-05-01",
+   "version_label": "companion entry",
+   "expression": "2025 edition",
+   "work_id": "work-fa4d2f",
+   "entity": "Belcliff",
+   "field_label": "daily riders on route",
+   "unit": "riders",
+   "body": {
+    "paragraphs": [
+     "Published by the National Fisheries Office.",
+     "This page describes 2025 edition of the dataset."
+    ],
+    "table_caption": "Daily riders on route by site",
+    "table_header": [
+     "",
+     "daily riders on route (riders)"
+    ],
+    "table": [
+     [
+      "Corran",
+      "122"
+     ],
+     [
+      "Belcliff",
+      "654"
+     ],
+     [
+      "Eskridge",
+      "84"
+     ],
+     [
+      "Ardmore",
+      "885"
+     ],
+     [
+      "Glenhurst",
+      "162"
+     ]
+    ]
+   },
+   "cue": "Note: this page describes a different item than Belcliff (School Transport Census); scope differs.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "value": "654",
+   "cell_value": "654",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "School Transport Census is published by the National Fisheries Office under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Eskridge; the previous release reported 1042 riders. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "National Fisheries Office (2025). School Transport Census, 2025 edition."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "daily riders on route (riders)"
+      ],
+      "rows": [
+       [
+        "Belcliff",
+        "916"
+       ],
+       [
+        "Corran",
+        "781"
+       ],
+       [
+        "Eskridge",
+        "275"
+       ],
+       [
+        "Ardmore",
+        "870"
+       ],
+       [
+        "Glenhurst",
+        "935"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F3-OPE-007-hub-registry-dist0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/fa4d2f/resource/0",
+   "url": "http://registry.example/dataset/fa4d2f/resource/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "School Transport Census: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted by data-commons.example.",
+     "Format: HTML table; licence: open."
+    ]
+   },
+   "links": [
+    [
+     "http://data-commons.example/catalog/fa4d2f",
+     "Access URL"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-OPE-007-hub-registry-dead0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/fa4d2f/resource/x0",
+   "url": "http://registry.example/dataset/fa4d2f/resource/x0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "School Transport Census: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Bulk download (FTP). This distribution was discontinued."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-OPE-007-hub-registry-record",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/fa4d2f",
+   "url": "http://registry.example/dataset/fa4d2f",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "School Transport Census (National Fisheries Office)",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Publisher: National Fisheries Office.",
+     "Current release: 2025 edition.",
+     "Distributions are listed below with the organisation that hosts them."
+    ]
+   },
+   "links": [
+    [
+     "http://national-fisheries-office.example/datasets/fa4d2f-school-transport-census",
+     "National Fisheries Office portal (2025 edition)"
+    ],
+    [
+     "http://registry.example/dataset/fa4d2f/resource/0",
+     "Distribution 1"
+    ],
+    [
+     "http://registry.example/dataset/fa4d2f/resource/x0",
+     "Distribution 2"
+    ],
+    [
+     "http://registry.example/dataset/fa4d2f/releases",
+     "Release history"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F3-OPE-007-hub-registry-releases",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/fa4d2f/releases",
+   "url": "http://registry.example/dataset/fa4d2f/releases",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Release history: School Transport Census",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Releases of this dataset.",
+     "Earlier releases are available from the publisher on request."
+    ]
+   },
+   "links": [
+    [
+     "http://national-fisheries-office.example/datasets/fa4d2f-school-transport-census",
+     "2025 edition (current)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F3-OPE-007-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F3-OPE-007-W1b",
+  "unrecoverable": "F3-OPE-007-W3",
+  "twin": "F3-OPE-007-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://national-fisheries-office.example/datasets/fa4d2f-school-transport-census"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "557 riders",
+     "sources": [
+      "http://national-fisheries-office.example/datasets/fa4d2f-school-transport-census"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "557 riders",
+   "sources": [
+    "http://national-fisheries-office.example/datasets/fa4d2f-school-transport-census"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

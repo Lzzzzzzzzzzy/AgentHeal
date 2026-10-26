@@ -1,0 +1,241 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-11",
+ "goal_id": "R-F1-11",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm planning a visit to the National Railway Museum's Shildon site and read about its Collection building here: http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx\nMore than how many railway heritage vehicles are on display there? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "vehicles",
+  "unit": "vehicles",
+  "canonical": "70",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-11-canon",
+   "role": "canonical",
+   "url": "http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx",
+   "host": "www.nrm.org.uk",
+   "path": "/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "301 Moved",
+   "publisher": "www.nrm.org.uk",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-11",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "301 Moved"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 301,
+    "headers": {
+     "Location": "https://www.railwaymuseum.org.uk/"
+    },
+    "title": "301 Moved",
+    "observed_at": "2026-10-16T18:11:38Z",
+    "text": "Moved: https://www.railwaymuseum.org.uk/"
+   }
+  },
+  {
+   "id": "R-F1-11-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20140102191510/http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx",
+   "host": "web.archive.org",
+   "path": "/web/20140102191510/http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Collection building - Plan a visit - National Railway Museum",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2014-01-02",
+   "work_id": "R-F1-11",
+   "value": "70",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "The model railway in the Collection building, run courtesy of Shildon Model Railway Club .",
+     "Admire our display of more than 70 railway heritage vehicles from the National Collection – including the prototype Deltic ; British Rail’s Advanced Passenger Train; and the iconic L.N.E.R. locomotive Green Arrow . Some have been stored in the open for many years, whilst others have been finely restored.",
+     "The Collection building is a showcase for sustainability techniques. A key requirement is to minimise temperature and humidity fluctuations as well as the building's overall energy demand. A high degree of roof insulation, wire gabons in the walls help achieve these ends without the need for air conditioning. A photovoltaic roofing system generates power which is fed back into the grid."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Collection building - Plan a visit - National Railway Museum",
+    "memento": "20140102191510",
+    "original": "http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx",
+    "text": "The model railway in the Collection building, run courtesy of Shildon Model Railway Club .\nAdmire our display of more than 70 railway heritage vehicles from the National Collection – including the prototype Deltic ; British Rail’s Advanced Passenger Train; and the iconic L.N.E.R. locomotive Green Arrow . Some have been stored in the open for many years, whilst others have been finely restored.\nThe Collection building is a showcase for sustainability techniques. A key requirement is to minimise temperature and humidity fluctuations as well as the building's overall energy demand. A high degree of roof insulation, wire gabons in the walls help achieve these ends without the need for air conditioning. A photovoltaic roofing system generates power which is fed back into the grid."
+   }
+  },
+  {
+   "id": "R-F1-11-home",
+   "role": "context",
+   "url": "https://www.railwaymuseum.org.uk/",
+   "host": "www.railwaymuseum.org.uk",
+   "path": "/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "National Railway Museum",
+   "publisher": "www.railwaymuseum.org.uk",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-11",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "National Railway Museum ",
+     " Skip to main content",
+     " View more details on collections site ",
+     " Support us ",
+     " Shop ",
+     " Visit ",
+     " What’s on ",
+     " Our Transformation ",
+     " Groups ",
+     " Flying Scotsman ",
+     " Menu ",
+     " Toggle Search Bar ",
+     " Search the site",
+     " Submit",
+     " Visit ",
+     " Visit ",
+     " Travel info ",
+     " Food and drink ",
+     " Afternoon tea ",
+     " Facilities and accessibility ",
+     " What’s on ",
+     " Our Transformation ",
+     " Groups ",
+     " Flying Scotsman ",
+     " Objects and stories ",
+     " Research and archive ",
+     " Research and archive ",
+     " Donate an object ",
+     " Science Museum Group Journal ",
+     " Support the museum "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "National Railway Museum",
+    "text": "National Railway Museum \n Skip to main content\n View more details on collections site \n Support us \n Shop \n Visit \n What’s on \n Our Transformation \n Groups \n Flying Scotsman \n Menu \n Toggle Search Bar \n Search the site\n Submit\n Visit \n Visit \n Travel info \n Food and drink \n Afternoon tea \n Facilities and accessibility \n What’s on \n Our Transformation \n Groups \n Flying Scotsman \n Objects and stories \n Research and archive \n Research and archive \n Donate an object \n Science Museum Group Journal \n Support the museum \n Support the museum \n Become a patron \n Corporate partnerships \n Trusts and Foundations \n Adopt an Object \n Leave a gift in your will \n Donate in Memory \n Volunteering \n About us \n About us \n Contact us \n Our Transformation \n Press office \n Venue hire \n Blog \n Wonderlab+ \n Shop \n Venue Hire \n Newsletter \n National Railway Museum\n Leeman Road\n York YO26 4XJ\n View on google maps\nBook your free museum admission tickets now . Schools and groups can book free tickets here . \nPlease note routes to the museum have changed. Find out more on the Travel Information page . \n Visit \n Visit \n Travel info \n Food and drink \n Afternoon tea \n Facilities and accessibility \n What’s on \n Our Transformation \n Groups \n Flying Scotsman \n Objects and stories \n Research and archive \n Research and archive \n Donate an object \n Science Museum Group Journal \n Support the museum \n Support the museum \n Become a patron \n Corporate partnerships \n Trusts and Foundations \n Adopt an Object \n Leave a g"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "redirect_home",
+  "signal": "ambiguous",
+  "targets": [
+   "R-F1-11-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:11:38Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 301,
+   "class": "redirect_home",
+   "location": "https://www.railwaymuseum.org.uk/",
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Stockton and Darlington Railway'",
+  "archive_url": "https://web.archive.org/web/20140102191510/http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx"
+ },
+ "oracle_query": "NRM Shildon: Collection building",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "NRM Shildon: Collection building"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20140102191510/http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "70 vehicles",
+     "sources": [
+      "https://web.archive.org/web/20140102191510/http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20140102191510/http://www.nrm.org.uk/PlanaVisit/VisitShildon/museumareas/collectionbuilding.aspx",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2014-01-02",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

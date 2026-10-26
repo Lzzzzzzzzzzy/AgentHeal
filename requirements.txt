@@ -1,0 +1,5 @@
+# Core (dataset, gym, scoring, ReAct with urllib clients) needs only the Python standard library.
+playwright>=1.40      # DOM browser and computer-use tools
+numpy>=1.24           # optional: statistics helpers
+statsmodels>=0.14     # optional: mixed-effects models
+pandas>=2.0           # optional: mixed-effects models

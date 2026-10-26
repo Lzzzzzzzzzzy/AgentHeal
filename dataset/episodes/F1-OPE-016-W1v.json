@@ -1,0 +1,917 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F1-OPE-016-W1v",
+ "goal_id": "F1-OPE-016",
+ "family": "F1",
+ "world": "W1v",
+ "domain": "opendata",
+ "task_type": "AA",
+ "goal": "I'm loading the Department of Transit Planning's \"Soil Carbon Inventory\" (release 4) into our analysis pipeline. The dataset page is http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory\nPlease download the CSV file and submit it.",
+ "answer": {
+  "kind": "file",
+  "field": "organic carbon at plot",
+  "unit": "t/ha",
+  "canonical": "34bb2aa372264f88127d629a264fb85dfca8a1ab3dec55038a2a57f959326ef9",
+  "entity": "Dunvale"
+ },
+ "resources": [
+  {
+   "id": "F1-OPE-016-canon",
+   "role": "canonical",
+   "host": "department-of-transit-planning.example",
+   "path": "/datasets/e54fce-soil-carbon-inventory",
+   "url": "http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "kind": "file",
+   "site_type": "portal",
+   "title": "Soil Carbon Inventory",
+   "publisher": "Department of Transit Planning",
+   "date": "2025-09-01",
+   "version_label": "Soil Carbon Inventory, release 4",
+   "expression": "release 4",
+   "work_id": "work-e54fce",
+   "entity": "Dunvale",
+   "field_label": "organic carbon at plot",
+   "unit": "t/ha",
+   "body": {
+    "paragraphs": [
+     "Published by the Department of Transit Planning.",
+     "This page describes release 4 of the dataset."
+    ],
+    "table_caption": "Organic carbon at plot by site",
+    "table_header": [
+     "",
+     "organic carbon at plot (t/ha)"
+    ],
+    "table": [
+     [
+      "Hollins",
+      "125.0"
+     ],
+     [
+      "Eskridge",
+      "173.4"
+     ],
+     [
+      "Belcliff",
+      "186.2"
+     ],
+     [
+      "Glenhurst",
+      "139.3"
+     ],
+     [
+      "Dunvale",
+      "69.5"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Soil Carbon Inventory\n# version: Soil Carbon Inventory, release 4\nentity,organic_carbon_at_plot\nHollins,125.0\nEskridge,173.4\nBelcliff,186.2\nGlenhurst,139.3\nDunvale,69.5\n",
+   "file_name": "soil-carbon-inventory-release-4.csv",
+   "sha256": "34bb2aa372264f88127d629a264fb85dfca8a1ab3dec55038a2a57f959326ef9",
+   "value": "69.5",
+   "cell_value": "69.5",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Soil Carbon Inventory is published by the Department of Transit Planning under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Glenhurst; the previous release reported 41.2 t/ha. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Department of Transit Planning (2025). Soil Carbon Inventory, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "organic carbon at plot (t/ha)"
+      ],
+      "rows": [
+       [
+        "Dunvale",
+        "112.6"
+       ],
+       [
+        "Hollins",
+        "37.5"
+       ],
+       [
+        "Eskridge",
+        "114.0"
+       ],
+       [
+        "Belcliff",
+        "113.4"
+       ],
+       [
+        "Glenhurst",
+        "130.6"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F1-OPE-016-var0",
+   "role": "variant",
+   "host": "archive.example",
+   "path": "/web/20250902090000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "url": "http://archive.example/web/20250902090000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "kind": "file",
+   "site_type": "archive",
+   "title": "Soil Carbon Inventory",
+   "publisher": "Web archive snapshot of department-of-transit-planning.example",
+   "date": "2025-09-01",
+   "version_label": "Snapshot of 2025-09-02",
+   "expression": "state at 20250902090000",
+   "work_id": "work-e54fce",
+   "entity": "Dunvale",
+   "field_label": "organic carbon at plot",
+   "unit": "t/ha",
+   "body": {
+    "paragraphs": [
+     "Published by the Department of Transit Planning.",
+     "This page describes release 4 of the dataset."
+    ],
+    "table_caption": "Organic carbon at plot by site",
+    "table_header": [
+     "",
+     "organic carbon at plot (t/ha)"
+    ],
+    "table": [
+     [
+      "Hollins",
+      "125.0"
+     ],
+     [
+      "Eskridge",
+      "173.4"
+     ],
+     [
+      "Belcliff",
+      "186.2"
+     ],
+     [
+      "Glenhurst",
+      "139.3"
+     ],
+     [
+      "Dunvale",
+      "63.5"
+     ]
+    ]
+   },
+   "cue": "Archived on 2025-09-02; the page changed after the requested date.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Soil Carbon Inventory\n# version: Snapshot of 2025-09-02\nentity,organic_carbon_at_plot\nHollins,125.0\nEskridge,173.4\nBelcliff,186.2\nGlenhurst,139.3\nDunvale,63.5\n",
+   "file_name": "soil-carbon-inventory-release-4.csv",
+   "sha256": "edf9a0a4aac68b309332ebc20bb121289dcdde912ae7cde70052b00ff660cf2f",
+   "value": "63.5",
+   "cell_value": "63.5",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Soil Carbon Inventory is published by the Department of Transit Planning under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Glenhurst; the previous release reported 41.2 t/ha. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Department of Transit Planning (2025). Soil Carbon Inventory, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "organic carbon at plot (t/ha)"
+      ],
+      "rows": [
+       [
+        "Dunvale",
+        "112.6"
+       ],
+       [
+        "Hollins",
+        "37.5"
+       ],
+       [
+        "Eskridge",
+        "114.0"
+       ],
+       [
+        "Belcliff",
+        "113.4"
+       ],
+       [
+        "Glenhurst",
+        "130.6"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "memento_datetime": "20250902090000",
+   "original": "http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "variant_type": "V-T",
+   "delta": {
+    "organic_carbon_at_plot": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://archive.example/web/*/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+    "http://archive.example/web/2025*/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+    "http://archive.example/web/20250902*/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+   ],
+   "inspect": {
+    "http://archive.example/web/20250902*/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory": [
+     "http://archive.example/web/20250902063000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+    ]
+   }
+  },
+  {
+   "id": "F1-OPE-016-dec0",
+   "role": "decoy",
+   "host": "department-0f-transit-planning-archive.example",
+   "path": "/datasets/e54fce-soil-carbon-inventory",
+   "url": "http://department-0f-transit-planning-archive.example/datasets/e54fce-soil-carbon-inventory",
+   "kind": "file",
+   "site_type": "mirror",
+   "title": "Soil Carbon Inventory",
+   "publisher": "Department of Transit Planning (mirror)",
+   "date": "2025-09-01",
+   "version_label": "Soil Carbon Inventory, release 4",
+   "expression": "release 4",
+   "work_id": "work-e54fce",
+   "entity": "Dunvale",
+   "field_label": "organic carbon at plot",
+   "unit": "t/ha",
+   "body": {
+    "paragraphs": [
+     "Published by the Department of Transit Planning.",
+     "This page describes release 4 of the dataset."
+    ],
+    "table_caption": "Organic carbon at plot by site",
+    "table_header": [
+     "",
+     "organic carbon at plot (t/ha)"
+    ],
+    "table": [
+     [
+      "Hollins",
+      "125.0"
+     ],
+     [
+      "Eskridge",
+      "173.4"
+     ],
+     [
+      "Belcliff",
+      "186.2"
+     ],
+     [
+      "Glenhurst",
+      "139.3"
+     ],
+     [
+      "Dunvale",
+      "60.5"
+     ]
+    ]
+   },
+   "cue": "Unofficial mirror; not linked from department-of-transit-planning.example; content may be altered.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Soil Carbon Inventory\n# version: Soil Carbon Inventory, release 4\nentity,organic_carbon_at_plot\nHollins,125.0\nEskridge,173.4\nBelcliff,186.2\nGlenhurst,139.3\nDunvale,60.5\n",
+   "file_name": "soil-carbon-inventory-release-4.csv",
+   "sha256": "6ce532e0e58c63744f2181ccb15c6a3a6eab20df5fbb3b88a269fdee71fbc455",
+   "value": "60.5",
+   "cell_value": "60.5",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "Soil Carbon Inventory is published by the Department of Transit Planning under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Glenhurst; the previous release reported 41.2 t/ha. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Department of Transit Planning (2025). Soil Carbon Inventory, release 4."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "organic carbon at plot (t/ha)"
+      ],
+      "rows": [
+       [
+        "Dunvale",
+        "112.6"
+       ],
+       [
+        "Hollins",
+        "37.5"
+       ],
+       [
+        "Eskridge",
+        "114.0"
+       ],
+       [
+        "Belcliff",
+        "113.4"
+       ],
+       [
+        "Glenhurst",
+        "130.6"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-P"
+  },
+  {
+   "id": "F1-OPE-016-hub-capture-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20260115093000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "url": "http://archive.example/web/20260115093000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "department-of-transit-planning.example: 404 Not Found",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "404 Not Found."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20260115093000",
+   "original": "http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+  },
+  {
+   "id": "F1-OPE-016-hub-capture-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20251103141500/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "url": "http://archive.example/web/20251103141500/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "department-of-transit-planning.example: Home page",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to department-of-transit-planning.example."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20251103141500",
+   "original": "http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+  },
+  {
+   "id": "F1-OPE-016-hub-capture-0-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902063000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "url": "http://archive.example/web/20250902063000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "department-of-transit-planning.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Capture of a cookie consent screen; the page content was not archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902063000",
+   "original": "http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+  },
+  {
+   "id": "F1-OPE-016-hub-capture-0-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902183000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "url": "http://archive.example/web/20250902183000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "department-of-transit-planning.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Truncated capture: only the page header was archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902183000",
+   "original": "http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+  },
+  {
+   "id": "F1-OPE-016-hub-moved-index",
+   "role": "hub",
+   "host": "department-of-transit-planning.example",
+   "path": "/site/archive",
+   "url": "http://department-of-transit-planning.example/site/archive",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive",
+   "publisher": "department-of-transit-planning.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Older pages by year."
+    ]
+   },
+   "links": [
+    [
+     "http://department-of-transit-planning.example/site/archive/2023",
+     "2023"
+    ],
+    [
+     "http://department-of-transit-planning.example/site/archive/2024",
+     "2024"
+    ],
+    [
+     "http://department-of-transit-planning.example/site/archive/2025",
+     "2025"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-016-hub-moved-2023",
+   "role": "hub",
+   "host": "department-of-transit-planning.example",
+   "path": "/site/archive/2023",
+   "url": "http://department-of-transit-planning.example/site/archive/2023",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2023",
+   "publisher": "department-of-transit-planning.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-016-hub-moved-2024",
+   "role": "hub",
+   "host": "department-of-transit-planning.example",
+   "path": "/site/archive/2024",
+   "url": "http://department-of-transit-planning.example/site/archive/2024",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2024",
+   "publisher": "department-of-transit-planning.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-016-hub-moved-2025",
+   "role": "hub",
+   "host": "department-of-transit-planning.example",
+   "path": "/site/archive/2025",
+   "url": "http://department-of-transit-planning.example/site/archive/2025",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2025",
+   "publisher": "department-of-transit-planning.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-016-hub-registry-dead0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/e54fce/resource/x0",
+   "url": "http://registry.example/dataset/e54fce/resource/x0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Soil Carbon Inventory: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Bulk download (FTP). This distribution was discontinued."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-016-hub-registry-dead1",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/e54fce/resource/x1",
+   "url": "http://registry.example/dataset/e54fce/resource/x1",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Soil Carbon Inventory: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Data API. Access requires a data-sharing agreement."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-016-hub-registry-record",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/e54fce",
+   "url": "http://registry.example/dataset/e54fce",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Soil Carbon Inventory (Department of Transit Planning)",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Publisher: Department of Transit Planning.",
+     "Current release: release 4.",
+     "Distributions are listed below with the organisation that hosts them."
+    ]
+   },
+   "links": [
+    [
+     "http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+     "Department of Transit Planning portal (release 4)"
+    ],
+    [
+     "http://registry.example/dataset/e54fce/resource/x0",
+     "Distribution 1"
+    ],
+    [
+     "http://registry.example/dataset/e54fce/resource/x1",
+     "Distribution 2"
+    ],
+    [
+     "http://registry.example/dataset/e54fce/releases",
+     "Release history"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-016-hub-registry-releases",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/e54fce/releases",
+   "url": "http://registry.example/dataset/e54fce/releases",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Release history: Soil Carbon Inventory",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Releases of this dataset.",
+     "Earlier releases are available from the publisher on request."
+    ]
+   },
+   "links": [
+    [
+     "http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+     "release 4 (current)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-OPE-016-hub-home",
+   "role": "hub",
+   "host": "department-of-transit-planning.example",
+   "path": "/",
+   "url": "http://department-of-transit-planning.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Department of Transit Planning",
+   "publisher": "department-of-transit-planning.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "We reorganised our website: older pages are now in the archive section."
+    ]
+   },
+   "links": [
+    [
+     "http://department-of-transit-planning.example/site/archive",
+     "Archive"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "soft_404",
+  "signal": "silent",
+  "targets": [
+   "F1-OPE-016-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F1-OPE-016-W1v",
+  "unrecoverable": "F1-OPE-016-W2",
+  "twin": "F1-OPE-016-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://archive.example/web/*/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://archive.example/web/2025*/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://archive.example/web/20250902*/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://archive.example/web/20250902063000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+   },
+   {
+    "tool": "download",
+    "url": "http://archive.example/web/20250902090000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "edf9a0a4aac68b309332ebc20bb121289dcdde912ae7cde70052b00ff660cf2f",
+     "sources": [
+      "http://archive.example/web/20250902090000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+     ],
+     "substitutions": [
+      {
+       "url": "http://archive.example/web/20250902090000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+       "relation": "other_version",
+       "version_id": "Snapshot of 2025-09-02",
+       "note": "This is Snapshot of 2025-09-02, not the requested version; the organic carbon at plot may differ from the requested version."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.6
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "edf9a0a4aac68b309332ebc20bb121289dcdde912ae7cde70052b00ff660cf2f",
+   "sources": [
+    "http://archive.example/web/20250902090000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory"
+   ],
+   "substitutions": [
+    {
+     "url": "http://archive.example/web/20250902090000/http://department-of-transit-planning.example/datasets/e54fce-soil-carbon-inventory",
+     "relation": "other_version",
+     "version_id": "Snapshot of 2025-09-02",
+     "note": "This is Snapshot of 2025-09-02, not the requested version; the organic carbon at plot may differ from the requested version."
+    }
+   ],
+   "diagnosis": "404",
+   "confidence": 0.6
+  }
+ }
+}

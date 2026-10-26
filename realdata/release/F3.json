@@ -1,0 +1,918 @@
+[
+ {
+  "id": "R-F3-01",
+  "family": "F3",
+  "world": "W1a",
+  "domain": "models",
+  "task_type": "IR",
+  "goal": "I'm comparing open image-generation models and need a detail from the FLUX.1-dev model card: https://huggingface.co/black-forest-labs/FLUX.1-dev/raw/main/README.md\nHow many parameters (in billions) does the model have? Please tell me where you found it.",
+  "answer": {
+   "value": "12",
+   "unit": "billion parameters",
+   "field": "how many parameters the model has (in billions)"
+  },
+  "barrier": {
+   "rule": "login_required",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F3-01-canon",
+    "role": "canonical",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev/raw/main/README.md",
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "indexed": false,
+    "text": "Access to model black-forest-labs/FLUX.1-dev is restricted. You must have access to it and be authenticated to access it. Please log in."
+   },
+   {
+    "id": "R-F3-01-faith",
+    "role": "faithful",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "status": 200,
+    "title": "black-forest-labs/FLUX.1-dev · Hugging Face",
+    "text": "black-forest-labs/FLUX.1-dev · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Solu\n...\n diffusers import DiffusionPipeline\n# switch to \"mps\" for apple devices\npipe = DiffusionPipeline.from_pretrained(\"black-forest-labs/FLUX.1-dev\", dtype=torch.bfloat16, device_map=\"cuda\")\nprompt = \"Astronaut in a jungle, cold color palette, muted colors, detailed, 8k\"\nimage = pipe(prompt).images[0] \nInference \n Inference Providers \nNotebooks \n Google Colab \n Kaggle \n AMD Developer Cloud \n Local Apps Settings \n Draw Things \n DiffusionBee \nBy clicking \\\"Agree\\\", you agree to the <a href=\\\"https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/LICENSE.md\\\" rel=\\\"nofollow\\\">FluxDev Non-Commercial License Agreement</a> and acknowledge the <a href=\\\"https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/POLICY.md\\\" rel=\\\"nofollow\\\">Acceptable Use Policy</a>.</p>\\n\",\"classNames\":\"hf-sanitized hf-sanitized-L06YL1Ws7FLRSNn-xsjl1\"},\"gated\":\"auto\",\"isLoggedIn\":false,\"repoId\":\"black-forest-labs/FLUX.1-dev\",\"repoType\":\"model\",\"isGoogleGemma\":false,\"requiresPaidPlan\":false}\">\n You need to agree to share your contact information to access this model \nThis repository is publicly accessible, but you have to accept the conditions to access its files and content . \nBy clicking \"Agree\", you agree to the FluxDev Non-Commercial License Agreement and acknowledge the Acceptable Use Policy . \n Log in or Sign Up to review the conditions and access this model content. \n Key Features \n Usage \n API Endpoints \n ComfyUI \n Diffusers \n Limitations \n Out-of-Scope Use \n License \n FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.\nFor more information, please read our blog post . \n Key Features\nCutting-edge output quality, second only to our state-of-the-art model FLUX.1 [pro] . \nCompetitive prompt following, matching the performance of closed source alternatives . \nTrained using guidance distillation, making FLUX.1 [dev] more efficient. \nOpen weights to drive new scientific research, and empower artists to develop innovative workflows. \nGenerated outputs can be used for personal, scientific, and commercial purposes as described in the FLUX.1 [dev] Non-Commercial License . \n Usage\nWe provide a reference implementation of FLUX.1 [dev] , as well as sampling code, in a dedicated github repository .\nDevelopers and creatives looking to build on top of FLUX.1 [dev] are encouraged to use this as a starting point. \n API Endpoints\nThe FLUX.1 models are also available via API from the following sources \n bfl.ml (currently FLUX.1 [pro] ) \n replicate.com \n fal.ai \n mystic.ai \n ComfyUI\n FLUX.1 [dev] is also available in Comfy UI for local inference with a node-based workflow. \n Diffusers\nTo use FLUX.1 [dev] with the 🧨 diffusers python library, first install or upgrade diffusers \n pip install -U diffusers\nThen you can use FluxPipeline to run the model \n import torch\n from diffusers import FluxPipeline\npipe = FluxPipeline.from_pretrained( \"black-forest-labs/FLUX.1-dev\" , torch_dtype=torch.bfloat16)\npipe.enable_model_c",
+    "value": "12",
+    "indexed": true,
+    "oracle_note": "The public model page renders the same model card."
+   }
+  ],
+  "oracle_query": "black-forest-labs/FLUX.1-dev",
+  "evidence": {
+   "observed_at": "2026-10-16T18:53:54Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "gated": "auto",
+   "raw_readme_status": 401
+  },
+  "goal_v0": "From the model card of the Hugging Face repository black-forest-labs/FLUX.1-dev (the file https://huggingface.co/black-forest-labs/FLUX.1-dev/raw/main/README.md), report how many parameters the model has (in billions). Cite the source you used.",
+  "user_link": "https://huggingface.co/black-forest-labs/FLUX.1-dev/raw/main/README.md"
+ },
+ {
+  "id": "R-F3-02",
+  "family": "F3",
+  "world": "W1a",
+  "domain": "models",
+  "task_type": "IR",
+  "goal": "For a table of large language models I'm compiling, I need the training data size of Falcon-180B from its model card: https://huggingface.co/tiiuae/falcon-180B/raw/main/README.md\nOn how many tokens (in billions) was it trained? Please tell me where you found it.",
+  "answer": {
+   "value": "3,500",
+   "unit": "billion tokens",
+   "field": "how many tokens the model was trained on (in billions)"
+  },
+  "barrier": {
+   "rule": "login_required",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F3-02-canon",
+    "role": "canonical",
+    "url": "https://huggingface.co/tiiuae/falcon-180B/raw/main/README.md",
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "indexed": false,
+    "text": "Access to model tiiuae/falcon-180B is restricted. You must have access to it and be authenticated to access it. Please log in."
+   },
+   {
+    "id": "R-F3-02-faith",
+    "role": "faithful",
+    "url": "https://huggingface.co/tiiuae/falcon-180B",
+    "status": 200,
+    "title": "tiiuae/falcon-180B · Hugging Face",
+    "text": "tiiuae/falcon-180B · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Solutions \n Te\n...\nowse\n Quantizations to use this model in llama.cpp , Ollama , LM Studio , or any compatible app. \nYou agree to the <a href=\\\"https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/LICENSE.txt\\\" rel=\\\"nofollow\\\">Falcon-180B TII license</a> and <a href=\\\"https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/ACCEPTABLE_USE_POLICY.txt\\\" rel=\\\"nofollow\\\">acceptable use policy</a>.</p>\\n\",\"classNames\":\"hf-sanitized hf-sanitized-2ruZKxMgb7IGYf6qJVUji\"},\"customHeading\":\"Acknowledge license to access the repository\",\"gated\":\"auto\",\"isLoggedIn\":false,\"repoId\":\"tiiuae/falcon-180B\",\"repoType\":\"model\",\"isGoogleGemma\":false,\"requiresPaidPlan\":false}\">\n Acknowledge license to access the repository \nThis repository is publicly accessible, but you have to accept the conditions to access its files and content . \nYou agree to the Falcon-180B TII license and acceptable use policy . \n Log in or Sign Up to review the conditions and access this model content. \n 🚀 Falcon-180B \n Why use Falcon-180B? \n Model Card for Falcon-180B \n Model Details \n Model Description \n Model Source \n Uses \n Direct Use \n Out-of-Scope Use \n Bias, Risks, and Limitations \n Recommendations \n How to Get Started with the Model \n Training Details \n Training Data \n Training Procedure \n Evaluation \n Technical Specifications \n Model Architecture and Objective \n Compute Infrastructure \n Citation \n Contact \n 🚀 Falcon-180B\n Falcon-180B is a 180B parameters causal decoder-only model built by TII and trained on 3,500B tokens of RefinedWeb enhanced with curated corpora. It is made available under the Falcon-180B TII License and Acceptable Use Policy . \n Paper coming soon 😊 \n🤗 To get started with Falcon (inference, finetuning, quantization, etc.), we recommend reading this great blogpost from HF or this one from the release of the 40B!\nNote that since the 180B is larger than what can easily be handled with transformers + acccelerate , we recommend using Text Generation Inference . \nYou will need at least 400GB of memory to swiftly run inference with Falcon-180B. \n Why use Falcon-180B?\n It is the best open-access model currently available, and one of the best model overall. Falcon-180B outperforms LLaMA-2 , StableLM , RedPajama , MPT , etc. See the OpenLLM Leaderboard . \n It features an architecture optimized for inference , with multiquery ( Shazeer et al., 2019 ). \n It is made available under a permissive license allowing for commercial use . \n⚠️ This is a raw, pretrained model, which should be further finetuned for most usecases. If you are looking for a version better suited to taking generic instructions in a chat format, we recommend taking a look at Falcon-180B-Chat . \n💸 Looking for a smaller, less expensive model? Falcon-7B and Falcon-40B are Falcon-180B's little brothers! \n💥 Falcon LLMs require PyTorch 2.0 for use with transformers ! \n Model Card for Falcon-180B\n Model Details\n Model Description\n Developed by: https://www.tii.ae ; \n Model type: Causal decoder-only; \n Language(",
+    "value": "3,500",
+    "indexed": true,
+    "oracle_note": "The public model page renders the same model card."
+   }
+  ],
+  "oracle_query": "tiiuae/falcon-180B",
+  "evidence": {
+   "observed_at": "2026-10-16T18:53:59Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "gated": "auto",
+   "raw_readme_status": 401
+  },
+  "goal_v0": "From the model card of the Hugging Face repository tiiuae/falcon-180B (the file https://huggingface.co/tiiuae/falcon-180B/raw/main/README.md), report how many tokens the model was trained on (in billions). Cite the source you used.",
+  "user_link": "https://huggingface.co/tiiuae/falcon-180B/raw/main/README.md"
+ },
+ {
+  "id": "R-F3-03",
+  "family": "F3",
+  "world": "W1a",
+  "domain": "models",
+  "task_type": "IR",
+  "goal": "I'm shortlisting models for a retrieval project and want to check Command R from its model card: https://huggingface.co/CohereLabs/c4ai-command-r-v01/raw/main/README.md\nHow many parameters (in billions) does it have? Please tell me where you found it.",
+  "answer": {
+   "value": "35",
+   "unit": "billion parameters",
+   "field": "how many parameters the model has (in billions)"
+  },
+  "barrier": {
+   "rule": "login_required",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F3-03-canon",
+    "role": "canonical",
+    "url": "https://huggingface.co/CohereLabs/c4ai-command-r-v01/raw/main/README.md",
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "indexed": false,
+    "text": "Access to model CohereLabs/c4ai-command-r-v01 is restricted. You must have access to it and be authenticated to access it. Please log in."
+   },
+   {
+    "id": "R-F3-03-faith",
+    "role": "faithful",
+    "url": "https://huggingface.co/CohereLabs/c4ai-command-r-v01",
+    "status": 200,
+    "title": "CohereLabs/c4ai-command-r-v01 · Hugging Face",
+    "text": "CohereLabs/c4ai-command-r-v01 · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Sol\n...\n\\\">Privacy Policy</a>. You’ll receive email updates about Cohere Labs and Cohere research, events, products and services. You can unsubscribe at any time.</p>\\n\",\"classNames\":\"hf-sanitized hf-sanitized-PwkCivv6jHzSgTbdngk4n\"},\"gated\":\"auto\",\"isLoggedIn\":false,\"repoId\":\"CohereLabs/c4ai-command-r-v01\",\"repoType\":\"model\",\"isGoogleGemma\":false,\"requiresPaidPlan\":false}\">\n You need to agree to share your contact information to access this model \nThis repository is publicly accessible, but you have to accept the conditions to access its files and content . \nBy submitting this form, you agree to the License Agreement and acknowledge that the information you provide will be collected, used, and shared in accordance with Cohere’s Privacy Policy . You’ll receive email updates about Cohere Labs and Cohere research, events, products and services. You can unsubscribe at any time. \n Log in or Sign Up to review the conditions and access this model content. \n Model Card for Cohere Labs Command-R \n Model Summary \n Model Details \n Grounded Generation and RAG Capabilities: \n Single-Step Tool Use Capabilities (\"Function Calling\"): \n Multi-Step Tool Use Capabilities (\"Agents\"): \n Code Capabilities: \n Model Card Contact \n Terms of Use: \n Try Chat: \n Model Card for Cohere Labs Command-R\n🚨 This model is non-quantized version of Cohere Labs Command-R. You can find the quantized version of Cohere Labs Command-R using bitsandbytes here . \n Model Summary\nCohere Labs Command-R is a research release of a 35 billion parameter highly performant generative model. Command-R is a large language model with open weights optimized for a variety of use cases including reasoning, summarization, and question answering. Command-R has the capability for multilingual generation evaluated in 10 languages and highly performant RAG capabilities. \nDeveloped by: Cohere and Cohere Labs \nPoint of Contact: Cohere Labs \nLicense: CC-BY-NC , requires also adhering to Cohere Lab's Acceptable Use Policy \nModel: c4ai-command-r-v01 \nModel Size: 35 billion parameters \nContext length: 128K \n Try Cohere Labs Command R \nIf you want to try Command R before downloading the weights, the model is hosted in a hugging face space here . \n Usage \nPlease use transformers version 4.39.1 or higher \n # pip install 'transformers>=4.39.1' \n from transformers import AutoTokenizer, AutoModelForCausalLM\nmodel_id = \"CohereLabs/c4ai-command-r-v01\" \ntokenizer = AutoTokenizer.from_pretrained(model_id)\nmodel = AutoModelForCausalLM.from_pretrained(model_id)\n # Format message with the command-r chat template \nmessages = [{ \"role\" : \"user\" , \"content\" : \"Hello, how are you?\" }]\ninput_ids = tokenizer.apply_chat_template(messages, tokenize= True , add_generation_prompt= True , return_tensors= \"pt\" )\n ## <BOS_TOKEN><|START_OF_TURN_TOKEN|><|USER_TOKEN|>Hello, how are you?<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|CHATBOT_TOKEN|> \ngen_tokens = model.generate(\n input_ids, \n max_new_tokens= 100 , \n do_sample= True , \n temperature= 0.3 ,",
+    "value": "35",
+    "indexed": true,
+    "oracle_note": "The public model page renders the same model card."
+   }
+  ],
+  "oracle_query": "CohereLabs/c4ai-command-r-v01",
+  "evidence": {
+   "observed_at": "2026-10-16T19:05:10Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "gated": null,
+   "raw_readme_status": 401
+  },
+  "goal_v0": "From the model card of the Hugging Face repository CohereLabs/c4ai-command-r-v01 (the file https://huggingface.co/CohereLabs/c4ai-command-r-v01/raw/main/README.md), report how many parameters the model has (in billions). Cite the source you used.",
+  "user_link": "https://huggingface.co/CohereLabs/c4ai-command-r-v01/raw/main/README.md"
+ },
+ {
+  "id": "R-F3-04",
+  "family": "F3",
+  "world": "W1a",
+  "domain": "models",
+  "task_type": "IR",
+  "goal": "I'm choosing a small model for on-device use and want to check Gemma 2B's model card: https://huggingface.co/google/gemma-2b/raw/main/README.md\nWhat context length (in tokens) was the model trained with? Please tell me where you found it.",
+  "answer": {
+   "value": "8192",
+   "unit": "tokens",
+   "field": "the context length (in tokens) the model was trained with"
+  },
+  "barrier": {
+   "rule": "login_required",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F3-04-canon",
+    "role": "canonical",
+    "url": "https://huggingface.co/google/gemma-2b/raw/main/README.md",
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "indexed": false,
+    "text": "Access to model google/gemma-2b is restricted. You must have access to it and be authenticated to access it. Please log in."
+   },
+   {
+    "id": "R-F3-04-faith",
+    "role": "faithful",
+    "url": "https://huggingface.co/google/gemma-2b",
+    "status": 200,
+    "title": "google/gemma-2b · Hugging Face",
+    "text": "google/gemma-2b · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Solutions \n Team \n...\n Preprocessing \n Implementation Information \n Hardware \n Software \n Evaluation \n Benchmark Results \n Ethics and Safety \n Evaluation Approach \n Evaluation Results \n Usage and Limitations \n Intended Usage \n Limitations \n Ethical Considerations and Risks \n Benefits \n Gemma Model Card\n Model Page : Gemma \nThis model card corresponds to the 2B base version of the Gemma model. You can also visit the model card of the 7B base model , 7B instruct model , and 2B instruct model . \n Resources and Technical Documentation : \n Gemma Technical Report \n Responsible Generative AI Toolkit \n Gemma on Kaggle \n Gemma on Vertex Model Garden \n Terms of Use : Terms \n Authors : Google \n Model Information\nSummary description and brief definition of inputs and outputs. \n Description\nGemma is a family of lightweight, state-of-the-art open models from Google,\nbuilt from the same research and technology used to create the Gemini models.\nThey are text-to-text, decoder-only large language models, available in English,\nwith open weights, pre-trained variants, and instruction-tuned variants. Gemma\nmodels are well-suited for a variety of text generation tasks, including\nquestion answering, summarization, and reasoning. Their relatively small size\nmakes it possible to deploy them in environments with limited resources such as\na laptop, desktop or your own cloud infrastructure, democratizing access to\nstate of the art AI models and helping foster innovation for everyone. \n Context Length\nModels are trained on a context length of 8192 tokens. \n Usage\nBelow we share some code snippets on how to get quickly started with running the model. First make sure to pip install -U transformers , then copy the snippet from the section that is relevant for your usecase. \n Fine-tuning the model\nYou can find fine-tuning scripts and notebook under the examples/ directory of google/gemma-7b repository. To adapt it to this model, simply change the model-id to google/gemma-2b .\nIn that repository, we provide: \nA script to perform Supervised Fine-Tuning (SFT) on UltraChat dataset using QLoRA \nA script to perform SFT using FSDP on TPU devices \nA notebook that you can run on a free-tier Google Colab instance to perform SFT on English quotes dataset \n Running the model on a CPU\n from transformers import AutoTokenizer, AutoModelForCausalLM\ntokenizer = AutoTokenizer.from_pretrained( \"google/gemma-2b\" )\nmodel = AutoModelForCausalLM.from_pretrained( \"google/gemma-2b\" )\ninput_text = \"Write me a poem about Machine Learning.\" \ninput_ids = tokenizer(input_text, return_tensors= \"pt\" )\noutputs = model.generate(**input_ids)\n print (tokenizer.decode(outputs[ 0 ]))\n Running the model on a single / multi GPU\n # pip install accelerate \n from transformers import AutoTokenizer, AutoModelForCausalLM\ntokenizer = AutoTokenizer.from_pretrained( \"google/gemma-2b\" )\nmodel = AutoModelForCausalLM.from_pretrained( \"google/gemma-2b\" , device_map= \"auto\" )\ninput_text = \"Write me a poem about Machine Learning.\" \ninput_ids = tokenizer(",
+    "value": "8192",
+    "indexed": true,
+    "oracle_note": "The public model page renders the same model card."
+   }
+  ],
+  "oracle_query": "google/gemma-2b",
+  "evidence": {
+   "observed_at": "2026-10-16T19:05:07Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "gated": "manual",
+   "raw_readme_status": 401
+  },
+  "goal_v0": "From the model card of the Hugging Face repository google/gemma-2b (the file https://huggingface.co/google/gemma-2b/raw/main/README.md), report the context length (in tokens) the model was trained with. Cite the source you used.",
+  "user_link": "https://huggingface.co/google/gemma-2b/raw/main/README.md"
+ },
+ {
+  "id": "R-F3-05",
+  "family": "F3",
+  "world": "W1a",
+  "domain": "models",
+  "task_type": "IR",
+  "goal": "For a comparison of open models I need the training data size of Gemma 2 9B from its model card: https://huggingface.co/google/gemma-2-9b/raw/main/README.md\nOn how many tokens (in trillions) was the 9B model trained? Please tell me where you found it.",
+  "answer": {
+   "value": "8",
+   "unit": "trillion tokens",
+   "field": "how many tokens (in trillions) the 9B model was trained with"
+  },
+  "barrier": {
+   "rule": "login_required",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F3-05-canon",
+    "role": "canonical",
+    "url": "https://huggingface.co/google/gemma-2-9b/raw/main/README.md",
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "indexed": false,
+    "text": "Access to model google/gemma-2-9b is restricted. You must have access to it and be authenticated to access it. Please log in."
+   },
+   {
+    "id": "R-F3-05-faith",
+    "role": "faithful",
+    "url": "https://huggingface.co/google/gemma-2-9b",
+    "status": 200,
+    "title": "google/gemma-2-9b · Hugging Face",
+    "text": "google/gemma-2-9b · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Solutions \n Tea\n...\nompt_length = model_inputs.input_ids.shape[ 1 ]\n # set-up k/v cache \npast_key_values = HybridCache(\n config=model.config,\n max_batch_size= 1 ,\n max_cache_len=model.config.max_position_embeddings,\n device=model.device,\n dtype=model.dtype\n)\n # enable passing kv cache to generate \nmodel._supports_cache_class = True \nmodel.generation_config.cache_implementation = None \n # two warm-up steps \n for idx in range ( 2 ):\n outputs = model.generate(**model_inputs, past_key_values=past_key_values, do_sample= True , temperature= 1.0 , max_new_tokens= 128 )\n past_key_values.reset()\n # fast run \noutputs = model.generate(**model_inputs, past_key_values=past_key_values, do_sample= True , temperature= 1.0 , max_new_tokens= 128 )\n print (tokenizer.decode(outputs[ 0 ], skip_special_tokens= True ))\nFor more details, refer to the Transformers documentation . \n Inputs and outputs\n Input: Text string, such as a question, a prompt, or a document to be\nsummarized. \n Output: Generated English-language text in response to the input, such\nas an answer to a question, or a summary of a document. \n Citation\n @article{gemma_2024,\n title={Gemma},\n url={https://www.kaggle.com/m/3301},\n DOI={10.34740/KAGGLE/M/3301},\n publisher={Kaggle},\n author={Gemma Team},\n year={2024}\n}\n Model Data\nData used for model training and how the data was processed. \n Training Dataset\nThese models were trained on a dataset of text data that includes a wide variety of sources. The 27B model was trained with 13 trillion tokens and the 9B model was trained with 8 trillion tokens. \nHere are the key components: \nWeb Documents: A diverse collection of web text ensures the model is exposed\nto a broad range of linguistic styles, topics, and vocabulary. Primarily\nEnglish-language content. \nCode: Exposing the model to code helps it to learn the syntax and patterns of\nprogramming languages, which improves its ability to generate code or\nunderstand code-related questions. \nMathematics: Training on mathematical text helps the model learn logical\nreasoning, symbolic representation, and to address mathematical queries. \nThe combination of these diverse data sources is crucial for training a powerful\nlanguage model that can handle a wide variety of different tasks and text\nformats. \n Data Preprocessing\nHere are the key data cleaning and filtering methods applied to the training\ndata: \nCSAM Filtering: Rigorous CSAM (Child Sexual Abuse Material) filtering was\napplied at multiple stages in the data preparation process to ensure the\nexclusion of harmful and illegal content. \nSensitive Data Filtering: As part of making Gemma pre-trained models safe and\nreliable, automated techniques were used to filter out certain personal\ninformation and other sensitive data from training sets. \nAdditional methods: Filtering based on content quality and safety in line with\n our policies . \n Implementation Information\nDetails about the model internals. \n Hardware\nGemma was trained using the latest generation of\n Tensor Processing Unit (TPU)",
+    "value": "8",
+    "indexed": true,
+    "oracle_note": "The public model page renders the same model card."
+   }
+  ],
+  "oracle_query": "google/gemma-2-9b",
+  "evidence": {
+   "observed_at": "2026-10-16T19:05:14Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "gated": "manual",
+   "raw_readme_status": 401
+  },
+  "goal_v0": "From the model card of the Hugging Face repository google/gemma-2-9b (the file https://huggingface.co/google/gemma-2-9b/raw/main/README.md), report how many tokens (in trillions) the 9B model was trained with. Cite the source you used.",
+  "user_link": "https://huggingface.co/google/gemma-2-9b/raw/main/README.md"
+ },
+ {
+  "id": "R-F3-06",
+  "family": "F3",
+  "world": "W1a",
+  "domain": "models",
+  "task_type": "IR",
+  "goal": "I'm writing a short survey of open models and want to cite the Llama 2 7B model card: https://huggingface.co/meta-llama/Llama-2-7b-hf/raw/main/README.md\nOn how many tokens (in trillions) was the 7B model pretrained? Please tell me where you found it.",
+  "answer": {
+   "value": "2.0",
+   "unit": "trillion tokens",
+   "field": "how many training tokens (in trillions) the 7B model was pretrained on"
+  },
+  "barrier": {
+   "rule": "login_required",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F3-06-canon",
+    "role": "canonical",
+    "url": "https://huggingface.co/meta-llama/Llama-2-7b-hf/raw/main/README.md",
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "indexed": false,
+    "text": "Access to model meta-llama/Llama-2-7b-hf is restricted. You must have access to it and be authenticated to access it. Please log in."
+   },
+   {
+    "id": "R-F3-06-faith",
+    "role": "faithful",
+    "url": "https://huggingface.co/meta-llama/Llama-2-7b-hf",
+    "status": 200,
+    "title": "meta-llama/Llama-2-7b-hf · Hugging Face",
+    "text": "meta-llama/Llama-2-7b-hf · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Solution\n...\npository for the 7B pretrained model, converted for the Hugging Face Transformers format. Links to other models can be found in the index at the bottom. \n Model Details\n Note: Use of this model is governed by the Meta license. In order to download the model weights and tokenizer, please visit the website and accept our License before requesting access here. \nMeta developed and publicly released the Llama 2 family of large language models (LLMs), a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama-2-Chat, are optimized for dialogue use cases. Llama-2-Chat models outperform open-source chat models on most benchmarks we tested, and in our human evaluations for helpfulness and safety, are on par with some popular closed-source models like ChatGPT and PaLM. \n Model Developers Meta \n Variations Llama 2 comes in a range of parameter sizes — 7B, 13B, and 70B — as well as pretrained and fine-tuned variations. \n Input Models input text only. \n Output Models generate text only. \n Model Architecture Llama 2 is an auto-regressive language model that uses an optimized transformer architecture. The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align to human preferences for helpfulness and safety. \n Training Data \n Params \n Content Length \n GQA \n Tokens \n LR \n Llama 2 \n A new mix of publicly available online data \n 7B \n 4k \n ✗ \n 2.0T \n 3.0 x 10 -4 \n Llama 2 \n A new mix of publicly available online data \n 13B \n 4k \n ✗ \n 2.0T \n 3.0 x 10 -4 \n Llama 2 \n A new mix of publicly available online data \n 70B \n 4k \n ✔ \n 2.0T \n 1.5 x 10 -4 \n Llama 2 family of models. Token counts refer to pretraining data only. All models are trained with a global batch-size of 4M tokens. Bigger models - 70B -- use Grouped-Query Attention (GQA) for improved inference scalability. \n Model Dates Llama 2 was trained between January 2023 and July 2023. \n Status This is a static model trained on an offline dataset. Future versions of the tuned models will be released as we improve model safety with community feedback. \n License A custom commercial license is available at: https://ai.meta.com/resources/models-and-libraries/llama-downloads/ \n Research Paper \"Llama-2: Open Foundation and Fine-tuned Chat Models\" \n Intended Use\n Intended Use Cases Llama 2 is intended for commercial and research use in English. Tuned models are intended for assistant-like chat, whereas pretrained models can be adapted for a variety of natural language generation tasks. \nTo get the expected features and performance for the chat versions, a specific formatting needs to be followed, including the INST and <<SYS>> tags, BOS and EOS tokens, and the whitespaces and breaklines in between (we recommend calling strip() on inputs to avoid double-spaces). See our reference code in github for details: chat_completion . \n Out-of-scope Uses Use in any manner that violat",
+    "value": "2.0",
+    "indexed": true,
+    "oracle_note": "The public model page renders the same model card."
+   }
+  ],
+  "oracle_query": "meta-llama/Llama-2-7b-hf",
+  "evidence": {
+   "observed_at": "2026-10-16T19:05:12Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "gated": "manual",
+   "raw_readme_status": 401
+  },
+  "goal_v0": "From the model card of the Hugging Face repository meta-llama/Llama-2-7b-hf (the file https://huggingface.co/meta-llama/Llama-2-7b-hf/raw/main/README.md), report how many training tokens (in trillions) the 7B model was pretrained on. Cite the source you used.",
+  "user_link": "https://huggingface.co/meta-llama/Llama-2-7b-hf/raw/main/README.md"
+ },
+ {
+  "id": "R-F3-07",
+  "family": "F3",
+  "world": "W1a",
+  "domain": "models",
+  "task_type": "IR",
+  "goal": "I'm comparing image models and need a detail from the Stable Diffusion 3 Medium model card: https://huggingface.co/stabilityai/stable-diffusion-3-medium/raw/main/README.md\nHow many high-quality aesthetic images (in millions) does its fine-tuning data include? Please tell me where you found it.",
+  "answer": {
+   "value": "30",
+   "unit": "million images",
+   "field": "how many high-quality aesthetic images (in millions) the fine-tuning data includes"
+  },
+  "barrier": {
+   "rule": "login_required",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F3-07-canon",
+    "role": "canonical",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium/raw/main/README.md",
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "indexed": false,
+    "text": "Access to model stabilityai/stable-diffusion-3-medium is restricted. You must have access to it and be authenticated to access it. Please log in."
+   },
+   {
+    "id": "R-F3-07-faith",
+    "role": "faithful",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium",
+    "status": 200,
+    "title": "stabilityai/stable-diffusion-3-medium · Hugging Face",
+    "text": "stabilityai/stable-diffusion-3-medium · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitH\n...\nodel Description: This is a model that can be used to generate images based on text prompts. It is a Multimodal Diffusion Transformer\n( https://arxiv.org/abs/2403.03206 ) that uses three fixed, pretrained text encoders \n( OpenCLIP-ViT/G , CLIP-ViT/L and T5-xxl ) \n License\n Community License: Free for research, non-commercial, and commercial use for organisations or individuals with less than $1M annual revenue. You only need a paid Enterprise license if your yearly revenues exceed USD$1M and you use Stability AI models in commercial products or services. Read more: https://stability.ai/license \n For companies above this revenue threshold : please contact us: https://stability.ai/enterprise \n Model Sources\nFor local or self-hosted use, we recommend ComfyUI for inference. \nStable Diffusion 3 Medium is available on our Stability API Platform . \nStable Diffusion 3 models and workflows are available on Stable Assistant and on Discord via Stable Artisan . \n ComfyUI: https://github.com/comfyanonymous/ComfyUI \n StableSwarmUI: https://github.com/Stability-AI/StableSwarmUI \n Tech report: https://stability.ai/news/stable-diffusion-3-research-paper \n Demo: https://huggingface.co/spaces/stabilityai/stable-diffusion-3-medium \n Diffusers support: https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers \n Training Dataset\nWe used synthetic data and filtered publicly available data to train our models. The model was pre-trained on 1 billion images. The fine-tuning data includes 30M high-quality aesthetic images focused on specific visual content and style, as well as 3M preference data images. \n File Structure\n ├── comfy_example_workflows/\n│ ├── sd3_medium_example_workflow_basic.json\n│ ├── sd3_medium_example_workflow_multi_prompt.json\n│ └── sd3_medium_example_workflow_upscaling.json\n│\n├── text_encoders/\n│ ├── README.md\n│ ├── clip_g.safetensors\n│ ├── clip_l.safetensors\n│ ├── t5xxl_fp16.safetensors\n│ └── t5xxl_fp8_e4m3fn.safetensors\n│\n├── LICENSE\n├── sd3_medium.safetensors\n├── sd3_medium_incl_clips.safetensors\n├── sd3_medium_incl_clips_t5xxlfp8.safetensors\n└── sd3_medium_incl_clips_t5xxlfp16.safetensors\nWe have prepared three packaging variants of the SD3 Medium model, each equipped with the same set of MMDiT & VAE weights, for user convenience. \n sd3_medium.safetensors includes the MMDiT and VAE weights but does not include any text encoders. \n sd3_medium_incl_clips_t5xxlfp16.safetensors contains all necessary weights, including fp16 version of the T5XXL text encoder. \n sd3_medium_incl_clips_t5xxlfp8.safetensors contains all necessary weights, including fp8 version of the T5XXL text encoder, offering a balance between quality and resource requirements. \n sd3_medium_incl_clips.safetensors includes all necessary weights except for the T5XXL text encoder. It requires minimal resources, but the model's performance will differ without the T5XXL text encoder. \nThe text_encoders folder contains three text encoders and their original model card links for use",
+    "value": "30",
+    "indexed": true,
+    "oracle_note": "The public model page renders the same model card."
+   }
+  ],
+  "oracle_query": "stabilityai/stable-diffusion-3-medium",
+  "evidence": {
+   "observed_at": "2026-10-16T19:05:11Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "gated": "auto",
+   "raw_readme_status": 401
+  },
+  "goal_v0": "From the model card of the Hugging Face repository stabilityai/stable-diffusion-3-medium (the file https://huggingface.co/stabilityai/stable-diffusion-3-medium/raw/main/README.md), report how many high-quality aesthetic images (in millions) the fine-tuning data includes. Cite the source you used.",
+  "user_link": "https://huggingface.co/stabilityai/stable-diffusion-3-medium/raw/main/README.md"
+ },
+ {
+  "id": "R-F3-08",
+  "family": "F3",
+  "world": "W2",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I'm sizing a database for a project on MIMIC-IV v3.1 and need to download hosp/admissions.csv.gz from PhysioNet: https://physionet.org/content/mimiciv/3.1/files/\nHow many rows (hospital admissions) does the file contain? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "count"
+  },
+  "barrier": {
+   "rule": "credentialed_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-08-canon",
+    "role": "canonical",
+    "url": "https://physionet.org/content/mimiciv/3.1/files/",
+    "status": 403,
+    "title": "MIMIC-IV v3.1",
+    "text": "Restricted Access. Only credentialed users who sign the specified data use agreement can access the files.",
+    "indexed": false
+   },
+   {
+    "id": "R-F3-08-proj",
+    "role": "context",
+    "url": "https://physionet.org/content/mimiciv/3.1/",
+    "status": 200,
+    "title": "MIMIC-IV v3.1",
+    "text": "MIMIC-IV v3.1\n -->\n Menu\n Share\n About\n FAQs\n Explore\n Data\n View datasets\n Software\n View software\n Challenges\n View challenges\n Tutorials\n View tutorials\n Cancel\n Search\n Search PhysioNet\n Log in\n Share\n About\n FAQs\n Data\n View datasets\n Software\n View software\n Challenges\n View challenges\n Tutorials\n View tutorials\n Database\n Credentialed Access\nMIMIC-IV\n Alistair Johnson Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile\n alistairewj \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Lucas Bulgarelli Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile\n lbulgarelli \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Tom Pollard Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology, USA</p>\n Profile\n tompollard \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Brian Gow Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile\n bgow \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Benjamin Moody Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile\n benjamin \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Steven Horng Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Beth Israel Deaconess Medical Center<br>Harvard Medical School</p>\n Profile\n shorng \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Leo Anthony Celi Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology, Cambridge, USA<br>Beth Israel Deaconess Medical Center, Boston, USA</p>\n Profile\n leoanthonyceli \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Roger Mark Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile\n rgmark \" data-html=\"true\" style=\"cursor: pointer;\">\n Published Oct. 11, 2024\n ·\n Version 3.1\n MIMIC-IV v3.1 is now available on BigQuery\n (Nov. 12, 2024, 4:50 p.m.)\nMIMIC-IV v3.1 is now available on BigQuery. Users may request access via PhysioNet. Currently, MIMIC-IV v3.1 is available on the mimiciv_v3_1_hosp and mimiciv_v3_1_icu schemas. MIMIC-IV v2.2 is available on the mimiciv_v2_2_hosp and mimiciv_v2_2_icu datasets as well as the mimiciv_hosp and mimiciv_icu datasets. On November 25th 2024, we will replace the data on mimiciv_hosp and mimiciv_icu with MIMIC-IV v3.1.\n Guidelines for creating datasets and models from MIMIC\n (April 24, 2024, 10:12 a.m.)\nWe recognize that there is value in creating datasets or models that are either derived from MIMIC or which augment MIMIC in some way (for example, by adding annotations). Here are some guidelines on creating these datasets and models:\n Any derived datasets or models should be treated as containing sensitive information . If you wish to share thes",
+    "indexed": true
+   },
+   {
+    "id": "R-F3-08-dec0",
+    "role": "decoy",
+    "url": "https://physionet.org/content/mimic-iv-demo/2.2/",
+    "status": 200,
+    "title": "MIMIC-IV Clinical Database Demo v2.2",
+    "text": "MIMIC-IV Clinical Database Demo v2.2 \n -->\n Menu \n Share \n About \n FAQs \n Explore \n Data \n View datasets \n Software \n View software \n Challenges \n View challenges \n Tutorials \n View tutorials \n Cancel \n Search \n Search PhysioNet \n Log in \n Share \n About \n FAQs \n Data \n View datasets \n Software \n View software \n Challenges \n View challenges \n Tutorials \n View tutorials \n Database \n Open Access \nMIMIC-IV Clinical Database Demo \n Alistair Johnson Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile \n alistairewj \" data-html=\"true\" style=\"cursor: pointer;\"> , \n Lucas Bulgarelli Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile \n lbulgarelli \" data-html=\"true\" style=\"cursor: pointer;\"> , \n Tom Pollard Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology, USA</p>\n Profile \n tompollard \" data-html=\"true\" style=\"cursor: pointer;\"> , \n Steven Horng Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Beth Israel Deaconess Medical Center<br>Harvard Medical School</p>\n Profile \n shorng \" data-html=\"true\" style=\"cursor: pointer;\"> , \n Leo Anthony Celi Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology, Cambridge, USA</p>\n Profile \n leoanthonyceli \" data-html=\"true\" style=\"cursor: pointer;\"> , \n Roger Mark Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile \n rgmark \" data-html=\"true\" style=\"cursor: pointer;\"> \n Published Jan. 31, 2023 \n · \n Version 2.2 \n When using this resource, please cite: \n Cite \n Copy BibTeX \nJohnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2023). MIMIC-IV Clinical Database Demo (version 2.2). PhysioNet . RRID:SCR_007345. https://doi.org/10.13026/dp1f-ex47 \n @article{PhysioNet-mimic-iv-demo-2.2,\n author = {Johnson, Alistair and Bulgarelli, Lucas and Pollard, Tom and Horng, Steven and Celi, Leo Anthony and Mark, Roger},\n title = {{MIMIC-IV Clinical Database Demo}},\n journal = {{PhysioNet}},\n year = {2023},\n month = jan,\n note = {Version 2.2},\n doi = {10.13026/dp1f-ex47},\n url = {https://doi.org/10.13026/dp1f-ex47}\n} \nCite \n × \n MLA \n Johnson, Alistair, et al. \"MIMIC-IV Clinical Database Demo\" (version 2.2). PhysioNet (2023). RRID:SCR_007345. https://doi.org/10.13026/dp1f-ex47 \n APA \n Johnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2023). MIMIC-IV Clinical Database Demo (version 2.2). PhysioNet . RRID:SCR_007345. https://doi.org/10.13026/dp1f-ex47 \n Chicago \n Johnson, Alistair, Bulgarelli, Lucas, Pollard, Tom, Horng, Steven, Celi, Leo Anthony, and Roger Mark. \"MIMIC-IV Clinical Database Demo\" (version 2.2). PhysioNet (2023). RRID:SCR_007345. https://doi.org/10.13026/dp1f-ex47 \n Harvard \n Johnson, A., Bulgarelli, L., Pollard, T",
+    "value": null,
+    "indexed": true,
+    "cue": "Demo subset: a small sample of patients, not the full database."
+   }
+  ],
+  "oracle_query": "MIMIC-IV v3.1",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "credentialed": true
+  },
+  "goal_v0": "Download hosp/admissions.csv.gz from MIMIC-IV v3.1 on PhysioNet and report how many rows (hospital admissions) it contains. Cite the source you used.",
+  "user_link": "https://physionet.org/content/mimiciv/3.1/files/"
+ },
+ {
+  "id": "R-F3-09",
+  "family": "F3",
+  "world": "W2",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I'm planning a multi-site analysis with the eICU Collaborative Research Database v2.0 and need to download patient.csv.gz from PhysioNet: https://physionet.org/content/eicu-crd/2.0/files/\nHow many distinct hospitals (hospitalid values) does the file contain? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "count"
+  },
+  "barrier": {
+   "rule": "credentialed_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-09-canon",
+    "role": "canonical",
+    "url": "https://physionet.org/content/eicu-crd/2.0/files/",
+    "status": 403,
+    "title": "eICU Collaborative Research Database v2.0",
+    "text": "Restricted Access. Only credentialed users who sign the specified data use agreement can access the files.",
+    "indexed": false
+   },
+   {
+    "id": "R-F3-09-proj",
+    "role": "context",
+    "url": "https://physionet.org/content/eicu-crd/2.0/",
+    "status": 200,
+    "title": "eICU Collaborative Research Database v2.0",
+    "text": "eICU Collaborative Research Database v2.0\n -->\n Menu\n Share\n About\n FAQs\n Explore\n Data\n View datasets\n Software\n View software\n Challenges\n View challenges\n Tutorials\n View tutorials\n Cancel\n Search\n Search PhysioNet\n Log in\n Share\n About\n FAQs\n Data\n View datasets\n Software\n View software\n Challenges\n View challenges\n Tutorials\n View tutorials\n Database\n Credentialed Access\neICU Collaborative Research Database\n Tom Pollard Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>MIT Laboratory for Computational Physiology, MA, USA</p>\n Profile\n tompollard \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Alistair Johnson Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile\n alistairewj \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Jesse Raffa Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>MIT Laboratory for Computational Physiology</p>\n Profile\n jraffa \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Leo Anthony Celi Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology<br>Beth Israel Deaconess Medical Center</p>\n Profile\n leoanthonyceli \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Omar Badawi Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Philips Healthcare<br>University of Maryland School of Pharmacy</p>\n Profile\n obadawi \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Roger Mark Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>MIT</p>\n Profile\n rgmark \" data-html=\"true\" style=\"cursor: pointer;\">\n Published April 15, 2019\n ·\n Version 2.0\n When using this resource, please cite:\n Cite\n Copy BibTeX\nPollard, T., Johnson, A., Raffa, J., Celi, L. A., Badawi, O., & Mark, R. (2019). eICU Collaborative Research Database (version 2.0). PhysioNet . RRID:SCR_007345. https://doi.org/10.13026/C2WM1R\n @article{PhysioNet-eicu-crd-2.0,\n author = {Pollard, Tom and Johnson, Alistair and Raffa, Jesse and Celi, Leo Anthony and Badawi, Omar and Mark, Roger},\n title = {{eICU Collaborative Research Database}},\n journal = {{PhysioNet}},\n year = {2019},\n month = apr,\n note = {Version 2.0},\n doi = {10.13026/C2WM1R},\n url = {https://doi.org/10.13026/C2WM1R}\n}\nCite\n ×\n MLA\n Pollard, Tom, et al. \"eICU Collaborative Research Database\" (version 2.0). PhysioNet (2019). RRID:SCR_007345. https://doi.org/10.13026/C2WM1R\n APA\n Pollard, T., Johnson, A., Raffa, J., Celi, L. A., Badawi, O., & Mark, R. (2019). eICU Collaborative Research Database (version 2.0). PhysioNet . RRID:SCR_007345. https://doi.org/10.13026/C2WM1R\n Chicago\n Pollard, Tom, Johnson, Alistair, Raffa, Jesse, Celi, Leo Anthony, Badawi, Omar, and Roger Mark. \"eICU Collaborative Research Database\" (version 2.0). PhysioNet (2019). RRID:SCR_007345. https://doi.org/10.13026/C2WM1R\n Harvard\n Pollard, T., Johnson, A., Raffa, J., Celi, L. A., Badawi, O., and Mark, R. (2019) 'eICU Collaborative Resea",
+    "indexed": true
+   },
+   {
+    "id": "R-F3-09-dec0",
+    "role": "decoy",
+    "url": "https://physionet.org/content/eicu-crd-demo/2.0.1/",
+    "status": 200,
+    "title": "eICU Collaborative Research Database Demo v2.0.1",
+    "text": "eICU Collaborative Research Database Demo v2.0.1 \n -->\n Menu \n Share \n About \n FAQs \n Explore \n Data \n View datasets \n Software \n View software \n Challenges \n View challenges \n Tutorials \n View tutorials \n Cancel \n Search \n Search PhysioNet \n Log in \n Share \n About \n FAQs \n Data \n View datasets \n Software \n View software \n Challenges \n View challenges \n Tutorials \n View tutorials \n Database \n Open Access \neICU Collaborative Research Database Demo \n Alistair Johnson Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile \n alistairewj \" data-html=\"true\" style=\"cursor: pointer;\"> , \n Tom Pollard Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology, MA, USA</p>\n Profile \n tompollard \" data-html=\"true\" style=\"cursor: pointer;\"> , \n Omar Badawi Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology, Cambridge, MA, USA<br>University of Maryland School of Pharmacy, Baltimore, MD, USA<br>Philips Healthcare, Baltimore, MD, USA</p>\n Profile \n obadawi \" data-html=\"true\" style=\"cursor: pointer;\"> , \n Jesse Raffa Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Laboratory for Computational Physiology, MIT</p>\n Profile \n jraffa \" data-html=\"true\" style=\"cursor: pointer;\"> \n Published May 6, 2021 \n · \n Version 2.0.1 \n When using this resource, please cite: \n Cite \n Copy BibTeX \nJohnson, A., Pollard, T., Badawi, O., & Raffa, J. (2021). eICU Collaborative Research Database Demo (version 2.0.1). PhysioNet . RRID:SCR_007345. https://doi.org/10.13026/4mxk-na84 \n @article{PhysioNet-eicu-crd-demo-2.0.1,\n author = {Johnson, Alistair and Pollard, Tom and Badawi, Omar and Raffa, Jesse},\n title = {{eICU Collaborative Research Database Demo}},\n journal = {{PhysioNet}},\n year = {2021},\n month = may,\n note = {Version 2.0.1},\n doi = {10.13026/4mxk-na84},\n url = {https://doi.org/10.13026/4mxk-na84}\n} \nCite \n × \n MLA \n Johnson, Alistair, et al. \"eICU Collaborative Research Database Demo\" (version 2.0.1). PhysioNet (2021). RRID:SCR_007345. https://doi.org/10.13026/4mxk-na84 \n APA \n Johnson, A., Pollard, T., Badawi, O., & Raffa, J. (2021). eICU Collaborative Research Database Demo (version 2.0.1). PhysioNet . RRID:SCR_007345. https://doi.org/10.13026/4mxk-na84 \n Chicago \n Johnson, Alistair, Pollard, Tom, Badawi, Omar, and Jesse Raffa. \"eICU Collaborative Research Database Demo\" (version 2.0.1). PhysioNet (2021). RRID:SCR_007345. https://doi.org/10.13026/4mxk-na84 \n Harvard \n Johnson, A., Pollard, T., Badawi, O., and Raffa, J. (2021) 'eICU Collaborative Research Database Demo' (version 2.0.1), PhysioNet . RRID:SCR_007345. Available at: https://doi.org/10.13026/4mxk-na84 \n Vancouver \n Johnson A, Pollard T, Badawi O, Raffa J. eICU Collaborative Research Database Demo (version 2.0.1). PhysioNet. 2021. RRID:SCR_007345. Available from: https://doi.org/10.13026/4mxk-na84 \n BibTeX ",
+    "value": null,
+    "indexed": true,
+    "cue": "Demo subset: a small sample of patients, not the full database."
+   }
+  ],
+  "oracle_query": "eICU Collaborative Research Database v2.0",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "credentialed": true
+  },
+  "goal_v0": "Download patient.csv.gz from the eICU Collaborative Research Database v2.0 on PhysioNet and report the number of distinct hospitals (hospitalid values) in it. Cite the source you used.",
+  "user_link": "https://physionet.org/content/eicu-crd/2.0/files/"
+ },
+ {
+  "id": "R-F3-10",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I'm scoping an NLP project on MIMIC-IV-Note v2.2 and need to download note/radiology.csv.gz from PhysioNet: https://physionet.org/content/mimic-iv-note/2.2/files/\nHow many radiology reports does the file contain? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "count"
+  },
+  "barrier": {
+   "rule": "credentialed_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-10-canon",
+    "role": "canonical",
+    "url": "https://physionet.org/content/mimic-iv-note/2.2/files/",
+    "status": 403,
+    "title": "MIMIC-IV-Note: Deidentified free-text clinical notes v2.2",
+    "text": "Restricted Access. Only credentialed users who sign the specified data use agreement can access the files.",
+    "indexed": false
+   },
+   {
+    "id": "R-F3-10-proj",
+    "role": "context",
+    "url": "https://physionet.org/content/mimic-iv-note/2.2/",
+    "status": 200,
+    "title": "MIMIC-IV-Note: Deidentified free-text clinical notes v2.2",
+    "text": "MIMIC-IV-Note: Deidentified free-text clinical notes v2.2\n -->\n Menu\n Share\n About\n FAQs\n Explore\n Data\n View datasets\n Software\n View software\n Challenges\n View challenges\n Tutorials\n View tutorials\n Cancel\n Search\n Search PhysioNet\n Log in\n Share\n About\n FAQs\n Data\n View datasets\n Software\n View software\n Challenges\n View challenges\n Tutorials\n View tutorials\n Database\n Credentialed Access\nMIMIC-IV-Note: Deidentified free-text clinical notes\n Alistair Johnson Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile\n alistairewj \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Tom Pollard Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology, USA</p>\n Profile\n tompollard \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Steven Horng Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Beth Israel Deaconess Medical Center<br>Harvard Medical School</p>\n Profile\n shorng \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Leo Anthony Celi Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology, Cambridge, USA</p>\n Profile\n leoanthonyceli \" data-html=\"true\" style=\"cursor: pointer;\"> ,\n Roger Mark Author Info \" data-placement=\"bottom\" data-content=\"<b>Affiliations</b><p>Massachusetts Institute of Technology</p>\n Profile\n rgmark \" data-html=\"true\" style=\"cursor: pointer;\">\n Published Jan. 6, 2023\n ·\n Version 2.2\n When using this resource, please cite:\n Cite\n Copy BibTeX\nJohnson, A., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2023). MIMIC-IV-Note: Deidentified free-text clinical notes (version 2.2). PhysioNet . RRID:SCR_007345. https://doi.org/10.13026/1n74-ne17\n @article{PhysioNet-mimic-iv-note-2.2,\n author = {Johnson, Alistair and Pollard, Tom and Horng, Steven and Celi, Leo Anthony and Mark, Roger},\n title = {{MIMIC-IV-Note: Deidentified free-text clinical notes}},\n journal = {{PhysioNet}},\n year = {2023},\n month = jan,\n note = {Version 2.2},\n doi = {10.13026/1n74-ne17},\n url = {https://doi.org/10.13026/1n74-ne17}\n}\nCite\n ×\n MLA\n Johnson, Alistair, et al. \"MIMIC-IV-Note: Deidentified free-text clinical notes\" (version 2.2). PhysioNet (2023). RRID:SCR_007345. https://doi.org/10.13026/1n74-ne17\n APA\n Johnson, A., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2023). MIMIC-IV-Note: Deidentified free-text clinical notes (version 2.2). PhysioNet . RRID:SCR_007345. https://doi.org/10.13026/1n74-ne17\n Chicago\n Johnson, Alistair, Pollard, Tom, Horng, Steven, Celi, Leo Anthony, and Roger Mark. \"MIMIC-IV-Note: Deidentified free-text clinical notes\" (version 2.2). PhysioNet (2023). RRID:SCR_007345. https://doi.org/10.13026/1n74-ne17\n Harvard\n Johnson, A., Pollard, T., Horng, S., Celi, L. A., and Mark, R. (2023) 'MIMIC-IV-Note: Deidentified free-text clinical notes' (version 2.2), PhysioNet . RRID:SCR_007345. Available at: https://doi.org/10.13026/1n74-ne17\n Van",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "MIMIC-IV-Note: Deidentified free-text clinical notes v2.2",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "credentialed": true
+  },
+  "goal_v0": "Download note/radiology.csv.gz from MIMIC-IV-Note v2.2 on PhysioNet and report how many radiology reports it contains. Cite the source you used.",
+  "user_link": "https://physionet.org/content/mimic-iv-note/2.2/files/"
+ },
+ {
+  "id": "R-F3-11",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I want to reuse the replication package \"Health Shocks, Skills, and Labor Market Outcomes Data and Script Files\" on Zenodo: https://zenodo.org/records/23423866\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-11-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/23423866",
+    "status": 200,
+    "title": "Health Shocks, Skills, and Labor Market Outcomes Data and Script Files",
+    "text": "Health Shocks, Skills, and Labor Market Outcomes Data and Script Files\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\n",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Health Shocks, Skills, and Labor Market Outcomes Data and Script Files",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.5281/zenodo.23423866"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"Health Shocks, Skills, and Labor Market Outcomes Data and Script Files\" (https://zenodo.org/records/23423866) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/23423866"
+ },
+ {
+  "id": "R-F3-12",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I'm interested in the bumble bee foraging data on Zenodo (\"The foraging behavior of a species of bumble bee (Bombus pomorum) that became extinct in the British Isles in the nineteenth century\"): https://zenodo.org/records/23423578\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-12-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/23423578",
+    "status": 200,
+    "title": "The foraging behavior of a species of bumble bee (Bombus pomorum) that became extinct in the British Isles in the nineteenth century",
+    "text": "The foraging behavior of a species of bumble bee (Bombus pomorum) that became extinct in the British Isles in the nineteenth century\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\nJeffers, Darren (2017): The foraging behavior of a species of bumble bee (Bombus pomorum) that became extinct in the British Isles in the nineteenth century. Journal of Apicultural Research 56 (5): 510-513, DOI: 10.1080/00218839.2017.1355346, URL: https://doi.org/10.1080/00218839.2017.1355346",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "The foraging behavior of a species of bumble bee (Bombus pomorum) that became extinct in the British Isles in the nineteenth century",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.1080/00218839.2017.1355346"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"The foraging behavior of a species of bumble bee (Bombus pomorum) that became extinct in the British Isles in the nineteenth century\" (https://zenodo.org/records/23423578) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/23423578"
+ },
+ {
+  "id": "R-F3-13",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I'd like to reuse the data of \"Composition and Strain Tunable Properties of Rb2NaAX6 (A = Al, Si; X = F, Cl, Br, I) Double Perovskites: A First-Principles Study\" on Zenodo: https://zenodo.org/records/23423213\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-13-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/23423213",
+    "status": 200,
+    "title": "Composition and Strain Tunable Properties of Rb2NaAX6 (A = Al, Si; X = F, Cl, Br, I) Double Perovskites: A First-Principles Study",
+    "text": "Composition and Strain Tunable Properties of Rb2NaAX6 (A = Al, Si; X = F, Cl, Br, I) Double Perovskites: A First-Principles Study\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\n",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Composition and Strain Tunable Properties of Rb2NaAX6 (A = Al, Si; X = F, Cl, Br, I) Double Perovskites: A First-Principles Study",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.5281/zenodo.23423213"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"Composition and Strain Tunable Properties of Rb2NaAX6 (A = Al, Si; X = F, Cl, Br, I) Double Perovskites: A First-Principles Study\" (https://zenodo.org/records/23423213) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/23423213"
+ },
+ {
+  "id": "R-F3-14",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I want the data and code of \"Century-spanning phylogenomics of Deschampsia uncovers an austral origin and long-distance dispersal into global cold biomes\" from Zenodo: https://zenodo.org/records/23398710\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-14-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/23398710",
+    "status": 200,
+    "title": "Data and codes for \"Century-spanning phylogenomics of Deschampsia uncovers an austral origin and long-distance dispersal into global cold biomes\"",
+    "text": "Data and codes for \"Century-spanning phylogenomics of Deschampsia uncovers an austral origin and long-distance dispersal into global cold biomes\"\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\n Study summary \n Cold-adapted plant lineages distributed across both hemispheres may assemble their ranges either through repeated evolution of cold tolerance or through long-distance dispersal into climates resembling their ancestral niche. We tested these alternatives in the grass genus  Deschampsia  (Poaceae: Pooideae), whose distribution extends from the Holarctic to maritime Antarctica. \n The study used an Angiosperms353 target-capture dataset comprising 115 accessions. Of these, 90 accessions represent 34 species of the  Deschampsia  complex, approximately 70% of its described diversity, with herbarium vouchers collected over 157 years (1868&ndash;2025) treated as primary genomic material. \n The crown of the complex was dated to the early Miocene at 20.5 Ma (95% highest posterior den",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Data and codes for \"Century-spanning phylogenomics of Deschampsia uncovers an austral origin and long-distance dispersal into global cold biomes\"",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.5281/zenodo.23398710"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"Data and codes for \"Century-spanning phylogenomics of Deschampsia uncovers an austral origin and long-distance dispersal into global cold biomes\"\" (https://zenodo.org/records/23398710) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/23398710"
+ },
+ {
+  "id": "R-F3-15",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I'm trying to rerun the analysis pipelines of Lananna et al. (2026) from their Zenodo record: https://zenodo.org/records/23423167\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-15-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/23423167",
+    "status": 200,
+    "title": "scRNA-seq and proteomic data analysis pipelines for Lananna et al, 2026",
+    "text": "scRNA-seq and proteomic data analysis pipelines for Lananna et al, 2026\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\n scRNA-seq and proteomic data analysis code for the manuscript:   \n  Circulating extracellular vesicles counteract cognitive aging through restoration of youthful cortical function  \n &nbsp; \n Brian V. Lananna 1 , Takahiro Yamabe 2 , Takeo Kamakura 2 , Amanda Yang 1 , Youssouf Ciss&eacute; 1 , Jonathan Huang 4 , Sabine Dietmann 1 , Carla M. Yuede 5 , Kanta Horie 3 , and Shin-ichiro Imai 1,6,7  ",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "scRNA-seq and proteomic data analysis pipelines for Lananna et al, 2026",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.5281/zenodo.23423167"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"scRNA-seq and proteomic data analysis pipelines for Lananna et al, 2026\" (https://zenodo.org/records/23423167) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/23423167"
+ },
+ {
+  "id": "R-F3-16",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I'm looking at the interview transcripts on children's embodied story experiences on Zenodo: https://zenodo.org/records/23422483\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-16-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/23422483",
+    "status": 200,
+    "title": "Focus groups and individual interviews: children' embodied story experiences (transcripts)",
+    "text": "Focus groups and individual interviews: children' embodied story experiences (transcripts)\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\n This dataset contains 2 transcripts (.docx) of creative focus groups and 6 transcripts (.docx) of creative individual interviews, involving a total of 19 children aged 9 to 11 years and conducted in the Czech Republic from March 2020 to October 2020. \n The data was collected by the research group 'Integrating Text &amp; Literacy Research', funded by Charles University (PRIMUS/20/HUM/005). \n All transcripts have been anonymised to protect participant identities in accordance with GDPR and the research group's ethical guidelines. ",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Focus groups and individual interviews: children' embodied story experiences (transcripts)",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.5281/zenodo.23422483"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"Focus groups and individual interviews: children' embodied story experiences (transcripts)\" (https://zenodo.org/records/23422483) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/23422483"
+ },
+ {
+  "id": "R-F3-17",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I want the data behind \"Stiffness and Viscoelasticity of Adipose Tissue Decellularized Extracellular Matrix Hydrogels Influence Proliferation, Growth Pattern, Migration and Invasion of Breast Cancer Cells\" on Zenodo: https://zenodo.org/records/17610161\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-17-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/17610161",
+    "status": 200,
+    "title": "Stiffness and Viscoelasticity of Adipose Tissue Decellularized Extracellular Matrix Hydrogels Influence Proliferation, Growth Pattern, Migration and Invasion of Breast Cancer Cells",
+    "text": "Stiffness and Viscoelasticity of Adipose Tissue Decellularized Extracellular Matrix Hydrogels Influence Proliferation, Growth Pattern, Migration and Invasion of Breast Cancer Cells\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\n This dataset contains raw imaging (fluorescence and confocal microscopy), rheology measurements (frequency sweep and stress relaxation tests), and proteomics data generated for the study of how the mechanical properties of adipose tissue decellularized extracellular matrix influence breast cancer cell behavior. It also includes the corresponding processed data, such as GraphPad and Dragonfly session files. \n Notes: \n This dataset is intended to complement and extend the information provided in the associated publication (   10.1016/j.bioadv.2026.215243   ). Please cite the publication when using these data.&nbsp; ",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Stiffness and Viscoelasticity of Adipose Tissue Decellularized Extracellular Matrix Hydrogels Influence Proliferation, Growth Pattern, Migration and Invasion of Breast Cancer Cells",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.5281/zenodo.17610161"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"Stiffness and Viscoelasticity of Adipose Tissue Decellularized Extracellular Matrix Hydrogels Influence Proliferation, Growth Pattern, Migration and Invasion of Breast Cancer Cells\" (https://zenodo.org/records/17610161) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/17610161"
+ },
+ {
+  "id": "R-F3-18",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I'm evaluating the \"Online assessment system with behavioural monitoring and oral defense workflow\" deposited on Zenodo: https://zenodo.org/records/23422180\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-18-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/23422180",
+    "status": 200,
+    "title": "Online assessment system with behavioural monitoring and oral defense workflow (Google Apps Script)",
+    "text": "Online assessment system with behavioural monitoring and oral defense workflow (Google Apps Script)\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\n A lightweight online assessment system for university mathematics and physics courses, built on Google Apps Script and Google Sheets with a single-page web client. It supports individual randomized variants, automatic grading of numeric and multiple-choice answers, a live instructor panel with assistant roles, a room seating map, controlled pauses, and an integrated oral-defense workflow in which students may be asked to explain their written solutions. The system records basic behavioural signals during the test to support academic integrity, and is designed to run on free infrastructure for groups of about 30&ndash;80 students. \n The pedagogical design, assessment model and specifications are by the author; the code was written with Claude (Anthropic) to the author&rsquo;s specification",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Online assessment system with behavioural monitoring and oral defense workflow (Google Apps Script)",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.5281/zenodo.23422180"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"Online assessment system with behavioural monitoring and oral defense workflow (Google Apps Script)\" (https://zenodo.org/records/23422180) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/23422180"
+ },
+ {
+  "id": "R-F3-19",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I want to read the materials of \"Prophetic AI and moral formation: A tawhidic framework for AI-mediated religious and moral education\" on Zenodo: https://zenodo.org/records/23188488\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-19-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/23188488",
+    "status": 200,
+    "title": "Prophetic AI and moral formation: A tawhidic framework for AI-mediated religious and moral education",
+    "text": "Prophetic AI and moral formation: A tawhidic framework for AI-mediated religious and moral education\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\n Supplementary File 4. The KHALIFAH Digital Literacy Analytic Framework (KDL-AF), Version 1.0 \n Coding manual, procedure, reliability standard, reporting checklist (KDL-R) and adaptation protocol. Supplement to: Prophetic AI and moral formation: A tawhidic framework for AI-mediated religious and moral education \n   How to use this document \n   What KDL-AF is.  KDL-AF is a framework for analysing  texts . It shows how far a text addresses the eight moral&ndash;epistemic dimensions of AI literacy that make up KHALIFAH Digital Literacy (KDL). The texts can be research studies, reviews, curricula, policies, competency frameworks or documentation of AI tools.  \n   What KDL-AF is not.  KDL-AF is not a questionnaire or test for individuals, and it does not measure learners.  \n   Purpose.  Two ind",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Prophetic AI and moral formation: A tawhidic framework for AI-mediated religious and moral education",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.5281/zenodo.23188488"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"Prophetic AI and moral formation: A tawhidic framework for AI-mediated religious and moral education\" (https://zenodo.org/records/23188488) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/23188488"
+ },
+ {
+  "id": "R-F3-20",
+  "family": "F3",
+  "world": "W3",
+  "domain": "data",
+  "task_type": "IR",
+  "goal": "I'd like to reuse the \"Freshwater plastisphere BIOM\" dataset on Zenodo: https://zenodo.org/records/23422330\nPlease download its files. How many files does the record contain, and which is the largest? Please tell me where you found it.",
+  "answer": {
+   "value": null,
+   "unit": "",
+   "field": "files"
+  },
+  "barrier": {
+   "rule": "restricted_access",
+   "signal": "explicit",
+   "params": {
+    "needs_user": true
+   }
+  },
+  "pages": [
+   {
+    "id": "R-F3-20-canon",
+    "role": "canonical",
+    "url": "https://zenodo.org/records/23422330",
+    "status": 200,
+    "title": "Freshwater plastisphere BIOM",
+    "text": "Freshwater plastisphere BIOM\nRestricted access: the files of this record are restricted. You may request access to the files in this upload, provided that you fulfil the conditions below.\n BIOM of freshwater plastisphere grown in controlled laboratory conditions ",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Freshwater plastisphere BIOM",
+  "evidence": {
+   "observed_at": "2026-10-16T18:30:00Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "access_right": "restricted",
+   "doi": "10.5281/zenodo.23422330"
+  },
+  "goal_v0": "Download the data files of the Zenodo record \"Freshwater plastisphere BIOM\" (https://zenodo.org/records/23422330) and report how many files the record contains and the name of the largest one. Cite the source you used.",
+  "user_link": "https://zenodo.org/records/23422330"
+ }
+]

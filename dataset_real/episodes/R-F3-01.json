@@ -1,0 +1,194 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F3-01",
+ "goal_id": "R-F3-01",
+ "family": "F3",
+ "world": "W1a",
+ "domain": "models",
+ "task_type": "IR",
+ "goal": "I'm comparing open image-generation models and need a detail from the FLUX.1-dev model card: https://huggingface.co/black-forest-labs/FLUX.1-dev/raw/main/README.md\nHow many parameters (in billions) does the model have? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "how many parameters the model has (in billions)",
+  "unit": "billion parameters",
+  "canonical": "12",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F3-01-canon",
+   "role": "canonical",
+   "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev/raw/main/README.md",
+   "host": "huggingface.co",
+   "path": "/black-forest-labs/FLUX.1-dev/raw/main/README.md",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "401",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-01",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Access to model black-forest-labs/FLUX.1-dev is restricted. You must have access to it and be authenticated to access it. Please log in."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "text": "Access to model black-forest-labs/FLUX.1-dev is restricted. You must have access to it and be authenticated to access it. Please log in."
+   }
+  },
+  {
+   "id": "R-F3-01-faith",
+   "role": "faithful",
+   "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+   "host": "huggingface.co",
+   "path": "/black-forest-labs/FLUX.1-dev",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "black-forest-labs/FLUX.1-dev · Hugging Face",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-01",
+   "value": "12",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "black-forest-labs/FLUX.1-dev · Hugging Face ",
+     " Hugging Face ",
+     " Models ",
+     " Datasets ",
+     " Spaces ",
+     " Buckets new ",
+     " Docs ",
+     " Enterprise ",
+     " Pricing ",
+     " Website ",
+     " Tasks ",
+     " HuggingChat ",
+     " Collections ",
+     " Languages ",
+     " Organizations ",
+     " Community ",
+     " Blog ",
+     " Posts ",
+     " Daily Papers ",
+     " Hardware ",
+     " Learn ",
+     " Discord ",
+     " Forum ",
+     " GitHub ",
+     " Solu",
+     "...",
+     " diffusers import DiffusionPipeline",
+     "# switch to \"mps\" for apple devices",
+     "pipe = DiffusionPipeline.from_pretrained(\"black-forest-labs/FLUX.1-dev\", dtype=torch.bfloat16, device_map=\"cuda\")",
+     "prompt = \"Astronaut in a jungle, cold color palette, muted colors, detailed, 8k\""
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "black-forest-labs/FLUX.1-dev · Hugging Face",
+    "text": "black-forest-labs/FLUX.1-dev · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Solu\n...\n diffusers import DiffusionPipeline\n# switch to \"mps\" for apple devices\npipe = DiffusionPipeline.from_pretrained(\"black-forest-labs/FLUX.1-dev\", dtype=torch.bfloat16, device_map=\"cuda\")\nprompt = \"Astronaut in a jungle, cold color palette, muted colors, detailed, 8k\"\nimage = pipe(prompt).images[0] \nInference \n Inference Providers \nNotebooks \n Google Colab \n Kaggle \n AMD Developer Cloud \n Local Apps Settings \n Draw Things \n DiffusionBee \nBy clicking \\\"Agree\\\", you agree to the <a href=\\\"https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/LICENSE.md\\\" rel=\\\"nofollow\\\">FluxDev Non-Commercial License Agreement</a> and acknowledge the <a href=\\\"https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/POLICY.md\\\" rel=\\\"nofollow\\\">Acceptable Use Policy</a>.</p>\\n\",\"classNames\":\"hf-sanitized hf-sanitized-L06YL1Ws7FLRSNn-xsjl1\"},\"gated\":\"auto\",\"isLoggedIn\":false,\"repoId\":\"black-forest-labs/FLUX.1-dev\",\"repoType\":\"model\",\"isGoogleGemma\":false,\"requiresPaidPlan\":false}\">\n You need to agree to share your contact information to access this model \nThis repository is publicly accessible, but you have to accept the conditions to access its files and content . \nBy clicking \"Agree\", you agree to the FluxDev Non-Commercial License Agreement and acknowledge the Acceptable Use Policy . \n Log in or Sign Up to review the conditions and access this model content. \n Key Features \n Usage \n API Endpoints \n ComfyUI \n Diffusers \n Limitations \n Out-of-Scope Use \n License \n FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions.\nFor more information, please read our blog post . \n Key Features\nCutting-edge output quality, second only to our state-of-the-art model FLUX.1 [pro] . \nCompetitive prompt following, matching the performance of closed source alternatives . \nTrained using guidance distillation, making FLUX.1 [dev] more efficient. \nOpen weights to drive new scientific research, and empower artists to develop innovative workflows. \nGenerated outputs can be used for personal, scientific, and commercial purposes as described in the FLUX.1 [dev] Non-Commercial License . \n Usage\nWe provide a reference implementation of FLUX.1 [dev] , as well as sampling code, in a dedicated github repository .\nDevelopers and creatives looking to build on top of FLUX.1 [dev] are encouraged to use this as a starting point. \n API Endpoints\nThe FLUX.1 models are also available via API from the following sources \n bfl.ml (currently FLUX.1 [pro] ) \n replicate.com \n fal.ai \n mystic.ai \n ComfyUI\n FLUX.1 [dev] is also available in Comfy UI for local inference with a node-based workflow. \n Diffusers\nTo use FLUX.1 [dev] with the 🧨 diffusers python library, first install or upgrade diffusers \n pip install -U diffusers\nThen you can use FluxPipeline to run the model \n import torch\n from diffusers import FluxPipeline\npipe = FluxPipeline.from_pretrained( \"black-forest-labs/FLUX.1-dev\" , torch_dtype=torch.bfloat16)\npipe.enable_model_c"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "login_required",
+  "signal": "explicit",
+  "targets": [
+   "R-F3-01-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:53:54Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "gated": "auto",
+  "raw_readme_status": 401
+ },
+ "oracle_query": "black-forest-labs/FLUX.1-dev",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "black-forest-labs/FLUX.1-dev"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev/raw/main/README.md"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "12 billion parameters",
+     "sources": [
+      "https://huggingface.co/black-forest-labs/FLUX.1-dev"
+     ],
+     "substitutions": [
+      {
+       "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "login",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

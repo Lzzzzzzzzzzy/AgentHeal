@@ -1,0 +1,826 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F1-NEW-015-W0",
+ "goal_id": "F1-NEW-015",
+ "family": "F1",
+ "world": "W0",
+ "domain": "news",
+ "task_type": "AA",
+ "goal": "I'd like to chart the figures from The Harbor Dispatch's 21 September 2024 report on the Marlow wind-farm review myself: http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele\nPlease download the data table (CSV) that came with the article and submit the file.",
+ "answer": {
+  "kind": "file",
+  "field": "litres per second",
+  "unit": "L/s",
+  "canonical": "c4c0c829e6ca0464f3cf91de28783fe2fc2f8e93bb81f8d974a429aee96aea18",
+  "entity": "Dunvale district"
+ },
+ "resources": [
+  {
+   "id": "F1-NEW-015-canon",
+   "role": "canonical",
+   "host": "the-harbor-dispatch.example",
+   "path": "/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "url": "http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "kind": "file",
+   "site_type": "news",
+   "title": "Report: The marlow wind-farm review findings released",
+   "publisher": "The Harbor Dispatch",
+   "date": "2024-09-21",
+   "version_label": "The Harbor Dispatch, published 2024-09-21",
+   "expression": "published article",
+   "work_id": "work-b4c821",
+   "entity": "Dunvale district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "The Harbor Dispatch obtained the final report on the Marlow wind-farm review.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Glenhurst district",
+      "175"
+     ],
+     [
+      "Fallowmere district",
+      "2233"
+     ],
+     [
+      "Dunvale district",
+      "3389"
+     ],
+     [
+      "Hollins district",
+      "5360"
+     ],
+     [
+      "Eskridge district",
+      "4438"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The marlow wind-farm review findings released\n# version: The Harbor Dispatch, published 2024-09-21\nentity,litres_per_second\nGlenhurst district,175\nFallowmere district,2233\nDunvale district,3389\nHollins district,5360\nEskridge district,4438\n",
+   "file_name": "the-marlow-wind-farm-review-figures.csv",
+   "sha256": "c4c0c829e6ca0464f3cf91de28783fe2fc2f8e93bb81f8d974a429aee96aea18",
+   "value": "3389",
+   "cell_value": "3389",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Harbor Dispatch has obtained the final report on the Marlow wind-farm review, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 5779 L/s in Hollins district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Dunvale district",
+        "2179"
+       ],
+       [
+        "Glenhurst district",
+        "5331"
+       ],
+       [
+        "Fallowmere district",
+        "5520"
+       ],
+       [
+        "Hollins district",
+        "1865"
+       ],
+       [
+        "Eskridge district",
+        "2109"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F1-NEW-015-faith",
+   "role": "faithful",
+   "host": "archive.example",
+   "path": "/web/20240921120000/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "url": "http://archive.example/web/20240921120000/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "kind": "file",
+   "site_type": "archive",
+   "title": "Report: The marlow wind-farm review findings released",
+   "publisher": "Web archive snapshot of the-harbor-dispatch.example",
+   "date": "2024-09-21",
+   "version_label": "The Harbor Dispatch, published 2024-09-21",
+   "expression": "published article",
+   "work_id": "work-b4c821",
+   "entity": "Dunvale district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "The Harbor Dispatch obtained the final report on the Marlow wind-farm review.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Glenhurst district",
+      "175"
+     ],
+     [
+      "Fallowmere district",
+      "2233"
+     ],
+     [
+      "Dunvale district",
+      "3389"
+     ],
+     [
+      "Hollins district",
+      "5360"
+     ],
+     [
+      "Eskridge district",
+      "4438"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The marlow wind-farm review findings released\n# version: The Harbor Dispatch, published 2024-09-21\nentity,litres_per_second\nGlenhurst district,175\nFallowmere district,2233\nDunvale district,3389\nHollins district,5360\nEskridge district,4438\n",
+   "file_name": "the-marlow-wind-farm-review-figures.csv",
+   "sha256": "c4c0c829e6ca0464f3cf91de28783fe2fc2f8e93bb81f8d974a429aee96aea18",
+   "value": "3389",
+   "cell_value": "3389",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Harbor Dispatch has obtained the final report on the Marlow wind-farm review, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 5779 L/s in Hollins district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Dunvale district",
+        "2179"
+       ],
+       [
+        "Glenhurst district",
+        "5331"
+       ],
+       [
+        "Fallowmere district",
+        "5520"
+       ],
+       [
+        "Hollins district",
+        "1865"
+       ],
+       [
+        "Eskridge district",
+        "2109"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "memento_datetime": "20240921120000",
+   "original": "http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "chain": [
+    "http://archive.example/web/*/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+    "http://archive.example/web/2024*/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+    "http://archive.example/web/20240921*/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele"
+   ],
+   "inspect": {
+    "http://archive.example/web/20240921*/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele": [
+     "http://archive.example/web/20240921063000/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele"
+    ]
+   }
+  },
+  {
+   "id": "F1-NEW-015-dec0",
+   "role": "decoy",
+   "host": "the-harb0r-dispatch-archive.example",
+   "path": "/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "url": "http://the-harb0r-dispatch-archive.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "kind": "file",
+   "site_type": "mirror",
+   "title": "Report: The marlow wind-farm review findings released",
+   "publisher": "The Harbor Dispatch (mirror)",
+   "date": "2024-09-21",
+   "version_label": "The Harbor Dispatch, published 2024-09-21",
+   "expression": "published article",
+   "work_id": "work-b4c821",
+   "entity": "Dunvale district",
+   "field_label": "litres per second",
+   "unit": "L/s",
+   "body": {
+    "paragraphs": [
+     "The Harbor Dispatch obtained the final report on the Marlow wind-farm review.",
+     "The report lists litres per second for five districts."
+    ],
+    "table_caption": "Figures by district (litres per second)",
+    "table_header": [
+     "",
+     "litres per second (L/s)"
+    ],
+    "table": [
+     [
+      "Glenhurst district",
+      "175"
+     ],
+     [
+      "Fallowmere district",
+      "2233"
+     ],
+     [
+      "Dunvale district",
+      "3675"
+     ],
+     [
+      "Hollins district",
+      "5360"
+     ],
+     [
+      "Eskridge district",
+      "4438"
+     ]
+    ]
+   },
+   "cue": "Unofficial mirror; not linked from the-harbor-dispatch.example; content may be altered.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Report: The marlow wind-farm review findings released\n# version: The Harbor Dispatch, published 2024-09-21\nentity,litres_per_second\nGlenhurst district,175\nFallowmere district,2233\nDunvale district,3675\nHollins district,5360\nEskridge district,4438\n",
+   "file_name": "the-marlow-wind-farm-review-figures.csv",
+   "sha256": "dad5ba693eaf3b9018076cabd5c0b2b910a698bbe4833fc1c1dbaefeb8ae5b3c",
+   "value": "3675",
+   "cell_value": "3675",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "The Harbor Dispatch has obtained the final report on the Marlow wind-farm review, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down litres per second by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 5779 L/s in Hollins district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Ardmore council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2023 report)",
+      "header": [
+       "",
+       "litres per second (L/s)"
+      ],
+      "rows": [
+       [
+        "Dunvale district",
+        "2179"
+       ],
+       [
+        "Glenhurst district",
+        "5331"
+       ],
+       [
+        "Fallowmere district",
+        "5520"
+       ],
+       [
+        "Hollins district",
+        "1865"
+       ],
+       [
+        "Eskridge district",
+        "2109"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-P"
+  },
+  {
+   "id": "F1-NEW-015-hub-capture-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20260115093000/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "url": "http://archive.example/web/20260115093000/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "the-harbor-dispatch.example: 404 Not Found",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "404 Not Found."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20260115093000",
+   "original": "http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele"
+  },
+  {
+   "id": "F1-NEW-015-hub-capture-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20251103141500/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "url": "http://archive.example/web/20251103141500/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "the-harbor-dispatch.example: Home page",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to the-harbor-dispatch.example."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20251103141500",
+   "original": "http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele"
+  },
+  {
+   "id": "F1-NEW-015-hub-capture-0-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20240921183000/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "url": "http://archive.example/web/20240921183000/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "the-harbor-dispatch.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Truncated capture: only the page header was archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20240921183000",
+   "original": "http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele"
+  },
+  {
+   "id": "F1-NEW-015-hub-capture-0-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20240921063000/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "url": "http://archive.example/web/20240921063000/http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "the-harbor-dispatch.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Capture of a cookie consent screen; the page content was not archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20240921063000",
+   "original": "http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele"
+  },
+  {
+   "id": "F1-NEW-015-hub-moved-index",
+   "role": "hub",
+   "host": "the-harbor-dispatch.example",
+   "path": "/site/archive",
+   "url": "http://the-harbor-dispatch.example/site/archive",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive",
+   "publisher": "the-harbor-dispatch.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Older pages by year."
+    ]
+   },
+   "links": [
+    [
+     "http://the-harbor-dispatch.example/site/archive/2023",
+     "2023"
+    ],
+    [
+     "http://the-harbor-dispatch.example/site/archive/2024",
+     "2024"
+    ],
+    [
+     "http://the-harbor-dispatch.example/site/archive/2025",
+     "2025"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-NEW-015-hub-moved-2023",
+   "role": "hub",
+   "host": "the-harbor-dispatch.example",
+   "path": "/site/archive/2023",
+   "url": "http://the-harbor-dispatch.example/site/archive/2023",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2023",
+   "publisher": "the-harbor-dispatch.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-NEW-015-hub-moved-2024",
+   "role": "hub",
+   "host": "the-harbor-dispatch.example",
+   "path": "/site/archive/2024",
+   "url": "http://the-harbor-dispatch.example/site/archive/2024",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2024",
+   "publisher": "the-harbor-dispatch.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-NEW-015-hub-moved-2025",
+   "role": "hub",
+   "host": "the-harbor-dispatch.example",
+   "path": "/site/archive/2025",
+   "url": "http://the-harbor-dispatch.example/site/archive/2025",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2025",
+   "publisher": "the-harbor-dispatch.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-NEW-015-hub-updates",
+   "role": "hub",
+   "host": "the-harbor-dispatch.example",
+   "path": "/site/updates/b4c821",
+   "url": "http://the-harbor-dispatch.example/site/updates/b4c821",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Corrections and updates",
+   "publisher": "the-harbor-dispatch.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Corrections and earlier editions of our reports.",
+     "No earlier editions of recent reports are kept online."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-NEW-015-hub-wire-home",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/",
+   "url": "http://wirewire.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "WireWire",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Stories from partner newsrooms, distributed verbatim.",
+     "Use the search box to find a story."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F1-NEW-015-hub-wire-briefing",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/briefing/b4c821",
+   "url": "http://wirewire.example/briefing/b4c821",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Briefing: Report: The marlow wind-farm review findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "A short summary of the report. Figures are in the full story.",
+     "Source: The Harbor Dispatch."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F1-NEW-015-hub-home",
+   "role": "hub",
+   "host": "the-harbor-dispatch.example",
+   "path": "/",
+   "url": "http://the-harbor-dispatch.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "The Harbor Dispatch",
+   "publisher": "the-harbor-dispatch.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "We reorganised our website: older pages are now in the archive section.",
+     "Our reporting is distributed to partner newsrooms by the WireWire news wire."
+    ]
+   },
+   "links": [
+    [
+     "http://the-harbor-dispatch.example/site/archive",
+     "Archive"
+    ],
+    [
+     "http://the-harbor-dispatch.example/site/updates/b4c821",
+     "Corrections and earlier editions"
+    ],
+    [
+     "http://wirewire.example/",
+     "WireWire (syndication partner)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F1-NEW-015-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F1-NEW-015-W1b",
+  "unrecoverable": "F1-NEW-015-W3",
+  "twin": "F1-NEW-015-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "c4c0c829e6ca0464f3cf91de28783fe2fc2f8e93bb81f8d974a429aee96aea18",
+     "sources": [
+      "http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "c4c0c829e6ca0464f3cf91de28783fe2fc2f8e93bb81f8d974a429aee96aea18",
+   "sources": [
+    "http://the-harbor-dispatch.example/news/b4c821-report-the-marlow-wind-farm-review-findings-rele"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

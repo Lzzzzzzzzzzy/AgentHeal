@@ -1,0 +1,266 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F9-01",
+ "goal_id": "R-F9-01",
+ "family": "F9",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "My old script reads the score of the famous Stack Overflow question about processing a sorted array from this endpoint: https://api.stackexchange.com/1.1/questions/11227809?site=stackoverflow\nWhat is the question's current score? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Stack Exchange API v1.1",
+  "unit": "points",
+  "canonical": "27546",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F9-01-canon",
+   "role": "canonical",
+   "url": "https://api.stackexchange.com/1.1/questions/11227809?site=stackoverflow",
+   "host": "api.stackexchange.com",
+   "path": "/1.1/questions/11227809?site=stackoverflow",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "400 Stack Exchange API v1.1",
+   "publisher": "api.stackexchange.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-01",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{\"error_id\":404,\"error_message\":\"no method found with this name\",\"error_name\":\"no_method\"}"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 400,
+    "content_type": "application/json",
+    "headers": {},
+    "title": "400 Stack Exchange API v1.1",
+    "observed_at": "2026-10-16T18:20:20Z",
+    "text": "{\"error_id\":404,\"error_message\":\"no method found with this name\",\"error_name\":\"no_method\"}"
+   }
+  },
+  {
+   "id": "R-F9-01-faith",
+   "role": "faithful",
+   "url": "https://api.stackexchange.com/2.3/questions/11227809?site=stackoverflow",
+   "host": "api.stackexchange.com",
+   "path": "/2.3/questions/11227809?site=stackoverflow",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Stack Exchange API v1.1 replacement",
+   "publisher": "api.stackexchange.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-01",
+   "value": "27546",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"items\": [",
+     "  {",
+     "   \"tags\": [",
+     "    \"java\",",
+     "    \"c++\",",
+     "    \"performance\",",
+     "    \"cpu-architecture\",",
+     "    \"branch-prediction\"",
+     "   ],",
+     "   \"owner\": {",
+     "    \"account_id\": 31692,",
+     "    \"reputation\": 507397,",
+     "    \"user_id\": 87234,",
+     "    \"user_type\": \"registered\",",
+     "    \"accept_rate\": 100,",
+     "    \"profile_image\": \"https://i.sstatic.net/FkjBe.png?s=256\",",
+     "    \"display_name\": \"GManNickG\",",
+     "    \"link\": \"https://stackoverflow.com/users/87234/gmannickg\"",
+     "   },",
+     "   \"is_answered\": true,",
+     "   \"view_count\": 2006172,",
+     "   \"protected_date\": 1399067470,",
+     "   \"accepted_answer_id\": 11227902,",
+     "   \"answer_count\": 25,",
+     "   \"score\": 27546,",
+     "   \"last_activity_date\": 1788489410,",
+     "   \"creation_date\": 1340805096,",
+     "   \"last_edit_date\": 1775626532,",
+     "   \"question_id\": 11227809,"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "title": "Stack Exchange API v1.1 replacement",
+    "text": "{\n \"items\": [\n  {\n   \"tags\": [\n    \"java\",\n    \"c++\",\n    \"performance\",\n    \"cpu-architecture\",\n    \"branch-prediction\"\n   ],\n   \"owner\": {\n    \"account_id\": 31692,\n    \"reputation\": 507397,\n    \"user_id\": 87234,\n    \"user_type\": \"registered\",\n    \"accept_rate\": 100,\n    \"profile_image\": \"https://i.sstatic.net/FkjBe.png?s=256\",\n    \"display_name\": \"GManNickG\",\n    \"link\": \"https://stackoverflow.com/users/87234/gmannickg\"\n   },\n   \"is_answered\": true,\n   \"view_count\": 2006172,\n   \"protected_date\": 1399067470,\n   \"accepted_answer_id\": 11227902,\n   \"answer_count\": 25,\n   \"score\": 27546,\n   \"last_activity_date\": 1788489410,\n   \"creation_date\": 1340805096,\n   \"last_edit_date\": 1775626532,\n   \"question_id\": 11227809,\n   \"content_license\": \"CC BY-SA 4.0\",\n   \"link\": \"https://stackoverflow.com/questions/11227809/why-is-conditional-processing-of-a-sorted-array-faster-than-of-an-unsorted-array\",\n   \"title\": \"Why is conditional processing of a sorted array faster than of an unsorted array?\"\n  }\n ],\n \"has_more\": false,\n \"quota_max\": 300,\n \"quota_remaining\": 293\n}"
+   }
+  },
+  {
+   "id": "R-F9-01-doc0",
+   "role": "context",
+   "url": "https://api.stackexchange.com/docs",
+   "host": "api.stackexchange.com",
+   "path": "/docs",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Stack Exchange API",
+   "publisher": "api.stackexchange.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-01",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Stack Exchange API",
+     "Stack Exchange API v2.3 ",
+     "This is the documentation for the v2.3 Stack Exchange API (with both authentication and write support). If you have additional questions, or believe",
+     " you have encountered a bug, don't hesitate to post a question on Stack Apps . ",
+     "If your application is in a runnable state (even a beta one), Stack Apps is also the place to list it . ",
+     "General ",
+     " Applications must be registered on Stack Apps to get a request key or enable OAuth for authentication .",
+     " Request keys and access tokens can be used on any method to grant applications an increased throttle quota .",
+     "All API responses are JSON , we do support JSONP with the callback query parameter.",
+     " Every response in the API is returned in a common \"wrapper\" object , for easier and more consistent parsing. ",
+     "Additionally, all API responses are compressed. The Content-Encoding header is always set, but some proxies will strip this out. The proper way to decode API responses can be found here . ",
+     "API usage is subject to a number of throttles . In general, applications should strive to make as few",
+     " requests as possible to satisfy their function. ",
+     "API responses are heavily cached. Polling for changes should be done sparingly in any case, and polling at a rate faster than once a minute (for semantically identical requests) is considered abusive. ",
+     "Developers can trim API responses down to just the fields they are interested in using custom filters . Many types have fields that",
+     " are not normally returned (question bodies, for example) that can likewise be requested via a custom filter. ",
+     "There are a few methods which require that the application be acting on behalf of a user in order to be invoked. For authentication purposes,",
+     " the Stack Exchange API implements OAuth 2.0 (templated on Facebook's implementation in pursuit of developer",
+     " familiarity). ",
+     "A number of methods in the Stack Exchange accept dates as parameters and return dates as properties, the format of these dates is consistent",
+     " and documented . The cliff-notes version is, all dates in the Stack Exchange API are in unix epoch time . ",
+     "Unless otherwise noted, the maximum size of any page is 100 , any {ids} parameter likewise is capped at 100 elements, all indexes",
+     " start at 1. ",
+     "The maximum page number that will be returned for anonymous API access (no access token or app key) is 25 ",
+     "If a parameter name is plural it accepts vectorized requests , otherwise a single value may be passed. ",
+     " Compare users/{id}/inbox and /users/{ids} . ",
+     "It is possible to compose reasonably complex queries against the live Stack Exchange sites using the min , max , ",
+     " fromdate , todate , and sort parameters. Most, but not all, methods accept some or all of these parameters,",
+     " the documentation for individual methods will highlight which do. Most methods also have a common set of paging parameters . ",
+     "Some methods require access_tokens with particular scopes, such as private_info ( /users/{id}/reputation-history/full for example) or write_access ( /"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Stack Exchange API",
+    "text": "Stack Exchange API\nStack Exchange API v2.3 \nThis is the documentation for the v2.3 Stack Exchange API (with both authentication and write support). If you have additional questions, or believe\n you have encountered a bug, don't hesitate to post a question on Stack Apps . \nIf your application is in a runnable state (even a beta one), Stack Apps is also the place to list it . \nGeneral \n Applications must be registered on Stack Apps to get a request key or enable OAuth for authentication .\n Request keys and access tokens can be used on any method to grant applications an increased throttle quota .\nAll API responses are JSON , we do support JSONP with the callback query parameter.\n Every response in the API is returned in a common \"wrapper\" object , for easier and more consistent parsing. \nAdditionally, all API responses are compressed. The Content-Encoding header is always set, but some proxies will strip this out. The proper way to decode API responses can be found here . \nAPI usage is subject to a number of throttles . In general, applications should strive to make as few\n requests as possible to satisfy their function. \nAPI responses are heavily cached. Polling for changes should be done sparingly in any case, and polling at a rate faster than once a minute (for semantically identical requests) is considered abusive. \nDevelopers can trim API responses down to just the fields they are interested in using custom filters . Many types have fields that\n are not normally returned (question bodies, for example) that can likewise be requested via a custom filter. \nThere are a few methods which require that the application be acting on behalf of a user in order to be invoked. For authentication purposes,\n the Stack Exchange API implements OAuth 2.0 (templated on Facebook's implementation in pursuit of developer\n familiarity). \nA number of methods in the Stack Exchange accept dates as parameters and return dates as properties, the format of these dates is consistent\n and documented . The cliff-notes version is, all dates in the Stack Exchange API are in unix epoch time . \nUnless otherwise noted, the maximum size of any page is 100 , any {ids} parameter likewise is capped at 100 elements, all indexes\n start at 1. \nThe maximum page number that will be returned for anonymous API access (no access token or app key) is 25 \nIf a parameter name is plural it accepts vectorized requests , otherwise a single value may be passed. \n Compare users/{id}/inbox and /users/{ids} . \nIt is possible to compose reasonably complex queries against the live Stack Exchange sites using the min , max , \n fromdate , todate , and sort parameters. Most, but not all, methods accept some or all of these parameters,\n the documentation for individual methods will highlight which do. Most methods also have a common set of paging parameters . \nSome methods require access_tokens with particular scopes, such as private_info ( /users/{id}/reputation-history/full for example) or write_access ( /"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "api_retired",
+  "signal": "explicit",
+  "targets": [
+   "R-F9-01-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:20:20Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 400,
+   "error": null,
+   "body_excerpt": "{\"error_id\":404,\"error_message\":\"no method found with this name\",\"error_name\":\"no_method\"}"
+  },
+  "docs": [
+   "https://api.stackexchange.com/docs"
+  ]
+ },
+ "oracle_query": "Stack Exchange API v1.1 replacement",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Stack Exchange API v1.1 replacement"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.stackexchange.com/1.1/questions/11227809?site=stackoverflow"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.stackexchange.com/2.3/questions/11227809?site=stackoverflow"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "27546 points",
+     "sources": [
+      "https://api.stackexchange.com/2.3/questions/11227809?site=stackoverflow"
+     ],
+     "substitutions": [
+      {
+       "url": "https://api.stackexchange.com/2.3/questions/11227809?site=stackoverflow",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "deprecat",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

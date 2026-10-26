@@ -1,0 +1,432 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F8-DOC-018-W0",
+ "goal_id": "F8-DOC-018",
+ "family": "F8",
+ "world": "W0",
+ "domain": "docs",
+ "task_type": "AA",
+ "goal": "We are deploying vellum-cli v3.8 and I need its official configuration schema file. It should be available from the documentation at http://docs.vellum-cli.example/reference/9cedae-vellum-cli-v3-8-configuration-reference\nPlease download the file and submit it. I need this within the next 30 minutes.",
+ "answer": {
+  "kind": "file",
+  "field": "connection pool size",
+  "unit": "connections",
+  "canonical": "e4fbfaebe69d65c0bbcba43adea035ca502948b36b6e743e2f172ca7bf84abb6",
+  "entity": "pool_size"
+ },
+ "resources": [
+  {
+   "id": "F8-DOC-018-canon",
+   "role": "canonical",
+   "host": "docs.vellum-cli.example",
+   "path": "/reference/9cedae-vellum-cli-v3-8-configuration-reference",
+   "url": "http://docs.vellum-cli.example/reference/9cedae-vellum-cli-v3-8-configuration-reference",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "vellum-cli v3.8 configuration reference",
+   "publisher": "vellum-cli project",
+   "date": "2025-04-10",
+   "version_label": "vellum-cli documentation v3.8",
+   "expression": "v3.8",
+   "work_id": "work-9cedae",
+   "entity": "pool_size",
+   "field_label": "connection pool size",
+   "unit": "connections",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for vellum-cli v3.8.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "connection pool size (connections)"
+    ],
+    "table": [
+     [
+      "backoff_ms",
+      "530"
+     ],
+     [
+      "pool_size",
+      "35"
+     ],
+     [
+      "page_limit",
+      "383"
+     ],
+     [
+      "timeout",
+      "21"
+     ],
+     [
+      "cache_ttl",
+      "2321"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# vellum-cli v3.8 configuration reference\n# version: vellum-cli documentation v3.8\nentity,pool_size\nbackoff_ms,530\npool_size,35\npage_limit,383\ntimeout,21\ncache_ttl,2321\n",
+   "file_name": "vellum-cli-v3.8-config-schema.json",
+   "sha256": "e4fbfaebe69d65c0bbcba43adea035ca502948b36b6e743e2f172ca7bf84abb6",
+   "value": "35",
+   "cell_value": "35",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with VELLUM_CLI_."
+     ],
+     [
+      "Changelog",
+      "v3.0: the default of `timeout` changed from 61 to the value shown below. v2.4: `backoff_ms` deprecated in favour of `pool_size`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 22 for `pool_size`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_backoff_ms",
+        "v3.0",
+        "backoff_ms"
+       ],
+       [
+        "legacy_page_limit",
+        "v3.0",
+        "page_limit"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F8-DOC-018-faith",
+   "role": "faithful",
+   "host": "mirror.docs.vellum-cli.example",
+   "path": "/reference/9cedae-vellum-cli-v3-8-configuration-reference",
+   "url": "http://mirror.docs.vellum-cli.example/reference/9cedae-vellum-cli-v3-8-configuration-reference",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "vellum-cli v3.8 configuration reference",
+   "publisher": "vellum-cli project (official mirror)",
+   "date": "2025-04-10",
+   "version_label": "vellum-cli documentation v3.8",
+   "expression": "v3.8",
+   "work_id": "work-9cedae",
+   "entity": "pool_size",
+   "field_label": "connection pool size",
+   "unit": "connections",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for vellum-cli v3.8.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "connection pool size (connections)"
+    ],
+    "table": [
+     [
+      "backoff_ms",
+      "530"
+     ],
+     [
+      "pool_size",
+      "35"
+     ],
+     [
+      "page_limit",
+      "383"
+     ],
+     [
+      "timeout",
+      "21"
+     ],
+     [
+      "cache_ttl",
+      "2321"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# vellum-cli v3.8 configuration reference\n# version: vellum-cli documentation v3.8\nentity,pool_size\nbackoff_ms,530\npool_size,35\npage_limit,383\ntimeout,21\ncache_ttl,2321\n",
+   "file_name": "vellum-cli-v3.8-config-schema.json",
+   "sha256": "e4fbfaebe69d65c0bbcba43adea035ca502948b36b6e743e2f172ca7bf84abb6",
+   "value": "35",
+   "cell_value": "35",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with VELLUM_CLI_."
+     ],
+     [
+      "Changelog",
+      "v3.0: the default of `timeout` changed from 61 to the value shown below. v2.4: `backoff_ms` deprecated in favour of `pool_size`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 22 for `pool_size`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_backoff_ms",
+        "v3.0",
+        "backoff_ms"
+       ],
+       [
+        "legacy_page_limit",
+        "v3.0",
+        "page_limit"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_mirror",
+   "chain": [
+    "http://docs.vellum-cli.example/",
+    "http://status.docs.vellum-cli.example/",
+    "http://mirror.docs.vellum-cli.example/",
+    "http://mirror.docs.vellum-cli.example/search?q=vellum-cli+v3.8+configuration+reference"
+   ]
+  },
+  {
+   "id": "F8-DOC-018-hub-pkg-project",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/vellum-cli",
+   "url": "http://pkgindex.example/project/vellum-cli",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "vellum-cli",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "vellum-cli - vellum-cli project.",
+     "Releases, source code and documentation links."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.vellum-cli.example/",
+     "Homepage"
+    ],
+    [
+     "http://pkgindex.example/project/vellum-cli/docs",
+     "Documentation (all versions)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-DOC-018-hub-pkg-docs",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/vellum-cli/docs",
+   "url": "http://pkgindex.example/project/vellum-cli/docs",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "vellum-cli documentation",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted documentation by version."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.vellum-cli.example/reference/9cedae-vellum-cli-v3-8-configuration-reference",
+     "v3.8 - docs.vellum-cli.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F8-DOC-018-hub-status",
+   "role": "hub",
+   "host": "status.docs.vellum-cli.example",
+   "path": "/",
+   "url": "http://status.docs.vellum-cli.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "docs.vellum-cli.example status",
+   "publisher": "status.docs.vellum-cli.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Planned maintenance is in progress on the main site.",
+     "An official mirror is available at mirror.docs.vellum-cli.example. Use the mirror's search to find content."
+    ]
+   },
+   "links": [
+    [
+     "http://mirror.docs.vellum-cli.example/",
+     "Official mirror"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F8-DOC-018-hub-home",
+   "role": "hub",
+   "host": "docs.vellum-cli.example",
+   "path": "/",
+   "url": "http://docs.vellum-cli.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "vellum-cli documentation",
+   "publisher": "docs.vellum-cli.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to docs.vellum-cli.example."
+    ]
+   },
+   "links": [
+    [
+     "http://status.docs.vellum-cli.example/",
+     "Service status"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F8-DOC-018-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": 1800,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F8-DOC-018-W1a",
+  "unrecoverable": "F8-DOC-018-W3",
+  "twin": "F8-DOC-018-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://docs.vellum-cli.example/reference/9cedae-vellum-cli-v3-8-configuration-reference"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "e4fbfaebe69d65c0bbcba43adea035ca502948b36b6e743e2f172ca7bf84abb6",
+     "sources": [
+      "http://docs.vellum-cli.example/reference/9cedae-vellum-cli-v3-8-configuration-reference"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "e4fbfaebe69d65c0bbcba43adea035ca502948b36b6e743e2f172ca7bf84abb6",
+   "sources": [
+    "http://docs.vellum-cli.example/reference/9cedae-vellum-cli-v3-8-configuration-reference"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

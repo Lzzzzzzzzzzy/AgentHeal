@@ -1,0 +1,401 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F3-DOC-008-W0",
+ "goal_id": "F3-DOC-008",
+ "family": "F3",
+ "world": "W0",
+ "domain": "docs",
+ "task_type": "AA",
+ "goal": "We are deploying cobaltq v5.3 and I need its official configuration schema file. It should be available from the documentation at http://docs.cobaltq.example/reference/0eb65f-cobaltq-v5-3-configuration-reference\nPlease download the file and submit it.",
+ "answer": {
+  "kind": "file",
+  "field": "request timeout",
+  "unit": "s",
+  "canonical": "58bc431e7b02da5aa189984de8f563c37aec3fa1f7128abd68ab356545fa5ea4",
+  "entity": "timeout"
+ },
+ "resources": [
+  {
+   "id": "F3-DOC-008-canon",
+   "role": "canonical",
+   "host": "docs.cobaltq.example",
+   "path": "/reference/0eb65f-cobaltq-v5-3-configuration-reference",
+   "url": "http://docs.cobaltq.example/reference/0eb65f-cobaltq-v5-3-configuration-reference",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "cobaltq v5.3 configuration reference",
+   "publisher": "cobaltq project",
+   "date": "2025-04-10",
+   "version_label": "cobaltq documentation v5.3",
+   "expression": "v5.3",
+   "work_id": "work-0eb65f",
+   "entity": "timeout",
+   "field_label": "request timeout",
+   "unit": "s",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for cobaltq v5.3.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "request timeout (s)"
+    ],
+    "table": [
+     [
+      "max_batch",
+      "3760"
+     ],
+     [
+      "backoff_ms",
+      "571"
+     ],
+     [
+      "timeout",
+      "36"
+     ],
+     [
+      "page_limit",
+      "193"
+     ],
+     [
+      "pool_size",
+      "56"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# cobaltq v5.3 configuration reference\n# version: cobaltq documentation v5.3\nentity,timeout\nmax_batch,3760\nbackoff_ms,571\ntimeout,36\npage_limit,193\npool_size,56\n",
+   "file_name": "cobaltq-v5.3-config-schema.json",
+   "sha256": "58bc431e7b02da5aa189984de8f563c37aec3fa1f7128abd68ab356545fa5ea4",
+   "value": "36",
+   "cell_value": "36",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with COBALTQ_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `max_batch` changed from 22 to the value shown below. v4.4: `backoff_ms` deprecated in favour of `timeout`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 54 for `timeout`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_max_batch",
+        "v5.0",
+        "max_batch"
+       ],
+       [
+        "legacy_backoff_ms",
+        "v5.0",
+        "backoff_ms"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F3-DOC-008-faith",
+   "role": "faithful",
+   "host": "cobaltq.readthedocs-mirror.example",
+   "path": "/v5.3/reference",
+   "url": "http://cobaltq.readthedocs-mirror.example/v5.3/reference",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "cobaltq v5.3 configuration reference",
+   "publisher": "cobaltq project (official mirror) - public copy",
+   "date": "2025-04-10",
+   "version_label": "cobaltq documentation v5.3",
+   "expression": "v5.3",
+   "work_id": "work-0eb65f",
+   "entity": "timeout",
+   "field_label": "request timeout",
+   "unit": "s",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for cobaltq v5.3.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "request timeout (s)"
+    ],
+    "table": [
+     [
+      "max_batch",
+      "3760"
+     ],
+     [
+      "backoff_ms",
+      "571"
+     ],
+     [
+      "timeout",
+      "36"
+     ],
+     [
+      "page_limit",
+      "193"
+     ],
+     [
+      "pool_size",
+      "56"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# cobaltq v5.3 configuration reference\n# version: cobaltq documentation v5.3\nentity,timeout\nmax_batch,3760\nbackoff_ms,571\ntimeout,36\npage_limit,193\npool_size,56\n",
+   "file_name": "cobaltq-v5.3-config-schema.json",
+   "sha256": "58bc431e7b02da5aa189984de8f563c37aec3fa1f7128abd68ab356545fa5ea4",
+   "value": "36",
+   "cell_value": "36",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with COBALTQ_."
+     ],
+     [
+      "Changelog",
+      "v5.0: the default of `max_batch` changed from 22 to the value shown below. v4.4: `backoff_ms` deprecated in favour of `timeout`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 54 for `timeout`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_max_batch",
+        "v5.0",
+        "max_batch"
+       ],
+       [
+        "legacy_backoff_ms",
+        "v5.0",
+        "backoff_ms"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_mirror",
+   "chain": [
+    "http://pkgindex.example/search?q=cobaltq",
+    "http://pkgindex.example/project/cobaltq",
+    "http://pkgindex.example/project/cobaltq/docs",
+    "http://cobaltq.readthedocs-mirror.example/v5.3/"
+   ]
+  },
+  {
+   "id": "F3-DOC-008-hub-pkg-project",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/cobaltq",
+   "url": "http://pkgindex.example/project/cobaltq",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "cobaltq",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "cobaltq - cobaltq project.",
+     "Releases, source code and documentation links."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.cobaltq.example/",
+     "Homepage"
+    ],
+    [
+     "http://pkgindex.example/project/cobaltq/docs",
+     "Documentation (all versions)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F3-DOC-008-hub-pkg-ver0",
+   "role": "hub",
+   "host": "cobaltq.readthedocs-mirror.example",
+   "path": "/v5.3/",
+   "url": "http://cobaltq.readthedocs-mirror.example/v5.3/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "cobaltq v5.3 documentation",
+   "publisher": "cobaltq.readthedocs-mirror.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Documentation for cobaltq v5.3."
+    ]
+   },
+   "links": [
+    [
+     "http://cobaltq.readthedocs-mirror.example/v5.3/reference",
+     "Configuration reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-DOC-008-hub-pkg-docs",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/cobaltq/docs",
+   "url": "http://pkgindex.example/project/cobaltq/docs",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "cobaltq documentation",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted documentation by version."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.cobaltq.example/reference/0eb65f-cobaltq-v5-3-configuration-reference",
+     "v5.3 - docs.cobaltq.example"
+    ],
+    [
+     "http://cobaltq.readthedocs-mirror.example/v5.3/",
+     "v5.3 - cobaltq.readthedocs-mirror.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F3-DOC-008-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F3-DOC-008-W1a",
+  "unrecoverable": "F3-DOC-008-W2",
+  "twin": "F3-DOC-008-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://docs.cobaltq.example/reference/0eb65f-cobaltq-v5-3-configuration-reference"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "58bc431e7b02da5aa189984de8f563c37aec3fa1f7128abd68ab356545fa5ea4",
+     "sources": [
+      "http://docs.cobaltq.example/reference/0eb65f-cobaltq-v5-3-configuration-reference"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "58bc431e7b02da5aa189984de8f563c37aec3fa1f7128abd68ab356545fa5ea4",
+   "sources": [
+    "http://docs.cobaltq.example/reference/0eb65f-cobaltq-v5-3-configuration-reference"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

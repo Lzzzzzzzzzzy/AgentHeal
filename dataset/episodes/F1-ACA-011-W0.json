@@ -1,0 +1,990 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F1-ACA-011-W0",
+ "goal_id": "F1-ACA-011",
+ "family": "F1",
+ "world": "W0",
+ "domain": "academic",
+ "task_type": "AA",
+ "goal": "I want to rerun the analysis of Wenzel et al. (2024), \"Revisiting Glacial Melt\", so I need its supplementary data file (CSV). The paper is at http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt\nPlease download the file and submit it.",
+ "answer": {
+  "kind": "file",
+  "field": "estimated capacity",
+  "unit": "bits/param",
+  "canonical": "b7df9ec1bf98ca090e88ac807f9de82858598a36035fd1f92a39ca0c2e0a23fd",
+  "entity": "L-08"
+ },
+ "resources": [
+  {
+   "id": "F1-ACA-011-canon",
+   "role": "canonical",
+   "host": "studies-in-computational-pragmatics.example",
+   "path": "/articles/66afe1-revisiting-glacial-melt",
+   "url": "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "kind": "file",
+   "site_type": "journal",
+   "title": "Revisiting Glacial Melt",
+   "publisher": "Studies in Computational Pragmatics",
+   "date": "2024-07-18",
+   "version_label": "Version of Record, Studies in Computational Pragmatics (2024)",
+   "expression": "VoR",
+   "work_id": "work-66afe1",
+   "entity": "L-08",
+   "field_label": "estimated capacity",
+   "unit": "bits/param",
+   "body": {
+    "paragraphs": [
+     "We study glacial melt across five monitoring stations using a mixed-effects model.",
+     "Authors: Rosa Wenzel, Lena Oyelaran, Sven Zelenko, Priya Duarte. Published in Studies in Computational Pragmatics, 2024.",
+     "Table 2 reports the estimated capacity for each station."
+    ],
+    "table_caption": "Table 2: Estimated capacity by station",
+    "table_header": [
+     "",
+     "estimated capacity (bits/param)"
+    ],
+    "table": [
+     [
+      "B-04",
+      "3.7"
+     ],
+     [
+      "R-31",
+      "3.1"
+     ],
+     [
+      "N-26",
+      "3.2"
+     ],
+     [
+      "L-08",
+      "5.7"
+     ],
+     [
+      "M-09",
+      "3.1"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Revisiting Glacial Melt\n# version: Version of Record, Studies in Computational Pragmatics (2024)\nentity,estimated_capacity\nB-04,3.7\nR-31,3.1\nN-26,3.2\nL-08,5.7\nM-09,3.1\n",
+   "file_name": "revisiting-glacial-melt-supplement.csv",
+   "sha256": "b7df9ec1bf98ca090e88ac807f9de82858598a36035fd1f92a39ca0c2e0a23fd",
+   "value": "5.7",
+   "cell_value": "5.7",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report estimated capacity measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional estimated capacity at 9.2 bits/param; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of glacial melt relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the estimated capacity for each station in the 2024 campaign. The largest change relative to 2021 was observed at station L-08."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Petrenko et al. (2018). [2] Ferreira and Calloway (2020). [3] Whitcombe et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1452",
+        "1993",
+        "1346"
+       ],
+       [
+        "B-04",
+        "1017",
+        "1997",
+        "1929"
+       ],
+       [
+        "R-31",
+        "1101",
+        "2008",
+        "3421"
+       ],
+       [
+        "N-26",
+        "1779",
+        "1996",
+        "3550"
+       ],
+       [
+        "M-09",
+        "663",
+        "1993",
+        "2647"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Estimated capacity in the 2021 campaign",
+      "header": [
+       "",
+       "estimated capacity (bits/param)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "10.6"
+       ],
+       [
+        "B-04",
+        "2.7"
+       ],
+       [
+        "R-31",
+        "2.5"
+       ],
+       [
+        "N-26",
+        "8.2"
+       ],
+       [
+        "M-09",
+        "9.3"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F1-ACA-011-faith",
+   "role": "faithful",
+   "host": "archive.example",
+   "path": "/web/20240718120000/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "url": "http://archive.example/web/20240718120000/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "kind": "file",
+   "site_type": "archive",
+   "title": "Revisiting Glacial Melt",
+   "publisher": "Web archive snapshot of studies-in-computational-pragmatics.example",
+   "date": "2024-07-18",
+   "version_label": "Version of Record, Studies in Computational Pragmatics (2024)",
+   "expression": "VoR",
+   "work_id": "work-66afe1",
+   "entity": "L-08",
+   "field_label": "estimated capacity",
+   "unit": "bits/param",
+   "body": {
+    "paragraphs": [
+     "We study glacial melt across five monitoring stations using a mixed-effects model.",
+     "Authors: Rosa Wenzel, Lena Oyelaran, Sven Zelenko, Priya Duarte. Published in Studies in Computational Pragmatics, 2024.",
+     "Table 2 reports the estimated capacity for each station."
+    ],
+    "table_caption": "Table 2: Estimated capacity by station",
+    "table_header": [
+     "",
+     "estimated capacity (bits/param)"
+    ],
+    "table": [
+     [
+      "B-04",
+      "3.7"
+     ],
+     [
+      "R-31",
+      "3.1"
+     ],
+     [
+      "N-26",
+      "3.2"
+     ],
+     [
+      "L-08",
+      "5.7"
+     ],
+     [
+      "M-09",
+      "3.1"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Revisiting Glacial Melt\n# version: Version of Record, Studies in Computational Pragmatics (2024)\nentity,estimated_capacity\nB-04,3.7\nR-31,3.1\nN-26,3.2\nL-08,5.7\nM-09,3.1\n",
+   "file_name": "revisiting-glacial-melt-supplement.csv",
+   "sha256": "b7df9ec1bf98ca090e88ac807f9de82858598a36035fd1f92a39ca0c2e0a23fd",
+   "value": "5.7",
+   "cell_value": "5.7",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report estimated capacity measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional estimated capacity at 9.2 bits/param; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of glacial melt relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the estimated capacity for each station in the 2024 campaign. The largest change relative to 2021 was observed at station L-08."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Petrenko et al. (2018). [2] Ferreira and Calloway (2020). [3] Whitcombe et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1452",
+        "1993",
+        "1346"
+       ],
+       [
+        "B-04",
+        "1017",
+        "1997",
+        "1929"
+       ],
+       [
+        "R-31",
+        "1101",
+        "2008",
+        "3421"
+       ],
+       [
+        "N-26",
+        "1779",
+        "1996",
+        "3550"
+       ],
+       [
+        "M-09",
+        "663",
+        "1993",
+        "2647"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Estimated capacity in the 2021 campaign",
+      "header": [
+       "",
+       "estimated capacity (bits/param)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "10.6"
+       ],
+       [
+        "B-04",
+        "2.7"
+       ],
+       [
+        "R-31",
+        "2.5"
+       ],
+       [
+        "N-26",
+        "8.2"
+       ],
+       [
+        "M-09",
+        "9.3"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "memento_datetime": "20240718120000",
+   "original": "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "chain": [
+    "http://archive.example/web/*/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+    "http://archive.example/web/2024*/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+    "http://archive.example/web/20240718*/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt"
+   ],
+   "inspect": {
+    "http://archive.example/web/20240718*/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt": [
+     "http://archive.example/web/20240718063000/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt"
+    ]
+   }
+  },
+  {
+   "id": "F1-ACA-011-dec0",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/66afe10",
+   "url": "http://filedump.example/f/66afe10",
+   "kind": "file",
+   "site_type": "cache",
+   "title": "Revisiting Glacial Melt",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "VoR",
+   "work_id": "work-66afe1",
+   "entity": "L-08",
+   "field_label": "estimated capacity",
+   "unit": "bits/param",
+   "body": {
+    "paragraphs": [
+     "We study glacial melt across five monitoring stations using a mixed-effects model.",
+     "Authors: Rosa Wenzel, Lena Oyelaran, Sven Zelenko, Priya Duarte. Published in Studies in Computational Pragmatics, 2024.",
+     "Table 2 reports the estimated capacity for each station."
+    ],
+    "table_caption": "Table 2: Estimated capacity by station",
+    "table_header": [
+     "",
+     "estimated capacity (bits/param)"
+    ],
+    "table": [
+     [
+      "B-04",
+      "3.7"
+     ],
+     [
+      "R-31",
+      "3.1"
+     ],
+     [
+      "N-26",
+      "3.2"
+     ],
+     [
+      "L-08",
+      "6.6"
+     ],
+     [
+      "M-09",
+      "3.1"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Revisiting Glacial Melt\n# version: unknown version\nentity,estimated_capacity\nB-04,3.7\nR-31,3.1\nN-26,3.2\nL-08,6.6\nM-09,3.1\n",
+   "file_name": "revisiting-glacial-melt-supplement.csv",
+   "sha256": "a44e8634867404fe42f8f2a28f6471e45fd1db275fb5d9e540c69b78413ba41e",
+   "value": "6.6",
+   "cell_value": "6.6",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report estimated capacity measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional estimated capacity at 9.2 bits/param; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of glacial melt relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the estimated capacity for each station in the 2024 campaign. The largest change relative to 2021 was observed at station L-08."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Petrenko et al. (2018). [2] Ferreira and Calloway (2020). [3] Whitcombe et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "1452",
+        "1993",
+        "1346"
+       ],
+       [
+        "B-04",
+        "1017",
+        "1997",
+        "1929"
+       ],
+       [
+        "R-31",
+        "1101",
+        "2008",
+        "3421"
+       ],
+       [
+        "N-26",
+        "1779",
+        "1996",
+        "3550"
+       ],
+       [
+        "M-09",
+        "663",
+        "1993",
+        "2647"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Estimated capacity in the 2021 campaign",
+      "header": [
+       "",
+       "estimated capacity (bits/param)"
+      ],
+      "rows": [
+       [
+        "L-08",
+        "10.6"
+       ],
+       [
+        "B-04",
+        "2.7"
+       ],
+       [
+        "R-31",
+        "2.5"
+       ],
+       [
+        "N-26",
+        "8.2"
+       ],
+       [
+        "M-09",
+        "9.3"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F1-ACA-011-hub-capture-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20260115093000/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "url": "http://archive.example/web/20260115093000/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "studies-in-computational-pragmatics.example: 404 Not Found",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "404 Not Found."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20260115093000",
+   "original": "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt"
+  },
+  {
+   "id": "F1-ACA-011-hub-capture-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20251103141500/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "url": "http://archive.example/web/20251103141500/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "studies-in-computational-pragmatics.example: Home page",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to studies-in-computational-pragmatics.example."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20251103141500",
+   "original": "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt"
+  },
+  {
+   "id": "F1-ACA-011-hub-capture-0-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20240718063000/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "url": "http://archive.example/web/20240718063000/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "studies-in-computational-pragmatics.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Capture of a cookie consent screen; the page content was not archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20240718063000",
+   "original": "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt"
+  },
+  {
+   "id": "F1-ACA-011-hub-capture-0-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20240718183000/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "url": "http://archive.example/web/20240718183000/http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "studies-in-computational-pragmatics.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Truncated capture: only the page header was archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20240718183000",
+   "original": "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt"
+  },
+  {
+   "id": "F1-ACA-011-hub-moved-index",
+   "role": "hub",
+   "host": "studies-in-computational-pragmatics.example",
+   "path": "/site/archive",
+   "url": "http://studies-in-computational-pragmatics.example/site/archive",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive",
+   "publisher": "studies-in-computational-pragmatics.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Older pages by year."
+    ]
+   },
+   "links": [
+    [
+     "http://studies-in-computational-pragmatics.example/site/archive/2023",
+     "2023"
+    ],
+    [
+     "http://studies-in-computational-pragmatics.example/site/archive/2024",
+     "2024"
+    ],
+    [
+     "http://studies-in-computational-pragmatics.example/site/archive/2025",
+     "2025"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ACA-011-hub-moved-2023",
+   "role": "hub",
+   "host": "studies-in-computational-pragmatics.example",
+   "path": "/site/archive/2023",
+   "url": "http://studies-in-computational-pragmatics.example/site/archive/2023",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2023",
+   "publisher": "studies-in-computational-pragmatics.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ACA-011-hub-moved-2024",
+   "role": "hub",
+   "host": "studies-in-computational-pragmatics.example",
+   "path": "/site/archive/2024",
+   "url": "http://studies-in-computational-pragmatics.example/site/archive/2024",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2024",
+   "publisher": "studies-in-computational-pragmatics.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ACA-011-hub-moved-2025",
+   "role": "hub",
+   "host": "studies-in-computational-pragmatics.example",
+   "path": "/site/archive/2025",
+   "url": "http://studies-in-computational-pragmatics.example/site/archive/2025",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2025",
+   "publisher": "studies-in-computational-pragmatics.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ACA-011-hub-scholar-meta0",
+   "role": "hub",
+   "host": "researchnet.example",
+   "path": "/record/66afe1",
+   "url": "http://researchnet.example/record/66afe1",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Revisiting Glacial Melt",
+   "publisher": "researchnet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Rosa Wenzel, Lena Oyelaran, Sven Zelenko, Priya Duarte.",
+     "Studies in Computational Pragmatics, 2024.",
+     "Full text not available here. Request it from the authors."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ACA-011-hub-scholar-work",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/66afe1",
+   "url": "http://scholar.example/work/66afe1",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Revisiting Glacial Melt",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Rosa Wenzel, Lena Oyelaran, Sven Zelenko, Priya Duarte.",
+     "Studies in Computational Pragmatics, 2024.",
+     "Topic: glacial melt.",
+     "DOI: 10.5072/66afe1"
+    ]
+   },
+   "links": [
+    [
+     "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+     "[HTML] studies-in-computational-pragmatics.example"
+    ],
+    [
+     "http://scholar.example/work/66afe1/versions",
+     "All 2 versions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F1-ACA-011-hub-scholar-versions",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/66afe1/versions",
+   "url": "http://scholar.example/work/66afe1/versions",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "All versions of: Revisiting Glacial Melt",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sources holding this work, as found by the index. Version information is given on each source page."
+    ]
+   },
+   "links": [
+    [
+     "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt",
+     "Revisiting Glacial Melt - studies-in-computational-pragmatics.example"
+    ],
+    [
+     "http://researchnet.example/record/66afe1",
+     "Revisiting Glacial Melt - researchnet.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-ACA-011-hub-home",
+   "role": "hub",
+   "host": "studies-in-computational-pragmatics.example",
+   "path": "/",
+   "url": "http://studies-in-computational-pragmatics.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Studies in Computational Pragmatics",
+   "publisher": "studies-in-computational-pragmatics.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "We reorganised our website: older pages are now in the archive section."
+    ]
+   },
+   "links": [
+    [
+     "http://studies-in-computational-pragmatics.example/site/archive",
+     "Archive"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F1-ACA-011-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F1-ACA-011-W1b",
+  "unrecoverable": "F1-ACA-011-W3",
+  "twin": "F1-ACA-011-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "b7df9ec1bf98ca090e88ac807f9de82858598a36035fd1f92a39ca0c2e0a23fd",
+     "sources": [
+      "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "b7df9ec1bf98ca090e88ac807f9de82858598a36035fd1f92a39ca0c2e0a23fd",
+   "sources": [
+    "http://studies-in-computational-pragmatics.example/articles/66afe1-revisiting-glacial-melt"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

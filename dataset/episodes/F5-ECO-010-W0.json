@@ -1,0 +1,492 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F5-ECO-010-W0",
+ "goal_id": "F5-ECO-010",
+ "family": "F5",
+ "world": "W0",
+ "domain": "ecommerce",
+ "task_type": "TX",
+ "goal": "Please buy one Elyra X30 cordless drill for me (GTIN 8533772525423). I found it here: http://voltmart.example/products/9d9231-elyra-x30-cordless-drill\nAny authorized shop that sells exactly this GTIN is fine. Tell me which order you placed.",
+ "answer": {
+  "kind": "order",
+  "field": "max torque",
+  "unit": "Nm",
+  "canonical": "8533772525423",
+  "entity": "Elyra X30"
+ },
+ "resources": [
+  {
+   "id": "F5-ECO-010-canon",
+   "role": "canonical",
+   "host": "voltmart.example",
+   "path": "/products/9d9231-elyra-x30-cordless-drill",
+   "url": "http://voltmart.example/products/9d9231-elyra-x30-cordless-drill",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Elyra X30 cordless drill",
+   "publisher": "voltmart.example",
+   "date": "2025-06-01",
+   "version_label": "Elyra X30 listing",
+   "expression": "product listing",
+   "work_id": "work-9d9231",
+   "entity": "Elyra X30",
+   "field_label": "max torque",
+   "unit": "Nm",
+   "body": {
+    "paragraphs": [
+     "The Elyra X30 is a cordless drill by Elyra.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "max torque (Nm)"
+    ],
+    "table": [
+     [
+      "weight",
+      "1263 g"
+     ],
+     [
+      "warranty",
+      "2 years"
+     ],
+     [
+      "colour",
+      "graphite"
+     ],
+     [
+      "Elyra X30",
+      "72"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "8533772525423",
+   "price": "362.09",
+   "value": "72",
+   "cell_value": "72",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Elyra X30 cordless drill is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the max torque the same as on the older Elyra X40? A: No, see the comparison table; the older model is rated 41 Nm."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Elyra Pro30 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "max torque (Nm)"
+      ],
+      "rows": [
+       [
+        "Elyra X40",
+        "44"
+       ],
+       [
+        "Elyra Pro30",
+        "31"
+       ],
+       [
+        "Elyra Lite20",
+        "107"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F5-ECO-010-faith",
+   "role": "faithful",
+   "host": "harbor-supply.example",
+   "path": "/item/8533772525423",
+   "url": "http://harbor-supply.example/item/8533772525423",
+   "kind": "product",
+   "site_type": "shop",
+   "title": "Elyra X30 cordless drill",
+   "publisher": "harbor-supply.example (authorized retailer)",
+   "date": "2025-06-01",
+   "version_label": "Elyra X30 listing",
+   "expression": "product listing",
+   "work_id": "work-9d9231",
+   "entity": "Elyra X30",
+   "field_label": "max torque",
+   "unit": "Nm",
+   "body": {
+    "paragraphs": [
+     "The Elyra X30 is a cordless drill by Elyra.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "max torque (Nm)"
+    ],
+    "table": [
+     [
+      "weight",
+      "1263 g"
+     ],
+     [
+      "warranty",
+      "2 years"
+     ],
+     [
+      "colour",
+      "graphite"
+     ],
+     [
+      "Elyra X30",
+      "72"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "8533772525423",
+   "price": "362.09",
+   "value": "72",
+   "cell_value": "72",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Elyra X30 cordless drill is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the max torque the same as on the older Elyra X40? A: No, see the comparison table; the older model is rated 41 Nm."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Elyra Pro30 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "max torque (Nm)"
+      ],
+      "rows": [
+       [
+        "Elyra X40",
+        "44"
+       ],
+       [
+        "Elyra Pro30",
+        "31"
+       ],
+       [
+        "Elyra Lite20",
+        "107"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "other_authorized_shop",
+   "chain": [
+    "http://elyra.example/",
+    "http://elyra.example/where-to-buy",
+    "http://harbor-supply.example/",
+    "http://harbor-supply.example/search?q=8533772525423"
+   ],
+   "inspect": {
+    "http://elyra.example/where-to-buy": [
+     "http://northwind-goods.example/",
+     "http://northwind-goods.example/search?q=8533772525423",
+     "http://lumen-outlet.example/",
+     "http://lumen-outlet.example/search?q=8533772525423"
+    ]
+   }
+  },
+  {
+   "id": "F5-ECO-010-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/9d9231-0",
+   "url": "http://catalog0.example/entry/9d9231-0",
+   "kind": "product",
+   "site_type": "blog",
+   "title": "Elyra X30e cordless drill",
+   "publisher": "Different publisher",
+   "date": "2025-06-01",
+   "version_label": "companion entry",
+   "expression": "product listing",
+   "work_id": "work-9d9231",
+   "entity": "Elyra X30",
+   "field_label": "max torque",
+   "unit": "Nm",
+   "body": {
+    "paragraphs": [
+     "The Elyra X30 is a cordless drill by Elyra.",
+     "Ships in 2–4 business days."
+    ],
+    "table_caption": "Specifications",
+    "table_header": [
+     "",
+     "max torque (Nm)"
+    ],
+    "table": [
+     [
+      "weight",
+      "1263 g"
+     ],
+     [
+      "warranty",
+      "2 years"
+     ],
+     [
+      "colour",
+      "graphite"
+     ],
+     [
+      "Elyra X30",
+      "61"
+     ],
+     [
+      "model year",
+      "2025"
+     ]
+    ]
+   },
+   "cue": "GTIN 4018796494923 - a similar model, not GTIN 8533772525423.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "gtin": "4018796494923",
+   "price": "362.09",
+   "value": "61",
+   "cell_value": "61",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "The Elyra X30 cordless drill is designed for everyday use. See the specification table for details; values for similar models are listed for comparison."
+     ],
+     [
+      "Customer questions",
+      "Q: Is the max torque the same as on the older Elyra X40? A: No, see the comparison table; the older model is rated 41 Nm."
+     ],
+     [
+      "Reviews",
+      "★★★★☆ “Does what it says.” — verified buyer. ★★★☆☆ “Good, but the Elyra Pro30 felt sturdier.”"
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Compare similar models",
+      "header": [
+       "Model",
+       "max torque (Nm)"
+      ],
+      "rows": [
+       [
+        "Elyra X40",
+        "44"
+       ],
+       [
+        "Elyra Pro30",
+        "31"
+       ],
+       [
+        "Elyra Lite20",
+        "107"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F5-ECO-010-hub-brand-home",
+   "role": "hub",
+   "host": "elyra.example",
+   "path": "/",
+   "url": "http://elyra.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Elyra official site",
+   "publisher": "elyra.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Elyra designs cordless drills and other products.",
+     "Current models include the Elyra X30."
+    ]
+   },
+   "links": [
+    [
+     "http://elyra.example/where-to-buy",
+     "Where to buy"
+    ]
+   ],
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F5-ECO-010-hub-brand-wtb",
+   "role": "hub",
+   "host": "elyra.example",
+   "path": "/where-to-buy",
+   "url": "http://elyra.example/where-to-buy",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Where to buy Elyra products",
+   "publisher": "elyra.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Authorized retailers. Stock varies; search the retailer's site for the GTIN of your model."
+    ]
+   },
+   "links": [
+    [
+     "http://northwind-goods.example/",
+     "northwind-goods.example"
+    ],
+    [
+     "http://lumen-outlet.example/",
+     "lumen-outlet.example"
+    ],
+    [
+     "http://harbor-supply.example/",
+     "harbor-supply.example"
+    ],
+    [
+     "http://voltmart.example/",
+     "voltmart.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F5-ECO-010-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F5-ECO-010-W1b",
+  "unrecoverable": "F5-ECO-010-W2",
+  "twin": "F5-ECO-010-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://voltmart.example/products/9d9231-elyra-x30-cordless-drill"
+   },
+   {
+    "tool": "http",
+    "method": "POST",
+    "url": "http://voltmart.example/checkout",
+    "data": {
+     "gtin": "8533772525423",
+     "quantity": "1"
+    }
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "8533772525423",
+     "sources": [
+      "http://voltmart.example/products/9d9231-elyra-x30-cordless-drill"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "8533772525423",
+   "sources": [
+    "http://voltmart.example/products/9d9231-elyra-x30-cordless-drill"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

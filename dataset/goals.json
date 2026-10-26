@@ -1,0 +1,3152 @@
+[
+ {
+  "family": "F1",
+  "index": 0,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F1-ACA-000",
+  "episodes": [
+   "F1-ACA-000-W1v",
+   "F1-ACA-000-W2",
+   "F1-ACA-000-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 1,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F1-NEW-001",
+  "episodes": [
+   "F1-NEW-001-W1a",
+   "F1-NEW-001-W3",
+   "F1-NEW-001-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 2,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F1-ECO-002",
+  "episodes": [
+   "F1-ECO-002-W1b",
+   "F1-ECO-002-W2",
+   "F1-ECO-002-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 3,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F1-OPE-003",
+  "episodes": [
+   "F1-OPE-003-W1a",
+   "F1-OPE-003-W3",
+   "F1-OPE-003-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 4,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F1-DOC-004",
+  "episodes": [
+   "F1-DOC-004-W1v",
+   "F1-DOC-004-W2",
+   "F1-DOC-004-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 5,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F1-ENC-005",
+  "episodes": [
+   "F1-ENC-005-W1v",
+   "F1-ENC-005-W3",
+   "F1-ENC-005-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 6,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F1-ACA-006",
+  "episodes": [
+   "F1-ACA-006-W1b",
+   "F1-ACA-006-W2",
+   "F1-ACA-006-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 7,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F1-NEW-007",
+  "episodes": [
+   "F1-NEW-007-W1v",
+   "F1-NEW-007-W3",
+   "F1-NEW-007-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 8,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F1-OPE-008",
+  "episodes": [
+   "F1-OPE-008-W1a",
+   "F1-OPE-008-W2",
+   "F1-OPE-008-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 9,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F1-DOC-009",
+  "episodes": [
+   "F1-DOC-009-W1v",
+   "F1-DOC-009-W3",
+   "F1-DOC-009-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 10,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F1-ENC-010",
+  "episodes": [
+   "F1-ENC-010-W1v",
+   "F1-ENC-010-W2",
+   "F1-ENC-010-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 11,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F1-ACA-011",
+  "episodes": [
+   "F1-ACA-011-W1b",
+   "F1-ACA-011-W3",
+   "F1-ACA-011-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 12,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F1-ECO-012",
+  "episodes": [
+   "F1-ECO-012-W1a",
+   "F1-ECO-012-W2",
+   "F1-ECO-012-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 13,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F1-ECO-013",
+  "episodes": [
+   "F1-ECO-013-W1b",
+   "F1-ECO-013-W3",
+   "F1-ECO-013-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 14,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F1-ECO-014",
+  "episodes": [
+   "F1-ECO-014-W1a",
+   "F1-ECO-014-W2",
+   "F1-ECO-014-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 15,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F1-NEW-015",
+  "episodes": [
+   "F1-NEW-015-W1b",
+   "F1-NEW-015-W3",
+   "F1-NEW-015-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 16,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F1-OPE-016",
+  "episodes": [
+   "F1-OPE-016-W1v",
+   "F1-OPE-016-W2",
+   "F1-OPE-016-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 17,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F1-DOC-017",
+  "episodes": [
+   "F1-DOC-017-W1v",
+   "F1-DOC-017-W3",
+   "F1-DOC-017-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 18,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F1-ENC-018",
+  "episodes": [
+   "F1-ENC-018-W1a",
+   "F1-ENC-018-W2",
+   "F1-ENC-018-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 19,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F1-ACA-019",
+  "episodes": [
+   "F1-ACA-019-W1b",
+   "F1-ACA-019-W3",
+   "F1-ACA-019-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 20,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F1-NEW-020",
+  "episodes": [
+   "F1-NEW-020-W1v",
+   "F1-NEW-020-W2",
+   "F1-NEW-020-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 21,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F1-OPE-021",
+  "episodes": [
+   "F1-OPE-021-W1a",
+   "F1-OPE-021-W3",
+   "F1-OPE-021-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 22,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F1-DOC-022",
+  "episodes": [
+   "F1-DOC-022-W1v",
+   "F1-DOC-022-W2",
+   "F1-DOC-022-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 23,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F1-ENC-023",
+  "episodes": [
+   "F1-ENC-023-W1b",
+   "F1-ENC-023-W3",
+   "F1-ENC-023-W0"
+  ]
+ },
+ {
+  "family": "F1",
+  "index": 24,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F1-ACA-024",
+  "episodes": [
+   "F1-ACA-024-W1a",
+   "F1-ACA-024-W2",
+   "F1-ACA-024-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 0,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F2-ACA-000",
+  "episodes": [
+   "F2-ACA-000-W1v",
+   "F2-ACA-000-W3",
+   "F2-ACA-000-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 1,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F2-ACA-001",
+  "episodes": [
+   "F2-ACA-001-W1v",
+   "F2-ACA-001-W2",
+   "F2-ACA-001-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 2,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F2-DOC-002",
+  "episodes": [
+   "F2-DOC-002-W1v",
+   "F2-DOC-002-W3",
+   "F2-DOC-002-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 3,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F2-OPE-003",
+  "episodes": [
+   "F2-OPE-003-W1b",
+   "F2-OPE-003-W2",
+   "F2-OPE-003-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 4,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F2-ECO-004",
+  "episodes": [
+   "F2-ECO-004-W1a",
+   "F2-ECO-004-W3",
+   "F2-ECO-004-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 5,
+  "task_type": "AA",
+  "domain": "encyclopedia",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F2-ENC-005",
+  "episodes": [
+   "F2-ENC-005-W1v",
+   "F2-ENC-005-W2",
+   "F2-ENC-005-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 6,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F2-ACA-006",
+  "episodes": [
+   "F2-ACA-006-W1v",
+   "F2-ACA-006-W3",
+   "F2-ACA-006-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 7,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F2-ACA-007",
+  "episodes": [
+   "F2-ACA-007-W1b",
+   "F2-ACA-007-W2",
+   "F2-ACA-007-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 8,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F2-DOC-008",
+  "episodes": [
+   "F2-DOC-008-W1v",
+   "F2-DOC-008-W3",
+   "F2-DOC-008-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 9,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F2-ECO-009",
+  "episodes": [
+   "F2-ECO-009-W1a",
+   "F2-ECO-009-W2",
+   "F2-ECO-009-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 10,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F2-OPE-010",
+  "episodes": [
+   "F2-OPE-010-W1b",
+   "F2-OPE-010-W3",
+   "F2-OPE-010-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 11,
+  "task_type": "AA",
+  "domain": "encyclopedia",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F2-ENC-011",
+  "episodes": [
+   "F2-ENC-011-W1a",
+   "F2-ENC-011-W2",
+   "F2-ENC-011-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 12,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F2-ACA-012",
+  "episodes": [
+   "F2-ACA-012-W1v",
+   "F2-ACA-012-W3",
+   "F2-ACA-012-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 13,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F2-ACA-013",
+  "episodes": [
+   "F2-ACA-013-W1v",
+   "F2-ACA-013-W2",
+   "F2-ACA-013-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 14,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F2-DOC-014",
+  "episodes": [
+   "F2-DOC-014-W1v",
+   "F2-DOC-014-W3",
+   "F2-DOC-014-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 15,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F2-OPE-015",
+  "episodes": [
+   "F2-OPE-015-W1v",
+   "F2-OPE-015-W2",
+   "F2-OPE-015-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 16,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F2-ECO-016",
+  "episodes": [
+   "F2-ECO-016-W1b",
+   "F2-ECO-016-W3",
+   "F2-ECO-016-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 17,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F2-ENC-017",
+  "episodes": [
+   "F2-ENC-017-W1v",
+   "F2-ENC-017-W2",
+   "F2-ENC-017-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 18,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F2-ACA-018",
+  "episodes": [
+   "F2-ACA-018-W1v",
+   "F2-ACA-018-W3",
+   "F2-ACA-018-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 19,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F2-ACA-019",
+  "episodes": [
+   "F2-ACA-019-W1v",
+   "F2-ACA-019-W2",
+   "F2-ACA-019-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 20,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F2-ECO-020",
+  "episodes": [
+   "F2-ECO-020-W1a",
+   "F2-ECO-020-W3",
+   "F2-ECO-020-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 21,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F2-DOC-021",
+  "episodes": [
+   "F2-DOC-021-W1b",
+   "F2-DOC-021-W2",
+   "F2-DOC-021-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 22,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F2-OPE-022",
+  "episodes": [
+   "F2-OPE-022-W1v",
+   "F2-OPE-022-W3",
+   "F2-OPE-022-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 23,
+  "task_type": "AA",
+  "domain": "encyclopedia",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F2-ENC-023",
+  "episodes": [
+   "F2-ENC-023-W1a",
+   "F2-ENC-023-W2",
+   "F2-ENC-023-W0"
+  ]
+ },
+ {
+  "family": "F2",
+  "index": 24,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F2-ACA-024",
+  "episodes": [
+   "F2-ACA-024-W1v",
+   "F2-ACA-024-W3",
+   "F2-ACA-024-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 0,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F3-ACA-000",
+  "episodes": [
+   "F3-ACA-000-W1v",
+   "F3-ACA-000-W2",
+   "F3-ACA-000-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 1,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F3-NEW-001",
+  "episodes": [
+   "F3-NEW-001-W1v",
+   "F3-NEW-001-W3",
+   "F3-NEW-001-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 2,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F3-OPE-002",
+  "episodes": [
+   "F3-OPE-002-W1v",
+   "F3-OPE-002-W2",
+   "F3-OPE-002-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 3,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F3-ECO-003",
+  "episodes": [
+   "F3-ECO-003-W1b",
+   "F3-ECO-003-W3",
+   "F3-ECO-003-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 4,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F3-DOC-004",
+  "episodes": [
+   "F3-DOC-004-W1a",
+   "F3-DOC-004-W2",
+   "F3-DOC-004-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 5,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F3-ACA-005",
+  "episodes": [
+   "F3-ACA-005-W1b",
+   "F3-ACA-005-W3",
+   "F3-ACA-005-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 6,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F3-NEW-006",
+  "episodes": [
+   "F3-NEW-006-W1a",
+   "F3-NEW-006-W2",
+   "F3-NEW-006-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 7,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F3-OPE-007",
+  "episodes": [
+   "F3-OPE-007-W1b",
+   "F3-OPE-007-W3",
+   "F3-OPE-007-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 8,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F3-DOC-008",
+  "episodes": [
+   "F3-DOC-008-W1a",
+   "F3-DOC-008-W2",
+   "F3-DOC-008-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 9,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F3-ACA-009",
+  "episodes": [
+   "F3-ACA-009-W1b",
+   "F3-ACA-009-W3",
+   "F3-ACA-009-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 10,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F3-NEW-010",
+  "episodes": [
+   "F3-NEW-010-W1v",
+   "F3-NEW-010-W2",
+   "F3-NEW-010-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 11,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F3-OPE-011",
+  "episodes": [
+   "F3-OPE-011-W1v",
+   "F3-OPE-011-W3",
+   "F3-OPE-011-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 12,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F3-DOC-012",
+  "episodes": [
+   "F3-DOC-012-W1a",
+   "F3-DOC-012-W2",
+   "F3-DOC-012-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 13,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F3-ACA-013",
+  "episodes": [
+   "F3-ACA-013-W1v",
+   "F3-ACA-013-W3",
+   "F3-ACA-013-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 14,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F3-NEW-014",
+  "episodes": [
+   "F3-NEW-014-W1v",
+   "F3-NEW-014-W2",
+   "F3-NEW-014-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 15,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F3-OPE-015",
+  "episodes": [
+   "F3-OPE-015-W1b",
+   "F3-OPE-015-W3",
+   "F3-OPE-015-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 16,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F3-DOC-016",
+  "episodes": [
+   "F3-DOC-016-W1a",
+   "F3-DOC-016-W2",
+   "F3-DOC-016-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 17,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F3-ECO-017",
+  "episodes": [
+   "F3-ECO-017-W1b",
+   "F3-ECO-017-W3",
+   "F3-ECO-017-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 18,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F3-ACA-018",
+  "episodes": [
+   "F3-ACA-018-W1v",
+   "F3-ACA-018-W2",
+   "F3-ACA-018-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 19,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F3-NEW-019",
+  "episodes": [
+   "F3-NEW-019-W1a",
+   "F3-NEW-019-W3",
+   "F3-NEW-019-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 20,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F3-ECO-020",
+  "episodes": [
+   "F3-ECO-020-W1b",
+   "F3-ECO-020-W2",
+   "F3-ECO-020-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 21,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F3-ECO-021",
+  "episodes": [
+   "F3-ECO-021-W1a",
+   "F3-ECO-021-W3",
+   "F3-ECO-021-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 22,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F3-OPE-022",
+  "episodes": [
+   "F3-OPE-022-W1v",
+   "F3-OPE-022-W2",
+   "F3-OPE-022-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 23,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F3-DOC-023",
+  "episodes": [
+   "F3-DOC-023-W1b",
+   "F3-DOC-023-W3",
+   "F3-DOC-023-W0"
+  ]
+ },
+ {
+  "family": "F3",
+  "index": 24,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F3-ACA-024",
+  "episodes": [
+   "F3-ACA-024-W1v",
+   "F3-ACA-024-W2",
+   "F3-ACA-024-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 0,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F4-ACA-000",
+  "episodes": [
+   "F4-ACA-000-W1v",
+   "F4-ACA-000-W3",
+   "F4-ACA-000-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 1,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F4-NEW-001",
+  "episodes": [
+   "F4-NEW-001-W1a",
+   "F4-NEW-001-W2",
+   "F4-NEW-001-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 2,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F4-OPE-002",
+  "episodes": [
+   "F4-OPE-002-W1b",
+   "F4-OPE-002-W3",
+   "F4-OPE-002-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 3,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F4-ACA-003",
+  "episodes": [
+   "F4-ACA-003-W1v",
+   "F4-ACA-003-W2",
+   "F4-ACA-003-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 4,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F4-NEW-004",
+  "episodes": [
+   "F4-NEW-004-W1a",
+   "F4-NEW-004-W3",
+   "F4-NEW-004-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 5,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F4-OPE-005",
+  "episodes": [
+   "F4-OPE-005-W1v",
+   "F4-OPE-005-W2",
+   "F4-OPE-005-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 6,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F4-ACA-006",
+  "episodes": [
+   "F4-ACA-006-W1v",
+   "F4-ACA-006-W3",
+   "F4-ACA-006-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 7,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F4-NEW-007",
+  "episodes": [
+   "F4-NEW-007-W1v",
+   "F4-NEW-007-W2",
+   "F4-NEW-007-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 8,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F4-OPE-008",
+  "episodes": [
+   "F4-OPE-008-W1v",
+   "F4-OPE-008-W3",
+   "F4-OPE-008-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 9,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F4-ACA-009",
+  "episodes": [
+   "F4-ACA-009-W1v",
+   "F4-ACA-009-W2",
+   "F4-ACA-009-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 10,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F4-NEW-010",
+  "episodes": [
+   "F4-NEW-010-W1b",
+   "F4-NEW-010-W3",
+   "F4-NEW-010-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 11,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F4-ECO-011",
+  "episodes": [
+   "F4-ECO-011-W1a",
+   "F4-ECO-011-W2",
+   "F4-ECO-011-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 12,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F4-OPE-012",
+  "episodes": [
+   "F4-OPE-012-W1b",
+   "F4-OPE-012-W3",
+   "F4-OPE-012-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 13,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F4-ECO-013",
+  "episodes": [
+   "F4-ECO-013-W1a",
+   "F4-ECO-013-W2",
+   "F4-ECO-013-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 14,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F4-ACA-014",
+  "episodes": [
+   "F4-ACA-014-W1b",
+   "F4-ACA-014-W3",
+   "F4-ACA-014-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 15,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F4-NEW-015",
+  "episodes": [
+   "F4-NEW-015-W1v",
+   "F4-NEW-015-W2",
+   "F4-NEW-015-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 16,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F4-OPE-016",
+  "episodes": [
+   "F4-OPE-016-W1v",
+   "F4-OPE-016-W3",
+   "F4-OPE-016-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 17,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F4-ACA-017",
+  "episodes": [
+   "F4-ACA-017-W1a",
+   "F4-ACA-017-W2",
+   "F4-ACA-017-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 18,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F4-ECO-018",
+  "episodes": [
+   "F4-ECO-018-W1b",
+   "F4-ECO-018-W3",
+   "F4-ECO-018-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 19,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F4-NEW-019",
+  "episodes": [
+   "F4-NEW-019-W1a",
+   "F4-NEW-019-W2",
+   "F4-NEW-019-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 20,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F4-OPE-020",
+  "episodes": [
+   "F4-OPE-020-W1b",
+   "F4-OPE-020-W3",
+   "F4-OPE-020-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 21,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F4-ACA-021",
+  "episodes": [
+   "F4-ACA-021-W1a",
+   "F4-ACA-021-W2",
+   "F4-ACA-021-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 22,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F4-NEW-022",
+  "episodes": [
+   "F4-NEW-022-W1v",
+   "F4-NEW-022-W3",
+   "F4-NEW-022-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 23,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F4-ECO-023",
+  "episodes": [
+   "F4-ECO-023-W1b",
+   "F4-ECO-023-W2",
+   "F4-ECO-023-W0"
+  ]
+ },
+ {
+  "family": "F4",
+  "index": 24,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F4-OPE-024",
+  "episodes": [
+   "F4-OPE-024-W1a",
+   "F4-OPE-024-W3",
+   "F4-OPE-024-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 0,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F5-ACA-000",
+  "episodes": [
+   "F5-ACA-000-W1b",
+   "F5-ACA-000-W2",
+   "F5-ACA-000-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 1,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F5-NEW-001",
+  "episodes": [
+   "F5-NEW-001-W1v",
+   "F5-NEW-001-W3",
+   "F5-NEW-001-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 2,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F5-ECO-002",
+  "episodes": [
+   "F5-ECO-002-W1a",
+   "F5-ECO-002-W2",
+   "F5-ECO-002-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 3,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F5-OPE-003",
+  "episodes": [
+   "F5-OPE-003-W1b",
+   "F5-OPE-003-W3",
+   "F5-OPE-003-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 4,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F5-DOC-004",
+  "episodes": [
+   "F5-DOC-004-W1a",
+   "F5-DOC-004-W2",
+   "F5-DOC-004-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 5,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F5-ENC-005",
+  "episodes": [
+   "F5-ENC-005-W1b",
+   "F5-ENC-005-W3",
+   "F5-ENC-005-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 6,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F5-ACA-006",
+  "episodes": [
+   "F5-ACA-006-W1v",
+   "F5-ACA-006-W2",
+   "F5-ACA-006-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 7,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F5-NEW-007",
+  "episodes": [
+   "F5-NEW-007-W1v",
+   "F5-NEW-007-W3",
+   "F5-NEW-007-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 8,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F5-OPE-008",
+  "episodes": [
+   "F5-OPE-008-W1a",
+   "F5-OPE-008-W2",
+   "F5-OPE-008-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 9,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F5-DOC-009",
+  "episodes": [
+   "F5-DOC-009-W1v",
+   "F5-DOC-009-W3",
+   "F5-DOC-009-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 10,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F5-ECO-010",
+  "episodes": [
+   "F5-ECO-010-W1b",
+   "F5-ECO-010-W2",
+   "F5-ECO-010-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 11,
+  "task_type": "AA",
+  "domain": "encyclopedia",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F5-ENC-011",
+  "episodes": [
+   "F5-ENC-011-W1v",
+   "F5-ENC-011-W3",
+   "F5-ENC-011-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 12,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F5-ACA-012",
+  "episodes": [
+   "F5-ACA-012-W1a",
+   "F5-ACA-012-W2",
+   "F5-ACA-012-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 13,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F5-NEW-013",
+  "episodes": [
+   "F5-NEW-013-W1v",
+   "F5-NEW-013-W3",
+   "F5-NEW-013-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 14,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F5-OPE-014",
+  "episodes": [
+   "F5-OPE-014-W1v",
+   "F5-OPE-014-W2",
+   "F5-OPE-014-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 15,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F5-ECO-015",
+  "episodes": [
+   "F5-ECO-015-W1b",
+   "F5-ECO-015-W3",
+   "F5-ECO-015-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 16,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F5-DOC-016",
+  "episodes": [
+   "F5-DOC-016-W1a",
+   "F5-DOC-016-W2",
+   "F5-DOC-016-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 17,
+  "task_type": "AA",
+  "domain": "encyclopedia",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F5-ENC-017",
+  "episodes": [
+   "F5-ENC-017-W1v",
+   "F5-ENC-017-W3",
+   "F5-ENC-017-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 18,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F5-ACA-018",
+  "episodes": [
+   "F5-ACA-018-W1v",
+   "F5-ACA-018-W2",
+   "F5-ACA-018-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 19,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F5-NEW-019",
+  "episodes": [
+   "F5-NEW-019-W1v",
+   "F5-NEW-019-W3",
+   "F5-NEW-019-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 20,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F5-ECO-020",
+  "episodes": [
+   "F5-ECO-020-W1b",
+   "F5-ECO-020-W2",
+   "F5-ECO-020-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 21,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F5-OPE-021",
+  "episodes": [
+   "F5-OPE-021-W1a",
+   "F5-OPE-021-W3",
+   "F5-OPE-021-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 22,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F5-DOC-022",
+  "episodes": [
+   "F5-DOC-022-W1b",
+   "F5-DOC-022-W2",
+   "F5-DOC-022-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 23,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F5-ENC-023",
+  "episodes": [
+   "F5-ENC-023-W1a",
+   "F5-ENC-023-W3",
+   "F5-ENC-023-W0"
+  ]
+ },
+ {
+  "family": "F5",
+  "index": 24,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F5-ACA-024",
+  "episodes": [
+   "F5-ACA-024-W1b",
+   "F5-ACA-024-W2",
+   "F5-ACA-024-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 0,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-ACA-000",
+  "episodes": [
+   "F6-ACA-000-W1a",
+   "F6-ACA-000-W3",
+   "F6-ACA-000-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 1,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-NEW-001",
+  "episodes": [
+   "F6-NEW-001-W1b",
+   "F6-NEW-001-W2",
+   "F6-NEW-001-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 2,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-OPE-002",
+  "episodes": [
+   "F6-OPE-002-W1a",
+   "F6-OPE-002-W3",
+   "F6-OPE-002-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 3,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-DOC-003",
+  "episodes": [
+   "F6-DOC-003-W1b",
+   "F6-DOC-003-W2",
+   "F6-DOC-003-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 4,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-ENC-004",
+  "episodes": [
+   "F6-ENC-004-W1a",
+   "F6-ENC-004-W3",
+   "F6-ENC-004-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 5,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-ACA-005",
+  "episodes": [
+   "F6-ACA-005-W1b",
+   "F6-ACA-005-W2",
+   "F6-ACA-005-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 6,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-NEW-006",
+  "episodes": [
+   "F6-NEW-006-W1a",
+   "F6-NEW-006-W3",
+   "F6-NEW-006-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 7,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-OPE-007",
+  "episodes": [
+   "F6-OPE-007-W1b",
+   "F6-OPE-007-W2",
+   "F6-OPE-007-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 8,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-DOC-008",
+  "episodes": [
+   "F6-DOC-008-W1a",
+   "F6-DOC-008-W3",
+   "F6-DOC-008-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 9,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-ENC-009",
+  "episodes": [
+   "F6-ENC-009-W1b",
+   "F6-ENC-009-W2",
+   "F6-ENC-009-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 10,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-ACA-010",
+  "episodes": [
+   "F6-ACA-010-W1a",
+   "F6-ACA-010-W3",
+   "F6-ACA-010-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 11,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-ECO-011",
+  "episodes": [
+   "F6-ECO-011-W1b",
+   "F6-ECO-011-W2",
+   "F6-ECO-011-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 12,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-NEW-012",
+  "episodes": [
+   "F6-NEW-012-W1a",
+   "F6-NEW-012-W3",
+   "F6-NEW-012-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 13,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-OPE-013",
+  "episodes": [
+   "F6-OPE-013-W1b",
+   "F6-OPE-013-W2",
+   "F6-OPE-013-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 14,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-DOC-014",
+  "episodes": [
+   "F6-DOC-014-W1a",
+   "F6-DOC-014-W3",
+   "F6-DOC-014-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 15,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-ECO-015",
+  "episodes": [
+   "F6-ECO-015-W1b",
+   "F6-ECO-015-W2",
+   "F6-ECO-015-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 16,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-ENC-016",
+  "episodes": [
+   "F6-ENC-016-W1a",
+   "F6-ENC-016-W3",
+   "F6-ENC-016-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 17,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-ACA-017",
+  "episodes": [
+   "F6-ACA-017-W1b",
+   "F6-ACA-017-W2",
+   "F6-ACA-017-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 18,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-NEW-018",
+  "episodes": [
+   "F6-NEW-018-W1a",
+   "F6-NEW-018-W3",
+   "F6-NEW-018-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 19,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-OPE-019",
+  "episodes": [
+   "F6-OPE-019-W1b",
+   "F6-OPE-019-W2",
+   "F6-OPE-019-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 20,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-DOC-020",
+  "episodes": [
+   "F6-DOC-020-W1a",
+   "F6-DOC-020-W3",
+   "F6-DOC-020-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 21,
+  "task_type": "IR",
+  "domain": "encyclopedia",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-ENC-021",
+  "episodes": [
+   "F6-ENC-021-W1b",
+   "F6-ENC-021-W2",
+   "F6-ENC-021-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 22,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-ECO-022",
+  "episodes": [
+   "F6-ECO-022-W1a",
+   "F6-ECO-022-W3",
+   "F6-ECO-022-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 23,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F6-ACA-023",
+  "episodes": [
+   "F6-ACA-023-W1b",
+   "F6-ACA-023-W2",
+   "F6-ACA-023-W0"
+  ]
+ },
+ {
+  "family": "F6",
+  "index": 24,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F6-ECO-024",
+  "episodes": [
+   "F6-ECO-024-W1a",
+   "F6-ECO-024-W3",
+   "F6-ECO-024-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 0,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-ECO-000",
+  "episodes": [
+   "F7-ECO-000-W1b",
+   "F7-ECO-000-W2",
+   "F7-ECO-000-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 1,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-NEW-001",
+  "episodes": [
+   "F7-NEW-001-W1a",
+   "F7-NEW-001-W3",
+   "F7-NEW-001-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 2,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-ACA-002",
+  "episodes": [
+   "F7-ACA-002-W1b",
+   "F7-ACA-002-W2",
+   "F7-ACA-002-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 3,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-OPE-003",
+  "episodes": [
+   "F7-OPE-003-W1a",
+   "F7-OPE-003-W3",
+   "F7-OPE-003-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 4,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-NEW-004",
+  "episodes": [
+   "F7-NEW-004-W1b",
+   "F7-NEW-004-W2",
+   "F7-NEW-004-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 5,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-ACA-005",
+  "episodes": [
+   "F7-ACA-005-W1a",
+   "F7-ACA-005-W3",
+   "F7-ACA-005-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 6,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-OPE-006",
+  "episodes": [
+   "F7-OPE-006-W1b",
+   "F7-OPE-006-W2",
+   "F7-OPE-006-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 7,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-ECO-007",
+  "episodes": [
+   "F7-ECO-007-W1a",
+   "F7-ECO-007-W3",
+   "F7-ECO-007-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 8,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-NEW-008",
+  "episodes": [
+   "F7-NEW-008-W1b",
+   "F7-NEW-008-W2",
+   "F7-NEW-008-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 9,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-ACA-009",
+  "episodes": [
+   "F7-ACA-009-W1a",
+   "F7-ACA-009-W3",
+   "F7-ACA-009-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 10,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-OPE-010",
+  "episodes": [
+   "F7-OPE-010-W1b",
+   "F7-OPE-010-W2",
+   "F7-OPE-010-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 11,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-ECO-011",
+  "episodes": [
+   "F7-ECO-011-W1a",
+   "F7-ECO-011-W3",
+   "F7-ECO-011-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 12,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-NEW-012",
+  "episodes": [
+   "F7-NEW-012-W1b",
+   "F7-NEW-012-W2",
+   "F7-NEW-012-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 13,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-ACA-013",
+  "episodes": [
+   "F7-ACA-013-W1a",
+   "F7-ACA-013-W3",
+   "F7-ACA-013-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 14,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-OPE-014",
+  "episodes": [
+   "F7-OPE-014-W1b",
+   "F7-OPE-014-W2",
+   "F7-OPE-014-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 15,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-NEW-015",
+  "episodes": [
+   "F7-NEW-015-W1a",
+   "F7-NEW-015-W3",
+   "F7-NEW-015-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 16,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-ACA-016",
+  "episodes": [
+   "F7-ACA-016-W1b",
+   "F7-ACA-016-W2",
+   "F7-ACA-016-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 17,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-OPE-017",
+  "episodes": [
+   "F7-OPE-017-W1a",
+   "F7-OPE-017-W3",
+   "F7-OPE-017-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 18,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-NEW-018",
+  "episodes": [
+   "F7-NEW-018-W1b",
+   "F7-NEW-018-W2",
+   "F7-NEW-018-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 19,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-ACA-019",
+  "episodes": [
+   "F7-ACA-019-W1a",
+   "F7-ACA-019-W3",
+   "F7-ACA-019-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 20,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-OPE-020",
+  "episodes": [
+   "F7-OPE-020-W1b",
+   "F7-OPE-020-W2",
+   "F7-OPE-020-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 21,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-NEW-021",
+  "episodes": [
+   "F7-NEW-021-W1a",
+   "F7-NEW-021-W3",
+   "F7-NEW-021-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 22,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-ACA-022",
+  "episodes": [
+   "F7-ACA-022-W1b",
+   "F7-ACA-022-W2",
+   "F7-ACA-022-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 23,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F7-ECO-023",
+  "episodes": [
+   "F7-ECO-023-W1a",
+   "F7-ECO-023-W3",
+   "F7-ECO-023-W0"
+  ]
+ },
+ {
+  "family": "F7",
+  "index": 24,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F7-OPE-024",
+  "episodes": [
+   "F7-OPE-024-W1b",
+   "F7-OPE-024-W2",
+   "F7-OPE-024-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 0,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F8-ACA-000",
+  "episodes": [
+   "F8-ACA-000-W1a",
+   "F8-ACA-000-W3",
+   "F8-ACA-000-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 1,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F8-NEW-001",
+  "episodes": [
+   "F8-NEW-001-W1v",
+   "F8-NEW-001-W2",
+   "F8-NEW-001-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 2,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F8-OPE-002",
+  "episodes": [
+   "F8-OPE-002-W1b",
+   "F8-OPE-002-W3",
+   "F8-OPE-002-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 3,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F8-ECO-003",
+  "episodes": [
+   "F8-ECO-003-W1a",
+   "F8-ECO-003-W2",
+   "F8-ECO-003-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 4,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F8-ECO-004",
+  "episodes": [
+   "F8-ECO-004-W1b",
+   "F8-ECO-004-W3",
+   "F8-ECO-004-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 5,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F8-DOC-005",
+  "episodes": [
+   "F8-DOC-005-W1v",
+   "F8-DOC-005-W2",
+   "F8-DOC-005-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 6,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F8-ACA-006",
+  "episodes": [
+   "F8-ACA-006-W1v",
+   "F8-ACA-006-W3",
+   "F8-ACA-006-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 7,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F8-NEW-007",
+  "episodes": [
+   "F8-NEW-007-W1v",
+   "F8-NEW-007-W2",
+   "F8-NEW-007-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 8,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F8-OPE-008",
+  "episodes": [
+   "F8-OPE-008-W1v",
+   "F8-OPE-008-W3",
+   "F8-OPE-008-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 9,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F8-DOC-009",
+  "episodes": [
+   "F8-DOC-009-W1a",
+   "F8-DOC-009-W2",
+   "F8-DOC-009-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 10,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F8-ACA-010",
+  "episodes": [
+   "F8-ACA-010-W1v",
+   "F8-ACA-010-W3",
+   "F8-ACA-010-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 11,
+  "task_type": "AA",
+  "domain": "news",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F8-NEW-011",
+  "episodes": [
+   "F8-NEW-011-W1b",
+   "F8-NEW-011-W2",
+   "F8-NEW-011-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 12,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F8-OPE-012",
+  "episodes": [
+   "F8-OPE-012-W1a",
+   "F8-OPE-012-W3",
+   "F8-OPE-012-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 13,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F8-DOC-013",
+  "episodes": [
+   "F8-DOC-013-W1v",
+   "F8-DOC-013-W2",
+   "F8-DOC-013-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 14,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F8-ACA-014",
+  "episodes": [
+   "F8-ACA-014-W1b",
+   "F8-ACA-014-W3",
+   "F8-ACA-014-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 15,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F8-NEW-015",
+  "episodes": [
+   "F8-NEW-015-W1a",
+   "F8-NEW-015-W2",
+   "F8-NEW-015-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 16,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F8-ECO-016",
+  "episodes": [
+   "F8-ECO-016-W1b",
+   "F8-ECO-016-W3",
+   "F8-ECO-016-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 17,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F8-OPE-017",
+  "episodes": [
+   "F8-OPE-017-W1v",
+   "F8-OPE-017-W2",
+   "F8-OPE-017-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 18,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F8-DOC-018",
+  "episodes": [
+   "F8-DOC-018-W1a",
+   "F8-DOC-018-W3",
+   "F8-DOC-018-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 19,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F8-ACA-019",
+  "episodes": [
+   "F8-ACA-019-W1v",
+   "F8-ACA-019-W2",
+   "F8-ACA-019-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 20,
+  "task_type": "IR",
+  "domain": "news",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F8-NEW-020",
+  "episodes": [
+   "F8-NEW-020-W1b",
+   "F8-NEW-020-W3",
+   "F8-NEW-020-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 21,
+  "task_type": "AA",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F8-OPE-021",
+  "episodes": [
+   "F8-OPE-021-W1v",
+   "F8-OPE-021-W2",
+   "F8-OPE-021-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 22,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F8-DOC-022",
+  "episodes": [
+   "F8-DOC-022-W1a",
+   "F8-DOC-022-W3",
+   "F8-DOC-022-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 23,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F8-ECO-023",
+  "episodes": [
+   "F8-ECO-023-W1b",
+   "F8-ECO-023-W2",
+   "F8-ECO-023-W0"
+  ]
+ },
+ {
+  "family": "F8",
+  "index": 24,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F8-ACA-024",
+  "episodes": [
+   "F8-ACA-024-W1a",
+   "F8-ACA-024-W3",
+   "F8-ACA-024-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 0,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F9-ECO-000",
+  "episodes": [
+   "F9-ECO-000-W1b",
+   "F9-ECO-000-W2",
+   "F9-ECO-000-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 1,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F9-OPE-001",
+  "episodes": [
+   "F9-OPE-001-W1v",
+   "F9-OPE-001-W3",
+   "F9-OPE-001-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 2,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F9-DOC-002",
+  "episodes": [
+   "F9-DOC-002-W1a",
+   "F9-DOC-002-W2",
+   "F9-DOC-002-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 3,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F9-ACA-003",
+  "episodes": [
+   "F9-ACA-003-W1b",
+   "F9-ACA-003-W3",
+   "F9-ACA-003-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 4,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F9-OPE-004",
+  "episodes": [
+   "F9-OPE-004-W1a",
+   "F9-OPE-004-W2",
+   "F9-OPE-004-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 5,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F9-DOC-005",
+  "episodes": [
+   "F9-DOC-005-W1v",
+   "F9-DOC-005-W3",
+   "F9-DOC-005-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 6,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F9-ACA-006",
+  "episodes": [
+   "F9-ACA-006-W1v",
+   "F9-ACA-006-W2",
+   "F9-ACA-006-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 7,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F9-OPE-007",
+  "episodes": [
+   "F9-OPE-007-W1b",
+   "F9-OPE-007-W3",
+   "F9-OPE-007-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 8,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F9-DOC-008",
+  "episodes": [
+   "F9-DOC-008-W1a",
+   "F9-DOC-008-W2",
+   "F9-DOC-008-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 9,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F9-ECO-009",
+  "episodes": [
+   "F9-ECO-009-W1b",
+   "F9-ECO-009-W3",
+   "F9-ECO-009-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 10,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F9-ECO-010",
+  "episodes": [
+   "F9-ECO-010-W1a",
+   "F9-ECO-010-W2",
+   "F9-ECO-010-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 11,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F9-ACA-011",
+  "episodes": [
+   "F9-ACA-011-W1v",
+   "F9-ACA-011-W3",
+   "F9-ACA-011-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 12,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F9-OPE-012",
+  "episodes": [
+   "F9-OPE-012-W1b",
+   "F9-OPE-012-W2",
+   "F9-OPE-012-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 13,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F9-DOC-013",
+  "episodes": [
+   "F9-DOC-013-W1v",
+   "F9-DOC-013-W3",
+   "F9-DOC-013-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 14,
+  "task_type": "IR",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F9-ACA-014",
+  "episodes": [
+   "F9-ACA-014-W1v",
+   "F9-ACA-014-W2",
+   "F9-ACA-014-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 15,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F9-OPE-015",
+  "episodes": [
+   "F9-OPE-015-W1v",
+   "F9-OPE-015-W3",
+   "F9-OPE-015-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 16,
+  "task_type": "TX",
+  "domain": "ecommerce",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F9-ECO-016",
+  "episodes": [
+   "F9-ECO-016-W1a",
+   "F9-ECO-016-W2",
+   "F9-ECO-016-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 17,
+  "task_type": "IR",
+  "domain": "docs",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F9-DOC-017",
+  "episodes": [
+   "F9-DOC-017-W1b",
+   "F9-DOC-017-W3",
+   "F9-DOC-017-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 18,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W2",
+  "goal_id": "F9-ACA-018",
+  "episodes": [
+   "F9-ACA-018-W1a",
+   "F9-ACA-018-W2",
+   "F9-ACA-018-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 19,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W3",
+  "goal_id": "F9-OPE-019",
+  "episodes": [
+   "F9-OPE-019-W1v",
+   "F9-OPE-019-W3",
+   "F9-OPE-019-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 20,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1b",
+  "unrecoverable": "W2",
+  "goal_id": "F9-DOC-020",
+  "episodes": [
+   "F9-DOC-020-W1b",
+   "F9-DOC-020-W2",
+   "F9-DOC-020-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 21,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1a",
+  "unrecoverable": "W3",
+  "goal_id": "F9-ACA-021",
+  "episodes": [
+   "F9-ACA-021-W1a",
+   "F9-ACA-021-W3",
+   "F9-ACA-021-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 22,
+  "task_type": "IR",
+  "domain": "opendata",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F9-OPE-022",
+  "episodes": [
+   "F9-OPE-022-W1v",
+   "F9-OPE-022-W2",
+   "F9-OPE-022-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 23,
+  "task_type": "AA",
+  "domain": "docs",
+  "recoverable": "W1b",
+  "unrecoverable": "W3",
+  "goal_id": "F9-DOC-023",
+  "episodes": [
+   "F9-DOC-023-W1b",
+   "F9-DOC-023-W3",
+   "F9-DOC-023-W0"
+  ]
+ },
+ {
+  "family": "F9",
+  "index": 24,
+  "task_type": "AA",
+  "domain": "academic",
+  "recoverable": "W1v",
+  "unrecoverable": "W2",
+  "goal_id": "F9-ACA-024",
+  "episodes": [
+   "F9-ACA-024-W1v",
+   "F9-ACA-024-W2",
+   "F9-ACA-024-W0"
+  ]
+ }
+]

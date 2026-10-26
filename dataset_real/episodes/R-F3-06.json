@@ -1,0 +1,194 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F3-06",
+ "goal_id": "R-F3-06",
+ "family": "F3",
+ "world": "W1a",
+ "domain": "models",
+ "task_type": "IR",
+ "goal": "I'm writing a short survey of open models and want to cite the Llama 2 7B model card: https://huggingface.co/meta-llama/Llama-2-7b-hf/raw/main/README.md\nOn how many tokens (in trillions) was the 7B model pretrained? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "how many training tokens (in trillions) the 7B model was pretrained on",
+  "unit": "trillion tokens",
+  "canonical": "2.0",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F3-06-canon",
+   "role": "canonical",
+   "url": "https://huggingface.co/meta-llama/Llama-2-7b-hf/raw/main/README.md",
+   "host": "huggingface.co",
+   "path": "/meta-llama/Llama-2-7b-hf/raw/main/README.md",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "401",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-06",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Access to model meta-llama/Llama-2-7b-hf is restricted. You must have access to it and be authenticated to access it. Please log in."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 401,
+    "content_type": "text/plain",
+    "title": "401",
+    "text": "Access to model meta-llama/Llama-2-7b-hf is restricted. You must have access to it and be authenticated to access it. Please log in."
+   }
+  },
+  {
+   "id": "R-F3-06-faith",
+   "role": "faithful",
+   "url": "https://huggingface.co/meta-llama/Llama-2-7b-hf",
+   "host": "huggingface.co",
+   "path": "/meta-llama/Llama-2-7b-hf",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "meta-llama/Llama-2-7b-hf · Hugging Face",
+   "publisher": "huggingface.co",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F3-06",
+   "value": "2.0",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "meta-llama/Llama-2-7b-hf · Hugging Face ",
+     " Hugging Face ",
+     " Models ",
+     " Datasets ",
+     " Spaces ",
+     " Buckets new ",
+     " Docs ",
+     " Enterprise ",
+     " Pricing ",
+     " Website ",
+     " Tasks ",
+     " HuggingChat ",
+     " Collections ",
+     " Languages ",
+     " Organizations ",
+     " Community ",
+     " Blog ",
+     " Posts ",
+     " Daily Papers ",
+     " Hardware ",
+     " Learn ",
+     " Discord ",
+     " Forum ",
+     " GitHub ",
+     " Solution",
+     "...",
+     "pository for the 7B pretrained model, converted for the Hugging Face Transformers format. Links to other models can be found in the index at the bottom. ",
+     " Model Details",
+     " Note: Use of this model is governed by the Meta license. In order to download the model weights and tokenizer, please visit the website and accept our License before requesting access here. ",
+     "Meta developed and publicly released the Llama 2 family of large language models (LLMs), a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama-2-Chat, are optimized for dialogue use cases. Llama-2-Chat models outperform open-source chat models on most benchmarks we tested, and in our human evaluations for helpfulness and safety, are on par with some popular closed-source models like ChatGPT and PaLM. "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "meta-llama/Llama-2-7b-hf · Hugging Face",
+    "text": "meta-llama/Llama-2-7b-hf · Hugging Face \n Hugging Face \n Models \n Datasets \n Spaces \n Buckets new \n Docs \n Enterprise \n Pricing \n Website \n Tasks \n HuggingChat \n Collections \n Languages \n Organizations \n Community \n Blog \n Posts \n Daily Papers \n Hardware \n Learn \n Discord \n Forum \n GitHub \n Solution\n...\npository for the 7B pretrained model, converted for the Hugging Face Transformers format. Links to other models can be found in the index at the bottom. \n Model Details\n Note: Use of this model is governed by the Meta license. In order to download the model weights and tokenizer, please visit the website and accept our License before requesting access here. \nMeta developed and publicly released the Llama 2 family of large language models (LLMs), a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama-2-Chat, are optimized for dialogue use cases. Llama-2-Chat models outperform open-source chat models on most benchmarks we tested, and in our human evaluations for helpfulness and safety, are on par with some popular closed-source models like ChatGPT and PaLM. \n Model Developers Meta \n Variations Llama 2 comes in a range of parameter sizes — 7B, 13B, and 70B — as well as pretrained and fine-tuned variations. \n Input Models input text only. \n Output Models generate text only. \n Model Architecture Llama 2 is an auto-regressive language model that uses an optimized transformer architecture. The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align to human preferences for helpfulness and safety. \n Training Data \n Params \n Content Length \n GQA \n Tokens \n LR \n Llama 2 \n A new mix of publicly available online data \n 7B \n 4k \n ✗ \n 2.0T \n 3.0 x 10 -4 \n Llama 2 \n A new mix of publicly available online data \n 13B \n 4k \n ✗ \n 2.0T \n 3.0 x 10 -4 \n Llama 2 \n A new mix of publicly available online data \n 70B \n 4k \n ✔ \n 2.0T \n 1.5 x 10 -4 \n Llama 2 family of models. Token counts refer to pretraining data only. All models are trained with a global batch-size of 4M tokens. Bigger models - 70B -- use Grouped-Query Attention (GQA) for improved inference scalability. \n Model Dates Llama 2 was trained between January 2023 and July 2023. \n Status This is a static model trained on an offline dataset. Future versions of the tuned models will be released as we improve model safety with community feedback. \n License A custom commercial license is available at: https://ai.meta.com/resources/models-and-libraries/llama-downloads/ \n Research Paper \"Llama-2: Open Foundation and Fine-tuned Chat Models\" \n Intended Use\n Intended Use Cases Llama 2 is intended for commercial and research use in English. Tuned models are intended for assistant-like chat, whereas pretrained models can be adapted for a variety of natural language generation tasks. \nTo get the expected features and performance for the chat versions, a specific formatting needs to be followed, including the INST and <<SYS>> tags, BOS and EOS tokens, and the whitespaces and breaklines in between (we recommend calling strip() on inputs to avoid double-spaces). See our reference code in github for details: chat_completion . \n Out-of-scope Uses Use in any manner that violat"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "login_required",
+  "signal": "explicit",
+  "targets": [
+   "R-F3-06-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:05:12Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "gated": "manual",
+  "raw_readme_status": 401
+ },
+ "oracle_query": "meta-llama/Llama-2-7b-hf",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "meta-llama/Llama-2-7b-hf"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/meta-llama/Llama-2-7b-hf/raw/main/README.md"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://huggingface.co/meta-llama/Llama-2-7b-hf"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "2.0 trillion tokens",
+     "sources": [
+      "https://huggingface.co/meta-llama/Llama-2-7b-hf"
+     ],
+     "substitutions": [
+      {
+       "url": "https://huggingface.co/meta-llama/Llama-2-7b-hf",
+       "relation": "same_version",
+       "version_id": "",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "login",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

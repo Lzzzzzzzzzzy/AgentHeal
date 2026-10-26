@@ -1,0 +1,227 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-11",
+ "goal_id": "R-F8-11",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "I'm preparing a museum label and use the Art Institute of Chicago API: https://api.artic.edu/api/v1/artworks/27992?fields=id,title,artist_display,date_display\nWhat is the date (date_display) of artwork 27992? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "1884–86, border added 1888–89",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-11-canon",
+   "role": "canonical",
+   "url": "https://api.artic.edu/api/v1/artworks/27992?fields=id,title,artist_display,date_display",
+   "host": "api.artic.edu",
+   "path": "/api/v1/artworks/27992?fields=id,title,artist_display,date_display",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "api.artic.edu",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-11",
+   "value": "1884–86, border added 1888–89",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"data\": {",
+     "  \"id\": 27992,",
+     "  \"title\": \"A Sunday on La Grande Jatte — 1884\",",
+     "  \"date_display\": \"1884–86, border added 1888–89\",",
+     "  \"artist_display\": \"Georges Seurat (French, 1859–1891)\"",
+     " },",
+     " \"info\": {",
+     "  \"license_text\": \"The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.\",",
+     "  \"license_links\": [",
+     "   \"https://creativecommons.org/publicdomain/zero/1.0/\",",
+     "   \"https://www.artic.edu/terms\"",
+     "  ],",
+     "  \"version\": \"1.16\"",
+     " },",
+     " \"config\": {",
+     "  \"iiif_url\": \"https://www.artic.edu/iiif/2\",",
+     "  \"website_url\": \"https://www.artic.edu\"",
+     " }",
+     "}"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:51:34Z",
+    "limited": {
+     "text": "{\"status\":429,\"error\":\"Too Many Requests\",\"detail\":\"Rate limit exceeded: 60 requests per minute.\"}",
+     "content_type": "application/json",
+     "headers": {},
+     "status": 429
+    },
+    "text": "{\n \"data\": {\n  \"id\": 27992,\n  \"title\": \"A Sunday on La Grande Jatte — 1884\",\n  \"date_display\": \"1884–86, border added 1888–89\",\n  \"artist_display\": \"Georges Seurat (French, 1859–1891)\"\n },\n \"info\": {\n  \"license_text\": \"The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.\",\n  \"license_links\": [\n   \"https://creativecommons.org/publicdomain/zero/1.0/\",\n   \"https://www.artic.edu/terms\"\n  ],\n  \"version\": \"1.16\"\n },\n \"config\": {\n  \"iiif_url\": \"https://www.artic.edu/iiif/2\",\n  \"website_url\": \"https://www.artic.edu\"\n }\n}"
+   }
+  },
+  {
+   "id": "R-F8-11-doc0",
+   "role": "context",
+   "url": "https://api.artic.edu/docs/",
+   "host": "api.artic.edu",
+   "path": "/docs/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Documentation | Art Institute of Chicago API",
+   "publisher": "api.artic.edu",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-11",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Documentation | Art Institute of Chicago API ",
+     " Art Institute of Chicago API ",
+     " openapi.json",
+     " (opens new window) ",
+     " GitHub",
+     " (opens new window) ",
+     " openapi.json",
+     " (opens new window) ",
+     " GitHub",
+     " (opens new window) ",
+     " Documentation ",
+     " Introduction ",
+     " Quick Start ",
+     " Conventions ",
+     " Best Practices ",
+     " Data Dumps ",
+     " Data Dumps vs. API? ",
+     " Scraping Data ",
+     " Images ",
+     " IIIF Image API ",
+     " Image Sizes ",
+     " IIIF Manifests ",
+     " Image Dumps ",
+     " Scraping Images ",
+     " Copyright ",
+     " General Information ",
+     " Authentication ",
+     " Pagination ",
+     " Endpoints ",
+     " Collections "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Documentation | Art Institute of Chicago API",
+    "text": "Documentation | Art Institute of Chicago API \n Art Institute of Chicago API \n openapi.json\n (opens new window) \n GitHub\n (opens new window) \n openapi.json\n (opens new window) \n GitHub\n (opens new window) \n Documentation \n Introduction \n Quick Start \n Conventions \n Best Practices \n Data Dumps \n Data Dumps vs. API? \n Scraping Data \n Images \n IIIF Image API \n Image Sizes \n IIIF Manifests \n Image Dumps \n Scraping Images \n Copyright \n General Information \n Authentication \n Pagination \n Endpoints \n Collections \n Shop \n Mobile \n Digital Scholarly Catalogs \n Static Archive \n Website \n Fields \n Collections \n Shop \n Mobile \n Digital Scholarly Catalogs \n Static Archive \n Website \n # Introduction \nThe Art Institute of Chicago (opens new window) 's API provides JSON-formatted data as a REST-style service that allows developers to explore and integrate the museum’s public data into their projects. This API is the same tool that powers our website (opens new window) , our mobile app (opens new window) , and many other technologies in the museum. \nIf the application you're building will be public, please send it our way! We'd love to share it alongside some of the other projects that use our API (opens new window) . And if you have any questions, please feel free to reach out to us: engineering@artic.edu . \n # Quick Start \nAn API (opens new window) is a structured way that one software application can talk to another. APIs power much of the software we use today, from the apps on our phones and watches to technology we see in sports and TV shows. We have built an API to let people like you easily get our data in an ongoing way. \nTIP \nDo you want all of our data? Are you running into problems with throttling or deep pagination ? Consider using our data dumps instead of our API. \nFor example, you can access the /artworks listing endpoint in our API by visiting the following URL to see all the published artworks in our collection: \n https://api.artic.edu/api/v1/artworks\nIf you want to see data for just one artwork, you can use the /artworks/{id} detail endpoint. For example, here's Starry Night and the Astronauts (opens new window) by Alma Thomas: \n https://api.artic.edu/api/v1/artworks/129884\nWhen you view these URLs in your browser, you might see a jumbled bunch of text. That's OK! If you're using Chrome, install the JSON Formatter extension (opens new window) , hit reload, and the results will be formatted in a way humans can read, too. \nThere is a lot of data you'll get for each artwork. If you want to only retrieve a certain set of fields, change the fields parameter in the query to list which ones you want, like this: \n https://api.artic.edu/api/v1/artworks?fields=id,title,artist_display,date_display,main_reference_number\nTIP \nThe fields parameter expects either an array of field names, or a comma-separated list of field names in a single string (e.g. example above). We encourage you to use it because it makes your queries run faster and lets us track which f"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-11-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 60
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:51:34Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://api.artic.edu/docs/"
+  ],
+  "documented_limit": [
+   "Are you running into problems with throttling or deep pagination ?",
+   "When scraping, please use a single thread and self-throttle.",
+   "If you do decide to scrape our resources, please throttle your requests to no more than one per second and avoid running multiple scrapers in parallel."
+  ]
+ },
+ "oracle_query": "Using the Art Institute of Chicago API, report the date (date_display) of artwor",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using the Art Institute of Chicago API, report the date (date_display) of artwor"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.artic.edu/api/v1/artworks/27992?fields=id,title,artist_display,date_display"
+   },
+   {
+    "tool": "wait",
+    "seconds": 65
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.artic.edu/api/v1/artworks/27992?fields=id,title,artist_display,date_display"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "1884–86, border added 1888–89",
+     "sources": [
+      "https://api.artic.edu/api/v1/artworks/27992?fields=id,title,artist_display,date_display"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

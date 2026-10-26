@@ -1,0 +1,1035 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F2-ACA-012-W0",
+ "goal_id": "F2-ACA-012",
+ "family": "F2",
+ "world": "W0",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "For a meta-analysis I'm compiling, I need a number from the 2024 paper by Uchenna and colleagues on sparse recovery in Coastal Sediment Letters. The article is at http://review.example/pdf/6877a410f90d1b29ee47441e17e232.pdf\nIt has to be the ACLX 2024 camera-ready version. What mean annual runoff does Table 2 report for station T-22? Please give the value with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "mean annual runoff",
+  "unit": "mm",
+  "canonical": "985.7",
+  "entity": "T-22"
+ },
+ "resources": [
+  {
+   "id": "F2-ACA-012-canon",
+   "role": "canonical",
+   "host": "review.example",
+   "path": "/pdf/6877a410f90d1b29ee47441e17e232.pdf",
+   "url": "http://review.example/pdf/6877a410f90d1b29ee47441e17e232.pdf",
+   "kind": "page",
+   "site_type": "review",
+   "title": "Bounds on Sparse Recovery",
+   "publisher": "Coastal Sediment Letters",
+   "date": "2024-05-26",
+   "version_label": "Camera-ready, ACLX 2024",
+   "expression": "VoR",
+   "work_id": "work-6877a4",
+   "entity": "T-22",
+   "field_label": "mean annual runoff",
+   "unit": "mm",
+   "body": {
+    "paragraphs": [
+     "We study sparse recovery across five monitoring stations using a Bayesian model.",
+     "Authors: Ximena Uchenna, Zara Bianchi, Rosa Fairbairn. Published in Coastal Sediment Letters, 2024.",
+     "Table 2 reports the mean annual runoff for each station."
+    ],
+    "table_caption": "Table 2: Mean annual runoff by station",
+    "table_header": [
+     "",
+     "mean annual runoff (mm)"
+    ],
+    "table": [
+     [
+      "L-08",
+      "456.4"
+     ],
+     [
+      "K-17",
+      "1492.3"
+     ],
+     [
+      "N-26",
+      "550.5"
+     ],
+     [
+      "S-12",
+      "1595.3"
+     ],
+     [
+      "T-22",
+      "985.7"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "985.7",
+   "cell_value": "985.7",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report mean annual runoff measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional mean annual runoff at 1530.2 mm; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of sparse recovery relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the mean annual runoff for each station in the 2024 campaign. The largest change relative to 2021 was observed at station T-22."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Mattheus et al. (2018). [2] Sørlie and Kaczmarek (2020). [3] Navarro et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "1134",
+        "2012",
+        "3899"
+       ],
+       [
+        "L-08",
+        "211",
+        "2015",
+        "2567"
+       ],
+       [
+        "K-17",
+        "299",
+        "2013",
+        "621"
+       ],
+       [
+        "N-26",
+        "981",
+        "2015",
+        "4181"
+       ],
+       [
+        "S-12",
+        "936",
+        "2002",
+        "4994"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Mean annual runoff in the 2021 campaign",
+      "header": [
+       "",
+       "mean annual runoff (mm)"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "633.2"
+       ],
+       [
+        "L-08",
+        "1790.2"
+       ],
+       [
+        "K-17",
+        "1419.6"
+       ],
+       [
+        "N-26",
+        "1676.9"
+       ],
+       [
+        "S-12",
+        "562.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F2-ACA-012-var0",
+   "role": "variant",
+   "host": "review.example",
+   "path": "/pdf?id=S6877a40",
+   "url": "http://review.example/pdf?id=S6877a40",
+   "kind": "page",
+   "site_type": "review",
+   "title": "Bounds on Sparse Recovery",
+   "publisher": "Review.example",
+   "date": "2024-05-26",
+   "version_label": "Submitted manuscript under review (ACLX submission)",
+   "expression": "SMUR",
+   "work_id": "work-6877a4",
+   "entity": "T-22",
+   "field_label": "mean annual runoff",
+   "unit": "mm",
+   "body": {
+    "paragraphs": [
+     "We study sparse recovery across five monitoring stations using a Bayesian model.",
+     "Authors: Ximena Uchenna, Zara Bianchi, Rosa Fairbairn. Published in Coastal Sediment Letters, 2024.",
+     "Table 2 reports the mean annual runoff for each station."
+    ],
+    "table_caption": "Table 2: Mean annual runoff by station",
+    "table_header": [
+     "",
+     "mean annual runoff (mm)"
+    ],
+    "table": [
+     [
+      "L-08",
+      "456.4"
+     ],
+     [
+      "K-17",
+      "1492.3"
+     ],
+     [
+      "N-26",
+      "550.5"
+     ],
+     [
+      "S-12",
+      "1595.3"
+     ],
+     [
+      "T-22",
+      "1042.2"
+     ]
+    ]
+   },
+   "cue": "Submission version for ACLX review; the final version may differ.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "1042.2",
+   "cell_value": "1042.2",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report mean annual runoff measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional mean annual runoff at 1530.2 mm; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of sparse recovery relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the mean annual runoff for each station in the 2024 campaign. The largest change relative to 2021 was observed at station T-22."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Mattheus et al. (2018). [2] Sørlie and Kaczmarek (2020). [3] Navarro et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "1134",
+        "2012",
+        "3899"
+       ],
+       [
+        "L-08",
+        "211",
+        "2015",
+        "2567"
+       ],
+       [
+        "K-17",
+        "299",
+        "2013",
+        "621"
+       ],
+       [
+        "N-26",
+        "981",
+        "2015",
+        "4181"
+       ],
+       [
+        "S-12",
+        "936",
+        "2002",
+        "4994"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Mean annual runoff in the 2021 campaign",
+      "header": [
+       "",
+       "mean annual runoff (mm)"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "633.2"
+       ],
+       [
+        "L-08",
+        "1790.2"
+       ],
+       [
+        "K-17",
+        "1419.6"
+       ],
+       [
+        "N-26",
+        "1676.9"
+       ],
+       [
+        "S-12",
+        "562.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-S",
+   "delta": {
+    "mean_annual_runoff": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://scholar.example/search?q=Bounds+on+Sparse+Recovery",
+    "http://scholar.example/work/6877a4",
+    "http://scholar.example/work/6877a4/versions"
+   ],
+   "inspect": {
+    "http://scholar.example/work/6877a4/versions": []
+   }
+  },
+  {
+   "id": "F2-ACA-012-dec0",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/6877a40",
+   "url": "http://filedump.example/f/6877a40",
+   "kind": "page",
+   "site_type": "cache",
+   "title": "Bounds on Sparse Recovery",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "VoR",
+   "work_id": "work-6877a4",
+   "entity": "T-22",
+   "field_label": "mean annual runoff",
+   "unit": "mm",
+   "body": {
+    "paragraphs": [
+     "We study sparse recovery across five monitoring stations using a Bayesian model.",
+     "Authors: Ximena Uchenna, Zara Bianchi, Rosa Fairbairn. Published in Coastal Sediment Letters, 2024.",
+     "Table 2 reports the mean annual runoff for each station."
+    ],
+    "table_caption": "Table 2: Mean annual runoff by station",
+    "table_header": [
+     "",
+     "mean annual runoff (mm)"
+    ],
+    "table": [
+     [
+      "L-08",
+      "456.4"
+     ],
+     [
+      "K-17",
+      "1492.3"
+     ],
+     [
+      "N-26",
+      "550.5"
+     ],
+     [
+      "S-12",
+      "1595.3"
+     ],
+     [
+      "T-22",
+      "1080.1"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "1080.1",
+   "cell_value": "1080.1",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report mean annual runoff measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional mean annual runoff at 1530.2 mm; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of sparse recovery relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the mean annual runoff for each station in the 2024 campaign. The largest change relative to 2021 was observed at station T-22."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Mattheus et al. (2018). [2] Sørlie and Kaczmarek (2020). [3] Navarro et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "1134",
+        "2012",
+        "3899"
+       ],
+       [
+        "L-08",
+        "211",
+        "2015",
+        "2567"
+       ],
+       [
+        "K-17",
+        "299",
+        "2013",
+        "621"
+       ],
+       [
+        "N-26",
+        "981",
+        "2015",
+        "4181"
+       ],
+       [
+        "S-12",
+        "936",
+        "2002",
+        "4994"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Mean annual runoff in the 2021 campaign",
+      "header": [
+       "",
+       "mean annual runoff (mm)"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "633.2"
+       ],
+       [
+        "L-08",
+        "1790.2"
+       ],
+       [
+        "K-17",
+        "1419.6"
+       ],
+       [
+        "N-26",
+        "1676.9"
+       ],
+       [
+        "S-12",
+        "562.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F2-ACA-012-rel0",
+   "role": "related",
+   "host": "coastal-sediment-letters.example",
+   "path": "/articles/3b0845-a-stochastic-model-of-sparse-recovery",
+   "url": "http://coastal-sediment-letters.example/articles/3b0845-a-stochastic-model-of-sparse-recovery",
+   "kind": "page",
+   "site_type": "journal",
+   "title": "A Stochastic Model of Sparse Recovery",
+   "publisher": "Coastal Sediment Letters",
+   "date": "2023-06-24",
+   "version_label": "Version of Record, Coastal Sediment Letters (2023)",
+   "expression": "related work",
+   "work_id": "work-3b0845",
+   "entity": "T-22",
+   "field_label": "mean annual runoff",
+   "unit": "mm",
+   "body": {
+    "paragraphs": [
+     "We study sparse recovery at five monitoring stations.",
+     "Authors: Ana Uchenna, Bilal Haldane, Chiara Nakamura. Published in Coastal Sediment Letters, 2023."
+    ],
+    "table_caption": "Table 2: Mean annual runoff by station",
+    "table_header": [
+     "",
+     "mean annual runoff (mm)"
+    ],
+    "table": [
+     [
+      "L-08",
+      "399.0"
+     ],
+     [
+      "K-17",
+      "439.7"
+     ],
+     [
+      "N-26",
+      "1586.3"
+     ],
+     [
+      "S-12",
+      "444.7"
+     ],
+     [
+      "T-22",
+      "503.4"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "503.4",
+   "cell_value": "503.4",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report mean annual runoff measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional mean annual runoff at 1530.2 mm; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of sparse recovery relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the mean annual runoff for each station in the 2024 campaign. The largest change relative to 2021 was observed at station T-22."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Mattheus et al. (2018). [2] Sørlie and Kaczmarek (2020). [3] Navarro et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "1134",
+        "2012",
+        "3899"
+       ],
+       [
+        "L-08",
+        "211",
+        "2015",
+        "2567"
+       ],
+       [
+        "K-17",
+        "299",
+        "2013",
+        "621"
+       ],
+       [
+        "N-26",
+        "981",
+        "2015",
+        "4181"
+       ],
+       [
+        "S-12",
+        "936",
+        "2002",
+        "4994"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Mean annual runoff in the 2021 campaign",
+      "header": [
+       "",
+       "mean annual runoff (mm)"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "633.2"
+       ],
+       [
+        "L-08",
+        "1790.2"
+       ],
+       [
+        "K-17",
+        "1419.6"
+       ],
+       [
+        "N-26",
+        "1676.9"
+       ],
+       [
+        "S-12",
+        "562.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "authors": [
+    "Ana Uchenna",
+    "Bilal Haldane",
+    "Chiara Nakamura"
+   ],
+   "year": 2023
+  },
+  {
+   "id": "F2-ACA-012-rel1",
+   "role": "related",
+   "host": "coastal-sediment-letters.example",
+   "path": "/articles/5e52f7-revisiting-sparse-recovery",
+   "url": "http://coastal-sediment-letters.example/articles/5e52f7-revisiting-sparse-recovery",
+   "kind": "page",
+   "site_type": "journal",
+   "title": "Revisiting Sparse Recovery",
+   "publisher": "Coastal Sediment Letters",
+   "date": "2024-05-24",
+   "version_label": "Version of Record, Coastal Sediment Letters (2024)",
+   "expression": "related work",
+   "work_id": "work-5e52f7",
+   "entity": "T-22",
+   "field_label": "mean annual runoff",
+   "unit": "mm",
+   "body": {
+    "paragraphs": [
+     "We study sparse recovery at five monitoring stations.",
+     "Authors: Hana Kaczmarek, Ines Petrenko, Jonas Brennick. Published in Coastal Sediment Letters, 2024."
+    ],
+    "table_caption": "Table 2: Mean annual runoff by station",
+    "table_header": [
+     "",
+     "mean annual runoff (mm)"
+    ],
+    "table": [
+     [
+      "L-08",
+      "1747.7"
+     ],
+     [
+      "K-17",
+      "1394.2"
+     ],
+     [
+      "N-26",
+      "1617.2"
+     ],
+     [
+      "S-12",
+      "401.2"
+     ],
+     [
+      "T-22",
+      "1792.2"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "1792.2",
+   "cell_value": "1792.2",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report mean annual runoff measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional mean annual runoff at 1530.2 mm; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of sparse recovery relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the mean annual runoff for each station in the 2024 campaign. The largest change relative to 2021 was observed at station T-22."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Mattheus et al. (2018). [2] Sørlie and Kaczmarek (2020). [3] Navarro et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "1134",
+        "2012",
+        "3899"
+       ],
+       [
+        "L-08",
+        "211",
+        "2015",
+        "2567"
+       ],
+       [
+        "K-17",
+        "299",
+        "2013",
+        "621"
+       ],
+       [
+        "N-26",
+        "981",
+        "2015",
+        "4181"
+       ],
+       [
+        "S-12",
+        "936",
+        "2002",
+        "4994"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Mean annual runoff in the 2021 campaign",
+      "header": [
+       "",
+       "mean annual runoff (mm)"
+      ],
+      "rows": [
+       [
+        "T-22",
+        "633.2"
+       ],
+       [
+        "L-08",
+        "1790.2"
+       ],
+       [
+        "K-17",
+        "1419.6"
+       ],
+       [
+        "N-26",
+        "1676.9"
+       ],
+       [
+        "S-12",
+        "562.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "authors": [
+    "Hana Kaczmarek",
+    "Ines Petrenko",
+    "Jonas Brennick"
+   ],
+   "year": 2024
+  },
+  {
+   "id": "F2-ACA-012-hub-scholar-meta0",
+   "role": "hub",
+   "host": "researchnet.example",
+   "path": "/record/6877a4",
+   "url": "http://researchnet.example/record/6877a4",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Bounds on Sparse Recovery",
+   "publisher": "researchnet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Ximena Uchenna, Zara Bianchi, Rosa Fairbairn.",
+     "Coastal Sediment Letters, 2024.",
+     "Full text not available here. Request it from the authors."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-ACA-012-hub-scholar-work",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/6877a4",
+   "url": "http://scholar.example/work/6877a4",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Bounds on Sparse Recovery",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Ximena Uchenna, Zara Bianchi, Rosa Fairbairn.",
+     "Coastal Sediment Letters, 2024.",
+     "Topic: sparse recovery.",
+     "DOI: 10.5072/6877a4"
+    ]
+   },
+   "links": [
+    [
+     "http://review.example/pdf/6877a410f90d1b29ee47441e17e232.pdf",
+     "[HTML] review.example"
+    ],
+    [
+     "http://scholar.example/work/6877a4/versions",
+     "All 3 versions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F2-ACA-012-hub-scholar-versions",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/6877a4/versions",
+   "url": "http://scholar.example/work/6877a4/versions",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "All versions of: Bounds on Sparse Recovery",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sources holding this work, as found by the index. Version information is given on each source page."
+    ]
+   },
+   "links": [
+    [
+     "http://review.example/pdf/6877a410f90d1b29ee47441e17e232.pdf",
+     "Bounds on Sparse Recovery - review.example"
+    ],
+    [
+     "http://review.example/pdf?id=S6877a40",
+     "Bounds on Sparse Recovery - review.example"
+    ],
+    [
+     "http://researchnet.example/record/6877a4",
+     "Bounds on Sparse Recovery - researchnet.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F2-ACA-012-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F2-ACA-012-W1v",
+  "unrecoverable": "F2-ACA-012-W3",
+  "twin": "F2-ACA-012-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://review.example/pdf/6877a410f90d1b29ee47441e17e232.pdf"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "985.7 mm",
+     "sources": [
+      "http://review.example/pdf/6877a410f90d1b29ee47441e17e232.pdf"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "985.7 mm",
+   "sources": [
+    "http://review.example/pdf/6877a410f90d1b29ee47441e17e232.pdf"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

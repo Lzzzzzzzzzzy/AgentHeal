@@ -1,0 +1,765 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F1-DOC-022-W0",
+ "goal_id": "F1-DOC-022",
+ "family": "F1",
+ "world": "W0",
+ "domain": "docs",
+ "task_type": "IR",
+ "goal": "I'm tuning tidepool v4.6 and want to confirm the default value of `page_limit` (page size limit) in the official documentation: http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference\nWhat is the default? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "page size limit",
+  "unit": "items",
+  "canonical": "313",
+  "entity": "page_limit"
+ },
+ "resources": [
+  {
+   "id": "F1-DOC-022-canon",
+   "role": "canonical",
+   "host": "docs.tidepool.example",
+   "path": "/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "url": "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "kind": "page",
+   "site_type": "docs",
+   "title": "tidepool v4.6 configuration reference",
+   "publisher": "tidepool project",
+   "date": "2025-04-10",
+   "version_label": "tidepool documentation v4.6",
+   "expression": "v4.6",
+   "work_id": "work-65bd5b",
+   "entity": "page_limit",
+   "field_label": "page size limit",
+   "unit": "items",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for tidepool v4.6.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "page size limit (items)"
+    ],
+    "table": [
+     [
+      "timeout",
+      "78"
+     ],
+     [
+      "page_limit",
+      "313"
+     ],
+     [
+      "pool_size",
+      "60"
+     ],
+     [
+      "cache_ttl",
+      "135"
+     ],
+     [
+      "max_batch",
+      "1498"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "313",
+   "cell_value": "313",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with TIDEPOOL_."
+     ],
+     [
+      "Changelog",
+      "v4.0: the default of `timeout` changed from 126 to the value shown below. v3.4: `max_batch` deprecated in favour of `page_limit`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 162 for `page_limit`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_timeout",
+        "v4.0",
+        "timeout"
+       ],
+       [
+        "legacy_pool_size",
+        "v4.0",
+        "pool_size"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F1-DOC-022-var0",
+   "role": "variant",
+   "host": "archive.example",
+   "path": "/web/20250902090000/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "url": "http://archive.example/web/20250902090000/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "kind": "page",
+   "site_type": "archive",
+   "title": "tidepool v4.6 configuration reference",
+   "publisher": "Web archive snapshot of docs.tidepool.example",
+   "date": "2025-04-10",
+   "version_label": "Snapshot of 2025-09-02",
+   "expression": "state at 20250902090000",
+   "work_id": "work-65bd5b",
+   "entity": "page_limit",
+   "field_label": "page size limit",
+   "unit": "items",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for tidepool v4.6.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "page size limit (items)"
+    ],
+    "table": [
+     [
+      "timeout",
+      "78"
+     ],
+     [
+      "page_limit",
+      "348"
+     ],
+     [
+      "pool_size",
+      "60"
+     ],
+     [
+      "cache_ttl",
+      "135"
+     ],
+     [
+      "max_batch",
+      "1498"
+     ]
+    ]
+   },
+   "cue": "Archived on 2025-09-02; the page changed after the requested date.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "348",
+   "cell_value": "348",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with TIDEPOOL_."
+     ],
+     [
+      "Changelog",
+      "v4.0: the default of `timeout` changed from 126 to the value shown below. v3.4: `max_batch` deprecated in favour of `page_limit`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 162 for `page_limit`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_timeout",
+        "v4.0",
+        "timeout"
+       ],
+       [
+        "legacy_pool_size",
+        "v4.0",
+        "pool_size"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "memento_datetime": "20250902090000",
+   "original": "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "variant_type": "V-T",
+   "delta": {
+    "page_limit": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://archive.example/web/*/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+    "http://archive.example/web/2025*/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+    "http://archive.example/web/20250902*/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference"
+   ],
+   "inspect": {
+    "http://archive.example/web/20250902*/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference": [
+     "http://archive.example/web/20250902063000/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference"
+    ]
+   }
+  },
+  {
+   "id": "F1-DOC-022-dec0",
+   "role": "decoy",
+   "host": "d0cs.tidepool-archive.example",
+   "path": "/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "url": "http://d0cs.tidepool-archive.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "kind": "page",
+   "site_type": "mirror",
+   "title": "tidepool v4.6 configuration reference",
+   "publisher": "tidepool project (mirror)",
+   "date": "2025-04-10",
+   "version_label": "tidepool documentation v4.6",
+   "expression": "v4.6",
+   "work_id": "work-65bd5b",
+   "entity": "page_limit",
+   "field_label": "page size limit",
+   "unit": "items",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for tidepool v4.6.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "page size limit (items)"
+    ],
+    "table": [
+     [
+      "timeout",
+      "78"
+     ],
+     [
+      "page_limit",
+      "339"
+     ],
+     [
+      "pool_size",
+      "60"
+     ],
+     [
+      "cache_ttl",
+      "135"
+     ],
+     [
+      "max_batch",
+      "1498"
+     ]
+    ]
+   },
+   "cue": "Unofficial mirror; not linked from docs.tidepool.example; content may be altered.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "339",
+   "cell_value": "339",
+   "view_mode": "supplement",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with TIDEPOOL_."
+     ],
+     [
+      "Changelog",
+      "v4.0: the default of `timeout` changed from 126 to the value shown below. v3.4: `max_batch` deprecated in favour of `page_limit`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 162 for `page_limit`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_timeout",
+        "v4.0",
+        "timeout"
+       ],
+       [
+        "legacy_pool_size",
+        "v4.0",
+        "pool_size"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-P"
+  },
+  {
+   "id": "F1-DOC-022-hub-capture-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20260115093000/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "url": "http://archive.example/web/20260115093000/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "docs.tidepool.example: 404 Not Found",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "404 Not Found."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20260115093000",
+   "original": "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference"
+  },
+  {
+   "id": "F1-DOC-022-hub-capture-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20251103141500/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "url": "http://archive.example/web/20251103141500/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "docs.tidepool.example: Home page",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Welcome to docs.tidepool.example."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20251103141500",
+   "original": "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference"
+  },
+  {
+   "id": "F1-DOC-022-hub-capture-0-0",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902183000/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "url": "http://archive.example/web/20250902183000/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "docs.tidepool.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Truncated capture: only the page header was archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902183000",
+   "original": "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference"
+  },
+  {
+   "id": "F1-DOC-022-hub-capture-0-1",
+   "role": "hub",
+   "host": "archive.example",
+   "path": "/web/20250902063000/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "url": "http://archive.example/web/20250902063000/http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "docs.tidepool.example: capture",
+   "publisher": "archive.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Capture of a cookie consent screen; the page content was not archived."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false,
+   "memento_datetime": "20250902063000",
+   "original": "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference"
+  },
+  {
+   "id": "F1-DOC-022-hub-moved-index",
+   "role": "hub",
+   "host": "docs.tidepool.example",
+   "path": "/site/archive",
+   "url": "http://docs.tidepool.example/site/archive",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive",
+   "publisher": "docs.tidepool.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Older pages by year."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.tidepool.example/site/archive/2023",
+     "2023"
+    ],
+    [
+     "http://docs.tidepool.example/site/archive/2024",
+     "2024"
+    ],
+    [
+     "http://docs.tidepool.example/site/archive/2025",
+     "2025"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-DOC-022-hub-moved-2023",
+   "role": "hub",
+   "host": "docs.tidepool.example",
+   "path": "/site/archive/2023",
+   "url": "http://docs.tidepool.example/site/archive/2023",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2023",
+   "publisher": "docs.tidepool.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-DOC-022-hub-moved-2024",
+   "role": "hub",
+   "host": "docs.tidepool.example",
+   "path": "/site/archive/2024",
+   "url": "http://docs.tidepool.example/site/archive/2024",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2024",
+   "publisher": "docs.tidepool.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-DOC-022-hub-moved-2025",
+   "role": "hub",
+   "host": "docs.tidepool.example",
+   "path": "/site/archive/2025",
+   "url": "http://docs.tidepool.example/site/archive/2025",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Archive: 2025",
+   "publisher": "docs.tidepool.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Pages from this year.",
+     "No pages from this section are archived for this year."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-DOC-022-hub-pkg-project",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/tidepool",
+   "url": "http://pkgindex.example/project/tidepool",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "tidepool",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "tidepool - tidepool project.",
+     "Releases, source code and documentation links."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.tidepool.example/",
+     "Homepage"
+    ],
+    [
+     "http://pkgindex.example/project/tidepool/docs",
+     "Documentation (all versions)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F1-DOC-022-hub-pkg-docs",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/tidepool/docs",
+   "url": "http://pkgindex.example/project/tidepool/docs",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "tidepool documentation",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted documentation by version."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference",
+     "v4.6 - docs.tidepool.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F1-DOC-022-hub-home",
+   "role": "hub",
+   "host": "docs.tidepool.example",
+   "path": "/",
+   "url": "http://docs.tidepool.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "tidepool documentation",
+   "publisher": "docs.tidepool.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "We reorganised our website: older pages are now in the archive section."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.tidepool.example/site/archive",
+     "Archive"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F1-DOC-022-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F1-DOC-022-W1v",
+  "unrecoverable": "F1-DOC-022-W2",
+  "twin": "F1-DOC-022-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference?section=supplementary"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "313 items",
+     "sources": [
+      "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "313 items",
+   "sources": [
+    "http://docs.tidepool.example/reference/65bd5b-tidepool-v4-6-configuration-reference"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

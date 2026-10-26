@@ -1,0 +1,299 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-01",
+ "goal_id": "R-F2-01",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm citing the published version of \"Robust estimation of loss‐based measures of model performance under covariate shift\" (Canadian Journal of Statistics, 2024; DOI 10.1002/cjs.11815) in a paper and need one number from it. The publisher's page is https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815\nIn the table \"Numerical results from the simulations described in Section 4 of the main text\", what value is reported for \"W Corr\" in the column \"Relative Bias\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "W Corr / Relative Bias",
+  "unit": "",
+  "canonical": "0.067%",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-01-canon",
+   "role": "canonical",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815",
+   "host": "onlinelibrary.wiley.com",
+   "path": "/doi/10.1002/cjs.11815",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Robust estimation of loss‐based measures of model performance under covariate shift",
+   "publisher": "onlinelibrary.wiley.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-01",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Just a moment..."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 403,
+    "title": "Robust estimation of loss‐based measures of model performance under covariate shift",
+    "text": "Just a moment..."
+   }
+  },
+  {
+   "id": "R-F2-01-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1002/cjs.11815",
+   "host": "doi.org",
+   "path": "/10.1002/cjs.11815",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-01",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815"
+   }
+  },
+  {
+   "id": "R-F2-01-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2210.01980",
+   "host": "arxiv.org",
+   "path": "/html/2210.01980",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Robust estimation of loss‐based measures of model performance under covariate shift",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2210.01980 (submitted version)",
+   "work_id": "R-F2-01",
+   "value": "0.067%",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Robust estimation of loss‐based measures of model performance under covariate shift",
+     "arXiv:2210.01980 [preprint]",
+     "Table S1 : Numerical results from the simulations described in Section 4 of the main text.",
+     "Naïve empirical 0.2279 -0.577 0.225 -12% W Corr 0.2597 0.00316 0.285 0.067% W Miss 0.2520 -0.136 0.264 -2.9% CL Corr 0.2597 0.00379 0.256 0.080% CL Miss 0.2351 -0.445 0.207 -9.4% DR Corr 0.2595 0.000257 0.269 0.0054% DR Miss p ^  ( X ) 0.2596 0.00257 0.259 0.054% DR Miss h ^  ( X ) 0.2591 -0.00733 0.268 -0.15% DR Miss Both 0.2430 -0.302 0.239 -6.4% DR GAM 0.2565 -0.05030 0.299 -1.1%"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Robust estimation of loss‐based measures of model performance under covariate shift",
+    "tables": [
+     {
+      "caption": "Table S1 : Numerical results from the simulations described in Section 4 of the main text.",
+      "header": [
+       "Estimator",
+       "Average of estimates",
+       "n × B  i  a  s",
+       "n × S  D",
+       "Relative Bias"
+      ],
+      "rows": [
+       [
+        "Naïve empirical",
+        "0.2279",
+        "-0.577",
+        "0.225",
+        "-12%"
+       ],
+       [
+        "W Corr",
+        "0.2597",
+        "0.00316",
+        "0.285",
+        "0.067%"
+       ],
+       [
+        "W Miss",
+        "0.2520",
+        "-0.136",
+        "0.264",
+        "-2.9%"
+       ],
+       [
+        "CL Corr",
+        "0.2597",
+        "0.00379",
+        "0.256",
+        "0.080%"
+       ],
+       [
+        "CL Miss",
+        "0.2351",
+        "-0.445",
+        "0.207",
+        "-9.4%"
+       ],
+       [
+        "DR Corr",
+        "0.2595",
+        "0.000257",
+        "0.269",
+        "0.0054%"
+       ],
+       [
+        "DR Miss p ^  ( X )",
+        "0.2596",
+        "0.00257",
+        "0.259",
+        "0.054%"
+       ],
+       [
+        "DR Miss h ^  ( X )",
+        "0.2591",
+        "-0.00733",
+        "0.268",
+        "-0.15%"
+       ],
+       [
+        "DR Miss Both",
+        "0.2430",
+        "-0.302",
+        "0.239",
+        "-6.4%"
+       ],
+       [
+        "DR GAM",
+        "0.2565",
+        "-0.05030",
+        "0.299",
+        "-1.1%"
+       ]
+      ]
+     }
+    ],
+    "text": "Robust estimation of loss‐based measures of model performance under covariate shift\narXiv:2210.01980 [preprint]\nTable S1 : Numerical results from the simulations described in Section 4 of the main text."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-01-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:01:46Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 403,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "Robust estimation of loss‐based measures of model performance under covariate shift",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Robust estimation of loss‐based measures of model performance under covariate shift"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2210.01980"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "0.067%",
+     "sources": [
+      "https://arxiv.org/html/2210.01980"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2210.01980",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2210.01980 (submitted version)",
+       "note": "This is arXiv preprint 2210.01980 (submitted version), not the requested version; the W Corr / Relative Bias may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

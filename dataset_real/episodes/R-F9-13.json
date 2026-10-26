@@ -1,0 +1,199 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F9-13",
+ "goal_id": "R-F9-13",
+ "family": "F9",
+ "world": "W2",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "My dashboard shows the weather from OpenWeatherMap's One Call API 2.5: https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04\nWhat is the current temperature at that location? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "OpenWeatherMap One Call 2.5",
+  "unit": "",
+  "canonical": null,
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F9-13-canon",
+   "role": "canonical",
+   "url": "https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04",
+   "host": "api.openweathermap.org",
+   "path": "/data/2.5/onecall?lat=33.44&lon=-94.04",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "401 OpenWeatherMap One Call 2.5",
+   "publisher": "api.openweathermap.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-13",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{\"cod\":401, \"message\": \"Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.\"}"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 401,
+    "content_type": "application/json",
+    "headers": {},
+    "title": "401 OpenWeatherMap One Call 2.5",
+    "observed_at": "2026-10-16T18:21:17Z",
+    "text": "{\"cod\":401, \"message\": \"Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.\"}"
+   }
+  },
+  {
+   "id": "R-F9-13-doc0",
+   "role": "context",
+   "url": "https://openweathermap.org/api/one-call-3",
+   "host": "openweathermap.org",
+   "path": "/api/one-call-3",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "One Call API 3.0",
+   "publisher": "openweathermap.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-13",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "One Call API 3.0 ",
+     " Getting Started ",
+     " Weather APIs ",
+     " Pricing ",
+     " Marketplace ",
+     " Maps ",
+     " News ",
+     " Support ",
+     " For Enterprises ",
+     " Search for... ",
+     "Loading... ",
+     " Build smarter, plan better with the world’s most flexible weather data platform ",
+     " Build smarter, plan better with the world’s most flexible weather data platform ",
+     " Get API Key ",
+     " Explore API Docs ",
+     "Products ",
+     " Current and Forecast APIs ",
+     " Historical Weather Data ",
+     " Weather Maps ",
+     " Weather Dashboard ",
+     " Widgets ",
+     "Subscription ",
+     " How to start ",
+     " Pricing ",
+     " Subscribe for free ",
+     " FAQ ",
+     " For Agents and Bots ",
+     "Technologies ",
+     " Our technology ",
+     " Accuracy and quality of weather data "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "One Call API 3.0",
+    "text": "One Call API 3.0 \n Getting Started \n Weather APIs \n Pricing \n Marketplace \n Maps \n News \n Support \n For Enterprises \n Search for... \nLoading... \n Build smarter, plan better with the world’s most flexible weather data platform \n Build smarter, plan better with the world’s most flexible weather data platform \n Get API Key \n Explore API Docs \nProducts \n Current and Forecast APIs \n Historical Weather Data \n Weather Maps \n Weather Dashboard \n Widgets \nSubscription \n How to start \n Pricing \n Subscribe for free \n FAQ \n For Agents and Bots \nTechnologies \n Our technology \n Accuracy and quality of weather data \n Connect your weather station \n llms.txt \n Offices \nLondon, UK \nThe Gherkin, 30 St Mary`s Axe,  The City Of London, London EC3A 8BF, United Kingdom \nPaphos, Cyprus \nGladstonos 12-14, Office 1 Hugge Space, Paphos 8046, Cyprus \nDelaware, US \n16192 Coastal Highway, Lewes,  Delaware 19958, United States \nCompany \n OpenWeather is a London-based weather intelligence company serving enterprises, developers, businesses, and researchers worldwide. Through its developer business, the company provides global weather data and forecasting services via fast, reliable APIs, delivering historical, current, and forecast weather data for any location worldwide. Combining advanced meteorology, AI-enhanced forecasting models, and scalable data infrastructure, OpenWeather helps customers integrate weather intelligence into applications, services, and operational workflows. \n Supplier of Achilles UVDB community \n © 2012 - 2026 OpenWeather ® All rights reserved \n Terms & conditions of sale \n Website terms & conditions \n Privacy policy \nWe use cookies to personalize content and to analyze our traffic. Please decide if you are willing to accept cookies from our website. \n Advanced Settings \n Decline Accept \n Documentation \n One Call API, endpoint version 3.0 \n Product concept \n Current and forecasts weather data \n How to make an API call \n Example of API response \n Fields in API response \n How to get government weather alerts only for location \n Weather data for timestamp \n How to make an API call \n Example of API response \n Fields in API response \n Daily aggregation \n How to make an API call \n Example of API response \n Fields in API response \n Weather overview \n How to make an API call \n Example of API response \n Fields in API response \n AI Weather Assistant \n How to make a call with web interface \n How to make a call with API Endpoints \n Step 1: Session start \n Step 2: Resume a session \n Other features \n List of weather condition codes \n Units of measurement \n Multilingual support \n List of national weather alerts sources \n Callback function for JavaScript code \n API errors \n Structure of API errors \n Errors list \n Error 400 \n Error 401 \n Error 404 \n Error 429 \n Errors '5xx' \nExplore One Call API endpoint version 4.0 \n We recommend using the One Call API, endpoint version 4.0 , for all new integrations. It provides access to our latest weather data, enhanced functionality"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "api_retired",
+  "signal": "explicit",
+  "targets": [
+   "R-F9-13-canon"
+  ],
+  "params": {
+   "needs_user": true
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "HA",
+   "ESC",
+   "PR-D"
+  ],
+  "route": "report",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:21:17Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 401,
+   "error": null,
+   "body_excerpt": "{\"cod\":401, \"message\": \"Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.\"}"
+  },
+  "docs": [
+   "https://openweathermap.org/api/one-call-3"
+  ]
+ },
+ "oracle_query": "OpenWeatherMap One Call 2.5 replacement",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "OpenWeatherMap One Call 2.5 replacement"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04"
+   },
+   {
+    "tool": "ask_user",
+    "question": "I cannot access the requested resource without your help (deprecat). Can you provide access?"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "needs_user",
+     "answer": "",
+     "sources": [
+      "https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04"
+     ],
+     "substitutions": [],
+     "diagnosis": "deprecat",
+     "user_request": "Access is blocked (deprecat); the user's help is needed.",
+     "confidence": 0.8
+    }
+   }
+  ]
+ }
+}

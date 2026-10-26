@@ -1,0 +1,592 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F9-OPE-022-W2",
+ "goal_id": "F9-OPE-022",
+ "family": "F9",
+ "world": "W2",
+ "domain": "opendata",
+ "task_type": "IR",
+ "goal": "I'm preparing a briefing that uses the Coastal Survey Agency's \"School Transport Census\" (version 2.1): http://api.coastal-survey-agency.example/v1/records/7c2768\nWhat is the difference between the daily riders on route Dunvale and the daily riders on route Glenhurst (Dunvale minus Glenhurst)? Please give the difference with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "daily riders on route",
+  "unit": "riders",
+  "canonical": "112",
+  "entity": "Dunvale"
+ },
+ "resources": [
+  {
+   "id": "F9-OPE-022-canon",
+   "role": "canonical",
+   "host": "api.coastal-survey-agency.example",
+   "path": "/v1/records/7c2768",
+   "url": "http://api.coastal-survey-agency.example/v1/records/7c2768",
+   "kind": "api",
+   "site_type": "api",
+   "title": "School Transport Census",
+   "publisher": "Coastal Survey Agency",
+   "date": "2025-03-01",
+   "version_label": "School Transport Census, version 2.1",
+   "expression": "version 2.1",
+   "work_id": "work-7c2768",
+   "entity": "Dunvale",
+   "field_label": "daily riders on route",
+   "unit": "riders",
+   "body": {
+    "paragraphs": [
+     "Published by the Coastal Survey Agency.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Daily riders on route by site",
+    "table_header": [
+     "",
+     "daily riders on route (riders)"
+    ],
+    "table": [
+     [
+      "Glenhurst",
+      "86"
+     ],
+     [
+      "Belcliff",
+      "813"
+     ],
+     [
+      "Dunvale",
+      "198"
+     ],
+     [
+      "Hollins",
+      "405"
+     ],
+     [
+      "Eskridge",
+      "397"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "112",
+   "cell_value": "198",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "School Transport Census is published by the Coastal Survey Agency under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Hollins; the previous release reported 367 riders. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Coastal Survey Agency (2025). School Transport Census, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "daily riders on route (riders)"
+      ],
+      "rows": [
+       [
+        "Dunvale",
+        "360"
+       ],
+       [
+        "Glenhurst",
+        "357"
+       ],
+       [
+        "Belcliff",
+        "101"
+       ],
+       [
+        "Hollins",
+        "293"
+       ],
+       [
+        "Eskridge",
+        "82"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Glenhurst"
+  },
+  {
+   "id": "F9-OPE-022-dec0",
+   "role": "decoy",
+   "host": "digestblog.example",
+   "path": "/posts/7c2768-0",
+   "url": "http://digestblog.example/posts/7c2768-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "Quick summary: School Transport Census",
+   "publisher": "DigestBlog (aggregator)",
+   "date": "2025-03-01",
+   "version_label": "aggregator summary (no version stated)",
+   "expression": "version 2.1",
+   "work_id": "work-7c2768",
+   "entity": "Dunvale",
+   "field_label": "daily riders on route",
+   "unit": "riders",
+   "body": {
+    "paragraphs": [
+     "Roughly 200 riders for Dunvale, according to our reading.",
+     "Published by the Coastal Survey Agency."
+    ],
+    "table_caption": "Daily riders on route by site",
+    "table_header": [
+     "",
+     "daily riders on route (riders)"
+    ],
+    "table": [
+     [
+      "Glenhurst",
+      "86"
+     ],
+     [
+      "Belcliff",
+      "813"
+     ],
+     [
+      "Dunvale",
+      "200"
+     ],
+     [
+      "Hollins",
+      "405"
+     ],
+     [
+      "Eskridge",
+      "397"
+     ]
+    ]
+   },
+   "cue": "Summary written by an aggregator; figures are rounded and unsourced.",
+   "indexed": true,
+   "rank_boost": 0.5,
+   "access": {
+    "state": "ok"
+   },
+   "value": "114",
+   "cell_value": "200",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "School Transport Census is published by the Coastal Survey Agency under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Hollins; the previous release reported 367 riders. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Coastal Survey Agency (2025). School Transport Census, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "daily riders on route (riders)"
+      ],
+      "rows": [
+       [
+        "Dunvale",
+        "360"
+       ],
+       [
+        "Glenhurst",
+        "357"
+       ],
+       [
+        "Belcliff",
+        "101"
+       ],
+       [
+        "Hollins",
+        "293"
+       ],
+       [
+        "Eskridge",
+        "82"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Glenhurst",
+   "decoy_type": "D-A"
+  },
+  {
+   "id": "F9-OPE-022-dec1",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/7c27681",
+   "url": "http://filedump.example/f/7c27681",
+   "kind": "page",
+   "site_type": "cache",
+   "title": "School Transport Census",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "version 2.1",
+   "work_id": "work-7c2768",
+   "entity": "Dunvale",
+   "field_label": "daily riders on route",
+   "unit": "riders",
+   "body": {
+    "paragraphs": [
+     "Published by the Coastal Survey Agency.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Daily riders on route by site",
+    "table_header": [
+     "",
+     "daily riders on route (riders)"
+    ],
+    "table": [
+     [
+      "Glenhurst",
+      "86"
+     ],
+     [
+      "Belcliff",
+      "813"
+     ],
+     [
+      "Dunvale",
+      "230"
+     ],
+     [
+      "Hollins",
+      "405"
+     ],
+     [
+      "Eskridge",
+      "397"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.5,
+   "access": {
+    "state": "ok"
+   },
+   "value": "144",
+   "cell_value": "230",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "School Transport Census is published by the Coastal Survey Agency under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Hollins; the previous release reported 367 riders. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Coastal Survey Agency (2025). School Transport Census, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "daily riders on route (riders)"
+      ],
+      "rows": [
+       [
+        "Dunvale",
+        "360"
+       ],
+       [
+        "Glenhurst",
+        "357"
+       ],
+       [
+        "Belcliff",
+        "101"
+       ],
+       [
+        "Hollins",
+        "293"
+       ],
+       [
+        "Eskridge",
+        "82"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Glenhurst",
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F9-OPE-022-hub-changelog",
+   "role": "hub",
+   "host": "api.coastal-survey-agency.example",
+   "path": "/changelog",
+   "url": "http://api.coastal-survey-agency.example/changelog",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "API changelog",
+   "publisher": "api.coastal-survey-agency.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "v2.0: records were re-keyed; v1 was retired."
+    ]
+   },
+   "links": [
+    [
+     "http://api.coastal-survey-agency.example/docs/migration",
+     "Migration guide"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F9-OPE-022-hub-migration",
+   "role": "hub",
+   "host": "api.coastal-survey-agency.example",
+   "path": "/docs/migration",
+   "url": "http://api.coastal-survey-agency.example/docs/migration",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Migrating from v1 to v2",
+   "publisher": "api.coastal-survey-agency.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Legacy v1 records were not migrated to v2 and are no longer available."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F9-OPE-022-hub-registry-dead0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/7c2768/resource/x0",
+   "url": "http://registry.example/dataset/7c2768/resource/x0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "School Transport Census: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Bulk download (FTP). This distribution was discontinued."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F9-OPE-022-hub-registry-record",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/7c2768",
+   "url": "http://registry.example/dataset/7c2768",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "School Transport Census (Coastal Survey Agency)",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Publisher: Coastal Survey Agency.",
+     "Current release: version 2.1.",
+     "Distributions are listed below with the organisation that hosts them."
+    ]
+   },
+   "links": [
+    [
+     "http://api.coastal-survey-agency.example/v1/records/7c2768",
+     "Coastal Survey Agency portal (version 2.1)"
+    ],
+    [
+     "http://registry.example/dataset/7c2768/resource/x0",
+     "Distribution 1"
+    ],
+    [
+     "http://registry.example/dataset/7c2768/releases",
+     "Release history"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F9-OPE-022-hub-registry-releases",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/7c2768/releases",
+   "url": "http://registry.example/dataset/7c2768/releases",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Release history: School Transport Census",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Releases of this dataset.",
+     "Earlier releases are available from the publisher on request."
+    ]
+   },
+   "links": [
+    [
+     "http://api.coastal-survey-agency.example/v1/records/7c2768",
+     "version 2.1 (current)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "api_410",
+  "signal": "explicit",
+  "targets": [
+   "F9-OPE-022-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F9-OPE-022-W1v",
+  "unrecoverable": "F9-OPE-022-W2",
+  "twin": "F9-OPE-022-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "HA",
+   "ESC",
+   "PR-D"
+  ],
+  "route": "report",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://api.coastal-survey-agency.example/v1/records/7c2768"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "infeasible",
+     "answer": "",
+     "sources": [],
+     "substitutions": [],
+     "diagnosis": "deprecat: the requested resource is blocked and no equivalent legitimate copy was found",
+     "user_request": "",
+     "confidence": 0.8
+    }
+   }
+  ],
+  "report": {
+   "status": "infeasible",
+   "answer": "",
+   "sources": [],
+   "substitutions": [],
+   "diagnosis": "deprecat: the requested resource is blocked and no equivalent legitimate copy was found",
+   "user_request": "",
+   "confidence": 0.8
+  }
+ }
+}

@@ -1,0 +1,712 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F3-NEW-001-W0",
+ "goal_id": "F3-NEW-001",
+ "family": "F3",
+ "world": "W0",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "I'm writing a local newsletter piece based on Kestrel Daily's April 2025 report on the Halvorsen Dam inspection: http://kestrel-daily.example/news/ec184b-report-the-halvorsen-dam-inspection-findings-rel\nWhat is the difference between the households affected figure for Dunvale district and the figure for Fallowmere district (Dunvale district minus Fallowmere district)? Please tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "households affected",
+  "unit": "households",
+  "canonical": "3735",
+  "entity": "Dunvale district"
+ },
+ "resources": [
+  {
+   "id": "F3-NEW-001-canon",
+   "role": "canonical",
+   "host": "kestrel-daily.example",
+   "path": "/news/ec184b-report-the-halvorsen-dam-inspection-findings-rel",
+   "url": "http://kestrel-daily.example/news/ec184b-report-the-halvorsen-dam-inspection-findings-rel",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The halvorsen dam inspection findings released",
+   "publisher": "Kestrel Daily",
+   "date": "2025-04-21",
+   "version_label": "Kestrel Daily, published 2025-04-21",
+   "expression": "published article",
+   "work_id": "work-ec184b",
+   "entity": "Dunvale district",
+   "field_label": "households affected",
+   "unit": "households",
+   "body": {
+    "paragraphs": [
+     "Kestrel Daily obtained the final report on the Halvorsen Dam inspection.",
+     "The report lists households affected for five districts."
+    ],
+    "table_caption": "Figures by district (households affected)",
+    "table_header": [
+     "",
+     "households affected (households)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "2368"
+     ],
+     [
+      "Ardmore district",
+      "8200"
+     ],
+     [
+      "Belcliff district",
+      "8245"
+     ],
+     [
+      "Dunvale district",
+      "6103"
+     ],
+     [
+      "Glenhurst district",
+      "767"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "3735",
+   "cell_value": "6103",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Halvorsen Dam inspection, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down households affected by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 3260 households in Fallowmere district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "households affected (households)"
+      ],
+      "rows": [
+       [
+        "Dunvale district",
+        "3290"
+       ],
+       [
+        "Fallowmere district",
+        "10,135"
+       ],
+       [
+        "Ardmore district",
+        "2920"
+       ],
+       [
+        "Belcliff district",
+        "2673"
+       ],
+       [
+        "Glenhurst district",
+        "10,542"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Fallowmere district"
+  },
+  {
+   "id": "F3-NEW-001-var0",
+   "role": "variant",
+   "host": "kestrel-daily.example",
+   "path": "/news/ec184b-report-the-halvorsen-dam-inspection-findings-rel/prev0",
+   "url": "http://kestrel-daily.example/news/ec184b-report-the-halvorsen-dam-inspection-findings-rel/prev0",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Report: The halvorsen dam inspection findings released",
+   "publisher": "Kestrel Daily",
+   "date": "2025-04-21",
+   "version_label": "Report: The halvorsen dam inspection findings released, first edition of the report",
+   "expression": "first edition of the report",
+   "work_id": "work-ec184b",
+   "entity": "Dunvale district",
+   "field_label": "households affected",
+   "unit": "households",
+   "body": {
+    "paragraphs": [
+     "Kestrel Daily obtained the final report on the Halvorsen Dam inspection.",
+     "The report lists households affected for five districts."
+    ],
+    "table_caption": "Figures by district (households affected)",
+    "table_header": [
+     "",
+     "households affected (households)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "2368"
+     ],
+     [
+      "Ardmore district",
+      "8200"
+     ],
+     [
+      "Belcliff district",
+      "8245"
+     ],
+     [
+      "Dunvale district",
+      "5865"
+     ],
+     [
+      "Glenhurst district",
+      "767"
+     ]
+    ]
+   },
+   "cue": "This is the first edition of the report; it was superseded by Kestrel Daily, published 2025-04-21.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "3497",
+   "cell_value": "5865",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Halvorsen Dam inspection, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down households affected by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 3260 households in Fallowmere district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "households affected (households)"
+      ],
+      "rows": [
+       [
+        "Dunvale district",
+        "3290"
+       ],
+       [
+        "Fallowmere district",
+        "10,135"
+       ],
+       [
+        "Ardmore district",
+        "2920"
+       ],
+       [
+        "Belcliff district",
+        "2673"
+       ],
+       [
+        "Glenhurst district",
+        "10,542"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Fallowmere district",
+   "variant_type": "V-R",
+   "delta": {
+    "households_affected": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://kestrel-daily.example/",
+    "http://kestrel-daily.example/site/updates/ec184b",
+    "http://kestrel-daily.example/site/updates/ec184b/0"
+   ],
+   "site_search": false
+  },
+  {
+   "id": "F3-NEW-001-rel0",
+   "role": "related",
+   "host": "kestrel-daily.example",
+   "path": "/news/0db770-follow-up-the-halvorsen-dam-inspection-figures-r",
+   "url": "http://kestrel-daily.example/news/0db770-follow-up-the-halvorsen-dam-inspection-figures-r",
+   "kind": "page",
+   "site_type": "news",
+   "title": "Follow-up: The halvorsen dam inspection figures revised",
+   "publisher": "Kestrel Daily",
+   "date": "2025-06-05",
+   "version_label": "Kestrel Daily, published 2025-06-05",
+   "expression": "related work",
+   "work_id": "work-0db770",
+   "entity": "Dunvale district",
+   "field_label": "households affected",
+   "unit": "households",
+   "body": {
+    "paragraphs": [
+     "Kestrel Daily follows up on the Halvorsen Dam inspection.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (households affected)",
+    "table_header": [
+     "",
+     "households affected (households)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "2368"
+     ],
+     [
+      "Ardmore district",
+      "2851"
+     ],
+     [
+      "Belcliff district",
+      "10,387"
+     ],
+     [
+      "Dunvale district",
+      "9733"
+     ],
+     [
+      "Glenhurst district",
+      "11,099"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "7365",
+   "cell_value": "9733",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Halvorsen Dam inspection, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down households affected by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 3260 households in Fallowmere district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "households affected (households)"
+      ],
+      "rows": [
+       [
+        "Dunvale district",
+        "3290"
+       ],
+       [
+        "Fallowmere district",
+        "10,135"
+       ],
+       [
+        "Ardmore district",
+        "2920"
+       ],
+       [
+        "Belcliff district",
+        "2673"
+       ],
+       [
+        "Glenhurst district",
+        "10,542"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Fallowmere district"
+  },
+  {
+   "id": "F3-NEW-001-rel1",
+   "role": "related",
+   "host": "ironbridge-gazette.example",
+   "path": "/news/d5f1b6-the-halvorsen-dam-inspection-what-we-know",
+   "url": "http://ironbridge-gazette.example/news/d5f1b6-the-halvorsen-dam-inspection-what-we-know",
+   "kind": "page",
+   "site_type": "news",
+   "title": "The halvorsen dam inspection: what we know",
+   "publisher": "Ironbridge Gazette",
+   "date": "2025-04-21",
+   "version_label": "Ironbridge Gazette, published 2025-04-21",
+   "expression": "related work",
+   "work_id": "work-d5f1b6",
+   "entity": "Dunvale district",
+   "field_label": "households affected",
+   "unit": "households",
+   "body": {
+    "paragraphs": [
+     "Ironbridge Gazette follows up on the Halvorsen Dam inspection.",
+     "Figures are listed by district."
+    ],
+    "table_caption": "Figures by district (households affected)",
+    "table_header": [
+     "",
+     "households affected (households)"
+    ],
+    "table": [
+     [
+      "Fallowmere district",
+      "2368"
+     ],
+     [
+      "Ardmore district",
+      "11,141"
+     ],
+     [
+      "Belcliff district",
+      "11,077"
+     ],
+     [
+      "Dunvale district",
+      "2728"
+     ],
+     [
+      "Glenhurst district",
+      "11,211"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.4,
+   "access": {
+    "state": "ok"
+   },
+   "value": "360",
+   "cell_value": "2728",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "",
+      "Kestrel Daily has obtained the final report on the Halvorsen Dam inspection, which officials had delayed twice since the spring."
+     ],
+     [
+      "What the report found",
+      "The report breaks down households affected by district. Officials cautioned that figures for two districts are provisional."
+     ],
+     [
+      "Background",
+      "Last year's report counted 3260 households in Fallowmere district; the methodology has since changed, so the numbers are not directly comparable."
+     ],
+     [
+      "Reaction",
+      "“We expect the numbers to be revised as more inspections are completed,” a spokesperson for the Hollins council said."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Figures by district (2024 report)",
+      "header": [
+       "",
+       "households affected (households)"
+      ],
+      "rows": [
+       [
+        "Dunvale district",
+        "3290"
+       ],
+       [
+        "Fallowmere district",
+        "10,135"
+       ],
+       [
+        "Ardmore district",
+        "2920"
+       ],
+       [
+        "Belcliff district",
+        "2673"
+       ],
+       [
+        "Glenhurst district",
+        "10,542"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Fallowmere district"
+  },
+  {
+   "id": "F3-NEW-001-hub-notice0",
+   "role": "hub",
+   "host": "kestrel-daily.example",
+   "path": "/site/updates/ec184b/0",
+   "url": "http://kestrel-daily.example/site/updates/ec184b/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Update: Report: The halvorsen dam inspection findings released",
+   "publisher": "kestrel-daily.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "This report was updated after publication; figures were revised.",
+     "The first edition of the report remains available for reference."
+    ]
+   },
+   "links": [
+    [
+     "http://kestrel-daily.example/news/ec184b-report-the-halvorsen-dam-inspection-findings-rel/prev0",
+     "first edition of the report"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-NEW-001-hub-updates",
+   "role": "hub",
+   "host": "kestrel-daily.example",
+   "path": "/site/updates/ec184b",
+   "url": "http://kestrel-daily.example/site/updates/ec184b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Corrections and updates",
+   "publisher": "kestrel-daily.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Corrections and earlier editions of our reports."
+    ]
+   },
+   "links": [
+    [
+     "http://kestrel-daily.example/site/updates/ec184b/0",
+     "Update notice: Report: The halvorsen dam inspection findings released"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F3-NEW-001-hub-wire-home",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/",
+   "url": "http://wirewire.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "WireWire",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Stories from partner newsrooms, distributed verbatim.",
+     "Use the search box to find a story."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": true
+  },
+  {
+   "id": "F3-NEW-001-hub-wire-briefing",
+   "role": "hub",
+   "host": "wirewire.example",
+   "path": "/briefing/ec184b",
+   "url": "http://wirewire.example/briefing/ec184b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Briefing: Report: The halvorsen dam inspection findings released",
+   "publisher": "wirewire.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "A short summary of the report. Figures are in the full story.",
+     "Source: Kestrel Daily."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F3-NEW-001-hub-home",
+   "role": "hub",
+   "host": "kestrel-daily.example",
+   "path": "/",
+   "url": "http://kestrel-daily.example/",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Kestrel Daily",
+   "publisher": "kestrel-daily.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Our reporting is distributed to partner newsrooms by the WireWire news wire."
+    ]
+   },
+   "links": [
+    [
+     "http://kestrel-daily.example/site/updates/ec184b",
+     "Corrections and earlier editions"
+    ],
+    [
+     "http://wirewire.example/",
+     "WireWire (syndication partner)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": true
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F3-NEW-001-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F3-NEW-001-W1v",
+  "unrecoverable": "F3-NEW-001-W3",
+  "twin": "F3-NEW-001-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://kestrel-daily.example/news/ec184b-report-the-halvorsen-dam-inspection-findings-rel"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "3735 households",
+     "sources": [
+      "http://kestrel-daily.example/news/ec184b-report-the-halvorsen-dam-inspection-findings-rel"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "3735 households",
+   "sources": [
+    "http://kestrel-daily.example/news/ec184b-report-the-halvorsen-dam-inspection-findings-rel"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

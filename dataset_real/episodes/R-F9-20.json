@@ -1,0 +1,192 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F9-20",
+ "goal_id": "R-F9-20",
+ "family": "F9",
+ "world": "W3",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "Our search widget calls the Bing Web Search API v7: https://api.bing.microsoft.com/v7.0/search?q=python\nWhat is the top result for \"python\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Bing Search API v7",
+  "unit": "",
+  "canonical": null,
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F9-20-canon",
+   "role": "canonical",
+   "url": "https://api.bing.microsoft.com/v7.0/search?q=python",
+   "host": "api.bing.microsoft.com",
+   "path": "/v7.0/search?q=python",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "401 Bing Search API v7",
+   "publisher": "api.bing.microsoft.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-20",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{\"error\":{\"code\":\"401\",\"message\":\"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.\"}}"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 401,
+    "content_type": "application/json",
+    "headers": {},
+    "title": "401 Bing Search API v7",
+    "observed_at": "2026-10-16T18:21:19Z",
+    "text": "{\"error\":{\"code\":\"401\",\"message\":\"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.\"}}"
+   }
+  },
+  {
+   "id": "R-F9-20-doc0",
+   "role": "context",
+   "url": "https://learn.microsoft.com/en-us/lifecycle/announcements/bing-search-api-retirement",
+   "host": "learn.microsoft.com",
+   "path": "/en-us/lifecycle/announcements/bing-search-api-retirement",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Bing Search APIs Retiring on August 11, 2025 - Microsoft Lifecycle | Microsoft Learn",
+   "publisher": "learn.microsoft.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F9-20",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Bing Search APIs Retiring on August 11, 2025 - Microsoft Lifecycle | Microsoft Learn ",
+     " Skip to main content",
+     " Skip to Ask Learn chat experience",
+     "This browser is no longer supported. ",
+     " Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.",
+     " Download Microsoft Edge",
+     " More info about Internet Explorer and Microsoft Edge",
+     " Table of contents ",
+     " Exit editor mode ",
+     " Ask Learn ",
+     " Ask Learn ",
+     " Reading mode ",
+     " Table of contents ",
+     " Read in English ",
+     " Add ",
+     " Add to Plans ",
+     " Edit ",
+     " Copy Markdown ",
+     " Print ",
+     " Note ",
+     " Access to this page requires authorization. You can try signing in or changing directories .",
+     " Access to this page requires authorization. You can try changing directories .",
+     "Bing Search APIs retiring on August 11, 2025  ",
+     " Feedback ",
+     " Summarize this article for me",
+     " In this article",
+     "Bing Search APIs will be retired on August 11, 2025. Any existing instances of Bing Search APIs will be decommissioned completely, and the product will no longer be available to be used or new customer signup.   ",
+     "Customers are encouraged to migrate to Grounding with Bing Search as part of Azure AI Agents . Grounding with Bing Search allows Azure AI Agents to incorporate real-time public web data when generating responses with an LLM. ",
+     "Additional resources ",
+     " How to use Grounding with Bing Search in Azure AI Agent Service - Azure OpenAI | Microsoft Learn "
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Bing Search APIs Retiring on August 11, 2025 - Microsoft Lifecycle | Microsoft Learn",
+    "text": "Bing Search APIs Retiring on August 11, 2025 - Microsoft Lifecycle | Microsoft Learn \n Skip to main content\n Skip to Ask Learn chat experience\nThis browser is no longer supported. \n Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.\n Download Microsoft Edge\n More info about Internet Explorer and Microsoft Edge\n Table of contents \n Exit editor mode \n Ask Learn \n Ask Learn \n Reading mode \n Table of contents \n Read in English \n Add \n Add to Plans \n Edit \n Copy Markdown \n Print \n Note \n Access to this page requires authorization. You can try signing in or changing directories .\n Access to this page requires authorization. You can try changing directories .\nBing Search APIs retiring on August 11, 2025  \n Feedback \n Summarize this article for me\n In this article\nBing Search APIs will be retired on August 11, 2025. Any existing instances of Bing Search APIs will be decommissioned completely, and the product will no longer be available to be used or new customer signup.   \nCustomers are encouraged to migrate to Grounding with Bing Search as part of Azure AI Agents . Grounding with Bing Search allows Azure AI Agents to incorporate real-time public web data when generating responses with an LLM. \nAdditional resources \n How to use Grounding with Bing Search in Azure AI Agent Service - Azure OpenAI | Microsoft Learn \n Bing Search APIs | Microsoft Bing \nFeedback \n Was this page helpful?\n Yes \n No \n No \n Need help with this topic?\n Want to try using Ask Learn to clarify or guide you through this topic?\n Ask Learn \n Ask Learn \n Suggest a fix? \n Additional resources\n Last updated on \n 2025-05-16\nIn this article \n Was this page helpful?\n Need help with this topic?\n Want to try using Ask Learn to clarify or guide you through this topic?\n Ask Learn \n Ask Learn \n Suggest a fix? \n en-us \n Your Privacy Choices \n Theme \n Light \n Dark \n High contrast \n AI Disclaimer \n Previous Versions \n Blog \n Contribute \n Privacy \n Consumer Health Privacy \n Terms of Use \n Trademarks \n© Microsoft 2026"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "api_retired",
+  "signal": "explicit",
+  "targets": [
+   "R-F9-20-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "HA",
+   "ESC",
+   "PR-D"
+  ],
+  "route": "report",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:21:19Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 401,
+   "error": null,
+   "body_excerpt": "{\"error\":{\"code\":\"401\",\"message\":\"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.\"}}"
+  },
+  "docs": [
+   "https://learn.microsoft.com/en-us/lifecycle/announcements/bing-search-api-retirement"
+  ]
+ },
+ "oracle_query": "Bing Search API v7 replacement",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Bing Search API v7 replacement"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://api.bing.microsoft.com/v7.0/search?q=python"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "infeasible",
+     "answer": "",
+     "sources": [
+      "https://api.bing.microsoft.com/v7.0/search?q=python"
+     ],
+     "substitutions": [],
+     "diagnosis": "deprecat; no legitimate copy of the requested resource was found",
+     "confidence": 0.8
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,771 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F2-ACA-006-W1v",
+ "goal_id": "F2-ACA-006",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "AA",
+ "goal": "For a replication I'm planning, please get me the supplementary data file (CSV) of Sørlie et al. (2024), \"A Stochastic Model of Thermal Fatigue\". Here is the link I saved: http://review.example/pdf/7c8b182c0aa092531062228c2a7d23.pdf\nIt has to be the ICLRX 2024 camera-ready version. Please download the file and submit it.",
+ "answer": {
+  "kind": "file",
+  "field": "retention rate",
+  "unit": "%",
+  "canonical": "37c1cf55a51356a4103fbc1b8760d280f87de2cf9fd458963851ef5ebe311ca5",
+  "entity": "R-31"
+ },
+ "resources": [
+  {
+   "id": "F2-ACA-006-canon",
+   "role": "canonical",
+   "host": "review.example",
+   "path": "/pdf/7c8b182c0aa092531062228c2a7d23.pdf",
+   "url": "http://review.example/pdf/7c8b182c0aa092531062228c2a7d23.pdf",
+   "kind": "file",
+   "site_type": "review",
+   "title": "A Stochastic Model of Thermal Fatigue",
+   "publisher": "Glacial Acoustics Quarterly",
+   "date": "2024-04-17",
+   "version_label": "Camera-ready, ICLRX 2024",
+   "expression": "VoR",
+   "work_id": "work-7c8b18",
+   "entity": "R-31",
+   "field_label": "retention rate",
+   "unit": "%",
+   "body": {
+    "paragraphs": [
+     "We study thermal fatigue across five monitoring stations using a Bayesian model.",
+     "Authors: Quentin Sørlie, Uri Oyelaran, Noor Ibarra. Published in Glacial Acoustics Quarterly, 2024.",
+     "Table 2 reports the retention rate for each station."
+    ],
+    "table_caption": "Table 2: Retention rate by station",
+    "table_header": [
+     "",
+     "retention rate (%)"
+    ],
+    "table": [
+     [
+      "L-08",
+      "26.1"
+     ],
+     [
+      "N-26",
+      "20.9"
+     ],
+     [
+      "B-04",
+      "23.8"
+     ],
+     [
+      "M-09",
+      "40.0"
+     ],
+     [
+      "R-31",
+      "78.5"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# A Stochastic Model of Thermal Fatigue\n# version: Camera-ready, ICLRX 2024\nentity,retention_rate\nL-08,26.1\nN-26,20.9\nB-04,23.8\nM-09,40.0\nR-31,78.5\n",
+   "file_name": "a-stochastic-model-of-thermal-fatigue-supplement.csv",
+   "sha256": "37c1cf55a51356a4103fbc1b8760d280f87de2cf9fd458963851ef5ebe311ca5",
+   "value": "78.5",
+   "cell_value": "78.5",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report retention rate measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional retention rate at 138.8 %; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of thermal fatigue relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the retention rate for each station in the 2024 campaign. The largest change relative to 2021 was observed at station L-08."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Nakamura et al. (2018). [2] Lindgren and Sørlie (2020). [3] Ferreira et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "R-31",
+        "49",
+        "1993",
+        "450"
+       ],
+       [
+        "L-08",
+        "1640",
+        "2010",
+        "857"
+       ],
+       [
+        "N-26",
+        "804",
+        "1993",
+        "1332"
+       ],
+       [
+        "B-04",
+        "674",
+        "1992",
+        "304"
+       ],
+       [
+        "M-09",
+        "271",
+        "2014",
+        "1030"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Retention rate in the 2021 campaign",
+      "header": [
+       "",
+       "retention rate (%)"
+      ],
+      "rows": [
+       [
+        "R-31",
+        "145.5"
+       ],
+       [
+        "L-08",
+        "32.1"
+       ],
+       [
+        "N-26",
+        "39.2"
+       ],
+       [
+        "B-04",
+        "144.7"
+       ],
+       [
+        "M-09",
+        "41.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F2-ACA-006-var0",
+   "role": "variant",
+   "host": "glacial-acoustics-quarterly.example",
+   "path": "/articles/7c8b18-a-stochastic-model-of-thermal-fatigue/original",
+   "url": "http://glacial-acoustics-quarterly.example/articles/7c8b18-a-stochastic-model-of-thermal-fatigue/original",
+   "kind": "file",
+   "site_type": "journal",
+   "title": "A Stochastic Model of Thermal Fatigue",
+   "publisher": "Glacial Acoustics Quarterly",
+   "date": "2024-04-17",
+   "version_label": "Version of Record before correction (Glacial Acoustics Quarterly)",
+   "expression": "VoR (uncorrected)",
+   "work_id": "work-7c8b18",
+   "entity": "R-31",
+   "field_label": "retention rate",
+   "unit": "%",
+   "body": {
+    "paragraphs": [
+     "We study thermal fatigue across five monitoring stations using a Bayesian model.",
+     "Authors: Quentin Sørlie, Uri Oyelaran, Noor Ibarra. Published in Glacial Acoustics Quarterly, 2024.",
+     "Table 2 reports the retention rate for each station."
+    ],
+    "table_caption": "Table 2: Retention rate by station",
+    "table_header": [
+     "",
+     "retention rate (%)"
+    ],
+    "table": [
+     [
+      "L-08",
+      "26.1"
+     ],
+     [
+      "N-26",
+      "20.9"
+     ],
+     [
+      "B-04",
+      "23.8"
+     ],
+     [
+      "M-09",
+      "40.0"
+     ],
+     [
+      "R-31",
+      "68.2"
+     ]
+    ]
+   },
+   "cue": "Correction notice: values in Table 2 were corrected in a later version.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# A Stochastic Model of Thermal Fatigue\n# version: Version of Record before correction (Glacial Acoustics Quarterly)\nentity,retention_rate\nL-08,26.1\nN-26,20.9\nB-04,23.8\nM-09,40.0\nR-31,68.2\n",
+   "file_name": "a-stochastic-model-of-thermal-fatigue-supplement.csv",
+   "sha256": "7f41678cd596af0716706909fe6adcd6b1ebccae822c0bfdc6cbe77eb63323e4",
+   "value": "68.2",
+   "cell_value": "68.2",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report retention rate measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional retention rate at 138.8 %; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of thermal fatigue relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the retention rate for each station in the 2024 campaign. The largest change relative to 2021 was observed at station L-08."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Nakamura et al. (2018). [2] Lindgren and Sørlie (2020). [3] Ferreira et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "R-31",
+        "49",
+        "1993",
+        "450"
+       ],
+       [
+        "L-08",
+        "1640",
+        "2010",
+        "857"
+       ],
+       [
+        "N-26",
+        "804",
+        "1993",
+        "1332"
+       ],
+       [
+        "B-04",
+        "674",
+        "1992",
+        "304"
+       ],
+       [
+        "M-09",
+        "271",
+        "2014",
+        "1030"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Retention rate in the 2021 campaign",
+      "header": [
+       "",
+       "retention rate (%)"
+      ],
+      "rows": [
+       [
+        "R-31",
+        "145.5"
+       ],
+       [
+        "L-08",
+        "32.1"
+       ],
+       [
+        "N-26",
+        "39.2"
+       ],
+       [
+        "B-04",
+        "144.7"
+       ],
+       [
+        "M-09",
+        "41.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-C",
+   "delta": {
+    "retention_rate": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://scholar.example/search?q=A+Stochastic+Model+of+Thermal+Fatigue",
+    "http://scholar.example/work/7c8b18",
+    "http://scholar.example/work/7c8b18/versions"
+   ],
+   "inspect": {
+    "http://scholar.example/work/7c8b18/versions": [
+     "http://review.example/pdf?id=S7c8b181"
+    ]
+   }
+  },
+  {
+   "id": "F2-ACA-006-var1",
+   "role": "variant",
+   "host": "review.example",
+   "path": "/pdf?id=S7c8b181",
+   "url": "http://review.example/pdf?id=S7c8b181",
+   "kind": "file",
+   "site_type": "review",
+   "title": "A Stochastic Model of Thermal Fatigue",
+   "publisher": "Review.example",
+   "date": "2024-04-17",
+   "version_label": "Submitted manuscript under review (ICLRX submission)",
+   "expression": "SMUR",
+   "work_id": "work-7c8b18",
+   "entity": "R-31",
+   "field_label": "retention rate",
+   "unit": "%",
+   "body": {
+    "paragraphs": [
+     "We study thermal fatigue across five monitoring stations using a Bayesian model.",
+     "Authors: Quentin Sørlie, Uri Oyelaran, Noor Ibarra. Published in Glacial Acoustics Quarterly, 2024.",
+     "Table 2 reports the retention rate for each station."
+    ],
+    "table_caption": "Table 2: Retention rate by station",
+    "table_header": [
+     "",
+     "retention rate (%)"
+    ],
+    "table": [
+     [
+      "L-08",
+      "26.1"
+     ],
+     [
+      "N-26",
+      "20.9"
+     ],
+     [
+      "B-04",
+      "23.8"
+     ],
+     [
+      "M-09",
+      "40.0"
+     ],
+     [
+      "R-31",
+      "75.9"
+     ]
+    ]
+   },
+   "cue": "Submission version for ICLRX review; the final version may differ.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# A Stochastic Model of Thermal Fatigue\n# version: Submitted manuscript under review (ICLRX submission)\nentity,retention_rate\nL-08,26.1\nN-26,20.9\nB-04,23.8\nM-09,40.0\nR-31,75.9\n",
+   "file_name": "a-stochastic-model-of-thermal-fatigue-supplement.csv",
+   "sha256": "c21e94cc7afa4f88e8c6a3f895c221e292078984cd01e6f5d4ad87521d38e3ca",
+   "value": "75.9",
+   "cell_value": "75.9",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report retention rate measurements from five monitoring stations collected between 2022 and 2024. A pilot survey in 2019 had put the regional retention rate at 138.8 %; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of thermal fatigue relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2021 campaign are given in Table 3 for comparison and are not directly comparable with the 2024 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the retention rate for each station in the 2024 campaign. The largest change relative to 2021 was observed at station L-08."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Nakamura et al. (2018). [2] Lindgren and Sørlie (2020). [3] Ferreira et al. (2021)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "R-31",
+        "49",
+        "1993",
+        "450"
+       ],
+       [
+        "L-08",
+        "1640",
+        "2010",
+        "857"
+       ],
+       [
+        "N-26",
+        "804",
+        "1993",
+        "1332"
+       ],
+       [
+        "B-04",
+        "674",
+        "1992",
+        "304"
+       ],
+       [
+        "M-09",
+        "271",
+        "2014",
+        "1030"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Retention rate in the 2021 campaign",
+      "header": [
+       "",
+       "retention rate (%)"
+      ],
+      "rows": [
+       [
+        "R-31",
+        "145.5"
+       ],
+       [
+        "L-08",
+        "32.1"
+       ],
+       [
+        "N-26",
+        "39.2"
+       ],
+       [
+        "B-04",
+        "144.7"
+       ],
+       [
+        "M-09",
+        "41.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "variant_type": "V-S",
+   "delta": {
+    "retention_rate": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://scholar.example/search?q=A+Stochastic+Model+of+Thermal+Fatigue",
+    "http://scholar.example/work/7c8b18",
+    "http://scholar.example/work/7c8b18/versions"
+   ],
+   "inspect": {
+    "http://scholar.example/work/7c8b18/versions": []
+   }
+  },
+  {
+   "id": "F2-ACA-006-hub-scholar-meta0",
+   "role": "hub",
+   "host": "researchnet.example",
+   "path": "/record/7c8b18",
+   "url": "http://researchnet.example/record/7c8b18",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "A Stochastic Model of Thermal Fatigue",
+   "publisher": "researchnet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Quentin Sørlie, Uri Oyelaran, Noor Ibarra.",
+     "Glacial Acoustics Quarterly, 2024.",
+     "Full text not available here. Request it from the authors."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F2-ACA-006-hub-scholar-work",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/7c8b18",
+   "url": "http://scholar.example/work/7c8b18",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "A Stochastic Model of Thermal Fatigue",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Quentin Sørlie, Uri Oyelaran, Noor Ibarra.",
+     "Glacial Acoustics Quarterly, 2024.",
+     "Topic: thermal fatigue.",
+     "DOI: 10.5072/7c8b18"
+    ]
+   },
+   "links": [
+    [
+     "http://review.example/pdf/7c8b182c0aa092531062228c2a7d23.pdf",
+     "[HTML] review.example"
+    ],
+    [
+     "http://scholar.example/work/7c8b18/versions",
+     "All 4 versions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F2-ACA-006-hub-scholar-versions",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/7c8b18/versions",
+   "url": "http://scholar.example/work/7c8b18/versions",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "All versions of: A Stochastic Model of Thermal Fatigue",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sources holding this work, as found by the index. Version information is given on each source page."
+    ]
+   },
+   "links": [
+    [
+     "http://review.example/pdf/7c8b182c0aa092531062228c2a7d23.pdf",
+     "A Stochastic Model of Thermal Fatigue - review.example"
+    ],
+    [
+     "http://review.example/pdf?id=S7c8b181",
+     "A Stochastic Model of Thermal Fatigue - review.example"
+    ],
+    [
+     "http://glacial-acoustics-quarterly.example/articles/7c8b18-a-stochastic-model-of-thermal-fatigue/original",
+     "A Stochastic Model of Thermal Fatigue - glacial-acoustics-quarterly.example"
+    ],
+    [
+     "http://researchnet.example/record/7c8b18",
+     "A Stochastic Model of Thermal Fatigue - researchnet.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "version_silent",
+  "signal": "silent",
+  "targets": [
+   "F2-ACA-006-canon"
+  ],
+  "params": {
+   "serve": "F2-ACA-006-var0"
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F2-ACA-006-W1v",
+  "unrecoverable": "F2-ACA-006-W3",
+  "twin": "F2-ACA-006-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://review.example/pdf/7c8b182c0aa092531062228c2a7d23.pdf"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://scholar.example/search?q=A+Stochastic+Model+of+Thermal+Fatigue"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://scholar.example/work/7c8b18"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://scholar.example/work/7c8b18/versions"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://review.example/pdf?id=S7c8b181"
+   },
+   {
+    "tool": "download",
+    "url": "http://glacial-acoustics-quarterly.example/articles/7c8b18-a-stochastic-model-of-thermal-fatigue/original"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "7f41678cd596af0716706909fe6adcd6b1ebccae822c0bfdc6cbe77eb63323e4",
+     "sources": [
+      "http://glacial-acoustics-quarterly.example/articles/7c8b18-a-stochastic-model-of-thermal-fatigue/original"
+     ],
+     "substitutions": [
+      {
+       "url": "http://glacial-acoustics-quarterly.example/articles/7c8b18-a-stochastic-model-of-thermal-fatigue/original",
+       "relation": "other_version",
+       "version_id": "Version of Record before correction (Glacial Acoustics Quarterly)",
+       "note": "This is Version of Record before correction (Glacial Acoustics Quarterly), not the requested version; the retention rate may differ from the requested version."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "7f41678cd596af0716706909fe6adcd6b1ebccae822c0bfdc6cbe77eb63323e4",
+   "sources": [
+    "http://glacial-acoustics-quarterly.example/articles/7c8b18-a-stochastic-model-of-thermal-fatigue/original"
+   ],
+   "substitutions": [
+    {
+     "url": "http://glacial-acoustics-quarterly.example/articles/7c8b18-a-stochastic-model-of-thermal-fatigue/original",
+     "relation": "other_version",
+     "version_id": "Version of Record before correction (Glacial Acoustics Quarterly)",
+     "note": "This is Version of Record before correction (Glacial Acoustics Quarterly), not the requested version; the retention rate may differ from the requested version."
+    }
+   ],
+   "diagnosis": "version",
+   "confidence": 0.6
+  }
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-15",
+ "goal_id": "R-F8-15",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "I'm writing about the early days of Hacker News and use the HN Search API: https://hn.algolia.com/api/v1/items/1\nOn what date (YYYY-MM-DD) was item 1 created? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "2006-10-09",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-15-canon",
+   "role": "canonical",
+   "url": "https://hn.algolia.com/api/v1/items/1",
+   "host": "hn.algolia.com",
+   "path": "/api/v1/items/1",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "hn.algolia.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-15",
+   "value": "2006-10-09",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "{",
+     " \"author\": \"pg\",",
+     " \"children\": [",
+     "  {",
+     "   \"author\": \"sama\",",
+     "   \"children\": [",
+     "    {",
+     "     \"author\": \"pg\",",
+     "     \"children\": [",
+     "      {",
+     "       \"author\": \"dmon\",",
+     "       \"children\": [],",
+     "       \"created_at\": \"2007-02-25T22:18:23.000Z\",",
+     "       \"created_at_i\": 1172441903,",
+     "       \"id\": 1079,",
+     "       \"options\": [],",
+     "       \"parent_id\": 17,",
+     "       \"points\": null,",
+     "       \"story_id\": 1,",
+     "       \"text\": \"sure\",",
+     "       \"title\": null,",
+     "       \"type\": \"comment\",",
+     "       \"url\": null",
+     "      }",
+     "     ],",
+     "     \"created_at\": \"2006-10-09T19:52:45.000Z\",",
+     "     \"created_at_i\": 1160423565,",
+     "     \"id\": 17,",
+     "     \"options\": [],",
+     "     \"parent_id\": 15,"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:51:49Z",
+    "limited": {
+     "text": "{\"message\":\"Too many requests\"}",
+     "content_type": "application/json",
+     "headers": {},
+     "status": 429
+    },
+    "text": "{\n \"author\": \"pg\",\n \"children\": [\n  {\n   \"author\": \"sama\",\n   \"children\": [\n    {\n     \"author\": \"pg\",\n     \"children\": [\n      {\n       \"author\": \"dmon\",\n       \"children\": [],\n       \"created_at\": \"2007-02-25T22:18:23.000Z\",\n       \"created_at_i\": 1172441903,\n       \"id\": 1079,\n       \"options\": [],\n       \"parent_id\": 17,\n       \"points\": null,\n       \"story_id\": 1,\n       \"text\": \"sure\",\n       \"title\": null,\n       \"type\": \"comment\",\n       \"url\": null\n      }\n     ],\n     \"created_at\": \"2006-10-09T19:52:45.000Z\",\n     \"created_at_i\": 1160423565,\n     \"id\": 17,\n     \"options\": [],\n     \"parent_id\": 15,\n     \"points\": null,\n     \"story_id\": 1,\n     \"text\": \"Is there anywhere to eat on Sandhill Road?\",\n     \"title\": null,\n     \"type\": \"comment\",\n     \"url\": null\n    }\n   ],\n   \"created_at\": \"2006-10-09T19:51:01.000Z\",\n   \"created_at_i\": 1160423461,\n   \"id\": 15,\n   \"options\": [],\n   \"parent_id\": 1,\n   \"points\": null,\n   \"story_id\": 1,\n   \"text\": \"&#34;the rising star of venture capital&#34; -unknown VC eating lunch on SHR\",\n   \"title\": null,\n   \"type\": \"comment\",\n   \"url\": null\n  }\n ],\n \"created_at\": \"2006-10-09T18:21:51.000Z\",\n \"created_at_i\": 1160418111,\n \"id\": 1,\n \"options\": [],\n \"parent_id\": null,\n \"points\": 57,\n \"story_id\": 1,\n \"text\": null,\n \"title\": \"Y Combinator\",\n \"type\": \"story\",\n \"url\": \"http://ycombinator.com\"\n}"
+   }
+  },
+  {
+   "id": "R-F8-15-doc0",
+   "role": "context",
+   "url": "https://hn.algolia.com/api",
+   "host": "hn.algolia.com",
+   "path": "/api",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Hacker News Search powered by Algolia",
+   "publisher": "hn.algolia.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-15",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Hacker News Search powered by Algolia"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Hacker News Search powered by Algolia",
+    "text": "Hacker News Search powered by Algolia"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-15-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 60
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:51:49Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://hn.algolia.com/api"
+  ],
+  "documented_limit": []
+ },
+ "oracle_query": "Using the Hacker News Search API, report the date (YYYY-MM-DD) on which Hacker N",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using the Hacker News Search API, report the date (YYYY-MM-DD) on which Hacker N"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://hn.algolia.com/api/v1/items/1"
+   },
+   {
+    "tool": "wait",
+    "seconds": 65
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://hn.algolia.com/api/v1/items/1"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "2006-10-09",
+     "sources": [
+      "https://hn.algolia.com/api/v1/items/1"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

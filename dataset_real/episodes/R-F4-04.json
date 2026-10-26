@@ -1,0 +1,207 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F4-04",
+ "goal_id": "R-F4-04",
+ "family": "F4",
+ "world": "W1a",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm checking which FeynHiggs version a paper's results refer to: \"Precision calculations in the MSSM Higgs-boson sector with FeynHiggs 2.14\" (DOI 10.1016/j.cpc.2019.107099): https://linkinghub.elsevier.com/retrieve/pii/S0010465519304059\nUp to which FeynHiggs release (version number) do the updates described in the paper go? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "up to which FeynHiggs release (version number) the updates described in the paper go",
+  "unit": "",
+  "canonical": "2.14.3",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F4-04-canon",
+   "role": "canonical",
+   "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010465519304059",
+   "host": "linkinghub.elsevier.com",
+   "path": "/retrieve/pii/S0010465519304059",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Precision calculations in the MSSM Higgs-boson sector with FeynHiggs 2.14",
+   "publisher": "linkinghub.elsevier.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F4-04",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Precision calculations in the MSSM Higgs-boson sector with FeynHiggs 2.14",
+    "text": "Redirecting"
+   }
+  },
+  {
+   "id": "R-F4-04-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1016/j.cpc.2019.107099",
+   "host": "doi.org",
+   "path": "/10.1016/j.cpc.2019.107099",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F4-04",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://linkinghub.elsevier.com/retrieve/pii/S0010465519304059"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://linkinghub.elsevier.com/retrieve/pii/S0010465519304059"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://linkinghub.elsevier.com/retrieve/pii/S0010465519304059"
+   }
+  },
+  {
+   "id": "R-F4-04-faith",
+   "role": "faithful",
+   "url": "https://arxiv.org/pdf/1811.09073",
+   "host": "arxiv.org",
+   "path": "/pdf/1811.09073",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Precision calculations in the MSSM Higgs-boson sector with FeynHiggs 2.14",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv (Cornell University) copy of the published version",
+   "work_id": "R-F4-04",
+   "value": "2.14.3",
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Precision calculations in the MSSM Higgs-boson sector with FeynHiggs 2.14",
+     "...",
+     "ßehrd, H. Rzehake, G. Weigleina aDESY, Notkestraße 85, D–22607 Hamburg, Germany bMax-Planck-Institut für Physik, Föhringer Ring 6, D–80805 Munich, Germany cInstituto de Física Teórica, Universidad Autónoma de Madrid Cantoblanco, 28049 Madrid, Spain; Campus of International Excellence UAM+CSIC, Cantoblanco, 28049, Madrid, Spain; Instituto de Física de Cantabria (CSIC-UC), E–39005 Santander, Spain dSorbonne Université, CNRS, Laboratoire de Physique Théorique et Hautes Énergies (LPTHE), 4 Place Jussieu, F–75252 Paris CEDEX 05, France eCP3-Origins, University of Southern Denmark, Odense, Denmark Abstract We present an overview of the status and recent developments of FeynHiggs (current version: 2.14.3) since version 2.12.2. The main purpose of FeynHiggs is the calculation of the Higgs-boson masses and other physical observables in the MSSM. For a precise prediction of the Higgs-boson masses for low and high SUSY scales, state-of-the-art ﬁxed-order and eﬀective-ﬁeld-theory calculations are combined. We ﬁrst discuss im- provements of the ﬁxed-order calculation, namely an optionalDR renormalization of the stop sector and a renormalization of the Higgs sector ensuring the chosen input mass",
+     "..."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Precision calculations in the MSSM Higgs-boson sector with FeynHiggs 2.14",
+    "text": "Precision calculations in the MSSM Higgs-boson sector with FeynHiggs 2.14\n...\nßehrd, H. Rzehake, G. Weigleina aDESY, Notkestraße 85, D–22607 Hamburg, Germany bMax-Planck-Institut für Physik, Föhringer Ring 6, D–80805 Munich, Germany cInstituto de Física Teórica, Universidad Autónoma de Madrid Cantoblanco, 28049 Madrid, Spain; Campus of International Excellence UAM+CSIC, Cantoblanco, 28049, Madrid, Spain; Instituto de Física de Cantabria (CSIC-UC), E–39005 Santander, Spain dSorbonne Université, CNRS, Laboratoire de Physique Théorique et Hautes Énergies (LPTHE), 4 Place Jussieu, F–75252 Paris CEDEX 05, France eCP3-Origins, University of Southern Denmark, Odense, Denmark Abstract We present an overview of the status and recent developments of FeynHiggs (current version: 2.14.3) since version 2.12.2. The main purpose of FeynHiggs is the calculation of the Higgs-boson masses and other physical observables in the MSSM. For a precise prediction of the Higgs-boson masses for low and high SUSY scales, state-of-the-art ﬁxed-order and eﬀective-ﬁeld-theory calculations are combined. We ﬁrst discuss im- provements of the ﬁxed-order calculation, namely an optionalDR renormalization of the stop sector and a renormalization of the Higgs sector ensuring the chosen input mass\n..."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "hard_paywall",
+  "signal": "explicit",
+  "targets": [
+   "R-F4-04-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:36:55Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 200,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; published version at arXiv (Cornell University)"
+ },
+ "oracle_query": "Precision calculations in the MSSM Higgs-boson sector with FeynHiggs 2.14",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Precision calculations in the MSSM Higgs-boson sector with FeynHiggs 2.14"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010465519304059"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/pdf/1811.09073"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "2.14.3",
+     "sources": [
+      "https://arxiv.org/pdf/1811.09073"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/pdf/1811.09073",
+       "relation": "same_version",
+       "version_id": "arXiv (Cornell University) copy of the published version",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "paywall",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

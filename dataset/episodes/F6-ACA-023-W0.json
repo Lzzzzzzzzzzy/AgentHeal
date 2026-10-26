@@ -1,0 +1,831 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F6-ACA-023-W0",
+ "goal_id": "F6-ACA-023",
+ "family": "F6",
+ "world": "W0",
+ "domain": "academic",
+ "task_type": "AA",
+ "goal": "For a replication I'm planning, please get me the supplementary data file (CSV) of Kaczmarek et al. (2025), \"Learning Phoneme Drift\". Here is the link I saved: http://journal-of-cold-region-materials.example/articles/721f4b-learning-phoneme-drift\nPlease download the file and submit it.",
+ "answer": {
+  "kind": "file",
+  "field": "retention rate",
+  "unit": "%",
+  "canonical": "ab2d00a1c375c98eaa39902baf5c20b8750a08014ff5cb6b8cef78ad4defd0d6",
+  "entity": "B-04"
+ },
+ "resources": [
+  {
+   "id": "F6-ACA-023-canon",
+   "role": "canonical",
+   "host": "journal-of-cold-region-materials.example",
+   "path": "/articles/721f4b-learning-phoneme-drift",
+   "url": "http://journal-of-cold-region-materials.example/articles/721f4b-learning-phoneme-drift",
+   "kind": "file",
+   "site_type": "journal",
+   "title": "Learning Phoneme Drift",
+   "publisher": "Journal of Cold-Region Materials",
+   "date": "2025-09-22",
+   "version_label": "Version of Record, Journal of Cold-Region Materials (2025)",
+   "expression": "VoR",
+   "work_id": "work-721f4b",
+   "entity": "B-04",
+   "field_label": "retention rate",
+   "unit": "%",
+   "body": {
+    "paragraphs": [
+     "We study phoneme drift across five monitoring stations using a hierarchical model.",
+     "Authors: Yusuf Kaczmarek, Oskar Nakamura, Priya Mattheus, Vera Brennick. Published in Journal of Cold-Region Materials, 2025.",
+     "Table 2 reports the retention rate for each station."
+    ],
+    "table_caption": "Table 2: Retention rate by station",
+    "table_header": [
+     "",
+     "retention rate (%)"
+    ],
+    "table": [
+     [
+      "R-31",
+      "38.5"
+     ],
+     [
+      "K-17",
+      "23.4"
+     ],
+     [
+      "B-04",
+      "65.7"
+     ],
+     [
+      "N-26",
+      "28.7"
+     ],
+     [
+      "S-12",
+      "42.1"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Learning Phoneme Drift\n# version: Version of Record, Journal of Cold-Region Materials (2025)\nentity,retention_rate\nR-31,38.5\nK-17,23.4\nB-04,65.7\nN-26,28.7\nS-12,42.1\n",
+   "file_name": "learning-phoneme-drift-supplement.csv",
+   "sha256": "ab2d00a1c375c98eaa39902baf5c20b8750a08014ff5cb6b8cef78ad4defd0d6",
+   "value": "65.7",
+   "cell_value": "65.7",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report retention rate measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional retention rate at 27.5 %; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of phoneme drift relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the retention rate for each station in the 2025 campaign. The largest change relative to 2022 was observed at station B-04."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Abernathy et al. (2019). [2] Jovanović and Rasmussen (2021). [3] Petrenko et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "380",
+        "1990",
+        "4176"
+       ],
+       [
+        "R-31",
+        "617",
+        "2005",
+        "1830"
+       ],
+       [
+        "K-17",
+        "542",
+        "1993",
+        "2104"
+       ],
+       [
+        "N-26",
+        "1198",
+        "2006",
+        "403"
+       ],
+       [
+        "S-12",
+        "1364",
+        "2001",
+        "2708"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Retention rate in the 2022 campaign",
+      "header": [
+       "",
+       "retention rate (%)"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "35.5"
+       ],
+       [
+        "R-31",
+        "42.5"
+       ],
+       [
+        "K-17",
+        "89.5"
+       ],
+       [
+        "N-26",
+        "40.6"
+       ],
+       [
+        "S-12",
+        "115.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F6-ACA-023-faith",
+   "role": "faithful",
+   "host": "api.journal-of-cold-region-materials.example",
+   "path": "/v1/records/721f4b/data",
+   "url": "http://api.journal-of-cold-region-materials.example/v1/records/721f4b/data",
+   "kind": "file",
+   "site_type": "api",
+   "title": "Learning Phoneme Drift",
+   "publisher": "Journal of Cold-Region Materials official API",
+   "date": "2025-09-22",
+   "version_label": "Version of Record, Journal of Cold-Region Materials (2025)",
+   "expression": "VoR",
+   "work_id": "work-721f4b",
+   "entity": "B-04",
+   "field_label": "retention rate",
+   "unit": "%",
+   "body": {
+    "paragraphs": [
+     "We study phoneme drift across five monitoring stations using a hierarchical model.",
+     "Authors: Yusuf Kaczmarek, Oskar Nakamura, Priya Mattheus, Vera Brennick. Published in Journal of Cold-Region Materials, 2025.",
+     "Table 2 reports the retention rate for each station."
+    ],
+    "table_caption": "Table 2: Retention rate by station",
+    "table_header": [
+     "",
+     "retention rate (%)"
+    ],
+    "table": [
+     [
+      "R-31",
+      "38.5"
+     ],
+     [
+      "K-17",
+      "23.4"
+     ],
+     [
+      "B-04",
+      "65.7"
+     ],
+     [
+      "N-26",
+      "28.7"
+     ],
+     [
+      "S-12",
+      "42.1"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": -0.6,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Learning Phoneme Drift\n# version: Version of Record, Journal of Cold-Region Materials (2025)\nentity,retention_rate\nR-31,38.5\nK-17,23.4\nB-04,65.7\nN-26,28.7\nS-12,42.1\n",
+   "file_name": "learning-phoneme-drift-supplement.csv",
+   "sha256": "ab2d00a1c375c98eaa39902baf5c20b8750a08014ff5cb6b8cef78ad4defd0d6",
+   "value": "65.7",
+   "cell_value": "65.7",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report retention rate measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional retention rate at 27.5 %; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of phoneme drift relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the retention rate for each station in the 2025 campaign. The largest change relative to 2022 was observed at station B-04."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Abernathy et al. (2019). [2] Jovanović and Rasmussen (2021). [3] Petrenko et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "380",
+        "1990",
+        "4176"
+       ],
+       [
+        "R-31",
+        "617",
+        "2005",
+        "1830"
+       ],
+       [
+        "K-17",
+        "542",
+        "1993",
+        "2104"
+       ],
+       [
+        "N-26",
+        "1198",
+        "2006",
+        "403"
+       ],
+       [
+        "S-12",
+        "1364",
+        "2001",
+        "2708"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Retention rate in the 2022 campaign",
+      "header": [
+       "",
+       "retention rate (%)"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "35.5"
+       ],
+       [
+        "R-31",
+        "42.5"
+       ],
+       [
+        "K-17",
+        "89.5"
+       ],
+       [
+        "N-26",
+        "40.6"
+       ],
+       [
+        "S-12",
+        "115.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_api",
+   "chain": [
+    "http://journal-of-cold-region-materials.example/developers",
+    "http://journal-of-cold-region-materials.example/developers/reference",
+    "http://api.journal-of-cold-region-materials.example/v1/search?q=Learning+Phoneme+Drift",
+    "http://api.journal-of-cold-region-materials.example/v1/records/721f4b"
+   ]
+  },
+  {
+   "id": "F6-ACA-023-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/721f4b-0",
+   "url": "http://catalog0.example/entry/721f4b-0",
+   "kind": "file",
+   "site_type": "blog",
+   "title": "Learning Phoneme Drift - companion study",
+   "publisher": "Different publisher",
+   "date": "2025-09-22",
+   "version_label": "companion entry",
+   "expression": "VoR",
+   "work_id": "work-721f4b",
+   "entity": "B-04",
+   "field_label": "retention rate",
+   "unit": "%",
+   "body": {
+    "paragraphs": [
+     "We study phoneme drift across five monitoring stations using a hierarchical model.",
+     "Authors: Yusuf Kaczmarek, Oskar Nakamura, Priya Mattheus, Vera Brennick. Published in Journal of Cold-Region Materials, 2025.",
+     "Table 2 reports the retention rate for each station."
+    ],
+    "table_caption": "Table 2: Retention rate by station",
+    "table_header": [
+     "",
+     "retention rate (%)"
+    ],
+    "table": [
+     [
+      "R-31",
+      "38.5"
+     ],
+     [
+      "K-17",
+      "23.4"
+     ],
+     [
+      "B-04",
+      "75.0"
+     ],
+     [
+      "N-26",
+      "28.7"
+     ],
+     [
+      "S-12",
+      "42.1"
+     ]
+    ]
+   },
+   "cue": "Note: this page describes a different item than B-04 (Learning Phoneme Drift); scope differs.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# Learning Phoneme Drift\n# version: companion entry\nentity,retention_rate\nR-31,38.5\nK-17,23.4\nB-04,75.0\nN-26,28.7\nS-12,42.1\n",
+   "file_name": "learning-phoneme-drift-supplement.csv",
+   "sha256": "9271b15ca79d52100c20f3488da762d4306268a2da8237df23acdc03bc4bc9bd",
+   "value": "75.0",
+   "cell_value": "75.0",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report retention rate measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional retention rate at 27.5 %; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of phoneme drift relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the retention rate for each station in the 2025 campaign. The largest change relative to 2022 was observed at station B-04."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Abernathy et al. (2019). [2] Jovanović and Rasmussen (2021). [3] Petrenko et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "380",
+        "1990",
+        "4176"
+       ],
+       [
+        "R-31",
+        "617",
+        "2005",
+        "1830"
+       ],
+       [
+        "K-17",
+        "542",
+        "1993",
+        "2104"
+       ],
+       [
+        "N-26",
+        "1198",
+        "2006",
+        "403"
+       ],
+       [
+        "S-12",
+        "1364",
+        "2001",
+        "2708"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Retention rate in the 2022 campaign",
+      "header": [
+       "",
+       "retention rate (%)"
+      ],
+      "rows": [
+       [
+        "B-04",
+        "35.5"
+       ],
+       [
+        "R-31",
+        "42.5"
+       ],
+       [
+        "K-17",
+        "89.5"
+       ],
+       [
+        "N-26",
+        "40.6"
+       ],
+       [
+        "S-12",
+        "115.0"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F6-ACA-023-hub-dev",
+   "role": "hub",
+   "host": "journal-of-cold-region-materials.example",
+   "path": "/developers",
+   "url": "http://journal-of-cold-region-materials.example/developers",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Developers",
+   "publisher": "journal-of-cold-region-materials.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Automated clients must use our API rather than the website.",
+     "See the API reference for endpoints and terms of use."
+    ]
+   },
+   "links": [
+    [
+     "http://journal-of-cold-region-materials.example/developers/reference",
+     "API reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-023-hub-dev-ref",
+   "role": "hub",
+   "host": "journal-of-cold-region-materials.example",
+   "path": "/developers/reference",
+   "url": "http://journal-of-cold-region-materials.example/developers/reference",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "API reference",
+   "publisher": "journal-of-cold-region-materials.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Search records: GET http://api.journal-of-cold-region-materials.example/v1/search?q=<title words>",
+     "Fetch a record: GET http://api.journal-of-cold-region-materials.example/v1/records/<id>",
+     "No key is required for read access."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-023-hub-api-record",
+   "role": "hub",
+   "host": "api.journal-of-cold-region-materials.example",
+   "path": "/v1/records/721f4b",
+   "url": "http://api.journal-of-cold-region-materials.example/v1/records/721f4b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Record 721f4b",
+   "publisher": "api.journal-of-cold-region-materials.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Record 721f4b: Learning Phoneme Drift.",
+     "Publisher: Journal of Cold-Region Materials."
+    ]
+   },
+   "links": [
+    [
+     "http://api.journal-of-cold-region-materials.example/v1/records/721f4b/data",
+     "data"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-023-hub-scholar-meta0",
+   "role": "hub",
+   "host": "inst-repository.example",
+   "path": "/record/721f4b",
+   "url": "http://inst-repository.example/record/721f4b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Learning Phoneme Drift",
+   "publisher": "inst-repository.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Yusuf Kaczmarek, Oskar Nakamura, Priya Mattheus, Vera Brennick.",
+     "Journal of Cold-Region Materials, 2025.",
+     "Metadata only: the full text is under embargo."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-023-hub-scholar-meta1",
+   "role": "hub",
+   "host": "researchnet.example",
+   "path": "/record/721f4b",
+   "url": "http://researchnet.example/record/721f4b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Learning Phoneme Drift",
+   "publisher": "researchnet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Yusuf Kaczmarek, Oskar Nakamura, Priya Mattheus, Vera Brennick.",
+     "Journal of Cold-Region Materials, 2025.",
+     "Full text not available here. Request it from the authors."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-023-hub-scholar-work",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/721f4b",
+   "url": "http://scholar.example/work/721f4b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Learning Phoneme Drift",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Yusuf Kaczmarek, Oskar Nakamura, Priya Mattheus, Vera Brennick.",
+     "Journal of Cold-Region Materials, 2025.",
+     "Topic: phoneme drift.",
+     "DOI: 10.5072/721f4b"
+    ]
+   },
+   "links": [
+    [
+     "http://journal-of-cold-region-materials.example/articles/721f4b-learning-phoneme-drift",
+     "[HTML] journal-of-cold-region-materials.example"
+    ],
+    [
+     "http://scholar.example/work/721f4b/versions",
+     "All 3 versions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-023-hub-scholar-versions",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/721f4b/versions",
+   "url": "http://scholar.example/work/721f4b/versions",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "All versions of: Learning Phoneme Drift",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sources holding this work, as found by the index. Version information is given on each source page."
+    ]
+   },
+   "links": [
+    [
+     "http://journal-of-cold-region-materials.example/articles/721f4b-learning-phoneme-drift",
+     "Learning Phoneme Drift - journal-of-cold-region-materials.example"
+    ],
+    [
+     "http://inst-repository.example/record/721f4b",
+     "Learning Phoneme Drift - inst-repository.example"
+    ],
+    [
+     "http://researchnet.example/record/721f4b",
+     "Learning Phoneme Drift - researchnet.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F6-ACA-023-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F6-ACA-023-W1b",
+  "unrecoverable": "F6-ACA-023-W2",
+  "twin": "F6-ACA-023-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://journal-of-cold-region-materials.example/articles/721f4b-learning-phoneme-drift"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "ab2d00a1c375c98eaa39902baf5c20b8750a08014ff5cb6b8cef78ad4defd0d6",
+     "sources": [
+      "http://journal-of-cold-region-materials.example/articles/721f4b-learning-phoneme-drift"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "ab2d00a1c375c98eaa39902baf5c20b8750a08014ff5cb6b8cef78ad4defd0d6",
+   "sources": [
+    "http://journal-of-cold-region-materials.example/articles/721f4b-learning-phoneme-drift"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

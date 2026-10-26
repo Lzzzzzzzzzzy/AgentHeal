@@ -1,0 +1,569 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F9-DOC-020-W0",
+ "goal_id": "F9-DOC-020",
+ "family": "F9",
+ "world": "W0",
+ "domain": "docs",
+ "task_type": "AA",
+ "goal": "We are deploying sparrowdb v4.1 and I need its official configuration schema file. It should be available from the documentation at http://docs.sparrowdb.example/reference/6408b2-sparrowdb-v4-1-configuration-reference\nPlease download the file and submit it.",
+ "answer": {
+  "kind": "file",
+  "field": "retry backoff base",
+  "unit": "ms",
+  "canonical": "88852e6219fa5e144129635e72e2d6c2a7b331e4dcf893ab384537b32c2f808c",
+  "entity": "backoff_ms"
+ },
+ "resources": [
+  {
+   "id": "F9-DOC-020-canon",
+   "role": "canonical",
+   "host": "docs.sparrowdb.example",
+   "path": "/reference/6408b2-sparrowdb-v4-1-configuration-reference",
+   "url": "http://docs.sparrowdb.example/reference/6408b2-sparrowdb-v4-1-configuration-reference",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "sparrowdb v4.1 configuration reference",
+   "publisher": "sparrowdb project",
+   "date": "2025-04-10",
+   "version_label": "sparrowdb documentation v4.1",
+   "expression": "v4.1",
+   "work_id": "work-6408b2",
+   "entity": "backoff_ms",
+   "field_label": "retry backoff base",
+   "unit": "ms",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for sparrowdb v4.1.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "retry backoff base (ms)"
+    ],
+    "table": [
+     [
+      "backoff_ms",
+      "588"
+     ],
+     [
+      "cache_ttl",
+      "2531"
+     ],
+     [
+      "timeout",
+      "23"
+     ],
+     [
+      "page_limit",
+      "368"
+     ],
+     [
+      "pool_size",
+      "46"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# sparrowdb v4.1 configuration reference\n# version: sparrowdb documentation v4.1\nentity,backoff_ms\nbackoff_ms,588\ncache_ttl,2531\ntimeout,23\npage_limit,368\npool_size,46\n",
+   "file_name": "sparrowdb-v4.1-config-schema.json",
+   "sha256": "88852e6219fa5e144129635e72e2d6c2a7b331e4dcf893ab384537b32c2f808c",
+   "value": "588",
+   "cell_value": "588",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with SPARROWDB_."
+     ],
+     [
+      "Changelog",
+      "v4.0: the default of `cache_ttl` changed from 380 to the value shown below. v3.4: `timeout` deprecated in favour of `backoff_ms`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 983 for `backoff_ms`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_cache_ttl",
+        "v4.0",
+        "cache_ttl"
+       ],
+       [
+        "legacy_timeout",
+        "v4.0",
+        "timeout"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F9-DOC-020-faith",
+   "role": "faithful",
+   "host": "docs.sparrowdb.example",
+   "path": "/reference/6408b2-sparrowdb-v4-1-configuration-reference/alt-format",
+   "url": "http://docs.sparrowdb.example/reference/6408b2-sparrowdb-v4-1-configuration-reference/alt-format",
+   "kind": "file",
+   "site_type": "docs",
+   "title": "sparrowdb v4.1 configuration reference",
+   "publisher": "sparrowdb project",
+   "date": "2025-04-10",
+   "version_label": "sparrowdb documentation v4.1",
+   "expression": "v4.1",
+   "work_id": "work-6408b2",
+   "entity": "backoff_ms",
+   "field_label": "retry backoff base",
+   "unit": "ms",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for sparrowdb v4.1.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "retry backoff base (ms)"
+    ],
+    "table": [
+     [
+      "backoff_ms",
+      "588"
+     ],
+     [
+      "cache_ttl",
+      "2531"
+     ],
+     [
+      "timeout",
+      "23"
+     ],
+     [
+      "page_limit",
+      "368"
+     ],
+     [
+      "pool_size",
+      "46"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# sparrowdb v4.1 configuration reference\n# version: sparrowdb documentation v4.1\nentity,backoff_ms\nbackoff_ms,588\ncache_ttl,2531\ntimeout,23\npage_limit,368\npool_size,46\n",
+   "file_name": "sparrowdb-v4.1-config-schema.json",
+   "sha256": "88852e6219fa5e144129635e72e2d6c2a7b331e4dcf893ab384537b32c2f808c",
+   "value": "588",
+   "cell_value": "588",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with SPARROWDB_."
+     ],
+     [
+      "Changelog",
+      "v4.0: the default of `cache_ttl` changed from 380 to the value shown below. v3.4: `timeout` deprecated in favour of `backoff_ms`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 983 for `backoff_ms`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_cache_ttl",
+        "v4.0",
+        "cache_ttl"
+       ],
+       [
+        "legacy_timeout",
+        "v4.0",
+        "timeout"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "alternative_format",
+   "chain": [
+    "http://docs.sparrowdb.example/site/catalogue/6408b2",
+    "http://docs.sparrowdb.example/site/catalogue/6408b2/formats",
+    "http://docs.sparrowdb.example/site/catalogue/6408b2/formats/0"
+   ],
+   "site_search": false
+  },
+  {
+   "id": "F9-DOC-020-dec0",
+   "role": "decoy",
+   "host": "filedump.example",
+   "path": "/f/6408b20",
+   "url": "http://filedump.example/f/6408b20",
+   "kind": "file",
+   "site_type": "cache",
+   "title": "sparrowdb v4.1 configuration reference",
+   "publisher": "unknown uploader",
+   "date": "unknown",
+   "version_label": "unknown version",
+   "expression": "v4.1",
+   "work_id": "work-6408b2",
+   "entity": "backoff_ms",
+   "field_label": "retry backoff base",
+   "unit": "ms",
+   "body": {
+    "paragraphs": [
+     "This page documents configuration options for sparrowdb v4.1.",
+     "Defaults apply when an option is not set."
+    ],
+    "table_caption": "Configuration options and defaults",
+    "table_header": [
+     "",
+     "retry backoff base (ms)"
+    ],
+    "table": [
+     [
+      "backoff_ms",
+      "672"
+     ],
+     [
+      "cache_ttl",
+      "2531"
+     ],
+     [
+      "timeout",
+      "23"
+     ],
+     [
+      "page_limit",
+      "368"
+     ],
+     [
+      "pool_size",
+      "46"
+     ]
+    ]
+   },
+   "cue": "Uploaded copy with no source, date or version information.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "file_text": "# sparrowdb v4.1 configuration reference\n# version: unknown version\nentity,backoff_ms\nbackoff_ms,672\ncache_ttl,2531\ntimeout,23\npage_limit,368\npool_size,46\n",
+   "file_name": "sparrowdb-v4.1-config-schema.json",
+   "sha256": "c513b48ca338cfd44bd3c9c33ad306abd45df8a5822c4af99ad994d65b15b216",
+   "value": "672",
+   "cell_value": "672",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Overview",
+      "Options can be set in the configuration file, as keyword arguments, or through environment variables prefixed with SPARROWDB_."
+     ],
+     [
+      "Changelog",
+      "v4.0: the default of `cache_ttl` changed from 380 to the value shown below. v3.4: `timeout` deprecated in favour of `backoff_ms`."
+     ],
+     [
+      "Notes",
+      "Defaults differ between minor versions; check the documentation for the version you run. The example configuration in the tutorial uses 983 for `backoff_ms`."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Deprecated options",
+      "header": [
+       "Option",
+       "Removed in",
+       "Use instead"
+      ],
+      "rows": [
+       [
+        "legacy_cache_ttl",
+        "v4.0",
+        "cache_ttl"
+       ],
+       [
+        "legacy_timeout",
+        "v4.0",
+        "timeout"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-U"
+  },
+  {
+   "id": "F9-DOC-020-hub-catalogue",
+   "role": "hub",
+   "host": "docs.sparrowdb.example",
+   "path": "/site/catalogue/6408b2",
+   "url": "http://docs.sparrowdb.example/site/catalogue/6408b2",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Catalogue entry: sparrowdb v4.1 configuration reference",
+   "publisher": "docs.sparrowdb.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Formats and access points for this item."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.sparrowdb.example/site/catalogue/6408b2/formats",
+     "Available formats"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F9-DOC-020-hub-format0",
+   "role": "hub",
+   "host": "docs.sparrowdb.example",
+   "path": "/site/catalogue/6408b2/formats/0",
+   "url": "http://docs.sparrowdb.example/site/catalogue/6408b2/formats/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Alternative format: sparrowdb v4.1 configuration reference",
+   "publisher": "docs.sparrowdb.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Alternative format of this item.",
+     "Access is free; no download of the original file is offered."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.sparrowdb.example/reference/6408b2-sparrowdb-v4-1-configuration-reference/alt-format",
+     "Open"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F9-DOC-020-hub-formats",
+   "role": "hub",
+   "host": "docs.sparrowdb.example",
+   "path": "/site/catalogue/6408b2/formats",
+   "url": "http://docs.sparrowdb.example/site/catalogue/6408b2/formats",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Available formats",
+   "publisher": "docs.sparrowdb.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Formats in which this item is distributed."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.sparrowdb.example/site/catalogue/6408b2/formats/0",
+     "Alternative format"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F9-DOC-020-hub-pkg-project",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/sparrowdb",
+   "url": "http://pkgindex.example/project/sparrowdb",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "sparrowdb",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "sparrowdb - sparrowdb project.",
+     "Releases, source code and documentation links."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.sparrowdb.example/",
+     "Homepage"
+    ],
+    [
+     "http://pkgindex.example/project/sparrowdb/docs",
+     "Documentation (all versions)"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F9-DOC-020-hub-pkg-docs",
+   "role": "hub",
+   "host": "pkgindex.example",
+   "path": "/project/sparrowdb/docs",
+   "url": "http://pkgindex.example/project/sparrowdb/docs",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "sparrowdb documentation",
+   "publisher": "pkgindex.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Hosted documentation by version."
+    ]
+   },
+   "links": [
+    [
+     "http://docs.sparrowdb.example/reference/6408b2-sparrowdb-v4-1-configuration-reference",
+     "v4.1 - docs.sparrowdb.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F9-DOC-020-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F9-DOC-020-W1b",
+  "unrecoverable": "F9-DOC-020-W2",
+  "twin": "F9-DOC-020-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "download",
+    "url": "http://docs.sparrowdb.example/reference/6408b2-sparrowdb-v4-1-configuration-reference"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "88852e6219fa5e144129635e72e2d6c2a7b331e4dcf893ab384537b32c2f808c",
+     "sources": [
+      "http://docs.sparrowdb.example/reference/6408b2-sparrowdb-v4-1-configuration-reference"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "88852e6219fa5e144129635e72e2d6c2a7b331e4dcf893ab384537b32c2f808c",
+   "sources": [
+    "http://docs.sparrowdb.example/reference/6408b2-sparrowdb-v4-1-configuration-reference"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

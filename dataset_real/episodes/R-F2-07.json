@@ -1,0 +1,262 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-07",
+ "goal_id": "R-F2-07",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm reproducing a baseline from \"MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels\" (IEEE Transactions on Image Processing, 2022; DOI 10.1109/tip.2022.3183841) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/9804221/\nIn the table \"Test accuracies on Clothing1M dataset. All results are taken from the corresponding paper\", what value is reported for \"MLC [ 46 ]\" in the column \"acc\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "MLC [ 46 ] / acc",
+  "unit": "",
+  "canonical": "71.10",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-07-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/9804221/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/9804221/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-07",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F2-07-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/tip.2022.3183841",
+   "host": "doi.org",
+   "path": "/10.1109/tip.2022.3183841",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-07",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/9804221/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9804221/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9804221/"
+   }
+  },
+  {
+   "id": "R-F2-07-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2103.10869",
+   "host": "arxiv.org",
+   "path": "/html/2103.10869",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2103.10869 (submitted version)",
+   "work_id": "R-F2-07",
+   "value": "71.10",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels",
+     "arXiv:2103.10869 [preprint]",
+     "TABLE II: Test accuracies on Clothing1M dataset. All results are taken from the corresponding paper.",
+     "MLC [ 46 ] 71.10 Meta-Weight [ 36 ] 73.72 Joint Opt. [ 11 ] 72.23 NoiseRank [ 47 ] 73.77 MetaCleaner [ 48 ] 72.50 Anchor points [ 18 ] 74.18 SafeGuarded [ 49 ] 73.07 CleanNet [ 30 ] 74.69 MLNT [ 33 ] 73.47 MSLG [ 37 ] 76.02 PENCIL [ 12 ] 73.49 Ours 78.20"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels",
+    "tables": [
+     {
+      "caption": "TABLE II: Test accuracies on Clothing1M dataset. All results are taken from the corresponding paper.",
+      "header": [
+       "method",
+       "acc",
+       "method",
+       "acc"
+      ],
+      "rows": [
+       [
+        "MLC [ 46 ]",
+        "71.10",
+        "Meta-Weight [ 36 ]",
+        "73.72"
+       ],
+       [
+        "Joint Opt. [ 11 ]",
+        "72.23",
+        "NoiseRank [ 47 ]",
+        "73.77"
+       ],
+       [
+        "MetaCleaner [ 48 ]",
+        "72.50",
+        "Anchor points [ 18 ]",
+        "74.18"
+       ],
+       [
+        "SafeGuarded [ 49 ]",
+        "73.07",
+        "CleanNet [ 30 ]",
+        "74.69"
+       ],
+       [
+        "MLNT [ 33 ]",
+        "73.47",
+        "MSLG [ 37 ]",
+        "76.02"
+       ],
+       [
+        "PENCIL [ 12 ]",
+        "73.49",
+        "Ours",
+        "78.20"
+       ]
+      ]
+     }
+    ],
+    "text": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels\narXiv:2103.10869 [preprint]\nTABLE II: Test accuracies on Clothing1M dataset. All results are taken from the corresponding paper."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-07-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:13:26Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/9804221/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2103.10869"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "71.10",
+     "sources": [
+      "https://arxiv.org/html/2103.10869"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2103.10869",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2103.10869 (submitted version)",
+       "note": "This is arXiv preprint 2103.10869 (submitted version), not the requested version; the MLC [ 46 ] / acc may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

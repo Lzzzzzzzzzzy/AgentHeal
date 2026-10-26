@@ -1,0 +1,16 @@
+[project]
+name = "agentheal"
+version = "0.1.0"
+description = "AgentHeal: Evaluating Goal-Preserving Resource Recovery of Web Agents under Access Barriers"
+requires-python = ">=3.10"
+dependencies = []
+[project.optional-dependencies]
+agents = ["playwright>=1.40"]
+stats = ["numpy", "pandas", "statsmodels"]
+[project.scripts]
+agentheal = "agentheal.cli:main"
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools.packages.find]
+include = ["agentheal*"]

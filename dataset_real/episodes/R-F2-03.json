@@ -1,0 +1,280 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-03",
+ "goal_id": "R-F2-03",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm citing the published version of \"AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer\" (IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025; DOI 10.1109/tpami.2025.3633828) in a paper and need one number from it. The publisher's page is https://ieeexplore.ieee.org/document/11250956/\nIn the table \"The prompt name and image count of each species in CtrlAVES3D\", what value is reported for \"Laysan albatross\" in the column \"Count\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "Laysan albatross / Count",
+  "unit": "",
+  "canonical": "494",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-03-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/11250956/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/11250956/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-03",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F2-03-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/tpami.2025.3633828",
+   "host": "doi.org",
+   "path": "/10.1109/tpami.2025.3633828",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-03",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/11250956/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/11250956/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/11250956/"
+   }
+  },
+  {
+   "id": "R-F2-03-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2508.00298",
+   "host": "arxiv.org",
+   "path": "/html/2508.00298",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2508.00298 (submitted version)",
+   "work_id": "R-F2-03",
+   "value": "494",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer",
+     "arXiv:2508.00298 [preprint]",
+     "TABLE II: The prompt name and image count of each species in CtrlAVES3D.",
+     "Laysan albatross 501 Painted bunting 494 Cardinal 447 American crow 414 Northern flicker 441 Scissor tailed flycatcher 264 Boat tailed grackle 334 Evening grosbeak 363 California gull 394 Blue jay 370 Green kingfisher 487 White breasted kingfisher 501 Mallard 287 Horned puffin 330 Geococcyx 305 Cedar waxwing 467 Pileated woodpecker 374 Total 6773"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer",
+    "tables": [
+     {
+      "caption": "TABLE II: The prompt name and image count of each species in CtrlAVES3D.",
+      "header": [
+       "Prompt Names",
+       "Count",
+       "Prompt Names",
+       "Count"
+      ],
+      "rows": [
+       [
+        "Laysan albatross",
+        "501",
+        "Painted bunting",
+        "494"
+       ],
+       [
+        "Cardinal",
+        "447",
+        "American crow",
+        "414"
+       ],
+       [
+        "Northern flicker",
+        "441",
+        "Scissor tailed flycatcher",
+        "264"
+       ],
+       [
+        "Boat tailed grackle",
+        "334",
+        "Evening grosbeak",
+        "363"
+       ],
+       [
+        "California gull",
+        "394",
+        "Blue jay",
+        "370"
+       ],
+       [
+        "Green kingfisher",
+        "487",
+        "White breasted kingfisher",
+        "501"
+       ],
+       [
+        "Mallard",
+        "287",
+        "Horned puffin",
+        "330"
+       ],
+       [
+        "Geococcyx",
+        "305",
+        "Cedar waxwing",
+        "467"
+       ],
+       [
+        "Pileated woodpecker",
+        "374",
+        "Total",
+        "6773"
+       ]
+      ]
+     }
+    ],
+    "text": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer\narXiv:2508.00298 [preprint]\nTABLE II: The prompt name and image count of each species in CtrlAVES3D."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-03-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:02:19Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/11250956/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2508.00298"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "494",
+     "sources": [
+      "https://arxiv.org/html/2508.00298"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2508.00298",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2508.00298 (submitted version)",
+       "note": "This is arXiv preprint 2508.00298 (submitted version), not the requested version; the Laysan albatross / Count may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

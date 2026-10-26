@@ -1,0 +1,212 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-08",
+ "goal_id": "R-F1-08",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm writing a short history of the InterContinental Carlton Cannes and want to use the hotel's own 100th-anniversary history pages: http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946\nIn which year was the hotel inaugurated? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "year inaugurated",
+  "unit": "",
+  "canonical": "1913",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-08-canon",
+   "role": "canonical",
+   "url": "http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946",
+   "host": "www.intercontinental-carlton-cannes.com",
+   "path": "/en/100th-anniversary/history/1946",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "302 Moved",
+   "publisher": "www.intercontinental-carlton-cannes.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-08",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "302 Moved"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "http://yfdabv11.com/?dn=www.intercontinental-carlton-cannes.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504"
+    },
+    "title": "302 Moved",
+    "observed_at": "2026-10-16T18:15:14Z",
+    "text": "Moved: http://yfdabv11.com/?dn=www.intercontinental-carlton-cannes.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504"
+   }
+  },
+  {
+   "id": "R-F1-08-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20131020200436/http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946",
+   "host": "web.archive.org",
+   "path": "/web/20131020200436/http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "History - Intercontinental Carlton Cannes",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2013-10-20",
+   "work_id": "R-F1-08",
+   "value": "1913",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Film 100 th anniversary",
+     "The InterContinental Carlton was inaugurated in 1913. In 2012, this Belle Epoque building is still just as superb as ever and the passing years have imbued it with an aura characteristic of exceptional sites. Let us celebrate this milestone anniversary together in style.",
+     "ST CANNES. FILM FESTIVAL\" border=\"0\" src=\"https://web.archive.org/web/20131020200436im_/http://www.intercontinental-carlton-cannes.com/files/visuel/276125433_1946.jpg\"/>"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "History - Intercontinental Carlton Cannes",
+    "memento": "20131020200436",
+    "original": "http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946",
+    "text": "Film 100 th anniversary\nThe InterContinental Carlton was inaugurated in 1913. In 2012, this Belle Epoque building is still just as superb as ever and the passing years have imbued it with an aura characteristic of exceptional sites. Let us celebrate this milestone anniversary together in style.\nST CANNES. FILM FESTIVAL\" border=\"0\" src=\"https://web.archive.org/web/20131020200436im_/http://www.intercontinental-carlton-cannes.com/files/visuel/276125433_1946.jpg\"/>"
+   }
+  },
+  {
+   "id": "R-F1-08-home",
+   "role": "context",
+   "url": "http://yfdabv11.com/?dn=www.intercontinental-carlton-cannes.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504",
+   "host": "yfdabv11.com",
+   "path": "/?dn=www.intercontinental-carlton-cannes.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Home",
+   "publisher": "yfdabv11.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-08",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Home page."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Home",
+    "text": "Home page."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "redirect_home",
+  "signal": "ambiguous",
+  "targets": [
+   "R-F1-08-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:15:14Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 302,
+   "class": "redirect_home",
+   "location": "http://yfdabv11.com/?dn=www.intercontinental-carlton-cannes.com&accid=228450093&spfwd=1&spmsg=nschttp%3A504",
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Cannes Film Festival'",
+  "archive_url": "https://web.archive.org/web/20131020200436/http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946"
+ },
+ "oracle_query": "1st Cannes Film Festival",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "1st Cannes Film Festival"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20131020200436/http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "1913",
+     "sources": [
+      "https://web.archive.org/web/20131020200436/http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20131020200436/http://www.intercontinental-carlton-cannes.com/en/100th-anniversary/history/1946",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2013-10-20",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

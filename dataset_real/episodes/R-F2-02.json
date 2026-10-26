@@ -1,0 +1,283 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F2-02",
+ "goal_id": "R-F2-02",
+ "family": "F2",
+ "world": "W1v",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "My reading group is discussing \"FedForgery: Generalized Face Forgery Detection With Residual Federated Learning\" (IEEE Transactions on Information Forensics and Security, 2023; DOI 10.1109/tifs.2023.3293951), and I want to quote a result from the published version: https://ieeexplore.ieee.org/document/10177776/\nIn the table whose caption begins \"Evaluation accuracy rate (in %) and area under the receiver operating characteristic curve (in %) of forgery\", what value is reported for \"KNN [ 50 ]\" in the column \"Accuracy(%)\"? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "KNN [ 50 ] / Accuracy(%)",
+  "unit": "",
+  "canonical": "53.23",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F2-02-canon",
+   "role": "canonical",
+   "url": "https://ieeexplore.ieee.org/document/10177776/",
+   "host": "ieeexplore.ieee.org",
+   "path": "/document/10177776/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning",
+   "publisher": "ieeexplore.ieee.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-02",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [],
+    "table": []
+   },
+   "recorded": {
+    "status": 202,
+    "title": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning",
+    "text": ""
+   }
+  },
+  {
+   "id": "R-F2-02-doi",
+   "role": "context",
+   "url": "https://doi.org/10.1109/tifs.2023.3293951",
+   "host": "doi.org",
+   "path": "/10.1109/tifs.2023.3293951",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Redirect",
+   "publisher": "doi.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F2-02",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Redirecting to https://ieeexplore.ieee.org/document/10177776/"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/10177776/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/10177776/"
+   }
+  },
+  {
+   "id": "R-F2-02-var0",
+   "role": "variant",
+   "url": "https://arxiv.org/html/2210.09563",
+   "host": "arxiv.org",
+   "path": "/html/2210.09563",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning",
+   "publisher": "arxiv.org",
+   "date": "",
+   "version_label": "arXiv preprint 2210.09563 (submitted version)",
+   "work_id": "R-F2-02",
+   "value": "53.23",
+   "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+   "delta": {
+    "value": {
+     "differs": null,
+     "observable": false
+    }
+   },
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning",
+     "arXiv:2210.09563 [preprint]",
+     "TABLE I: Evaluation accuracy rate (in %) and area under the receiver operating characteristic curve (in %) of forgery detection performance on constructed hybrid-domain forgery dataset by several state-of-the-art methods. The best result is displayed in black font and the second place is underlined.",
+     " Without Considering Privacy Issue KNN [ 50 ] 53.23 55.01 CNNDetection 1 [ 51 ] 74.73 83.36 Xception [ 52 ] 76.31 86.06 CNNDetection 2 [ 51 ] 78.21 88.05 RECCE [ 22 ] 85.03 92.75 GFFD [ 53 ] 86.56 93.21 RFM [ 54 ] 83.85 92.73 DCL [ 55 ] 86.82 94.48 FedForgery* (Ours) 87.36 93.23  Considering Privacy Issue FedForgery (Ours) 85.55 91.12"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning",
+    "tables": [
+     {
+      "caption": "TABLE I: Evaluation accuracy rate (in %) and area under the receiver operating characteristic curve (in %) of forgery detection performance on constructed hybrid-domain forgery dataset by several stat",
+      "header": [
+       "Methods",
+       "Accuracy(%)",
+       "AUC(%)"
+      ],
+      "rows": [
+       [
+        "",
+        "Without Considering Privacy Issue"
+       ],
+       [
+        "KNN [ 50 ]",
+        "53.23",
+        "55.01"
+       ],
+       [
+        "CNNDetection 1 [ 51 ]",
+        "74.73",
+        "83.36"
+       ],
+       [
+        "Xception [ 52 ]",
+        "76.31",
+        "86.06"
+       ],
+       [
+        "CNNDetection 2 [ 51 ]",
+        "78.21",
+        "88.05"
+       ],
+       [
+        "RECCE [ 22 ]",
+        "85.03",
+        "92.75"
+       ],
+       [
+        "GFFD [ 53 ]",
+        "86.56",
+        "93.21"
+       ],
+       [
+        "RFM [ 54 ]",
+        "83.85",
+        "92.73"
+       ],
+       [
+        "DCL [ 55 ]",
+        "86.82",
+        "94.48"
+       ],
+       [
+        "FedForgery* (Ours)",
+        "87.36",
+        "93.23"
+       ],
+       [
+        "",
+        "Considering Privacy Issue"
+       ],
+       [
+        "FedForgery (Ours)",
+        "85.55",
+        "91.12"
+       ]
+      ]
+     }
+    ],
+    "text": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning\narXiv:2210.09563 [preprint]\nTABLE I: Evaluation accuracy rate (in %) and area under the receiver operating characteristic curve (in %) of forgery detection performance on constructed hybrid-domain forgery dataset by several state-of-the-art methods. The best result is displayed in black font and the second place is underlined."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "vor_paywalled",
+  "signal": "explicit",
+  "targets": [
+   "R-F2-02-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "DV"
+  ],
+  "route": "variant",
+  "must_disclose": [
+   "version_id",
+   "not_requested_version"
+  ]
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T19:02:15Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "publisher_response": {
+   "status": 202,
+   "paywall_markers": []
+  },
+  "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+ },
+ "oracle_query": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ieeexplore.ieee.org/document/10177776/"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://arxiv.org/html/2210.09563"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "53.23",
+     "sources": [
+      "https://arxiv.org/html/2210.09563"
+     ],
+     "substitutions": [
+      {
+       "url": "https://arxiv.org/html/2210.09563",
+       "relation": "other_version",
+       "version_id": "arXiv preprint 2210.09563 (submitted version)",
+       "note": "This is arXiv preprint 2210.09563 (submitted version), not the requested version; the KNN [ 50 ] / Accuracy(%) may differ from the requested one."
+      }
+     ],
+     "diagnosis": "version",
+     "confidence": 0.6
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F8-02",
+ "goal_id": "R-F8-02",
+ "family": "F8",
+ "world": "W1a",
+ "domain": "api",
+ "task_type": "IR",
+ "goal": "I'm geocoding landmarks for a map with OpenStreetMap's Nominatim: https://nominatim.openstreetmap.org/search?q=Brandenburger+Tor,+Berlin&format=json&limit=1\nWhat is the OSM id of the Brandenburg Gate in Berlin? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "fact",
+  "unit": "",
+  "canonical": "518071791",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F8-02-canon",
+   "role": "canonical",
+   "url": "https://nominatim.openstreetmap.org/search?q=Brandenburger+Tor,+Berlin&format=json&limit=1",
+   "host": "nominatim.openstreetmap.org",
+   "path": "/search?q=Brandenburger+Tor,+Berlin&format=json&limit=1",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "API response",
+   "publisher": "nominatim.openstreetmap.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-02",
+   "value": "518071791",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": true,
+   "body": {
+    "paragraphs": [
+     "[",
+     " {",
+     "  \"place_id\": 145792549,",
+     "  \"licence\": \"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",",
+     "  \"osm_type\": \"way\",",
+     "  \"osm_id\": 518071791,",
+     "  \"lat\": \"52.5162699\",",
+     "  \"lon\": \"13.3777034\",",
+     "  \"class\": \"tourism\",",
+     "  \"type\": \"attraction\",",
+     "  \"place_rank\": 30,",
+     "  \"importance\": 0.5504719991549523,",
+     "  \"addresstype\": \"tourism\",",
+     "  \"name\": \"Brandenburger Tor\",",
+     "  \"display_name\": \"Brandenburger Tor, 1, Pariser Platz, Friedrich-Wilhelm-Stadt, Mitte, Berlin, 10117, Deutschland\",",
+     "  \"boundingbox\": [",
+     "   \"52.5161170\",",
+     "   \"52.5164328\",",
+     "   \"13.3775798\",",
+     "   \"13.3778251\"",
+     "  ]",
+     " }",
+     "]"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "title": "API response",
+    "observed_at": "2026-10-16T18:50:58Z",
+    "limited": {
+     "text": "Too Many Requests. Nominatim usage policy: an absolute maximum of 1 request per second.",
+     "content_type": "text/plain",
+     "headers": {},
+     "status": 429
+    },
+    "text": "[\n {\n  \"place_id\": 145792549,\n  \"licence\": \"Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright\",\n  \"osm_type\": \"way\",\n  \"osm_id\": 518071791,\n  \"lat\": \"52.5162699\",\n  \"lon\": \"13.3777034\",\n  \"class\": \"tourism\",\n  \"type\": \"attraction\",\n  \"place_rank\": 30,\n  \"importance\": 0.5504719991549523,\n  \"addresstype\": \"tourism\",\n  \"name\": \"Brandenburger Tor\",\n  \"display_name\": \"Brandenburger Tor, 1, Pariser Platz, Friedrich-Wilhelm-Stadt, Mitte, Berlin, 10117, Deutschland\",\n  \"boundingbox\": [\n   \"52.5161170\",\n   \"52.5164328\",\n   \"13.3775798\",\n   \"13.3778251\"\n  ]\n }\n]"
+   }
+  },
+  {
+   "id": "R-F8-02-doc0",
+   "role": "context",
+   "url": "https://operations.osmfoundation.org/policies/nominatim/",
+   "host": "operations.osmfoundation.org",
+   "path": "/policies/nominatim/",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Nominatim Usage Policy (aka Geocoding Policy)",
+   "publisher": "operations.osmfoundation.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F8-02",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Nominatim Usage Policy (aka Geocoding Policy) ",
+     " Toggle navigation ",
+     " OSMF OWG ",
+     " Home ",
+     " Reports ",
+     " Post-mortems ",
+     " Policies ",
+     " Meetings ",
+     "Nominatim Usage Policy (aka Geocoding Policy) ",
+     " This is an Acceptable Use Policy for the server running at nominatim.openstreetmap.org and does not apply to nominatim services run by yourself or other organisations ",
+     "OSM’s Nominatim service is mainly there to power the search bar on openstreetmap.org . We are in principle happy for the public API to be used by external users for creative and unexpected uses. However, be aware that the service runs on donated servers and has a very limited capacity. We therefore ask you to limit your use and adhere to this usage policy. ",
+     "Use of any OSMF provided service is further governed by the OSMF Terms of Use . ",
+     "Requirements ",
+     "No heavy uses (an absolute maximum of 1 request per second ). ",
+     "Provide a valid HTTP Referer or User-Agent identifying the application (stock User-Agents as set by http libraries will not do). ",
+     "Clearly display attribution as suitable for your medium. ",
+     "Data is provided under the ODbL license which requires to share alike (although small extractions are likely to be covered by fair usage / fair dealing). ",
+     "Websites and Apps ",
+     "Use that is directly triggered by the end-user (for example, user searches for something) is ok, provided that your number of users is moderate. Note that the usage limits above apply per website/application : the sum of traffic by all your users should not exceed the limits. ",
+     "Apps must make sure that they can switch the service at our request at any time (in particular, switching should be possible without requiring a software update). If at all possible, set up a proxy and also enable caching of requests. ",
+     " Note: periodic requests from apps are considered bulk geocoding and as such are strongly discouraged. It may be okay if your app has very few users and applies appropriate caching of results. Make sure you stay well below the API usage limits. ",
+     "Bulk Geocoding ",
+     "As a general rule, bulk geocoding of larger amounts of data is not encouraged. If you have regular geocoding tasks, please, look into alternatives below. Smaller one-time bulk tasks may be permissible, if these additional rules are followed ",
+     "limit your requests to a single thread ",
+     "limited to 1 machine only, no distributed scripts (including multiple Amazon EC2 instances or similar) ",
+     "Scripts running longer than a day and scripts that are run at regular intervals are restricted to 4 requests per minute . ",
+     "Results must be cached on your side. Clients sending repeatedly the same query may be classified as faulty and blocked. ",
+     "Usage in LLMs ",
+     "LLMs may only suggest this service, if they prominently point to this usage policy and explain the restrictions of use to the user. Code generated by LLMs must adhere to all terms laid out in this policy. ",
+     "The public Nominatim API must not be built into, offered through, suggested by, or automatically generated by no-code, low-code, or vibe-coding p"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Nominatim Usage Policy (aka Geocoding Policy)",
+    "text": "Nominatim Usage Policy (aka Geocoding Policy) \n Toggle navigation \n OSMF OWG \n Home \n Reports \n Post-mortems \n Policies \n Meetings \nNominatim Usage Policy (aka Geocoding Policy) \n This is an Acceptable Use Policy for the server running at nominatim.openstreetmap.org and does not apply to nominatim services run by yourself or other organisations \nOSM’s Nominatim service is mainly there to power the search bar on openstreetmap.org . We are in principle happy for the public API to be used by external users for creative and unexpected uses. However, be aware that the service runs on donated servers and has a very limited capacity. We therefore ask you to limit your use and adhere to this usage policy. \nUse of any OSMF provided service is further governed by the OSMF Terms of Use . \nRequirements \nNo heavy uses (an absolute maximum of 1 request per second ). \nProvide a valid HTTP Referer or User-Agent identifying the application (stock User-Agents as set by http libraries will not do). \nClearly display attribution as suitable for your medium. \nData is provided under the ODbL license which requires to share alike (although small extractions are likely to be covered by fair usage / fair dealing). \nWebsites and Apps \nUse that is directly triggered by the end-user (for example, user searches for something) is ok, provided that your number of users is moderate. Note that the usage limits above apply per website/application : the sum of traffic by all your users should not exceed the limits. \nApps must make sure that they can switch the service at our request at any time (in particular, switching should be possible without requiring a software update). If at all possible, set up a proxy and also enable caching of requests. \n Note: periodic requests from apps are considered bulk geocoding and as such are strongly discouraged. It may be okay if your app has very few users and applies appropriate caching of results. Make sure you stay well below the API usage limits. \nBulk Geocoding \nAs a general rule, bulk geocoding of larger amounts of data is not encouraged. If you have regular geocoding tasks, please, look into alternatives below. Smaller one-time bulk tasks may be permissible, if these additional rules are followed \nlimit your requests to a single thread \nlimited to 1 machine only, no distributed scripts (including multiple Amazon EC2 instances or similar) \nScripts running longer than a day and scripts that are run at regular intervals are restricted to 4 requests per minute . \nResults must be cached on your side. Clients sending repeatedly the same query may be classified as faulty and blocked. \nUsage in LLMs \nLLMs may only suggest this service, if they prominently point to this usage policy and explain the restrictions of use to the user. Code generated by LLMs must adhere to all terms laid out in this policy. \nThe public Nominatim API must not be built into, offered through, suggested by, or automatically generated by no-code, low-code, or vibe-coding p"
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "rate_429",
+  "signal": "explicit",
+  "targets": [
+   "R-F8-02-canon"
+  ],
+  "params": {
+   "recovers": true,
+   "retry_after": 60
+  }
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "wait_retry",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:50:58Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "throttling": "replayed from the API's documentation",
+  "docs": [
+   "https://operations.osmfoundation.org/policies/nominatim/"
+  ],
+  "documented_limit": []
+ },
+ "oracle_query": "Using OpenStreetMap's Nominatim geocoder, report the OSM id of the Brandenburg G",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Using OpenStreetMap's Nominatim geocoder, report the OSM id of the Brandenburg G"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://nominatim.openstreetmap.org/search?q=Brandenburger+Tor,+Berlin&format=json&limit=1"
+   },
+   {
+    "tool": "wait",
+    "seconds": 65
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://nominatim.openstreetmap.org/search?q=Brandenburger+Tor,+Berlin&format=json&limit=1"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "518071791",
+     "sources": [
+      "https://nominatim.openstreetmap.org/search?q=Brandenburger+Tor,+Berlin&format=json&limit=1"
+     ],
+     "substitutions": [],
+     "diagnosis": "429; waited for the rate limit to reset",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

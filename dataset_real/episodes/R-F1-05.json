@@ -1,0 +1,178 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-05",
+ "goal_id": "R-F1-05",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "I'm looking into the Tribeca Film Festival's economic impact; a Wikipedia article cites this Downtown Express piece: http://www.downtownexpress.com/de_53/businessessaybusiness.html\nHow many more tickets were sold than in the previous year? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "ticket increase",
+  "unit": "tickets",
+  "canonical": "17,000",
+  "entity": "",
+  "derived_from": [
+   "80,000",
+   "63,000"
+  ],
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-05-canon",
+   "role": "canonical",
+   "url": "http://www.downtownexpress.com/de_53/businessessaybusiness.html",
+   "host": "www.downtownexpress.com",
+   "path": "/de_53/businessessaybusiness.html",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Site is not available",
+   "publisher": "www.downtownexpress.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-05",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Site is not available"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "title": "Site is not available",
+    "observed_at": "2026-10-16T18:17:18Z",
+    "text": "Site is not available \nSite is not available \n The domain name in the URL is not associated with any active site on the WP Engine platform.\n If this is your site, please visit your User Portal to ensure that your\n domain mapping and DNS records are\n configured correctly.\n Still have questions? Contact Us .\n Hosted by"
+   }
+  },
+  {
+   "id": "R-F1-05-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20120110214429/http://www.downtownexpress.com/de_53/businessessaybusiness.html",
+   "host": "web.archive.org",
+   "path": "/web/20120110214429/http://www.downtownexpress.com/de_53/businessessaybusiness.html",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Businesses say business was up for film festival",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2012-01-10",
+   "work_id": "R-F1-05",
+   "value": "17,000",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Tribeca restaurants such as Ivy Bistro and Il Mattone, witnessed busy Friday and Saturday nights at the end of the festival and estimated their revenues doubled during those nine days. “It was good,” said Charles Fusco, the owner of Il Mattone about the economic upshot of the event. “I wish it could happen every weekend.”",
+     "Film festival organizers said that so far, all signs point up as approximately 80,000 tickets were sold to the 250 different films, a jump from last year’s tally of 63,000. Other events such as Saturday’s fair on Greenwich St. helped local stores and vendors as festival planners estimate just over 300,000 people attended, which was up 20 percent from 250,000 attendees last year. Organizers said Saturday’s concert in Battery Park that featured artists Van Morrison and Macy Gray and a mock drive-in on Pier 25 that included a broadcast of the final episode of the television show “Friends” helped bring roughly 19,000 people to Lower Manhattan.",
+     "Thomas Trube, the store manager of the designer clothing store Issey Miyake Tribeca at Hudson and N. Moore Sts., said he noticed a moderate boost in business due to the influx of filmgoers in the neighborhood."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Businesses say business was up for film festival",
+    "memento": "20120110214429",
+    "original": "http://www.downtownexpress.com/de_53/businessessaybusiness.html",
+    "text": "Tribeca restaurants such as Ivy Bistro and Il Mattone, witnessed busy Friday and Saturday nights at the end of the festival and estimated their revenues doubled during those nine days. “It was good,” said Charles Fusco, the owner of Il Mattone about the economic upshot of the event. “I wish it could happen every weekend.”\nFilm festival organizers said that so far, all signs point up as approximately 80,000 tickets were sold to the 250 different films, a jump from last year’s tally of 63,000. Other events such as Saturday’s fair on Greenwich St. helped local stores and vendors as festival planners estimate just over 300,000 people attended, which was up 20 percent from 250,000 attendees last year. Organizers said Saturday’s concert in Battery Park that featured artists Van Morrison and Macy Gray and a mock drive-in on Pier 25 that included a broadcast of the final episode of the television show “Friends” helped bring roughly 19,000 people to Lower Manhattan.\nThomas Trube, the store manager of the designer clothing store Issey Miyake Tribeca at Hudson and N. Moore Sts., said he noticed a moderate boost in business due to the influx of filmgoers in the neighborhood."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_404",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-05-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:17:18Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "class": "http_404",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Tribeca Festival'",
+  "archive_url": "https://web.archive.org/web/20120110214429/http://www.downtownexpress.com/de_53/businessessaybusiness.html"
+ },
+ "oracle_query": "Businesses say business was up for film festival",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Businesses say business was up for film festival"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://www.downtownexpress.com/de_53/businessessaybusiness.html"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20120110214429/http://www.downtownexpress.com/de_53/businessessaybusiness.html"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "17,000 tickets",
+     "sources": [
+      "https://web.archive.org/web/20120110214429/http://www.downtownexpress.com/de_53/businessessaybusiness.html"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20120110214429/http://www.downtownexpress.com/de_53/businessessaybusiness.html",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2012-01-10",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

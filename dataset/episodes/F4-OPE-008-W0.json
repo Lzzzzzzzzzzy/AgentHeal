@@ -1,0 +1,579 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F4-OPE-008-W0",
+ "goal_id": "F4-OPE-008",
+ "family": "F4",
+ "world": "W0",
+ "domain": "opendata",
+ "task_type": "IR",
+ "goal": "I'm preparing a briefing that uses the Institute for Soil Records' \"County Water-Quality Index\" (version 2.1): http://institute-for-soil-records.example/datasets/e7d553-county-water-quality-index\nWhat is the difference between the nitrate level at site Eskridge and the nitrate level at site Fallowmere (Eskridge minus Fallowmere)? Please give the difference with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "nitrate level at site",
+  "unit": "mg/L",
+  "canonical": "12.68",
+  "entity": "Eskridge"
+ },
+ "resources": [
+  {
+   "id": "F4-OPE-008-canon",
+   "role": "canonical",
+   "host": "institute-for-soil-records.example",
+   "path": "/datasets/e7d553-county-water-quality-index",
+   "url": "http://institute-for-soil-records.example/datasets/e7d553-county-water-quality-index",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "County Water-Quality Index",
+   "publisher": "Institute for Soil Records",
+   "date": "2025-05-01",
+   "version_label": "County Water-Quality Index, version 2.1",
+   "expression": "version 2.1",
+   "work_id": "work-e7d553",
+   "entity": "Eskridge",
+   "field_label": "nitrate level at site",
+   "unit": "mg/L",
+   "body": {
+    "paragraphs": [
+     "Published by the Institute for Soil Records.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Nitrate level at site by site",
+    "table_header": [
+     "",
+     "nitrate level at site (mg/L)"
+    ],
+    "table": [
+     [
+      "Ardmore",
+      "14.99"
+     ],
+     [
+      "Dunvale",
+      "31.93"
+     ],
+     [
+      "Eskridge",
+      "22.19"
+     ],
+     [
+      "Glenhurst",
+      "1.59"
+     ],
+     [
+      "Fallowmere",
+      "9.51"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "12.68",
+   "cell_value": "22.19",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "County Water-Quality Index is published by the Institute for Soil Records under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Eskridge; the previous release reported 14.15 mg/L. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Institute for Soil Records (2025). County Water-Quality Index, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "nitrate level at site (mg/L)"
+      ],
+      "rows": [
+       [
+        "Eskridge",
+        "11.95"
+       ],
+       [
+        "Ardmore",
+        "14.08"
+       ],
+       [
+        "Dunvale",
+        "38.24"
+       ],
+       [
+        "Glenhurst",
+        "13.79"
+       ],
+       [
+        "Fallowmere",
+        "40.29"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Fallowmere"
+  },
+  {
+   "id": "F4-OPE-008-var0",
+   "role": "variant",
+   "host": "institute-for-soil-records.example",
+   "path": "/datasets/e7d553-county-water-quality-index/prev0",
+   "url": "http://institute-for-soil-records.example/datasets/e7d553-county-water-quality-index/prev0",
+   "kind": "page",
+   "site_type": "portal",
+   "title": "County Water-Quality Index",
+   "publisher": "Institute for Soil Records",
+   "date": "2025-05-01",
+   "version_label": "County Water-Quality Index, previous release",
+   "expression": "previous release",
+   "work_id": "work-e7d553",
+   "entity": "Eskridge",
+   "field_label": "nitrate level at site",
+   "unit": "mg/L",
+   "body": {
+    "paragraphs": [
+     "Published by the Institute for Soil Records.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Nitrate level at site by site",
+    "table_header": [
+     "",
+     "nitrate level at site (mg/L)"
+    ],
+    "table": [
+     [
+      "Ardmore",
+      "14.99"
+     ],
+     [
+      "Dunvale",
+      "31.93"
+     ],
+     [
+      "Eskridge",
+      "25.24"
+     ],
+     [
+      "Glenhurst",
+      "1.59"
+     ],
+     [
+      "Fallowmere",
+      "9.51"
+     ]
+    ]
+   },
+   "cue": "This is the previous release; it was superseded by County Water-Quality Index, version 2.1.",
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "15.73",
+   "cell_value": "25.24",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "County Water-Quality Index is published by the Institute for Soil Records under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Eskridge; the previous release reported 14.15 mg/L. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Institute for Soil Records (2025). County Water-Quality Index, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "nitrate level at site (mg/L)"
+      ],
+      "rows": [
+       [
+        "Eskridge",
+        "11.95"
+       ],
+       [
+        "Ardmore",
+        "14.08"
+       ],
+       [
+        "Dunvale",
+        "38.24"
+       ],
+       [
+        "Glenhurst",
+        "13.79"
+       ],
+       [
+        "Fallowmere",
+        "40.29"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Fallowmere",
+   "variant_type": "V-R",
+   "delta": {
+    "nitrate_level_at_site": {
+     "differs": true,
+     "observable": true
+    }
+   },
+   "chain": [
+    "http://registry.example/search?q=County+Water-Quality+Index",
+    "http://registry.example/dataset/e7d553",
+    "http://registry.example/dataset/e7d553/releases",
+    "http://registry.example/dataset/e7d553/releases/0"
+   ]
+  },
+  {
+   "id": "F4-OPE-008-dec0",
+   "role": "decoy",
+   "host": "catalog0.example",
+   "path": "/entry/e7d553-0",
+   "url": "http://catalog0.example/entry/e7d553-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "County Water-Quality Index - companion study",
+   "publisher": "Different publisher",
+   "date": "2025-05-01",
+   "version_label": "companion entry",
+   "expression": "version 2.1",
+   "work_id": "work-e7d553",
+   "entity": "Eskridge",
+   "field_label": "nitrate level at site",
+   "unit": "mg/L",
+   "body": {
+    "paragraphs": [
+     "Published by the Institute for Soil Records.",
+     "This page describes version 2.1 of the dataset."
+    ],
+    "table_caption": "Nitrate level at site by site",
+    "table_header": [
+     "",
+     "nitrate level at site (mg/L)"
+    ],
+    "table": [
+     [
+      "Ardmore",
+      "14.99"
+     ],
+     [
+      "Dunvale",
+      "31.93"
+     ],
+     [
+      "Eskridge",
+      "25.61"
+     ],
+     [
+      "Glenhurst",
+      "1.59"
+     ],
+     [
+      "Fallowmere",
+      "9.51"
+     ]
+    ]
+   },
+   "cue": "Note: this page describes a different item than Eskridge (County Water-Quality Index); scope differs.",
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "value": "16.10",
+   "cell_value": "25.61",
+   "view_mode": "compare",
+   "extras": {
+    "sections": [
+     [
+      "Description",
+      "County Water-Quality Index is published by the Institute for Soil Records under an open licence. Values are reported per site and are updated with each release."
+     ],
+     [
+      "Methodology",
+      "Samples are collected quarterly and aggregated to annual figures. Sites with fewer than three valid samples are flagged as provisional."
+     ],
+     [
+      "Release notes",
+      "This release revises the value for Eskridge; the previous release reported 14.15 mg/L. Older releases remain available on request."
+     ],
+     [
+      "How to cite",
+      "Institute for Soil Records (2025). County Water-Quality Index, version 2.1."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Values in the previous release",
+      "header": [
+       "Site",
+       "nitrate level at site (mg/L)"
+      ],
+      "rows": [
+       [
+        "Eskridge",
+        "11.95"
+       ],
+       [
+        "Ardmore",
+        "14.08"
+       ],
+       [
+        "Dunvale",
+        "38.24"
+       ],
+       [
+        "Glenhurst",
+        "13.79"
+       ],
+       [
+        "Fallowmere",
+        "40.29"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "entity2": "Fallowmere",
+   "decoy_type": "D-E"
+  },
+  {
+   "id": "F4-OPE-008-hub-registry-dead0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/e7d553/resource/x0",
+   "url": "http://registry.example/dataset/e7d553/resource/x0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "County Water-Quality Index: distribution",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Bulk download (FTP). This distribution was discontinued."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F4-OPE-008-hub-registry-record",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/e7d553",
+   "url": "http://registry.example/dataset/e7d553",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "County Water-Quality Index (Institute for Soil Records)",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Publisher: Institute for Soil Records.",
+     "Current release: version 2.1.",
+     "Distributions are listed below with the organisation that hosts them."
+    ]
+   },
+   "links": [
+    [
+     "http://institute-for-soil-records.example/datasets/e7d553-county-water-quality-index",
+     "Institute for Soil Records portal (version 2.1)"
+    ],
+    [
+     "http://registry.example/dataset/e7d553/resource/x0",
+     "Distribution 1"
+    ],
+    [
+     "http://registry.example/dataset/e7d553/releases",
+     "Release history"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F4-OPE-008-hub-registry-rel0",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/e7d553/releases/0",
+   "url": "http://registry.example/dataset/e7d553/releases/0",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "County Water-Quality Index, previous release",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Release notes: County Water-Quality Index, previous release.",
+     "Superseded by the current release."
+    ]
+   },
+   "links": [
+    [
+     "http://institute-for-soil-records.example/datasets/e7d553-county-water-quality-index/prev0",
+     "Access URL"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F4-OPE-008-hub-registry-releases",
+   "role": "hub",
+   "host": "registry.example",
+   "path": "/dataset/e7d553/releases",
+   "url": "http://registry.example/dataset/e7d553/releases",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Release history: County Water-Quality Index",
+   "publisher": "registry.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Releases of this dataset."
+    ]
+   },
+   "links": [
+    [
+     "http://institute-for-soil-records.example/datasets/e7d553-county-water-quality-index",
+     "version 2.1 (current)"
+    ],
+    [
+     "http://registry.example/dataset/e7d553/releases/0",
+     "County Water-Quality Index, previous release"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F4-OPE-008-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F4-OPE-008-W1v",
+  "unrecoverable": "F4-OPE-008-W3",
+  "twin": "F4-OPE-008-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://institute-for-soil-records.example/datasets/e7d553-county-water-quality-index"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "12.68 mg/L",
+     "sources": [
+      "http://institute-for-soil-records.example/datasets/e7d553-county-water-quality-index"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "12.68 mg/L",
+   "sources": [
+    "http://institute-for-soil-records.example/datasets/e7d553-county-water-quality-index"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

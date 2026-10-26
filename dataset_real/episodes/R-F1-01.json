@@ -1,0 +1,179 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-01",
+ "goal_id": "R-F1-01",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "news",
+ "task_type": "IR",
+ "goal": "I'm fact-checking a Wikipedia article that cites a Curbed NY story from November 2016 on the rising cost of the Brooklyn Bridge repairs: https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase\nBy how much did the projected cost exceed the price tag expected when the renovations began in 2010? Please give the difference in millions of dollars and tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "cost increase",
+  "unit": "million dollars",
+  "canonical": "303",
+  "entity": "",
+  "derived_from": [
+   "811",
+   "508"
+  ],
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-01-canon",
+   "role": "canonical",
+   "url": "https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase",
+   "host": "ny.curbed.com",
+   "path": "/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Projected Brooklyn Bridge repair costs have more than doubled",
+   "publisher": "ny.curbed.com",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-01",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Projected Brooklyn Bridge repair costs have more than doubled"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 410,
+    "title": "Projected Brooklyn Bridge repair costs have more than doubled",
+    "observed_at": "2026-10-16T18:08:02Z",
+    "text": "410 Gone. This page has been removed."
+   }
+  },
+  {
+   "id": "R-F1-01-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20200126161008/https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase",
+   "host": "web.archive.org",
+   "path": "/web/20200126161008/https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "Projected Brooklyn Bridge repair costs have more than doubled - Curbed NY",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2020-01-26",
+   "work_id": "R-F1-01",
+   "value": "303",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Email",
+     "The projected cost of repairs on the Brooklyn Bridge has hit $811 million — nearly 60 percent more than originally planned, reports the New York Post .",
+     "Back when renovations began on the 133-year-old span in the halcyon days of 2010, the expected price tag was $508 million, with a completion date set for April 2014. That, it goes without saying, proved overly optimistic, and in 2015, the Daily News reported that the project was $100 million over budget and another year behind schedule, thanks to newly discovered “major cracks and holes” in the bridge requiring more intensive repairs. The project was then slated for completion in 2016.",
+     "But 2016 is coming to a close, the repairs aren’t done, and the cost keeps creeping upwards. According to the Post, the Mayor’s Office of Operations has attributed the issue to “scope changes” and “unforeseen field conditions.” Among the new issues: steel repairs, painting more areas, and “fixing damage to protective shielding caused by a barge incident.” The city now estimates the renovations will wrap up in April 2017."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "Projected Brooklyn Bridge repair costs have more than doubled - Curbed NY",
+    "memento": "20200126161008",
+    "original": "https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase",
+    "text": "Email\nThe projected cost of repairs on the Brooklyn Bridge has hit $811 million — nearly 60 percent more than originally planned, reports the New York Post .\nBack when renovations began on the 133-year-old span in the halcyon days of 2010, the expected price tag was $508 million, with a completion date set for April 2014. That, it goes without saying, proved overly optimistic, and in 2015, the Daily News reported that the project was $100 million over budget and another year behind schedule, thanks to newly discovered “major cracks and holes” in the bridge requiring more intensive repairs. The project was then slated for completion in 2016.\nBut 2016 is coming to a close, the repairs aren’t done, and the cost keeps creeping upwards. According to the Post, the Mayor’s Office of Operations has attributed the issue to “scope changes” and “unforeseen field conditions.” Among the new issues: steel repairs, painting more areas, and “fixing damage to protective shielding caused by a barge incident.” The city now estimates the renovations will wrap up in April 2017."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_410",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-01-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:08:02Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 410,
+   "class": "http_410",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Brooklyn Bridge'",
+  "archive_url": "https://web.archive.org/web/20200126161008/https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase"
+ },
+ "oracle_query": "Projected Brooklyn Bridge repair costs have more than doubled",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "Projected Brooklyn Bridge repair costs have more than doubled"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20200126161008/https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "303 million dollars",
+     "sources": [
+      "https://web.archive.org/web/20200126161008/https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20200126161008/https://ny.curbed.com/2016/11/11/13598192/brooklyn-bridge-repairs-cost-increase",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2020-01-26",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

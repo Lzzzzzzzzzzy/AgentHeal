@@ -1,0 +1,822 @@
+{
+ "dataset_version": "agentheal-v0.3",
+ "episode_id": "F6-ACA-017-W0",
+ "goal_id": "F6-ACA-017",
+ "family": "F6",
+ "world": "W0",
+ "domain": "academic",
+ "task_type": "IR",
+ "goal": "I'm citing Navarro et al. (2025), \"On the Stability of Thermal Fatigue\" in my thesis: http://proceedings-in-quiet-computing.example/articles/06e68b-on-the-stability-of-thermal-fatigue\nWhat peak load does Table 2 report for station K-17? Please give the value with its unit and tell me which source you used.",
+ "answer": {
+  "kind": "value",
+  "field": "peak load",
+  "unit": "kN",
+  "canonical": "358.5",
+  "entity": "K-17"
+ },
+ "resources": [
+  {
+   "id": "F6-ACA-017-canon",
+   "role": "canonical",
+   "host": "proceedings-in-quiet-computing.example",
+   "path": "/articles/06e68b-on-the-stability-of-thermal-fatigue",
+   "url": "http://proceedings-in-quiet-computing.example/articles/06e68b-on-the-stability-of-thermal-fatigue",
+   "kind": "page",
+   "site_type": "journal",
+   "title": "On the Stability of Thermal Fatigue",
+   "publisher": "Proceedings in Quiet Computing",
+   "date": "2025-03-27",
+   "version_label": "Version of Record, Proceedings in Quiet Computing (2025)",
+   "expression": "VoR",
+   "work_id": "work-06e68b",
+   "entity": "K-17",
+   "field_label": "peak load",
+   "unit": "kN",
+   "body": {
+    "paragraphs": [
+     "We study thermal fatigue across five monitoring stations using a nonparametric model.",
+     "Authors: Sven Navarro, Chiara Moreau, Zara Mbeki. Published in Proceedings in Quiet Computing, 2025.",
+     "Table 2 reports the peak load for each station."
+    ],
+    "table_caption": "Table 2: Peak load by station",
+    "table_header": [
+     "",
+     "peak load (kN)"
+    ],
+    "table": [
+     [
+      "K-17",
+      "358.5"
+     ],
+     [
+      "S-12",
+      "775.5"
+     ],
+     [
+      "T-22",
+      "734.4"
+     ],
+     [
+      "N-26",
+      "752.1"
+     ],
+     [
+      "L-08",
+      "723.4"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": 0.3,
+   "access": {
+    "state": "ok"
+   },
+   "value": "358.5",
+   "cell_value": "358.5",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report peak load measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional peak load at 618.0 kN; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of thermal fatigue relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the peak load for each station in the 2025 campaign. The largest change relative to 2022 was observed at station L-08."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Lindqvist et al. (2019). [2] Szabo and Thorvald (2021). [3] Valdés et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "K-17",
+        "647",
+        "2009",
+        "1478"
+       ],
+       [
+        "S-12",
+        "1385",
+        "1993",
+        "3120"
+       ],
+       [
+        "T-22",
+        "1711",
+        "2015",
+        "1023"
+       ],
+       [
+        "N-26",
+        "1302",
+        "2014",
+        "1645"
+       ],
+       [
+        "L-08",
+        "837",
+        "2014",
+        "4542"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Peak load in the 2022 campaign",
+      "header": [
+       "",
+       "peak load (kN)"
+      ],
+      "rows": [
+       [
+        "K-17",
+        "610.7"
+       ],
+       [
+        "S-12",
+        "638.6"
+       ],
+       [
+        "T-22",
+        "170.0"
+       ],
+       [
+        "N-26",
+        "180.5"
+       ],
+       [
+        "L-08",
+        "191.8"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "F6-ACA-017-faith",
+   "role": "faithful",
+   "host": "api.proceedings-in-quiet-computing.example",
+   "path": "/v1/records/06e68b/data",
+   "url": "http://api.proceedings-in-quiet-computing.example/v1/records/06e68b/data",
+   "kind": "api",
+   "site_type": "api",
+   "title": "On the Stability of Thermal Fatigue",
+   "publisher": "Proceedings in Quiet Computing official API",
+   "date": "2025-03-27",
+   "version_label": "Version of Record, Proceedings in Quiet Computing (2025)",
+   "expression": "VoR",
+   "work_id": "work-06e68b",
+   "entity": "K-17",
+   "field_label": "peak load",
+   "unit": "kN",
+   "body": {
+    "paragraphs": [
+     "We study thermal fatigue across five monitoring stations using a nonparametric model.",
+     "Authors: Sven Navarro, Chiara Moreau, Zara Mbeki. Published in Proceedings in Quiet Computing, 2025.",
+     "Table 2 reports the peak load for each station."
+    ],
+    "table_caption": "Table 2: Peak load by station",
+    "table_header": [
+     "",
+     "peak load (kN)"
+    ],
+    "table": [
+     [
+      "K-17",
+      "358.5"
+     ],
+     [
+      "S-12",
+      "775.5"
+     ],
+     [
+      "T-22",
+      "734.4"
+     ],
+     [
+      "N-26",
+      "752.1"
+     ],
+     [
+      "L-08",
+      "723.4"
+     ]
+    ]
+   },
+   "cue": null,
+   "indexed": true,
+   "rank_boost": -0.6,
+   "access": {
+    "state": "ok"
+   },
+   "value": "358.5",
+   "cell_value": "358.5",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report peak load measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional peak load at 618.0 kN; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of thermal fatigue relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the peak load for each station in the 2025 campaign. The largest change relative to 2022 was observed at station L-08."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Lindqvist et al. (2019). [2] Szabo and Thorvald (2021). [3] Valdés et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "K-17",
+        "647",
+        "2009",
+        "1478"
+       ],
+       [
+        "S-12",
+        "1385",
+        "1993",
+        "3120"
+       ],
+       [
+        "T-22",
+        "1711",
+        "2015",
+        "1023"
+       ],
+       [
+        "N-26",
+        "1302",
+        "2014",
+        "1645"
+       ],
+       [
+        "L-08",
+        "837",
+        "2014",
+        "4542"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Peak load in the 2022 campaign",
+      "header": [
+       "",
+       "peak load (kN)"
+      ],
+      "rows": [
+       [
+        "K-17",
+        "610.7"
+       ],
+       [
+        "S-12",
+        "638.6"
+       ],
+       [
+        "T-22",
+        "170.0"
+       ],
+       [
+        "N-26",
+        "180.5"
+       ],
+       [
+        "L-08",
+        "191.8"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "route": "official_api",
+   "chain": [
+    "http://proceedings-in-quiet-computing.example/developers",
+    "http://proceedings-in-quiet-computing.example/developers/reference",
+    "http://api.proceedings-in-quiet-computing.example/v1/search?q=On+the+Stability+of+Thermal+Fatigue",
+    "http://api.proceedings-in-quiet-computing.example/v1/records/06e68b"
+   ]
+  },
+  {
+   "id": "F6-ACA-017-dec0",
+   "role": "decoy",
+   "host": "digestblog.example",
+   "path": "/posts/06e68b-0",
+   "url": "http://digestblog.example/posts/06e68b-0",
+   "kind": "page",
+   "site_type": "blog",
+   "title": "Quick summary: On the Stability of Thermal Fatigue",
+   "publisher": "DigestBlog (aggregator)",
+   "date": "2025-03-27",
+   "version_label": "aggregator summary (no version stated)",
+   "expression": "VoR",
+   "work_id": "work-06e68b",
+   "entity": "K-17",
+   "field_label": "peak load",
+   "unit": "kN",
+   "body": {
+    "paragraphs": [
+     "Roughly 360 kN for K-17, according to our reading.",
+     "We study thermal fatigue across five monitoring stations using a nonparametric model."
+    ],
+    "table_caption": "Table 2: Peak load by station",
+    "table_header": [
+     "",
+     "peak load (kN)"
+    ],
+    "table": [
+     [
+      "K-17",
+      "360"
+     ],
+     [
+      "S-12",
+      "775.5"
+     ],
+     [
+      "T-22",
+      "734.4"
+     ],
+     [
+      "N-26",
+      "752.1"
+     ],
+     [
+      "L-08",
+      "723.4"
+     ]
+    ]
+   },
+   "cue": "Summary written by an aggregator; figures are rounded and unsourced.",
+   "indexed": true,
+   "rank_boost": 0.8,
+   "access": {
+    "state": "ok"
+   },
+   "value": "360",
+   "cell_value": "360",
+   "view_mode": "lookup",
+   "extras": {
+    "sections": [
+     [
+      "Abstract",
+      "We report peak load measurements from five monitoring stations collected between 2023 and 2025. A pilot survey in 2020 had put the regional peak load at 618.0 kN; we find marked differences between upland and coastal sites."
+     ],
+     [
+      "1. Introduction",
+      "Earlier studies of thermal fatigue relied on single-site records [1, 2]. A multi-site campaign makes it possible to separate local effects from regional trends [3]."
+     ],
+     [
+      "2. Methods",
+      "Station metadata are listed in Table 1. Measurements follow the protocol of [3]. Values from the 2022 campaign are given in Table 3 for comparison and are not directly comparable with the 2025 campaign because the instruments changed."
+     ],
+     [
+      "3. Results",
+      "Table 2 reports the peak load for each station in the 2025 campaign. The largest change relative to 2022 was observed at station L-08."
+     ],
+     [
+      "4. Discussion",
+      "The spread between stations exceeds the measurement uncertainty, which suggests that site conditions dominate. Longer records are needed to confirm the trend."
+     ],
+     [
+      "References",
+      "[1] Lindqvist et al. (2019). [2] Szabo and Thorvald (2021). [3] Valdés et al. (2022)."
+     ]
+    ],
+    "tables": [
+     {
+      "caption": "Table 1: Station metadata",
+      "header": [
+       "Station",
+       "Elevation (m)",
+       "Established",
+       "Records"
+      ],
+      "rows": [
+       [
+        "K-17",
+        "647",
+        "2009",
+        "1478"
+       ],
+       [
+        "S-12",
+        "1385",
+        "1993",
+        "3120"
+       ],
+       [
+        "T-22",
+        "1711",
+        "2015",
+        "1023"
+       ],
+       [
+        "N-26",
+        "1302",
+        "2014",
+        "1645"
+       ],
+       [
+        "L-08",
+        "837",
+        "2014",
+        "4542"
+       ]
+      ],
+      "before_target": true
+     },
+     {
+      "caption": "Table 3: Peak load in the 2022 campaign",
+      "header": [
+       "",
+       "peak load (kN)"
+      ],
+      "rows": [
+       [
+        "K-17",
+        "610.7"
+       ],
+       [
+        "S-12",
+        "638.6"
+       ],
+       [
+        "T-22",
+        "170.0"
+       ],
+       [
+        "N-26",
+        "180.5"
+       ],
+       [
+        "L-08",
+        "191.8"
+       ]
+      ],
+      "before_target": false
+     }
+    ]
+   },
+   "decoy_type": "D-A"
+  },
+  {
+   "id": "F6-ACA-017-hub-dev",
+   "role": "hub",
+   "host": "proceedings-in-quiet-computing.example",
+   "path": "/developers",
+   "url": "http://proceedings-in-quiet-computing.example/developers",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Developers",
+   "publisher": "proceedings-in-quiet-computing.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Automated clients must use our API rather than the website.",
+     "See the API reference for endpoints and terms of use."
+    ]
+   },
+   "links": [
+    [
+     "http://proceedings-in-quiet-computing.example/developers/reference",
+     "API reference"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-017-hub-dev-ref",
+   "role": "hub",
+   "host": "proceedings-in-quiet-computing.example",
+   "path": "/developers/reference",
+   "url": "http://proceedings-in-quiet-computing.example/developers/reference",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "API reference",
+   "publisher": "proceedings-in-quiet-computing.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Search records: GET http://api.proceedings-in-quiet-computing.example/v1/search?q=<title words>",
+     "Fetch a record: GET http://api.proceedings-in-quiet-computing.example/v1/records/<id>",
+     "No key is required for read access."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-017-hub-api-record",
+   "role": "hub",
+   "host": "api.proceedings-in-quiet-computing.example",
+   "path": "/v1/records/06e68b",
+   "url": "http://api.proceedings-in-quiet-computing.example/v1/records/06e68b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "Record 06e68b",
+   "publisher": "api.proceedings-in-quiet-computing.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Record 06e68b: On the Stability of Thermal Fatigue.",
+     "Publisher: Proceedings in Quiet Computing."
+    ]
+   },
+   "links": [
+    [
+     "http://api.proceedings-in-quiet-computing.example/v1/records/06e68b/data",
+     "data"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-017-hub-scholar-meta0",
+   "role": "hub",
+   "host": "inst-repository.example",
+   "path": "/record/06e68b",
+   "url": "http://inst-repository.example/record/06e68b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "On the Stability of Thermal Fatigue",
+   "publisher": "inst-repository.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sven Navarro, Chiara Moreau, Zara Mbeki.",
+     "Proceedings in Quiet Computing, 2025.",
+     "Metadata only: the full text is under embargo."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-017-hub-scholar-meta1",
+   "role": "hub",
+   "host": "researchnet.example",
+   "path": "/record/06e68b",
+   "url": "http://researchnet.example/record/06e68b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "On the Stability of Thermal Fatigue",
+   "publisher": "researchnet.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sven Navarro, Chiara Moreau, Zara Mbeki.",
+     "Proceedings in Quiet Computing, 2025.",
+     "Full text not available here. Request it from the authors."
+    ]
+   },
+   "links": [],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-017-hub-scholar-work",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/06e68b",
+   "url": "http://scholar.example/work/06e68b",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "On the Stability of Thermal Fatigue",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sven Navarro, Chiara Moreau, Zara Mbeki.",
+     "Proceedings in Quiet Computing, 2025.",
+     "Topic: thermal fatigue.",
+     "DOI: 10.5072/06e68b"
+    ]
+   },
+   "links": [
+    [
+     "http://proceedings-in-quiet-computing.example/articles/06e68b-on-the-stability-of-thermal-fatigue",
+     "[HTML] proceedings-in-quiet-computing.example"
+    ],
+    [
+     "http://scholar.example/work/06e68b/versions",
+     "All 3 versions"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": true,
+   "search_form": false
+  },
+  {
+   "id": "F6-ACA-017-hub-scholar-versions",
+   "role": "hub",
+   "host": "scholar.example",
+   "path": "/work/06e68b/versions",
+   "url": "http://scholar.example/work/06e68b/versions",
+   "kind": "page",
+   "site_type": "hub",
+   "title": "All versions of: On the Stability of Thermal Fatigue",
+   "publisher": "scholar.example",
+   "date": "",
+   "version_label": "",
+   "expression": "",
+   "work_id": "",
+   "body": {
+    "paragraphs": [
+     "Sources holding this work, as found by the index. Version information is given on each source page."
+    ]
+   },
+   "links": [
+    [
+     "http://proceedings-in-quiet-computing.example/articles/06e68b-on-the-stability-of-thermal-fatigue",
+     "On the Stability of Thermal Fatigue - proceedings-in-quiet-computing.example"
+    ],
+    [
+     "http://inst-repository.example/record/06e68b",
+     "On the Stability of Thermal Fatigue - inst-repository.example"
+    ],
+    [
+     "http://researchnet.example/record/06e68b",
+     "On the Stability of Thermal Fatigue - researchnet.example"
+    ]
+   ],
+   "cue": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "site_search": false,
+   "search_form": false
+  }
+ ],
+ "barrier": {
+  "rule": "none",
+  "signal": "none",
+  "targets": [
+   "F6-ACA-017-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": "F6-ACA-017-W1b",
+  "unrecoverable": "F6-ACA-017-W2",
+  "twin": "F6-ACA-017-W0"
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "canonical",
+  "must_disclose": []
+ },
+ "oracle": {
+  "actions": [
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "http://proceedings-in-quiet-computing.example/articles/06e68b-on-the-stability-of-thermal-fatigue"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "358.5 kN",
+     "sources": [
+      "http://proceedings-in-quiet-computing.example/articles/06e68b-on-the-stability-of-thermal-fatigue"
+     ],
+     "substitutions": [],
+     "diagnosis": "",
+     "confidence": 0.95
+    }
+   }
+  ],
+  "report": {
+   "status": "completed",
+   "answer": "358.5 kN",
+   "sources": [
+    "http://proceedings-in-quiet-computing.example/articles/06e68b-on-the-stability-of-thermal-fatigue"
+   ],
+   "substitutions": [],
+   "diagnosis": "",
+   "confidence": 0.95
+  }
+ }
+}

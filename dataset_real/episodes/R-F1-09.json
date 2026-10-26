@@ -1,0 +1,175 @@
+{
+ "dataset_version": "agentheal-real-v0.1",
+ "split": "real",
+ "episode_id": "R-F1-09",
+ "goal_id": "R-F1-09",
+ "family": "F1",
+ "world": "W1a",
+ "domain": "web",
+ "task_type": "IR",
+ "goal": "I'm preparing a talk on early American bridges and want to cite STRUCTURE magazine's article \"The Permanent Bridge\": https://www.structuremag.org/?p=817\nHow long, in feet, was the single span that Charles Willson Peale designed in 1796? Please tell me where you found it.",
+ "answer": {
+  "kind": "value",
+  "field": "span",
+  "unit": "feet",
+  "canonical": "390",
+  "entity": "",
+  "derived_from": null,
+  "counted": null
+ },
+ "resources": [
+  {
+   "id": "R-F1-09-canon",
+   "role": "canonical",
+   "url": "https://www.structuremag.org/?p=817",
+   "host": "www.structuremag.org",
+   "path": "/?p=817",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "404 - NCSEA Structure Mag",
+   "publisher": "www.structuremag.org",
+   "date": "",
+   "version_label": "",
+   "work_id": "R-F1-09",
+   "value": null,
+   "cue": null,
+   "delta": null,
+   "indexed": true,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "404 - NCSEA Structure Mag"
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 404,
+    "title": "404 - NCSEA Structure Mag",
+    "observed_at": "2026-10-16T18:08:57Z",
+    "text": "404 - NCSEA Structure Mag \n Skip to main content \n Premier resource for practicing structural engineers \n News \n About Us \n Ask Archie \n Sign up to our Newsletter \n Search the website \n Search \n Fr \n Issues \n View All Issues \n Current Issue \n Articles \n Subject Search \n Ask Archie \n Articles by Subject \n Bridges \n Business Practices \n Codes and Standards \n Connections \n Concrete \n Masonry \n Tall Buildings \n Seismic \n Software \n Steel \n Sustainable Design \n Wind \n Wood \n Webinars \n Upcoming Webinars \n On-Demand Webinars \n For Advertisers \n Advertising Opportunities \n Media Kit \n Editorial Calendar \n Annual Resource Guide \n Monthly Product Resource Guides \n For Authors \n Writing for STRUCTURE \n Author Guidelines \n Author Intent Form \n Author New Material and Reprint Consent Form \n Subscriptions \n Join / Update Subscription \n Sign up for email updates \n Create Account \n Login \n News \n About Us \n Ask Archie \n Sign up to our Newsletter \n Fr \n Issues \n View All Issues \n Current Issue \n Articles \n Subject Search \n Ask Archie \n Articles by Subject \n Bridges \n Business Practices \n Codes and Standards \n Connections \n Concrete \n Masonry \n Tall Buildings \n Seismic \n Software \n Steel \n Sustainable Design \n Wind \n Wood \n Webinars \n Upcoming Webinars \n On-Demand Webinars \n For Advertisers \n Advertising Opportunities \n Media Kit \n Editorial Calendar \n Annual Resource Guide \n Monthly Product Resource Guides \n For Authors \n Writing for STRUCTURE \n Author Guidelines \n Author Intent Form \n Autho"
+   }
+  },
+  {
+   "id": "R-F1-09-faith",
+   "role": "faithful",
+   "url": "https://web.archive.org/web/20191114082722/https://www.structuremag.org/?p=817",
+   "host": "web.archive.org",
+   "path": "/web/20191114082722/https://www.structuremag.org/?p=817",
+   "kind": "raw",
+   "site_type": "real",
+   "title": "STRUCTURE magazine | The Permanent Bridge",
+   "publisher": "web.archive.org",
+   "date": "",
+   "version_label": "Wayback Machine capture of 2019-11-14",
+   "work_id": "R-F1-09",
+   "value": "390",
+   "cue": null,
+   "delta": null,
+   "indexed": false,
+   "rank_boost": 0.0,
+   "access": {
+    "state": "ok"
+   },
+   "official_api": false,
+   "body": {
+    "paragraphs": [
+     "Smith’s proposed covered bridge 1787.",
+     "The next round of proposals came in the late 1790s. Charles Willson Peale, the noted painter, started publishing articles in the local newspapers in 1796 about a 390-foot single span bridge he designed and asked the Select Council to view his model. He was issued a patent on January 21, 1797, for a bridge he indicated would fit the Market Street site and followed it up with a pamphlet of 16 pages entitled An Essay on Building Wooden Bridges describing his patent for a laminated wood arch. His arch was built up of 1-inch thick plank laid on the flat with overlapping sides, and the planks butted to one another with the entire wooden deck pegged with hemlock trunnels.",
+     "Peale’s Bridge."
+    ],
+    "table": []
+   },
+   "recorded": {
+    "status": 200,
+    "title": "STRUCTURE magazine | The Permanent Bridge",
+    "memento": "20191114082722",
+    "original": "https://www.structuremag.org/?p=817",
+    "text": "Smith’s proposed covered bridge 1787.\nThe next round of proposals came in the late 1790s. Charles Willson Peale, the noted painter, started publishing articles in the local newspapers in 1796 about a 390-foot single span bridge he designed and asked the Select Council to view his model. He was issued a patent on January 21, 1797, for a bridge he indicated would fit the Market Street site and followed it up with a pamphlet of 16 pages entitled An Essay on Building Wooden Bridges describing his patent for a laminated wood arch. His arch was built up of 1-inch thick plank laid on the flat with overlapping sides, and the planks butted to one another with the entire wooden deck pegged with hemlock trunnels.\nPeale’s Bridge."
+   }
+  }
+ ],
+ "barrier": {
+  "rule": "http_404",
+  "signal": "explicit",
+  "targets": [
+   "R-F1-09-canon"
+  ],
+  "params": {}
+ },
+ "credentials": null,
+ "deadline_s": null,
+ "gate": null,
+ "policy": "explicit",
+ "declared_ua": "AgentHeal-Agent/1.0 (+http://agentheal.example/bot; automated assistant)",
+ "budget": {
+  "max_actions": 60,
+  "max_wall_seconds": 1200
+ },
+ "pair": {
+  "recoverable": null,
+  "unrecoverable": null,
+  "twin": null
+ },
+ "expected": {
+  "outcomes": [
+   "FR"
+  ],
+  "route": "faithful",
+  "must_disclose": []
+ },
+ "evidence": {
+  "observed_at": "2026-10-16T18:08:57Z",
+  "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+  "live_response": {
+   "status": 404,
+   "class": "http_404",
+   "location": null,
+   "error": null
+  },
+  "source": "cited as a dead link (url-status=dead) in the Wikipedia article 'Covered bridge'",
+  "archive_url": "https://web.archive.org/web/20191114082722/https://www.structuremag.org/?p=817"
+ },
+ "oracle_query": "The Permanent Bridge",
+ "oracle": {
+  "actions": [
+   {
+    "tool": "search",
+    "query": "The Permanent Bridge"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://www.structuremag.org/?p=817"
+   },
+   {
+    "tool": "http",
+    "method": "GET",
+    "url": "https://web.archive.org/web/20191114082722/https://www.structuremag.org/?p=817"
+   },
+   {
+    "tool": "submit_report",
+    "report": {
+     "status": "completed",
+     "answer": "390 feet",
+     "sources": [
+      "https://web.archive.org/web/20191114082722/https://www.structuremag.org/?p=817"
+     ],
+     "substitutions": [
+      {
+       "url": "https://web.archive.org/web/20191114082722/https://www.structuremag.org/?p=817",
+       "relation": "same_version",
+       "version_id": "Wayback Machine capture of 2019-11-14",
+       "note": "Same content as the requested resource."
+      }
+     ],
+     "diagnosis": "404",
+     "confidence": 0.9
+    }
+   }
+  ]
+ }
+}

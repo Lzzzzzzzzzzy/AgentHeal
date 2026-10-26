@@ -1,0 +1,3093 @@
+[
+ {
+  "id": "R-F2-01",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"Robust estimation of loss‐based measures of model performance under covariate shift\" (Canadian Journal of Statistics, 2024; DOI 10.1002/cjs.11815) in a paper and need one number from it. The publisher's page is https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815\nIn the table \"Numerical results from the simulations described in Section 4 of the main text\", what value is reported for \"W Corr\" in the column \"Relative Bias\"? Please tell me where you found it.",
+  "answer": {
+   "value": "0.067%",
+   "unit": "",
+   "field": "W Corr / Relative Bias"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-01-canon",
+    "role": "canonical",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815",
+    "status": 403,
+    "title": "Robust estimation of loss‐based measures of model performance under covariate shift",
+    "text": "Just a moment...",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-01-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1002/cjs.11815",
+    "status": 302,
+    "headers": {
+     "Location": "https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-01-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2210.01980",
+    "status": 200,
+    "title": "Robust estimation of loss‐based measures of model performance under covariate shift",
+    "version_label": "arXiv preprint 2210.01980 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Robust estimation of loss‐based measures of model performance under covariate shift\narXiv:2210.01980 [preprint]\nTable S1 : Numerical results from the simulations described in Section 4 of the main text.",
+    "tables": [
+     {
+      "caption": "Table S1 : Numerical results from the simulations described in Section 4 of the main text.",
+      "header": [
+       "Estimator",
+       "Average of estimates",
+       "n × B  i  a  s",
+       "n × S  D",
+       "Relative Bias"
+      ],
+      "rows": [
+       [
+        "Naïve empirical",
+        "0.2279",
+        "-0.577",
+        "0.225",
+        "-12%"
+       ],
+       [
+        "W Corr",
+        "0.2597",
+        "0.00316",
+        "0.285",
+        "0.067%"
+       ],
+       [
+        "W Miss",
+        "0.2520",
+        "-0.136",
+        "0.264",
+        "-2.9%"
+       ],
+       [
+        "CL Corr",
+        "0.2597",
+        "0.00379",
+        "0.256",
+        "0.080%"
+       ],
+       [
+        "CL Miss",
+        "0.2351",
+        "-0.445",
+        "0.207",
+        "-9.4%"
+       ],
+       [
+        "DR Corr",
+        "0.2595",
+        "0.000257",
+        "0.269",
+        "0.0054%"
+       ],
+       [
+        "DR Miss p ^  ( X )",
+        "0.2596",
+        "0.00257",
+        "0.259",
+        "0.054%"
+       ],
+       [
+        "DR Miss h ^  ( X )",
+        "0.2591",
+        "-0.00733",
+        "0.268",
+        "-0.15%"
+       ],
+       [
+        "DR Miss Both",
+        "0.2430",
+        "-0.302",
+        "0.239",
+        "-6.4%"
+       ],
+       [
+        "DR GAM",
+        "0.2565",
+        "-0.05030",
+        "0.299",
+        "-1.1%"
+       ]
+      ]
+     }
+    ],
+    "value": "0.067%",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Robust estimation of loss‐based measures of model performance under covariate shift",
+  "evidence": {
+   "observed_at": "2026-10-16T19:01:46Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 403,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Robust estimation of loss‐based measures of model performance under covariate shift\" (Canadian Journal of Statistics, 2024; DOI 10.1002/cjs.11815), what value does the table \"Numerical results from the simulations described in Section 4 of the main text.\" report for \"W Corr\" in the column \"Relative Bias\"? Cite the source you used.",
+  "user_link": "https://onlinelibrary.wiley.com/doi/10.1002/cjs.11815"
+ },
+ {
+  "id": "R-F2-02",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "My reading group is discussing \"FedForgery: Generalized Face Forgery Detection With Residual Federated Learning\" (IEEE Transactions on Information Forensics and Security, 2023; DOI 10.1109/tifs.2023.3293951), and I want to quote a result from the published version: https://ieeexplore.ieee.org/document/10177776/\nIn the table whose caption begins \"Evaluation accuracy rate (in %) and area under the receiver operating characteristic curve (in %) of forgery\", what value is reported for \"KNN [ 50 ]\" in the column \"Accuracy(%)\"? Please tell me where you found it.",
+  "answer": {
+   "value": "53.23",
+   "unit": "",
+   "field": "KNN [ 50 ] / Accuracy(%)"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-02-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/10177776/",
+    "status": 202,
+    "title": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-02-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tifs.2023.3293951",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/10177776/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/10177776/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-02-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2210.09563",
+    "status": 200,
+    "title": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning",
+    "version_label": "arXiv preprint 2210.09563 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning\narXiv:2210.09563 [preprint]\nTABLE I: Evaluation accuracy rate (in %) and area under the receiver operating characteristic curve (in %) of forgery detection performance on constructed hybrid-domain forgery dataset by several state-of-the-art methods. The best result is displayed in black font and the second place is underlined.",
+    "tables": [
+     {
+      "caption": "TABLE I: Evaluation accuracy rate (in %) and area under the receiver operating characteristic curve (in %) of forgery detection performance on constructed hybrid-domain forgery dataset by several stat",
+      "header": [
+       "Methods",
+       "Accuracy(%)",
+       "AUC(%)"
+      ],
+      "rows": [
+       [
+        "",
+        "Without Considering Privacy Issue"
+       ],
+       [
+        "KNN [ 50 ]",
+        "53.23",
+        "55.01"
+       ],
+       [
+        "CNNDetection 1 [ 51 ]",
+        "74.73",
+        "83.36"
+       ],
+       [
+        "Xception [ 52 ]",
+        "76.31",
+        "86.06"
+       ],
+       [
+        "CNNDetection 2 [ 51 ]",
+        "78.21",
+        "88.05"
+       ],
+       [
+        "RECCE [ 22 ]",
+        "85.03",
+        "92.75"
+       ],
+       [
+        "GFFD [ 53 ]",
+        "86.56",
+        "93.21"
+       ],
+       [
+        "RFM [ 54 ]",
+        "83.85",
+        "92.73"
+       ],
+       [
+        "DCL [ 55 ]",
+        "86.82",
+        "94.48"
+       ],
+       [
+        "FedForgery* (Ours)",
+        "87.36",
+        "93.23"
+       ],
+       [
+        "",
+        "Considering Privacy Issue"
+       ],
+       [
+        "FedForgery (Ours)",
+        "85.55",
+        "91.12"
+       ]
+      ]
+     }
+    ],
+    "value": "53.23",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "FedForgery: Generalized Face Forgery Detection With Residual Federated Learning",
+  "evidence": {
+   "observed_at": "2026-10-16T19:02:15Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"FedForgery: Generalized Face Forgery Detection With Residual Federated Learning\" (IEEE Transactions on Information Forensics and Security, 2023; DOI 10.1109/tifs.2023.3293951), what value does the table \"Evaluation accuracy rate (in %) and area under the receiver operating characteristic curve (in %) of forgery ...\" report for \"KNN [ 50 ]\" in the column \"Accuracy(%)\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/10177776/"
+ },
+ {
+  "id": "R-F2-03",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer\" (IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025; DOI 10.1109/tpami.2025.3633828) in a paper and need one number from it. The publisher's page is https://ieeexplore.ieee.org/document/11250956/\nIn the table \"The prompt name and image count of each species in CtrlAVES3D\", what value is reported for \"Laysan albatross\" in the column \"Count\"? Please tell me where you found it.",
+  "answer": {
+   "value": "494",
+   "unit": "",
+   "field": "Laysan albatross / Count"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-03-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/11250956/",
+    "status": 202,
+    "title": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-03-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tpami.2025.3633828",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/11250956/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/11250956/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-03-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2508.00298",
+    "status": 200,
+    "title": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer",
+    "version_label": "arXiv preprint 2508.00298 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer\narXiv:2508.00298 [preprint]\nTABLE II: The prompt name and image count of each species in CtrlAVES3D.",
+    "tables": [
+     {
+      "caption": "TABLE II: The prompt name and image count of each species in CtrlAVES3D.",
+      "header": [
+       "Prompt Names",
+       "Count",
+       "Prompt Names",
+       "Count"
+      ],
+      "rows": [
+       [
+        "Laysan albatross",
+        "501",
+        "Painted bunting",
+        "494"
+       ],
+       [
+        "Cardinal",
+        "447",
+        "American crow",
+        "414"
+       ],
+       [
+        "Northern flicker",
+        "441",
+        "Scissor tailed flycatcher",
+        "264"
+       ],
+       [
+        "Boat tailed grackle",
+        "334",
+        "Evening grosbeak",
+        "363"
+       ],
+       [
+        "California gull",
+        "394",
+        "Blue jay",
+        "370"
+       ],
+       [
+        "Green kingfisher",
+        "487",
+        "White breasted kingfisher",
+        "501"
+       ],
+       [
+        "Mallard",
+        "287",
+        "Horned puffin",
+        "330"
+       ],
+       [
+        "Geococcyx",
+        "305",
+        "Cedar waxwing",
+        "467"
+       ],
+       [
+        "Pileated woodpecker",
+        "374",
+        "Total",
+        "6773"
+       ]
+      ]
+     }
+    ],
+    "value": "494",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer",
+  "evidence": {
+   "observed_at": "2026-10-16T19:02:19Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"AniMer+: Unified Pose and Shape Estimation Across Mammalia and Aves via Family-Aware Transformer\" (IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025; DOI 10.1109/tpami.2025.3633828), what value does the table \"The prompt name and image count of each species in CtrlAVES3D.\" report for \"Laysan albatross\" in the column \"Count\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/11250956/"
+ },
+ {
+  "id": "R-F2-04",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm reproducing a baseline from \"Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds\" (IEEE Transactions on Multimedia, 2023; DOI 10.1109/tmm.2023.3306490) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/10227571/\nIn the table whose caption begins \"Comparison with other state-of-the-art approaches on the KITTI dataset. The instance frame number of each\", what value is reported for \"Frame num.\" in the column \"Car\"? Please tell me where you found it.",
+  "answer": {
+   "value": "6424",
+   "unit": "",
+   "field": "Frame num. / Car"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-04-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/10227571/",
+    "status": 202,
+    "title": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-04-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tmm.2023.3306490",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/10227571/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/10227571/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-04-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2301.12057",
+    "status": 200,
+    "title": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds",
+    "version_label": "arXiv preprint 2301.12057 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds\narXiv:2301.12057 [preprint]\nTable 1 : Comparison with other state-of-the-art approaches on the KITTI dataset. The instance frame number of each category is shown under category names, and the mean denotes the average results of all categories. Bold presents the best performance.",
+    "tables": [
+     {
+      "caption": "Table 1 : Comparison with other state-of-the-art approaches on the KITTI dataset. The instance frame number of each category is shown under category names, and the mean denotes the average results of ",
+      "header": [
+       "Category",
+       "Car",
+       "Ped",
+       "Van",
+       "Cyclist",
+       "Mean"
+      ],
+      "rows": [
+       [
+        "Frame num.",
+        "6424",
+        "6088",
+        "1248",
+        "308",
+        "14068"
+       ],
+       [
+        "Success",
+        "P2B [ 23 ]",
+        "56.2",
+        "40.8",
+        "40.8",
+        "32.1",
+        "39.5"
+       ],
+       [
+        "",
+        "BAT [ 32 ]",
+        "60.5",
+        "42.1",
+        "52.4",
+        "33.7",
+        "47.2"
+       ],
+       [
+        "",
+        "LTTR [ 3 ]",
+        "65.0",
+        "33.2",
+        "35.8",
+        "66.2",
+        "50.0"
+       ],
+       [
+        "",
+        "V2B [ 8 ]",
+        "70.5",
+        "48.3",
+        "50.1",
+        "40.8",
+        "58.4"
+       ],
+       [
+        "",
+        "PTTR [ 34 ]",
+        "65.2",
+        "50.9",
+        "52.5",
+        "65.1",
+        "58.4"
+       ],
+       [
+        "",
+        "STNet [ 9 ]",
+        "72.1",
+        "49.9",
+        "58.0",
+        "73.5",
+        "61.3"
+       ],
+       [
+        "",
+        "M2-Track [ 33 ]",
+        "65.5",
+        "61.5",
+        "53.8",
+        "73.2",
+        "62.9"
+       ],
+       [
+        "",
+        "OPSNet (ours)",
+        "77.0",
+        "65.6",
+        "77.7",
+        "85.5",
+        "72.3"
+       ],
+       [
+        "Precision",
+        "P2B [ 23 ]",
+        "72.8",
+        "49.6",
+        "48.4",
+        "44.7",
+        "53.9"
+       ],
+       [
+        "",
+        "BAT [ 32 ]",
+        "77.7",
+        "70.1",
+        "67.0",
+        "45.4",
+        "65.1"
+       ],
+       [
+        "",
+        "LTTR [ 3 ]",
+        "77.1",
+        "56.8",
+        "45.6",
+        "89.9",
+        "67.4"
+       ],
+       [
+        "",
+        "V2B [ 8 ]",
+        "81.3",
+        "73.5",
+        "58.0",
+        "49.7",
+        "75.2"
+       ],
+       [
+        "",
+        "PTTR [ 34 ]",
+        "77.4",
+        "81.6",
+        "61.8",
+        "90.5",
+        "77.8"
+       ],
+       [
+        "",
+        "STNet [ 9 ]",
+        "84.0",
+        "77.2",
+        "70.6",
+        "93.7",
+        "80.1"
+       ],
+       [
+        "",
+        "M2-Track [ 33 ]",
+        "80.8",
+        "88.2",
+        "70.7",
+        "93.5",
+        "83.4"
+       ],
+       [
+        "",
+        "OPSNet (ours)",
+        "86.1",
+        "90.3",
+        "85.8",
+        "93.7",
+        "88.0"
+       ]
+      ]
+     }
+    ],
+    "value": "6424",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds",
+  "evidence": {
+   "observed_at": "2026-10-16T19:02:25Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Object-Preserving Siamese Network for Single-Object Tracking on Point Clouds\" (IEEE Transactions on Multimedia, 2023; DOI 10.1109/tmm.2023.3306490), what value does the table \"Comparison with other state-of-the-art approaches on the KITTI dataset. The instance frame number of each ...\" report for \"Frame num.\" in the column \"Car\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/10227571/"
+ },
+ {
+  "id": "R-F2-05",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "My reading group is discussing \"Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing\" (IEEE Transactions on Circuits and Systems for Video Technology, 2023; DOI 10.1109/tcsvt.2023.3337134), and I want to quote a result from the published version: https://ieeexplore.ieee.org/document/10329331/\nIn the table \"Effectiveness of DGM on CREMA-D dataset\", what value is reported for \"Baseline [ 22 ]\" in the column \"Accuracy\"? Please tell me where you found it.",
+  "answer": {
+   "value": "61.1",
+   "unit": "",
+   "field": "Baseline [ 22 ] / Accuracy"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-05-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/10329331/",
+    "status": 202,
+    "title": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-05-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tcsvt.2023.3337134",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/10329331/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/10329331/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-05-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2307.02041",
+    "status": 200,
+    "title": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing",
+    "version_label": "arXiv preprint 2307.02041 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing\narXiv:2307.02041 [preprint]\nTABLE II: Effectiveness of DGM on CREMA-D dataset.",
+    "tables": [
+     {
+      "caption": "TABLE II: Effectiveness of DGM on CREMA-D dataset.",
+      "header": [
+       "Methods",
+       "Accuracy"
+      ],
+      "rows": [
+       [
+        "Baseline [ 22 ]",
+        "61.1"
+       ],
+       [
+        "DGM",
+        "61.8 (+0.7)"
+       ]
+      ]
+     }
+    ],
+    "value": "61.1",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing",
+  "evidence": {
+   "observed_at": "2026-10-16T19:02:30Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Multimodal Imbalance-Aware Gradient Modulation for Weakly-Supervised Audio-Visual Video Parsing\" (IEEE Transactions on Circuits and Systems for Video Technology, 2023; DOI 10.1109/tcsvt.2023.3337134), what value does the table \"Effectiveness of DGM on CREMA-D dataset.\" report for \"Baseline [ 22 ]\" in the column \"Accuracy\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/10329331/"
+ },
+ {
+  "id": "R-F2-06",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"Red Be stars in the Magellanic Clouds?\" (Monthly Notices of the Royal Astronomical Society, 2021; DOI 10.1093/mnras/stab1481) in a paper and need one number from it. The publisher's page is https://academic.oup.com/mnras/article/505/4/5567/6280959\nIn the table whose caption begins \"Mean and dispersion values of parallax and proper motions for LMC and SMC Be candidates, as obtained from Q-Q\", what value is reported for \"LMC1\" in the column \"Sample\"? Please tell me where you found it.",
+  "answer": {
+   "value": "1856",
+   "unit": "",
+   "field": "LMC1 / Sample"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-06-canon",
+    "role": "canonical",
+    "url": "https://academic.oup.com/mnras/article/505/4/5567/6280959",
+    "status": 403,
+    "title": "Red Be stars in the Magellanic Clouds?",
+    "text": "Just a moment...",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-06-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1093/mnras/stab1481",
+    "status": 302,
+    "headers": {
+     "Location": "https://academic.oup.com/mnras/article/505/4/5567/6280959"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://academic.oup.com/mnras/article/505/4/5567/6280959",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-06-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2002.11606",
+    "status": 200,
+    "title": "Red Be stars in the Magellanic Clouds?",
+    "version_label": "arXiv preprint 2002.11606 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Red Be stars in the Magellanic Clouds?\narXiv:2002.11606 [preprint]\nTable 1: Mean and dispersion values of parallax and proper motions for LMC and SMC Be candidates, as obtained from Q-Q plots on samples LMC1 and SMC1.",
+    "tables": [
+     {
+      "caption": "Table 1: Mean and dispersion values of parallax and proper motions for LMC and SMC Be candidates, as obtained from Q-Q plots on samples LMC1 and SMC1.",
+      "header": [
+       "",
+       "Sample",
+       "ϖ",
+       "μ α  cos ⁡ δ",
+       "μ δ"
+      ],
+      "rows": [
+       [
+        "",
+        "size",
+        "(mas)",
+        "(mas yr -1 )",
+        "(mas yr -1 )"
+       ],
+       [
+        "LMC1",
+        "1856",
+        "-0.015 ±",
+        "1.865 ±",
+        "0.301 ±"
+       ],
+       [
+        "SMC1",
+        "872",
+        "-0.023 ±",
+        "0.680 ±",
+        "-1.220 ±"
+       ]
+      ]
+     }
+    ],
+    "value": "1856",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Red Be stars in the Magellanic Clouds?",
+  "evidence": {
+   "observed_at": "2026-10-16T19:13:11Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 403,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Red Be stars in the Magellanic Clouds?\" (Monthly Notices of the Royal Astronomical Society, 2021; DOI 10.1093/mnras/stab1481), what value does the table \"Mean and dispersion values of parallax and proper motions for LMC and SMC Be candidates, as obtained from Q-Q ...\" report for \"LMC1\" in the column \"Sample\"? Cite the source you used.",
+  "user_link": "https://academic.oup.com/mnras/article/505/4/5567/6280959"
+ },
+ {
+  "id": "R-F2-07",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm reproducing a baseline from \"MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels\" (IEEE Transactions on Image Processing, 2022; DOI 10.1109/tip.2022.3183841) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/9804221/\nIn the table \"Test accuracies on Clothing1M dataset. All results are taken from the corresponding paper\", what value is reported for \"MLC [ 46 ]\" in the column \"acc\"? Please tell me where you found it.",
+  "answer": {
+   "value": "71.10",
+   "unit": "",
+   "field": "MLC [ 46 ] / acc"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-07-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/9804221/",
+    "status": 202,
+    "title": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-07-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tip.2022.3183841",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9804221/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9804221/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-07-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2103.10869",
+    "status": 200,
+    "title": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels",
+    "version_label": "arXiv preprint 2103.10869 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels\narXiv:2103.10869 [preprint]\nTABLE II: Test accuracies on Clothing1M dataset. All results are taken from the corresponding paper.",
+    "tables": [
+     {
+      "caption": "TABLE II: Test accuracies on Clothing1M dataset. All results are taken from the corresponding paper.",
+      "header": [
+       "method",
+       "acc",
+       "method",
+       "acc"
+      ],
+      "rows": [
+       [
+        "MLC [ 46 ]",
+        "71.10",
+        "Meta-Weight [ 36 ]",
+        "73.72"
+       ],
+       [
+        "Joint Opt. [ 11 ]",
+        "72.23",
+        "NoiseRank [ 47 ]",
+        "73.77"
+       ],
+       [
+        "MetaCleaner [ 48 ]",
+        "72.50",
+        "Anchor points [ 18 ]",
+        "74.18"
+       ],
+       [
+        "SafeGuarded [ 49 ]",
+        "73.07",
+        "CleanNet [ 30 ]",
+        "74.69"
+       ],
+       [
+        "MLNT [ 33 ]",
+        "73.47",
+        "MSLG [ 37 ]",
+        "76.02"
+       ],
+       [
+        "PENCIL [ 12 ]",
+        "73.49",
+        "Ours",
+        "78.20"
+       ]
+      ]
+     }
+    ],
+    "value": "71.10",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels",
+  "evidence": {
+   "observed_at": "2026-10-16T19:13:26Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"MetaLabelNet: Learning to Generate Soft-Labels From Noisy-Labels\" (IEEE Transactions on Image Processing, 2022; DOI 10.1109/tip.2022.3183841), what value does the table \"Test accuracies on Clothing1M dataset. All results are taken from the corresponding paper.\" report for \"MLC [ 46 ]\" in the column \"acc\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/9804221/"
+ },
+ {
+  "id": "R-F2-08",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"PGSO: Prompt-based Generative Sequence Optimization network for aspect-based sentiment analysis\" (Expert Systems with Applications, 2024; DOI 10.1016/j.eswa.2024.125933) in a paper and need one number from it. The publisher's page is https://linkinghub.elsevier.com/retrieve/pii/S0957417424028008\nIn the table whose caption begins \"Overall performance of the ASTE task over 4 datasets. Note that the best results and results with F1 gaps\", what value is reported for \"Jet-BERT\" in the column \"AVG\"? Please tell me where you found it.",
+  "answer": {
+   "value": "58.70",
+   "unit": "",
+   "field": "Jet-BERT / AVG"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-08-canon",
+    "role": "canonical",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0957417424028008",
+    "status": 200,
+    "title": "PGSO: Prompt-based Generative Sequence Optimization network for aspect-based sentiment analysis",
+    "text": "Redirecting",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-08-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1016/j.eswa.2024.125933",
+    "status": 302,
+    "headers": {
+     "Location": "https://linkinghub.elsevier.com/retrieve/pii/S0957417424028008"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://linkinghub.elsevier.com/retrieve/pii/S0957417424028008",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-08-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2412.00763",
+    "status": 200,
+    "title": "PGSO: Prompt-based Generative Sequence Optimization network for aspect-based sentiment analysis",
+    "version_label": "arXiv preprint 2412.00763 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "PGSO: Prompt-based Generative Sequence Optimization network for aspect-based sentiment analysis\narXiv:2412.00763 [preprint]\nTable 8: Overall performance of the ASTE task over 4 datasets. Note that the best results and results with F1 gaps within 0.03 are in bold , and second-best are underline .",
+    "tables": [
+     {
+      "caption": "Table 8: Overall performance of the ASTE task over 4 datasets. Note that the best results and results with F1 gaps within 0.03 are in bold , and second-best are underline .",
+      "header": [
+       "Model",
+       "L14",
+       "R14",
+       "R15",
+       "R16",
+       "AVG"
+      ],
+      "rows": [
+       [
+        "Jet-BERT",
+        "51.04",
+        "62.40",
+        "57.53",
+        "63.83",
+        "58.70"
+       ],
+       [
+        "Dual-MRC",
+        "55.58",
+        "70.32",
+        "57.21",
+        "67.40",
+        "62.62"
+       ],
+       [
+        "BMRC",
+        "59.27",
+        "70.69",
+        "61.05",
+        "68.13",
+        "64.78"
+       ],
+       [
+        "Span-ASTE",
+        "59.38",
+        "71.85",
+        "63.27",
+        "70.26",
+        "66.19"
+       ],
+       [
+        "SBN",
+        "62.65",
+        "74.34",
+        "64.82",
+        "72.08",
+        "68.47"
+       ],
+       [
+        "GAS-T5",
+        "60.78",
+        "72.16",
+        "62.10",
+        "70.10",
+        "66.28"
+       ],
+       [
+        "ParaPhrase-T5",
+        "61.13",
+        "72.03",
+        "62.56",
+        "71.70",
+        "66.85"
+       ],
+       [
+        "Seq2Path",
+        "64.09",
+        "74.29",
+        "65.42",
+        "73.67",
+        "69.36"
+       ],
+       [
+        "DLO",
+        "61.46",
+        "72.39",
+        "64.26",
+        "69.90",
+        "67.00"
+       ],
+       [
+        "LEGO-ABSA",
+        "62.22",
+        "73.21",
+        "64.46",
+        "71.59",
+        "67.87"
+       ],
+       [
+        "EHG",
+        "61.53",
+        "71.82",
+        "63.58",
+        "72.35",
+        "67.32"
+       ],
+       [
+        "MvP",
+        "63.33",
+        "74.05",
+        "65.89",
+        "73.48",
+        "69.18"
+       ],
+       [
+        "P  G  S  O s  t  a  t  i  c",
+        "62.93",
+        "73.86",
+        "66.13",
+        "74.11",
+        "69.25"
+       ],
+       [
+        "P  G  S  O d  y  n  a  m  i  c",
+        "64.14",
+        "74.38",
+        "67.28",
+        "75.33",
+        "70.28"
+       ]
+      ]
+     }
+    ],
+    "value": "58.70",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "PGSO: Prompt-based Generative Sequence Optimization network for aspect-based sentiment analysis",
+  "evidence": {
+   "observed_at": "2026-10-16T19:13:40Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 200,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"PGSO: Prompt-based Generative Sequence Optimization network for aspect-based sentiment analysis\" (Expert Systems with Applications, 2024; DOI 10.1016/j.eswa.2024.125933), what value does the table \"Overall performance of the ASTE task over 4 datasets. Note that the best results and results with F1 gaps ...\" report for \"Jet-BERT\" in the column \"AVG\"? Cite the source you used.",
+  "user_link": "https://linkinghub.elsevier.com/retrieve/pii/S0957417424028008"
+ },
+ {
+  "id": "R-F2-09",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"AWSnet: An auto-weighted supervision attention network for myocardial scar and edema segmentation in multi-sequence cardiac magnetic resonance images\" (Medical Image Analysis, 2022; DOI 10.1016/j.media.2022.102362) in a paper and need one number from it. The publisher's page is https://linkinghub.elsevier.com/retrieve/pii/S1361841522000159\nIn the table \"The results of the myocardial pathology segmentation with different CMR sequence in the MyoPS dataset\", what value is reported for \"bSSFP\" in the column \"Scar\"? Please tell me where you found it.",
+  "answer": {
+   "value": "0.406",
+   "unit": "",
+   "field": "bSSFP / Scar"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-09-canon",
+    "role": "canonical",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1361841522000159",
+    "status": 200,
+    "title": "AWSnet: An auto-weighted supervision attention network for myocardial scar and edema segmentation in multi-sequence cardiac magnetic resonance images",
+    "text": "Redirecting",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-09-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1016/j.media.2022.102362",
+    "status": 302,
+    "headers": {
+     "Location": "https://linkinghub.elsevier.com/retrieve/pii/S1361841522000159"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://linkinghub.elsevier.com/retrieve/pii/S1361841522000159",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-09-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2201.05344",
+    "status": 200,
+    "title": "AWSnet: An auto-weighted supervision attention network for myocardial scar and edema segmentation in multi-sequence cardiac magnetic resonance images",
+    "version_label": "arXiv preprint 2201.05344 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "AWSnet: An auto-weighted supervision attention network for myocardial scar and edema segmentation in multi-sequence cardiac magnetic resonance images\narXiv:2201.05344 [preprint]\nTable 3: The results of the myocardial pathology segmentation with different CMR sequence in the MyoPS dataset.",
+    "tables": [
+     {
+      "caption": "Table 3: The results of the myocardial pathology segmentation with different CMR sequence in the MyoPS dataset.",
+      "header": [
+       "",
+       "Scar",
+       "Scar + Edema"
+      ],
+      "rows": [
+       [
+        "Dice ↑",
+        "Dice ↑"
+       ],
+       [
+        "bSSFP",
+        "0.406±0.232",
+        "0.492±0.140"
+       ],
+       [
+        "LGE",
+        "0.615±0.266",
+        "0.647±0.124"
+       ],
+       [
+        "T2",
+        "0.455±0.247",
+        "0.636±0.141"
+       ],
+       [
+        "LGE+T2",
+        "0.658±0.253",
+        "0.720±0.126"
+       ]
+      ]
+     }
+    ],
+    "value": "0.406",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "AWSnet: An auto-weighted supervision attention network for myocardial scar and edema segmentation in multi-sequence cardiac magnetic resonance images",
+  "evidence": {
+   "observed_at": "2026-10-16T19:13:44Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 200,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"AWSnet: An auto-weighted supervision attention network for myocardial scar and edema segmentation in multi-sequence cardiac magnetic resonance images\" (Medical Image Analysis, 2022; DOI 10.1016/j.media.2022.102362), what value does the table \"The results of the myocardial pathology segmentation with different CMR sequence in the MyoPS dataset.\" report for \"bSSFP\" in the column \"Scar\"? Cite the source you used.",
+  "user_link": "https://linkinghub.elsevier.com/retrieve/pii/S1361841522000159"
+ },
+ {
+  "id": "R-F2-10",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"Implementing a Hierarchical Deep Learning Approach for Simulating Multilevel Auction Data\" (Computational Economics, 2024; DOI 10.1007/s10614-024-10622-4) in a paper and need one number from it. The publisher's page is https://doi.org/10.1007/s10614-024-10622-4\nIn the table \"Structure of the data\", what value is reported for \"public contractor / multiclass\" in the column \"Cardinality\"? Please tell me where you found it.",
+  "answer": {
+   "value": "1,451",
+   "unit": "",
+   "field": "public contractor / multiclass / Cardinality"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-10-canon",
+    "role": "canonical",
+    "url": "https://link.springer.com/article/10.1007/s10614-024-10622-4?error=cookies_not_supported&code=dda21de5-6396-4a88-af83-947778f10365",
+    "status": 200,
+    "title": "Implementing a Hierarchical Deep Learning Approach for Simulating Multilevel Auction Data",
+    "text": "Implementing a Hierarchical Deep Learning Approach for Simulating Multilevel Auction Data | Computational Economics | Springer Nature Link \n Skip to main content \nAdvertisement \n Log in \n Menu \n Find a journal\n Publish with us\n Track your research\n Search",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-10-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1007/s10614-024-10622-4",
+    "status": 302,
+    "headers": {
+     "Location": "https://link.springer.com/article/10.1007/s10614-024-10622-4?error=cookies_not_supported&code=dda21de5-6396-4a88-af83-947778f10365"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://link.springer.com/article/10.1007/s10614-024-10622-4?error=cookies_not_supported&code=dda21de5-6396-4a88-af83-947778f10365",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-10-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2207.12255",
+    "status": 200,
+    "title": "Implementing a Hierarchical Deep Learning Approach for Simulating Multilevel Auction Data",
+    "version_label": "arXiv preprint 2207.12255 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Implementing a Hierarchical Deep Learning Approach for Simulating Multilevel Auction Data\narXiv:2207.12255 [preprint]\nTable 1 : Structure of the data.",
+    "tables": [
+     {
+      "caption": "Table 1 : Structure of the data.",
+      "header": [
+       "Variables",
+       "Type",
+       "Cardinality"
+      ],
+      "rows": [
+       [
+        "public contractor",
+        "multiclass",
+        "1,451"
+       ],
+       [
+        "municipality",
+        "multiclass",
+        "binary"
+       ],
+       [
+        "sector",
+        "multiclass",
+        "3"
+       ],
+       [
+        "subsector",
+        "multiclass",
+        "53"
+       ],
+       [
+        "location",
+        "multiclass",
+        "98"
+       ],
+       [
+        "unspsc",
+        "multiclass",
+        "1,379"
+       ],
+       [
+        "number of bidders",
+        "multiclass",
+        "24"
+       ],
+       [
+        "post-auction expenses",
+        "multiclass",
+        "binary"
+       ],
+       [
+        "firms",
+        "multilabel",
+        "40,659"
+       ],
+       [
+        "bids",
+        "continuous",
+        "-"
+       ]
+      ]
+     }
+    ],
+    "value": "1,451",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Implementing a Hierarchical Deep Learning Approach for Simulating Multilevel Auction Data",
+  "evidence": {
+   "observed_at": "2026-10-16T19:14:07Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 200,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Implementing a Hierarchical Deep Learning Approach for Simulating Multilevel Auction Data\" (Computational Economics, 2024; DOI 10.1007/s10614-024-10622-4), what value does the table \"Structure of the data.\" report for \"public contractor / multiclass\" in the column \"Cardinality\"? Cite the source you used.",
+  "user_link": "https://doi.org/10.1007/s10614-024-10622-4"
+ },
+ {
+  "id": "R-F2-11",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"High-Dimensional Uncertainty Quantification via Tensor Regression With Rank Determination and Adaptive Sampling\" (IEEE Transactions on Components Packaging and Manufacturing Technology, 2021; DOI 10.1109/tcpmt.2021.3093432) in a paper and need one number from it. The publisher's page is https://ieeexplore.ieee.org/document/9467329/\nIn the table \"Model Comparisons on the Synthetic Function\", what value is reported for \"Sparse gPC\" in the column \"Variable #\"? Please tell me where you found it.",
+  "answer": {
+   "value": "5151",
+   "unit": "",
+   "field": "Sparse gPC / Variable #"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-11-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/9467329/",
+    "status": 202,
+    "title": "High-Dimensional Uncertainty Quantification via Tensor Regression With Rank Determination and Adaptive Sampling",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-11-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tcpmt.2021.3093432",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9467329/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9467329/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-11-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2103.17236",
+    "status": 200,
+    "title": "High-Dimensional Uncertainty Quantification via Tensor Regression With Rank Determination and Adaptive Sampling",
+    "version_label": "arXiv preprint 2103.17236 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "High-Dimensional Uncertainty Quantification via Tensor Regression With Rank Determination and Adaptive Sampling\narXiv:2103.17236 [preprint]\nTABLE I: Model Comparisons on the Synthetic Function",
+    "tables": [
+     {
+      "caption": "TABLE I: Model Comparisons on the Synthetic Function",
+      "header": [
+       "",
+       "Sample #",
+       "Variable #",
+       "Mean",
+       "Std",
+       "Testing"
+      ],
+      "rows": [
+       [
+        "Monte Carlo",
+        "10 5",
+        "N/A",
+        "-162.95",
+        "4.80",
+        "N/A"
+       ],
+       [
+        "Sparse gPC",
+        "380",
+        "5151",
+        "-163.04",
+        "2.27",
+        "2.3%"
+       ],
+       [
+        "Fixed rank",
+        "380",
+        "15x100",
+        "-163.24",
+        "5.02",
+        "1.01%"
+       ],
+       [
+        "Proposed",
+        "380",
+        "3x100 *",
+        "-162.93",
+        "4.86",
+        "0.37%"
+       ]
+      ]
+     }
+    ],
+    "value": "5151",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "High-Dimensional Uncertainty Quantification via Tensor Regression With Rank Determination and Adaptive Sampling",
+  "evidence": {
+   "observed_at": "2026-10-16T19:14:57Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"High-Dimensional Uncertainty Quantification via Tensor Regression With Rank Determination and Adaptive Sampling\" (IEEE Transactions on Components Packaging and Manufacturing Technology, 2021; DOI 10.1109/tcpmt.2021.3093432), what value does the table \"Model Comparisons on the Synthetic Function\" report for \"Sparse gPC\" in the column \"Variable #\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/9467329/"
+ },
+ {
+  "id": "R-F2-12",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm reproducing a baseline from \"Cover Reproducible Steganography via Deep Generative Models\" (IEEE Transactions on Dependable and Secure Computing, 2022; DOI 10.1109/tdsc.2022.3217569) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/9931443/\nIn the table whose caption begins \"The running time of different parts of the proposed CRS framework. (GPU: Waveglow: Nvidia 3090, DALL-E:\", what value is reported for \"WaveGlow [ 32 ]\" in the column \"Generation (s)\"? Please tell me where you found it.",
+  "answer": {
+   "value": "1.883",
+   "unit": "",
+   "field": "WaveGlow [ 32 ] / Generation (s)"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-12-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/9931443/",
+    "status": 202,
+    "title": "Cover Reproducible Steganography via Deep Generative Models",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-12-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tdsc.2022.3217569",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9931443/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9931443/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-12-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2210.14632",
+    "status": 200,
+    "title": "Cover Reproducible Steganography via Deep Generative Models",
+    "version_label": "arXiv preprint 2210.14632 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Cover Reproducible Steganography via Deep Generative Models\narXiv:2210.14632 [preprint]\nTABLE II: The running time of different parts of the proposed CRS framework. (GPU: Waveglow: Nvidia 3090, DALL-E: Nvidia A100, CPU: Intel (R) Xeon (R) CPU E5-2670 @2.30 GHz)",
+    "tables": [
+     {
+      "caption": "TABLE II: The running time of different parts of the proposed CRS framework. (GPU: Waveglow: Nvidia 3090, DALL-E: Nvidia A100, CPU: Intel (R) Xeon (R) CPU E5-2670 @2.30 GHz)",
+      "header": [
+       "Generative Models",
+       "Generation (s)",
+       "Embedding (s)",
+       "Extraction (s)"
+      ],
+      "rows": [
+       [
+        "WaveGlow [ 32 ]",
+        "1.883",
+        "0.0153",
+        "0.0163"
+       ],
+       [
+        "DALL-E [ 39 ]",
+        "0.1593",
+        "0.0156",
+        "0.0149"
+       ],
+       [
+        "",
+        "",
+        "",
+        ""
+       ]
+      ]
+     }
+    ],
+    "value": "1.883",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Cover Reproducible Steganography via Deep Generative Models",
+  "evidence": {
+   "observed_at": "2026-10-16T19:15:02Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Cover Reproducible Steganography via Deep Generative Models\" (IEEE Transactions on Dependable and Secure Computing, 2022; DOI 10.1109/tdsc.2022.3217569), what value does the table \"The running time of different parts of the proposed CRS framework. (GPU: Waveglow: Nvidia 3090, DALL-E: ...\" report for \"WaveGlow [ 32 ]\" in the column \"Generation (s)\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/9931443/"
+ },
+ {
+  "id": "R-F2-13",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "My reading group is discussing \"Learning to Evaluate the Artness of AI-Generated Images\" (IEEE Transactions on Multimedia, 2024; DOI 10.1109/tmm.2024.3410672), and I want to quote a result from the published version: https://ieeexplore.ieee.org/document/10551508/\nIn the table whose caption begins \"Summary of the generated pseudo-annotated artness dataset. We provide the number of sequences containing\", what value is reported for \"Face\" in the column \"Total Seq\"? Please tell me where you found it.",
+  "answer": {
+   "value": "34,872",
+   "unit": "",
+   "field": "Face / Total Seq"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-13-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/10551508/",
+    "status": 202,
+    "title": "Learning to Evaluate the Artness of AI-Generated Images",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-13-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tmm.2024.3410672",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/10551508/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/10551508/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-13-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2305.04923",
+    "status": 200,
+    "title": "Learning to Evaluate the Artness of AI-Generated Images",
+    "version_label": "arXiv preprint 2305.04923 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Learning to Evaluate the Artness of AI-Generated Images\narXiv:2305.04923 [preprint]\nTABLE I: Summary of the generated pseudo-annotated artness dataset. We provide the number of sequences containing either real paintings or real photos for each domain. Each sequence consists of 12 images with the same content and different styles that interpolate between the photorealistic and artis",
+    "tables": [
+     {
+      "caption": "TABLE I: Summary of the generated pseudo-annotated artness dataset. We provide the number of sequences containing either real paintings or real photos for each domain. Each sequence consists of 12 ima",
+      "header": [
+       "Domain",
+       "Painting Seq",
+       "Photo Seq",
+       "Total Seq"
+      ],
+      "rows": [
+       [
+        "Face",
+        "17,436",
+        "17,436",
+        "34,872"
+       ],
+       [
+        "Horse",
+        "8,808",
+        "8,808",
+        "17,616"
+       ],
+       [
+        "Landscape",
+        "45,627",
+        "45,627",
+        "91,254"
+       ],
+       [
+        "All",
+        "71,871",
+        "71,871",
+        "143,742"
+       ]
+      ]
+     }
+    ],
+    "value": "34,872",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Learning to Evaluate the Artness of AI-Generated Images",
+  "evidence": {
+   "observed_at": "2026-10-16T19:15:12Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Learning to Evaluate the Artness of AI-Generated Images\" (IEEE Transactions on Multimedia, 2024; DOI 10.1109/tmm.2024.3410672), what value does the table \"Summary of the generated pseudo-annotated artness dataset. We provide the number of sequences containing ...\" report for \"Face\" in the column \"Total Seq\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/10551508/"
+ },
+ {
+  "id": "R-F2-14",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm reproducing a baseline from \"Negative Selection Algorithm Research and Applications in the Last Decade: A Review\" (IEEE Transactions on Artificial Intelligence, 2021; DOI 10.1109/tai.2021.3114661) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/9546626/\nIn the table whose caption begins \"NSA results compared with other OCC methods for different datasets. Here NSA experiments were conducted after\", what value is reported for \"Arrhythmia\" in the column \"ABOD\"? Please tell me where you found it.",
+  "answer": {
+   "value": "0.7688",
+   "unit": "",
+   "field": "Arrhythmia / ABOD"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-14-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/9546626/",
+    "status": 202,
+    "title": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-14-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tai.2021.3114661",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9546626/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9546626/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-14-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2105.06109",
+    "status": 200,
+    "title": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review",
+    "version_label": "arXiv preprint 2105.06109 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review\narXiv:2105.06109 [preprint]\nTable 5: NSA results compared with other OCC methods for different datasets. Here NSA experiments were conducted after t-distributed stochastic neighbourhood embedding (t-SNE [ 148 ] ) dimension reduction and the results of other methods were reported from [ 172 ] experiments.",
+    "tables": [
+     {
+      "caption": "Table 5: NSA results compared with other OCC methods for different datasets. Here NSA experiments were conducted after t-distributed stochastic neighbourhood embedding (t-SNE [ 148 ] ) dimension reduc",
+      "header": [
+       "data",
+       "ABOD",
+       "CBLOF",
+       "FB",
+       "HBOS",
+       "IForest",
+       "KNN",
+       "LOF",
+       "MCD",
+       "OCSVM",
+       "PCA",
+       "V-NSA"
+      ],
+      "rows": [
+       [
+        "Arrhythmia",
+        "0.7688",
+        "0.7835",
+        "0.7781",
+        "0.8219",
+        "0.8005",
+        "0.7861",
+        "0.7787",
+        "0.779",
+        "0.7812",
+        "0.7815",
+        "0.7"
+       ],
+       [
+        "Cardio",
+        "0.5692",
+        "0.9276",
+        "0.5867",
+        "0.8351",
+        "0.9213",
+        "0.7236",
+        "0.5736",
+        "0.8135",
+        "0.9348",
+        "0.9504",
+        "0.9"
+       ],
+       [
+        "Glass",
+        "0.7951",
+        "0.8504",
+        "0.8726",
+        "0.7389",
+        "0.7569",
+        "0.8508",
+        "0.8644",
+        "0.7901",
+        "0.6324",
+        "0.6747",
+        "0.9"
+       ],
+       [
+        "Ionosphere",
+        "0.9248",
+        "0.8134",
+        "0.873",
+        "0.5614",
+        "0.8499",
+        "0.9267",
+        "0.8753",
+        "0.9557",
+        "0.8419",
+        "0.7962",
+        "0.9"
+       ],
+       [
+        "Letter",
+        "0.8783",
+        "0.507",
+        "0.866",
+        "0.5927",
+        "0.642",
+        "0.8766",
+        "0.8594",
+        "0.8074",
+        "0.6118",
+        "0.5283",
+        "0.7"
+       ],
+       [
+        "Lympho",
+        "0.911",
+        "0.9728",
+        "0.9753",
+        "0.9957",
+        "0.9941",
+        "0.9745",
+        "0.9771",
+        "0.9",
+        "0.9759",
+        "0.9847",
+        "1"
+       ],
+       [
+        "Mnist",
+        "0.7815",
+        "0.8009",
+        "0.7205",
+        "0.5742",
+        "0.8159",
+        "0.8481",
+        "0.7161",
+        "0.8666",
+        "0.8529",
+        "0.8527",
+        "0.9"
+       ],
+       [
+        "Musk",
+        "0.1844",
+        "0.9879",
+        "0.5263",
+        "1",
+        "0.9999",
+        "0.7986",
+        "0.5287",
+        "0.9998",
+        "1",
+        "1",
+        "1"
+       ],
+       [
+        "Optdigits",
+        "0.4667",
+        "0.5089",
+        "0.4434",
+        "0.8732",
+        "0.7253",
+        "0.3708",
+        "0.45",
+        "0.3979",
+        "0.4997",
+        "0.5086",
+        "0.6"
+       ],
+       [
+        "Pendigits",
+        "0.6878",
+        "0.9486",
+        "0.4595",
+        "0.9238",
+        "0.9435",
+        "0.7486",
+        "0.4698",
+        "0.8344",
+        "0.9303",
+        "0.9352",
+        "0.99"
+       ],
+       [
+        "Pima",
+        "0.6794",
+        "0.7348",
+        "0.6235",
+        "0.7",
+        "0.6806",
+        "0.7078",
+        "0.6271",
+        "0.6753",
+        "0.6215",
+        "0.6481",
+        "0.4"
+       ],
+       [
+        "Satellite",
+        "0.5714",
+        "0.6693",
+        "0.5572",
+        "0.7581",
+        "0.7022",
+        "0.6836",
+        "0.5573",
+        "0.803",
+        "0.6622",
+        "0.5988",
+        "0.7"
+       ],
+       [
+        "Satimage-2",
+        "0.819",
+        "0.9917",
+        "0.457",
+        "0.9804",
+        "0.9947",
+        "0.9536",
+        "0.4577",
+        "0.9959",
+        "0.9978",
+        "0.9822",
+        "0.94"
+       ],
+       [
+        "Shuttle",
+        "0.6234",
+        "0.6272",
+        "0.4724",
+        "0.9855",
+        "0.9971",
+        "0.6537",
+        "0.5264",
+        "0.9903",
+        "0.9917",
+        "0.9898",
+        "0.94"
+       ],
+       [
+        "Vertebral",
+        "0.4262",
+        "0.3486",
+        "0.4166",
+        "0.3263",
+        "0.3905",
+        "0.3817",
+        "0.4081",
+        "0.3906",
+        "0.4431",
+        "0.4027",
+        "0.5"
+       ],
+       [
+        "Vowels",
+        "0.9606",
+        "0.5856",
+        "0.9425",
+        "0.6727",
+        "0.7585",
+        "0.968",
+        "0.941",
+        "0.8076",
+        "0.7802",
+        "0.6027",
+        "0.8"
+       ],
+       [
+        "Wbc",
+        "0.9047",
+        "0.9227",
+        "0.9325",
+        "0.9516",
+        "0.931",
+        "0.9366",
+        "0.9349",
+        "0.921",
+        "0.9319",
+        "0.9159",
+        "1"
+       ],
+       [
+        "Average",
+        "0.7030",
+        "0.7635",
+        "0.6766",
+        "0.7818",
+        "0.8178",
+        "0.7758",
+        "0.6791",
+        "0.8075",
+        "0.7934",
+        "0.7736",
+        "0.77"
+       ]
+      ]
+     }
+    ],
+    "value": "0.7688",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Negative Selection Algorithm Research and Applications in the Last Decade: A Review",
+  "evidence": {
+   "observed_at": "2026-10-16T19:15:14Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Negative Selection Algorithm Research and Applications in the Last Decade: A Review\" (IEEE Transactions on Artificial Intelligence, 2021; DOI 10.1109/tai.2021.3114661), what value does the table \"NSA results compared with other OCC methods for different datasets. Here NSA experiments were conducted after ...\" report for \"Arrhythmia\" in the column \"ABOD\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/9546626/"
+ },
+ {
+  "id": "R-F2-15",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm reproducing a baseline from \"UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction\" (IEEE Transactions on Visualization and Computer Graphics, 2025; DOI 10.1109/tvcg.2025.3602735) and need the number exactly as the published version reports it: https://ieeexplore.ieee.org/document/11141505/\nIn the table whose caption begins \"The list of HD datasets used in the quantitative experiments ( Section IV ) and their traits. For detailed\", what value is reported for \"Blood Transfusion Service Center [ 48 ] / Table\" in the column \"Size\"? Please tell me where you found it.",
+  "answer": {
+   "value": "748",
+   "unit": "",
+   "field": "Blood Transfusion Service Center [ 48 ] / Table / Size"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-15-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/11141505/",
+    "status": 202,
+    "title": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-15-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tvcg.2025.3602735",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/11141505/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/11141505/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-15-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2508.16227",
+    "status": 200,
+    "title": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction",
+    "version_label": "arXiv preprint 2508.16227 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction\narXiv:2508.16227 [preprint]\nTable I: The list of HD datasets used in the quantitative experiments ( Section IV ) and their traits. For detailed explanations about the traits, please refer to Espadoto et al. [ 35 ] .",
+    "tables": [
+     {
+      "caption": "Table I: The list of HD datasets used in the quantitative experiments ( Section IV ) and their traits. For detailed explanations about the traits, please refer to Espadoto et al. [ 35 ] .",
+      "header": [
+       "Dataset",
+       "Type",
+       "Size",
+       "Size class",
+       "Dim.",
+       "Dim. Class",
+       "Int. Dim.",
+       "Int. Dim. Class",
+       "Sparsity",
+       "Sparsity Class"
+      ],
+      "rows": [
+       [
+        "Blood Transfusion Service Center [ 48 ]",
+        "Table",
+        "748",
+        "small",
+        "4",
+        "low",
+        "0.2500",
+        "medium",
+        "0.0017",
+        "dense"
+       ],
+       [
+        "Asteroseismology [ 49 ]",
+        "Table",
+        "1001",
+        "medium",
+        "3",
+        "low",
+        "0.3333",
+        "medium",
+        "0.0000",
+        "dense"
+       ],
+       [
+        "CNAE-9 [ 50 ]",
+        "Text",
+        "1080",
+        "medium",
+        "856",
+        "high",
+        "0.3960",
+        "medium",
+        "0.9922",
+        "sparse"
+       ],
+       [
+        "Coil-20 [ 51 ]",
+        "Image",
+        "1440",
+        "medium",
+        "400",
+        "medium",
+        "0.2675",
+        "medium",
+        "0.3691",
+        "medium"
+       ],
+       [
+        "Epileptic Seizure Recognition [ 52 ]",
+        "Table",
+        "5750",
+        "large",
+        "178",
+        "medium",
+        "0.0291",
+        "medium",
+        "0.0002",
+        "dense"
+       ],
+       [
+        "Flickr Material Database [ 53 ]",
+        "Image",
+        "997",
+        "small",
+        "1536",
+        "high",
+        "0.3066",
+        "medium",
+        "0.0010",
+        "dense"
+       ],
+       [
+        "Hate Speech [ 54 ]",
+        "Text",
+        "3221",
+        "large",
+        "100",
+        "medium",
+        "0.8600",
+        "high",
+        "0.9701",
+        "sparse"
+       ],
+       [
+        "IMDB [ 55 ]",
+        "Text",
+        "3250",
+        "large",
+        "700",
+        "high",
+        "0.8171",
+        "high",
+        "0.9417",
+        "sparse"
+       ],
+       [
+        "Ionosphere [ 50 ]",
+        "Table",
+        "351",
+        "small",
+        "34",
+        "low",
+        "0.7058",
+        "high",
+        "0.1191",
+        "dense"
+       ],
+       [
+        "MNIST64 [ 7 ]",
+        "Image",
+        "1082",
+        "medium",
+        "64",
+        "low",
+        "0.4218",
+        "medium",
+        "0.4935",
+        "medium"
+       ],
+       [
+        "Optical Recognition [ 50 ]",
+        "Image",
+        "3823",
+        "large",
+        "64",
+        "low",
+        "0.4531",
+        "medium",
+        "0.4880",
+        "medium"
+       ],
+       [
+        "Paris Housing [ 56 ]",
+        "Table",
+        "10000",
+        "large",
+        "17",
+        "low",
+        "0.0588",
+        "low",
+        "0.1520",
+        "dense"
+       ],
+       [
+        "Predicting Pulsar Star [ 56 ]",
+        "Table",
+        "9273",
+        "large",
+        "8",
+        "low",
+        "0.2500",
+        "medium",
+        "0.0000",
+        "dense"
+       ],
+       [
+        "Raisin [ 57 ]",
+        "Table",
+        "900",
+        "small",
+        "7",
+        "low",
+        "0.1429",
+        "medium",
+        "0.0000",
+        "dense"
+       ],
+       [
+        "Rice Seed (Gonen Jasmine) [ 56 ]",
+        "Table",
+        "18185",
+        "large",
+        "10",
+        "low",
+        "0.1000",
+        "low",
+        "0.0000",
+        "dense"
+       ],
+       [
+        "Seismic Bumps [ 58 ]",
+        "Table",
+        "646",
+        "small",
+        "24",
+        "low",
+        "0.2917",
+        "medium",
+        "0.5827",
+        "medium"
+       ],
+       [
+        "Sentiment Labeled Sentences [ 59 ]",
+        "Text",
+        "2748",
+        "medium",
+        "200",
+        "medium",
+        "0.8800",
+        "high",
+        "0.9887",
+        "sparse"
+       ],
+       [
+        "SMS Spam Collection [ 60 ]",
+        "Text",
+        "835",
+        "small",
+        "500",
+        "high",
+        "0.6700",
+        "high",
+        "0.9914",
+        "sparse"
+       ],
+       [
+        "Weather [ 61 ]",
+        "Table",
+        "365",
+        "small",
+        "192",
+        "medium",
+        "0.06250",
+        "low",
+        "0.0033",
+        "dense"
+       ],
+       [
+        "Website Phishing [ 62 ]",
+        "Table",
+        "1353",
+        "medium",
+        "9",
+        "low",
+        "0.8888",
+        "high",
+        "0.3199",
+        "medium"
+       ],
+       [
+        "(1) Type : The category to which a dataset belongs ( Table , Text , or Image )"
+       ],
+       [
+        "(2) Size : Number of data points (i.e., samples) in a dataset ( small : N ≤ 1000"
+       ],
+       [
+        "(3) Dim. (Dimensionality): Number of dimensions of a dataset ( small : D < 100 D<100 , medium : 100 ≤ D < 500"
+       ],
+       [
+        "(4) Int. Dim. (Intrinsic Dim.): The percentage of principal components needed to explain 95% of the data variance"
+       ],
+       [
+        "( low : D I ≤ 0.1"
+       ],
+       [
+        "(5) Sparsity : The ratio of non-zero values in a dataset ( dense : S ≤ 0.2"
+       ]
+      ]
+     }
+    ],
+    "value": "748",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction",
+  "evidence": {
+   "observed_at": "2026-10-16T19:15:17Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"UMATO: Bridging Local and Global Structures for Reliable Visual Analytics With Dimensionality Reduction\" (IEEE Transactions on Visualization and Computer Graphics, 2025; DOI 10.1109/tvcg.2025.3602735), what value does the table \"The list of HD datasets used in the quantitative experiments ( Section IV ) and their traits. For detailed ...\" report for \"Blood Transfusion Service Center [ 48 ] / Table\" in the column \"Size\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/11141505/"
+ },
+ {
+  "id": "R-F2-16",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "My reading group is discussing \"An Intelligent Resource Reservation for Crowdsourced Live Video Streaming Applications in Geo-Distributed Cloud Environment\" (IEEE Systems Journal, 2021; DOI 10.1109/jsyst.2021.3077707), and I want to quote a result from the published version: https://ieeexplore.ieee.org/document/9445222/\nIn the table \"Simulation parameters\", what value is reported for \"Minibatch\" in the column \"Simulation Parameters\"? Please tell me where you found it.",
+  "answer": {
+   "value": "32",
+   "unit": "",
+   "field": "Minibatch / Simulation Parameters"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-16-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/9445222/",
+    "status": 202,
+    "title": "An Intelligent Resource Reservation for Crowdsourced Live Video Streaming Applications in Geo-Distributed Cloud Environment",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-16-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/jsyst.2021.3077707",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9445222/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9445222/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-16-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2106.02420",
+    "status": 200,
+    "title": "An Intelligent Resource Reservation for Crowdsourced Live Video Streaming Applications in Geo-Distributed Cloud Environment",
+    "version_label": "arXiv preprint 2106.02420 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "An Intelligent Resource Reservation for Crowdsourced Live Video Streaming Applications in Geo-Distributed Cloud Environment\narXiv:2106.02420 [preprint]\nTABLE II: Simulation parameters.",
+    "tables": [
+     {
+      "caption": "TABLE II: Simulation parameters.",
+      "header": [
+       "Variable",
+       "Simulation Parameters"
+      ],
+      "rows": [
+       [
+        "Resource allocation optimizater/GNCA"
+       ],
+       [
+        "Video size for quality 240P",
+        "κ ⁡ ( q 1 )"
+       ],
+       [
+        "Video size for quality 360p",
+        "κ ⁡ ( q 2 )"
+       ],
+       [
+        "Video size for quality 480p",
+        "κ ⁡ ( q 3 )"
+       ],
+       [
+        "Video size for quality 720p",
+        "κ ⁡ ( q 4 )"
+       ],
+       [
+        "The computational cloud"
+       ],
+       [
+        "instances prices"
+       ],
+       [
+        "ζ"
+       ],
+       [
+        "ω"
+       ],
+       [
+        "η"
+       ],
+       [
+        "Amazon EC2 c5.large prices [ 9 ]"
+       ],
+       [
+        "Delay threshold",
+        "𝔻"
+       ],
+       [
+        "GNCA"
+       ],
+       [
+        "Percentage of dissatisfied viewers"
+       ],
+       [
+        "Reserved cloud instances"
+       ],
+       [
+        "prices"
+       ],
+       [
+        "μ"
+       ],
+       [
+        "Amazon EC2 c5.large prices [ 9 ]"
+       ],
+       [
+        "Forecasting models"
+       ],
+       [
+        "Neural models layers/neurons",
+        "One"
+       ],
+       [
+        "Activation function",
+        "Rectified Linear Units (ReLU)"
+       ],
+       [
+        "Optimization function",
+        "Adagrad"
+       ],
+       [
+        "Dropout",
+        "0.4"
+       ],
+       [
+        "Minibatch",
+        "32"
+       ],
+       [
+        "XGboost number of estimators",
+        "1000"
+       ]
+      ]
+     }
+    ],
+    "value": "32",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "An Intelligent Resource Reservation for Crowdsourced Live Video Streaming Applications in Geo-Distributed Cloud Environment",
+  "evidence": {
+   "observed_at": "2026-10-16T19:20:54Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"An Intelligent Resource Reservation for Crowdsourced Live Video Streaming Applications in Geo-Distributed Cloud Environment\" (IEEE Systems Journal, 2021; DOI 10.1109/jsyst.2021.3077707), what value does the table \"Simulation parameters.\" report for \"Minibatch\" in the column \"Simulation Parameters\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/9445222/"
+ },
+ {
+  "id": "R-F2-17",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"Representation-Free Model Predictive Control for Dynamic Motions in Quadrupeds\" (IEEE Transactions on Robotics, 2021; DOI 10.1109/tro.2020.3046415) in a paper and need one number from it. The publisher's page is https://ieeexplore.ieee.org/document/9321699/\nIn the table \"System Parameters of the Robot\", what value is reported for \"Link length\" in the column \"Value\"? Please tell me where you found it.",
+  "answer": {
+   "value": "0.14",
+   "unit": "",
+   "field": "Link length / Value"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-17-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/9321699/",
+    "status": 202,
+    "title": "Representation-Free Model Predictive Control for Dynamic Motions in Quadrupeds",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-17-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tro.2020.3046415",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/9321699/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/9321699/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-17-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2012.10002",
+    "status": 200,
+    "title": "Representation-Free Model Predictive Control for Dynamic Motions in Quadrupeds",
+    "version_label": "arXiv preprint 2012.10002 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Representation-Free Model Predictive Control for Dynamic Motions in Quadrupeds\narXiv:2012.10002 [preprint]\nTABLE I : System Parameters of the Robot",
+    "tables": [
+     {
+      "caption": "TABLE I : System Parameters of the Robot",
+      "header": [
+       "Parameter",
+       "Value",
+       "Unit"
+      ],
+      "rows": [
+       [
+        "M",
+        "5.5",
+        "kg"
+       ],
+       [
+        "I x  x",
+        "0.026",
+        "kg ⋅"
+       ],
+       [
+        "I y  y",
+        "0.112",
+        "kg ⋅"
+       ],
+       [
+        "I z  z",
+        "0.075",
+        "kg ⋅"
+       ],
+       [
+        "Body length",
+        "0.3",
+        "m"
+       ],
+       [
+        "Body width",
+        "0.2",
+        "m"
+       ],
+       [
+        "Link length",
+        "0.14",
+        "m"
+       ]
+      ]
+     }
+    ],
+    "value": "0.14",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Representation-Free Model Predictive Control for Dynamic Motions in Quadrupeds",
+  "evidence": {
+   "observed_at": "2026-10-16T19:20:56Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Representation-Free Model Predictive Control for Dynamic Motions in Quadrupeds\" (IEEE Transactions on Robotics, 2021; DOI 10.1109/tro.2020.3046415), what value does the table \"System Parameters of the Robot\" report for \"Link length\" in the column \"Value\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/9321699/"
+ },
+ {
+  "id": "R-F2-18",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"Spatial-Temporal Cross-View Contrastive Pre-Training for Check-in Sequence Representation Learning\" (IEEE Transactions on Knowledge and Data Engineering, 2024; DOI 10.1109/tkde.2024.3434565) in a paper and need one number from it. The publisher's page is https://ieeexplore.ieee.org/document/10613424/\nIn the table \"Statistics of datasets\", what value is reported for \"#users\" in the column \"Gowalla-NYC\"? Please tell me where you found it.",
+  "answer": {
+   "value": "2,333",
+   "unit": "",
+   "field": "#users / Gowalla-NYC"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-18-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/10613424/",
+    "status": 202,
+    "title": "Spatial-Temporal Cross-View Contrastive Pre-Training for Check-in Sequence Representation Learning",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-18-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/tkde.2024.3434565",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/10613424/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/10613424/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-18-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2407.15899",
+    "status": 200,
+    "title": "Spatial-Temporal Cross-View Contrastive Pre-Training for Check-in Sequence Representation Learning",
+    "version_label": "arXiv preprint 2407.15899 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Spatial-Temporal Cross-View Contrastive Pre-Training for Check-in Sequence Representation Learning\narXiv:2407.15899 [preprint]\nTABLE I: Statistics of datasets",
+    "tables": [
+     {
+      "caption": "TABLE I: Statistics of datasets",
+      "header": [
+       "",
+       "Gowalla-NYC",
+       "Gowalla-TKY",
+       "WeePlace"
+      ],
+      "rows": [
+       [
+        "#users",
+        "2,333",
+        "3,583",
+        "1,028"
+       ],
+       [
+        "#locations",
+        "7,690",
+        "46,278",
+        "9,295"
+       ],
+       [
+        "#check-ins",
+        "74,022",
+        "128,916",
+        "104,762"
+       ]
+      ]
+     }
+    ],
+    "value": "2,333",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Spatial-Temporal Cross-View Contrastive Pre-Training for Check-in Sequence Representation Learning",
+  "evidence": {
+   "observed_at": "2026-10-16T19:20:59Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Spatial-Temporal Cross-View Contrastive Pre-Training for Check-in Sequence Representation Learning\" (IEEE Transactions on Knowledge and Data Engineering, 2024; DOI 10.1109/tkde.2024.3434565), what value does the table \"Statistics of datasets\" report for \"#users\" in the column \"Gowalla-NYC\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/10613424/"
+ },
+ {
+  "id": "R-F2-19",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline\" (IEEE Geoscience and Remote Sensing Letters, 2025; DOI 10.1109/lgrs.2025.3592711) in a paper and need one number from it. The publisher's page is https://ieeexplore.ieee.org/document/11096561/\nIn the table \"Overview of VSMB Statistics\", what value is reported for \"Car\" in the column \"Instance\"? Please tell me where you found it.",
+  "answer": {
+   "value": "19986",
+   "unit": "",
+   "field": "Car / Instance"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-19-canon",
+    "role": "canonical",
+    "url": "https://ieeexplore.ieee.org/document/11096561/",
+    "status": 202,
+    "title": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline",
+    "text": "",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-19-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1109/lgrs.2025.3592711",
+    "status": 302,
+    "headers": {
+     "Location": "https://ieeexplore.ieee.org/document/11096561/"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://ieeexplore.ieee.org/document/11096561/",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-19-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2506.12105",
+    "status": 200,
+    "title": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline",
+    "version_label": "arXiv preprint 2506.12105 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline\narXiv:2506.12105 [preprint]\nTABLE II: Overview of VSMB Statistics",
+    "tables": [
+     {
+      "caption": "TABLE II: Overview of VSMB Statistics",
+      "header": [
+       "Category",
+       "Instance",
+       "Total",
+       "Small",
+       "Medium",
+       "Large"
+      ],
+      "rows": [
+       [
+        "Trajector",
+        "( < 16 2 )",
+        "( < 32 2 )",
+        "( < 64 2 )"
+       ],
+       [
+        "Car",
+        "19986",
+        "306",
+        "8.67%",
+        "35.09%",
+        "99.24%"
+       ],
+       [
+        "Ship",
+        "4362",
+        "41",
+        "0.05%",
+        "30.67%",
+        "64.92%"
+       ],
+       [
+        "Airplane",
+        "1118",
+        "8",
+        "0.09%",
+        "0.54%",
+        "23.08%"
+       ],
+       [
+        "Total",
+        "25466",
+        "355",
+        "6.81%",
+        "32.82%",
+        "90.02%"
+       ]
+      ]
+     }
+    ],
+    "value": "19986",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline",
+  "evidence": {
+   "observed_at": "2026-10-16T19:21:01Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 202,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Multiple Object Tracking in Video SAR: A Benchmark and Tracking Baseline\" (IEEE Geoscience and Remote Sensing Letters, 2025; DOI 10.1109/lgrs.2025.3592711), what value does the table \"Overview of VSMB Statistics\" report for \"Car\" in the column \"Instance\"? Cite the source you used.",
+  "user_link": "https://ieeexplore.ieee.org/document/11096561/"
+ },
+ {
+  "id": "R-F2-20",
+  "family": "F2",
+  "world": "W1v",
+  "domain": "academic",
+  "task_type": "IR",
+  "goal": "I'm citing the published version of \"Symmetric perception and ordinal regression for detecting scoliosis natural image\" (Applied Intelligence, 2025; DOI 10.1007/s10489-024-05849-5) in a paper and need one number from it. The publisher's page is https://doi.org/10.1007/s10489-024-05849-5\nIn the table whose caption begins \"The number of samples for different general scoliosis severity levels [ 57 , 56 , 2 ] in our constructed\", what value is reported for \"Total\" in the column \"Samples\"? Please tell me where you found it.",
+  "answer": {
+   "value": "1898",
+   "unit": "",
+   "field": "Total / Samples"
+  },
+  "barrier": {
+   "rule": "vor_paywalled",
+   "signal": "explicit",
+   "params": {}
+  },
+  "pages": [
+   {
+    "id": "R-F2-20-canon",
+    "role": "canonical",
+    "url": "https://link.springer.com/article/10.1007/s10489-024-05849-5?error=cookies_not_supported&code=a2107486-0106-47e6-9914-79ad28110fb1",
+    "status": 200,
+    "title": "Symmetric perception and ordinal regression for detecting scoliosis natural image",
+    "text": "Symmetric perception and ordinal regression for detecting scoliosis natural image | Applied Intelligence | Springer Nature Link \n Skip to main content \nAdvertisement \n Log in \n Menu \n Find a journal\n Publish with us\n Track your research",
+    "indexed": true
+   },
+   {
+    "id": "R-F2-20-doi",
+    "role": "context",
+    "url": "https://doi.org/10.1007/s10489-024-05849-5",
+    "status": 302,
+    "headers": {
+     "Location": "https://link.springer.com/article/10.1007/s10489-024-05849-5?error=cookies_not_supported&code=a2107486-0106-47e6-9914-79ad28110fb1"
+    },
+    "title": "Redirect",
+    "text": "Redirecting to https://link.springer.com/article/10.1007/s10489-024-05849-5?error=cookies_not_supported&code=a2107486-0106-47e6-9914-79ad28110fb1",
+    "indexed": false
+   },
+   {
+    "id": "R-F2-20-var0",
+    "role": "variant",
+    "url": "https://arxiv.org/html/2411.15799",
+    "status": 200,
+    "title": "Symmetric perception and ordinal regression for detecting scoliosis natural image",
+    "version_label": "arXiv preprint 2411.15799 (submitted version)",
+    "cue": "arXiv preprint (author's submitted version); the published version may differ.",
+    "delta": {
+     "value": {
+      "differs": null,
+      "observable": false
+     }
+    },
+    "text": "Symmetric perception and ordinal regression for detecting scoliosis natural image\narXiv:2411.15799 [preprint]\nTable 1: The number of samples for different general scoliosis severity levels [ 57 , 56 , 2 ] in our constructed dataset USTC&SYSU-Scoliosis. The average Cobb angle is calculated over all samples of the corresponding level. A five-fold cross-validation is adopted for evaluation, in which the number",
+    "tables": [
+     {
+      "caption": "Table 1: The number of samples for different general scoliosis severity levels [ 57 , 56 , 2 ] in our constructed dataset USTC&SYSU-Scoliosis. The average Cobb angle is calculated over all samples of ",
+      "header": [
+       "Severity Level",
+       "Samples",
+       "Average Cobb Angle"
+      ],
+      "rows": [
+       [
+        "Normal (0-10°)",
+        "453",
+        "6.48°"
+       ],
+       [
+        "Minor (11-20°)",
+        "571",
+        "17.91°"
+       ],
+       [
+        "Moderate (21-45°)",
+        "504",
+        "27.13°"
+       ],
+       [
+        "Severe ( > > 45°)",
+        "370",
+        "75.71°"
+       ],
+       [
+        "Total",
+        "1898",
+        "28.88°"
+       ],
+       [
+        "Fold1",
+        "385",
+        "29.63°"
+       ],
+       [
+        "Fold2",
+        "378",
+        "27.18°"
+       ],
+       [
+        "Fold3",
+        "377",
+        "28.84°"
+       ],
+       [
+        "Fold4",
+        "378",
+        "28.80°"
+       ],
+       [
+        "Fold5",
+        "380",
+        "30.00°"
+       ]
+      ]
+     }
+    ],
+    "value": "1898",
+    "indexed": true
+   }
+  ],
+  "oracle_query": "Symmetric perception and ordinal regression for detecting scoliosis natural image",
+  "evidence": {
+   "observed_at": "2026-10-16T19:21:14Z",
+   "vantage": "Ubuntu VM on the authors' machine, through a commercial proxy exit; declared user agent 'AgentHeal-DataCollector/1.0'",
+   "publisher_response": {
+    "status": 200,
+    "paywall_markers": []
+   },
+   "oa_status": "OpenAlex: green; best open location is the arXiv submitted version"
+  },
+  "goal_v0": "In the published version of \"Symmetric perception and ordinal regression for detecting scoliosis natural image\" (Applied Intelligence, 2025; DOI 10.1007/s10489-024-05849-5), what value does the table \"The number of samples for different general scoliosis severity levels [ 57 , 56 , 2 ] in our constructed ...\" report for \"Total\" in the column \"Samples\"? Cite the source you used.",
+  "user_link": "https://doi.org/10.1007/s10489-024-05849-5"
+ }
+]
